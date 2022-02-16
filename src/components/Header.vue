@@ -8,10 +8,7 @@ import HeaderLogo from './HeaderLogo.vue'
 			<div class="flex items-center justify-between">
 				<HeaderLogo />
 				<div class="text-sm pt-8">
-					<router-link
-						to="/onboarding"
-						class="font-normal text-indigo-600 hover:text-indigo-500"
-					>Onboarding</router-link>
+					<router-link to="/onboarding" class="font-normal text-indigo-600">Onboarding</router-link>
 				</div>
 			</div>
 		</nav>
