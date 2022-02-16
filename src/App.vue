@@ -1,6 +1,6 @@
 <script setup>
-import Launch from './components/Launch.vue'
-import LoginIn from './components/Login.vue'
+import Launch from './pages/Launch.vue'
+import LoginIn from './pages/Login.vue'
 </script>
 
 <template>
@@ -9,7 +9,7 @@ import LoginIn from './components/Login.vue'
 	</header>
 
 	<main>
-		<div :class="hideLaunchPage ? 'hidden' : 'h-screen'" style="background-color: #BFFCD9;">
+		<div :class="hideLaunchPage ? 'hidden' : 'h-screen bg-green-200'">
 			<Launch />
 		</div>
 		<div :class="hideLoginPage ? 'hidden' : 'flex justify-center'">
@@ -35,10 +35,3 @@ export default {
 	}
 }
 </script>
-
-
-<style>
-#app {
-	margin: 0 auto;
-}
-</style>
