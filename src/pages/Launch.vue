@@ -1,7 +1,7 @@
 <template>
-	<div class="flex flex-col justify-center h-screen">
+	<div class="flex flex-col justify-center h-screen bg-green-200">
 		<div class="flex justify-center">
-			<img alt="Nanny Nina alternate logo" class="inline mr-2 h-8 w-8" src="../assets/svg/logo/alternate-logo.svg" />
+			<img alt="Nanny Nina alternate logo" class="inline mr-1 h-8 w-8" src="../assets/svg/logo/alternate-logo.svg" />
 			<img alt="Nanny Nina alternate logo" class="inline h-8 w-8" src="../assets/svg/logo/alternate-logo.svg" />
 		</div>
 		<div class="flex justify-center">
