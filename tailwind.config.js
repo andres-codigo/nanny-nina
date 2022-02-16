@@ -7,7 +7,9 @@ module.exports = {
 	theme: {
 		extend: {},
 	},
-	plugins: [],
+	plugins: [
+		require('@tailwindcss/forms'),
+	],
 	content: ['./public/**/*.html', './src/**/*.vue'],
 	options: {
 		whitelistPatterns: [
