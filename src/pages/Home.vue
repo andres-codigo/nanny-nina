@@ -4,6 +4,6 @@ import LoginIn from './Login.vue'
 </script>
 
 <template>
-	<Header :class="hideLoginPage ? 'hidden' : ''" />
-	<LoginIn :class="hideLoginPage ? 'hidden' : ''" />
+	<Header />
+	<LoginIn />
 </template>
