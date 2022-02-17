@@ -51,7 +51,7 @@ import Google from '../assets/svg/other/google.vue'
 				<div class="mt-6 grid grid-cols-1">
 					<div>
 						<a href="#" class="w-full inline-flex justify-center py-4 px-4 border border-gray-300 rounded-full shadow-sm bg-white text-sm font-medium text-gray-500">
-							<Google />
+							<Google class="w-5 h-5" />
 							<span class="pl-2 font-medium text-gray-900">Sign in with Google</span>
 						</a>
 					</div>
