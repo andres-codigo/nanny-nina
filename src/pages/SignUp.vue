@@ -16,7 +16,7 @@ import LinkCard from '../components/LinkCard.vue'
 			<LinkCard to="home" class="text-white bg-indigo-600 focus:ring-indigo-500" title="Join for Care jobs" />
 			<div class="flex items-center justify-center">
 				<div class="text-sm">
-					<router-link to="/sign-up" class="mr-2 font-normal text-indigo-600">Already have an account?</router-link>
+					<router-link to="/account-verification" class="mr-2 font-normal text-indigo-600">Already have an account?</router-link>
 					<button type="button" class="inline-flex items-center px-4 py-1 border border-black font-medium rounded-full text-black bg-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Sign in</button>
 				</div>
 			</div>
