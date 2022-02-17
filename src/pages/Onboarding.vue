@@ -1,12 +1,11 @@
 <script setup>
 import OnboardingOne from '../assets/svg/onboarding/onboarding-1.vue'
-import Close from '../assets/svg/other/close.vue'
 </script>
 
 <template>
 	<header>
 		<div class="h-16 pt-4 pr-2 bg-green-100">
-			<router-link to="/home" class="float-right"><Close /></router-link>
+			<router-link to="/home" class="float-right"><XIcon class="w-8 h-8" aria-hidden="true" /></router-link>
 		</div>
 	</header>
 	<main>
@@ -40,3 +39,13 @@ import Close from '../assets/svg/other/close.vue'
 		</div>
 	</main>
 </template>
+
+<script>
+import { XIcon } from '@heroicons/vue/solid'
+
+export default {
+  components: {
+	XIcon
+  },
+}
+</script>
