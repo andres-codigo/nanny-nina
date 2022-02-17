@@ -23,7 +23,7 @@ import Google from '../assets/svg/other/google.vue'
 
 				<div class="mt-14">
 					<div class="flex items-center justify-center">
-						<div class="text-sm">Don't have an account?<a href="#" class="font-normal text-indigo-600"> Create one</a></div>
+						<div class="text-sm">Don't have an account?<router-link to="/sign-up" class="font-normal text-indigo-600"> Create one</router-link></div>
 					</div>
 
 					<div class="my-6">

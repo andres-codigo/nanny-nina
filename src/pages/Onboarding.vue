@@ -6,7 +6,7 @@ import Close from '../assets/svg/other/close.vue'
 <template>
 	<header>
 		<div class="h-16 pt-4 pr-2 bg-green-100">
-			<router-link to="/" class="float-right"><Close /></router-link>
+			<router-link to="/home" class="float-right"><Close /></router-link>
 		</div>
 	</header>
 	<main>
