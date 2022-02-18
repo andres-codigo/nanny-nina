@@ -1,3 +1,8 @@
 {
-	"rewrites": [{ "source": "/home", "destination": "/index.html" }]
+	"rewrites": [
+		{ "source": "/(.*)", "destination": "/index.html" },
+		{ "source": "/onboarding", "destination": "/index.html" },
+		{ "source": "/sign-up", "destination": "/index.html" },
+		{ "source": "/account-verification", "destination": "/index.html" }
+	]
 }
