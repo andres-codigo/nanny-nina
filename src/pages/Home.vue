@@ -4,6 +4,8 @@ import LoginIn from './Login.vue'
 </script>
 
 <template>
-	<Header />
-	<LoginIn />
+	<div>
+		<Header />
+		<LoginIn />
+	</div>
 </template>

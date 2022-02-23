@@ -13,14 +13,15 @@ const routes = [
 		component: Launch
 	},
 	{
-		path: '/Home',
+		path: '/home',
 		name: 'Home',
-		component: Home
+		component: Home,
+		meta: { transition: 'slide-fade' }
 	},
 	{
 		path: '/onboarding',
 		name: 'OnBoarding',
-		component: OnBoarding
+		component: OnBoarding,
 	},
 	{
 		path: '/sign-up',
