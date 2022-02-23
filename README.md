@@ -15,5 +15,5 @@ npm run dev
 ### Tailwind CSS watch and output CSS file creation
 
 ```sh
- npx tailwindcss -i ./src/assets/input.css -o ./output.css --watch
+ npx tailwindcss -i ./src/assets/css/input.css -o ./output.css --watch
  ```
