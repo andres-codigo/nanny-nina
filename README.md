@@ -6,14 +6,8 @@
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compile App, including Tailwind CSS watch, and Hot-Reload for Development
 
 ```sh
 npm run dev
 ```
-
-### Tailwind CSS watch and output CSS file creation
-
-```sh
- npx tailwindcss -i ./src/assets/css/input.css -o ./output.css --watch
- ```
