@@ -4,7 +4,7 @@ import LoginIn from './Login.vue'
 </script>
 
 <template>
-	<div>
+	<div class="w-screen h-screen">
 		<Header />
 		<LoginIn />
 	</div>

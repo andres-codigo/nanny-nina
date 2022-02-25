@@ -3,7 +3,7 @@ import OnboardingOne from '../assets/svg/onboarding/onboarding-1.vue'
 </script>
 
 <template>
-	<div class="bg-green-100">
+	<div class="bg-green-100 w-screen h-screen">
 		<header>
 			<div class="h-16 pt-4 pr-2">
 				<router-link to="/home" class="float-right"><XIcon class="w-8 h-8" aria-hidden="true" /></router-link>
@@ -12,7 +12,7 @@ import OnboardingOne from '../assets/svg/onboarding/onboarding-1.vue'
 		<main>
 			<!-- Temporary DOM as need to discuss carousel -->
 			<div class="flex flex-col justify-center">
-				<div class="h-screen">
+				<div class="min-h-full ">
 					<div class="mx-6 mb-16">
 						<OnboardingOne />
 					</div>

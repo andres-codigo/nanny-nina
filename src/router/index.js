@@ -16,22 +16,41 @@ const routes = [
 		path: '/home',
 		name: 'Home',
 		component: Home,
-		meta: { transition: 'slide-fade' }
+		meta: { transition: 'fade' },
+		beforeEnter: (to, from, next) => {
+			if (from.path !== '/') {
+				to.meta.transition = 'slide-left-to-right'
+				next()
+			} else {
+				next()
+			}
+		}
 	},
 	{
 		path: '/onboarding',
 		name: 'OnBoarding',
 		component: OnBoarding,
+		meta: { transition: 'slide-right-to-left' }
 	},
 	{
 		path: '/sign-up',
 		name: 'SignUp',
-		component: SignUp
+		component: SignUp,
+		meta: { transition: 'slide-right-to-left' },
+		beforeEnter: (to, from, next) => {
+			if (from.path === '/account-verification') {
+				to.meta.transition = 'slide-left-to-right'
+				next()
+			} else {
+				next()
+			}
+		}
 	},
 	{
 		path: '/account-verification',
 		name: 'AccountVerification',
-		component: AccountVerification
+		component: AccountVerification,
+		meta: { transition: 'slide-right-to-left' }
 	}
 ]
 const router = createRouter({
