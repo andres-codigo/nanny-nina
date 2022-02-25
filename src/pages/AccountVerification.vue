@@ -3,14 +3,14 @@ import Mail from '../assets/svg/mail/mail.vue'
 </script>
 
 <template>
-	<div class="bg-indigo-600">
+	<div class="bg-indigo-600 w-screen h-screen">
 		<header>
 			<div class="h-16 pt-4 pr-2">
 				<router-link to="/sign-up" class="float-right"><XIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link>
 			</div>
 		</header>
 		<main>
-			<div class="h-screen flex flex-col justify-center">
+			<div class="min-h-full flex flex-col justify-center">
 				<h2 class="mb-6 text-center text-3xl font-medium text-emerald-200">Check your mail</h2>
 				<div class="flex items-center justify-center mb-16">
 					<Mail class="w-44 h-44" />
