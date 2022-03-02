@@ -8,6 +8,9 @@ module.exports = {
 		extend: {
 			transitionDuration: {
 				'0': '0ms'
+			},
+			minHeight: {
+				'325': '325px',
 			}
 		},
 	},
