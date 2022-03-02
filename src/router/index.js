@@ -2,7 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import Launch from '../pages/Launch.vue'
 import Home from '../pages/Home.vue'
-import OnBoarding from '../pages/Onboarding.vue'
+import Onboarding from '../pages/onboarding/Onboarding.vue'
+import OnboardingTwo from '../pages/onboarding/OnboardingTwo.vue'
 import SignUp from '../pages/SignUp.vue'
 import AccountVerification from '../pages/AccountVerification.vue'
 
@@ -28,8 +29,14 @@ const routes = [
 	},
 	{
 		path: '/onboarding',
-		name: 'OnBoarding',
-		component: OnBoarding,
+		name: 'Onboarding',
+		component: Onboarding,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/onboarding/2',
+		name: 'OnboardingTwo',
+		component: OnboardingTwo,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
