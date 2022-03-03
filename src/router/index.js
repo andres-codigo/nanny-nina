@@ -1,10 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Launch from '../pages/Launch.vue'
-import Home from '../pages/Home.vue'
-import OnboardingContainer from '../pages/onboarding/OnboardingContainer.vue'
-import SignUp from '../pages/SignUp.vue'
-import AccountVerification from '../pages/AccountVerification.vue'
+import Home from '../pages/_home/Home.vue'
+import SignUp from '../pages/registration-and-onboarding/SignUp.vue'
+import VerificationMessage from '../pages/registration-and-onboarding/VerificationMessage.vue'
+import OnboardingContainer from '../pages/registration-and-onboarding/onboarding/OnboardingContainer.vue'
+import Login from '../pages/registration-and-onboarding/Login.vue'
 
 const routes = [
 	{
@@ -27,31 +28,29 @@ const routes = [
 		}
 	},
 	{
+		path: '/sign-up',
+		name: 'SignUp',
+		component: SignUp,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/verification-message',
+		name: 'VerificationMessage',
+		component: VerificationMessage,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/login',
+		name: 'Login',
+		component: Login,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
 		path: '/onboarding',
 		name: 'Onboarding',
 		component: OnboardingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
-	{
-		path: '/sign-up',
-		name: 'SignUp',
-		component: SignUp,
-		meta: { transition: 'slide-right-to-left' },
-		beforeEnter: (to, from, next) => {
-			if (from.path === '/account-verification') {
-				to.meta.transition = 'slide-left-to-right'
-				next()
-			} else {
-				next()
-			}
-		}
-	},
-	{
-		path: '/account-verification',
-		name: 'AccountVerification',
-		component: AccountVerification,
-		meta: { transition: 'slide-right-to-left' }
-	}
 ]
 const router = createRouter({
 	history: createWebHistory(),

@@ -1,12 +1,12 @@
 <script setup>
-import Mail from '../assets/svg/mail/mail.vue'
+import Mail from '../../assets/svg/mail/mail.vue'
 </script>
 
 <template>
 	<div class="bg-indigo-600 w-screen h-screen">
 		<header>
 			<div class="h-16 pt-4 pr-2">
-				<router-link to="/sign-up" class="float-right"><XIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link>
+				<router-link to="/home" class="float-right"><XIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link>
 			</div>
 		</header>
 		<main>
@@ -19,7 +19,7 @@ import Mail from '../assets/svg/mail/mail.vue'
 					<p class="font-light text-white text-sm text-center">We've sent a verification link to your mail, please click this link to verify your account</p>
 				</div>
 				<div class="flex items-center justify-center mx-8">
-					<p class="font-light text-white text-sm text-center">Did not receive any email? Please check your spam or <router-link to="/sign-up" class="font-light text-emerald-200"> try another email address</router-link></p>
+					<p class="font-light text-white text-sm text-center">Did not receive any email? Please check your spam or <span class="font-light text-emerald-200"> try another email address</span></p>
 				</div>
 			</div>
 		</main>
