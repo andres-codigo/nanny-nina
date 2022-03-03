@@ -1,10 +1,10 @@
 <script setup>
-import Image from '../../../components/carousel/Image.vue'
-import Badge from '../../../components/carousel/Badge.vue'
-import Header from '../../../components/carousel/Header.vue'
-import Paragraph from '../../../components/carousel/Paragraph.vue'
-import NavigationDot from '../../../components/carousel/NavigationDot.vue'
-import ButtonIndigo from '../../../components/form/ButtonIndigo.vue'
+import Image from '../../../../components/carousel/Image.vue'
+import Badge from '../../../../components/carousel/Badge.vue'
+import Header from '../../../../components/carousel/Header.vue'
+import Paragraph from '../../../../components/carousel/Paragraph.vue'
+import NavigationDot from '../../../../components/carousel/NavigationDot.vue'
+import ButtonIndigo from '../../../../components/form/ButtonIndigo.vue'
 </script>
 
 <template>
@@ -17,7 +17,7 @@ import ButtonIndigo from '../../../components/form/ButtonIndigo.vue'
 		<main>
 			<div class="flex flex-col justify-center px-4 bg-indigo-200">
 				<div class="flex justify-center min-h-325">
-					<Image src="../../assets/svg/onboarding/onboarding-1.svg" />
+					<Image src="../../../assets/svg/onboarding/onboarding-1.svg" />
 				</div>
 
 				<div class="pt-6">
