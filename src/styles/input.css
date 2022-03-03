@@ -64,3 +64,23 @@
 .slide-left-to-right-leave-from {
 	@apply absolute right-0;
 }
+
+/* Carousel */
+.active {
+	@apply bg-black;
+}
+
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}

@@ -11,7 +11,11 @@
 import { ChevronRightIcon } from '@heroicons/vue/solid'
 
 export default {
-	props: ['to', 'title', 'class'],
+	props: {
+		to: String,
+		title: String,
+		class: String,
+	},
 	components: {
 		ChevronRightIcon,
 	},

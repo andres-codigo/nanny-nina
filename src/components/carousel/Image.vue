@@ -1,13 +1,13 @@
 <template>
-	<div class="onBoarding fade">
-		<img :src="svg">
+	<div class="fade">
+		<img :src="src">
 	</div>
 </template>
 
 <script>
 export default {
-  props: {
-    svg: String
-  }
+	props: {
+		src: String
+	}
 }
 </script>

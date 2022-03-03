@@ -8,9 +8,9 @@
 
 <script>
 export default {
-  props: {
-    backgroundColor: String,
-	backgroundColorHover: String,
-  }
+	props: {
+		backgroundColor: String,
+		backgroundColorHover: String,
+	}
 }
 </script>

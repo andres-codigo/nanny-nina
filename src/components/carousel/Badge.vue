@@ -9,10 +9,10 @@
 
 <script>
 export default {
-  props: {
-    title: String,
-	backgroundColor: String,
-	textColor: String,
-  }
+	props: {
+		title: String,
+		backgroundColor: String,
+		textColor: String,
+	}
 }
 </script>

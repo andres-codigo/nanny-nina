@@ -1,14 +1,14 @@
 <script setup>
-import Image from '../../components/carousel/Image.vue'
-import Badge from '../../components/carousel/Badge.vue'
-import Header from '../../components/carousel/Header.vue'
-import Paragraph from '../../components/carousel/Paragraph.vue'
-import NavigationDot from '../../components/carousel/NavigationDot.vue'
-import Button from '../../components/form/Button.vue'
+import Image from '../../../components/carousel/Image.vue'
+import Badge from '../../../components/carousel/Badge.vue'
+import Header from '../../../components/carousel/Header.vue'
+import Paragraph from '../../../components/carousel/Paragraph.vue'
+import NavigationDot from '../../../components/carousel/NavigationDot.vue'
+import ButtonIndigo from '../../../components/form/ButtonIndigo.vue'
 </script>
 
 <template>
-	<div class="bg-indigo-200 w-screen h-screen">
+	<div class="bg-indigo-200">
 		<header>
 			<div class="h-16 pt-4 px-4">
 				<router-link to="/home" class="float-right"><XIcon class="w-8 h-8" aria-hidden="true" /></router-link>
@@ -17,7 +17,7 @@ import Button from '../../components/form/Button.vue'
 		<main>
 			<div class="flex flex-col justify-center px-4 bg-indigo-200">
 				<div class="flex justify-center min-h-325">
-					<Image svg="../../assets/svg/onboarding/onboarding-2.svg" />
+					<Image src="../../assets/svg/onboarding/onboarding-2.svg" />
 				</div>
 
 				<div class="pt-6">
@@ -36,16 +36,7 @@ import Button from '../../components/form/Button.vue'
 				</div>
 
 				<div class="pt-20 pb-10 px-4">
-					<router-link to="/onboarding/2">
-						<Button
-							text="Next"
-							textColour="text-white"
-							backgroundColor="bg-indigo-600"
-							textColourHover="hover:text-white"
-							backgroundColorHover="hover:bg-indigo-500"
-							backgroundColorFocus="focus:ring-indigo-500"
-						/>
-					</router-link>
+					<ButtonIndigo text="Next" />
 				</div>
 			</div>
 		</main>
@@ -56,11 +47,6 @@ import Button from '../../components/form/Button.vue'
 import { XIcon } from '@heroicons/vue/solid'
 
 export default {
-	data() {
-		return {
-			slideIndex: 0,
-		}
-	},
 	components: {
 		XIcon
 	}
