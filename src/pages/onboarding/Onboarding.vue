@@ -4,7 +4,7 @@ import Badge from '../../components/carousel/Badge.vue'
 import Header from '../../components/carousel/Header.vue'
 import Paragraph from '../../components/carousel/Paragraph.vue'
 import NavigationDot from '../../components/carousel/NavigationDot.vue'
-import Button from '../../components/form/Button.vue'
+import ButtonIndigo from '../../components/form/ButtonIndigo.vue'
 </script>
 
 <template>
@@ -39,14 +39,7 @@ import Button from '../../components/form/Button.vue'
 
 				<div class="pt-20 pb-10 px-4">
 					<router-link to="/onboarding/2">
-						<Button
-							text="Next"
-							textColour="text-white"
-							backgroundColor="bg-indigo-600"
-							textColourHover="hover:text-white"
-							backgroundColorHover="hover:bg-indigo-500"
-							backgroundColorFocus="focus:ring-indigo-500"
-						/>
+						<ButtonIndigo text="Next" />
 					</router-link>
 				</div>
 			</div>

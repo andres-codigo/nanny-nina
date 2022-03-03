@@ -6,8 +6,8 @@
 
 <script>
 export default {
-  props: {
-    svg: String
-  }
+	props: {
+		svg: String
+	}
 }
 </script>

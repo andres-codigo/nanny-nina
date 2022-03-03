@@ -4,8 +4,8 @@
 
 <script>
 export default {
-  props: {
-    content: String
-  }
+	props: {
+		content: String
+	}
 }
 </script>
