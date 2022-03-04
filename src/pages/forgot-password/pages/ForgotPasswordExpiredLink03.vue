@@ -8,20 +8,18 @@ import InputField from '../../../components/form/inputs/InputField.vue'
 </script>
 
 <template>
-	<div class="bg-white h-screen">
+	<div class="bg-white">
 		<Header />
 		<main>
 			<div class="min-h-full flex flex-col justify-center py-12 mx-10 mt-8">
-				<HeaderSizeTwo text="Forgot Password" />
-				<ParagraphForHeader text="Please enter your registered email, you will receive an email with a verification code to reset your password." />
+				<HeaderSizeTwo text="Oops! Link Expired" />
+				<ParagraphForHeader text="Your link has expired because you haven't used it in 24 hours.  You can create another link by clicking the button below." />
 				<form action="#" method="POST">
-					<div class="m-0 h-28">
-						<InputField text="Email Address" />
-					</div>
+					<div class="m-0 h-28">&nbsp;</div>
 
 					<div class="mt-10">
 						<div class="my-6">
-							<ButtonPrimary text="Request Link" />
+							<ButtonPrimary text="Resend Link" />
 						</div>
 
 						<div class="flex items-center justify-center">

@@ -15,9 +15,9 @@ import InputField from '../../../components/form/inputs/InputField.vue'
 				<HeaderSizeTwo text="Forgot Password" />
 				<ParagraphForHeader text="Please enter your registered email, you will receive an email with a verification code to reset your password." />
 				<form action="#" method="POST">
-					<div class="m-0">
+					<div class="m-0 h-28">
 						<label for="email" class="block text-sm font-light text-gray-700 pl-4">Email Address</label>
-						<div class="mt-1 relative rounded-md shadow-sm">
+						<div class="mt-1">
 							<input
 								type="email"
 								name="email"
@@ -27,7 +27,7 @@ import InputField from '../../../components/form/inputs/InputField.vue'
 									px-3 py-2
 									border border-red-300 text-red-900 rounded-full shadow-sm
 									placeholder-red-300
-									focus:outline-none focus:ring-red-500 focus:border-red-500 sm:text-sm"
+									focus:outline-none focus:ring-red-500 focus:border-red-500"
 								placeholder="you@example.com"
 								value="adamwathan"
 								aria-invalid="true"
@@ -37,7 +37,7 @@ import InputField from '../../../components/form/inputs/InputField.vue'
 						<p class="mt-2 text-sm text-red-600 pl-4" id="email-error">The email address you have entered is incorrect</p>
 					</div>
 
-					<div class="mt-14">
+					<div class="mt-10">
 						<div class="my-6">
 							<ButtonPrimary text="Request Link" />
 						</div>
