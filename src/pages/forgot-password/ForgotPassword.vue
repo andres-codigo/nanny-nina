@@ -2,7 +2,7 @@
 import Header from '../../components/header/Header.vue'
 import HeaderSizeTwo from '../../components/common/HeaderSizeTwo.vue'
 import ParagraphForHeader from '../../components/common/ParagraphForHeader.vue'
-import ButtonIndigo from '../../components/buttons/ButtonIndigo.vue'
+import ButtonPrimary from '../../components/buttons/ButtonPrimary.vue'
 import InputField from '../../components/form/inputs/InputField.vue'
 </script>
 
@@ -20,7 +20,7 @@ import InputField from '../../components/form/inputs/InputField.vue'
 
 					<div class="mt-14">
 						<div class="my-6">
-							<ButtonIndigo text="Request Link" />
+							<ButtonPrimary text="Request Link" />
 						</div>
 
 						<div class="flex items-center justify-center">

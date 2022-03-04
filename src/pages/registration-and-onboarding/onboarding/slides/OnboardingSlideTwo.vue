@@ -4,7 +4,7 @@ import Badge from '../../../../components/carousel/Badge.vue'
 import Header from '../../../../components/carousel/Header.vue'
 import Paragraph from '../../../../components/carousel/Paragraph.vue'
 import NavigationDot from '../../../../components/carousel/NavigationDot.vue'
-import ButtonIndigo from '../../../../components/buttons/ButtonIndigo.vue'
+import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
 </script>
 
 <template>
@@ -36,7 +36,7 @@ import ButtonIndigo from '../../../../components/buttons/ButtonIndigo.vue'
 				</div>
 
 				<div class="pt-20 pb-10 px-4">
-					<ButtonIndigo text="Next" />
+					<ButtonPrimary text="Next" />
 				</div>
 			</div>
 		</main>

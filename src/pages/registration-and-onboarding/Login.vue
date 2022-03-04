@@ -2,7 +2,7 @@
 import Header from '../../components/header/Header.vue'
 import HeaderSizeTwo from '../../components/common/HeaderSizeTwo.vue'
 import InputField from '../../components/form/inputs/InputField.vue'
-import ButtonIndigo from '../../components/buttons/ButtonIndigo.vue'
+import ButtonPrimary from '../../components/buttons/ButtonPrimary.vue'
 import Google from '../../assets/svg/other/google.vue'
 </script>
 
@@ -27,7 +27,7 @@ import Google from '../../assets/svg/other/google.vue'
 						</div>
 
 						<div class="my-6">
-							<ButtonIndigo text="Login" />
+							<ButtonPrimary text="Login" />
 						</div>
 
 						<div class="flex items-center justify-center">
