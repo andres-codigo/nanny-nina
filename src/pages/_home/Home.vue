@@ -22,7 +22,7 @@ import ListItem from '../../components/_home/ListItem.vue'
 						<h3>Forgot Password</h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
-						<ListItem routerLinkPath="/home" title="Password Reset" textColor="text-indigo-600" textBadge="In Progress" textColorBadge="text-amber-800" backgroundColorBadge="bg-amber-100 " />
+						<ListItem routerLinkPath="/forgot-password" title="Password Reset" textColor="text-indigo-600" textBadge="In Progress" textColorBadge="text-amber-800" backgroundColorBadge="bg-amber-100 " />
 					</ul>
 				</div>
 			</nav>

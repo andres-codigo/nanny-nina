@@ -6,6 +6,7 @@ import SignUp from '../pages/registration-and-onboarding/SignUp.vue'
 import VerificationMessage from '../pages/registration-and-onboarding/VerificationMessage.vue'
 import OnboardingContainer from '../pages/registration-and-onboarding/onboarding/OnboardingContainer.vue'
 import Login from '../pages/registration-and-onboarding/Login.vue'
+import ForgotPassword from '../pages/forgot-password/ForgotPassword.vue'
 
 const routes = [
 	{
@@ -49,6 +50,12 @@ const routes = [
 		path: '/onboarding',
 		name: 'Onboarding',
 		component: OnboardingContainer,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/forgot-password',
+		name: 'ForgotPassword',
+		component: ForgotPassword,
 		meta: { transition: 'slide-right-to-left' }
 	},
 ]
