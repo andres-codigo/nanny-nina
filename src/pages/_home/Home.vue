@@ -15,7 +15,14 @@ import ListItem from '../../components/_home/ListItem.vue'
 						<ListItem routerLinkPath="/verification-message" title="Verification Message" textColor="text-indigo-600" textBadge="Completed" textColorBadge="text-green-800" backgroundColorBadge="bg-green-100" />
 						<ListItem routerLinkPath="/login" title="Login" textColor="text-indigo-600" textBadge="Completed" textColorBadge="text-green-800" backgroundColorBadge="bg-green-100" />
 						<ListItem routerLinkPath="/onboarding" title="Onboarding" textColor="text-indigo-600" textBadge="Completed" textColorBadge="text-green-800" backgroundColorBadge="bg-green-100" />
-						<ListItem routerLinkPath="/home" title="Forgot password" textColor="text-indigo-300" textBadge="To Do" textColorBadge="text-amber-800" backgroundColorBadge="bg-amber-100" />
+					</ul>
+				</div>
+				<div class="relative">
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 px-4 py-4 text-sm font-medium text-gray-500">
+						<h3>Forgot Password</h3>
+					</div>
+					<ul role="list" class="relative z-0 divide-y divide-gray-200">
+						<ListItem routerLinkPath="/home" title="Password Reset" textColor="text-indigo-600" textBadge="In Progress" textColorBadge="text-amber-800" backgroundColorBadge="bg-amber-100 " />
 					</ul>
 				</div>
 			</nav>
