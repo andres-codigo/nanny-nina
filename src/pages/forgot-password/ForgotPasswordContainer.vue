@@ -12,7 +12,7 @@ import FPPasswordUpdated05 from './pages/FPPasswordUpdated05.vue'
 		<ForgotPassword01 class="max-w-450-for-dev-not-prod" />
 		<FPError02 class="max-w-450-for-dev-not-prod" />
 		<FPExpiredLink03 class="max-w-450-for-dev-not-prod" />
-		<FPNewPassword04 class="grow max-w-450-for-dev-not-prod" />
-		<FPPasswordUpdated05 class="grow max-w-450-for-dev-not-prod" />
+		<FPNewPassword04 class="w-full max-w-450-for-dev-not-prod" />
+		<FPPasswordUpdated05 class="w-full max-w-450-for-dev-not-prod" />
 	</div>
 </template>
