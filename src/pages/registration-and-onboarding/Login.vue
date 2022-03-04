@@ -1,6 +1,8 @@
 <script setup>
 import Header from '../../components/header/Header.vue'
-import ButtonIndigo from '../../components/form/ButtonIndigo.vue'
+import HeaderSizeTwo from '../../components/common/HeaderSizeTwo.vue'
+import InputField from '../../components/form/inputs/InputField.vue'
+import ButtonPrimary from '../../components/buttons/ButtonPrimary.vue'
 import Google from '../../assets/svg/other/google.vue'
 </script>
 
@@ -9,20 +11,14 @@ import Google from '../../assets/svg/other/google.vue'
 		<Header />
 		<main>
 			<div class="min-h-full flex flex-col justify-center py-12 mx-10 mt-8">
-				<h2 class="my-6 text-left text-2xl font-normal text-gray-900">Login</h2>
+				<HeaderSizeTwo text="Login" />
 				<form class="" action="#" method="POST">
-					<div>
-						<label for="email" class="block text-sm font-normal text-gray-700"> Email Address </label>
-						<div class="mt-1">
-							<input id="email" name="email" type="email" autocomplete="email" required="" class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-full shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" />
-						</div>
+					<div class="m-0">
+						<InputField text="Email Address" />
 					</div>
 
 					<div class="mt-6">
-						<label for="password" class="block text-sm font-normal text-gray-700"> Password </label>
-						<div class="mt-1">
-							<input id="password" name="password" type="password" autocomplete="current-password" required="" class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-full shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" />
-						</div>
+						<InputField text="Password" />
 					</div>
 
 					<div class="mt-14">
@@ -31,7 +27,7 @@ import Google from '../../assets/svg/other/google.vue'
 						</div>
 
 						<div class="my-6">
-							<ButtonIndigo text="Login" />
+							<ButtonPrimary text="Login" />
 						</div>
 
 						<div class="flex items-center justify-center">
