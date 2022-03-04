@@ -1,7 +1,7 @@
 <script setup>
 import Header from '../../components/header/Header.vue'
 import HeaderSizeTwo from '../../components/common/HeaderSizeTwo.vue'
-import InputField from '../../components/form/InputField.vue'
+import InputField from '../../components/form/inputs/InputField.vue'
 import ButtonIndigo from '../../components/buttons/ButtonIndigo.vue'
 import Google from '../../assets/svg/other/google.vue'
 </script>
