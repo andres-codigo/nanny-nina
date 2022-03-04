@@ -2,7 +2,7 @@
 import Header from '../../components/header/Header.vue'
 import HeaderSizeTwo from '../../components/common/HeaderSizeTwo.vue'
 import ParagraphForHeader from '../../components/common/ParagraphForHeader.vue'
-import ButtonIndigo from '../../components/form/ButtonIndigo.vue'
+import ButtonIndigo from '../../components/buttons/ButtonIndigo.vue'
 import InputField from '../../components/form/InputField.vue'
 </script>
 

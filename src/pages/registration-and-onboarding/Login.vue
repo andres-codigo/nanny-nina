@@ -2,7 +2,7 @@
 import Header from '../../components/header/Header.vue'
 import HeaderSizeTwo from '../../components/common/HeaderSizeTwo.vue'
 import InputField from '../../components/form/InputField.vue'
-import ButtonIndigo from '../../components/form/ButtonIndigo.vue'
+import ButtonIndigo from '../../components/buttons/ButtonIndigo.vue'
 import Google from '../../assets/svg/other/google.vue'
 </script>
 
