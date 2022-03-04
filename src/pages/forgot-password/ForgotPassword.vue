@@ -3,6 +3,7 @@ import Header from '../../components/header/Header.vue'
 import HeaderSizeTwo from '../../components/common/HeaderSizeTwo.vue'
 import ParagraphForHeader from '../../components/common/ParagraphForHeader.vue'
 import ButtonPrimary from '../../components/buttons/ButtonPrimary.vue'
+import ButtonGhost from '../../components/buttons/ButtonGhost.vue'
 import InputField from '../../components/form/inputs/InputField.vue'
 </script>
 
@@ -24,7 +25,7 @@ import InputField from '../../components/form/inputs/InputField.vue'
 						</div>
 
 						<div class="flex items-center justify-center">
-							<a href="#" class="text-lg font-medium underline hover:no-underline">Cancel</a>
+							<ButtonGhost text="Cancel" />
 						</div>
 					</div>
 				</form>
