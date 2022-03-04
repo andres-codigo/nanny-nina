@@ -4,9 +4,10 @@
 		<input
 			id="email"
 			name="email"
-			type="email"
+			:type="type"
 			autocomplete="email"
 			required=""
+			:value="value"
 			class="
 				appearance-none block w-full
 				px-3 py-2
@@ -20,7 +21,9 @@
 <script>
 export default {
 	props: {
-		text: String
+		text: String,
+		type: String,
+		value: String
 	}
 }
 </script>
