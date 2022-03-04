@@ -11,11 +11,11 @@ import ListItem from '../../components/_home/ListItem.vue'
 						<h3>Registation/Onboarding</h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
-						<ListItem routerLinkPath="/sign-up" title="Sign-up" textColor="text-indigo-600" textBadge="Completed" textColorBadge="text-green-800" backgroundColorBadge="bg-green-100 " />
-						<ListItem routerLinkPath="/verification-message" title="Verification Message" textColor="text-indigo-600" textBadge="Completed" textColorBadge="text-green-800" backgroundColorBadge="bg-green-100 " />
-						<ListItem routerLinkPath="/login" title="Login" textColor="text-indigo-600" textBadge="Completed" textColorBadge="text-green-800" backgroundColorBadge="bg-green-100 " />
-						<ListItem routerLinkPath="/onboarding" title="Onboarding" textColor="text-indigo-600" textBadge="Completed" textColorBadge="text-green-800" backgroundColorBadge="bg-green-100 " />
-						<ListItem routerLinkPath="/home" title="Forgot password" textColor="text-indigo-300" textBadge="To Do" textColorBadge="text-amber-800" backgroundColorBadge="bg-amber-100 " />
+						<ListItem routerLinkPath="/sign-up" title="Sign-up" textColor="text-indigo-600" textBadge="Completed" textColorBadge="text-green-800" backgroundColorBadge="bg-green-100" />
+						<ListItem routerLinkPath="/verification-message" title="Verification Message" textColor="text-indigo-600" textBadge="Completed" textColorBadge="text-green-800" backgroundColorBadge="bg-green-100" />
+						<ListItem routerLinkPath="/login" title="Login" textColor="text-indigo-600" textBadge="Completed" textColorBadge="text-green-800" backgroundColorBadge="bg-green-100" />
+						<ListItem routerLinkPath="/onboarding" title="Onboarding" textColor="text-indigo-600" textBadge="Completed" textColorBadge="text-green-800" backgroundColorBadge="bg-green-100" />
+						<ListItem routerLinkPath="/home" title="Forgot password" textColor="text-indigo-300" textBadge="To Do" textColorBadge="text-amber-800" backgroundColorBadge="bg-amber-100" />
 					</ul>
 				</div>
 			</nav>
