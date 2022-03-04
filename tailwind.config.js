@@ -6,6 +6,36 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			fontFamily: {
+				sans: ["Manrope", "sans-serif"],
+			},
+			spacing: {
+				"safe-top": "env(safe-area-inset-top)",
+				"safe-bottom": "env(safe-area-inset-bottom)",
+				"safe-left": "env(safe-area-inset-left)",
+				"safe-right": "env(safe-area-inset-right)",
+			},
+			colors: {
+				mint: {
+					DEFAULT: "#ADFFD6",
+					hover: '',
+					active: '',
+					focus: '',
+					light: ''
+				},
+				violet: {
+					DEFAULT: "#5747FF"
+				},
+				purple: {
+					DEFAULT: "#DAD6FF"
+				},
+				red: {
+					error: '#D80027'
+				},
+				green: {
+					success: '#15CE6F'
+				}
+			},
 			transitionDuration: {
 				'0': '0ms'
 			},
