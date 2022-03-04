@@ -1,9 +1,11 @@
 <script setup>
-import ForgotPasswordSlideOne from './slides/ForgotPasswordSlideOne.vue'
+import ForgotPassword01 from './pages/ForgotPassword01.vue'
+import ForgotPasswordError02 from './pages/ForgotPasswordError02.vue'
 </script>
 
 <template>
 	<div class="flex flex-wrap gap-y-6 sm:gap-x-4 bg-gray-200 w-screen h-screen">
-		<ForgotPasswordSlideOne class="max-w-450-for-dev-not-prod" />
+		<ForgotPassword01 class="max-w-450-for-dev-not-prod" />
+		<ForgotPasswordError02 class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
