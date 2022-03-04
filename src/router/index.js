@@ -6,7 +6,7 @@ import SignUp from '../pages/registration-and-onboarding/SignUp.vue'
 import VerificationMessage from '../pages/registration-and-onboarding/VerificationMessage.vue'
 import OnboardingContainer from '../pages/registration-and-onboarding/onboarding/OnboardingContainer.vue'
 import Login from '../pages/registration-and-onboarding/Login.vue'
-import ForgotPassword from '../pages/forgot-password/ForgotPassword.vue'
+import ForgotPasswordContainer from '../pages/forgot-password/ForgotPasswordContainer.vue'
 
 const routes = [
 	{
@@ -55,7 +55,7 @@ const routes = [
 	{
 		path: '/forgot-password',
 		name: 'ForgotPassword',
-		component: ForgotPassword,
+		component: ForgotPasswordContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 ]

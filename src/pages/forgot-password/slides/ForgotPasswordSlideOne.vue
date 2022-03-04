@@ -1,14 +1,14 @@
 <script setup>
-import Header from '../../components/header/Header.vue'
-import HeaderSizeTwo from '../../components/common/HeaderSizeTwo.vue'
-import ParagraphForHeader from '../../components/common/ParagraphForHeader.vue'
-import ButtonPrimary from '../../components/buttons/ButtonPrimary.vue'
-import ButtonGhost from '../../components/buttons/ButtonGhost.vue'
-import InputField from '../../components/form/inputs/InputField.vue'
+import Header from '../../../components/header/Header.vue'
+import HeaderSizeTwo from '../../../components/common/HeaderSizeTwo.vue'
+import ParagraphForHeader from '../../../components/common/ParagraphForHeader.vue'
+import ButtonPrimary from '../../../components/buttons/ButtonPrimary.vue'
+import ButtonGhost from '../../../components/buttons/ButtonGhost.vue'
+import InputField from '../../../components/form/inputs/InputField.vue'
 </script>
 
 <template>
-	<div class="w-screen h-screen">
+	<div class="bg-white">
 		<Header />
 		<main>
 			<div class="min-h-full flex flex-col justify-center py-12 mx-10 mt-8">
