@@ -7,7 +7,7 @@ import ButtonPrimary from '../../../components/buttons/ButtonPrimary.vue'
 	<div class="bg-white">
 		<Header />
 		<main>
-			<div class="min-h-full flex flex-col justify-center py-12 mx-10 mt-8">
+			<div class="min-h-full flex flex-col justify-center py-12 mx-4 mt-8">
 				<h2 class="my-6 text-left text-2xl font-normal text-gray-900">Password Updated!</h2>
 				<p class="mb-4 h-20 text-sm font-light">Your password has been updated!</p>
 				<form action="#" method="POST">

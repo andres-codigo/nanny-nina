@@ -9,7 +9,7 @@ import Google from '../../assets/svg/other/google.vue'
 	<div class="w-screen h-screen">
 		<Header />
 		<main>
-			<div class="min-h-full flex flex-col justify-center py-12 mx-10 mt-8">
+			<div class="min-h-full flex flex-col justify-center py-12 mx-4 mt-8">
 				<h2 class="my-6 text-left text-2xl font-normal text-gray-900">Login</h2>
 				<form class="" action="#" method="POST">
 					<div class="m-0">
