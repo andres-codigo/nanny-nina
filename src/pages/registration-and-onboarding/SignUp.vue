@@ -5,7 +5,7 @@ import LinkCard from '../../components/cards/LinkCard.vue'
 <template>
 	<div class="w-screen h-screen">
 		<header>
-			<div class="h-16 pt-4 pr-2">
+			<div class="h-16 pt-4 px-4">
 				<router-link to="/home" class="float-right"><XIcon class="w-8 h-8" aria-hidden="true" /></router-link>
 			</div>
 		</header>
