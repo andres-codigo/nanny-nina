@@ -1,6 +1,5 @@
 <script setup>
 import Header from '../../components/header/Header.vue'
-import HeaderSizeTwo from '../../components/common/HeaderSizeTwo.vue'
 import InputField from '../../components/form/inputs/InputField.vue'
 import ButtonPrimary from '../../components/buttons/ButtonPrimary.vue'
 import Google from '../../assets/svg/other/google.vue'
@@ -11,7 +10,7 @@ import Google from '../../assets/svg/other/google.vue'
 		<Header />
 		<main>
 			<div class="min-h-full flex flex-col justify-center py-12 mx-10 mt-8">
-				<HeaderSizeTwo text="Login" />
+				<h2 class="my-6 text-left text-2xl font-normal text-gray-900">Login</h2>
 				<form class="" action="#" method="POST">
 					<div class="m-0">
 						<InputField text="Email Address" />
