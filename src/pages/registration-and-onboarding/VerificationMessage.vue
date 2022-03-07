@@ -6,7 +6,7 @@ import Mail from '../../assets/svg/mail/mail.vue'
 	<div class="bg-indigo-600 w-screen h-screen">
 		<header>
 			<div class="h-16 pt-4 pr-2">
-				<router-link to="/home" class="float-right"><XIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link>
+				<router-link to="/dashboard" class="float-right"><XIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link>
 			</div>
 		</header>
 		<main>

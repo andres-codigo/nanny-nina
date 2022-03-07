@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Launch from '../pages/Launch.vue'
-import Home from '../pages/_home/Home.vue'
+import Dashboard from '../pages/_dashboard/Dashboard.vue'
 
 /* Registration/Onboarding */
 import SignUp from '../pages/registration-and-onboarding/SignUp.vue'
@@ -22,9 +22,9 @@ const routes = [
 		component: Launch
 	},
 	{
-		path: '/home',
-		name: 'Home',
-		component: Home,
+		path: '/dashboard',
+		name: 'Dashboard',
+		component: Dashboard,
 		meta: { transition: 'fade' },
 		beforeEnter: (to, from, next) => {
 			if (from.path !== '/') {

@@ -1,5 +1,5 @@
 <script setup>
-import ListItem from '../../components/_home/ListItem.vue'
+import ListItem from '../../components/_dashboard/ListItem.vue'
 </script>
 
 <template>

@@ -14,7 +14,7 @@
 export default {
 	created() {
 		setTimeout(() => {
-			this.$router.push('/home');
+			this.$router.push('/dashboard');
 		}, 2000)
 	}
 }

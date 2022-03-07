@@ -8,7 +8,7 @@ import HeaderLogo from '../header/HeaderLogo.vue'
 			<div class="flex items-center justify-between">
 				<HeaderLogo />
 				<div class="text-sm pt-8">
-					<router-link to="/home" class="float-right"><XIcon class="w-8 h-8" aria-hidden="true" /></router-link>
+					<router-link to="/dashboard" class="float-right"><XIcon class="w-8 h-8" aria-hidden="true" /></router-link>
 				</div>
 			</div>
 		</nav>
