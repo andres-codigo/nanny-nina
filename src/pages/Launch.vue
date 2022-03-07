@@ -1,5 +1,5 @@
 <template>
-	<div class="flex flex-col justify-center h-screen bg-green-200">
+	<div class="flex flex-col justify-center h-screen bg-emerald-200">
 		<div class="flex justify-center">
 			<img class="inline mr-1 h-8 w-8" src="../assets/svg/logo/alternate-logo.svg" />
 			<img class="inline h-8 w-8" src="../assets/svg/logo/alternate-logo.svg" />
