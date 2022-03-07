@@ -1,6 +1,5 @@
 <script setup>
 import Header from '../../../components/header/Header.vue'
-import ParagraphForHeader from '../../../components/common/ParagraphForHeader.vue'
 import ButtonPrimary from '../../../components/buttons/ButtonPrimary.vue'
 import ButtonGhost from '../../../components/buttons/ButtonGhost.vue'
 import InputField from '../../../components/form/inputs/InputField.vue'
