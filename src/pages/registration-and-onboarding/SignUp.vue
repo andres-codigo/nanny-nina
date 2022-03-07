@@ -3,7 +3,7 @@ import LinkCard from '../../components/cards/LinkCard.vue'
 </script>
 
 <template>
-	<div class="w-screen h-screen">
+	<div class="w-full h-screen">
 		<header>
 			<div class="h-16 pt-4 px-4">
 				<router-link to="/dashboard" class="float-right"><XIcon class="w-8 h-8" aria-hidden="true" /></router-link>
