@@ -1,10 +1,7 @@
 <script setup>
 import Header from '../../../components/header/Header.vue'
-import HeaderSizeTwo from '../../../components/common/HeaderSizeTwo.vue'
-import ParagraphForHeader from '../../../components/common/ParagraphForHeader.vue'
 import ButtonPrimary from '../../../components/buttons/ButtonPrimary.vue'
 import ButtonGhost from '../../../components/buttons/ButtonGhost.vue'
-import InputField from '../../../components/form/inputs/InputField.vue'
 </script>
 
 <template>
@@ -12,8 +9,8 @@ import InputField from '../../../components/form/inputs/InputField.vue'
 		<Header />
 		<main>
 			<div class="min-h-full flex flex-col justify-center py-12 mx-10 mt-8">
-				<HeaderSizeTwo text="Forgot Password" />
-				<ParagraphForHeader text="Please enter your registered email, you will receive an email with a verification code to reset your password." />
+				<h2 class="my-6 text-left text-2xl font-normal text-gray-900">Forgot Password</h2>
+				<p class="mb-4 h-20 text-sm font-light">Please enter your registered email, you will receive an email with a verification code to reset your password.</p>
 				<form action="#" method="POST">
 					<div class="m-0 h-28">
 						<label for="email" class="block text-sm font-light text-gray-700 pl-4">Email Address</label>
