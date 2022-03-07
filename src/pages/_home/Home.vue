@@ -8,7 +8,7 @@ import ListItem from '../../components/_home/ListItem.vue'
 			<nav class="h-full overflow-y-auto" aria-label="Directory">
 				<div class="relative">
 					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 px-4 py-4 text-sm font-medium text-gray-500">
-						<h3>Registation/Onboarding</h3>
+						<h3>Registration/Onboarding</h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem routerLinkPath="/sign-up" title="Sign-up" textColor="text-indigo-600" textBadge="Completed" textColorBadge="text-green-800" backgroundColorBadge="bg-green-100" />
@@ -23,6 +23,14 @@ import ListItem from '../../components/_home/ListItem.vue'
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem routerLinkPath="/forgot-password" title="Password Reset" textColor="text-indigo-600" textBadge="In Progress" textColorBadge="text-amber-800" backgroundColorBadge="bg-amber-100 " />
+					</ul>
+				</div>
+				<div class="relative">
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 px-4 py-4 text-sm font-medium text-gray-500">
+						<h3>Onboarding</h3>
+					</div>
+					<ul role="list" class="relative z-0 divide-y divide-gray-200">
+						<ListItem routerLinkPath="/childminder-service" title="Childminder Service" textColor="text-indigo-600" textBadge="In Progress" textColorBadge="text-amber-800" backgroundColorBadge="bg-amber-100 " />
 					</ul>
 				</div>
 			</nav>

@@ -2,11 +2,18 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import Launch from '../pages/Launch.vue'
 import Home from '../pages/_home/Home.vue'
+
+/* Registration/Onboarding */
 import SignUp from '../pages/registration-and-onboarding/SignUp.vue'
 import VerificationMessage from '../pages/registration-and-onboarding/VerificationMessage.vue'
-import OnboardingContainer from '../pages/registration-and-onboarding/onboarding/OnboardingContainer.vue'
 import Login from '../pages/registration-and-onboarding/Login.vue'
+import OnboardingContainer from '../pages/registration-and-onboarding/onboarding/OnboardingContainer.vue'
+
+/* Forgot Password */
 import ForgotPasswordContainer from '../pages/forgot-password/ForgotPasswordContainer.vue'
+
+/* Onboarding */
+import ChildminderServiceContainer from '../pages/onboarding/childminder-service/ChildminderServiceContainer.vue'
 
 const routes = [
 	{
@@ -56,6 +63,12 @@ const routes = [
 		path: '/forgot-password',
 		name: 'ForgotPassword',
 		component: ForgotPasswordContainer,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/childminder-service',
+		name: 'ChildminderServiceContainer',
+		component: ChildminderServiceContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 ]
