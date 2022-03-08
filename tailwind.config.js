@@ -95,6 +95,9 @@ module.exports = {
 			minHeight: {
 				'325': '325px',
 			},
+			minWidth: {
+				'360-for-dev-not-prod': '360px',
+			},
 			maxWidth: {
 				'450-for-dev-not-prod': '450px'
 			}

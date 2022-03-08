@@ -4,6 +4,6 @@ import BioForm01 from './pages/BioForm01.vue'
 
 <template>
 	<div class="flex flex-wrap grow gap-y-6 sm:gap-x-4 w-full h-full bg-gray-200">
-		<BioForm01 class="max-w-450-for-dev-not-prod" />
+		<BioForm01 class="min-w-360-for-dev-not-prod max-w-450-for-dev-not-prod" />
 	</div>
 </template>

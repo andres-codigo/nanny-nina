@@ -7,6 +7,7 @@
 			:type="type"
 			autocomplete="email"
 			required=""
+			:placeholder="placeholder"
 			:value="value"
 			class="
 				appearance-none block w-full
@@ -23,7 +24,8 @@ export default {
 	props: {
 		text: String,
 		type: String,
-		value: String
+		value: String,
+		placeholder: String
 	}
 }
 </script>
