@@ -22,7 +22,7 @@ import ListItem from '../../components/_dashboard/ListItem.vue'
 						<h3>Forgot Password</h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
-						<ListItem routerLinkPath="/forgot-password" title="Password Reset" textColor="text-indigo-600" textBadge="In Progress" textColorBadge="text-amber-800" backgroundColorBadge="bg-amber-100 " />
+						<ListItem :hide="false" notes="Need to update UI DOM/classes as designs changed slightly" date="08/03/2022" routerLinkPath="/forgot-password" title="Password Reset" textColor="text-indigo-600" textBadge="Design Review / UI Code Review" textColorBadge="text-pink-800" backgroundColorBadge="bg-pink-100 " />
 					</ul>
 				</div>
 				<div class="relative">
@@ -30,7 +30,7 @@ import ListItem from '../../components/_dashboard/ListItem.vue'
 						<h3>Onboarding</h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
-						<ListItem routerLinkPath="/childminder-service" title="Childminder Service" textColor="text-indigo-600" textBadge="In Progress" textColorBadge="text-amber-800" backgroundColorBadge="bg-amber-100 " />
+						<ListItem :hide="false" notes="Missing SVG assets for DOM/class testing" date="08/03/2022" routerLinkPath="/childminder-service" title="Home Page (for Nanny, Childminder, Au Pair)" textColor="text-indigo-600" textBadge="UI Code Review" textColorBadge="text-pink-800" backgroundColorBadge="bg-pink-100 " />
 					</ul>
 				</div>
 			</nav>
