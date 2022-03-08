@@ -6,7 +6,7 @@ import Google from '../../assets/svg/other/google.vue'
 </script>
 
 <template>
-	<div class="w-screen h-screen">
+	<div class="w-full h-screen">
 		<Header />
 		<main>
 			<div class="min-h-full flex flex-col justify-center py-12 mx-4 mt-8">

@@ -11,7 +11,7 @@ import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
 	<div class="bg-indigo-200">
 		<header>
 			<div class="h-16 pt-4 px-4">
-				<router-link to="/home" class="float-right"><XIcon class="w-8 h-8" aria-hidden="true" /></router-link>
+				<router-link to="/dashboard" class="float-right"><XIcon class="w-8 h-8" aria-hidden="true" /></router-link>
 			</div>
 		</header>
 		<main>
