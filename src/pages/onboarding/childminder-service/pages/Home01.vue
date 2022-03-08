@@ -26,6 +26,7 @@ import Image from '../../../../components/carousel/Image.vue'
 							<!--
 								Image component for svg here
 								<Image src="*.svg" />
+								* remove background colour in div as visual placeholder
 							-->
 						</div>
 					</div>
