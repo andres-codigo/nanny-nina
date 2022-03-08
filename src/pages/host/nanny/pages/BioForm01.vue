@@ -1,6 +1,6 @@
 <script setup>
-import InputField from '../../../../components/form/inputs/InputField.vue'
-import SelectMenu from '../../../../components/form/inputs/SelectMenu.vue'
+import InputField from '../../../../components/form/InputField.vue'
+import SelectMenu from '../../../../components/form/SelectMenu.vue'
 import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
 </script>
 

@@ -1,6 +1,6 @@
 <script setup>
 import Header from '../../components/header/Header.vue'
-import InputField from '../../components/form/inputs/InputField.vue'
+import InputField from '../../components/form/InputField.vue'
 import ButtonPrimary from '../../components/buttons/ButtonPrimary.vue'
 import Google from '../../assets/svg/other/google.vue'
 </script>
