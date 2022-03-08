@@ -7,7 +7,7 @@ import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
 
 <template>
 	<div class="h-full">
-		<TopNavigation />
+		<TopNavigation routerLinkPath="/dashboard" />
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
 				<h2 class="my-6 text-left text-2xl font-normal text-gray-900">Let's get to know each other</h2>
