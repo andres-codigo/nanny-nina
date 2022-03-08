@@ -10,8 +10,8 @@ import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
 		<TopNavigation routerLinkPath="/dashboard" />
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
-				<h2 class="my-6 text-left text-2xl font-normal text-gray-900">Let's get to know each other</h2>
 				<form action="#" method="POST">
+					<h2 class="my-6 text-left text-2xl font-normal text-gray-900">Let's get to know each other</h2>
 					<div class="h-28">
 						<h3 class="text-lg font-light">What is your gender?</h3>
 						<div class="w-1/2 mt-4">
