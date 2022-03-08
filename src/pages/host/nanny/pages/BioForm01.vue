@@ -1,4 +1,5 @@
 <script setup>
+import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
 import InputField from '../../../../components/form/InputField.vue'
 import SelectMenu from '../../../../components/form/SelectMenu.vue'
 import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
@@ -6,8 +7,9 @@ import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
 
 <template>
 	<div class="h-full">
+		<TopNavigation />
 		<main>
-			<div class="flex flex-col py-12 mx-4 mt-8">
+			<div class="flex flex-col pt-6 mx-4">
 				<h2 class="my-6 text-left text-2xl font-normal text-gray-900">Let's get to know each other</h2>
 				<form action="#" method="POST">
 					<div class="h-28">
