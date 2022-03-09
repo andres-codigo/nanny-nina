@@ -9,14 +9,15 @@ import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
 	<div class="h-full">
 		<TopNavigation routerLinkPath="/dashboard" />
 		<main>
-			<div class="flex flex-col pt-6 mx-4">
+			<div class="flex flex-col pt-12 mx-4">
 				<form action="#" method="POST">
 					<SinglePhotoUpload />
 
 					<hr class="bg-gray-500 my-6" />
 
 					<MultiplePhotoUpload />
-					<div class="mt-10">
+
+					<div class="mt-20">
 						<div class="my-6">
 							<ButtonPrimary text="Next" />
 						</div>
