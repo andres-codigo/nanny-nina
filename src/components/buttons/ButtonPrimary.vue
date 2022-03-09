@@ -4,7 +4,7 @@
 		class="
 			w-full inline-flex justify-center
 			px-5 py-2
-			border border-transparent rounded-full shadow-sm
+			border border-transparent rounded-full
 			text-lg font-medium text-white bg-indigo-600
 			hover:border-transparent hover:text-white hover:bg-indigo-500
 			active:bg-indigo-700
