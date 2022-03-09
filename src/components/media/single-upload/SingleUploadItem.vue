@@ -16,8 +16,8 @@
 					h-12 w-12
 					rounded-full drop-shadow-lg
 					text-slate-800
-					bg-white
-					hover:border-transparent hover:text-slate-500 hover:bg-slate-100
+					bg-slate-100
+					hover:border-transparent hover:text-slate-700 hover:bg-slate-200
 					focus:outline-none focus:ring-2 focus:ring-offset-2
 				">
 				<PlusIcon class="w-8 h-8" aria-hidden="true" />
