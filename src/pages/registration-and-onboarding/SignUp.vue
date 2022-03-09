@@ -12,8 +12,8 @@ import LinkCard from '../../components/cards/LinkCard.vue'
 		<main>
 			<div class="min-h-full flex flex-col justify-center py-12 mx-4">
 				<h2 class="ml-4 my-6 text-left text-2xl font-medium text-gray-900">Sign Up</h2>
-				<LinkCard to="dashboard" class="text-black bg-emerald-200 focus:ring-emerald-500" title="Join as Parent/Host" />
-				<LinkCard to="dashboard" class="text-white bg-indigo-600 focus:ring-indigo-500" title="Join for Care jobs" />
+				<LinkCard to="dashboard" class="text-black bg-emerald-200 hover:opacity-75 focus:ring-emerald-500" title="Join as Parent/Host" />
+				<LinkCard to="dashboard" class="text-white bg-indigo-600 hover:opacity-75 focus:ring-indigo-500" title="Join for Care jobs" />
 				<div class="flex items-center justify-center">
 					<div class="text-sm">
 						<span class="mr-2 font-normal text-indigo-600">Already have an account?</span>
