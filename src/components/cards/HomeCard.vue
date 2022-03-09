@@ -18,7 +18,7 @@ import Image from '../carousel/Image.vue'
 				<h1 class="antialiased text-xl">{{ user }}</h1>
 			</div>
 			<div class="basis-1/2 mt-4 mr-4 text-right">
-				<span class="text-xs text-gray font-light">0/5 steps completed</span>
+				<span class="text-xs text-gray-500 font-light">0/5 steps completed</span>
 			</div>
 		</div>
 		<p class="text-base font-light leading-5 mt-4 mx-4">{{ content }}</p>
