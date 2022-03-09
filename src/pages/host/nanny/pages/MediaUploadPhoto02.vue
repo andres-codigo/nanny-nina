@@ -1,6 +1,7 @@
 <script setup>
 import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
-import SinglePhotoUpload from '../../../../components/media/SinglePhotoUpload.vue'
+import SinglePhotoUpload from '../../../../components/media/single-upload/SinglePhotoUpload.vue'
+import MultiplePhotoUpload from '../../../../components/media/multiple-upload/MultiplePhotoUpload.vue'
 import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
 </script>
 
@@ -14,6 +15,7 @@ import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
 
 					<hr class="bg-gray-500 my-6" />
 
+					<MultiplePhotoUpload />
 					<div class="mt-10">
 						<div class="my-6">
 							<ButtonPrimary text="Next" />
