@@ -1,5 +1,5 @@
 <script setup>
-import Image from '../carousel/Image.vue'
+import Image from './Image.vue'
 </script>
 
 <template>
