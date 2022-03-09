@@ -39,7 +39,7 @@ import ListItem from '../../components/_dashboard/ListItem.vue'
 						<h3>Host - Nanny</h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
-						<ListItem :hide="false" notes="Need confirmation on final design for Bio Form " date="09/03/2022" routerLinkPath="/host-nanny" title="Bio Form/Media Upload Photos" textColor="text-indigo-600" textBadge="In Progress" textColorBadge="text-amber-800" backgroundColorBadge="bg-amber-100 " />
+						<ListItem :hide="false" notes="Need confirmation on final design for Bio Form " date="09/03/2022" routerLinkPath="/host-nanny" title="Bio Form / Media Upload Photos / Home" textColor="text-indigo-600" textBadge="In Progress" textColorBadge="text-amber-800" backgroundColorBadge="bg-amber-100 " />
 					</ul>
 				</div>
 			</nav>
