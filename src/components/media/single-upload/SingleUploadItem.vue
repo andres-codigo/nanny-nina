@@ -1,10 +1,27 @@
 <template>
 	<div class="flex items-center justify-center mb-6">
-		<span class="flex items-center justify-center relative h-56 w-56 rounded-full bg-indigo-100">
+		<span
+			class="
+				flex items-center justify-center
+				relative
+				h-56 w-56
+				rounded-full
+				bg-indigo-100
+			">
 			<CameraIcon class="w-32 h-32 text-indigo-400" aria-hidden="true" />
-			<span class="flex items-center justify-center absolute bottom-6 right-0 h-12 w-12 rounded-full drop-shadow-lg bg-white">
+			<button
+				class="
+					flex items-center justify-center
+					absolute bottom-6 right-0
+					h-12 w-12
+					rounded-full drop-shadow-lg
+					text-slate-800
+					bg-white
+					hover:border-transparent hover:text-slate-500 hover:bg-slate-100
+					focus:outline-none focus:ring-2 focus:ring-offset-2
+				">
 				<PlusIcon class="w-8 h-8" aria-hidden="true" />
-			</span>
+			</button>
 		</span>
 	</div>
 	<p class="text-sm font-light text-center text-gray-500">Size limit 5MB</p>
