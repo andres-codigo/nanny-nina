@@ -1,8 +1,8 @@
 <template>
 	<div class="flex flex-row mb-4 mt-4">
 		<div class="basis-1/2 ml-4">
-			<span class="inline-block text-xl">Hello, Brittany</span>
-			<span class="inline-block text-lg text-gray-500 antialiased">Explore Jobs</span>
+			<span class="inline-block w-full text-xl">Hello, Brittany</span>
+			<span class="inline-block w-full text-lg text-gray-500 antialiased">Explore Jobs</span>
 		</div>
 		<div :class="['basis-1/2 mr-4 relative', !showCompletionPercentage ? 'hidden sm:hidden' : '']">
 			<div class="absolute -bottom-1 right-0 ">

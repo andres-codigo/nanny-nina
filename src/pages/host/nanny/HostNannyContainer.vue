@@ -5,7 +5,7 @@ import MediaUploadPhoto02 from './pages/MediaUploadPhoto02.vue'
 
 <template>
 	<div class="flex flex-wrap grow gap-y-6 sm:gap-x-4 w-full h-full">
-		<BioForm01 class="min-w-360-for-dev-not-prod max-w-450-for-dev-not-prod" />
-		<MediaUploadPhoto02 class="min-w-360-for-dev-not-prod max-w-450-for-dev-not-prod" />
+		<BioForm01 class="min-w-360-for-dev-not-prod" />
+		<MediaUploadPhoto02 class="min-w-360-for-dev-not-prod" />
 	</div>
 </template>
