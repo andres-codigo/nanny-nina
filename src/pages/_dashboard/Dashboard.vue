@@ -12,10 +12,17 @@ import ListItem from '../../components/_dashboard/ListItem.vue'
 						<h3>Registration/Onboarding</h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
-						<ListItem routerLinkPath="/registration" title="Registration" textColor="text-indigo-600" textBadge="In Progress" textColorBadge="text-amber-800" backgroundColorBadge="bg-amber-100" />
-						<!-- <ListItem routerLinkPath="/sign-up" title="Sign-up" textColor="text-indigo-600" textBadge="Completed" textColorBadge="text-green-800" backgroundColorBadge="bg-green-100" /> -->
-						<!-- <ListItem routerLinkPath="/verification-message" title="Verification Message" textColor="text-indigo-600" textBadge="Completed" textColorBadge="text-green-800" backgroundColorBadge="bg-green-100" />
-						<ListItem routerLinkPath="/login" title="Login" textColor="text-indigo-600" textBadge="Completed" textColorBadge="text-green-800" backgroundColorBadge="bg-green-100" /> -->
+						<ListItem
+							:hide="false"
+							notes="UI DOM/classes updated to match updated designs, please review/let me know if all good"
+							date="10/03/2022"
+							routerLinkPath="/registration"
+							title="Registration"
+							textColor="text-indigo-600"
+							textBadge="UI Code Review"
+							textColorBadge="text-pink-800"
+							backgroundColorBadge="bg-pink-100"
+						/>
 						<ListItem routerLinkPath="/onboarding" title="Onboarding" textColor="text-indigo-600" textBadge="Completed" textColorBadge="text-green-800" backgroundColorBadge="bg-green-100" />
 					</ul>
 				</div>
