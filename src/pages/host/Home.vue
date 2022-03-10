@@ -7,7 +7,7 @@ import BottomMenu from '../../components/menu/BottomMenu.vue'
 <template>
 	<div class="min-w-360-for-dev-not-prod">
 		<main>
-			<div class="min-h-full flex flex-col mx-4">
+			<div class="min-h-full flex flex-col mx-4 pb-20">
 				<UserProgress :showCompletionPercentage="false" />
 				<HomeCard :showCompletionSteps="false" tempBackgroundColour="bg-pink-100" tempFocusRingColour="focus:ring-pink-200" user="Nanny" content="Book a nanny for emergency, one-time or recurring schedule" />
 				<HomeCard :showCompletionSteps="false" tempBackgroundColour="bg-indigo-100" tempFocusRingColour="focus:ring-indigo-200" user="Au Pair" content="Experience a new culture with a host family abroad as a caregiver" />
