@@ -18,21 +18,15 @@ import Google from '../../../../assets/svg/other/google.vue'
 
 					<div class="mt-6">
 						<InputField text="Password" />
+						<a href="#" class="text-xs font-light text-indigo-600 underline mt-4 inline-block">Forgot your password?</a>
 					</div>
 
 					<div class="mt-14">
-						<div class="flex items-center justify-center">
-							<div class="text-sm">Don't have an account?<span class="font-normal text-indigo-600"> Create one</span></div>
-						</div>
-
 						<div class="my-6">
 							<ButtonPrimary text="Login" />
 						</div>
-
 						<div class="flex items-center justify-center">
-							<div class="text-sm">
-								<a href="#" class="font-normal text-indigo-600"> Forgot your password? </a>
-							</div>
+							<div class="text-xs font-light">Don't have an account? <span class="font-light text-indigo-600 underline">Sign Up</span></div>
 						</div>
 					</div>
 				</form>
@@ -42,7 +36,7 @@ import Google from '../../../../assets/svg/other/google.vue'
 						<div class="absolute inset-0 flex items-center">
 							<div class="w-full border-t border-gray-300" />
 						</div>
-						<div class="relative flex justify-center text-sm">
+						<div class="relative flex justify-center text-xs">
 							<span class="px-2 bg-white text-gray-500"> OR </span>
 						</div>
 					</div>
