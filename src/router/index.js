@@ -39,37 +39,31 @@ const routes = [
 	},
 	{
 		path: '/registration',
-		name: 'RegistrationContainer',
 		component: RegistrationContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
 		path: '/onboarding',
-		name: 'Onboarding',
 		component: OnboardingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
 		path: '/forgot-password',
-		name: 'ForgotPassword',
 		component: ForgotPasswordContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
 		path: '/childminder-service',
-		name: 'ChildminderServiceContainer',
 		component: ChildminderServiceContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
 		path: '/host-nanny-home',
-		name: 'HostNannyHome',
 		component: HostNannyHome,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
 		path: '/host-nanny',
-		name: 'HostNannyContainer',
 		component: HostNannyContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
