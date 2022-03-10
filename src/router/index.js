@@ -15,6 +15,10 @@ import ForgotPasswordContainer from '../pages/forgot-password/ForgotPasswordCont
 /* Onboarding */
 import ChildminderServiceContainer from '../pages/onboarding/childminder-service/ChildminderServiceContainer.vue'
 
+/* Host - Nanny */
+import HostNannyHome from '../pages/host/Home.vue'
+import HostNannyContainer from '../pages/host/nanny/HostNannyContainer.vue'
+
 const routes = [
 	{
 		path: '/',
@@ -69,6 +73,18 @@ const routes = [
 		path: '/childminder-service',
 		name: 'ChildminderServiceContainer',
 		component: ChildminderServiceContainer,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/host-nanny-home',
+		name: 'HostNannyHome',
+		component: HostNannyHome,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/host-nanny',
+		name: 'HostNannyContainer',
+		component: HostNannyContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 ]

@@ -2,7 +2,7 @@
 import Header from '../../../components/header/Header.vue'
 import ButtonPrimary from '../../../components/buttons/ButtonPrimary.vue'
 import ButtonGhost from '../../../components/buttons/ButtonGhost.vue'
-import InputField from '../../../components/form/inputs/InputField.vue'
+import InputField from '../../../components/form/InputField.vue'
 </script>
 
 <template>

@@ -1,6 +1,6 @@
 <script setup>
 import Header from '../../components/header/Header.vue'
-import InputField from '../../components/form/inputs/InputField.vue'
+import InputField from '../../components/form/InputField.vue'
 import ButtonPrimary from '../../components/buttons/ButtonPrimary.vue'
 import Google from '../../assets/svg/other/google.vue'
 </script>
@@ -40,7 +40,7 @@ import Google from '../../assets/svg/other/google.vue'
 				<div class="mt-14">
 					<div class="relative">
 						<div class="absolute inset-0 flex items-center">
-						<div class="w-full border-t border-gray-300" />
+							<div class="w-full border-t border-gray-300" />
 						</div>
 						<div class="relative flex justify-center text-sm">
 							<span class="px-2 bg-white text-gray-500"> OR </span>

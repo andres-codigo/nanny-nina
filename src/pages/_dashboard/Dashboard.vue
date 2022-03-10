@@ -23,7 +23,17 @@ import ListItem from '../../components/_dashboard/ListItem.vue'
 						<h3>Forgot Password</h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
-						<ListItem :hide="false" notes="Need to update UI DOM/classes as designs changed slightly" date="08/03/2022" routerLinkPath="/forgot-password" title="Password Reset" textColor="text-indigo-600" textBadge="Design Review / UI Code Review" textColorBadge="text-pink-800" backgroundColorBadge="bg-pink-100 " />
+						<ListItem
+							:hide="false"
+							notes="Need to update UI DOM/classes as designs changed slightly"
+							date="08/03/2022"
+							routerLinkPath="/forgot-password"
+							title="Password Reset"
+							textColor="text-indigo-600"
+							textBadge="Design Review / UI Code Review"
+							textColorBadge="text-pink-800"
+							backgroundColorBadge="bg-pink-100"
+						/>
 					</ul>
 				</div>
 				<div class="relative">
@@ -31,7 +41,48 @@ import ListItem from '../../components/_dashboard/ListItem.vue'
 						<h3>Onboarding</h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
-						<ListItem :hide="false" notes="Missing SVG assets for DOM/class testing" date="08/03/2022" routerLinkPath="/childminder-service" title="Home Page (for Nanny, Childminder, Au Pair)" textColor="text-indigo-600" textBadge="UI Code Review" textColorBadge="text-pink-800" backgroundColorBadge="bg-pink-100 " />
+						<ListItem
+							:hide="false"
+							notes="Missing SVG assets for DOM/class testing &amp; design review"
+							date="08/03/2022"
+							routerLinkPath="/childminder-service"
+							title="Home Page (for Nanny, Childminder, Au Pair)"
+							textColor="text-indigo-600"
+							textBadge="Design Review / UI Code Review"
+							textColorBadge="text-pink-800"
+							backgroundColorBadge="bg-pink-100"
+						/>
+					</ul>
+				</div>
+				<div class="relative">
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 px-4 py-4 text-sm font-medium text-gray-500">
+						<h3>Host - Childminder &amp; Nanny</h3>
+					</div>
+					<ul role="list" class="relative z-0 divide-y divide-gray-200">
+						<ListItem
+							:hide="false"
+							notes="Updated designs review"
+							date="10/03/2022"
+							routerLinkPath="/host-nanny-home"
+							title="Home"
+							textColor="text-indigo-600"
+							textBadge="Design Review / UI Code Review"
+							textColorBadge="text-pink-800"
+							backgroundColorBadge="bg-pink-100"
+						/>
+					</ul>
+					<ul role="list" class="relative z-0 divide-y divide-gray-200">
+						<ListItem
+							:hide="false"
+							notes="Updated designs review"
+							date="10/03/2022"
+							routerLinkPath="/host-nanny"
+							title="Bio Form / Media Upload Photos"
+							textColor="text-indigo-600"
+							textBadge="Design Review / UI Code Review"
+							textColorBadge="text-pink-800"
+							backgroundColorBadge="bg-pink-100"
+						/>
 					</ul>
 				</div>
 			</nav>
