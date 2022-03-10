@@ -4,6 +4,7 @@ import Launch from '../pages/Launch.vue'
 import Dashboard from '../pages/_dashboard/Dashboard.vue'
 
 /* Registration/Onboarding */
+import Welcome from '../pages/registration-and-onboarding/registration/pages/Welcome01.vue'
 import SignUp from '../pages/registration-and-onboarding/SignUp.vue'
 import VerificationMessage from '../pages/registration-and-onboarding/VerificationMessage.vue'
 import Login from '../pages/registration-and-onboarding/Login.vue'
@@ -38,6 +39,12 @@ const routes = [
 				next()
 			}
 		}
+	},
+	{
+		path: '/welcome',
+		name: 'Welcome',
+		component: Welcome,
+		meta: { transition: 'slide-right-to-left' }
 	},
 	{
 		path: '/sign-up',

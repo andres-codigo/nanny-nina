@@ -12,6 +12,7 @@ import ListItem from '../../components/_dashboard/ListItem.vue'
 						<h3>Registration/Onboarding</h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
+						<ListItem routerLinkPath="/welcome" title="Welcome" textColor="text-indigo-600" textBadge="In Progress" textColorBadge="text-amber-800" backgroundColorBadge="bg-amber-100" />
 						<ListItem routerLinkPath="/sign-up" title="Sign-up" textColor="text-indigo-600" textBadge="Completed" textColorBadge="text-green-800" backgroundColorBadge="bg-green-100" />
 						<ListItem routerLinkPath="/verification-message" title="Verification Message" textColor="text-indigo-600" textBadge="Completed" textColorBadge="text-green-800" backgroundColorBadge="bg-green-100" />
 						<ListItem routerLinkPath="/login" title="Login" textColor="text-indigo-600" textBadge="Completed" textColorBadge="text-green-800" backgroundColorBadge="bg-green-100" />

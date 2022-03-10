@@ -6,9 +6,9 @@
 			py-3
 			rounded-full
 			text-md font-light text-white
-			bg-indigo-600
-			hover:bg-indigo-500
-			focus:bg-indigo-700
+			border border-neutral-100
+			hover:border-neutral-50
+			focus:border-neutral-200
 		">{{ text }}</button>
 </template>
 
