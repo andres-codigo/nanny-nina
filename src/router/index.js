@@ -4,9 +4,7 @@ import Launch from '../pages/Launch.vue'
 import Dashboard from '../pages/_dashboard/Dashboard.vue'
 
 /* Registration/Onboarding */
-import SignUp from '../pages/registration-and-onboarding/SignUp.vue'
-import VerificationMessage from '../pages/registration-and-onboarding/VerificationMessage.vue'
-import Login from '../pages/registration-and-onboarding/Login.vue'
+import RegistrationContainer from '../pages/registration-and-onboarding/registration/RegistrationContainer.vue'
 import OnboardingContainer from '../pages/registration-and-onboarding/onboarding/OnboardingContainer.vue'
 
 /* Forgot Password */
@@ -40,50 +38,32 @@ const routes = [
 		}
 	},
 	{
-		path: '/sign-up',
-		name: 'SignUp',
-		component: SignUp,
-		meta: { transition: 'slide-right-to-left' }
-	},
-	{
-		path: '/verification-message',
-		name: 'VerificationMessage',
-		component: VerificationMessage,
-		meta: { transition: 'slide-right-to-left' }
-	},
-	{
-		path: '/login',
-		name: 'Login',
-		component: Login,
+		path: '/registration',
+		component: RegistrationContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
 		path: '/onboarding',
-		name: 'Onboarding',
 		component: OnboardingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
 		path: '/forgot-password',
-		name: 'ForgotPassword',
 		component: ForgotPasswordContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
 		path: '/childminder-service',
-		name: 'ChildminderServiceContainer',
 		component: ChildminderServiceContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
 		path: '/host-nanny-home',
-		name: 'HostNannyHome',
 		component: HostNannyHome,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
 		path: '/host-nanny',
-		name: 'HostNannyContainer',
 		component: HostNannyContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},

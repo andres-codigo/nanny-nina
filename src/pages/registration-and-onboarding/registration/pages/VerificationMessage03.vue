@@ -1,5 +1,5 @@
 <script setup>
-import Mail from '../../assets/svg/mail/mail.vue'
+import Mail from '../../../../assets/svg/mail/mail.vue'
 </script>
 
 <template>

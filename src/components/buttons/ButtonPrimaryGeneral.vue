@@ -2,13 +2,11 @@
 	<button
 		type="submit"
 		:class="
-			['w-full inline-flex justify-center px-5 py-2 border border-transparent rounded-full shadow-sm text-lg font-medium hover:border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2',
+			['w-full justify-center py-2 rounded-full text-md font-light',
 			textColor,
 			backgroundColor,
 			textColorHover,
 			backgroundColorHover,
-			textColorActive,
-			backgroundColorActive,
 			textColorFocus,
 			backgroundColorFocus]
 		">{{ text }}</button>
@@ -22,8 +20,6 @@ export default {
 		backgroundColor: String,
 		textColorHover: String,
 		backgroundColorHover: String,
-		textColorActive: String,
-		backgroundColorActive: String,
 		textColorFocus: String,
 		backgroundColorFocus: String,
 	}

@@ -2,13 +2,13 @@
 	<button
 		type="submit"
 		class="
-			w-full justify-center
-			py-3
+			w-20 justify-center
+			py-1
 			rounded-full
-			text-md font-light text-white
-			bg-indigo-600
-			hover:bg-indigo-500
-			focus:bg-indigo-700
+			text-sm font-light text-black
+			border border-gray-400
+			hover:border-black
+			focus:border-indigo-500
 		">{{ text }}</button>
 </template>
 
