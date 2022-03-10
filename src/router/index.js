@@ -4,10 +4,7 @@ import Launch from '../pages/Launch.vue'
 import Dashboard from '../pages/_dashboard/Dashboard.vue'
 
 /* Registration/Onboarding */
-import Welcome from '../pages/registration-and-onboarding/registration/pages/Welcome01.vue'
-import SignUp from '../pages/registration-and-onboarding/SignUp.vue'
-import VerificationMessage from '../pages/registration-and-onboarding/VerificationMessage.vue'
-import Login from '../pages/registration-and-onboarding/Login.vue'
+import RegistrationContainer from '../pages/registration-and-onboarding/registration/RegistrationContainer.vue'
 import OnboardingContainer from '../pages/registration-and-onboarding/onboarding/OnboardingContainer.vue'
 
 /* Forgot Password */
@@ -41,27 +38,9 @@ const routes = [
 		}
 	},
 	{
-		path: '/welcome',
-		name: 'Welcome',
-		component: Welcome,
-		meta: { transition: 'slide-right-to-left' }
-	},
-	{
-		path: '/sign-up',
-		name: 'SignUp',
-		component: SignUp,
-		meta: { transition: 'slide-right-to-left' }
-	},
-	{
-		path: '/verification-message',
-		name: 'VerificationMessage',
-		component: VerificationMessage,
-		meta: { transition: 'slide-right-to-left' }
-	},
-	{
-		path: '/login',
-		name: 'Login',
-		component: Login,
+		path: '/registration',
+		name: 'RegistrationContainer',
+		component: RegistrationContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
