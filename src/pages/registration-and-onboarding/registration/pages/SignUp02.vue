@@ -1,5 +1,7 @@
 <script setup>
 import LinkCard from '../../../../components/cards/LinkCard.vue'
+import ButtonOutlineDark from '../../../../components/buttons/ButtonOutlineDark.vue'
+import ButtonOutlineDarkSmall from '../../../../components/buttons/ButtonOutlineDarkSmall.vue'
 </script>
 
 <template>
@@ -17,7 +19,9 @@ import LinkCard from '../../../../components/cards/LinkCard.vue'
 				<div class="flex items-center justify-center">
 					<div class="text-sm">
 						<span class="mr-2 font-thin">Already have an account?</span>
-						<button type="button" class="inline-flex items-center px-4 py-1 border border-black font-medium rounded-full text-black bg-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Sign in</button>
+						<ButtonOutlineDarkSmall text="Sign In" />
+						<!-- <ButtonOutlineDark text="Sign In" />
+						<button type="button" class="inline-flex items-center px-4 py-1 border border-black font-medium rounded-full text-black bg-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Sign in</button> -->
 					</div>
 				</div>
 			</div>

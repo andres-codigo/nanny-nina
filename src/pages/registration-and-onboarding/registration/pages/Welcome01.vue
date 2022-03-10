@@ -1,6 +1,6 @@
 <script setup>
 import ButtonSecondary from '../../../../components/buttons/ButtonSecondary.vue'
-import ButtonOutline from '../../../../components/buttons/ButtonOutline.vue'
+import ButtonOutlineLight from '../../../../components/buttons/ButtonOutlineLight.vue'
 </script>
 
 <template>
@@ -13,7 +13,7 @@ import ButtonOutline from '../../../../components/buttons/ButtonOutline.vue'
 						<ButtonSecondary text="Login" />
 					</div>
 					<div class="mt-2">
-						<ButtonOutline text="Sign Up" />
+						<ButtonOutlineLight text="Sign Up" />
 					</div>
 				</form>
 				<p class="pb-12 font-thin text-xs text-white text-center">We encourage everyone on our platform to visit our <span class="text-emerald-200 underline">Trust & Safety</span> and <span class="text-emerald-200 underline">Privacy Policy</span> to learn more about our commitment to keeping you safe</p>
