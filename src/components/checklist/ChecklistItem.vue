@@ -1,5 +1,5 @@
 <template>
-	<li class="h-24 w-80">
+	<li class="h-24">
 		<a href="#" class="block mb-2 bg-white rounded-md hover:bg-gray-200 hover:rounded-md">
 			<div class="px-4 py-4 flex items-center">
 				<div class="flex-1">
