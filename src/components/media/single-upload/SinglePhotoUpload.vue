@@ -1,5 +1,5 @@
 <script setup>
-import SingleUploadItem from './SingleUploadItem.vue'
+import SinglePhotoUploadItem from './SinglePhotoUploadItem.vue'
 </script>
 
 <template>
@@ -7,6 +7,6 @@ import SingleUploadItem from './SingleUploadItem.vue'
 	<h3	class="font-light">Preferably a smiling picture, if you have a pet or kid in it even better!</h3>
 
 	<div class="mt-10">
-		<SingleUploadItem />
+		<SinglePhotoUploadItem />
 	</div>
 </template>
