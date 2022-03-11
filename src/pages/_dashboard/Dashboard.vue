@@ -97,7 +97,7 @@ import ListItem from '../../components/_dashboard/ListItem.vue'
 							notes="Updated designs review"
 							date="10/03/2022"
 							routerLinkPath="/host-nanny"
-							title="Bio Form / Media Upload Photos"
+							title="Address Form / Media Upload Photos"
 							textColor="text-indigo-600"
 							textBadge="Design Review / UI Code Review"
 							textColorBadge="text-pink-800"
