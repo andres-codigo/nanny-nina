@@ -1,8 +1,8 @@
 <script setup>
-import Header from '../../../components/header/Header.vue'
-import ButtonPrimary from '../../../components/buttons/ButtonPrimary.vue'
-import ButtonGhost from '../../../components/buttons/ButtonGhost.vue'
-import InputField from '../../../components/form/InputField.vue'
+import Header from '../../../../components/header/Header.vue'
+import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
+import ButtonGhost from '../../../../components/buttons/ButtonGhost.vue'
+import InputField from '../../../../components/form/InputField.vue'
 </script>
 
 <template>

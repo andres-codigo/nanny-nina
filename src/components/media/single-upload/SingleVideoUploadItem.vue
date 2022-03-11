@@ -8,7 +8,7 @@
 				rounded-full
 				bg-indigo-100
 			">
-			<CameraIcon class="w-32 h-32 text-indigo-400" aria-hidden="true" />
+			<VideoCameraIcon class="w-32 h-32 text-indigo-400" aria-hidden="true" />
 			<button
 				class="
 					flex items-center justify-center
@@ -24,15 +24,15 @@
 			</button>
 		</span>
 	</div>
-	<p class="text-sm font-light text-center text-gray-500">Size limit 5MB</p>
+	<p class="text-sm font-light text-center text-gray-500">Size limit 8MB</p>
 </template>
 
 <script>
-import { CameraIcon,PlusIcon } from '@heroicons/vue/solid'
+import { VideoCameraIcon, PlusIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
-		CameraIcon,
+		VideoCameraIcon,
 		PlusIcon
 	}
 }

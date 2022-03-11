@@ -1,21 +1,22 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import Launch from '../pages/Launch.vue'
+import Launch from '../pages/01-registration-onboarding-forgot-password/Launch.vue'
 import Dashboard from '../pages/_dashboard/Dashboard.vue'
 
 /* Registration/Onboarding */
-import RegistrationContainer from '../pages/registration-and-onboarding/registration/RegistrationContainer.vue'
-import OnboardingContainer from '../pages/registration-and-onboarding/onboarding/OnboardingContainer.vue'
+import RegistrationContainer from '../pages/01-registration-onboarding-forgot-password/registration/RegistrationContainer.vue'
+import OnboardingContainer from '../pages/01-registration-onboarding-forgot-password/onboarding/OnboardingContainer.vue'
+import ForgotPasswordContainer from '../pages/01-registration-onboarding-forgot-password/forgot-password/ForgotPasswordContainer.vue'
 
-/* Forgot Password */
-import ForgotPasswordContainer from '../pages/forgot-password/ForgotPasswordContainer.vue'
+/* Worker - Childminder and Nanny */
+import ChildminderAndNannyContainer from '../pages/02-worker/childminder-and-nanny/ChildminderAndNannyContainer.vue'
 
-/* Onboarding */
-import ChildminderServiceContainer from '../pages/onboarding/childminder-service/ChildminderServiceContainer.vue'
+/* Worker - Nanny */
+import ServiceLaunchChecklistContainer from '../pages/02-worker/nanny/service-launch-and-checklist/ServiceLaunchChecklistContainer.vue'
 
 /* Host - Nanny */
-import HostNannyHome from '../pages/host/Home.vue'
-import HostNannyContainer from '../pages/host/nanny/HostNannyContainer.vue'
+import HostNannyHome from '../pages/03-host/Home.vue'
+import HostNannyContainer from '../pages/03-host/nanny/HostNannyContainer.vue'
 
 const routes = [
 	{
@@ -53,8 +54,13 @@ const routes = [
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/childminder-service',
-		component: ChildminderServiceContainer,
+		path: '/childminder-and-nanny',
+		component: ChildminderAndNannyContainer,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/nanny-service-launch-and-checklist',
+		component: ServiceLaunchChecklistContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
