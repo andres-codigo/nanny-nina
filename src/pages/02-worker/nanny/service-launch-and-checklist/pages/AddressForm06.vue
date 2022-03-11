@@ -7,7 +7,7 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
 <template>
 	<div class="h-full">
-		<TopNavigation routerLinkPath="/dashboard" text="Basic Information" />
+		<TopNavigation routerLinkPath="/dashboard" text="Nanny Form" />
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
 				<form action="#" method="POST">
