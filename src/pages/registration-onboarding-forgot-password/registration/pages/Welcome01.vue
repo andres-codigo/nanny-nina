@@ -16,7 +16,7 @@ import ButtonOutlineLight from '../../../../components/buttons/ButtonOutlineLigh
 						<ButtonOutlineLight text="Sign Up" />
 					</div>
 				</form>
-				<p class="pb-12 font-thin text-xs text-white text-center">We encourage everyone on our platform to visit our <span class="text-emerald-200 underline">Trust & Safety</span> and <span class="text-emerald-200 underline">Privacy Policy</span> to learn more about our commitment to keeping you safe</p>
+				<p class="pb-12 mx-4 font-thin text-xs text-white text-center">We encourage everyone on our platform to visit our <span class="text-emerald-200 underline">Trust & Safety</span> and <span class="text-emerald-200 underline">Privacy Policy</span> to learn more about our commitment to keeping you safe</p>
 			</div>
 		</main>
 	</div>
