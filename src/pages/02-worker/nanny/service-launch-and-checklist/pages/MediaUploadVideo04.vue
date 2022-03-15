@@ -5,7 +5,7 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 </script>
 
 <template>
-	<div class="h-full">
+	<div class="w-full h-full">
 		<TopNavigation routerLinkPath="/dashboard" text="Media Upload" hideIcon="true" />
 		<main>
 			<div class="flex flex-col pt-12 mx-4">

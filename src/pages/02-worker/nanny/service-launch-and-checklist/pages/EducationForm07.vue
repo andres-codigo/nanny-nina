@@ -8,7 +8,7 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 </script>
 
 <template>
-	<div class="h-full">
+	<div class="w-full h-full">
 		<TopNavigation routerLinkPath="/dashboard" text="Nanny Form" hideIcon="true" />
 		<main>
 			<div class="flex flex-col pt-6 mx-4">

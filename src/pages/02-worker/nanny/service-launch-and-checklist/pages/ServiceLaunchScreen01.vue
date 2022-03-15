@@ -5,7 +5,7 @@ import ButtonSecondary from '../../../../../components/buttons/ButtonSecondary.v
 </script>
 
 <template>
-	<div class="h-full bg-indigo-600">
+	<div class="w-full h-full bg-indigo-600">
 		<TopNavigation routerLinkPath="/dashboard" :hideHeader="true" :hideIcon="true" />
 		<main>
 			<div class="h-screen flex flex-col mx-4">
