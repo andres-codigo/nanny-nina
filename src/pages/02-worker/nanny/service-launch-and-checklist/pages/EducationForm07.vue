@@ -1,6 +1,7 @@
 <script setup>
 import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
 import Checkbox from '../../../../../components/form/Checkbox.vue'
+import CheckboxQuestion from '../../../../../components/form/CheckboxQuestion.vue'
 import SelectMenu from '../../../../../components/form/SelectMenu.vue'
 import InputFieldBorderBottomOnly from '../../../../../components/form/InputFieldBorderBottomOnly.vue'
 import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
@@ -50,13 +51,7 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 					<div class="mt-4 mb-8">
 						<h3 class="text-lg font-medium mb-4">Driver's License <span class=" text-gray-500">(optional)</span></h3>
 						<p class="text-sm font-thin mb-4">Do you have a driver's license?</p>
-						<fieldset>
-							<legend class="sr-only">Do you have a driver's license?</legend>
-							<div class="flex text-lg font-medium mb-2">
-								<div class="flex-none"><Checkbox text="Yes" /></div>
-								<div class="flex-none pl-8"><Checkbox text="No" /></div>
-							</div>
-						</fieldset>
+						<CheckboxQuestion screenReaderOnly="true" legend="Do you have a driver's license?" QuestionOneText="Yes" QuestionTwoText="No" />
 					</div>
 
 					<div class="mt-10">
