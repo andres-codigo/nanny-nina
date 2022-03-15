@@ -15,27 +15,27 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
 					<hr class="bg-gray-500 my-6" />
 
-					<h4>Tips:</h4>
+					<h4 class="mb-4">Tips:</h4>
 					<ul role="list">
-						<li class="py-1 flex items-center">
+						<li class="py-1 flex">
 							<CheckCircleIcon class="w-4 h-4 text-indigo-400" aria-hidden="true" />
 							<div class="ml-3">
 								<p class="text-sm font-medium text-gray-900">Keep it short. Maximum 2 minutes</p>
 							</div>
 						</li>
-						<li class="py-1 flex items-center">
+						<li class="py-1 flex">
 							<CheckCircleIcon class="w-4 h-4 text-indigo-400" aria-hidden="true" />
 							<div class="ml-3">
 								<p class="text-sm font-medium text-gray-900">Smile, make it personal. A funny detail works great</p>
 							</div>
 						</li>
-						<li class="py-1 flex items-center">
+						<li class="py-1 flex">
 							<CheckCircleIcon class="w-4 h-4 text-indigo-400" aria-hidden="true" />
 							<div class="ml-3">
 								<p class="text-sm font-medium text-gray-900">Introduce yourself  and why you’ve chosen this</p>
 							</div>
 						</li>
-						<li class="py-1 flex items-center">
+						<li class="py-1 flex">
 							<CheckCircleIcon class="w-4 h-4 text-indigo-400" aria-hidden="true" />
 							<div class="ml-3">
 								<p class="text-sm font-medium text-gray-900">Remember to share your experience with children</p>
@@ -45,7 +45,7 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
 					<div class="mt-20">
 						<div class="my-6">
-							<ButtonPrimary text="Save &amp; Continue" />
+							<ButtonPrimary text="Upload &amp; Continue" />
 						</div>
 					</div>
 				</form>

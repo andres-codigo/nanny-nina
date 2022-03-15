@@ -19,7 +19,7 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
 					<div class="mt-20">
 						<div class="my-6">
-							<ButtonPrimary text="Save &amp; Continue" />
+							<ButtonPrimary text="Upload &amp; Continue" />
 						</div>
 					</div>
 				</form>

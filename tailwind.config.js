@@ -100,6 +100,7 @@ module.exports = {
 				'450-for-dev-not-prod': '450px',
 			},
 			maxWidth: {
+				'360-for-dev-not-prod': '360px',
 				'450-for-dev-not-prod': '450px'
 			}
 		},

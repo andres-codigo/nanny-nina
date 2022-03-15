@@ -9,13 +9,13 @@ import EducationForm07 from './pages/EducationForm07.vue'
 </script>
 
 <template>
-	<div class="flex flex-wrap grow gap-y-6 sm:gap-x-4 w-full h-full">
-		<ServiceLaunchScreen01 class="min-w-360-for-dev-not-prod max-w-450-for-dev-not-prod" />
-		<Checklist02 class="min-w-450-for-dev-not-prod max-w-450-for-dev-not-prod" />
-		<MediaUploadPhoto03 class="min-w-360-for-dev-not-prod max-w-450-for-dev-not-prod" />
-		<MediaUploadVideo04 class="min-w-450-for-dev-not-prod max-w-450-for-dev-not-prod" />
-		<ResidenceCardOrID05 class="min-w-450-for-dev-not-prod max-w-450-for-dev-not-prod" />
-		<AddressForm06 class="min-w-450-for-dev-not-prod max-w-450-for-dev-not-prod" />
-		<EducationForm07 class="min-w-450-for-dev-not-prod max-w-450-for-dev-not-prod" />
+	<div class="flex flex-wrap grow gap-y-6 gap-x-4">
+		<ServiceLaunchScreen01 class="min-w-360-for-dev-not-prod max-w-360-for-dev-not-prod" />
+		<Checklist02 class="min-w-360-for-dev-not-prod max-w-360-for-dev-not-prod" />
+		<MediaUploadPhoto03 class="min-w-360-for-dev-not-prod max-w-360-for-dev-not-prod" />
+		<MediaUploadVideo04 class="min-w-360-for-dev-not-prod max-w-360-for-dev-not-prod" />
+		<ResidenceCardOrID05 class="min-w-360-for-dev-not-prod max-w-360-for-dev-not-prod" />
+		<AddressForm06 class="min-w-360-for-dev-not-prod max-w-360-for-dev-not-prod" />
+		<EducationForm07 class="min-w-360-for-dev-not-prod max-w-360-for-dev-not-prod" />
 	</div>
 </template>

@@ -19,7 +19,7 @@ import ButtonDisabled from '../../../../../components/buttons/ButtonDisabled.vue
 
 					<div class="mt-20">
 						<div class="my-6">
-							<ButtonDisabled text="Submit" />
+							<ButtonDisabled text="Upload &amp; Continue" />
 						</div>
 					</div>
 				</form>

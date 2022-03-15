@@ -12,7 +12,7 @@
 					rounded-full
 					bg-indigo-100
 				">
-				<UserIcon class="w-32 h-32 text-indigo-400" aria-hidden="true" />
+				<DocumentTextIcon class="w-32 h-32 text-indigo-400" aria-hidden="true" />
 				<button
 					class="
 						flex items-center justify-center
@@ -33,11 +33,12 @@
 </template>
 
 <script>
-import { UserIcon, PlusIcon } from '@heroicons/vue/solid'
+import { UserIcon, DocumentTextIcon, PlusIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
 		UserIcon,
+		DocumentTextIcon,
 		PlusIcon
 	}
 }
