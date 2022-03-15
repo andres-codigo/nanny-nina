@@ -104,12 +104,11 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 </template>
 
 <script>
-import { PlusIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
+import { PlusIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
-		PlusIcon,
-		QuestionMarkCircleIcon
+		PlusIcon
 	}
 }
 </script>

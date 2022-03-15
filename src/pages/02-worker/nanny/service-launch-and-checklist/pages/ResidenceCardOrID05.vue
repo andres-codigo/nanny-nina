@@ -27,13 +27,3 @@ import ButtonDisabled from '../../../../../components/buttons/ButtonDisabled.vue
 		</main>
 	</div>
 </template>
-
-<script>
-import { CheckCircleIcon } from '@heroicons/vue/solid'
-
-export default {
-	components: {
-		CheckCircleIcon
-	}
-}
-</script>

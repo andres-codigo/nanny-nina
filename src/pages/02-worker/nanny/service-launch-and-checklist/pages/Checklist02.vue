@@ -26,13 +26,3 @@ import ButtonDisabled from '../../../../../components/buttons/ButtonDisabled.vue
 		</main>
 	</div>
 </template>
-
-<script>
-import { ChevronRightIcon } from '@heroicons/vue/solid'
-
-export default {
-	components: {
-		ChevronRightIcon,
-	},
-}
-</script>
