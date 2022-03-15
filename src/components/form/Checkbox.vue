@@ -1,6 +1,6 @@
 <template>
 	<div class="relative flex items-start py-2">
-		<div class="min-w-0 flex-1 text-base">
+		<div class="min-w-0 flex-1 text-sm">
 			<label for="checkbox" class="font-light text-gray-700">{{ text }}</label>
 		</div>
 		<div class="ml-3 flex items-center h-5">

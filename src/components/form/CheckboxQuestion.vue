@@ -5,7 +5,7 @@ import Checkbox from './Checkbox.vue'
 <template>
 	<fieldset>
 		<legend :class="screenReaderOnly ? 'sr-only' : ''">{{ legend }}</legend>
-		<div class="flex text-lg font-medium mb-2">
+		<div class="flex font-medium mb-2">
 			<div class="flex-none"><Checkbox :text="QuestionOneText" /></div>
 			<div class="flex-none pl-8"><Checkbox :text="QuestionTwoText" /></div>
 		</div>

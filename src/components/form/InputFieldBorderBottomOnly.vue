@@ -11,7 +11,7 @@
 			:value="value"
 			class="
 				block w-full
-				py-3
+				py-3 px-0
 				border-0 border-b border-transparent
 				focus:border-b-indigo-600 focus:ring-0"
 			>

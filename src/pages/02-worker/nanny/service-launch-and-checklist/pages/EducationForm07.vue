@@ -36,7 +36,7 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 							<div class="flex-none">Other Certifications</div>
 							<div class="flex-none inline-flex justify-center items-center pl-8"><QuestionMarkCircleIcon class="w-6 h-6 text-indigo-500" aria-hidden="true" /></div>
 						</div>
-						<h3	class="text-sm font-thin">Please specify other relevant qualification(s)</h3>
+						<h3	class="text-sm font-thin mb-4">Please specify other relevant qualification(s)</h3>
 
 						<div class="flex">
 							<div class="grow h-14">
