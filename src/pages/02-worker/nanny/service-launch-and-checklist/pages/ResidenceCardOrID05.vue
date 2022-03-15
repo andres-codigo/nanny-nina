@@ -7,7 +7,7 @@ import ButtonDisabled from '../../../../../components/buttons/ButtonDisabled.vue
 
 <template>
 	<div class="h-full">
-		<TopNavigation routerLinkPath="/dashboard" text="Media Upload" />
+		<TopNavigation routerLinkPath="/dashboard" text="Media Upload" hideIcon="true" />
 		<main>
 			<div class="flex flex-col pt-12 mx-4">
 				<form action="#" method="POST">
