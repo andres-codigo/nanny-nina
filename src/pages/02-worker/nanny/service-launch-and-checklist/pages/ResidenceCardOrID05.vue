@@ -7,7 +7,7 @@ import ButtonDisabled from '../../../../../components/buttons/ButtonDisabled.vue
 
 <template>
 	<div class="h-full">
-		<TopNavigation routerLinkPath="/dashboard" text="Media Upload" />
+		<TopNavigation routerLinkPath="/dashboard" text="Media Upload" hideIcon="true" />
 		<main>
 			<div class="flex flex-col pt-12 mx-4">
 				<form action="#" method="POST">
@@ -19,7 +19,7 @@ import ButtonDisabled from '../../../../../components/buttons/ButtonDisabled.vue
 
 					<div class="mt-20">
 						<div class="my-6">
-							<ButtonDisabled text="Submit" />
+							<ButtonDisabled text="Upload &amp; Continue" />
 						</div>
 					</div>
 				</form>
@@ -27,13 +27,3 @@ import ButtonDisabled from '../../../../../components/buttons/ButtonDisabled.vue
 		</main>
 	</div>
 </template>
-
-<script>
-import { CheckCircleIcon } from '@heroicons/vue/solid'
-
-export default {
-	components: {
-		CheckCircleIcon
-	}
-}
-</script>

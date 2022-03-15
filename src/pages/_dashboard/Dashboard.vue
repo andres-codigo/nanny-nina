@@ -64,8 +64,8 @@ import ListItem from '../../components/_dashboard/ListItem.vue'
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
 							:subItem="true"
-							routerLinkPath="/nanny-service-launch-and-checklist"
-							title="Service Launch &amp; Checklist Workflow"
+							routerLinkPath="/nanny-service-launch-checklist-onboarding"
+							title="Service Launch, Checklist &amp; Onboarding Workflow"
 							textColor="text-indigo-600"
 							textBadge="In Progress"
 							textColorBadge="text-amber-800"

@@ -12,7 +12,7 @@ import ForgotPasswordContainer from '../pages/01-registration-onboarding-forgot-
 import ChildminderAndNannyContainer from '../pages/02-worker/childminder-and-nanny/ChildminderAndNannyContainer.vue'
 
 /* Worker - Nanny */
-import ServiceLaunchChecklistContainer from '../pages/02-worker/nanny/service-launch-and-checklist/ServiceLaunchChecklistContainer.vue'
+import ServiceLaunchChecklistOnboardingContainer from '../pages/02-worker/nanny/service-launch-and-checklist/ServiceLaunchChecklistOnboardingContainer.vue'
 
 /* Host - Nanny */
 import HostNannyHome from '../pages/03-host/Home.vue'
@@ -59,8 +59,8 @@ const routes = [
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/nanny-service-launch-and-checklist',
-		component: ServiceLaunchChecklistContainer,
+		path: '/nanny-service-launch-checklist-onboarding',
+		component: ServiceLaunchChecklistOnboardingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{

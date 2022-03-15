@@ -7,7 +7,7 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
 <template>
 	<div class="h-full">
-		<TopNavigation routerLinkPath="/dashboard" text="Media Upload" />
+		<TopNavigation routerLinkPath="/dashboard" text="Media Upload" hideIcon="true" />
 		<main>
 			<div class="flex flex-col pt-12 mx-4">
 				<form action="#" method="POST">
@@ -19,7 +19,7 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
 					<div class="mt-20">
 						<div class="my-6">
-							<ButtonPrimary text="Save &amp; Continue" />
+							<ButtonPrimary text="Upload &amp; Continue" />
 						</div>
 					</div>
 				</form>

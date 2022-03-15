@@ -1,7 +1,7 @@
 <script setup>
 import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
-import ButtonSecondary from '../../../../../components/buttons/ButtonSecondary.vue'
 import ButtonOutlineLight from '../../../../../components/buttons/ButtonOutlineLight.vue'
+import ButtonSecondary from '../../../../../components/buttons/ButtonSecondary.vue'
 </script>
 
 <template>
