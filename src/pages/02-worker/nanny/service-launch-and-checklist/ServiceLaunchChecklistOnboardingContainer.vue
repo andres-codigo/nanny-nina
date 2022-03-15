@@ -7,6 +7,7 @@ import ResidenceCardOrID05 from './pages/ResidenceCardOrID05.vue'
 import AddressForm06 from './pages/AddressForm06.vue'
 import EducationForm07 from './pages/EducationForm07.vue'
 import HealthAndSafetyForm08 from './pages/HealthAndSafetyForm08.vue'
+import ReferenceForm09 from './pages/ReferenceForm09.vue'
 </script>
 
 <template>
@@ -19,5 +20,6 @@ import HealthAndSafetyForm08 from './pages/HealthAndSafetyForm08.vue'
 		<AddressForm06 class="min-w-360-for-dev-not-prod max-w-360-for-dev-not-prod" />
 		<EducationForm07 class="min-w-360-for-dev-not-prod max-w-360-for-dev-not-prod" />
 		<HealthAndSafetyForm08 class="min-w-360-for-dev-not-prod max-w-360-for-dev-not-prod" />
+		<ReferenceForm09 class="min-w-360-for-dev-not-prod max-w-360-for-dev-not-prod" />
 	</div>
 </template>
