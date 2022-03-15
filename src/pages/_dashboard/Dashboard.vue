@@ -8,7 +8,7 @@ import ListItem from '../../components/_dashboard/ListItem.vue'
 			<h1 class="pl-4 py-4 text-xl font-medium text-black">Dashboard</h1>
 			<nav class="h-full overflow-y-auto" aria-label="Directory">
 				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 px-4 py-4 text-sm font-medium text-gray-500">
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 px-4 py-4 text-sm font-medium text-gray-600">
 						<h3><span class="font-bold">Workers & Host:</span></h3>
 						<p>Registration / Onboarding / Forgot Password</p>
 					</div>
@@ -39,7 +39,7 @@ import ListItem from '../../components/_dashboard/ListItem.vue'
 					</ul>
 				</div>
 				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 px-4 py-4 text-sm font-medium text-gray-500">
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 px-4 py-4 text-sm font-medium text-gray-600">
 						<h3><span class="font-bold">Workers:</span></h3>
 						<p>Childminder &amp; Nanny</p>
 					</div>
@@ -58,7 +58,7 @@ import ListItem from '../../components/_dashboard/ListItem.vue'
 					</ul>
 				</div>
 				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-16 pr-4 py-4 text-sm font-medium text-gray-500">
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-16 pr-4 py-4 text-sm font-medium text-gray-600">
 						<h3><span class="font-bold">Nanny</span> </h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
@@ -74,7 +74,7 @@ import ListItem from '../../components/_dashboard/ListItem.vue'
 					</ul>
 				</div>
 				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 px-4 py-4 text-sm font-medium text-gray-500">
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 px-4 py-4 text-sm font-medium text-gray-600">
 						<h3><span class="font-bold">Host:</span></h3>
 						<p>Childminder &amp; Nanny</p>
 					</div>
