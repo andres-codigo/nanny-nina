@@ -1,3 +1,4 @@
+<!-- TODO: bg colour for default, hover & focus -->
 <template>
 	<button
 		type="submit"

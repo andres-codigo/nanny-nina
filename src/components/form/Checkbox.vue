@@ -1,3 +1,4 @@
+<!-- TODO: focus behavior for checkbox -->
 <template>
 	<div class="relative flex items-start py-2">
 		<div class="min-w-0 flex-1 text-sm">
@@ -12,8 +13,9 @@
 				class="
 					rounded-full
 					h-5 w-5
-					text-indigo-600
-					focus:ring-indigo-500
+					text-blue-500
+					 checked:ring-1 checked:ring-offset-2 checked:ring-gray-400
+					focus:ring-gray-400
 					border-2 border-gray-400
 				">
 		</div>

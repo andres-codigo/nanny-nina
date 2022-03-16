@@ -1,3 +1,4 @@
+<!-- TODO: bg colour for default, hover & focus... overall look of page too -->
 <template>
 	<li class="h-24">
 		<a href="#" class="block mb-2 bg-white rounded-md hover:bg-gray-200 hover:rounded-md">

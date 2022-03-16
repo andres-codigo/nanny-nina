@@ -1,3 +1,4 @@
+<!-- TODO: bg colour and text for all states -->
 <template>
 	<button
 		class="
@@ -5,9 +6,9 @@
 			relative
 			h-44 w-32
 			rounded-lg
-			text-indigo-500
-			bg-indigo-100
-			hover:border-transparent hover:text-indigo-400 hover:bg-indigo-200
+			text-purple-500
+			bg-purple-100
+			hover:border-transparent hover:text-purple-400 hover:bg-purple-200
 			focus:outline-none focus:ring-2 focus:ring-offset-2">
 		<span class="flex items-center justify-center h-12 w-12">
 			<PlusIcon class="w-8 h-8" aria-hidden="true" />
