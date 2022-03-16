@@ -1,5 +1,5 @@
 <template>
-	<h5 class="mb-2 text-left text-2xl font-normal text-gray-900">Residence Card/ID (Front)</h5>
+	<h5 class="mb-2 text-left text-header-five font-normal text-gray-900">Residence Card/ID (Front)</h5>
 	<p	class="text-sm font-light">Please upload the front of your permit/ID card</p>
 
 	<div class="mt-10">

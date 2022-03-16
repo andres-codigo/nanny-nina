@@ -17,7 +17,7 @@ import Image from './Image.vue'
 		<div class="h-40 bg-white rounded-b-3xl drop-shadow-md ">
 			<div class="flex flex-row">
 				<div class="basis-1/2 mt-4 ml-4">
-					<h4 class="antialiased text-3xl">{{ user }}</h4>
+					<h4 class="antialiased text-header-four">{{ user }}</h4>
 				</div>
 				<div :class="['basis-1/2 mt-4 mr-4 text-right', !showCompletionSteps ? 'hidden sm:hidden' : '']">
 					<span class="text-xs text-gray-500 font-light">0/5 steps completed</span>

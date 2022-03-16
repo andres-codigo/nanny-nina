@@ -12,11 +12,11 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
 				<form action="#" method="POST">
-					<h5 class="my-6 text-left text-2xl font-normal text-gray-900">Health and Safety Documents</h5>
+					<h5 class="my-6 text-left text-header-five font-normal text-gray-900">Health and Safety Documents</h5>
 
 					<div class="mt-4 mb-16">
 						<div class="mb-2">
-							<h6 class="text-lg font-medium mb-4">Personal Health</h6>
+							<h6 class="text-header-six font-medium mb-4">Personal Health</h6>
 							<p class="text-sm font-thin mb-4">Do you have any health conditions?</p>
 							<CheckboxQuestion screenReaderOnly="true" legend="Do you have any health conditions?" QuestionOneText="Yes" QuestionTwoText="No" />
 						</div>
@@ -37,7 +37,7 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
 					<div class="mt-4 mb-16">
 						<div class="mb-8">
-							<h6 class="text-lg font-medium mb-4">Allergies</h6>
+							<h6 class="text-header-six font-medium mb-4">Allergies</h6>
 							<p class="text-sm font-thin mb-4">Do you have any allergies?</p>
 							<CheckboxQuestion screenReaderOnly="true" legend="Do you have any allergies?" QuestionOneText="Yes" QuestionTwoText="No" />
 						</div>
@@ -58,7 +58,7 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
 					<div class="mt-4 mb-16">
 						<div class="mb-8">
-							<h6 class="text-lg font-medium mb-4">Safety Document</h6>
+							<h6 class="text-header-six font-medium mb-4">Safety Document</h6>
 							<p class="text-sm font-thin mb-4">Are you First Aid certified?</p>
 							<CheckboxQuestion screenReaderOnly="true" legend="Are you First Aid certified?" QuestionOneText="Yes" QuestionTwoText="No" />
 						</div>
@@ -77,7 +77,7 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
 					<div class="mt-4 mb-16">
 						<div class="mb-4">
-							<h6 class="text-lg font-medium mb-4">Other Relevant Safety Qualifications</h6>
+							<h6 class="text-header-six font-medium mb-4">Other Relevant Safety Qualifications</h6>
 							<p class="text-sm font-thin mb-4">Please specify other relevant qualifications?</p>
 						</div>
 

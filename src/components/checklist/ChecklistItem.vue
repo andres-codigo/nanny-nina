@@ -8,7 +8,7 @@
 						<p class="font-thin text-gray-500">Pending (0/2)</p>
 					</div>
 					<div class="flex">
-						<h5 class="mt-2 text-left text-2xl font-medium text-gray-900">{{ text }}</h5>
+						<h5 class="mt-2 text-left text-header-five font-medium text-gray-900">{{ text }}</h5>
 					</div>
 				</div>
 				<div class="ml-5 flex-shrink-0">

@@ -11,7 +11,7 @@ import Mail from '../../../../assets/svg/mail/mail.vue'
 		</header>
 		<main>
 			<div class="min-h-full flex flex-col justify-center">
-				<h2 class="mb-6 text-center text-6xl font-medium text-green-500">Check your mail</h2>
+				<h1 class="mb-6 text-center text-header-one font-medium text-green-500">Check your mail</h1>
 				<div class="flex items-center justify-center mx-8">
 					<p class="font-light text-white text-center">We've sent a verification link to your mail, please click this link to login</p>
 				</div>

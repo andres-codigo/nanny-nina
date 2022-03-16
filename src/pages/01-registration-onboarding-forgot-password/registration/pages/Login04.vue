@@ -10,7 +10,7 @@ import Google from '../../../../assets/svg/other/google.vue'
 		<Header />
 		<main>
 			<div class="min-h-full flex flex-col justify-center py-12 mx-4 mt-8">
-				<h4 class="my-6 text-left text-3xl font-normal text-gray-900">Login</h4>
+				<h4 class="my-6 text-left text-header-four font-normal text-gray-900">Login</h4>
 				<form class="" action="#" method="POST">
 					<div class="m-0">
 						<InputField text="Email Address" />

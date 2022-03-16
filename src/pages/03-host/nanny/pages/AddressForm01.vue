@@ -11,28 +11,29 @@ import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
 				<form action="#" method="POST">
-					<h5 class="my-6 text-left text-2xl font-normal text-gray-900">Let's get to know each other</h5>
+					<h5 class="my-6 text-left text-header-five font-normal text-gray-900">Let's get to know each other</h5>
 
 					<div class="my-16">
 						<span class="inline-block font-light">When do you live?</span>
+
 						<div class="mt-4 grid grid-cols-2 gap-y-6 gap-x-2">
 							<div><InputField text="Country" /></div>
 							<div><InputField text="Postcode" /></div>
 						</div>
 
-						<div class="mt-6">
+						<!-- <div class="mt-6">
 							<InputField text="Number, Home address" />
-						</div>
+						</div> -->
 
-						<div class="mt-6 grid grid-cols-2 gap-y-6 gap-x-2">
+						<!-- <div class="mt-6 grid grid-cols-2 gap-y-6 gap-x-2">
 							<div><InputField text="Province" /></div>
 							<div><InputField text="State/City" /></div>
-						</div>
+						</div> -->
 					</div>
 
 					<div class="mt-10">
 						<div class="my-6">
-							<ButtonPrimary text="Save &amp; Continue" />
+							<!-- <ButtonPrimary text="Save &amp; Continue" /> -->
 						</div>
 					</div>
 				</form>
