@@ -1,8 +1,8 @@
 <script setup>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
-import Front from '../../../../../components/media/identification/Front.vue'
-import Back from '../../../../../components/media/identification/Back.vue'
-import ButtonDisabled from '../../../../../components/buttons/ButtonDisabled.vue'
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import Front from '../../../../../../components/media/identification/Front.vue'
+import Back from '../../../../../../components/media/identification/Back.vue'
+import ButtonDisabled from '../../../../../../components/buttons/ButtonDisabled.vue'
 </script>
 
 <template>

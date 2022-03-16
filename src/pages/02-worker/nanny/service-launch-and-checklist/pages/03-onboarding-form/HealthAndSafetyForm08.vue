@@ -1,9 +1,9 @@
 <script setup>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
-import CheckboxQuestion from '../../../../../components/form/CheckboxQuestion.vue'
-import InputFieldBorderBottomOnly from '../../../../../components/form/InputFieldBorderBottomOnly.vue'
-import ButtonOutlineDark from '../../../../../components/buttons/ButtonOutlineDark.vue'
-import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import CheckboxQuestion from '../../../../../../components/form/CheckboxQuestion.vue'
+import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
+import ButtonOutlineDark from '../../../../../../components/buttons/ButtonOutlineDark.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 </script>
 
 <template>

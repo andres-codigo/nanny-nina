@@ -1,7 +1,7 @@
 <script setup>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
-import SingleVideoUpload from '../../../../../components/media/single-upload/SingleVideoUpload.vue'
-import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import SingleVideoUpload from '../../../../../../components/media/single-upload/SingleVideoUpload.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 </script>
 
 <template>

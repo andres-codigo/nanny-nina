@@ -1,10 +1,10 @@
 <script setup>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
-import Checkbox from '../../../../../components/form/Checkbox.vue'
-import SelectMenu from '../../../../../components/form/SelectMenu.vue'
-import CheckboxQuestion from '../../../../../components/form/CheckboxQuestion.vue'
-import InputFieldBorderBottomOnly from '../../../../../components/form/InputFieldBorderBottomOnly.vue'
-import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import Checkbox from '../../../../../../components/form/Checkbox.vue'
+import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
+import CheckboxQuestion from '../../../../../../components/form/CheckboxQuestion.vue'
+import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 </script>
 
 <template>
