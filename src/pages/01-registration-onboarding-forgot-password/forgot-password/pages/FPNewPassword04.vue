@@ -17,7 +17,7 @@ import InputField from '../../../../components/form/InputField.vue'
 					</div>
 
 					<div class="m-0 h-28">
-						<InputField text="Retype Password" type="password" />
+						<InputField text="Retype Password" type="text" />
 					</div>
 
 					<div class="mt-10">
