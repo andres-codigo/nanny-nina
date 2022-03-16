@@ -17,25 +17,25 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 					<h4 class="mb-4">Tips:</h4>
 					<ul role="list">
 						<li class="py-1 flex">
-							<CheckCircleIcon class="w-4 h-4 text-indigo-400" aria-hidden="true" />
+							<CheckCircleIcon class="w-4 h-4 text-blue-500" aria-hidden="true" />
 							<div class="ml-3">
 								<p class="text-sm font-medium text-gray-900">Keep it short. Maximum 2 minutes</p>
 							</div>
 						</li>
 						<li class="py-1 flex">
-							<CheckCircleIcon class="w-4 h-4 text-indigo-400" aria-hidden="true" />
+							<CheckCircleIcon class="w-4 h-4 text-blue-500" aria-hidden="true" />
 							<div class="ml-3">
 								<p class="text-sm font-medium text-gray-900">Smile, make it personal. A funny detail works great</p>
 							</div>
 						</li>
 						<li class="py-1 flex">
-							<CheckCircleIcon class="w-4 h-4 text-indigo-400" aria-hidden="true" />
+							<CheckCircleIcon class="w-4 h-4 text-blue-500" aria-hidden="true" />
 							<div class="ml-3">
 								<p class="text-sm font-medium text-gray-900">Introduce yourself  and why you’ve chosen this</p>
 							</div>
 						</li>
 						<li class="py-1 flex">
-							<CheckCircleIcon class="w-4 h-4 text-indigo-400" aria-hidden="true" />
+							<CheckCircleIcon class="w-4 h-4 text-blue-500" aria-hidden="true" />
 							<div class="ml-3">
 								<p class="text-sm font-medium text-gray-900">Remember to share your experience with children</p>
 							</div>
