@@ -13,12 +13,12 @@ module.exports = {
 				'xs': ['0.75rem', '1.25rem'], /* 12px */
 				'sm': ['0.875rem', '1.2rem'], /* 14px */
       			'base': ['1rem', '1.4rem'], /* 16px */
-				'xl': ['1.125rem', '1.4rem'], /* 18px, for use with H6 */
-				'2xl': ['1.313rem', '1.4rem'], /* 21px, for use with H5 */
-				'3xl': ['1.5rem', '1.4rem'], /* 24px, for use with H4 */
-				'4xl': ['1.75rem', '1.4rem'], /* 28px, for use with H3 */
-				'5xl': ['2rem', '1.4rem'], /* 32px, for use with H2 */
-				'6xl': ['2.25rem', '1.4rem'], /* 36px, for use with H1 */
+				'xl': ['1.125rem', '1.4rem'], /* 18px - H6 */
+				'2xl': ['1.313rem', '1.4rem'], /* 21px - H5 */
+				'3xl': ['1.5rem', '1.4rem'], /* 24px - H4 */
+				'4xl': ['1.75rem', '1.4rem'], /* 28px - H3 */
+				'5xl': ['2rem', '1.4rem'], /* 32px - H2 */
+				'6xl': ['2.25rem', '1.4rem'], /* 36px - H1 */
 			},
 			spacing: {
 				"safe-top": "env(safe-area-inset-top)",

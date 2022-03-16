@@ -7,8 +7,8 @@ import Image from './Image.vue'
 	<div class="flex pb-8">
 		<router-link :to="'/' + to" :class="class" class="inline-flex grow relative h-60 px-6 pt-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2">
 			<div>
-				<h1 class="text-2xl font-semibold antialiased">{{ title }}</h1>
-				<p class="font-thin text-sm">{{ content }}</p>
+				<h2 class="text-2xl font-semibold antialiased">{{ title }}</h2>
+				<p class="font-thin text-base">{{ content }}</p>
 			</div>
 
 			<!--
