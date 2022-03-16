@@ -5,10 +5,12 @@
 			w-20 justify-center
 			py-1
 			rounded-full
-			text-sm font-light text-black
+			text-sm font-semibold text-black
+			antialiased
 			border border-gray-400
 			hover:border-black
-			focus:border-indigo-500
+			focus:border-purple-500
+			focus:text-purple-500
 		">{{ text }}</button>
 </template>
 

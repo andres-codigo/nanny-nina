@@ -2,8 +2,14 @@
 	<button
 		type="submit"
 		class="
-			px-5 py-2
-			text-lg font-medium underline hover:no-underline"
+			w-full justify-center
+			py-3
+			rounded-full
+			text-md font-semibold text-black
+			antialiased
+			no-underline
+			hover:underline hover:bg-gray-600
+			focus:bg-white"
 		>{{ text }}</button>
 </template>
 

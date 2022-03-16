@@ -5,10 +5,11 @@
 			w-full justify-center
 			py-3
 			rounded-full
-			text-md font-light text-white
-			bg-indigo-600
-			hover:bg-indigo-500
-			focus:bg-indigo-700
+			text-md font-semibold text-white
+			antialiased
+			bg-blue-500
+			hover:bg-blue-600
+			focus:bg-blue-400
 		">{{ text }}</button>
 </template>
 
