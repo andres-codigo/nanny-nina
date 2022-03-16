@@ -17,7 +17,7 @@ module.exports = {
 				'2xl': ['1.313rem', '1.4rem'], /* 21px - H5 */
 				'3xl': ['1.5rem', '1.4rem'], /* 24px - H4 */
 				'4xl': ['1.75rem', '1.4rem'], /* 28px - H3 */
-				'5xl': ['2rem', '1.4rem'], /* 32px - H2 */
+				'5xl': ['2rem', '2.4rem'], /* 32px - H2 */
 				'6xl': ['2.25rem', '1.4rem'], /* 36px - H1 */
 			},
 			spacing: {

@@ -10,8 +10,8 @@ import ButtonSecondary from '../../../../../components/buttons/ButtonSecondary.v
 		<main>
 			<div class="h-screen flex flex-col mx-4">
 				<div class="mt-16 mx-9">
-					<h2 class="mb-6 text-3xl font-medium text-green-500 text-center">Ready to start your Nanny journey?</h2>
-					<p class="font-thin text-xs text-white text-center">Let's get you setup!</p>
+					<h2 class="mb-6 text-5xl font-medium text-green-500 text-center">Ready to start your Nanny journey?</h2>
+					<p class="font-thin text-white text-center">Let's get you setup!</p>
 				</div>
 				<div class="flex items-center justify-center">
 					<!--
@@ -27,7 +27,7 @@ import ButtonSecondary from '../../../../../components/buttons/ButtonSecondary.v
 					<div class="mt-2">
 						<ButtonSecondary text="Get Started" />
 					</div>
-					<p class="mt-8 font-thin text-sm text-white text-center"><span class="text-green-200 underline">Learn more about being a Nanny</span></p>
+					<p class="mt-8 font-thin text-white text-center"><span class="text-green-200 underline">Learn more about being a Nanny</span></p>
 				</div>
 			</div>
 		</main>

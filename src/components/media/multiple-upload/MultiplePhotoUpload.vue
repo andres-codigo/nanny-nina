@@ -3,8 +3,8 @@ import MultipleUploadItem from './MultipleUploadItem.vue'
 </script>
 
 <template>
-	<h2 class="mb-2 text-left text-2xl font-normal text-gray-900">Upload more pictures</h2>
-	<h3	h3 class="font-light">Add more pictures of you with kids/home</h3>
+	<h5 class="mb-2 text-left text-2xl font-normal text-gray-900">Upload more pictures</h5>
+	<p class="text-sm font-light">Add more pictures of you with kids/home</p>
 
 	<div class="mt-7">
 		<div class="flex flex-nowrap items-center justify-center gap-3 mb-6">

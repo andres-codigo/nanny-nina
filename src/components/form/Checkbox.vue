@@ -1,7 +1,7 @@
 <!-- TODO: focus behavior for checkbox -->
 <template>
 	<div class="relative flex items-start py-2">
-		<div class="min-w-0 flex-1 text-sm">
+		<div class="min-w-0 flex-1">
 			<label for="checkbox" class="font-light text-gray-700">{{ text }}</label>
 		</div>
 		<div class="ml-3 flex items-center h-5">
