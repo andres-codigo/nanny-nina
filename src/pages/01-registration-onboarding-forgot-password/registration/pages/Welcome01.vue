@@ -9,7 +9,7 @@ import ButtonOutlineLight from '../../../../components/buttons/ButtonOutlineLigh
 		<main>
 			<div class="h-screen flex flex-col items-center justify-center mx-4">
 				<form class="mt-32 mb-40" action="#" method="POST">
-					<h2 class="mx-5 text-center text-2xl font-normal text-green-500">Safe &amp; Affordable childcare for every family</h2>
+					<h2 class="mx-5 text-center text-header-two font-normal text-green-500">Safe &amp; Affordable childcare for every family</h2>
 					<div class="mt-24">
 						<ButtonSecondary text="Login" />
 					</div>

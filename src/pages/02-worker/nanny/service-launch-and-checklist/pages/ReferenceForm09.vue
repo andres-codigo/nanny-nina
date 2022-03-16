@@ -11,26 +11,29 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
 				<form action="#" method="POST">
-					<h2 class="my-6 text-left text-2xl font-normal text-gray-900">Reference Check</h2>
+					<h5 class="my-6 text-left text-header-five font-normal text-gray-900">Reference Check</h5>
 
 					<div class="mt-4 mb-16">
 						<div class="mb-2">
-							<h3 class="text-lg font-medium mb-4">Reference</h3>
+							<h6 class="text-header-six font-medium mb-4">Reference</h6>
 							<p class="text-sm font-thin mb-4">Do you have a reference?</p>
 							<CheckboxQuestion screenReaderOnly="true" legend="Do you have any health conditions?" QuestionOneText="Yes" QuestionTwoText="No" />
 						</div>
 
 						<div>
-							<h3	class="text-sm font-thin">If yes, please provide details</h3>
+							<p class="text-sm font-thin">If yes, please provide details</p>
 
 							<div class="mt-4 grid grid-cols-2 gap-y-6 gap-x-2">
 								<div><InputField text="First name" /></div>
 								<div><InputField text="Last name" /></div>
 							</div>
 
-							<div class="mt-4 grid grid-cols-2 gap-y-6 gap-x-2">
-								<div><InputField text="Mobile no" /></div>
-								<div><InputField text="Email" /></div>
+							<div class="mt-6">
+								<InputField text="Mobile no" />
+							</div>
+
+							<div class="mt-6">
+								<InputField text="Email" />
 							</div>
 						</div>
 					</div>

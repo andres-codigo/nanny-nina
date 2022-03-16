@@ -9,7 +9,7 @@ import ButtonDisabled from '../../../../../components/buttons/ButtonDisabled.vue
 		<TopNavigation routerLinkPath="/dashboard" text="Nanny Checklist" />
 		<main>
 			<div class="flex flex-col px-4 pt-6 bg-slate-50">
-				<h2 class="mb-4 text-left text-xl font-medium text-gray-900">Complete checklist to begin</h2>
+				<h5 class="mb-4 text-left text-header-five font-medium text-gray-900">Complete checklist to begin</h5>
 				<div class="flex flex-col">
 					<ul role="list" class="">
 						<CheckListItem text="Media Upload" />

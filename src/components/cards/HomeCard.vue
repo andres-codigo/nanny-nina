@@ -17,13 +17,13 @@ import Image from './Image.vue'
 		<div class="h-40 bg-white rounded-b-3xl drop-shadow-md ">
 			<div class="flex flex-row">
 				<div class="basis-1/2 mt-4 ml-4">
-					<h1 class="antialiased text-xl">{{ user }}</h1>
+					<h4 class="antialiased text-header-four">{{ user }}</h4>
 				</div>
 				<div :class="['basis-1/2 mt-4 mr-4 text-right', !showCompletionSteps ? 'hidden sm:hidden' : '']">
 					<span class="text-xs text-gray-500 font-light">0/5 steps completed</span>
 				</div>
 			</div>
-			<p class="text-base font-light leading-5 mt-4 mx-4">{{ content }}</p>
+			<p class="font-light leading-5 mt-4 mx-4">{{ content }}</p>
 		</div>
 	</a>
 </template>

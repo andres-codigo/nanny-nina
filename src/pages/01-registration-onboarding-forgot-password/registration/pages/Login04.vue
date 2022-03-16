@@ -10,7 +10,7 @@ import Google from '../../../../assets/svg/other/google.vue'
 		<Header />
 		<main>
 			<div class="min-h-full flex flex-col justify-center py-12 mx-4 mt-8">
-				<h2 class="my-6 text-left text-2xl font-normal text-gray-900">Login</h2>
+				<h4 class="my-6 text-left text-header-four font-normal text-gray-900">Login</h4>
 				<form class="" action="#" method="POST">
 					<div class="m-0">
 						<InputField text="Email Address" />
@@ -26,7 +26,7 @@ import Google from '../../../../assets/svg/other/google.vue'
 							<ButtonPrimary text="Login" />
 						</div>
 						<div class="flex items-center justify-center">
-							<div class="text-xs font-light">Don't have an account? <span class="font-light text-blue-500 underline">Sign Up</span></div>
+							<div class="text-sm font-light">Don't have an account? <span class="font-light text-blue-500 underline">Sign Up</span></div>
 						</div>
 					</div>
 				</form>

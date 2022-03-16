@@ -5,7 +5,7 @@ import ListItem from '../../components/_dashboard/ListItem.vue'
 <template>
 	<div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
 		<div class="max-w-3xl mx-auto w-screen h-screen">
-			<h1 class="pl-4 py-4 text-xl font-medium text-black">Dashboard</h1>
+			<h6 class="pl-4 py-4 header-six font-medium text-black">Dashboard</h6>
 			<nav class="h-full overflow-y-auto" aria-label="Directory">
 				<div class="relative">
 					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 px-4 py-4 text-sm font-medium text-gray-600">

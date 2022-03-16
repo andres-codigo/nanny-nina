@@ -10,7 +10,7 @@ import InputField from '../../../../components/form/InputField.vue'
 		<Header />
 		<main>
 			<div class="min-h-full flex flex-col justify-center py-12 mx-4 mt-8">
-				<h2 class="my-6 text-left text-2xl font-normal text-gray-900">Forgot Password</h2>
+				<h4 class="my-6 text-left text-header-four font-normal text-gray-900">Forgot Password</h4>
 				<p class="mb-4 h-20 text-sm font-light">Please enter your registered email, you will receive an email with a verification code to reset your password.</p>
 				<form action="#" method="POST">
 					<div class="m-0 h-28">
