@@ -28,8 +28,9 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 								<div><InputField text="Last name" /></div>
 							</div>
 
-							<div class="mt-6">
-								<InputField text="Mobile no" />
+							<div class="mt-6 grid grid-cols-2 gap-y-6 gap-x-2">
+								<div><InputField text="Mobile no" /></div>
+								<div>&nbsp;</div>
 							</div>
 
 							<div class="mt-6">

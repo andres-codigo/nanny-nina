@@ -21,19 +21,19 @@ import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
 							<div><InputField text="Postcode" /></div>
 						</div>
 
-						<!-- <div class="mt-6">
+						<div class="mt-6">
 							<InputField text="Number, Home address" />
-						</div> -->
+						</div>
 
-						<!-- <div class="mt-6 grid grid-cols-2 gap-y-6 gap-x-2">
+						<div class="mt-6 grid grid-cols-2 gap-y-6 gap-x-2">
 							<div><InputField text="Province" /></div>
 							<div><InputField text="State/City" /></div>
-						</div> -->
+						</div>
 					</div>
 
 					<div class="mt-10">
 						<div class="my-6">
-							<!-- <ButtonPrimary text="Save &amp; Continue" /> -->
+							<ButtonPrimary text="Save &amp; Continue" />
 						</div>
 					</div>
 				</form>
