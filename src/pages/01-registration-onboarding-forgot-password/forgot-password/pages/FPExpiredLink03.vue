@@ -9,7 +9,7 @@ import ButtonGhost from '../../../../components/buttons/ButtonGhost.vue'
 		<Header />
 		<main>
 			<div class="min-h-full flex flex-col justify-center py-12 mx-4 mt-8">
-				<h2 class="my-6 text-left text-2xl font-normal text-gray-900">Oops! Link Expired</h2>
+				<h4 class="my-6 text-left text-3xl font-normal text-gray-900">Oops! Link Expired</h4>
 				<p class="mb-4 h-20 text-sm font-light">Your link has expired because you haven't used it in 24 hours.  You can create another link by clicking the button below.</p>
 				<form action="#" method="POST">
 					<div class="m-0 h-28">&nbsp;</div>
