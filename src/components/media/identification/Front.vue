@@ -10,21 +10,21 @@
 					relative
 					h-56 w-56
 					rounded-full
-					bg-indigo-100
-					hover:border-transparent hover:text-slate-700 hover:bg-slate-200
+					bg-purple-100
+					hover:border-transparent hover:text-gray-200 hover:bg-gray-100
 					focus:outline-none focus:ring-2 focus:ring-offset-2
 				">
-				<UserIcon class="w-32 h-32 text-indigo-400" aria-hidden="true" />
+				<UserIcon class="w-32 h-32 text-purple-500" aria-hidden="true" />
 				<span
 					class="
 						flex items-center justify-center
 						absolute bottom-6 right-0
 						h-12 w-12
 						rounded-full drop-shadow-lg
-						text-slate-800
-						bg-slate-100
+						text-gray-800
+						bg-white
 					">
-					<PlusIcon class="w-8 h-8" aria-hidden="true" />
+					<PlusIcon class="w-7 h-7" aria-hidden="true" />
 				</span>
 			</button>
 		</div>

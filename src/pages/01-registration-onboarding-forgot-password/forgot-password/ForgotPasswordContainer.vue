@@ -8,7 +8,7 @@ import FPPasswordUpdated05 from './pages/FPPasswordUpdated05.vue'
 </script>
 
 <template>
-	<div class="flex flex-wrap grow gap-y-6 sm:gap-x-4 w-full h-full bg-gray-200">
+	<div class="flex flex-wrap grow gap-y-6 sm:gap-x-4 w-full h-full">
 		<ForgotPassword01 class="max-w-450-for-dev-not-prod" />
 		<FPError02 class="max-w-450-for-dev-not-prod" />
 		<FPExpiredLink03 class="max-w-450-for-dev-not-prod" />

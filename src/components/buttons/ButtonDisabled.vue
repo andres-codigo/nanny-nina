@@ -5,7 +5,8 @@
 			w-full justify-center
 			py-3
 			rounded-full
-			text-md font-light text-white
+			text-md font-semibold text-white
+			antialiased
 			bg-gray-400
 		">{{ text }}</button>
 </template>

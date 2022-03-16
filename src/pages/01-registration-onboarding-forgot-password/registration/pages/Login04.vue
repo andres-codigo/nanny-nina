@@ -18,7 +18,7 @@ import Google from '../../../../assets/svg/other/google.vue'
 
 					<div class="mt-6">
 						<InputField text="Password" />
-						<a href="#" class="text-xs font-light text-indigo-600 underline mt-4 inline-block">Forgot your password?</a>
+						<a href="#" class="text-xs font-light text-blue-500 underline mt-4 inline-block">Forgot your password?</a>
 					</div>
 
 					<div class="mt-14">
@@ -26,7 +26,7 @@ import Google from '../../../../assets/svg/other/google.vue'
 							<ButtonPrimary text="Login" />
 						</div>
 						<div class="flex items-center justify-center">
-							<div class="text-xs font-light">Don't have an account? <span class="font-light text-indigo-600 underline">Sign Up</span></div>
+							<div class="text-xs font-light">Don't have an account? <span class="font-light text-blue-500 underline">Sign Up</span></div>
 						</div>
 					</div>
 				</form>

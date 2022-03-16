@@ -22,16 +22,16 @@ import ButtonGhost from '../../../../components/buttons/ButtonGhost.vue'
 								class="
 									appearance-none block w-full
 									px-3 py-2
-									border border-red-300 text-red-900 rounded-full shadow-sm
-									placeholder-red-300
-									focus:outline-none focus:ring-red-500 focus:border-red-500"
+									border border-red-500 text-black rounded-full shadow-sm
+									placeholder-red-500
+									focus:outline-none focus:ring-0 focus:ring-red-500 focus:border-red-500"
 								placeholder="you@example.com"
 								value="adamwathan"
 								aria-invalid="true"
 								aria-describedby="email-error"
 							>
 						</div>
-						<p class="mt-2 text-sm text-red-600 pl-4" id="email-error">The email address you have entered is incorrect</p>
+						<p class="mt-2 text-sm text-red-500 pl-4" id="email-error">The email address you have entered is incorrect</p>
 					</div>
 
 					<div class="mt-10">

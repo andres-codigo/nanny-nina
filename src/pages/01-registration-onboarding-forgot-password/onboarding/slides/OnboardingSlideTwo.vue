@@ -8,20 +8,20 @@ import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
 </script>
 
 <template>
-	<div class="bg-indigo-200">
+	<div class="bg-purple-200">
 		<header>
 			<div class="h-16 pt-4 px-4">
 				<router-link to="/dashboard" class="float-right"><XIcon class="w-8 h-8" aria-hidden="true" /></router-link>
 			</div>
 		</header>
 		<main>
-			<div class="flex flex-col justify-center px-4 bg-indigo-200">
+			<div class="flex flex-col justify-center px-4 bg-purple-200">
 				<div class="flex justify-center min-h-325">
 					<Image src="../../../assets/svg/onboarding/onboarding-2.svg" />
 				</div>
 
 				<div class="pt-6">
-					<Badge title="we've got you covered" backgroundColor="bg-indigo-100" textColor="text-black" />
+					<Badge title="we've got you covered" backgroundColor="bg-purple-100" textColor="text-black" />
 				</div>
 
 				<div class="pt-4">
