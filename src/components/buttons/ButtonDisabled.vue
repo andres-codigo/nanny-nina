@@ -4,7 +4,6 @@
 		:class="class"
 		class="
 			justify-center
-			py-3
 			rounded-full
 			text-md font-semibold text-white
 			antialiased
@@ -17,7 +16,7 @@ export default {
 	props: {
 		class: {
 			type: String,
-			default: 'w-full'
+			default: 'w-full py-3'
 		},
 		text: String
 	}

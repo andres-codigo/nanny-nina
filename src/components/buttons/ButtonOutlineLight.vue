@@ -19,7 +19,7 @@ export default {
 	props: {
 		class: {
 			type: String,
-			default: 'w-full py3'
+			default: 'w-full py-3'
 		},
 		text: String
 	}
