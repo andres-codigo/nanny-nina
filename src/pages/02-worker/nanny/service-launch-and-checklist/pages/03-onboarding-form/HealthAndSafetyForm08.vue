@@ -17,7 +17,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 					<div class="mt-4 mb-16">
 						<div class="mb-2">
 							<h6 class="text-header-six font-medium mb-4">Personal Health</h6>
-							<p class="text-sm font-thin mb-4">Do you have any health conditions?</p>
+							<p class="text-xl font-thin mb-4">Do you have any health conditions?</p>
 							<CheckboxQuestion screenReaderOnly="true" legend="Do you have any health conditions?" QuestionOneText="Yes" QuestionTwoText="No" />
 						</div>
 
@@ -38,12 +38,12 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 					<div class="mt-4 mb-16">
 						<div class="mb-8">
 							<h6 class="text-header-six font-medium mb-4">Allergies</h6>
-							<p class="text-sm font-thin mb-4">Do you have any allergies?</p>
+							<p class="text-xl font-thin mb-4">Do you have any allergies?</p>
 							<CheckboxQuestion screenReaderOnly="true" legend="Do you have any allergies?" QuestionOneText="Yes" QuestionTwoText="No" />
 						</div>
 
 						<div>
-							<p class="text-sm font-thin">If yes, please specify</p>
+							<p class="font-thin">If yes, please specify</p>
 
 							<div class="flex">
 								<div class="grow h-14">
@@ -59,12 +59,12 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 					<div class="mt-4 mb-16">
 						<div class="mb-8">
 							<h6 class="text-header-six font-medium mb-4">Safety Document</h6>
-							<p class="text-sm font-thin mb-4">Are you First Aid certified?</p>
+							<p class="text-xl font-thin mb-4">Are you First Aid certified?</p>
 							<CheckboxQuestion screenReaderOnly="true" legend="Are you First Aid certified?" QuestionOneText="Yes" QuestionTwoText="No" />
 						</div>
 
 						<div>
-							<p class="text-sm font-thin mb-4">If yes, please upload</p>
+							<p class="font-thin mb-4">If yes, please upload</p>
 
 							<div class="flex">
 								<div class="grow h-14">
@@ -78,7 +78,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 					<div class="mt-4 mb-16">
 						<div class="mb-4">
 							<h6 class="text-header-six font-medium mb-4">Other Relevant Safety Qualifications</h6>
-							<p class="text-sm font-thin mb-4">Please specify other relevant qualifications?</p>
+							<p class="text-xl font-thin mb-4">Please specify other relevant qualifications?</p>
 						</div>
 
 						<div class="flex">

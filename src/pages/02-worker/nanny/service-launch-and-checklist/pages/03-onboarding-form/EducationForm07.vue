@@ -50,7 +50,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 
 					<div class="mt-4 mb-8">
 						<h6 class="text-header-six font-medium mb-4">Driver's License <span class=" text-gray-500">(optional)</span></h6>
-						<p class="text-sm font-thin mb-4">Do you have a driver's license?</p>
+						<p class="text-xl font-thin mb-4">Do you have a driver's license?</p>
 						<CheckboxQuestion screenReaderOnly="true" legend="Do you have a driver's license?" QuestionOneText="Yes" QuestionTwoText="No" />
 					</div>
 
