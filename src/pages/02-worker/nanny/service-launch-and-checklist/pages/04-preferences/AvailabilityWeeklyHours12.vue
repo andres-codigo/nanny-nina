@@ -13,7 +13,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 		<TopNavigation routerLinkPath="/dashboard" text="Availability" />
 		<main>
 			<div class="flex flex-col px-4 py-6">
-				<h5 class="mt-8 mb-2 text-left text-header-four font-normal text-gray-900">Availability</h5>
+				<h5 class="mt-8 mb-2 text-left text-header-five font-normal text-gray-900">Availability</h5>
 				<p	class="font-light">Set your weekly hours and add specific dates you may be unavailable</p>
 
 				<div class="mt-12">
@@ -21,7 +21,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 						tabOneClasses="border-b-2 border-purple-500 text-black"
 						tabOneText="Weekly Hours"
 						tabTwoClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
-						tabTwoText="Specific Dates"
+						tabTwoText="Unavailability"
 					/>
 
 					<div class="border-b border-gray-50">

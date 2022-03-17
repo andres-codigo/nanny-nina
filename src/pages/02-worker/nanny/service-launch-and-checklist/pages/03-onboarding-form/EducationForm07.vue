@@ -48,10 +48,15 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 						</div>
 					</div>
 
-					<div class="mt-4 mb-8">
+					<div class="mt-4">
 						<h6 class="text-header-six font-medium mb-4">Driver's License <span class=" text-gray-500">(optional)</span></h6>
 						<p class="text-xl font-thin mb-4">Do you have a driver's license?</p>
 						<CheckboxQuestion screenReaderOnly="true" legend="Do you have a driver's license?" QuestionOneText="Yes" QuestionTwoText="No" />
+					</div>
+
+					<div class="flex flex-col mt-4 mb-8">
+						<p class="text-xl font-thin mb-4">If yes, are you willing to drive kids?</p>
+						<CheckboxQuestion screenReaderOnly="true" legend="Do you have any health conditions?" QuestionOneText="Yes" QuestionTwoText="No" />
 					</div>
 
 					<div class="mt-10">
