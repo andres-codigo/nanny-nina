@@ -24,6 +24,9 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 					<p class="mt-8 mx-10 font-thin text-center text-gray-500">Your unavailability on the specific dates, exceptions to the regular schedule</p>
 
 					<Calendar />
+
+					<h5 class="mt-10 mb-2 text-header-five font-normal text-gray-900">Workday &amp; time</h5>
+					<p class="font-thin mt-8">You haven’t selected any specific day</p>
 				</div>
 
 				<div class="mt-24">
