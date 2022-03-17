@@ -18,6 +18,8 @@ import ReferenceForm09 from './pages/03-onboarding-form/ReferenceForm09.vue'
 /* 04 Preferences Checklist */
 import PreferencesLaunchScreen10 from './pages/04-preferences/PreferencesLaunchScreen10.vue'
 import Checklist11 from './pages/04-preferences/Checklist11.vue'
+import AvailabilityWeeklyHours12 from './pages/04-preferences/AvailabilityWeeklyHours12.vue'
+import AvailabilityCalendar13 from './pages/04-preferences/AvailabilityCalendar13.vue'
 
 </script>
 
@@ -34,5 +36,7 @@ import Checklist11 from './pages/04-preferences/Checklist11.vue'
 		<ReferenceForm09 class="max-w-450-for-dev-not-prod" />
 		<PreferencesLaunchScreen10 class="max-w-450-for-dev-not-prod" />
 		<Checklist11 class="max-w-450-for-dev-not-prod" />
+		<AvailabilityWeeklyHours12 class="max-w-450-for-dev-not-prod" />
+		<AvailabilityCalendar13 class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
