@@ -170,8 +170,8 @@ import ButtonPrimary from '../buttons/ButtonPrimary.vue'
 		</div>
 
 		<div class="flex mt-8">
-			<div class="flex-1"><ButtonGhost text="Cancel" /></div>
-			<div class="flex-1"><ButtonPrimary text="Done" /></div>
+			<div class="flex-1"><ButtonGhost text="Cancel" class="w-28" /></div>
+			<div class="flex-1"><ButtonPrimary text="Done" class="w-28" /></div>
 		</div>
 	</div>
 </template>

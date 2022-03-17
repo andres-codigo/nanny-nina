@@ -1,6 +1,6 @@
 <!-- TODO: bg colour for default, hover & focus... overall look of page too -->
 <script setup>
-import ButtonOutlineGreySmall from '../buttons/ButtonOutlineGreySmall.vue'
+import ButtonOutlineGrey from '../buttons/ButtonOutlineGrey.vue'
 </script>
 
 <template>
@@ -21,7 +21,7 @@ import ButtonOutlineGreySmall from '../buttons/ButtonOutlineGreySmall.vue'
 					</div>
 
 					<div :class="['inline-flex', showBadge ? 'mt-4' : 'hidden']">
-						<ButtonOutlineGreySmall text="&euro;10"/>
+						<ButtonOutlineGrey text="&euro;10" class="w-20 py-2" />
 					</div>
 				</div>
 				<div class="ml-5 flex-shrink-0">

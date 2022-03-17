@@ -16,6 +16,7 @@
 export default {
 	props: {
 		text: String,
+		class: String,
 		textColor: String,
 		backgroundColor: String,
 		textColorHover: String,

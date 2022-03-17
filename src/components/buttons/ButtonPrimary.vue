@@ -1,8 +1,9 @@
 <template>
 	<button
 		type="submit"
+		:class="class"
 		class="
-			w-full justify-center
+			justify-center
 			py-3
 			rounded-full
 			text-md font-semibold text-white
@@ -16,6 +17,10 @@
 <script>
 export default {
 	props: {
+		class: {
+			type: String,
+			default: 'w-full'
+		},
 		text: String
 	}
 }
