@@ -1,6 +1,7 @@
 <script setup>
 import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
 import Tabs from '../../../../../../components/tabs/Tabs.vue'
+import Calendar from '../../../../../../components/calendar/Calendar.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 </script>
 
@@ -22,6 +23,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 
 					<p class="mt-8 mx-10 font-thin text-center text-gray-500">Your availability on the specific dates, exceptions to the regular schedule</p>
 
+					<Calendar />
 				</div>
 
 				<div class="mt-24">
@@ -31,14 +33,3 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 		</main>
 	</div>
 </template>
-
-<script>
-import { PlusIcon, XCircleIcon } from '@heroicons/vue/solid'
-
-export default {
-	components: {
-		PlusIcon,
-		XCircleIcon
-	}
-}
-</script>

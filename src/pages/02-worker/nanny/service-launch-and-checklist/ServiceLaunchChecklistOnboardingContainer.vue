@@ -25,7 +25,7 @@ import AvailabilityCalendar13 from './pages/04-preferences/AvailabilityCalendar1
 
 <template>
 	<div class="flex flex-wrap grow gap-y-6 gap-x-4">
-		<ServiceLaunchScreen01 class="max-w-450-for-dev-not-prod" />
+		<!-- <ServiceLaunchScreen01 class="max-w-450-for-dev-not-prod" />
 		<Checklist02 class="max-w-450-for-dev-not-prod" />
 		<MediaUploadPhoto03 class="max-w-450-for-dev-not-prod" />
 		<MediaUploadVideo04 class="max-w-450-for-dev-not-prod" />
@@ -36,7 +36,7 @@ import AvailabilityCalendar13 from './pages/04-preferences/AvailabilityCalendar1
 		<ReferenceForm09 class="max-w-450-for-dev-not-prod" />
 		<PreferencesLaunchScreen10 class="max-w-450-for-dev-not-prod" />
 		<Checklist11 class="max-w-450-for-dev-not-prod" />
-		<AvailabilityWeeklyHours12 class="max-w-450-for-dev-not-prod" />
-		<AvailabilityCalendar13 class="max-w-450-for-dev-not-prod" />
+		<AvailabilityWeeklyHours12 class="max-w-450-for-dev-not-prod" /> -->
+		<AvailabilityCalendar13 class="" />
 	</div>
 </template>
