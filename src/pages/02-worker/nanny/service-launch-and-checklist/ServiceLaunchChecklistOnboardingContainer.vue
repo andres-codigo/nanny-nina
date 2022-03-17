@@ -17,6 +17,8 @@ import ReferenceForm09 from './pages/03-onboarding-form/ReferenceForm09.vue'
 
 /* 04 Preferences Checklist */
 import PreferencesLaunchScreen10 from './pages/04-preferences/PreferencesLaunchScreen10.vue'
+import Checklist11 from './pages/04-preferences/Checklist11.vue'
+
 </script>
 
 <template>
@@ -31,5 +33,6 @@ import PreferencesLaunchScreen10 from './pages/04-preferences/PreferencesLaunchS
 		<HealthAndSafetyForm08 class="max-w-450-for-dev-not-prod" />
 		<ReferenceForm09 class="max-w-450-for-dev-not-prod" />
 		<PreferencesLaunchScreen10 class="max-w-450-for-dev-not-prod" />
+		<Checklist11 class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
