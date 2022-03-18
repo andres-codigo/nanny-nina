@@ -1,8 +1,3 @@
-<script setup>
-import UserProgress from '../../../../components/home/UserProgress.vue'
-import HomeCard from '../../../../components/cards/HomeCard.vue'
-</script>
-
 <template>
 	<div class="bg-white w-full h-screen">
 		<header>
@@ -22,10 +17,14 @@ import HomeCard from '../../../../components/cards/HomeCard.vue'
 </template>
 
 <script>
+import UserProgress from '../../../../components/home/UserProgress.vue'
+import HomeCard from '../../../../components/cards/HomeCard.vue'
 import { XIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
+		UserProgress,
+		HomeCard,
 		XIcon
 	}
 }
