@@ -9,7 +9,7 @@
 					</div>
 				</div>
 			</div>
-			 <div :class="['pb-4 sm:flex sm:justify-between', hide ? 'hidden sm:hidden' : '', subItem ? 'pl-16 pr-4' : 'mx-4']">
+			 <div :class="['pb-4 sm:flex sm:justify-between', hideNotes ? 'hidden sm:hidden' : '', subItem ? 'pl-16 pr-4' : 'mx-4']">
 				<div class="sm:flex">
 					<p class="flex items-center text-sm text-gray-500">
 						<UsersIcon class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" aria-hidden="true" />
@@ -38,7 +38,7 @@ export default {
 		textBadge: String,
 		textColorBadge: String,
 		backgroundColorBadge: String,
-		hide: {
+		hideNotes: {
 			type: Boolean,
 			default: true
 		},

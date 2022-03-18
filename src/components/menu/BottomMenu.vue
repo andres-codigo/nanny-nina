@@ -1,35 +1,22 @@
 <template>
 	<section class="block fixed inset-x-0 w-full bottom-0 z-10 bg-white border-t border-gray min-w-360-for-dev-not-prod">
 		<div class="flex items-center h-20 justify-between">
-			<router-link to="/dashboard" class="w-full text-center text-gray-400 focus:text-blue-500 hover:text-blue-500">
-				<HomeIcon class="w-8 h-8 inline-block mb-1" />
-				<span class="block text-xs">Home</span>
-			</router-link>
-			<router-link to="/dashboard" class="w-full text-center text-gray-400 focus:text-blue-500 hover:text-blue-500">
-				<BookmarkIcon class="w-8 h-8 inline-block mb-1" />
-				<span class="block text-xs">Bookings</span>
-			</router-link>
-			<router-link to="/dashboard" class="w-full text-center text-gray-400 focus:text-blue-500 hover:text-blue-500">
-				<PlusCircleIcon class="w-8 h-8 inline-block mb-1" />
-				<span class="block text-xs">Book</span>
-			</router-link>
-			<router-link to="/dashboard" class="w-full text-center text-gray-400 focus:text-blue-500 hover:text-blue-500">
-				<BellIcon class="w-8 h-8 inline-block mb-1" />
-				<span class="block text-xs">Inbox</span>
-			</router-link>
-			<router-link to="/dashboard" class="w-full text-center text-gray-400 focus:text-blue-500 hover:text-blue-500">
-				<DotsVerticalIcon class="w-8 h-8 inline-block mb-1" />
-				<span class="block text-xs">More</span>
-			</router-link>
+			<BottomMenuItem to="dashboard" text="Home" class="text-blue-500"><HomeIcon class="w-8 h-8 inline-block mb-1" /></BottomMenuItem>
+			<BottomMenuItem to="dashboard" text="Bookings" class="text-gray-400"><BookmarkIcon class="w-8 h-8 inline-block mb-1" /></BottomMenuItem>
+			<BottomMenuItem to="dashboard" text="Book" class="text-gray-400"><PlusCircleIcon class="w-8 h-8 inline-block mb-1" /></BottomMenuItem>
+			<BottomMenuItem to="dashboard" text="Inbox" class="text-gray-400"><BellIcon class="w-8 h-8 inline-block mb-1" /></BottomMenuItem>
+			<BottomMenuItem to="dashboard" text="More" class="text-gray-400"><DotsVerticalIcon class="w-8 h-8 inline-block mb-1" /></BottomMenuItem>
 		</div>
 	</section>
 </template>
 
 <script>
+import BottomMenuItem from './BottomMenuItem.vue'
 import { HomeIcon, BookmarkIcon, PlusCircleIcon, BellIcon, DotsVerticalIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
+		BottomMenuItem,
 		HomeIcon,
 		BookmarkIcon,
 		PlusCircleIcon,
