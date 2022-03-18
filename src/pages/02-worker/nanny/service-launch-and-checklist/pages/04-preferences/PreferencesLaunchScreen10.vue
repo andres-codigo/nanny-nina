@@ -18,10 +18,9 @@ import ButtonSecondary from '../../../../../../components/buttons/ButtonSecondar
 						<Image src="*.svg" />
 					-->
 				</div>
-				<div>
-					<div class="mt-96">
-						<ButtonSecondary text="Get Started" />
-					</div>
+
+				<div class="mt-96">
+					<ButtonSecondary text="Get Started" />
 				</div>
 			</div>
 		</main>

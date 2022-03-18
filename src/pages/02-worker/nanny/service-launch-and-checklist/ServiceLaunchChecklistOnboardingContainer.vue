@@ -1,5 +1,8 @@
 <script setup>
-import ServiceLaunchScreen01 from './pages/ServiceLaunchScreen01.vue'
+/* Start */
+import ServiceLaunchStartScreen01 from './pages/ServiceLaunchStartScreen01.vue'
+
+/* Checklist Landing Page */
 import Checklist02 from './pages/Checklist02.vue'
 
 /* 01 Media Upload Checklist */
@@ -22,11 +25,16 @@ import AvailabilityWeeklyHours12 from './pages/04-preferences/AvailabilityWeekly
 import AvailabilityCalendar13 from './pages/04-preferences/AvailabilityCalendar13.vue'
 import MatchingPreferences14 from './pages/04-preferences/MatchingPreferences14.vue'
 
+/* End */
+import ServiceLaunchEndScreen15 from './pages/ServiceLaunchEndScreen15.vue'
 </script>
 
 <template>
 	<div class="flex flex-wrap grow gap-y-6 gap-x-4">
-		<ServiceLaunchScreen01 class="max-w-450-for-dev-not-prod" />
+		<!-- Start -->
+		<ServiceLaunchStartScreen01 class="max-w-450-for-dev-not-prod" />
+
+		<!-- Checklist Landing Page -->
 		<Checklist02 class="max-w-450-for-dev-not-prod" />
 
 		<!-- 01 Media Upload Checklist -->
@@ -48,5 +56,8 @@ import MatchingPreferences14 from './pages/04-preferences/MatchingPreferences14.
 		<AvailabilityWeeklyHours12 class="max-w-450-for-dev-not-prod" />
 		<AvailabilityCalendar13 class="max-w-450-for-dev-not-prod" />
 		<MatchingPreferences14 class="max-w-450-for-dev-not-prod" />
+
+		<!-- End -->
+		<ServiceLaunchEndScreen15 class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>

@@ -23,10 +23,8 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 						<CheckboxWithContainerAndLabel text="Bathing" />
 					</div>
 
-					<div class="mt-10">
-						<div class="my-6">
-							<ButtonPrimary text="Save &amp; Continue" />
-						</div>
+					<div class="mt-14">
+						<ButtonPrimary text="Save &amp; Continue" />
 					</div>
 				</form>
 			</div>
