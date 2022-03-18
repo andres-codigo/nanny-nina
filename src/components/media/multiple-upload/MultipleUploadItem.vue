@@ -1,4 +1,4 @@
-<!-- TODO: bg colour and text for all states -->
+<!-- TODO: bg color and text for all states -->
 <template>
 	<button
 		class="

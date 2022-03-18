@@ -26,7 +26,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row  h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<Badge backgroundColour="bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-0" text="Sun" />
+								<Badge backgroundColor="bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-0" text="Sun" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeDisabled placeholder="Unavailable" /></div>
@@ -37,7 +37,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<Badge backgroundColour="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Mon" />
+								<Badge backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Mon" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 11:00" /></div>
@@ -54,7 +54,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row  h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<Badge backgroundColour="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Tue" />
+								<Badge backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Tue" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 17:00" /></div>
@@ -65,7 +65,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row  h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<Badge backgroundColour="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Wed" />
+								<Badge backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Wed" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 17:00" /></div>
@@ -76,7 +76,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row  h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<Badge backgroundColour="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Thur" />
+								<Badge backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Thur" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 17:00" /></div>
@@ -87,7 +87,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row  h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<Badge backgroundColour="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Fri" />
+								<Badge backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Fri" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 17:00" /></div>
@@ -98,7 +98,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row  h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<Badge backgroundColour="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Sat" />
+								<Badge backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Sat" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 17:00" /></div>

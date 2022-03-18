@@ -1,4 +1,4 @@
-<!-- TODO: text colour for label and input; default, hover & focus colour numbers -->
+<!-- TODO: text color for label and input; default, hover & focus color numbers -->
 <template>
 	<div>
 		<label for="for-dev-not-prod" class="block text-sm font-light text-gray-500 pl-4">{{ text }}</label>

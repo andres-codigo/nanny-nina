@@ -1,4 +1,4 @@
-<!-- TODO: text colour for label and input; hover & focus behavior for input -->
+<!-- TODO: text color for label and input; hover & focus behavior for input -->
 <template>
 	<label for="email" class="block text-sm font-light text-gray-700 pl-4">{{ text }}</label>
 	<div class="mt-1">

@@ -1,4 +1,4 @@
-<!-- TODO: text colour for label and input; hover & focus behavior for input -->
+<!-- TODO: text color for label and input; hover & focus behavior for input -->
 <template>
 	<label for="qualification" class="hidden text-sm font-medium text-gray-500">{{ text }}</label>
 	<div class="mt-1 border-b border-gray-500 focus-within:border-blue-400">

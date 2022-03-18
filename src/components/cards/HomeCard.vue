@@ -1,16 +1,16 @@
-<!-- TODO: bg colour hover & focus -->
+<!-- TODO: bg color hover & focus -->
 <script setup>
 import Image from './Image.vue'
 </script>
 
 <template>
-	<a href="/" :class="['mb-9 h-80 rounded-3xl bg-white-500 hover:opacity-75 focus:outline-none focus:ring-2 focus:ring-offset-0', tempFocusRingColour]">
-		<div :class="['flex flex-row rounded-t-3xl', tempBackgroundColour]">
+	<a href="/" :class="['mb-9 h-80 rounded-3xl bg-white-500 hover:opacity-75 focus:outline-none focus:ring-2 focus:ring-offset-0', tempFocusRingColor]">
+		<div :class="['flex flex-row rounded-t-3xl', tempBackgroundColor]">
 			<div class="flex grow h-40 rounded-t-3xl overflow-hidden">
 				<!--
 					Image component for svg here
 					<Image src="*.svg" />
-					* remove background colour in div as visual placeholder
+					* remove background color in div as visual placeholder
 				-->
 			</div>
 		</div>
@@ -31,8 +31,8 @@ import Image from './Image.vue'
 <script>
 export default {
 	props: {
-		tempBackgroundColour: String,
-		tempFocusRingColour: String,
+		tempBackgroundColor: String,
+		tempFocusRingColor: String,
 		user: String,
 		content: String,
 		showCompletionSteps: {
