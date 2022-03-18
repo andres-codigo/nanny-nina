@@ -10,22 +10,36 @@ module.exports = {
 				sans: ["Manrope", "sans-serif"],
 			},
 			fontSize: {
-				'xs': ['0.75rem', '1.25rem'], /* 12px */
-				'sm': ['0.875rem', '1.2rem'], /* 14px */
-      			'base': ['1rem', '1.4rem'], /* 16px */
-				'xl': ['1.125rem', '1.4rem'], /* 18px */
-				'2xl': ['1.313rem', '1.4rem'], /* 21px */
-				'3xl': ['1.5rem', '1.4rem'], /* 24px */
-				'4xl': ['1.75rem', '1.4rem'], /* 28px */
-				'5xl': ['2rem', '2.4rem'], /* 32px */
-				'6xl': ['2.25rem', '1.4rem'], /* 36px */
-				/* H1 to H6 classes, i.e., text-header-one */
-				'header-one': ['2.25rem', '1.4rem'], /* 36px */
-				'header-two': ['2rem', '2.4rem'], /* 32px */
-				'header-three': ['1.75rem', '1.4rem'], /* 28px */
-				'header-four': ['1.5rem', '1.4rem'], /* 24px */
-				'header-five': ['1.313rem', '1.4rem'], /* 21px */
-				'header-six': ['1.125rem', '1.4rem'], /* 18px */
+				/*
+					font size / line height
+					0.75rem / 12px
+					0.875rem / 14px
+					1rem / 16px
+					1.125rem / 18px
+					1.313rem / 21px
+					1.5rem / 24px
+					1.75rem / 28px
+					2rem / 32px
+					2.25rem / 36px
+				*/
+				'xs': ['0.75rem', '1.25rem'],
+				'sm': ['0.875rem', '1.2rem'],
+      			'base': ['1rem', '1.4rem'],
+				'xl': ['1.125rem', '1.4rem'],
+				'2xl': ['1.313rem', '1.4rem'],
+				'3xl': ['1.5rem', '1.4rem'],
+				'4xl': ['1.75rem', '1.4rem'],
+				'5xl': ['2rem', '2.4rem'],
+				'6xl': ['2.25rem', '1.4rem'],
+				/*
+					H1 to H6 classes, i.e., text-header-one
+				*/
+				'header-one': ['2.25rem', '1.4rem'],
+				'header-two': ['2rem', '2.4rem'],
+				'header-three': ['1.75rem', '1.4rem'],
+				'header-four': ['1.5rem', '1.4rem'],
+				'header-five': ['1.313rem', '1.4rem'],
+				'header-six': ['1.125rem', '1.4rem'],
 			},
 			spacing: {
 				"safe-top": "env(safe-area-inset-top)",
@@ -82,6 +96,12 @@ module.exports = {
 					800: '#373745',
 					900: '#1B1C22'
 				},
+				// white: {
+				// 	DEFAULT: '#FFFFFF'
+				// },
+				// slate: {
+				// 	DEFAULT: ''
+				// },
 				red: {
 					500: '#B91C1C',
 				},
@@ -100,7 +120,6 @@ module.exports = {
 				'450-for-dev-not-prod': '450px',
 			},
 			maxWidth: {
-				'360-for-dev-not-prod': '360px',
 				'450-for-dev-not-prod': '450px'
 			}
 		},
