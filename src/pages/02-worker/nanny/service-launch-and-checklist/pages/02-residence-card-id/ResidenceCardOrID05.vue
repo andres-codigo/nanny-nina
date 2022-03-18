@@ -18,9 +18,7 @@ import ButtonDisabled from '../../../../../../components/buttons/ButtonDisabled.
 					<Back />
 
 					<div class="mt-20">
-						<div class="my-6">
-							<ButtonDisabled text="Upload &amp; Continue" />
-						</div>
+						<ButtonDisabled text="Upload &amp; Continue" />
 					</div>
 				</form>
 			</div>

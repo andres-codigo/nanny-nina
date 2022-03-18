@@ -43,9 +43,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 					</ul>
 
 					<div class="mt-20">
-						<div class="my-6">
-							<ButtonPrimary text="Upload &amp; Continue" />
-						</div>
+						<ButtonPrimary text="Upload &amp; Continue" />
 					</div>
 				</form>
 			</div>

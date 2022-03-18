@@ -30,9 +30,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 					</div>
 
 					<div class="mt-10">
-						<div class="my-6">
-							<ButtonPrimary text="Save &amp; Continue" />
-						</div>
+						<ButtonPrimary text="Save &amp; Continue" />
 					</div>
 				</form>
 			</div>
