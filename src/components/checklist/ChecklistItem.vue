@@ -1,14 +1,27 @@
 <!-- TODO: bg colour for default, hover & focus... overall look of page too -->
+<script setup>
+import ButtonOutlineGrey from '../buttons/ButtonOutlineGrey.vue'
+</script>
+
 <template>
-	<li class="h-24">
-		<a href="#" class="block mb-2 bg-white rounded-md hover:bg-gray-200 hover:rounded-md">
+	<li>
+		<a href="#" :class="['block mb-4 bg-white hover:bg-gray-200', hideContent ? 'rounded-md hover:rounded-lg' : 'border rounded-lg hover:rounded-lg']">
 			<div class="px-4 py-4 flex items-center">
-				<div class="flex-1">
-					<div class="flex text-sm">
+				<div :class="['flex-1', hideContent ? '' : 'my-4']">
+
+					<div :class="['flex text-sm', hideContent ? '' : 'hidden']">
 						<p class="font-thin text-gray-500">Pending (0/2)</p>
 					</div>
-					<div class="flex">
-						<h5 class="mt-2 text-left text-header-five font-medium text-gray-900">{{ text }}</h5>
+
+					<div :class="['flex-1', hideContent ? '' : '']">
+						<h5 :class="['text-left text-header-five font-medium text-gray-900', hideContent ? 'mt-2' : '']">
+							{{ title }}<span class="pl-1 text-red-500" v-if="!hideContent">*</span>
+						</h5>
+						<p class="mt-2 text-sm font-thin" v-if="!hideContent">{{ description }}</p>
+					</div>
+
+					<div :class="['inline-flex', showBadge ? 'mt-4' : 'hidden']">
+						<ButtonOutlineGrey text="&euro;10" class="w-20 py-2" />
 					</div>
 				</div>
 				<div class="ml-5 flex-shrink-0">
@@ -24,7 +37,16 @@ import { ChevronRightIcon } from '@heroicons/vue/solid'
 
 export default {
 	props: {
-		text: String
+		hideContent: {
+			type: Boolean,
+			default: true
+		},
+		showBadge: {
+			type: Boolean,
+			default: false
+		},
+		title: String,
+		description: String
 	},
 	components: {
 		ChevronRightIcon,

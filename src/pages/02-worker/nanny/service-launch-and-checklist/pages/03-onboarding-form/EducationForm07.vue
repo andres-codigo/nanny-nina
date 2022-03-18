@@ -1,10 +1,10 @@
 <script setup>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
-import Checkbox from '../../../../../components/form/Checkbox.vue'
-import SelectMenu from '../../../../../components/form/SelectMenu.vue'
-import CheckboxQuestion from '../../../../../components/form/CheckboxQuestion.vue'
-import InputFieldBorderBottomOnly from '../../../../../components/form/InputFieldBorderBottomOnly.vue'
-import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import RadioWithContainerAndLabel from '../../../../../../components/form/RadioWithContainerAndLabel.vue'
+import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
+import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
+import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 </script>
 
 <template>
@@ -19,9 +19,9 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 						<h6 class="text-header-six font-medium mb-4">Current Education Status</h6>
 						<fieldset>
 							<legend class="sr-only">Current Education Status</legend>
-							<Checkbox text="Currently enrolled" />
-							<Checkbox text="Completed" />
-							<Checkbox text="I don't have a formal education" />
+							<RadioWithContainerAndLabel text="Currently enrolled" />
+							<RadioWithContainerAndLabel text="Completed" />
+							<RadioWithContainerAndLabel text="I don't have a formal education" />
 						</fieldset>
 					</div>
 
@@ -48,16 +48,19 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 						</div>
 					</div>
 
-					<div class="mt-4 mb-8">
+					<div class="mt-4">
 						<h6 class="text-header-six font-medium mb-4">Driver's License <span class=" text-gray-500">(optional)</span></h6>
-						<p class="text-sm font-thin mb-4">Do you have a driver's license?</p>
-						<CheckboxQuestion screenReaderOnly="true" legend="Do you have a driver's license?" QuestionOneText="Yes" QuestionTwoText="No" />
+						<p class="text-xl font-thin mb-4">Do you have a driver's license?</p>
+						<RadioQuestion screenReaderOnly="true" legend="Do you have a driver's license?" QuestionOneText="Yes" QuestionTwoText="No" />
+					</div>
+
+					<div class="flex flex-col mt-4 mb-8">
+						<p class="text-xl font-thin mb-4">If yes, are you willing to drive kids?</p>
+						<RadioQuestion screenReaderOnly="true" legend="Do you have any health conditions?" QuestionOneText="Yes" QuestionTwoText="No" />
 					</div>
 
 					<div class="mt-10">
-						<div class="my-6">
-							<ButtonPrimary text="Save &amp; Continue" />
-						</div>
+						<ButtonPrimary text="Save &amp; Continue" />
 					</div>
 				</form>
 			</div>

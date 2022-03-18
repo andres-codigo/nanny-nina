@@ -1,7 +1,7 @@
 <script setup>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
-import InputField from '../../../../../components/form/InputField.vue'
-import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import InputField from '../../../../../../components/form/InputField.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 </script>
 
 <template>
@@ -30,9 +30,7 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 					</div>
 
 					<div class="mt-10">
-						<div class="my-6">
-							<ButtonPrimary text="Save &amp; Continue" />
-						</div>
+						<ButtonPrimary text="Save &amp; Continue" />
 					</div>
 				</form>
 			</div>

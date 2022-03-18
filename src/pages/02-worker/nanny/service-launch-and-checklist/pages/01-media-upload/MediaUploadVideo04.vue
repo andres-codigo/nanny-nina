@@ -1,7 +1,7 @@
 <script setup>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
-import SingleVideoUpload from '../../../../../components/media/single-upload/SingleVideoUpload.vue'
-import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import SingleVideoUpload from '../../../../../../components/media/single-upload/SingleVideoUpload.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 </script>
 
 <template>
@@ -43,9 +43,7 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 					</ul>
 
 					<div class="mt-20">
-						<div class="my-6">
-							<ButtonPrimary text="Upload &amp; Continue" />
-						</div>
+						<ButtonPrimary text="Upload &amp; Continue" />
 					</div>
 				</form>
 			</div>

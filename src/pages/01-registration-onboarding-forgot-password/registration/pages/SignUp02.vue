@@ -1,7 +1,7 @@
 <!-- TODO: hover, focus for LinkCard's -->
 <script setup>
 import LinkCard from '../../../../components/cards/LinkCard.vue'
-import ButtonOutlineDarkSmall from '../../../../components/buttons/ButtonOutlineDarkSmall.vue'
+import ButtonOutlineDark from '../../../../components/buttons/ButtonOutlineDark.vue'
 </script>
 
 <template>
@@ -18,7 +18,7 @@ import ButtonOutlineDarkSmall from '../../../../components/buttons/ButtonOutline
 				<LinkCard to="dashboard" class="text-white bg-blue-500 hover:bg-blue-400 focus:ring-blue-600" title="Sign up for Care jobs" content="Work as Nanny, Childminder or Au pair" />
 				<div class="flex items-center justify-center">
 					<span class="mr-2 font-thin">Already have an account?</span>
-					<ButtonOutlineDarkSmall text="Sign In" />
+					<ButtonOutlineDark text="Sign In" class="w-20 py-1" />
 				</div>
 			</div>
 		</main>

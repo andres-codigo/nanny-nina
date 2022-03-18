@@ -1,8 +1,8 @@
 <script setup>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
-import CheckboxQuestion from '../../../../../components/form/CheckboxQuestion.vue'
-import InputField from '../../../../../components/form/InputField.vue'
-import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
+import InputField from '../../../../../../components/form/InputField.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 </script>
 
 <template>
@@ -16,12 +16,12 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 					<div class="mt-4 mb-16">
 						<div class="mb-2">
 							<h6 class="text-header-six font-medium mb-4">Reference</h6>
-							<p class="text-sm font-thin mb-4">Do you have a reference?</p>
-							<CheckboxQuestion screenReaderOnly="true" legend="Do you have any health conditions?" QuestionOneText="Yes" QuestionTwoText="No" />
+							<p class="text-xl font-thin mb-4">Do you have a reference?</p>
+							<RadioQuestion screenReaderOnly="true" legend="Do you have any health conditions?" QuestionOneText="Yes" QuestionTwoText="No" />
 						</div>
 
 						<div>
-							<p class="text-sm font-thin">If yes, please provide details</p>
+							<p class="font-thin">If yes, please provide details</p>
 
 							<div class="mt-4 grid grid-cols-2 gap-y-6 gap-x-2">
 								<div><InputField text="First name" /></div>
@@ -40,9 +40,7 @@ import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 					</div>
 
 					<div class="mt-10">
-						<div class="my-6">
-							<ButtonPrimary text="Save &amp; Continue" />
-						</div>
+						<ButtonPrimary text="Save &amp; Continue" />
 					</div>
 				</form>
 			</div>

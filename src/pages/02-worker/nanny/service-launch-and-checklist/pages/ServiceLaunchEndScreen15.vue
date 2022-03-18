@@ -1,6 +1,5 @@
 <script setup>
 import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
-import ButtonOutlineLight from '../../../../../components/buttons/ButtonOutlineLight.vue'
 import ButtonSecondary from '../../../../../components/buttons/ButtonSecondary.vue'
 </script>
 
@@ -10,8 +9,8 @@ import ButtonSecondary from '../../../../../components/buttons/ButtonSecondary.v
 		<main>
 			<div class="h-screen flex flex-col mx-4">
 				<div class="mt-16 mx-9">
-					<h2 class="mb-6 text-header-two font-medium text-green-500 text-center">Ready to start your Nanny journey?</h2>
-					<p class="font-thin text-white text-center">Let's get you setup!</p>
+					<h2 class="mb-6 text-header-two font-medium text-green-500 text-center">Congrats!<br /> You are all set</h2>
+					<p class="font-thin text-white text-center">You can now apply to jobs and receive booking requests in the bookings page</p>
 				</div>
 				<div class="flex items-center justify-center">
 					<!--
@@ -21,11 +20,8 @@ import ButtonSecondary from '../../../../../components/buttons/ButtonSecondary.v
 					-->
 				</div>
 				<div>
-					<div class="mt-24">
-						<ButtonOutlineLight text="Not now, I'm exploring" />
-					</div>
-					<div class="mt-2">
-						<ButtonSecondary text="Get Started" />
+					<div class="mt-96">
+						<ButtonSecondary text="Go to Explore" />
 					</div>
 					<p class="mt-8 font-thin text-white text-center"><span class="text-green-200 underline">Learn more about being a Nanny</span></p>
 				</div>
