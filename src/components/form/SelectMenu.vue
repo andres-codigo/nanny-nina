@@ -10,8 +10,9 @@
 				px-3 py-2
 				border border-gray-400 rounded-full
 				text-gray-400
-				focus:outline-none focus:ring-0 focus:ring-black focus:border-black"
-			>
+				focus:outline-none focus:ring-0 focus:ring-black focus:border-black
+			"
+		>
 			<option>Select an option</option>
 		</select>
 	</div>

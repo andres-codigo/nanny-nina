@@ -15,8 +15,9 @@
 				px-3 py-2
 				border border-gray-400 rounded-full
 				text-sm	text-gray-600
-				focus:outline-none focus:ring-0 focus:ring-blue-500 focus:border-blue-500"
-			/>
+				focus:outline-none focus:ring-0 focus:ring-blue-500 focus:border-blue-500
+			"
+		>
 	</div>
 </template>
 

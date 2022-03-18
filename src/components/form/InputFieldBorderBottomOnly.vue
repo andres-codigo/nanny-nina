@@ -14,8 +14,9 @@
 				block w-full
 				py-3 px-0
 				border-0 border-b border-transparent
-				focus:border-b-blue-400 focus:ring-0"
-			>
+				focus:border-b-blue-400 focus:ring-0
+			"
+		>
 	</div>
 </template>
 
