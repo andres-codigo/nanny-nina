@@ -11,7 +11,7 @@
 			w-full
 			px-3 py-2
 			border border-gray-400 rounded-full
-			text-sm text-center font-thin
+			text-center font-thin
 			read-only:border-gray-100
 			focus:outline-none"
 	/>

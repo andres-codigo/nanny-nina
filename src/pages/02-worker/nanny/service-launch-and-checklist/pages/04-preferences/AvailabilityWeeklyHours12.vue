@@ -1,8 +1,7 @@
 <script setup>
 import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
 import Tabs from '../../../../../../components/tabs/Tabs.vue'
-import BadgeEnabled from '../../../../../../components/form/BadgeEnabled.vue'
-import BadgeNotEnabled from '../../../../../../components/form/BadgeNotEnabled.vue'
+import Badge from '../../../../../../components/form/Badge.vue'
 import InputFieldTimeEnabled from '../../../../../../components/form/InputFieldTimeEnabled.vue'
 import InputFieldTimeDisabled from '../../../../../../components/form/InputFieldTimeDisabled.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
@@ -25,41 +24,91 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 					/>
 
 					<div class="border-b border-gray-50">
-						<div class="flex h-20">
-							<div class="inline-flex justify-center items-center w-24"><BadgeNotEnabled text="Sun" /></div>
-							<div class="flex-none inline-flex justify-center items-center w-14">&nbsp;</div>
+						<div class="flex flex-row  h-20">
+							<div class="inline-flex justify-center items-center w-24">
+								<Badge backgroundColour="bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-0" text="Sun" />
+							</div>
+							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeDisabled placeholder="Unavailable" /></div>
-							<div class="flex-none inline-flex justify-center items-center w-10"><PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" /></div>
+							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-indigo-500" aria-hidden="true" /></div>
 						</div>
 					</div>
 
 					<div class="border-b border-gray-50">
-						<div class="flex h-20">
-							<div class="inline-flex justify-center items-center w-24"><BadgeEnabled text="Mon" /></div>
-							<div class="flex-none inline-flex justify-center items-center w-14">&nbsp;</div>
+						<div class="flex flex-row h-20">
+							<div class="inline-flex justify-center items-center w-24">
+								<Badge backgroundColour="bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Mon" />
+							</div>
+							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 11:00" /></div>
-							<div class="flex-none inline-flex justify-center items-center w-10">&nbsp;</div>
+							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-indigo-500" aria-hidden="true" /></div>
 						</div>
-						<div class="flex h-20">
+						<div class="flex flex-row h-20">
 							<div class="inline-flex justify-center items-center w-24">&nbsp;</div>
-							<div class="flex-none inline-flex justify-center items-center w-14"><XCircleIcon class="w-5 h-5 text-gray-500" aria-hidden="true" /></div>
+							<div class="inline-flex justify-center items-center w-14"><XCircleIcon class="w-6 h-6 text-gray-500" aria-hidden="true" /></div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="13:00 - 17:00" /></div>
-							<div class="flex-none inline-flex justify-center items-center w-10"><PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" /></div>
+							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-indigo-500" aria-hidden="true" /></div>
 						</div>
 					</div>
 
 					<div class="border-b border-gray-50">
-						<div class="flex h-20">
-							<div class="inline-flex justify-center items-center w-24"><BadgeEnabled text="Tue" /></div>
-							<div class="flex-none inline-flex justify-center items-center w-14"><XCircleIcon class="w-5 h-5 text-gray-500" aria-hidden="true" /></div>
+						<div class="flex flex-row  h-20">
+							<div class="inline-flex justify-center items-center w-24">
+								<Badge backgroundColour="bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Tue" />
+							</div>
+							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 17:00" /></div>
-							<div class="flex-none inline-flex justify-center items-center w-10"><PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" /></div>
+							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-indigo-500" aria-hidden="true" /></div>
+						</div>
+					</div>
+
+					<div class="border-b border-gray-50">
+						<div class="flex flex-row  h-20">
+							<div class="inline-flex justify-center items-center w-24">
+								<Badge backgroundColour="bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Wed" />
+							</div>
+							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
+							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 17:00" /></div>
+							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-indigo-500" aria-hidden="true" /></div>
+						</div>
+					</div>
+
+					<div class="border-b border-gray-50">
+						<div class="flex flex-row  h-20">
+							<div class="inline-flex justify-center items-center w-24">
+								<Badge backgroundColour="bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Thur" />
+							</div>
+							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
+							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 17:00" /></div>
+							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-indigo-500" aria-hidden="true" /></div>
+						</div>
+					</div>
+
+					<div class="border-b border-gray-50">
+						<div class="flex flex-row  h-20">
+							<div class="inline-flex justify-center items-center w-24">
+								<Badge backgroundColour="bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Fri" />
+							</div>
+							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
+							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 17:00" /></div>
+							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-indigo-500" aria-hidden="true" /></div>
+						</div>
+					</div>
+
+					<div class="border-b border-gray-50">
+						<div class="flex flex-row  h-20">
+							<div class="inline-flex justify-center items-center w-24">
+								<Badge backgroundColour="bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Sat" />
+							</div>
+							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
+							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 17:00" /></div>
+							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-indigo-500" aria-hidden="true" /></div>
 						</div>
 					</div>
 
 				</div>
 
-				<div class="mt-24">
+				<div class="mt-20">
 					<ButtonPrimary text="Save" />
 				</div>
 			</div>
