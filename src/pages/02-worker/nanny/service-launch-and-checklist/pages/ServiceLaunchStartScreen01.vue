@@ -17,7 +17,7 @@ import ButtonSecondary from '../../../../../components/buttons/ButtonSecondary.v
 					<!--
 						Image component for svg here
 						<Image src="*.svg" />
-						* remove background colour in div as visual placeholder
+						* remove background color in div as visual placeholder
 					-->
 				</div>
 				<div class="mt-96">

@@ -1,4 +1,4 @@
-<!-- TODO: bg colour for default, hover & focus -->
+<!-- TODO: bg color for default, hover & focus -->
 <script setup>
 import Image from './Image.vue'
 </script>

@@ -13,8 +13,9 @@
 			border border-gray-400 rounded-full
 			text-center font-thin
 			read-only:border-gray-100
-			focus:outline-none"
-	/>
+			focus:outline-none
+		"
+	>
 </template>
 
 <script>

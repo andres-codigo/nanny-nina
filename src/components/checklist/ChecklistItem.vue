@@ -1,4 +1,4 @@
-<!-- TODO: bg colour for default, hover & focus... overall look of page too -->
+<!-- TODO: bg color for default, hover & focus... overall look of page too -->
 <script setup>
 import ButtonOutlineGrey from '../buttons/ButtonOutlineGrey.vue'
 </script>

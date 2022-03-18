@@ -1,4 +1,4 @@
-<!-- TODO: bg colour for progress -->
+<!-- TODO: bg color for progress -->
 <template>
 	<div class="flex flex-row mb-4 mt-4">
 		<div class="basis-1/2 ml-4">

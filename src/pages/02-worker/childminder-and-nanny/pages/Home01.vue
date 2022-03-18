@@ -13,9 +13,9 @@ import HomeCard from '../../../../components/cards/HomeCard.vue'
 		<main>
 			<div class="min-h-full flex flex-col mx-4">
 				<UserProgress />
-				<HomeCard tempBackgroundColour="bg-pink-100" tempFocusRingColour="focus:ring-pink-200" user="Nanny" content="Work on regular fixed schedule, returning days per week" />
-				<HomeCard tempBackgroundColour="bg-blue-100" tempFocusRingColour="focus:ring-blue-200" user="Au Pair" content="Experience a new culture with a host family abroad as a caregiver" />
-				<HomeCard tempBackgroundColour="bg-green-100" tempFocusRingColour="focus:ring-green-200" user="Childminder" content="Work as a pro-nanny" />
+				<HomeCard tempBackgroundColor="bg-pink-100" tempFocusRingColor="focus:ring-pink-200" user="Nanny" content="Work on regular fixed schedule, returning days per week" />
+				<HomeCard tempBackgroundColor="bg-blue-100" tempFocusRingColor="focus:ring-blue-200" user="Au Pair" content="Experience a new culture with a host family abroad as a caregiver" />
+				<HomeCard tempBackgroundColor="bg-green-100" tempFocusRingColor="focus:ring-green-200" user="Childminder" content="Work as a pro-nanny" />
 			</div>
 		</main>
 	</div>

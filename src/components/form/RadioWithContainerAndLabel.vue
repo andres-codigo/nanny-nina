@@ -16,7 +16,8 @@
 					text-blue-500
 					checked:ring-1 checked:ring-offset-2 checked:ring-gray-400 checked:bg-none
 					focus:ring-gray-400
-					border-1 border-gray-400"
+					border-1 border-gray-400
+				"
 			>
 		</div>
 	</div>

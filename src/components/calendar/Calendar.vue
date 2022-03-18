@@ -34,12 +34,12 @@ import ButtonPrimary from '../buttons/ButtonPrimary.vue'
 			Is selected, include: "[text-white to be confirmed]"
 			Is not selected, is not today, and is current month, include: "text-gray-900"
 			Is not selected, is not today, and is not current month, include: "text-gray-400"
-			Is today and is not selected, include: "[text-indigo-600 to be confirmed]"
+			Is today and is not selected, include: "[text-purple-600 to be confirmed]"
 			-->
 			<button type="button" class="py-1.5 font-thin text-gray-400 hover:bg-gray-100 focus:z-10">
 			<!--
 				Always include: "mx-auto flex h-7 w-7 items-center justify-center"
-				Is selected and is today, include: "[bg-indigo-600 to be confirmed]"
+				Is selected and is today, include: "[bg-purple-600 to be confirmed]"
 				Is selected and is not today, include: "[bg-gray-900 to be confirmed]"
 			-->
 				<time datetime="2021-12-27" class="mx-auto flex h-7 w-7 items-center justify-center">27</time>
