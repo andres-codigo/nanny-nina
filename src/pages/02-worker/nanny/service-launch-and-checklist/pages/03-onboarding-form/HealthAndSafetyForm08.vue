@@ -1,6 +1,6 @@
 <script setup>
 import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
-import CheckboxQuestion from '../../../../../../components/form/CheckboxQuestion.vue'
+import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
 import ButtonOutlineDark from '../../../../../../components/buttons/ButtonOutlineDark.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
@@ -18,7 +18,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 						<div class="mb-2">
 							<h6 class="text-header-six font-medium mb-4">Personal Health</h6>
 							<p class="text-xl font-thin mb-4">Do you have any health conditions?</p>
-							<CheckboxQuestion screenReaderOnly="true" legend="Do you have any health conditions?" QuestionOneText="Yes" QuestionTwoText="No" />
+							<RadioQuestion screenReaderOnly="true" legend="Do you have any health conditions?" QuestionOneText="Yes" QuestionTwoText="No" />
 						</div>
 
 						<div>
@@ -39,7 +39,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 						<div class="mb-8">
 							<h6 class="text-header-six font-medium mb-4">Allergies</h6>
 							<p class="text-xl font-thin mb-4">Do you have any allergies?</p>
-							<CheckboxQuestion screenReaderOnly="true" legend="Do you have any allergies?" QuestionOneText="Yes" QuestionTwoText="No" />
+							<RadioQuestion screenReaderOnly="true" legend="Do you have any allergies?" QuestionOneText="Yes" QuestionTwoText="No" />
 						</div>
 
 						<div>
@@ -60,7 +60,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 						<div class="mb-8">
 							<h6 class="text-header-six font-medium mb-4">Safety Document</h6>
 							<p class="text-xl font-thin mb-4">Are you First Aid certified?</p>
-							<CheckboxQuestion screenReaderOnly="true" legend="Are you First Aid certified?" QuestionOneText="Yes" QuestionTwoText="No" />
+							<RadioQuestion screenReaderOnly="true" legend="Are you First Aid certified?" QuestionOneText="Yes" QuestionTwoText="No" />
 						</div>
 
 						<div>

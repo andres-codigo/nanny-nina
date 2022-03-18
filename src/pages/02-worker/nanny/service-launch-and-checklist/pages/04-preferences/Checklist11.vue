@@ -1,7 +1,7 @@
 <script setup>
 import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
 import CheckListItem from '../../../../../../components/checklist/ChecklistItem.vue'
-import CheckboxQuestion from '../../../../../../components/form/CheckboxQuestion.vue'
+import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 </script>
 

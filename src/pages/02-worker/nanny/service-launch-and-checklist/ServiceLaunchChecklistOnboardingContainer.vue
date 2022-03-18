@@ -20,6 +20,7 @@ import PreferencesLaunchScreen10 from './pages/04-preferences/PreferencesLaunchS
 import Checklist11 from './pages/04-preferences/Checklist11.vue'
 import AvailabilityWeeklyHours12 from './pages/04-preferences/AvailabilityWeeklyHours12.vue'
 import AvailabilityCalendar13 from './pages/04-preferences/AvailabilityCalendar13.vue'
+import MatchingPreferences14 from './pages/04-preferences/MatchingPreferences14.vue'
 
 </script>
 
@@ -27,16 +28,25 @@ import AvailabilityCalendar13 from './pages/04-preferences/AvailabilityCalendar1
 	<div class="flex flex-wrap grow gap-y-6 gap-x-4">
 		<ServiceLaunchScreen01 class="max-w-450-for-dev-not-prod" />
 		<Checklist02 class="max-w-450-for-dev-not-prod" />
+
+		<!-- 01 Media Upload Checklist -->
 		<MediaUploadPhoto03 class="max-w-450-for-dev-not-prod" />
 		<MediaUploadVideo04 class="max-w-450-for-dev-not-prod" />
+
+		<!-- 02 Residence Card/Id Checklist -->
 		<ResidenceCardOrID05 class="max-w-450-for-dev-not-prod" />
+
+		<!-- 03 Onboarding Form Checklist -->
 		<AddressForm06 class="max-w-450-for-dev-not-prod" />
 		<EducationForm07 class="max-w-450-for-dev-not-prod" />
 		<HealthAndSafetyForm08 class="max-w-450-for-dev-not-prod" />
 		<ReferenceForm09 class="max-w-450-for-dev-not-prod" />
+
+		<!-- 04 Preferences Checklist -->
 		<PreferencesLaunchScreen10 class="max-w-450-for-dev-not-prod" />
 		<Checklist11 class="max-w-450-for-dev-not-prod" />
 		<AvailabilityWeeklyHours12 class="max-w-450-for-dev-not-prod" />
 		<AvailabilityCalendar13 class="max-w-450-for-dev-not-prod" />
+		<MatchingPreferences14 class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>

@@ -1,6 +1,6 @@
 <script setup>
 import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
-import CheckboxQuestion from '../../../../../../components/form/CheckboxQuestion.vue'
+import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import InputField from '../../../../../../components/form/InputField.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 </script>
@@ -17,7 +17,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 						<div class="mb-2">
 							<h6 class="text-header-six font-medium mb-4">Reference</h6>
 							<p class="text-xl font-thin mb-4">Do you have a reference?</p>
-							<CheckboxQuestion screenReaderOnly="true" legend="Do you have any health conditions?" QuestionOneText="Yes" QuestionTwoText="No" />
+							<RadioQuestion screenReaderOnly="true" legend="Do you have any health conditions?" QuestionOneText="Yes" QuestionTwoText="No" />
 						</div>
 
 						<div>
