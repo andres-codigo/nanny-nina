@@ -20,8 +20,8 @@ import ButtonSecondary from '../../../../../components/buttons/ButtonSecondary.v
 						* remove background colour in div as visual placeholder
 					-->
 				</div>
-				<div>
-					<div class="mt-24">
+				<div class="mt-96">
+					<div>
 						<ButtonOutlineLight text="Not now, I'm exploring" />
 					</div>
 					<div class="mt-2">
