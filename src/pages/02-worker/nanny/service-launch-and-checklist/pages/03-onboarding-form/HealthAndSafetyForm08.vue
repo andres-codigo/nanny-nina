@@ -1,11 +1,3 @@
-<script setup>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
-import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
-import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
-import ButtonOutlineDark from '../../../../../../components/buttons/ButtonOutlineDark.vue'
-import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
-</script>
-
 <template>
 	<div class="w-full h-full">
 		<TopNavigation routerLinkPath="/dashboard" text="Nanny Form" hideIcon="true" />
@@ -102,10 +94,20 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 </template>
 
 <script>
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
+import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
+import ButtonOutlineDark from '../../../../../../components/buttons/ButtonOutlineDark.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 import { PlusIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
+		TopNavigation,
+		RadioQuestion,
+		InputFieldBorderBottomOnly,
+		ButtonOutlineDark,
+		ButtonPrimary,
 		PlusIcon
 	}
 }

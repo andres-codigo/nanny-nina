@@ -1,13 +1,8 @@
-<script setup>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
-import CheckListItem from '../../../../../../components/checklist/ChecklistItem.vue'
-import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
-import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
-</script>
-
 <template>
 	<div class="w-full h-full">
-		<TopNavigation routerLinkPath="/dashboard" text="Preferences" />
+		<TopNavigation routerLinkPath="/dashboard" text="Preferences">
+			<QuestionMarkCircleIcon class="w-8 h-8 text-green-500" aria-hidden="true" />
+		</TopNavigation>
 		<main>
 			<div class="flex flex-col px-4 py-6 bg-slate-50">
 				<h5 class="mb-2 text-left text-header-five font-normal text-gray-900">Let's help you find more jobs</h5>
@@ -28,3 +23,21 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 		</main>
 	</div>
 </template>
+
+<script>
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import CheckListItem from '../../../../../../components/checklist/ChecklistItem.vue'
+import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
+import { QuestionMarkCircleIcon } from '@heroicons/vue/solid'
+
+export default {
+	components: {
+		TopNavigation,
+		CheckListItem,
+		RadioQuestion,
+		ButtonPrimary,
+		QuestionMarkCircleIcon
+	}
+}
+</script>

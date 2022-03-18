@@ -1,10 +1,3 @@
-<script setup>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
-import SinglePhotoUpload from '../../../../../../components/media/single-upload/SinglePhotoUpload.vue'
-import MultiplePhotoUpload from '../../../../../../components/media/multiple-upload/MultiplePhotoUpload.vue'
-import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
-</script>
-
 <template>
 	<div class="w-full h-full">
 		<TopNavigation routerLinkPath="/dashboard" text="Media Upload" hideIcon="true" />
@@ -27,3 +20,19 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 		</main>
 	</div>
 </template>
+
+<script>
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import SinglePhotoUpload from '../../../../../../components/media/single-upload/SinglePhotoUpload.vue'
+import MultiplePhotoUpload from '../../../../../../components/media/multiple-upload/MultiplePhotoUpload.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
+
+export default {
+	components: {
+		TopNavigation,
+		SinglePhotoUpload,
+		MultiplePhotoUpload,
+		ButtonPrimary
+	}
+}
+</script>

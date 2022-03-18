@@ -1,13 +1,8 @@
-<script setup>
-import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
-import SinglePhotoUpload from '../../../../components/media/single-upload/SinglePhotoUpload.vue'
-import MultiplePhotoUpload from '../../../../components/media/multiple-upload/MultiplePhotoUpload.vue'
-import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
-</script>
-
 <template>
 	<div class="w-full h-full">
-		<TopNavigation routerLinkPath="/dashboard" text="Media Upload" />
+		<TopNavigation routerLinkPath="/dashboard" text="Media Upload">
+			<QuestionMarkCircleIcon class="w-8 h-8 text-green-500" aria-hidden="true" />
+		</TopNavigation>
 		<main>
 			<div class="flex flex-col pt-12 mx-4">
 				<form action="#" method="POST">
@@ -27,3 +22,21 @@ import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
 		</main>
 	</div>
 </template>
+
+<script>
+import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
+import SinglePhotoUpload from '../../../../components/media/single-upload/SinglePhotoUpload.vue'
+import MultiplePhotoUpload from '../../../../components/media/multiple-upload/MultiplePhotoUpload.vue'
+import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
+import { QuestionMarkCircleIcon } from '@heroicons/vue/solid'
+
+export default {
+	components: {
+		TopNavigation,
+		SinglePhotoUpload,
+		MultiplePhotoUpload,
+		ButtonPrimary,
+		QuestionMarkCircleIcon
+	}
+}
+</script>

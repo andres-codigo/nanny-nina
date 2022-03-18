@@ -1,15 +1,8 @@
-<script setup>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
-import Tabs from '../../../../../../components/tabs/Tabs.vue'
-import Badge from '../../../../../../components/form/Badge.vue'
-import InputFieldTimeEnabled from '../../../../../../components/form/InputFieldTimeEnabled.vue'
-import InputFieldTimeDisabled from '../../../../../../components/form/InputFieldTimeDisabled.vue'
-import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
-</script>
-
 <template>
 	<div class="w-full h-full">
-		<TopNavigation routerLinkPath="/dashboard" text="Availability" />
+		<TopNavigation routerLinkPath="/dashboard" text="Availability">
+			<QuestionMarkCircleIcon class="w-8 h-8 text-green-500" aria-hidden="true" />
+		</TopNavigation>
 		<main>
 			<div class="flex flex-col px-4 py-6">
 				<h5 class="mt-8 mb-2 text-left text-header-five font-normal text-gray-900">Availability</h5>
@@ -117,10 +110,23 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 </template>
 
 <script>
-import { PlusIcon, XCircleIcon } from '@heroicons/vue/solid'
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import Tabs from '../../../../../../components/tabs/Tabs.vue'
+import Badge from '../../../../../../components/form/Badge.vue'
+import InputFieldTimeEnabled from '../../../../../../components/form/InputFieldTimeEnabled.vue'
+import InputFieldTimeDisabled from '../../../../../../components/form/InputFieldTimeDisabled.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
+import { QuestionMarkCircleIcon, PlusIcon, XCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
+		TopNavigation,
+		Tabs,
+		Badge,
+		InputFieldTimeEnabled,
+		InputFieldTimeDisabled,
+		ButtonPrimary,
+		QuestionMarkCircleIcon,
 		PlusIcon,
 		XCircleIcon
 	}

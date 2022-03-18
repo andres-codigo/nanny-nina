@@ -1,10 +1,3 @@
-<script setup>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
-import Front from '../../../../../../components/media/identification/Front.vue'
-import Back from '../../../../../../components/media/identification/Back.vue'
-import ButtonDisabled from '../../../../../../components/buttons/ButtonDisabled.vue'
-</script>
-
 <template>
 	<div class="w-full h-full">
 		<TopNavigation routerLinkPath="/dashboard" text="Media Upload" hideIcon="true" />
@@ -25,3 +18,19 @@ import ButtonDisabled from '../../../../../../components/buttons/ButtonDisabled.
 		</main>
 	</div>
 </template>
+
+<script>
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import Front from '../../../../../../components/media/identification/Front.vue'
+import Back from '../../../../../../components/media/identification/Back.vue'
+import ButtonDisabled from '../../../../../../components/buttons/ButtonDisabled.vue'
+
+export default {
+	components: {
+		TopNavigation,
+		Front,
+		Back,
+		ButtonDisabled
+	}
+}
+</script>
