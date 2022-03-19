@@ -30,6 +30,6 @@ export default {
 	components: {
 		Mail,
 		XIcon
-	},
+	}
 }
 </script>

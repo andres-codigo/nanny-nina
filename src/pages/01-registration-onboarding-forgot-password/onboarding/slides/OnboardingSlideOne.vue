@@ -44,11 +44,6 @@ import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
 import { XIcon } from '@heroicons/vue/solid'
 
 export default {
-	data() {
-		return {
-			slideIndex: 0,
-		}
-	},
 	components: {
 		Image,
 		Badge,

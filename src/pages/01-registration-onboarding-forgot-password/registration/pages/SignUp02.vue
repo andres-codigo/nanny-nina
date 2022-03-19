@@ -30,6 +30,6 @@ export default {
 		LinkCard,
 		ButtonOutlineDark,
 		XIcon
-	},
+	}
 }
 </script>
