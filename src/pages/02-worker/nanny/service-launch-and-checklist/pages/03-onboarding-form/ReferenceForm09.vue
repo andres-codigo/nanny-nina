@@ -1,10 +1,3 @@
-<script setup>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
-import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
-import InputField from '../../../../../../components/form/InputField.vue'
-import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
-</script>
-
 <template>
 	<div class="w-full h-full">
 		<TopNavigation routerLinkPath="/dashboard" text="Nanny Form" hideIcon="true" />
@@ -17,7 +10,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 						<div class="mb-2">
 							<h6 class="text-header-six font-medium mb-4">Reference</h6>
 							<p class="text-xl font-thin mb-4">Do you have a reference?</p>
-							<RadioQuestion screenReaderOnly="true" legend="Do you have any health conditions?" QuestionOneText="Yes" QuestionTwoText="No" />
+							<RadioQuestion screenReaderOnly="true" legend="Do you have any health conditions?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
 						<div>
@@ -47,3 +40,19 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 		</main>
 	</div>
 </template>
+
+<script>
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
+import InputField from '../../../../../../components/form/InputField.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
+
+export default {
+	components: {
+		TopNavigation,
+		RadioQuestion,
+		InputField,
+		ButtonPrimary
+	}
+}
+</script>

@@ -1,15 +1,8 @@
-<script setup>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
-import Tabs from '../../../../../../components/tabs/Tabs.vue'
-import Badge from '../../../../../../components/form/Badge.vue'
-import InputFieldTimeEnabled from '../../../../../../components/form/InputFieldTimeEnabled.vue'
-import InputFieldTimeDisabled from '../../../../../../components/form/InputFieldTimeDisabled.vue'
-import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
-</script>
-
 <template>
 	<div class="w-full h-full">
-		<TopNavigation routerLinkPath="/dashboard" text="Availability" />
+		<TopNavigation routerLinkPath="/dashboard" text="Availability">
+			<QuestionMarkCircleIcon class="w-8 h-8 text-green-500" aria-hidden="true" />
+		</TopNavigation>
 		<main>
 			<div class="flex flex-col px-4 py-6">
 				<h5 class="mt-8 mb-2 text-left text-header-five font-normal text-gray-900">Availability</h5>
@@ -37,7 +30,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<Badge backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Mon" />
+								<Badge backgroundColor="bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Mon" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 11:00" /></div>
@@ -54,7 +47,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row  h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<Badge backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Tue" />
+								<Badge backgroundColor="bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Tue" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 17:00" /></div>
@@ -65,7 +58,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row  h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<Badge backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Wed" />
+								<Badge backgroundColor="bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Wed" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 17:00" /></div>
@@ -76,7 +69,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row  h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<Badge backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Thur" />
+								<Badge backgroundColor="bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Thur" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 17:00" /></div>
@@ -87,7 +80,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row  h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<Badge backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Fri" />
+								<Badge backgroundColor="bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Fri" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 17:00" /></div>
@@ -98,7 +91,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row  h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<Badge backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Sat" />
+								<Badge backgroundColor="bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" translateXPosition="translate-x-6" text="Sat" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 17:00" /></div>
@@ -117,10 +110,23 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 </template>
 
 <script>
-import { PlusIcon, XCircleIcon } from '@heroicons/vue/solid'
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import Tabs from '../../../../../../components/tabs/Tabs.vue'
+import Badge from '../../../../../../components/form/Badge.vue'
+import InputFieldTimeEnabled from '../../../../../../components/form/InputFieldTimeEnabled.vue'
+import InputFieldTimeDisabled from '../../../../../../components/form/InputFieldTimeDisabled.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
+import { QuestionMarkCircleIcon, PlusIcon, XCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
+		TopNavigation,
+		Tabs,
+		Badge,
+		InputFieldTimeEnabled,
+		InputFieldTimeDisabled,
+		ButtonPrimary,
+		QuestionMarkCircleIcon,
 		PlusIcon,
 		XCircleIcon
 	}

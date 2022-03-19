@@ -1,9 +1,3 @@
-<script setup>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
-import InputField from '../../../../../../components/form/InputField.vue'
-import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
-</script>
-
 <template>
 	<div class="w-full h-full">
 		<TopNavigation routerLinkPath="/dashboard" text="Nanny Form" hideIcon="true" />
@@ -37,3 +31,17 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 		</main>
 	</div>
 </template>
+
+<script>
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import InputField from '../../../../../../components/form/InputField.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
+
+export default {
+	components: {
+		TopNavigation,
+		InputField,
+		ButtonPrimary
+	}
+}
+</script>

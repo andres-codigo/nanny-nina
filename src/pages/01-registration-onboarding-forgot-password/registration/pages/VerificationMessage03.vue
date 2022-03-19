@@ -1,7 +1,3 @@
-<script setup>
-import Mail from '../../../../assets/svg/mail/mail.vue'
-</script>
-
 <template>
 	<div class="bg-blue-500 w-full h-screen">
 		<header>
@@ -27,11 +23,13 @@ import Mail from '../../../../assets/svg/mail/mail.vue'
 </template>
 
 <script>
+import Mail from '../../../../assets/svg/mail/mail.vue'
 import { XIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
+		Mail,
 		XIcon
-	},
+	}
 }
 </script>

@@ -1,34 +1,3 @@
-<script setup>
-/* Start */
-import ServiceLaunchStartScreen01 from './pages/ServiceLaunchStartScreen01.vue'
-
-/* Checklist Landing Page */
-import ChecklistLandingPage02 from './pages/ChecklistLandingPage02.vue'
-
-/* 01 Media Upload Checklist */
-import MediaUploadPhoto03 from './pages/01-media-upload/MediaUploadPhoto03.vue'
-import MediaUploadVideo04 from './pages/01-media-upload/MediaUploadVideo04.vue'
-
-/* 02 Residence Card/Id Checklist */
-import ResidenceCardOrID05 from './pages/02-residence-card-id/ResidenceCardOrID05.vue'
-
-/* 03 Onboarding Form Checklist */
-import AddressForm06 from './pages/03-onboarding-form/AddressForm06.vue'
-import EducationForm07 from './pages/03-onboarding-form/EducationForm07.vue'
-import HealthAndSafetyForm08 from './pages/03-onboarding-form/HealthAndSafetyForm08.vue'
-import ReferenceForm09 from './pages/03-onboarding-form/ReferenceForm09.vue'
-
-/* 04 Preferences Checklist */
-import PreferencesLaunchScreen10 from './pages/04-preferences/PreferencesLaunchScreen10.vue'
-import ChecklistLandingPage11 from './pages/04-preferences/ChecklistLandingPage11.vue'
-import AvailabilityWeeklyHours12 from './pages/04-preferences/AvailabilityWeeklyHours12.vue'
-import AvailabilityCalendar13 from './pages/04-preferences/AvailabilityCalendar13.vue'
-import MatchingPreferences14 from './pages/04-preferences/MatchingPreferences14.vue'
-
-/* End */
-import ServiceLaunchEndScreen15 from './pages/ServiceLaunchEndScreen15.vue'
-</script>
-
 <template>
 	<div class="flex flex-wrap grow gap-y-6 gap-x-4">
 		<!-- Start -->
@@ -59,5 +28,62 @@ import ServiceLaunchEndScreen15 from './pages/ServiceLaunchEndScreen15.vue'
 
 		<!-- End -->
 		<ServiceLaunchEndScreen15 class="max-w-450-for-dev-not-prod" />
+
+		<!-- Parent Profile -->
+		<ParentProfile16 class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
+<script>
+/* Start */
+import ServiceLaunchStartScreen01 from './pages/ServiceLaunchStartScreen01.vue'
+
+/* Checklist Landing Page */
+import ChecklistLandingPage02 from './pages/ChecklistLandingPage02.vue'
+
+/* 01 Media Upload Checklist */
+import MediaUploadPhoto03 from './pages/01-media-upload/MediaUploadPhoto03.vue'
+import MediaUploadVideo04 from './pages/01-media-upload/MediaUploadVideo04.vue'
+
+/* 02 Residence Card/Id Checklist */
+import ResidenceCardOrID05 from './pages/02-residence-card-id/ResidenceCardOrID05.vue'
+
+/* 03 Onboarding Form Checklist */
+import AddressForm06 from './pages/03-onboarding-form/AddressForm06.vue'
+import EducationForm07 from './pages/03-onboarding-form/EducationForm07.vue'
+import HealthAndSafetyForm08 from './pages/03-onboarding-form/HealthAndSafetyForm08.vue'
+import ReferenceForm09 from './pages/03-onboarding-form/ReferenceForm09.vue'
+
+/* 04 Preferences Checklist */
+import PreferencesLaunchScreen10 from './pages/04-preferences/PreferencesLaunchScreen10.vue'
+import ChecklistLandingPage11 from './pages/04-preferences/ChecklistLandingPage11.vue'
+import AvailabilityWeeklyHours12 from './pages/04-preferences/AvailabilityWeeklyHours12.vue'
+import AvailabilityCalendar13 from './pages/04-preferences/AvailabilityCalendar13.vue'
+import MatchingPreferences14 from './pages/04-preferences/MatchingPreferences14.vue'
+
+/* End */
+import ServiceLaunchEndScreen15 from './pages/ServiceLaunchEndScreen15.vue'
+
+/* Parent Profile */
+import ParentProfile16 from './pages/05-parent-profile/ParentProfile16.vue'
+
+export default {
+	components: {
+		ServiceLaunchStartScreen01,
+		ChecklistLandingPage02,
+		MediaUploadPhoto03,
+		MediaUploadVideo04,
+		ResidenceCardOrID05,
+		AddressForm06,
+		EducationForm07,
+		HealthAndSafetyForm08,
+		ReferenceForm09,
+		PreferencesLaunchScreen10,
+		ChecklistLandingPage11,
+		AvailabilityWeeklyHours12,
+		AvailabilityCalendar13,
+		MatchingPreferences14,
+		ServiceLaunchEndScreen15,
+		ParentProfile16
+	}
+}
+</script>

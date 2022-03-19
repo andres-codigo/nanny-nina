@@ -1,7 +1,3 @@
-<script setup>
-import HeaderLogo from '../header/HeaderLogo.vue'
-</script>
-
 <template>
 	<header>
 		<nav class="mx-auto pr-4">
@@ -16,10 +12,12 @@ import HeaderLogo from '../header/HeaderLogo.vue'
 </template>
 
 <script>
+import HeaderLogo from '../header/HeaderLogo.vue'
 import { XIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
+		HeaderLogo,
 		XIcon
 	},
 }

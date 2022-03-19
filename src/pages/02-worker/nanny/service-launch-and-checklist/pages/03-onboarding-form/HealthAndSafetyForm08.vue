@@ -1,11 +1,3 @@
-<script setup>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
-import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
-import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
-import ButtonOutlineDark from '../../../../../../components/buttons/ButtonOutlineDark.vue'
-import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
-</script>
-
 <template>
 	<div class="w-full h-full">
 		<TopNavigation routerLinkPath="/dashboard" text="Nanny Form" hideIcon="true" />
@@ -18,7 +10,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 						<div class="mb-2">
 							<h6 class="text-header-six font-medium mb-4">Personal Health</h6>
 							<p class="text-xl font-thin mb-4">Do you have any health conditions?</p>
-							<RadioQuestion screenReaderOnly="true" legend="Do you have any health conditions?" QuestionOneText="Yes" QuestionTwoText="No" />
+							<RadioQuestion screenReaderOnly="true" legend="Do you have any health conditions?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
 						<div>
@@ -39,7 +31,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 						<div class="mb-8">
 							<h6 class="text-header-six font-medium mb-4">Allergies</h6>
 							<p class="text-xl font-thin mb-4">Do you have any allergies?</p>
-							<RadioQuestion screenReaderOnly="true" legend="Do you have any allergies?" QuestionOneText="Yes" QuestionTwoText="No" />
+							<RadioQuestion screenReaderOnly="true" legend="Do you have any allergies?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
 						<div>
@@ -60,7 +52,7 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 						<div class="mb-8">
 							<h6 class="text-header-six font-medium mb-4">Safety Document</h6>
 							<p class="text-xl font-thin mb-4">Are you First Aid certified?</p>
-							<RadioQuestion screenReaderOnly="true" legend="Are you First Aid certified?" QuestionOneText="Yes" QuestionTwoText="No" />
+							<RadioQuestion screenReaderOnly="true" legend="Are you First Aid certified?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
 						<div>
@@ -102,10 +94,20 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 </template>
 
 <script>
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
+import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
+import ButtonOutlineDark from '../../../../../../components/buttons/ButtonOutlineDark.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 import { PlusIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
+		TopNavigation,
+		RadioQuestion,
+		InputFieldBorderBottomOnly,
+		ButtonOutlineDark,
+		ButtonPrimary,
 		PlusIcon
 	}
 }

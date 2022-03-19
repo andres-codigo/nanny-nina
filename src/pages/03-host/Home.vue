@@ -1,10 +1,4 @@
-<script setup>
-import UserProgress from '../../components/home/UserProgress.vue'
-import HomeCard from '../../components/cards/HomeCard.vue'
-import BottomMenu from '../../components/menu/BottomMenu.vue'
-</script>
-
-<template>
+]<template>
 	<div class="min-w-360-for-dev-not-prod">
 		<main>
 			<div class="min-h-full flex flex-col mx-4 pb-20">
@@ -19,3 +13,17 @@ import BottomMenu from '../../components/menu/BottomMenu.vue'
 		</footer>
 	</div>
 </template>
+
+<script>
+import UserProgress from '../../components/home/UserProgress.vue'
+import HomeCard from '../../components/cards/HomeCard.vue'
+import BottomMenu from '../../components/menu/BottomMenu.vue'
+
+export default {
+	components: {
+		UserProgress,
+		HomeCard,
+		BottomMenu
+	}
+}
+</script>

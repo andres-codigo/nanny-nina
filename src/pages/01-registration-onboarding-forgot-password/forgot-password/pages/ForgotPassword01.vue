@@ -1,10 +1,3 @@
-<script setup>
-import Header from '../../../../components/header/Header.vue'
-import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
-import ButtonGhost from '../../../../components/buttons/ButtonGhost.vue'
-import InputField from '../../../../components/form/InputField.vue'
-</script>
-
 <template>
 	<div class="bg-white h-screen">
 		<Header />
@@ -31,3 +24,19 @@ import InputField from '../../../../components/form/InputField.vue'
 		</main>
 	</div>
 </template>
+
+<script>
+import Header from '../../../../components/header/Header.vue'
+import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
+import ButtonGhost from '../../../../components/buttons/ButtonGhost.vue'
+import InputField from '../../../../components/form/InputField.vue'
+
+export default {
+	components: {
+		Header,
+		ButtonPrimary,
+		ButtonGhost,
+		InputField
+	}
+}
+</script>

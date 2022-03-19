@@ -1,7 +1,3 @@
-<script setup>
-import SingleVideoUploadItem from './SingleVideoUploadItem.vue'
-</script>
-
 <template>
 	<h5 class="mb-2 text-left text-header-five font-normal text-gray-900">Upload Introductory Video <span class="text-sm text-gray-500">(Optional)</span></h5>
 
@@ -9,3 +5,13 @@ import SingleVideoUploadItem from './SingleVideoUploadItem.vue'
 		<SingleVideoUploadItem />
 	</div>
 </template>
+
+<script>
+import SingleVideoUploadItem from './SingleVideoUploadItem.vue'
+
+export default {
+	components: {
+		SingleVideoUploadItem
+	}
+}
+</script>

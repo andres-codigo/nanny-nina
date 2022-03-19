@@ -31,6 +31,10 @@
 import { UsersIcon, CalendarIcon } from '@heroicons/vue/solid'
 
 export default {
+	components: {
+		UsersIcon,
+		CalendarIcon
+	},
 	props: {
 		routerLinkPath: String,
 		title: String,
@@ -48,10 +52,6 @@ export default {
 		},
 		notes: String,
 		date: String
-	},
-	components: {
-		UsersIcon,
-		CalendarIcon
-	},
+	}
 }
 </script>

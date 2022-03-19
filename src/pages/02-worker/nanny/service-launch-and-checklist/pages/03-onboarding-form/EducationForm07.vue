@@ -1,12 +1,3 @@
-<script setup>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
-import RadioWithContainerAndLabel from '../../../../../../components/form/RadioWithContainerAndLabel.vue'
-import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
-import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
-import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
-import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
-</script>
-
 <template>
 	<div class="w-full h-full">
 		<TopNavigation routerLinkPath="/dashboard" text="Nanny Form" hideIcon="true" />
@@ -51,12 +42,12 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 					<div class="mt-4">
 						<h6 class="text-header-six font-medium mb-4">Driver's License <span class=" text-gray-500">(optional)</span></h6>
 						<p class="text-xl font-thin mb-4">Do you have a driver's license?</p>
-						<RadioQuestion screenReaderOnly="true" legend="Do you have a driver's license?" QuestionOneText="Yes" QuestionTwoText="No" />
+						<RadioQuestion screenReaderOnly="true" legend="Do you have a driver's license?" questionOneText="Yes" questionTwoText="No" />
 					</div>
 
 					<div class="flex flex-col mt-4 mb-8">
 						<p class="text-xl font-thin mb-4">If yes, are you willing to drive kids?</p>
-						<RadioQuestion screenReaderOnly="true" legend="Do you have any health conditions?" QuestionOneText="Yes" QuestionTwoText="No" />
+						<RadioQuestion screenReaderOnly="true" legend="Do you have any health conditions?" questionOneText="Yes" questionTwoText="No" />
 					</div>
 
 					<div class="mt-10">
@@ -69,10 +60,22 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 </template>
 
 <script>
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import RadioWithContainerAndLabel from '../../../../../../components/form/RadioWithContainerAndLabel.vue'
+import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
+import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
+import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 import { PlusIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
+		TopNavigation,
+		RadioWithContainerAndLabel,
+		SelectMenu,
+		RadioQuestion,
+		InputFieldBorderBottomOnly,
+		ButtonPrimary,
 		PlusIcon,
 		QuestionMarkCircleIcon
 	}

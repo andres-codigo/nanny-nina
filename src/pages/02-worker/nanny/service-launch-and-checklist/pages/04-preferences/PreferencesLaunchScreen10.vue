@@ -1,8 +1,3 @@
-<script setup>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
-import ButtonSecondary from '../../../../../../components/buttons/ButtonSecondary.vue'
-</script>
-
 <template>
 	<div class="w-full h-full bg-blue-500">
 		<TopNavigation routerLinkPath="/dashboard" :hideHeader="true" :hideIcon="true" />
@@ -26,3 +21,15 @@ import ButtonSecondary from '../../../../../../components/buttons/ButtonSecondar
 		</main>
 	</div>
 </template>
+
+<script>
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import ButtonSecondary from '../../../../../../components/buttons/ButtonSecondary.vue'
+
+export default {
+	components: {
+		TopNavigation,
+		ButtonSecondary
+	}
+}
+</script>

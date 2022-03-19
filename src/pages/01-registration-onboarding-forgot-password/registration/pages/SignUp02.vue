@@ -1,9 +1,4 @@
 <!-- TODO: hover, focus for LinkCard's -->
-<script setup>
-import LinkCard from '../../../../components/cards/LinkCard.vue'
-import ButtonOutlineDark from '../../../../components/buttons/ButtonOutlineDark.vue'
-</script>
-
 <template>
 	<div class="w-full h-screen">
 		<header>
@@ -26,11 +21,15 @@ import ButtonOutlineDark from '../../../../components/buttons/ButtonOutlineDark.
 </template>
 
 <script>
+import LinkCard from '../../../../components/cards/LinkCard.vue'
+import ButtonOutlineDark from '../../../../components/buttons/ButtonOutlineDark.vue'
 import { XIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
+		LinkCard,
+		ButtonOutlineDark,
 		XIcon
-	},
+	}
 }
 </script>

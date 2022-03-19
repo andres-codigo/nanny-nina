@@ -1,9 +1,3 @@
-<script setup>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
-import SingleVideoUpload from '../../../../../../components/media/single-upload/SingleVideoUpload.vue'
-import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
-</script>
-
 <template>
 	<div class="w-full h-full">
 		<TopNavigation routerLinkPath="/dashboard" text="Media Upload" hideIcon="true" />
@@ -52,10 +46,16 @@ import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vu
 </template>
 
 <script>
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import SingleVideoUpload from '../../../../../../components/media/single-upload/SingleVideoUpload.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 import { CheckCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
+		TopNavigation,
+		SingleVideoUpload,
+		ButtonPrimary,
 		CheckCircleIcon
 	}
 }

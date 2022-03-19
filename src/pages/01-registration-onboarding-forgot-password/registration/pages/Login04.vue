@@ -1,10 +1,3 @@
-<script setup>
-import Header from '../../../../components/header/Header.vue'
-import InputField from '../../../../components/form/InputField.vue'
-import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
-import Google from '../../../../assets/svg/other/google.vue'
-</script>
-
 <template>
 	<div class="w-full h-screen">
 		<Header />
@@ -54,3 +47,19 @@ import Google from '../../../../assets/svg/other/google.vue'
 		</main>
 	</div>
 </template>
+
+<script>
+import Header from '../../../../components/header/Header.vue'
+import InputField from '../../../../components/form/InputField.vue'
+import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
+import Google from '../../../../assets/svg/other/google.vue'
+
+export default {
+	components: {
+		Header,
+		InputField,
+		ButtonPrimary,
+		Google
+	}
+}
+</script>
