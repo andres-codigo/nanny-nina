@@ -53,10 +53,10 @@ import { CheckCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
-		CheckCircleIcon,
 		TopNavigation,
 		SingleVideoUpload,
-		ButtonPrimary
+		ButtonPrimary,
+		CheckCircleIcon
 	}
 }
 </script>
