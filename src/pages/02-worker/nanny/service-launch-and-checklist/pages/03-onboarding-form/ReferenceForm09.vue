@@ -10,7 +10,7 @@
 						<div class="mb-2">
 							<h6 class="text-header-six font-medium mb-4">Reference</h6>
 							<p class="text-xl font-thin mb-4">Do you have a reference?</p>
-							<RadioQuestion screenReaderOnly="true" legend="Do you have any health conditions?" QuestionOneText="Yes" QuestionTwoText="No" />
+							<RadioQuestion screenReaderOnly="true" legend="Do you have any health conditions?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
 						<div>

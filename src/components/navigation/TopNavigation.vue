@@ -16,6 +16,9 @@
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 
 export default {
+	components: {
+		ChevronLeftIcon
+	},
 	props: {
 		backgroundColor: {
 			type: String,
@@ -39,9 +42,6 @@ export default {
 			type: Boolean,
 			default: false
 		},
-	},
-	components: {
-		ChevronLeftIcon
-	},
+	}
 }
 </script>

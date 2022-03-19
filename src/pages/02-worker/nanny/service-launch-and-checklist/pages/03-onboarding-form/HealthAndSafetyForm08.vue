@@ -10,7 +10,7 @@
 						<div class="mb-2">
 							<h6 class="text-header-six font-medium mb-4">Personal Health</h6>
 							<p class="text-xl font-thin mb-4">Do you have any health conditions?</p>
-							<RadioQuestion screenReaderOnly="true" legend="Do you have any health conditions?" QuestionOneText="Yes" QuestionTwoText="No" />
+							<RadioQuestion screenReaderOnly="true" legend="Do you have any health conditions?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
 						<div>
@@ -31,7 +31,7 @@
 						<div class="mb-8">
 							<h6 class="text-header-six font-medium mb-4">Allergies</h6>
 							<p class="text-xl font-thin mb-4">Do you have any allergies?</p>
-							<RadioQuestion screenReaderOnly="true" legend="Do you have any allergies?" QuestionOneText="Yes" QuestionTwoText="No" />
+							<RadioQuestion screenReaderOnly="true" legend="Do you have any allergies?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
 						<div>
@@ -52,7 +52,7 @@
 						<div class="mb-8">
 							<h6 class="text-header-six font-medium mb-4">Safety Document</h6>
 							<p class="text-xl font-thin mb-4">Are you First Aid certified?</p>
-							<RadioQuestion screenReaderOnly="true" legend="Are you First Aid certified?" QuestionOneText="Yes" QuestionTwoText="No" />
+							<RadioQuestion screenReaderOnly="true" legend="Are you First Aid certified?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
 						<div>
