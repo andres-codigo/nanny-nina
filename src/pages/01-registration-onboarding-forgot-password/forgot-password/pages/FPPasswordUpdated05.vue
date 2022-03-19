@@ -1,8 +1,3 @@
-<script setup>
-import Header from '../../../../components/header/Header.vue'
-import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
-</script>
-
 <template>
 	<div class="bg-white">
 		<Header />
@@ -23,3 +18,15 @@ import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
 		</main>
 	</div>
 </template>
+
+<script>
+import Header from '../../../../components/header/Header.vue'
+import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
+
+export default {
+	components: {
+		Header,
+		ButtonPrimary
+	}
+}
+</script>

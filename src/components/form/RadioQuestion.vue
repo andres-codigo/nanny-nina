@@ -1,7 +1,3 @@
-<script setup>
-import RadioWithContainerAndLabel from './RadioWithContainerAndLabel.vue'
-</script>
-
 <template>
 	<fieldset>
 		<legend :class="screenReaderOnly ? 'sr-only' : ''">{{ legend }}</legend>
@@ -13,7 +9,12 @@ import RadioWithContainerAndLabel from './RadioWithContainerAndLabel.vue'
 </template>
 
 <script>
+import RadioWithContainerAndLabel from './RadioWithContainerAndLabel.vue'
+
 export default {
+	components: {
+		RadioWithContainerAndLabel
+	},
 	props: {
 		screenReaderOnly: {
 			type: Boolean,

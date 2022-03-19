@@ -1,8 +1,4 @@
 <!-- TODO: bg color hover & focus -->
-<script setup>
-import Image from './Image.vue'
-</script>
-
 <template>
 	<a href="/" :class="['mb-9 h-80 rounded-3xl bg-white-500 hover:opacity-75 focus:outline-none focus:ring-2 focus:ring-offset-0', tempFocusRingColor]">
 		<div :class="['flex flex-row rounded-t-3xl', tempBackgroundColor]">
@@ -29,7 +25,11 @@ import Image from './Image.vue'
 </template>
 
 <script>
+import Image from './Image.vue'
 export default {
+	components: {
+		Image
+	},
 	props: {
 		tempBackgroundColor: String,
 		tempFocusRingColor: String,

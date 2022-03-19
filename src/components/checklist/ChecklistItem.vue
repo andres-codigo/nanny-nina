@@ -1,8 +1,4 @@
 <!-- TODO: bg color for default, hover & focus... overall look of page too -->
-<script setup>
-import ButtonOutlineGrey from '../buttons/ButtonOutlineGrey.vue'
-</script>
-
 <template>
 	<li>
 		<a href="#" :class="['block mb-4 bg-white hover:bg-gray-200', hideContent ? 'rounded-md hover:rounded-lg' : 'border rounded-lg hover:rounded-lg']">
@@ -33,9 +29,14 @@ import ButtonOutlineGrey from '../buttons/ButtonOutlineGrey.vue'
 </template>
 
 <script>
+import ButtonOutlineGrey from '../buttons/ButtonOutlineGrey.vue'
 import { ChevronRightIcon } from '@heroicons/vue/solid'
 
 export default {
+	components: {
+		ButtonOutlineGrey,
+		ChevronRightIcon,
+	},
 	props: {
 		hideContent: {
 			type: Boolean,
@@ -47,9 +48,6 @@ export default {
 		},
 		title: String,
 		description: String
-	},
-	components: {
-		ChevronRightIcon,
-	},
+	}
 }
 </script>

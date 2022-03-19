@@ -1,8 +1,3 @@
-<script setup>
-import ButtonGhost from '../buttons/ButtonGhost.vue'
-import ButtonPrimary from '../buttons/ButtonPrimary.vue'
-</script>
-
 <template>
 	<div class="mt-10 mx-10 text-center">
 		<div class="flex items-center text-slate-900">
@@ -177,10 +172,14 @@ import ButtonPrimary from '../buttons/ButtonPrimary.vue'
 </template>
 
 <script>
+import ButtonGhost from '../buttons/ButtonGhost.vue'
+import ButtonPrimary from '../buttons/ButtonPrimary.vue'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
+		ButtonGhost,
+		ButtonPrimary,
 		ChevronLeftIcon,
 		ChevronRightIcon
 	}

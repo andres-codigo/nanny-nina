@@ -1,8 +1,4 @@
 <!-- TODO: bg color for default, hover & focus -->
-<script setup>
-import Image from './Image.vue'
-</script>
-
 <template>
 	<div class="flex pb-8">
 		<router-link :to="'/' + to" :class="class" class="inline-flex grow relative h-60 px-6 pt-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2">
@@ -22,17 +18,19 @@ import Image from './Image.vue'
 </template>
 
 <script>
+import Image from './Image.vue'
 import { ChevronRightIcon } from '@heroicons/vue/solid'
 
 export default {
+	components: {
+		Image,
+		ChevronRightIcon,
+	},
 	props: {
 		to: String,
 		title: String,
 		content: String,
 		class: String,
-	},
-	components: {
-		ChevronRightIcon,
-	},
+	}
 }
 </script>

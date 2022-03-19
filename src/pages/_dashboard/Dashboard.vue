@@ -1,7 +1,3 @@
-<script setup>
-import ListItem from '../../components/_dashboard/ListItem.vue'
-</script>
-
 <template>
 	<div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
 		<div class="max-w-3xl mx-auto w-screen h-screen">
@@ -119,3 +115,13 @@ import ListItem from '../../components/_dashboard/ListItem.vue'
 		</div>
 	</div>
 </template>
+
+<script>
+import ListItem from '../../components/_dashboard/ListItem.vue'
+
+export default {
+	components: {
+		ListItem
+	}
+}
+</script>

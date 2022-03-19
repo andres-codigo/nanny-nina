@@ -1,9 +1,4 @@
 <!-- TODO: is text green value for h2 and link (span w underline) correct? -->
-<script setup>
-import ButtonSecondary from '../../../../components/buttons/ButtonSecondary.vue'
-import ButtonOutlineLight from '../../../../components/buttons/ButtonOutlineLight.vue'
-</script>
-
 <template>
 	<div class="h-full bg-blue-500">
 		<main>
@@ -22,3 +17,15 @@ import ButtonOutlineLight from '../../../../components/buttons/ButtonOutlineLigh
 		</main>
 	</div>
 </template>
+
+<script>
+import ButtonSecondary from '../../../../components/buttons/ButtonSecondary.vue'
+import ButtonOutlineLight from '../../../../components/buttons/ButtonOutlineLight.vue'
+
+export default {
+	components: {
+		ButtonSecondary,
+		ButtonOutlineLight
+	}
+}
+</script>

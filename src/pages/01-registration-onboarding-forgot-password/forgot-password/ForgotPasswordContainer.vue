@@ -1,12 +1,3 @@
-<script setup>
-import ForgotPassword01 from './pages/ForgotPassword01.vue'
-import FPError02 from './pages/FPError02.vue'
-import FPExpiredLink03 from './pages/FPExpiredLink03.vue'
-import FPNewPassword04 from './pages/FPNewPassword04.vue'
-import FPPasswordUpdated05 from './pages/FPPasswordUpdated05.vue'
-
-</script>
-
 <template>
 	<div class="flex flex-wrap grow gap-y-6 sm:gap-x-4 w-full h-full">
 		<ForgotPassword01 class="max-w-450-for-dev-not-prod" />
@@ -16,3 +7,21 @@ import FPPasswordUpdated05 from './pages/FPPasswordUpdated05.vue'
 		<FPPasswordUpdated05 class="w-full max-w-450-for-dev-not-prod" />
 	</div>
 </template>
+
+<script>
+import ForgotPassword01 from './pages/ForgotPassword01.vue'
+import FPError02 from './pages/FPError02.vue'
+import FPExpiredLink03 from './pages/FPExpiredLink03.vue'
+import FPNewPassword04 from './pages/FPNewPassword04.vue'
+import FPPasswordUpdated05 from './pages/FPPasswordUpdated05.vue'
+
+export default {
+	components: {
+		ForgotPassword01,
+		FPError02,
+		FPExpiredLink03,
+		FPNewPassword04,
+		FPPasswordUpdated05
+	}
+}
+</script>
