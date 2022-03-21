@@ -6,6 +6,9 @@
 		<main>
 			<div class="h-screen flex flex-col mx-4">
 				<ParentCard />
+
+				<hr class="bg-gray-500 my-6" />
+
 				<Details />
 				<FoldContainer />
 			</div>
@@ -15,7 +18,7 @@
 
 <script>
 import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
-import ParentCard from '../../../../../../components/profile/ParentCard.vue'
+import ParentCard from '../../../../../../components/profile/parent-card/ParentCard.vue'
 import Details from '../../../../../../components/profile/Details.vue'
 import FoldContainer from '../../../../../../components/profile/fold/_FoldContainer.vue'
 import { DotsVerticalIcon } from '@heroicons/vue/solid'
