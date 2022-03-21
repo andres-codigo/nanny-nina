@@ -5,7 +5,9 @@
 		</TopNavigation>
 		<main>
 			<div class="h-screen flex flex-col mx-4">
-
+				<ParentCard />
+				<Details />
+				<FoldContainer />
 			</div>
 		</main>
 	</div>
@@ -13,11 +15,17 @@
 
 <script>
 import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import ParentCard from '../../../../../../components/profile/ParentCard.vue'
+import Details from '../../../../../../components/profile/Details.vue'
+import FoldContainer from '../../../../../../components/profile/fold/_FoldContainer.vue'
 import { DotsVerticalIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
 		TopNavigation,
+		ParentCard,
+		Details,
+		FoldContainer,
 		DotsVerticalIcon
 	}
 }
