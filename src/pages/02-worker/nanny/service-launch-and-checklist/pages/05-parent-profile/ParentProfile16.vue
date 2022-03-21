@@ -10,6 +10,7 @@
 				<hr class="bg-gray-500 my-6" />
 
 				<Details />
+
 				<FoldContainer />
 			</div>
 		</main>
