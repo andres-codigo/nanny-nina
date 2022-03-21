@@ -37,11 +37,7 @@ export default {
 		hideHeader: {
 			type: Boolean,
 			default: false
-		},
-		hideIcon: {
-			type: Boolean,
-			default: false
-		},
+		}
 	}
 }
 </script>

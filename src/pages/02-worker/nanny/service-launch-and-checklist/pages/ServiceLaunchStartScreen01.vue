@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full h-full bg-blue-500">
-		<TopNavigation routerLinkPath="/dashboard" :hideHeader="true" :hideIcon="true" />
+		<TopNavigation routerLinkPath="/dashboard" :hideHeader="true" />
 		<main>
 			<div class="h-screen flex flex-col mx-4">
 				<div class="mt-16 mx-9">

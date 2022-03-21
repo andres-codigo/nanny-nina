@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full h-full">
-		<TopNavigation routerLinkPath="/dashboard" text="Nanny Form" hideIcon="true" />
+		<TopNavigation routerLinkPath="/dashboard" text="Nanny Form" />
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
 				<form action="#" method="POST">

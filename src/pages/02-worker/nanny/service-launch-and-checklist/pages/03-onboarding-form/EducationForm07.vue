@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full h-full">
-		<TopNavigation routerLinkPath="/dashboard" text="Nanny Form" hideIcon="true" />
+		<TopNavigation routerLinkPath="/dashboard" text="Nanny Form" />
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
 				<form action="#" method="POST">
@@ -42,12 +42,12 @@
 					<div class="mt-4">
 						<h6 class="text-header-six font-medium mb-4">Driver's License <span class=" text-gray-500">(optional)</span></h6>
 						<p class="text-xl font-thin mb-4">Do you have a driver's license?</p>
-						<RadioQuestion screenReaderOnly="true" legend="Do you have a driver's license?" questionOneText="Yes" questionTwoText="No" />
+						<RadioQuestion :screenReaderOnly="true" legend="Do you have a driver's license?" questionOneText="Yes" questionTwoText="No" />
 					</div>
 
 					<div class="flex flex-col mt-4 mb-8">
 						<p class="text-xl font-thin mb-4">If yes, are you willing to drive kids?</p>
-						<RadioQuestion screenReaderOnly="true" legend="Do you have any health conditions?" questionOneText="Yes" questionTwoText="No" />
+						<RadioQuestion :screenReaderOnly="true" legend="Do you have any health conditions?" questionOneText="Yes" questionTwoText="No" />
 					</div>
 
 					<div class="mt-10">
