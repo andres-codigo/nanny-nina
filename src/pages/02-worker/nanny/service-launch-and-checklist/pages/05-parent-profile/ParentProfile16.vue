@@ -9,7 +9,7 @@
 
 				<hr class="bg-gray-500 my-6" />
 
-				<Details />
+				<ParentNeeds />
 
 				<FoldContainer />
 			</div>
@@ -20,7 +20,7 @@
 <script>
 import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
 import ParentCard from '../../../../../../components/profile/parent-card/ParentCard.vue'
-import Details from '../../../../../../components/profile/Details.vue'
+import ParentNeeds from '../../../../../../components/profile/parent-needs/ParentNeeds.vue'
 import FoldContainer from '../../../../../../components/profile/fold/_FoldContainer.vue'
 import { DotsVerticalIcon } from '@heroicons/vue/solid'
 
@@ -28,7 +28,7 @@ export default {
 	components: {
 		TopNavigation,
 		ParentCard,
-		Details,
+		ParentNeeds,
 		FoldContainer,
 		DotsVerticalIcon
 	}
