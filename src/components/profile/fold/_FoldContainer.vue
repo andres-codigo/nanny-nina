@@ -1,9 +1,11 @@
 <template>
-	<div class="font-bold">Container</div>
-	<ApplyDetails />
-	<Preferences />
-	<Photos />
-	<Reviews />
+	<div>
+		Container
+		<ApplyDetails />
+		<Preferences />
+		<Photos />
+		<Reviews />
+	</div>
 </template>
 
 <script>
