@@ -28,9 +28,6 @@
 
 		<!-- End -->
 		<ServiceLaunchEndScreen15 class="max-w-450-for-dev-not-prod" />
-
-		<!-- Parent Profile -->
-		<ParentProfile16 class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 <script>
@@ -63,9 +60,6 @@ import MatchingPreferences14 from './pages/04-preferences/MatchingPreferences14.
 /* End */
 import ServiceLaunchEndScreen15 from './pages/ServiceLaunchEndScreen15.vue'
 
-/* Parent Profile */
-import ParentProfile16 from './pages/05-parent-profile/ParentProfile16.vue'
-
 export default {
 	components: {
 		ServiceLaunchStartScreen01,
@@ -82,8 +76,7 @@ export default {
 		AvailabilityWeeklyHours12,
 		AvailabilityCalendar13,
 		MatchingPreferences14,
-		ServiceLaunchEndScreen15,
-		ParentProfile16
+		ServiceLaunchEndScreen15
 	}
 }
 </script>
