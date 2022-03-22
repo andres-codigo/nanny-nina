@@ -1,5 +1,5 @@
 <template>
-	<div class="flex">
+	<div class="flex mt-6">
 		<div class="basis-1/2">
 			<div class="grid grid-rows-2">
 				<div class="text-xl"><span class="text-2xl font-bold">&euro;13-15</span>/hr</div>
