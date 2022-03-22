@@ -1,33 +1,33 @@
 <template>
 	<div class="flex flex-wrap grow gap-y-6 gap-x-4">
 		<!-- Start -->
-		<!-- <ServiceLaunchStartScreen01 class="max-w-450-for-dev-not-prod" /> -->
+		<ServiceLaunchStartScreen01 class="max-w-450-for-dev-not-prod" />
 
 		<!-- Checklist Landing Page -->
-		<!-- <ChecklistLandingPage02 class="max-w-450-for-dev-not-prod" /> -->
+		<ChecklistLandingPage02 class="max-w-450-for-dev-not-prod" />
 
 		<!-- 01 Media Upload Checklist -->
-		<!-- <MediaUploadPhoto03 class="max-w-450-for-dev-not-prod" />
-		<MediaUploadVideo04 class="max-w-450-for-dev-not-prod" /> -->
+		<MediaUploadPhoto03 class="max-w-450-for-dev-not-prod" />
+		<MediaUploadVideo04 class="max-w-450-for-dev-not-prod" />
 
 		<!-- 02 Residence Card/Id Checklist -->
-		<!-- <ResidenceCardOrID05 class="max-w-450-for-dev-not-prod" /> -->
+		<ResidenceCardOrID05 class="max-w-450-for-dev-not-prod" />
 
 		<!-- 03 Onboarding Form Checklist -->
-		<!-- <AddressForm06 class="max-w-450-for-dev-not-prod" />
+		<AddressForm06 class="max-w-450-for-dev-not-prod" />
 		<EducationForm07 class="max-w-450-for-dev-not-prod" />
 		<HealthAndSafetyForm08 class="max-w-450-for-dev-not-prod" />
-		<ReferenceForm09 class="max-w-450-for-dev-not-prod" /> -->
+		<ReferenceForm09 class="max-w-450-for-dev-not-prod" />
 
 		<!-- 04 Preferences Checklist -->
-		<!-- <PreferencesLaunchScreen10 class="max-w-450-for-dev-not-prod" />
+		<PreferencesLaunchScreen10 class="max-w-450-for-dev-not-prod" />
 		<ChecklistLandingPage11 class="max-w-450-for-dev-not-prod" />
 		<AvailabilityWeeklyHours12 class="max-w-450-for-dev-not-prod" />
 		<AvailabilityCalendar13 class="max-w-450-for-dev-not-prod" />
-		<MatchingPreferences14 class="max-w-450-for-dev-not-prod" /> -->
+		<MatchingPreferences14 class="max-w-450-for-dev-not-prod" />
 
 		<!-- End -->
-		<!-- <ServiceLaunchEndScreen15 class="max-w-450-for-dev-not-prod" /> -->
+		<ServiceLaunchEndScreen15 class="max-w-450-for-dev-not-prod" />
 
 		<!-- Parent Profile -->
 		<ParentProfile16 class="max-w-450-for-dev-not-prod" />
