@@ -20,7 +20,7 @@
 import ApplyDetails from './ApplyDetails.vue'
 import Preferences from './Preferences.vue'
 import Photos from './Photos.vue'
-import Reviews from './Reviews.vue'
+import Reviews from './reviews/Reviews.vue'
 
 export default {
 	components: {

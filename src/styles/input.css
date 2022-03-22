@@ -2,13 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-	a {
-		@apply underline;
-		@apply hover:no-underline;
-	}
+
+/* hyperlink with underline */
+.anchor-with-underline {
+	@apply underline;
+	@apply hover:no-underline;
 }
 
+/* hide scrollbar; used for horizontal photos, reviews */
 .no-scrollbar {
 	-ms-overflow-style: none;
 	scrollbar-width: none;
