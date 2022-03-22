@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+	a {
+	  @apply underline;
+	  @apply hover:no-underline;
+	}
+}
+
 /* Fade */
 .fade-enter-active,
 .fade-leave-active {
