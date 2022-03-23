@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full h-full bg-blue-500">
+	<div class="w-full h-full bg-lilac-500">
 		<TopNavigation routerLinkPath="/dashboard" :hideHeader="true" />
 		<main>
 			<div class="h-screen flex flex-col mx-4">

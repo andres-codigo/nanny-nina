@@ -6,7 +6,7 @@
 		class="
 			justify-center
 			rounded-full
-			text-md font-semibold antialiased
+			text-xl font-bold antialiased
 			underline
 			hover:no-underline
 			focus:bg-white"
@@ -18,7 +18,7 @@ export default {
 	props: {
 		class: {
 			type: String,
-			default: 'w-full py-3 text-black'
+			default: 'w-full py-4 text-black'
 		},
 		text: String
 	}

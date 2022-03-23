@@ -1,5 +1,5 @@
 <template>
-	<div class="bg-blue-500 w-full h-screen">
+	<div class="bg-lilac-500 w-full h-screen">
 		<header>
 			<div class="h-16 pt-4 pr-2">
 				<router-link to="/dashboard" class="float-right"><XIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link>

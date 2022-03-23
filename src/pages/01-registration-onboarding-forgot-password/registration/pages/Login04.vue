@@ -11,7 +11,7 @@
 
 					<div class="mt-6">
 						<InputField text="Password" />
-						<a href="#" class="text-xs font-light text-blue-500 mt-4 inline-block anchor-with-underline">Forgot your password?</a>
+						<a href="#" class="text-xs font-light text-lilac-500 mt-4 inline-block anchor-with-underline">Forgot your password?</a>
 					</div>
 
 					<div class="mt-14">
@@ -19,7 +19,7 @@
 							<ButtonPrimary text="Login" />
 						</div>
 						<div class="flex items-center justify-center">
-							<div class="text-sm font-light">Don't have an account? <span class="font-light text-blue-500 underline">Sign Up</span></div>
+							<div class="text-sm font-light">Don't have an account? <span class="font-light text-lilac-500 underline">Sign Up</span></div>
 						</div>
 					</div>
 				</form>

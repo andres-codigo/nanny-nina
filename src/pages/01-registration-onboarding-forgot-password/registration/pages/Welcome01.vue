@@ -1,6 +1,6 @@
 <!-- TODO: is text green value for h2 and link (span w underline) correct? -->
 <template>
-	<div class="bg-blue-500">
+	<div class="bg-lilac-500">
 		<main>
 			<div class="h-screen flex flex-col items-center justify-center mx-4">
 				<form class="mb-40" action="#" method="POST">

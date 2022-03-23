@@ -8,7 +8,7 @@
 					<LinkCard to="dashboard" class="text-black bg-green-500 hover:bg-green-400 focus:ring-green-600" title="Sign up as Parent/Host" content="Request Nanny, Childminder or Au pair" />
 				</div>
 				<div class="inline-flex pb-8">
-					<LinkCard to="dashboard" class="text-white bg-blue-500 hover:bg-blue-400 focus:ring-blue-600" title="Sign up for Care jobs" content="Work as Nanny, Childminder or Au pair" />
+					<LinkCard to="dashboard" class="text-white bg-lilac-500 hover:bg-lilac-400 focus:ring-lilac-600" title="Sign up for Care jobs" content="Work as Nanny, Childminder or Au pair" />
 				</div>
 				<div class="inline-flex items-center justify-center">
 					<span class="mr-2 font-thin">Already have an account?</span>

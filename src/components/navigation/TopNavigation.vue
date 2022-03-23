@@ -22,7 +22,7 @@ export default {
 	props: {
 		backgroundColor: {
 			type: String,
-			default: 'bg-blue-500'
+			default: 'bg-lilac-500'
 		},
 		iconColor: {
 			type: String,

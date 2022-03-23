@@ -10,7 +10,7 @@
 				<UserProgress />
 				<div class="grid grid-rows-3 gap-4">
 					<div><HomeCard tempBackgroundColor="bg-pink-100" tempFocusRingColor="focus:ring-pink-200" user="Nanny" content="Work on regular fixed schedule, returning days per week" /></div>
-					<div><HomeCard tempBackgroundColor="bg-blue-100" tempFocusRingColor="focus:ring-blue-200" user="Au Pair" content="Experience a new culture with a host family abroad as a caregiver" /></div>
+					<div><HomeCard tempBackgroundColor="bg-lilac-100" tempFocusRingColor="focus:ring-lilac-200" user="Au Pair" content="Experience a new culture with a host family abroad as a caregiver" /></div>
 					<div><HomeCard tempBackgroundColor="bg-green-100" tempFocusRingColor="focus:ring-green-200" user="Childminder" content="Work as a pro-nanny" /></div>
 				</div>
 			</div>

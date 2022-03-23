@@ -11,7 +11,7 @@
 				type="checkbox"
 				class="
 					h-5 w-5
-					text-blue-500
+					text-lilac-500
 					checked:ring-1 checked:ring-offset-2 checked:ring-gray-400
 					focus:ring-gray-400
 					border-1 border-gray-400

@@ -12,7 +12,7 @@
 			border border-gray-400 rounded-full
 			text-center font-thin
 			read-only:border-gray-100
-			focus:outline-none focus:ring-0 focus:ring-blue-500 focus:border-blue-500
+			focus:outline-none focus:ring-0 focus:ring-lilac-500 focus:border-lilac-500
 		"
 	>
 </template>
