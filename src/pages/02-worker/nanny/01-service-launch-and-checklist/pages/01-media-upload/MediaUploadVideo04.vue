@@ -6,7 +6,7 @@
 				<form action="#" method="POST">
 					<SingleVideoUpload />
 
-					<hr class="bg-gray-500 my-6" />
+					<hr class="my-6" />
 
 					<span class="inline-block mb-4">Tips:</span>
 					<ul role="list">

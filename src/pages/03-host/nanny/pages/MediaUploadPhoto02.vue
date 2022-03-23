@@ -8,7 +8,7 @@
 				<form action="#" method="POST">
 					<SinglePhotoUpload />
 
-					<hr class="bg-gray-500 my-6" />
+					<hr class="my-6" />
 
 					<MultiplePhotoUpload />
 

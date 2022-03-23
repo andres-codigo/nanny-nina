@@ -2,15 +2,15 @@
 	<div>
 		<ApplyDetails />
 
-		<hr class="bg-gray-500 my-6" />
+		<hr class="my-6" />
 
 		<Preferences />
 
-		<hr class="bg-gray-500 my-6" />
+		<hr class="my-6" />
 
 		<Photos />
 
-		<hr class="bg-gray-500 my-6" />
+		<hr class="my-6" />
 
 		<Reviews />
 	</div>
