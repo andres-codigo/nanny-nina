@@ -1,6 +1,6 @@
 <!-- TODO: bg color hover & focus -->
 <template>
-	<a href="/" :class="['mb-9 h-80 rounded-3xl bg-white-500 hover:opacity-75 focus:outline-none focus:ring-2 focus:ring-offset-0', tempFocusRingColor]">
+	<a href="/" :class="['h-80 rounded-3xl bg-white-500 hover:opacity-75 focus:outline-none focus:ring-2 focus:ring-offset-0', tempFocusRingColor]">
 		<div :class="['flex flex-row rounded-t-3xl', tempBackgroundColor]">
 			<div class="flex grow h-40 rounded-t-3xl overflow-hidden">
 				<!--
