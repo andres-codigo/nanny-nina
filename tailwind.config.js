@@ -34,12 +34,12 @@ module.exports = {
 				/*
 					H1 to H6 classes, i.e., text-header-one
 				*/
-				'header-one': ['2.25rem', '1.4rem'],
-				'header-two': ['2rem', '2.4rem'],
-				'header-three': ['1.75rem', '1.4rem'],
-				'header-four': ['1.5rem', '1.4rem'],
-				'header-five': ['1.313rem', '1.4rem'],
-				'header-six': ['1.125rem', '1.4rem'],
+				'header-one': ['2.25rem', '1.4rem'],	/* 36px */
+				'header-two': ['2rem', '2.4rem'],		/* 32px */
+				'header-three': ['1.75rem', '1.4rem'],	/* 28px */
+				'header-four': ['1.5rem', '1.4rem'],	/* 24px */
+				'header-five': ['1.313rem', '1.4rem'],  /* 21px */
+				'header-six': ['1.125rem', '1.4rem'], 	/* 18px */
 			},
 			spacing: {
 				"safe-top": "env(safe-area-inset-top)",

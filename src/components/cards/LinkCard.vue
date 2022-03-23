@@ -2,8 +2,8 @@
 <template>
 	<router-link :to="'/' + to" :class="class" class="inline-flex grow relative h-60 px-6 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2">
 		<div>
-			<h2 class="text-header-two font-semibold antialiased">{{ title }}</h2>
-			<p class="font-thin">{{ content }}</p>
+			<h2 class="text-header-two font-bold antialiased">{{ title }}</h2>
+			<p class="font-thin pt-3">{{ content }}</p>
 		</div>
 
 		<!--
