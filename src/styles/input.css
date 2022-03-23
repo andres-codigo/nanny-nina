@@ -2,15 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* hyperlink with underline */
+.anchor-with-underline {
+	@apply underline;
+	@apply hover:no-underline;
+}
+
+/* hide scrollbar; used for horizontal photos, reviews */
+.no-scrollbar {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
 /* Fade */
 .fade-enter-active,
 .fade-leave-active {
-  @apply transition opacity-0 duration-500 ease-in;
+	@apply transition opacity-0 duration-500 ease-in;
 }
 
 .fade-enter-from,
 .fade-leave-to {
-  @apply opacity-0;
+	@apply opacity-0;
 }
 
 /* Slide Right to Left */
