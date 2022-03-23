@@ -2,8 +2,8 @@
 	<div class="w-full h-screen">
 		<Header />
 		<main>
-			<div class="min-h-full flex flex-col justify-center py-12 mx-4 mt-8">
-				<h4 class="my-6 text-left text-header-four font-normal text-gray-900">Login</h4>
+			<div class="min-h-screen flex flex-col justify-center mx-4">
+				<h4 class="my-6 text-left text-header-four text-gray-900">Login</h4>
 				<form class="" action="#" method="POST">
 					<div class="m-0">
 						<InputField text="Email Address" />
@@ -11,7 +11,7 @@
 
 					<div class="mt-6">
 						<InputField text="Password" />
-						<a href="#" class="text-xs font-light text-blue-500 underline mt-4 inline-block">Forgot your password?</a>
+						<a href="#" class="text-xs font-light text-blue-500 mt-4 inline-block anchor-with-underline">Forgot your password?</a>
 					</div>
 
 					<div class="mt-14">
@@ -36,9 +36,9 @@
 
 					<div class="mt-6 grid grid-cols-1">
 						<div>
-							<a href="#" class="w-full inline-flex justify-center py-4 px-4 border border-gray-300 rounded-full shadow-sm bg-white text-sm font-medium text-gray-500">
+							<a href="#" class="w-full inline-flex justify-center py-4 px-4 border border-gray-300 rounded-full text-sm font-medium text-gray-900">
 								<Google class="w-5 h-5" />
-								<span class="pl-2 font-medium text-gray-900">Sign in with Google</span>
+								<span class="pl-2">Sign in with Google</span>
 							</a>
 						</div>
 					</div>

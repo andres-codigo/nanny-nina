@@ -1,18 +1,22 @@
 <!-- TODO: is text green value for h2 and link (span w underline) correct? -->
 <template>
-	<div class="h-full bg-blue-500">
+	<div class="bg-blue-500">
 		<main>
 			<div class="h-screen flex flex-col items-center justify-center mx-4">
-				<form class="mt-32 mb-40" action="#" method="POST">
-					<h2 class="mx-5 text-center text-header-two font-normal text-green-500">Safe &amp; Affordable childcare for every family</h2>
-					<div class="mt-24">
-						<ButtonSecondary text="Login" />
-					</div>
-					<div class="mt-2">
-						<ButtonOutlineLight text="Sign Up" />
+				<form class="mb-40" action="#" method="POST">
+					<div class="grid grid-rows-3 grid-flow-col gap-0">
+						<div>
+							<h2 class="mx-5 text-center text-header-two text-green-500">Safe &amp; Affordable childcare for every family</h2>
+						</div>
+						<div class="mt-24">
+							<ButtonSecondary text="Login" />
+						</div>
+						<div class="mt-2">
+							<ButtonOutlineLight text="Sign Up" />
+						</div>
 					</div>
 				</form>
-				<p class="pb-12 mx-4 font-thin text-xs text-white text-center">We encourage everyone on our platform to visit our <span class="text-green-200 underline">Trust & Safety</span> and <span class="text-green-200 underline">Privacy Policy</span> to learn more about our commitment to keeping you safe</p>
+				<p class="mx-4 font-thin text-xs text-white text-center">We encourage everyone on our platform to visit our <a href="#" class="anchor-with-underline">Trust & Safety</a> and <a href="#" class="anchor-with-underline">Privacy Policy</a> to learn more about our commitment to keeping you safe</p>
 			</div>
 		</main>
 	</div>

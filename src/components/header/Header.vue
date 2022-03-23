@@ -1,24 +1,12 @@
 <template>
 	<header>
-		<nav class="mx-auto pr-4">
-			<div class="flex items-center justify-between">
-				<HeaderLogo />
-				<div class="text-sm pt-8">
-					<router-link to="/dashboard" class="float-right"><XIcon class="w-8 h-8" aria-hidden="true" /></router-link>
+		<div class="flex">
+			<div class="flex-none inline-flex justify-center items-center -ml-1.5 w-14 h-14">
+				<div class="flex items-center justify-between mx-4 mt-8">
+					<img class="inline mr-1 h-6 w-6" src="../../assets/svg/logo/alternate-logo.svg" />
+					<img class="inline mr-1 h-6 w-6" src="../../assets/svg/logo/alternate-logo.svg" />
 				</div>
 			</div>
-		</nav>
+		</div>
 	</header>
 </template>
-
-<script>
-import HeaderLogo from '../header/HeaderLogo.vue'
-import { XIcon } from '@heroicons/vue/solid'
-
-export default {
-	components: {
-		HeaderLogo,
-		XIcon
-	},
-}
-</script>

@@ -1,21 +1,19 @@
 <template>
-	<div class="bg-white">
+	<div class="h-screen">
 		<Header />
 		<main>
-			<div class="min-h-full flex flex-col justify-center py-12 mx-4 mt-8">
-				<h4 class="my-6 text-left text-header-four font-normal text-gray-900">Oops! Link Expired</h4>
-				<p class="mb-4 h-20 text-sm font-light">Your link has expired because you haven't used it in 24 hours.  You can create another link by clicking the button below.</p>
+			<div class="min-h-full flex flex-col justify-center mt-20 mx-4">
 				<form action="#" method="POST">
-					<div class="m-0 h-28">&nbsp;</div>
+					<div class="mt-6">
+						<h4 class="text-left text-header-four text-gray-900">Oops! Link Expired</h4>
+						<p class="mt-6 text-sm font-light">Your link has expired because you haven't used it in 24 hours.  You can create another link by clicking the button below.</p>
+					</div>
 
-					<div class="mt-10">
-						<div class="my-6">
-							<ButtonPrimary text="Resend Link" />
-						</div>
+					<div class="mt-14 h-40">&nbsp;</div>
 
-						<div class="flex items-center justify-center">
-							<ButtonGhost text="Cancel" />
-						</div>
+					<div class="grid grid-rows-2 gap-2">
+						<div><ButtonPrimary text="Request Link" /></div>
+						<div><ButtonGhost text="Cancel" /></div>
 					</div>
 				</form>
 			</div>
