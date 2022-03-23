@@ -4,7 +4,7 @@
 			<DotsVerticalIcon class="w-6 h-6 text-black" aria-hidden="true" />
 		</TopNavigation>
 		<main>
-			<div class="h-screen flex flex-col mx-4">
+			<div class="flex flex-col mx-4">
 				<FoldContainer class="mt-10" />
 			</div>
 		</main>

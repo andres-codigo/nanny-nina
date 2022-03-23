@@ -7,7 +7,7 @@
 			<div class="h-screen flex flex-col mx-4">
 				<ParentCard />
 
-				<hr class="bg-gray-500 my-6" />
+				<hr class="my-6" />
 
 				<ParentNeeds />
 			</div>

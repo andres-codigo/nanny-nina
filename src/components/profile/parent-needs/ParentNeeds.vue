@@ -6,7 +6,7 @@
 		<h6 class="text-header-six font-bold mt-12 mb-4">To Care For</h6>
 		<p>2 kids > 3yrs (M), 2yrs (F)</p>
 
-		<hr class="bg-gray-500 my-6" />
+		<hr class="my-6" />
 
 		<Date>
 			<template #header>Start Date</template>
@@ -14,7 +14,7 @@
 			<template #time>15:00-17:00</template>
 		</Date>
 
-		<hr class="bg-gray-500 my-6" />
+		<hr class="my-6" />
 
 		<Date>
 			<template #header>Other Date(s)</template>
