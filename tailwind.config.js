@@ -115,6 +115,9 @@ module.exports = {
 			minHeight: {
 				'325': '325px',
 			},
+			width: {
+				'22': '5.5rem'
+			},
 			minWidth: {
 				'360-for-dev-not-prod': '360px',
 				'450-for-dev-not-prod': '450px',

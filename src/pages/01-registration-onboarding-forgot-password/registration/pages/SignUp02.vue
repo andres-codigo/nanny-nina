@@ -12,7 +12,7 @@
 				</div>
 				<div class="inline-flex items-center justify-center">
 					<span class="mr-2 font-thin">Already have an account?</span>
-					<ButtonOutlineDark text="Sign In" class="w-20 py-1" />
+					<ButtonOutlineDark text="Sign In" class="w-22 py-1 text-base" />
 				</div>
 			</div>
 		</main>
