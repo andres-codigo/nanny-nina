@@ -1,26 +1,21 @@
 <template>
-	<div class="bg-white h-screen">
+	<div class="h-screen">
 		<Header />
 		<main>
-			<div class="min-h-full flex flex-col justify-center py-12 mx-4 mt-8">
-				<h4 class="my-6 text-left text-header-four font-normal text-gray-900">Enter New Password</h4>
+			<div class="min-h-full flex flex-col justify-center mt-20 mx-4">
 				<form action="#" method="POST">
-					<div class="m-0 h-28">
-						<InputField text="New Password" type="password" value="newpassword" />
+					<div class="mt-6">
+						<h4 class="text-left text-header-four text-gray-900">Enter New Password</h4>
 					</div>
 
-					<div class="m-0 h-28">
-						<InputField text="Retype Password" type="text" />
+					<div class="grid grid-rows-2 gap-2 mt-14 mb-20">
+						<div class="mb-8"><InputField text="New Password" type="password" value="newpassword" /></div>
+						<div><InputField text="Retype Password" type="text" /></div>
 					</div>
 
-					<div class="mt-10">
-						<div class="my-6">
-							<ButtonPrimary text="Change Password" />
-						</div>
-
-						<div class="flex items-center justify-center">
-							<ButtonGhost text="Cancel" />
-						</div>
+					<div class="grid grid-rows-2 gap-2">
+						<div><ButtonPrimary text="Change Password" /></div>
+						<div><ButtonGhost text="Cancel" /></div>
 					</div>
 				</form>
 			</div>
