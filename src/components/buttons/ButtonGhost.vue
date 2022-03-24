@@ -10,8 +10,7 @@
 			antialiased
 			underline
 			hover:text-purple-400
-			focus:text-purple-500
-			focus:bg-white"
+			focus:text-purple-500"
 		>{{ text }}</button>
 </template>
 

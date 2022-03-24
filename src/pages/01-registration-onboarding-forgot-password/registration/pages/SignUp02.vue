@@ -11,8 +11,8 @@
 					<LinkCard to="dashboard" class="text-white bg-lilac-500 hover:bg-lilac-400 focus:ring-lilac-600" title="Sign up for Care jobs" content="Work as Nanny, Childminder or Au pair" />
 				</div>
 				<div class="inline-flex items-center justify-center">
-					<span class="mr-2 font-thin">Already have an account?</span>
-					<ButtonOutlineDark text="Sign In" class="w-22 py-1 text-base" />
+					<span class="mr-2">Already have an account?</span>
+					<ButtonOutlineDark text="Sign In" class="py-1 w-button-xs" />
 				</div>
 			</div>
 		</main>
