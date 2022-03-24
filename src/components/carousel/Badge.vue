@@ -1,7 +1,7 @@
 <template>
 	<span
 		:class="
-			['inline-flex items-center py-2 px-4 rounded-full text-sm font-medium uppercase',
+			['inline-flex items-center py-2 px-4 rounded-20px text-sm font-medium uppercase',
 			backgroundColor,
 			textColor]
 		">{{ title }}</span>

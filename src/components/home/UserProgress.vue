@@ -2,7 +2,7 @@
 <template>
 	<div class="flex flex-row mb-4 mt-4">
 		<div class="basis-1/2 ml-4">
-			<h5 class="text-header-five antialiased">Hello, Brittany</h5>
+			<h5 class="text-header-five font-semibold antialiased">Hello, Brittany</h5>
 			<h6 class="text-header-six text-gray-500 antialiased">Explore Jobs</h6>
 		</div>
 		<div :class="['basis-1/2 mr-4 relative', !showCompletionPercentage ? 'hidden sm:hidden' : '']">

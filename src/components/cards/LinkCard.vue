@@ -1,8 +1,8 @@
 <!-- TODO: bg color for default, hover & focus -->
 <template>
-	<router-link :to="'/' + to" :class="class" class="inline-flex grow relative h-60 px-6 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2">
+	<router-link :to="'/' + to" :class="class" class="inline-flex grow relative h-60 px-6 py-3 rounded-20px focus:outline-none focus:ring-2 focus:ring-offset-2">
 		<div>
-			<h2 class="text-header-two font-bold antialiased">{{ title }}</h2>
+			<h5 class="text-header-five font-bold antialiased">{{ title }}</h5>
 			<p class="font-thin pt-3">{{ content }}</p>
 		</div>
 
