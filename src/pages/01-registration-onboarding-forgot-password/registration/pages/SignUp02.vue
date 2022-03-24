@@ -3,16 +3,16 @@
 	<div>
 		<main>
 			<div class="min-h-screen flex flex-col justify-center mx-4">
-				<h6 class="mb-2 text-left text-header-six font-medium text-gray-900">Welcome to Nanny Nina</h6>
+				<h5 class="mb-2 text-left text-header-five font-semibold text-gray-900">Welcome to Nanny Nina</h5>
 				<div class="inline-flex pb-8">
 					<LinkCard to="dashboard" class="text-black bg-green-500 hover:bg-green-400 focus:ring-green-600" title="Sign up as Parent/Host" content="Request Nanny, Childminder or Au pair" />
 				</div>
 				<div class="inline-flex pb-8">
-					<LinkCard to="dashboard" class="text-white bg-blue-500 hover:bg-blue-400 focus:ring-blue-600" title="Sign up for Care jobs" content="Work as Nanny, Childminder or Au pair" />
+					<LinkCard to="dashboard" class="text-white bg-lilac-500 hover:bg-lilac-400 focus:ring-lilac-600" title="Sign up for Care jobs" content="Work as Nanny, Childminder or Au pair" />
 				</div>
 				<div class="inline-flex items-center justify-center">
 					<span class="mr-2 font-thin">Already have an account?</span>
-					<ButtonOutlineDark text="Sign In" class="w-20 py-1" />
+					<ButtonOutlineDark text="Sign In" class="w-22 py-1 text-base" />
 				</div>
 			</div>
 		</main>

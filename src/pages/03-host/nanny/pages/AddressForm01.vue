@@ -1,7 +1,8 @@
 <template>
 	<div class="w-full h-full">
-		<TopNavigation routerLinkPath="/dashboard" text="Basic Information">
-			<QuestionMarkCircleIcon class="w-8 h-8 text-green-500" aria-hidden="true" />
+		<TopNavigation text="Basic Information">
+			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
+			<template #iconRight><QuestionMarkCircleIcon class="w-8 h-8 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
@@ -42,7 +43,8 @@ import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
 import InputField from '../../../../components/form/InputField.vue'
 import SelectMenu from '../../../../components/form/SelectMenu.vue'
 import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
-import { QuestionMarkCircleIcon } from '@heroicons/vue/solid'
+
+import { ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
@@ -50,6 +52,7 @@ export default {
 		InputField,
 		SelectMenu,
 		ButtonPrimary,
+		ChevronLeftIcon,
 		QuestionMarkCircleIcon
 	}
 }

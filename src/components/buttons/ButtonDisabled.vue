@@ -2,12 +2,13 @@
 	<button
 		type="submit"
 		:class="class"
+		disabled
 		class="
 			justify-center
 			rounded-full
-			text-md font-semibold text-white
+			text-xl font-bold text-gray-500
 			antialiased
-			bg-gray-400
+			disabled:bg-gray-100
 		">{{ text }}</button>
 </template>
 
@@ -16,7 +17,7 @@ export default {
 	props: {
 		class: {
 			type: String,
-			default: 'w-full py-3'
+			default: 'w-full py-4'
 		},
 		text: String
 	}

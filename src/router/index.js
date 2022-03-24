@@ -9,11 +9,11 @@ import OnboardingContainer from '../pages/01-registration-onboarding-forgot-pass
 import ForgotPasswordContainer from '../pages/01-registration-onboarding-forgot-password/forgot-password/ForgotPasswordContainer.vue'
 
 /* Worker - Childminder and Nanny */
-import ChildminderAndNannyContainer from '../pages/02-worker/childminder-and-nanny/ChildminderAndNannyContainer.vue'
+import ChildminderAndNannyContainer from '../pages/02-caregiver/childminder-and-nanny/ChildminderAndNannyContainer.vue'
 
 /* Worker - Nanny */
-import ServiceLaunchChecklistOnboardingContainer from '../pages/02-worker/nanny/01-service-launch-and-checklist/ServiceLaunchChecklistOnboardingContainer.vue'
-import ParentProfileContainer from '../pages/02-worker/nanny/02-parent-profile/ParentProfileContainer.vue'
+import ServiceLaunchChecklistOnboardingContainer from '../pages/02-caregiver/nanny/01-service-launch-and-checklist/ServiceLaunchChecklistOnboardingContainer.vue'
+import ParentProfileContainer from '../pages/02-caregiver/nanny/02-parent-profile/ParentProfileContainer.vue'
 
 /* Host - Nanny */
 import HostNannyHome from '../pages/03-host/Home.vue'

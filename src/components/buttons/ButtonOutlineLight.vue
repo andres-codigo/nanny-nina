@@ -6,11 +6,11 @@
 		class="
 			justify-center
 			rounded-full
-			text-md font-semibold text-white
+			text-xl font-bold text-white
 			antialiased
-			border border-neutral-100
-			hover:border-neutral-50
-			focus:border-neutral-200
+			border border-white
+			hover:border-purple-300
+			focus:border-purple-600
 		">{{ text }}</button>
 </template>
 
@@ -19,7 +19,7 @@ export default {
 	props: {
 		class: {
 			type: String,
-			default: 'w-full py-3'
+			default: 'w-full py-4'
 		},
 		text: String
 	}

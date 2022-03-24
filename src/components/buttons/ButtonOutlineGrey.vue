@@ -8,7 +8,8 @@
 			rounded-full
 			text-sm font-semibold text-gray-500
 			antialiased
-			border border-gray-400
+			border border-gray-500
+			bg-white
 			hover:border-black
 			focus:border-purple-500
 			focus:text-purple-500
@@ -20,7 +21,7 @@ export default {
 	props: {
 		class: {
 			type: String,
-			default: 'w-full py-3'
+			default: 'w-full py-4'
 		},
 		text: String
 	}

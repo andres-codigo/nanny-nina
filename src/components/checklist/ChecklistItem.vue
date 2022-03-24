@@ -1,7 +1,7 @@
 <!-- TODO: bg color for default, hover & focus... overall look of page too -->
 <template>
 	<li>
-		<a href="#" :class="['block mb-4 bg-white hover:bg-gray-200', hideContent ? 'rounded-md hover:rounded-lg' : 'border rounded-lg hover:rounded-lg']">
+		<a href="#" :class="['block mb-4 border border-gray-100 bg-white hover:bg-gray-200', hideContent ? 'rounded-30px hover:rounded-30px' : 'rounded-30px hover:rounded-30px']">
 			<div class="px-4 py-4 flex items-center">
 				<div :class="['flex-1', hideContent ? '' : 'my-4']">
 

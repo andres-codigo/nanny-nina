@@ -1,6 +1,8 @@
 <template>
 	<div class="h-screen">
-		<Header />
+		<TopNavigation backgroundColor="bg-white" :dropShadow="false">
+			<template #iconLeft><Header /></template>
+		</TopNavigation>
 		<main>
 			<div class="min-h-full flex flex-col justify-center mt-20 mx-4">
 				<form action="#" method="POST">
@@ -24,6 +26,7 @@
 </template>
 
 <script>
+import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
 import Header from '../../../../components/header/Header.vue'
 import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
 import ButtonGhost from '../../../../components/buttons/ButtonGhost.vue'
@@ -31,6 +34,7 @@ import InputField from '../../../../components/form/InputField.vue'
 
 export default {
 	components: {
+		TopNavigation,
 		Header,
 		ButtonPrimary,
 		ButtonGhost,
