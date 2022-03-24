@@ -1,10 +1,5 @@
 <template>
 	<div class="w-full h-screen">
-		<header>
-			<div class="h-16 pt-4 px-4">
-				<router-link to="/dashboard" class="float-right"><XIcon class="w-8 h-8" aria-hidden="true" /></router-link>
-			</div>
-		</header>
 		<main>
 			<div class="min-h-full flex flex-col mx-4">
 				<UserProgress />
