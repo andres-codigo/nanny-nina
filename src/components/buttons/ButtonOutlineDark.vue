@@ -6,10 +6,10 @@
 		class="
 			justify-center
 			rounded-full
-			font-bold text-black
+			text-purple-900 font-bold
 			antialiased
-			border border-gray-400
-			hover:border-black
+			border
+			hover:border-purple-900
 			focus:border-purple-500
 			focus:text-purple-500
 		">{{ text }}</button>

@@ -2,12 +2,13 @@
 	<button
 		type="submit"
 		:class="class"
+		disabled
 		class="
 			justify-center
 			rounded-full
-			text-xl font-bold text-white
+			text-xl font-bold text-gray-500
 			antialiased
-			bg-gray-400
+			disabled:bg-gray-100
 		">{{ text }}</button>
 </template>
 

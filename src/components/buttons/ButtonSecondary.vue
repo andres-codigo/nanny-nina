@@ -5,11 +5,11 @@
 		class="
 			justify-center
 			rounded-full
-			text-xl font-bold text-black
+			text-purple-900 text-xl font-bold
 			antialiased
 			bg-green-500
-			hover:bg-green-600
-			focus:bg-green-400
+			hover:bg-green-400
+			focus:bg-green-600
 		">{{ text }}</button>
 </template>
 
