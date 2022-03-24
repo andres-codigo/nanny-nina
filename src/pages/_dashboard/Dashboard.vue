@@ -5,13 +5,13 @@
 			<nav class="h-full overflow-y-auto" aria-label="Directory">
 				<div class="relative">
 					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 px-4 py-4 text-sm font-medium text-gray-600">
-						<h3><span class="font-bold">Workers &amp; Host: </span>Registration / Onboarding / Forgot Password</h3>
+						<h3><span class="font-bold">Caregiver &amp; Host: </span>Registration / Onboarding / Forgot Password</h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
-							:hideNotes="true"
-							notes=""
-							date=""
+							:hideNotes="false"
+							notes="Waiting on final design approval/sign-off from business before making DOM/class updates"
+							date="24/03/22"
 							routerLinkPath="/registration"
 							title="Registration"
 							textColor="text-lilac-600"
@@ -20,9 +20,9 @@
 							backgroundColorBadge="bg-pink-100"
 						/>
 						<ListItem
-							:hideNotes="true"
-							notes=""
-							date=""
+							:hideNotes="false"
+							notes="Waiting on final design approval/sign-off from business before making DOM/class updates"
+							date="24/03/22"
 							routerLinkPath="/onboarding"
 							title="Onboarding"
 							textColor="text-lilac-600"
@@ -31,9 +31,9 @@
 							backgroundColorBadge="bg-pink-100"
 						/>
 						<ListItem
-							:hideNotes="true"
-							notes=""
-							date=""
+							:hideNotes="false"
+							notes="Waiting on final design approval/sign-off from business before making DOM/class updates"
+							date="24/03/22"
 							routerLinkPath="/forgot-password"
 							title="Forgot Password"
 							textColor="text-lilac-600"
@@ -45,7 +45,7 @@
 				</div>
 				<div class="relative">
 					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 px-4 py-4 text-sm font-medium text-gray-600">
-						<h3><span class="font-bold">Workers: </span>Childminder &amp; Nanny</h3>
+						<h3><span class="font-bold">Caregiver: </span>Childminder &amp; Nanny</h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
@@ -68,27 +68,27 @@
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
 							:subItem="true"
-							:hideNotes="true"
-							notes=""
-							date=""
+							:hideNotes="false"
+							notes="Waiting on final design approval/sign-off from business before making DOM/class updates"
+							date="24/03/22"
 							routerLinkPath="/nanny-service-launch-checklist-onboarding"
-							title="Onboarding Workflow"
+							title="Onboarding"
 							textColor="text-lilac-600"
-							textBadge="In Progress"
-							textColorBadge="text-amber-800"
-							backgroundColorBadge="bg-amber-100"
+							textBadge="Design/UI Review"
+							textColorBadge="text-pink-800"
+							backgroundColorBadge="bg-pink-100"
 						/>
 						<ListItem
 							:subItem="true"
-							:hideNotes="true"
-							notes=""
-							date=""
+							:hideNotes="false"
+							notes="Waiting on final design approval/sign-off from business before making DOM/class updates"
+							date="24/03/22"
 							routerLinkPath="/nanny-parent-profile"
 							title="Parent Profile"
 							textColor="text-lilac-600"
-							textBadge="In Progress"
-							textColorBadge="text-amber-800"
-							backgroundColorBadge="bg-amber-100"
+							textBadge="Design/UI Review"
+							textColorBadge="text-pink-800"
+							backgroundColorBadge="bg-pink-100"
 						/>
 					</ul>
 				</div>
