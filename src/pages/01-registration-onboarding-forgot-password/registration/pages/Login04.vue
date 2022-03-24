@@ -1,6 +1,8 @@
 <template>
 	<div class="w-full h-screen">
-		<Header />
+		<TopNavigation backgroundColor="bg-white" :dropShadow="false">
+			<template #iconLeft><Header /></template>
+		</TopNavigation>
 		<main>
 			<div class="min-h-screen flex flex-col justify-center mx-4">
 				<h4 class="my-6 text-left text-header-four font-semibold text-gray-900">Login</h4>
@@ -49,6 +51,7 @@
 </template>
 
 <script>
+import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
 import Header from '../../../../components/header/Header.vue'
 import InputField from '../../../../components/form/InputField.vue'
 import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
@@ -56,6 +59,7 @@ import Google from '../../../../assets/svg/other/google.vue'
 
 export default {
 	components: {
+		TopNavigation,
 		Header,
 		InputField,
 		ButtonPrimary,

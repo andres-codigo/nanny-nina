@@ -1,8 +1,7 @@
 <template>
 	<header>
-		<div :class="['flex', backgroundColor, backgroundColor === 'bg-white' ? 'drop-shadow-md' : '']">
+		<div :class="['flex', backgroundColor, dropShadow ? 'drop-shadow-md' : '']">
 			<div class="flex-none inline-flex justify-center items-center -ml-1.5 w-14 h-14">
-
 				<slot name="iconLeft"></slot>
 			</div>
 			<div :class="['grow h-14 inline-flex justify-center items-center text-xl font-bold antialiased', headerColor, hideHeader ? 'hidden sm:hidden' : '']">{{ text }}</div>
@@ -19,6 +18,10 @@ export default {
 		backgroundColor: {
 			type: String,
 			default: 'bg-lilac-500'
+		},
+		dropShadow: {
+			type: Boolean,
+			default: false
 		},
 		headerColor: {
 			type: String,

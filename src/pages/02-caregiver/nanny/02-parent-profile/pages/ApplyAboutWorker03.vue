@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full h-full">
-		<TopNavigation backgroundColor="bg-white" headerColor="text-black" text="About You">
+		<TopNavigation backgroundColor="bg-white" :dropShadow="true" headerColor="text-black" text="About You">
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-black" aria-hidden="true" /></router-link></template>
 			<template #iconRight><DotsVerticalIcon class="w-6 h-6 text-black" aria-hidden="true" /></template>
 		</TopNavigation>
