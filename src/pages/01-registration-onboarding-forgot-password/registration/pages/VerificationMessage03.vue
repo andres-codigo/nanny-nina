@@ -1,10 +1,8 @@
 <template>
 	<div class="bg-lilac-500 w-full h-screen">
-		<header>
-			<div class="h-16 pt-4 pr-2">
-				<router-link to="/dashboard" class="float-right"><XIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link>
-			</div>
-		</header>
+		<TopNavigation>
+			<template #iconRight><router-link to="/dashboard"><XIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
+		</TopNavigation>
 		<main>
 			<div class="min-h-full flex flex-col justify-center">
 				<h1 class="mb-6 text-center text-header-one font-medium text-green-500">Check your mail</h1>
@@ -23,11 +21,13 @@
 </template>
 
 <script>
+import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
 import Mail from '../../../../assets/svg/mail/mail.vue'
 import { XIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
+		TopNavigation,
 		Mail,
 		XIcon
 	}
