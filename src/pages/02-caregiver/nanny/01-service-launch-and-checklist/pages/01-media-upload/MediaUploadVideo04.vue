@@ -1,6 +1,8 @@
 <template>
 	<div class="w-full h-full">
-		<TopNavigation routerLinkPath="/dashboard" text="Media Upload" hideIcon="true" />
+		<TopNavigation text="Media Upload">
+			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
+		</TopNavigation>
 		<main>
 			<div class="flex flex-col pt-12 mx-4">
 				<form action="#" method="POST">
@@ -49,13 +51,15 @@
 import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
 import SingleVideoUpload from '../../../../../../components/media/single-upload/SingleVideoUpload.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
-import { CheckCircleIcon } from '@heroicons/vue/solid'
+
+import { ChevronLeftIcon, CheckCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
 		TopNavigation,
 		SingleVideoUpload,
 		ButtonPrimary,
+		ChevronLeftIcon,
 		CheckCircleIcon
 	}
 }

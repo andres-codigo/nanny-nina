@@ -1,7 +1,8 @@
 <template>
 	<div class="w-full h-full">
-		<TopNavigation routerLinkPath="/dashboard" text="Availability">
-			<QuestionMarkCircleIcon class="w-8 h-8 text-green-500" aria-hidden="true" />
+		<TopNavigation text="Availability">
+			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
+			<template #iconRight><QuestionMarkCircleIcon class="w-8 h-8 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col px-4 py-6">
@@ -116,7 +117,8 @@ import ToggleButton from '../../../../../../components/form/ToggleButton.vue'
 import InputFieldTimeEnabled from '../../../../../../components/form/InputFieldTimeEnabled.vue'
 import InputFieldTimeDisabled from '../../../../../../components/form/InputFieldTimeDisabled.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
-import { QuestionMarkCircleIcon, PlusIcon, XCircleIcon } from '@heroicons/vue/solid'
+
+import { ChevronLeftIcon, QuestionMarkCircleIcon, PlusIcon, XCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
@@ -126,6 +128,7 @@ export default {
 		InputFieldTimeEnabled,
 		InputFieldTimeDisabled,
 		ButtonPrimary,
+		ChevronLeftIcon,
 		QuestionMarkCircleIcon,
 		PlusIcon,
 		XCircleIcon

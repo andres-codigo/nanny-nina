@@ -1,6 +1,8 @@
 <template>
 	<div class="w-full h-full bg-lilac-500">
-		<TopNavigation routerLinkPath="/dashboard" :hideHeader="true" />
+		<TopNavigation :hideHeader="true">
+			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
+		</TopNavigation>
 		<main>
 			<div class="flex flex-col mx-4 mb-10">
 				<div class="mt-16 mx-9">
@@ -29,10 +31,13 @@
 import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
 import ButtonSecondary from '../../../../../components/buttons/ButtonSecondary.vue'
 
+import { ChevronLeftIcon } from '@heroicons/vue/solid'
+
 export default {
 	components: {
 		TopNavigation,
-		ButtonSecondary
+		ButtonSecondary,
+		ChevronLeftIcon
 	}
 }
 </script>

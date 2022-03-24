@@ -1,7 +1,8 @@
 <template>
 	<div class="w-full h-full">
-		<TopNavigation routerLinkPath="/dashboard" text="Media Upload">
-			<QuestionMarkCircleIcon class="w-8 h-8 text-green-500" aria-hidden="true" />
+		<TopNavigation text="Media Upload">
+			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
+			<template #iconRight><QuestionMarkCircleIcon class="w-8 h-8 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col pt-12 mx-4">
@@ -28,7 +29,8 @@ import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
 import SinglePhotoUpload from '../../../../components/media/single-upload/SinglePhotoUpload.vue'
 import MultiplePhotoUpload from '../../../../components/media/multiple-upload/MultiplePhotoUpload.vue'
 import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
-import { QuestionMarkCircleIcon } from '@heroicons/vue/solid'
+
+import { ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
@@ -36,6 +38,7 @@ export default {
 		SinglePhotoUpload,
 		MultiplePhotoUpload,
 		ButtonPrimary,
+		ChevronLeftIcon,
 		QuestionMarkCircleIcon
 	}
 }

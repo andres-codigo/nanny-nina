@@ -1,7 +1,8 @@
 <template>
-	<div class="w-full h-full">
-		<TopNavigation routerLinkPath="/dashboard" text="Availability">
-			<QuestionMarkCircleIcon class="w-8 h-8 text-green-500" aria-hidden="true" />
+	<div class="w-full h-full">pNavigation>
+		<TopNavigation text="Availability">
+			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
+			<template #iconRight><QuestionMarkCircleIcon class="w-8 h-8 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col px-4 py-6">
@@ -37,7 +38,8 @@ import TopNavigation from '../../../../../../components/navigation/TopNavigation
 import Tabs from '../../../../../../components/tabs/Tabs.vue'
 import Calendar from '../../../../../../components/calendar/Calendar.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
-import { QuestionMarkCircleIcon } from '@heroicons/vue/solid'
+
+import { ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
@@ -45,6 +47,7 @@ export default {
 		Tabs,
 		Calendar,
 		ButtonPrimary,
+		ChevronLeftIcon,
 		QuestionMarkCircleIcon
 	}
 }

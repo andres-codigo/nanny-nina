@@ -1,6 +1,8 @@
 <template>
 	<div class="w-full h-full">
-		<TopNavigation routerLinkPath="/dashboard" text="Nanny Form" />
+		<TopNavigation text="Nanny Form">
+			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
+		</TopNavigation>
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
 				<form action="#" method="POST">
@@ -66,7 +68,8 @@ import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
 import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
-import { PlusIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
+
+import { ChevronLeftIcon, PlusIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
@@ -76,6 +79,7 @@ export default {
 		RadioQuestion,
 		InputFieldBorderBottomOnly,
 		ButtonPrimary,
+		ChevronLeftIcon,
 		PlusIcon,
 		QuestionMarkCircleIcon
 	}

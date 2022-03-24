@@ -1,7 +1,8 @@
 <template>
 	<div class="w-full h-full">
-		<TopNavigation routerLinkPath="/dashboard" text="Preferences">
-			<QuestionMarkCircleIcon class="w-8 h-8 text-green-500" aria-hidden="true" />
+		<TopNavigation text="Preferences">
+			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
+			<template #iconRight><QuestionMarkCircleIcon class="w-8 h-8 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col px-4 py-6 bg-slate-50">
@@ -29,7 +30,8 @@ import TopNavigation from '../../../../../../components/navigation/TopNavigation
 import CheckListItem from '../../../../../../components/checklist/ChecklistItem.vue'
 import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
-import { QuestionMarkCircleIcon } from '@heroicons/vue/solid'
+
+import { ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
@@ -37,6 +39,7 @@ export default {
 		CheckListItem,
 		RadioQuestion,
 		ButtonPrimary,
+		ChevronLeftIcon,
 		QuestionMarkCircleIcon
 	}
 }

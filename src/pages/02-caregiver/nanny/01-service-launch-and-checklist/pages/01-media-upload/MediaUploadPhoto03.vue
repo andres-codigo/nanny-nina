@@ -1,6 +1,8 @@
 <template>
 	<div class="w-full h-full">
-		<TopNavigation routerLinkPath="/dashboard" text="Media Upload" hideIcon="true" />
+		<TopNavigation text="Media Upload">
+			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
+		</TopNavigation>
 		<main>
 			<div class="flex flex-col pt-12 mx-4">
 				<form action="#" method="POST">
@@ -27,12 +29,15 @@ import SinglePhotoUpload from '../../../../../../components/media/single-upload/
 import MultiplePhotoUpload from '../../../../../../components/media/multiple-upload/MultiplePhotoUpload.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
+import { ChevronLeftIcon } from '@heroicons/vue/solid'
+
 export default {
 	components: {
 		TopNavigation,
 		SinglePhotoUpload,
 		MultiplePhotoUpload,
-		ButtonPrimary
+		ButtonPrimary,
+		ChevronLeftIcon
 	}
 }
 </script>

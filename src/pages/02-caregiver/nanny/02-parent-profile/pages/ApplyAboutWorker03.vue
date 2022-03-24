@@ -1,7 +1,8 @@
 <template>
 	<div class="w-full h-full">
-		<TopNavigation routerLinkPath="/dashboard" backgroundColor="bg-white" iconColor="text-black" headerColor="text-black" text="About You">
-			<DotsVerticalIcon class="w-6 h-6 text-black" aria-hidden="true" />
+		<TopNavigation backgroundColor="bg-white" headerColor="text-black" text="About You">
+			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-black" aria-hidden="true" /></router-link></template>
+			<template #iconRight><DotsVerticalIcon class="w-6 h-6 text-black" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
@@ -23,13 +24,15 @@
 import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
 import Textarea from '../../../../../components/form/Textarea.vue'
 import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
-import { DotsVerticalIcon } from '@heroicons/vue/solid'
+
+import { ChevronLeftIcon, DotsVerticalIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
 		TopNavigation,
 		Textarea,
 		ButtonPrimary,
+		ChevronLeftIcon,
 		DotsVerticalIcon
 	}
 }
