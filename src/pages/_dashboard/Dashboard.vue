@@ -37,7 +37,18 @@
 						<h3><span class="font-bold">Caregiver</span> </h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
-
+						<ListItem
+							:subItem="true"
+							:hideNotes="true"
+							notes=""
+							date=""
+							routerLinkPath="/onboarding-caregiver"
+							title="Onboarding"
+							textColor="text-lilac-600"
+							textBadge="Completed"
+							textColorBadge="text-white"
+							backgroundColorBadge="bg-green-800"
+						/>
 					</ul>
 				</div>
 				<div class="relative">
