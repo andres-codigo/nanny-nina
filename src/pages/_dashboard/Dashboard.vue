@@ -4,7 +4,7 @@
 			<h6 class="pl-4 py-4 header-six font-medium text-black">Dashboard</h6>
 			<nav class="h-full overflow-y-auto" aria-label="Directory">
 				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 px-4 py-4 text-sm font-medium text-gray-600">
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-4 text-sm font-medium text-white antialiased">
 						<h3><span class="font-bold">Caregiver &amp; Host: </span>Registration / Onboarding / Forgot Password</h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
@@ -71,7 +71,7 @@
 					</ul>
 				</div>
 				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 px-4 py-4 text-sm font-medium text-gray-600">
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-4 text-sm font-medium text-white antialiased">
 						<h3><span class="font-bold">Caregiver: </span>Childminder &amp; Nanny</h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
@@ -120,7 +120,7 @@
 					</ul>
 				</div>
 				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 px-4 py-4 text-sm font-medium text-gray-600">
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-4 text-sm font-medium text-white antialiased">
 						<h3><span class="font-bold">Host: </span>Childminder &amp; Nanny</h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
