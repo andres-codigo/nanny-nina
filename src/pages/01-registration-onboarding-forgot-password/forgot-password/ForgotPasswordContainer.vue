@@ -1,27 +1,30 @@
 <template>
 	<div class="flex flex-wrap grow gap-y-6 sm:gap-x-4 w-full h-full">
-		<ForgotPassword01 class="max-w-450-for-dev-not-prod" />
-		<FPError02 class="max-w-450-for-dev-not-prod" />
-		<FPExpiredLink03 class="max-w-450-for-dev-not-prod" />
-		<FPNewPassword04 class="w-full max-w-450-for-dev-not-prod" />
-		<FPPasswordUpdated05 class="w-full max-w-450-for-dev-not-prod" />
+		<FPVerificationMessage01 class="min-w-360-for-dev-not-prod max-w-450-for-dev-not-prod" />
+		<FPRequestLink02 class="max-w-450-for-dev-not-prod" />
+		<FPError03 class="max-w-450-for-dev-not-prod" />
+		<FPExpiredLink04 class="max-w-450-for-dev-not-prod" />
+		<FPNewPassword05 class="w-full max-w-450-for-dev-not-prod" />
+		<FPPasswordUpdated06 class="w-full max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 
 <script>
-import ForgotPassword01 from './pages/ForgotPassword01.vue'
-import FPError02 from './pages/FPError02.vue'
-import FPExpiredLink03 from './pages/FPExpiredLink03.vue'
-import FPNewPassword04 from './pages/FPNewPassword04.vue'
-import FPPasswordUpdated05 from './pages/FPPasswordUpdated05.vue'
+import FPVerificationMessage01 from './pages/FPVerificationMessage01.vue'
+import FPRequestLink02 from './pages/FPRequestLink02.vue'
+import FPError03 from './pages/FPError03.vue'
+import FPExpiredLink04 from './pages/FPExpiredLink04.vue'
+import FPNewPassword05 from './pages/FPNewPassword05.vue'
+import FPPasswordUpdated06 from './pages/FPPasswordUpdated06.vue'
 
 export default {
 	components: {
-		ForgotPassword01,
-		FPError02,
-		FPExpiredLink03,
-		FPNewPassword04,
-		FPPasswordUpdated05
+		FPVerificationMessage01,
+		FPRequestLink02,
+		FPError03,
+		FPExpiredLink04,
+		FPNewPassword05,
+		FPPasswordUpdated06
 	}
 }
 </script>

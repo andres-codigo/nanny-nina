@@ -4,8 +4,9 @@
 			<h6 class="pl-4 py-4 header-six font-medium text-black">Dashboard</h6>
 			<nav class="h-full overflow-y-auto" aria-label="Directory">
 				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-4 text-sm font-medium text-white antialiased">
-						<h3><span class="font-bold">Caregiver &amp; Host: </span>Registration / Onboarding / Forgot Password</h3>
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-2 text-sm font-medium text-white antialiased">
+						<p class="text-md font-bold leading-none">Caregiver &amp; Host: </p>
+						<p class="text-md">Registration / Onboarding / Forgot Password</p>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
@@ -71,8 +72,9 @@
 					</ul>
 				</div>
 				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-4 text-sm font-medium text-white antialiased">
-						<h3><span class="font-bold">Caregiver: </span>Childminder &amp; Nanny</h3>
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-2 text-sm font-medium text-white antialiased">
+						<p class="text-md font-bold leading-none">Caregiver: </p>
+						<p class="text-md">Childminder &amp; Nanny</p>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
