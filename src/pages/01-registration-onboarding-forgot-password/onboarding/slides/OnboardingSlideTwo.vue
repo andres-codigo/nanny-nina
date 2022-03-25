@@ -1,33 +1,36 @@
 <template>
-	<div class="bg-purple-200">
-		<header>
-			<div class="h-16 pt-4 px-4">
-				<router-link to="/dashboard" class="float-right"><XIcon class="w-8 h-8" aria-hidden="true" /></router-link>
-			</div>
-		</header>
+	<div>
+		<TopNavigation backgroundColor="bg-purple-100" :dropShadow="false">
+			<template #iconRight><router-link to="/dashboard"><XIcon class="w-8 h-8 text-black" aria-hidden="true" /></router-link></template>
+		</TopNavigation>
 		<main>
-			<div class="flex flex-col justify-center px-4 bg-purple-200">
-				<div class="flex justify-center min-h-325">
-					<Image src="../../../assets/svg/onboarding/onboarding-2.svg" />
+			<div class="min-h-screen flex flex-col justify-center px-4 bg-purple-100">
+				<div class="flex justify-center h-48">
+					<!--
+						Image component for svg here
+						<Image src="*.svg" />
+						* remove background color in div as visual placeholder
+					-->
 				</div>
 
 				<div class="pt-6">
-					<Badge title="we've got you covered" backgroundColor="bg-purple-100" textColor="text-black" />
+					<Badge title="we've got you covered" backgroundColor="bg-green-50" textColor="text-lilac-900" />
 				</div>
 
-				<div class="pt-4">
+				<div class="pt-2">
 					<Header title="You are fully insured and safer with us" />
-					<Paragraph content="We understand that sometimes accidents happen, this is why all our partners are fully covered and insured, so you don't have to worry" />
+					<Paragraph content="Sometimes accidents happen, we get that. You don't have to worry, all our partners are fully covered and insured, so you don't have to worry" />
 				</div>
 
-				<div class="inline-flex justify-center space-x-6 slideshow-navigation pt-10">
-					<NavigationDot backgroundColor="bg-white" backgroundColorHover="hover:bg-black" />
-					<NavigationDot backgroundColor="bg-black" backgroundColorHover="hover:bg-black" />
-					<NavigationDot backgroundColor="bg-white" backgroundColorHover="hover:bg-black" />
+				<div class="inline-flex justify-center space-x-5 pt-10">
+					<NavigationDot backgroundColor="bg-lilac-500 ring-8 ring-purple-300" />
+					<NavigationDot backgroundColor="bg-purple-300" backgroundColorHover="hover:bg-lilac-500 hover:ring-8 hover:ring-purple-300" />
+					<NavigationDot backgroundColor="bg-purple-300" backgroundColorHover="hover:bg-lilac-500 hover:ring-8 hover:ring-purple-300" />
+					<NavigationDot backgroundColor="bg-purple-300" backgroundColorHover="hover:bg-lilac-500 hover:ring-8 hover:ring-purple-300" />
 				</div>
 
-				<div class="pt-20 pb-10 px-4">
-					<ButtonPrimary text="Next" />
+				<div class="flex flex-col justify-center items-center pt-20 pb-24 px-4">
+					<ButtonPrimary text="Next" class="w-button-lg py-4" />
 				</div>
 			</div>
 		</main>
@@ -35,17 +38,18 @@
 </template>
 
 <script>
-import Image from '../../../../components/carousel/Image.vue'
+import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
 import Badge from '../../../../components/carousel/Badge.vue'
 import Header from '../../../../components/carousel/Header.vue'
 import Paragraph from '../../../../components/carousel/Paragraph.vue'
 import NavigationDot from '../../../../components/carousel/NavigationDot.vue'
 import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
+
 import { XIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
-		Image,
+		TopNavigation,
 		Badge,
 		Header,
 		Paragraph,

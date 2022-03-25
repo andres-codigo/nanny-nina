@@ -1,5 +1,5 @@
 <template>
-	<p class="font-light h-16">{{ content }}</p>
+	<p class="font-light mt-8 h-20">{{ content }}</p>
 </template>
 
 <script>

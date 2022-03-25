@@ -14,12 +14,12 @@
 				</div>
 
 				<div class="pt-6">
-					<Badge title="Quick &amp; easy" backgroundColor="bg-green-50" textColor="text-lilac-900" />
+					<Badge title="Don't miss out on goodies" backgroundColor="bg-green-50" textColor="text-lilac-900" />
 				</div>
 
 				<div class="pt-2">
-					<Header title="Find your perfect nanny that cares" />
-					<Paragraph content="Explore different profiles until you've found a match. We also suggest our very caregivers upon request." />
+					<Header title="Start free &amp; save with discounts" />
+					<Paragraph content="Place a free booking, share with loved ones to earn discounts. Gift your friends and colleagues vouchers &amp; more" />
 				</div>
 
 				<div class="inline-flex justify-center space-x-5 pt-10">
