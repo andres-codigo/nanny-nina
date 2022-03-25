@@ -12,7 +12,7 @@
 							<div class="grid grid-rows-2 gap-0">
 								<div><ButtonSecondary text="Login" class="py-4 w-button-xl" /></div>
 								<div><ButtonOutlineLight text="Sign Up" class="mt-2 py-4 w-button-xl" /></div>
-							</div>>
+							</div>
 						</div>
 					</div>
 				</form>
