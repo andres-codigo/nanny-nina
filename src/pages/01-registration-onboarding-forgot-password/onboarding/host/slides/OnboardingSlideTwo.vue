@@ -14,12 +14,12 @@
 				</div>
 
 				<div class="pt-6">
-					<Badge title="Don't miss out on goodies" backgroundColor="bg-green-50" textColor="text-lilac-900" />
+					<Badge title="we've got you covered" backgroundColor="bg-green-50" textColor="text-lilac-900" />
 				</div>
 
 				<div class="pt-2">
-					<Header title="Start free &amp; save with discounts" />
-					<Paragraph content="Place a free booking, share with loved ones to earn discounts. Gift your friends and colleagues vouchers &amp; more" />
+					<Header title="You are fully insured and safer with us" />
+					<Paragraph content="Sometimes accidents happen, we get that. You don't have to worry, all our partners are fully covered and insured, so you don't have to worry" />
 				</div>
 
 				<div class="inline-flex justify-center space-x-5 pt-10">
@@ -38,12 +38,12 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
-import Badge from '../../../../components/carousel/Badge.vue'
-import Header from '../../../../components/carousel/Header.vue'
-import Paragraph from '../../../../components/carousel/Paragraph.vue'
-import NavigationDot from '../../../../components/carousel/NavigationDot.vue'
-import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
+import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
+import Badge from '../../../../../components/carousel/Badge.vue'
+import Header from '../../../../../components/carousel/Header.vue'
+import Paragraph from '../../../../../components/carousel/Paragraph.vue'
+import NavigationDot from '../../../../../components/carousel/NavigationDot.vue'
+import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
 import { XIcon } from '@heroicons/vue/solid'
 
