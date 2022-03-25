@@ -5,7 +5,7 @@
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
-				<form action="#" method="POST">
+				<form class="w-full" action="#" method="POST">
 					<div class="mt-4">
 						<CheckboxWithContainerAndLabel text="Pets" />
 						<CheckboxWithContainerAndLabel text="Meal preparation" />
