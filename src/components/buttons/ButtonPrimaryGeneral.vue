@@ -2,7 +2,7 @@
 	<button
 		type="submit"
 		:class="
-			['w-full justify-center py-2 rounded-full text-xl font-bold antialiased',
+			['w-full justify-center py-2 rounded-full text-xl font-bold antialiased leading-none',
 			textColor,
 			backgroundColor,
 			textColorHover,

@@ -1,10 +1,10 @@
 <template>
-	<div class="h-screen">
+	<div>
 		<TopNavigation backgroundColor="bg-white" :dropShadow="false">
 			<template #iconLeft><Header /></template>
 		</TopNavigation>
 		<main>
-			<div class="min-h-full flex flex-col justify-center mt-20 mx-4">
+			<div class="h-screen mt-20 mx-4">
 				<form class="w-full" action="#" method="POST">
 					<div class="mt-6">
 						<h4 class="text-left text-header-four text-gray-900">Enter New Password</h4>
@@ -15,9 +15,11 @@
 						<div><InputField text="Retype Password" type="text" /></div>
 					</div>
 
-					<div class="grid grid-rows-2 gap-2">
-						<div><ButtonPrimary text="Change Password" /></div>
-						<div><ButtonGhost text="Cancel" /></div>
+					<div class="flex flex-col justify-center items-center">
+						<div class="grid grid-rows-2 gap-2">
+							<div><ButtonPrimary text="Change Password" class="w-button-lg py-4" /></div>
+							<div><ButtonGhost text="Cancel" /></div>
+						</div>
 					</div>
 				</form>
 			</div>

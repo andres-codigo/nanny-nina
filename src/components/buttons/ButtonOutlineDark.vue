@@ -7,7 +7,7 @@
 			justify-center
 			rounded-full
 			text-purple-900 font-bold
-			antialiased
+			antialiased leading-none
 			border
 			hover:border-purple-900
 			focus:border-purple-500

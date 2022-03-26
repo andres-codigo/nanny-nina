@@ -1,10 +1,10 @@
 <template>
-	<div class="h-screen">
+	<div>
 		<TopNavigation backgroundColor="bg-white" :dropShadow="false">
 			<template #iconLeft><Header /></template>
 		</TopNavigation>
 		<main>
-			<div class="min-h-full flex flex-col justify-center mt-20 mx-4">
+			<div class="h-screen mt-20 mx-4">
 				<form class="w-full" action="#" method="POST">
 					<div class="mt-6">
 						<h4 class="text-left text-header-four text-gray-900">Forgot Password</h4>
@@ -12,7 +12,7 @@
 					</div>
 
 					<div class="mt-14 h-40">
-						<label for="email" class="block text-sm font-light text-gray-700 pl-4">Email Address</label>
+						<label for="email" class="block text-xs font-light text-gray-700 pl-4">Email Address</label>
 						<div class="mt-1">
 							<input
 								type="email"
@@ -33,9 +33,11 @@
 						<p class="mt-2 text-sm text-red-500 pl-4" id="email-error">The email address you have entered is incorrect</p>
 					</div>
 
-					<div class="grid grid-rows-2 gap-2">
-						<div><ButtonPrimary text="Request Link" /></div>
-						<div><ButtonGhost text="Cancel" /></div>
+					<div class="flex flex-col justify-center items-center">
+						<div class="grid grid-rows-2 gap-2">
+							<div><ButtonDisabled text="Request Link" class="w-button-lg py-4" /></div>
+							<div><ButtonGhost text="Cancel" /></div>
+						</div>
 					</div>
 				</form>
 			</div>
@@ -46,14 +48,14 @@
 <script>
 import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
 import Header from '../../../../components/header/Header.vue'
-import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
+import ButtonDisabled from '../../../../components/buttons/ButtonDisabled.vue'
 import ButtonGhost from '../../../../components/buttons/ButtonGhost.vue'
 
 export default {
 	components: {
 		TopNavigation,
 		Header,
-		ButtonPrimary,
+		ButtonDisabled,
 		ButtonGhost
 	}
 }

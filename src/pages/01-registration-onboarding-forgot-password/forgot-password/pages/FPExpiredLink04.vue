@@ -1,10 +1,10 @@
 <template>
-	<div class="h-screen">
+	<div>
 		<TopNavigation backgroundColor="bg-white" :dropShadow="false">
 			<template #iconLeft><Header /></template>
 		</TopNavigation>
 		<main>
-			<div class="min-h-full flex flex-col justify-center mt-20 mx-4">
+			<div class="h-screen mt-20 mx-4">
 				<form class="w-full" action="#" method="POST">
 					<div class="mt-6">
 						<h4 class="text-left text-header-four text-gray-900">Oops! Link Expired</h4>
@@ -13,9 +13,11 @@
 
 					<div class="mt-14 h-40">&nbsp;</div>
 
-					<div class="grid grid-rows-2 gap-2">
-						<div><ButtonPrimary text="Request Link" /></div>
-						<div><ButtonGhost text="Cancel" /></div>
+					<div class="flex flex-col justify-center items-center">
+						<div class="grid grid-rows-2 gap-2">
+							<div><ButtonPrimary text="Resend Another Link" class="w-button-lg py-4" /></div>
+							<div><ButtonGhost text="Cancel" /></div>
+						</div>
 					</div>
 				</form>
 			</div>
