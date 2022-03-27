@@ -7,7 +7,7 @@
 			justify-center
 			rounded-full
 			text-sm font-semibold text-gray-500
-			antialiased
+			antialiased leading-none
 			border border-gray-500
 			bg-white
 			hover:border-black

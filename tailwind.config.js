@@ -107,13 +107,10 @@ module.exports = {
 				*/
 				'header-one': ['2.25rem', '1.4rem'],	/* 36px */
 				'header-two': ['2rem', '2.4rem'],		/* 32px */
-				'header-three': ['1.75rem', '1.4rem'],	/* 28px */
+				'header-three': ['1.75rem', '1.8rem'],	/* 28px */
 				'header-four': ['1.5rem', '1.4rem'],	/* 24px */
 				'header-five': ['1.313rem', '1.4rem'],  /* 21px */
 				'header-six': ['1.125rem', '1.4rem'], 	/* 18px */
-			},
-			minHeight: {
-				'325': '325px',
 			},
 			spacing: {
 				"safe-top": "env(safe-area-inset-top)",
@@ -125,7 +122,19 @@ module.exports = {
 				'0': '0ms'
 			},
 			width: {
-				'22': '5.5rem'
+				/*
+					button widths (rem / px) chart
+					5.5rem / 88px
+					10.5rem / 168px
+					13rem / 208px
+					17.428rem / 279px
+					20.5rem / 328px
+				*/
+				'button-xs': '5.5rem',
+				'button-sm': '10.5rem',
+				'button-base': '13rem',
+				'button-lg': '17.428rem',
+				'button-xl': '20.5rem',
 			},
 			minWidth: {
 				'360-for-dev-not-prod': '360px',

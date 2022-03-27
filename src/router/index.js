@@ -3,17 +3,22 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Launch from '../pages/01-registration-onboarding-forgot-password/Launch.vue'
 import Dashboard from '../pages/_dashboard/Dashboard.vue'
 
-/* Registration/Onboarding */
+/* Registration/ForgotPassword - Caregiver and Host*/
 import RegistrationContainer from '../pages/01-registration-onboarding-forgot-password/registration/RegistrationContainer.vue'
-import OnboardingContainer from '../pages/01-registration-onboarding-forgot-password/onboarding/OnboardingContainer.vue'
 import ForgotPasswordContainer from '../pages/01-registration-onboarding-forgot-password/forgot-password/ForgotPasswordContainer.vue'
 
-/* Worker - Childminder and Nanny */
+	/* Onboarding - Caregiver */
+	import OnboardingHostContainer from '../pages/01-registration-onboarding-forgot-password/onboarding/host/OnboardingHostContainer.vue'
+
+	/* Onboarding - Host */
+	import OnboardingCaregiverContainer from '../pages/01-registration-onboarding-forgot-password/onboarding/caregiver/OnboardingCaregiverContainer.vue'
+
+/* Caregiver - Childminder and Nanny */
 import ChildminderAndNannyContainer from '../pages/02-caregiver/childminder-and-nanny/ChildminderAndNannyContainer.vue'
 
-/* Worker - Nanny */
-import ServiceLaunchChecklistOnboardingContainer from '../pages/02-caregiver/nanny/01-service-launch-and-checklist/ServiceLaunchChecklistOnboardingContainer.vue'
-import ParentProfileContainer from '../pages/02-caregiver/nanny/02-parent-profile/ParentProfileContainer.vue'
+	/* Caregiver - Nanny */
+	import ServiceLaunchChecklistOnboardingContainer from '../pages/02-caregiver/nanny/01-service-launch-and-checklist/ServiceLaunchChecklistOnboardingContainer.vue'
+	import ParentProfileContainer from '../pages/02-caregiver/nanny/02-parent-profile/ParentProfileContainer.vue'
 
 /* Host - Nanny */
 import HostNannyHome from '../pages/03-host/Home.vue'
@@ -45,13 +50,18 @@ const routes = [
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/onboarding',
-		component: OnboardingContainer,
+		path: '/forgot-password',
+		component: ForgotPasswordContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/forgot-password',
-		component: ForgotPasswordContainer,
+		path: '/onboarding-host',
+		component: OnboardingHostContainer,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/onboarding-caregiver',
+		component: OnboardingCaregiverContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{

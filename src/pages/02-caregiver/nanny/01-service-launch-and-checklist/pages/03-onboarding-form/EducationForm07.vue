@@ -5,7 +5,7 @@
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
-				<form action="#" method="POST">
+				<form class="w-full" action="#" method="POST">
 					<h5 class="my-6 text-left text-header-five font-normal text-gray-900">Education <span class="text-base text-gray-500">(optional)</span></h5>
 
 					<div class="mt-4 mb-8">

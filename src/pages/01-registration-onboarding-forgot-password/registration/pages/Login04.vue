@@ -5,8 +5,8 @@
 		</TopNavigation>
 		<main>
 			<div class="min-h-screen flex flex-col justify-center mx-4">
-				<h4 class="my-6 text-left text-header-four font-semibold text-gray-900">Login</h4>
-				<form class="" action="#" method="POST">
+				<h4 class="ml-3 my-6 text-left text-header-four font-semibold text-gray-900">Login</h4>
+				<form class="w-full" action="#" method="POST">
 					<div class="m-0">
 						<InputField text="Email Address" />
 					</div>
@@ -16,17 +16,15 @@
 						<a href="#" class="block text-xs font-light text-blue-500 mt-3 anchor-with-underline">Forgot your password?</a>
 					</div>
 
-					<div class="mt-14">
-						<div class="my-6">
-							<ButtonPrimary text="Login" />
+					<div class="flex flex-col justify-center items-center mt-14">
+						<div class="mt-6 mb-4">
+							<ButtonPrimary text="Login" class="py-4 w-button-xl" />
 						</div>
-						<div class="flex items-center justify-center">
-							<div class="text-sm font-light">Don't have an account? <a href="#" class="font-light text-blue-500 anchor-with-underline">Sign Up</a></div>
-						</div>
+						<p class="text-sm font-light">Don't have an account? <a href="#" class="font-light text-blue-500 anchor-with-underline">Sign Up</a></p>
 					</div>
 				</form>
 
-				<div class="mt-6">
+				<div class="mt-20">
 					<div class="relative">
 						<div class="absolute inset-0 flex items-center">
 							<div class="w-full border-t border-gray-300" />
@@ -36,13 +34,13 @@
 						</div>
 					</div>
 
-					<div class="mt-6 grid grid-cols-1">
-						<div>
-							<a href="#" class="w-full inline-flex justify-center py-4 px-4 border border-gray-300 rounded-full text-sm font-medium text-gray-900">
+					<div class="flex flex-col justify-center items-center mt-6">
+						<ButtonOutlineDark class="inline-flex w-full py-4 text-sm leading-5">
+							<template #iconWithText>
 								<Google class="w-5 h-5" />
 								<span class="pl-2">Sign in with Google</span>
-							</a>
-						</div>
+							</template>
+						</ButtonOutlineDark>
 					</div>
 				</div>
 			</div>
@@ -55,6 +53,7 @@ import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
 import Header from '../../../../components/header/Header.vue'
 import InputField from '../../../../components/form/InputField.vue'
 import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
+import ButtonOutlineDark from '../../../../components/buttons/ButtonOutlineDark.vue'
 import Google from '../../../../assets/svg/other/google.vue'
 
 export default {
@@ -63,6 +62,7 @@ export default {
 		Header,
 		InputField,
 		ButtonPrimary,
+		ButtonOutlineDark,
 		Google
 	}
 }

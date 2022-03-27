@@ -6,7 +6,7 @@
 			justify-center
 			rounded-full
 			text-white text-xl font-bold
-			antialiased
+			antialiased leading-none
 			bg-lilac-500
 			hover:bg-lilac-400
 			focus:bg-lilac-600
