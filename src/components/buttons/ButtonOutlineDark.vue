@@ -7,12 +7,15 @@
 			justify-center
 			rounded-full
 			text-purple-900 font-bold
-			antialiased leading-none
+			antialiased
 			border
 			hover:border-purple-900
 			focus:border-purple-500
 			focus:text-purple-500
-		">{{ text }}</button>
+		">
+			<slot name="iconWithText"></slot>
+			{{ text }}
+		</button>
 </template>
 
 <script>

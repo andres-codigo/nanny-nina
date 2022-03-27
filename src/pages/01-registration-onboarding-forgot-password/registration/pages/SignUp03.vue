@@ -14,10 +14,12 @@
 
 				<div class="mt-20">
 					<div class="flex flex-col justify-center items-center">
-						<a href="#" class="w-full inline-flex justify-center py-4 px-4 border border-gray-300 rounded-full text-sm font-medium text-gray-900">
-							<Google class="w-5 h-5" />
-							<span class="pl-2">Continue with Google</span>
-						</a>
+						<ButtonOutlineDark class="inline-flex w-full py-4 text-sm leading-5">
+							<template #iconWithText>
+								<Google class="w-5 h-5" />
+								<span class="pl-2">Continue with Google</span>
+							</template>
+						</ButtonOutlineDark>
 					</div>
 
 					<div class="relative my-8">
@@ -65,6 +67,7 @@
 <script>
 import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
 import Header from '../../../../components/header/Header.vue'
+import ButtonOutlineDark from '../../../../components/buttons/ButtonOutlineDark.vue'
 import SelectMenu from '../../../../components/form/SelectMenu.vue'
 import InputField from '../../../../components/form/InputField.vue'
 import CheckboxLeftWithContainerAndLabelRight from '../../../../components/form/CheckboxLeftWithContainerAndLabelRight.vue'
@@ -77,6 +80,7 @@ export default {
 	components: {
 		TopNavigation,
 		Header,
+		ButtonOutlineDark,
 		SelectMenu,
 		InputField,
 		CheckboxLeftWithContainerAndLabelRight,

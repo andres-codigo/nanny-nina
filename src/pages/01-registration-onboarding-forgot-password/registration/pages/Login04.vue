@@ -35,10 +35,12 @@
 					</div>
 
 					<div class="flex flex-col justify-center items-center mt-6">
-						<a href="#" class="w-button-xl inline-flex justify-center py-4 px-4 border border-gray-300 rounded-full text-sm font-medium text-gray-900">
-							<Google class="w-5 h-5" />
-							<span class="pl-2">Sign in with Google</span>
-						</a>
+						<ButtonOutlineDark class="inline-flex w-full py-4 text-sm leading-5">
+							<template #iconWithText>
+								<Google class="w-5 h-5" />
+								<span class="pl-2">Sign in with Google</span>
+							</template>
+						</ButtonOutlineDark>
 					</div>
 				</div>
 			</div>
@@ -51,6 +53,7 @@ import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
 import Header from '../../../../components/header/Header.vue'
 import InputField from '../../../../components/form/InputField.vue'
 import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
+import ButtonOutlineDark from '../../../../components/buttons/ButtonOutlineDark.vue'
 import Google from '../../../../assets/svg/other/google.vue'
 
 export default {
@@ -59,6 +62,7 @@ export default {
 		Header,
 		InputField,
 		ButtonPrimary,
+		ButtonOutlineDark,
 		Google
 	}
 }
