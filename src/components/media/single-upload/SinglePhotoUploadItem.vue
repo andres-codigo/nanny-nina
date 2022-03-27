@@ -1,31 +1,30 @@
-<!-- TODO: bg color and text for all states -->
 <template>
 	<div class="flex items-center justify-center mb-6">
 		<button
 			class="
 				flex items-center justify-center
 				relative
-				h-56 w-56
+				w-44 h-44
 				rounded-full
-				bg-purple-100
-				hover:border-transparent hover:text-gray-200 hover:bg-gray-100
-				focus:outline-none focus:ring-2 focus:ring-offset-2
+				bg-purple-50
+				hover:border-transparent hover:bg-purple-100
+				focus:border-transparent focus:bg-green-100
 			">
-			<CameraIcon class="w-32 h-32 text-purple-500" aria-hidden="true" />
+			<CameraIcon class="w-24 h-24 text-purple-500" aria-hidden="true" />
 			<span
 				class="
 					flex items-center justify-center
-					absolute bottom-6 right-0
-					h-12 w-12
+					absolute bottom-3 right-3
+					w-8 h-8
 					rounded-full drop-shadow-lg
 					text-gray-800
 					bg-white
 				">
-				<PlusIcon class="w-8 h-8" aria-hidden="true" />
+				<PlusIcon class="w-6 h-6" aria-hidden="true" />
 			</span>
 		</button>
 	</div>
-	<p class="text-sm font-light text-center text-gray-500">Size limit 5MB</p>
+	<p class="text-xs font-light text-center text-gray-500">Size limit 5MB</p>
 </template>
 
 <script>

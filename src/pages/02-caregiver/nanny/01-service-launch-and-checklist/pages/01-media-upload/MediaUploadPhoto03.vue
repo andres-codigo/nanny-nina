@@ -8,14 +8,12 @@
 				<form class="w-full" action="#" method="POST">
 					<SinglePhotoUpload />
 
-					<hr class="my-6" />
+					<hr class="border-1 border-gray-50 my-6" />
 
 					<MultiplePhotoUpload />
 
-					<div class="mt-20">
-						<div class="my-6">
-							<ButtonPrimary text="Upload &amp; Continue" />
-						</div>
+					<div class="flex flex-col justify-center items-center mt-10">
+						<ButtonPrimary text="Next" class="w-button-lg py-4" />
 					</div>
 				</form>
 			</div>

@@ -1,6 +1,6 @@
 <template>
-	<h5 class="mb-2 text-left text-header-five font-normal text-gray-900">Let's put a face to your name</h5>
-	<p	class="text-sm font-light">Preferably a smiling picture, if you have a pet or kid in it even better!</p>
+	<h5 class="mb-2 text-left text-header-five text-gray-900">Upload Profile Picture</h5>
+	<p	class="text-sm font-light">Please upload a clear and happy picture, for higher responses. If you have a pet or kid in it even better!</p>
 
 	<div class="mt-10">
 		<SinglePhotoUploadItem />

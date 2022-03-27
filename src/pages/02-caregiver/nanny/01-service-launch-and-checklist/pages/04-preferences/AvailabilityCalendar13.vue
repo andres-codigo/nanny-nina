@@ -6,7 +6,7 @@
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col px-4 py-6">
-				<h5 class="mt-8 mb-2 text-left text-header-five font-normal text-gray-900">Availability</h5>
+				<h5 class="mt-8 mb-2 text-left text-header-five text-gray-900">Availability</h5>
 				<p	class="font-light">Set your weekly hours and add specific dates you may be unavailable</p>
 
 				<div class="mt-12">
@@ -21,7 +21,7 @@
 
 					<Calendar />
 
-					<h5 class="mt-10 mb-2 text-header-five font-normal text-gray-900">Workday &amp; time</h5>
+					<h5 class="mt-10 mb-2 text-header-five text-gray-900">Workday &amp; time</h5>
 					<p class="font-thin mt-8">You haven’t selected any specific day</p>
 				</div>
 

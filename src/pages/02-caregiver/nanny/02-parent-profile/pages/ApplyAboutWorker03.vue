@@ -6,7 +6,7 @@
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
-				<h5 class="my-6 text-left text-header-five font-normal text-gray-900">Briefly describe yourself &amp; hobbies</h5>
+				<h5 class="my-6 text-left text-header-five text-gray-900">Briefly describe yourself &amp; hobbies</h5>
 
 				<div class="mt-4 mb-16">
 					<Textarea text="About you" name="about-you" id="about-you" />

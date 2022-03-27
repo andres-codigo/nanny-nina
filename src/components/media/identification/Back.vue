@@ -1,6 +1,6 @@
 <!-- TODO: bg color for default, hover & focus, including border or no border decision -->
 <template>
-	<h5 class="mb-2 text-left text-header-five font-normal text-gray-900">Residence Card/ID (Back)</h5>
+	<h5 class="mb-2 text-left text-header-five text-gray-900">Residence Card/ID (Back)</h5>
 	<p	class="text-sm font-light">Please upload the back of your permit/ID card</p>
 
 	<div class="mt-10">

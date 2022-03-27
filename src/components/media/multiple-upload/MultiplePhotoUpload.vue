@@ -1,14 +1,14 @@
 <template>
-	<h5 class="mb-2 text-left text-header-five font-normal text-gray-900">Upload more pictures</h5>
-	<p class="text-sm font-light">Add more pictures of you with kids/home</p>
+	<h5 class="text-left text-header-five text-gray-900 mb-2 ">Upload more pictures</h5>
+	<p class="text-sm font-light">Add more pictures of yourself/with kids for more invites</p>
 
 	<div class="mt-7">
-		<div class="flex flex-nowrap items-center justify-center gap-3 mb-6">
+		<div class="flex flex-nowrap items-center justify-center gap-3 mb-10">
 			<MultipleUploadItem />
 			<MultipleUploadItem />
 			<MultipleUploadItem />
 		</div>
-		<p class="text-sm font-light text-center text-gray-500">Size limit for each 5MB</p>
+		<p class="text-xs font-light text-center text-gray-500">Size limit for each 5MB</p>
 	</div>
 </template>
 

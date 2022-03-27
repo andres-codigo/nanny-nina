@@ -6,7 +6,7 @@
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="my-6 text-left text-header-five font-normal text-gray-900">Let's get to know each other</h5>
+					<h5 class="my-6 text-left text-header-five text-gray-900">Let's get to know each other</h5>
 
 					<div class="my-16">
 						<span class="inline-block font-light">When do you live?</span>

@@ -8,7 +8,7 @@
 				<form class="w-full" action="#" method="POST">
 					<Front />
 
-					<hr class="my-6" />
+					<hr class="border-1 border-gray-50 my-6" />
 
 					<Back />
 

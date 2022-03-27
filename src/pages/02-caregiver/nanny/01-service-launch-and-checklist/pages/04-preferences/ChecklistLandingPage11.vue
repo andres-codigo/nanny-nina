@@ -6,7 +6,7 @@
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col px-4 py-6 bg-slate-50">
-				<h5 class="mb-2 text-left text-header-five font-normal text-gray-900">Let's help you find more jobs</h5>
+				<h5 class="mb-2 text-left text-header-five text-gray-900">Let's help you find more jobs</h5>
 				<p	class="text-sm font-light">You can change this later in your profile</p>
 
 				<div class="flex flex-col mt-4">

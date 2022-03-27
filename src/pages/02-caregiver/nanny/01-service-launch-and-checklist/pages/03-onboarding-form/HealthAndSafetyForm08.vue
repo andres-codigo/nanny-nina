@@ -6,7 +6,7 @@
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="my-6 text-left text-header-five font-normal text-gray-900">Health and Safety Documents</h5>
+					<h5 class="my-6 text-left text-header-five text-gray-900">Health and Safety Documents</h5>
 
 					<div class="mt-4 mb-16">
 						<div class="mb-2">
