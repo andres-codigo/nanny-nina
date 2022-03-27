@@ -6,16 +6,10 @@
 		<main>
 			<div class="flex flex-col mx-4 mb-10">
 				<div class="mt-16 mx-9">
-					<h2 class="mb-6 text-header-two font-medium text-green-500 text-center">Ready to start your Nanny journey?</h2>
+					<h2 class="mb-6 text-header-two font-semibold text-green-500 text-center">Ready to start your Nanny journey?</h2>
 					<p class="font-thin text-white text-center">Let's get you setup!</p>
 				</div>
-				<div class="flex items-center justify-center">
-					<!--
-						Image component for svg here
-						<Image src="*.svg" />
-						* remove background color in div as visual placeholder
-					-->
-				</div>
+
 				<div class="mt-96">
 					<div>
 						<ButtonOutlineLight text="Not now, I'm exploring" />
