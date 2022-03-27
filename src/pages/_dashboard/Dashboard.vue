@@ -21,15 +21,15 @@
 							backgroundColorBadge="bg-green-800"
 						/>
 						<ListItem
-							:hideNotes="false"
-							notes="Waiting on final design approval/sign-off from business before making DOM/class updates"
-							date="24/03/22"
+							:hideNotes="true"
+							notes=""
+							date=""
 							routerLinkPath="/forgot-password"
 							title="Forgot Password"
 							textColor="text-lilac-600"
-							textBadge="Design/UI Review"
-							textColorBadge="text-pink-800"
-							backgroundColorBadge="bg-pink-100"
+							textBadge="Completed"
+							textColorBadge="text-white"
+							backgroundColorBadge="bg-green-800"
 						/>
 					</ul>
 				</div>
