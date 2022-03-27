@@ -22,6 +22,7 @@
 <script>
 import LinkCard from '../../../../components/cards/LinkCard.vue'
 import ButtonOutlineDark from '../../../../components/buttons/ButtonOutlineDark.vue'
+
 import { XIcon } from '@heroicons/vue/solid'
 
 export default {

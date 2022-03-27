@@ -30,6 +30,7 @@
 
 <script>
 import ButtonOutlineGrey from '../buttons/ButtonOutlineGrey.vue'
+
 import { ChevronRightIcon } from '@heroicons/vue/solid'
 
 export default {

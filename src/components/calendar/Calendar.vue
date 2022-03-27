@@ -174,6 +174,7 @@
 <script>
 import ButtonGhost from '../buttons/ButtonGhost.vue'
 import ButtonPrimary from '../buttons/ButtonPrimary.vue'
+
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/vue/solid'
 
 export default {
