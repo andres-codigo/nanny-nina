@@ -11,7 +11,7 @@
 				<ChevronRightIcon class="w-5 h-5 text-slate-900" aria-hidden="true" />
 			</button>
 		</div>
-		<div class="mt-6 grid grid-cols-7 antialiased leading-6 text-purple-700">
+		<div class="grid grid-cols-7 text-lilac-500 font-bold antialiased leading-6 mt-6 ">
 			<div>M</div>
 			<div>T</div>
 			<div>W</div>

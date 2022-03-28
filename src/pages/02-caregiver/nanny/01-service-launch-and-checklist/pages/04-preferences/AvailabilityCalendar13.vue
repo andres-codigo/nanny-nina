@@ -13,20 +13,33 @@
 					<Tabs
 						tabOneClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
 						tabOneText="Weekly Hours"
-						tabTwoClasses="border-b-2 border-purple-500 text-black"
+						:tabOneIsActive="false"
+						tabTwoClasses="text-black"
 						tabTwoText="Unavailability"
+						:tabTwoIsActive="true"
 					/>
 
 					<p class="mt-8 mx-10 font-thin text-center text-gray-500">Your unavailability on the specific dates, exceptions to the regular schedule</p>
 
+					<div class="flex items-center justify-between my-8 mx-10">
+						<span class="flex flex flex-col">
+							<span class="font-thin text-gray-900" id="availability-label">I'm selecting single days</span>
+						</span>
+						<!-- Enabled: "bg-indigo-600", Not Enabled: "bg-gray-200" -->
+						<button type="button" class="bg-gray-200 relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" role="switch" aria-checked="false" aria-labelledby="availability-label" aria-describedby="availability-description">
+							<!-- Enabled: "translate-x-6", Not Enabled: "translate-x-0" -->
+							<span aria-hidden="true" class="translate-x-0 pointer-events-none inline-block h-5 w-5 rounded-full bg-white shadow transform ring-0 transition ease-in-out duration-200"></span>
+						</button>
+					</div>
+
 					<Calendar />
 
-					<h5 class="mt-10 mb-2 text-header-five text-gray-900">Workday &amp; time</h5>
-					<p class="font-thin mt-8">You haven’t selected any specific day</p>
+					<p class="text-gray-900 font-semibold mt-16">Workday</p>
+					<p class="font-thin mt-6">You haven’t selected any specific day</p>
 				</div>
 
-				<div class="mt-24">
-					<ButtonPrimary text="Save" />
+				<div class="flex flex-col justify-center items-center mt-16">
+					<ButtonPrimary text="Save Changes" class="w-button-lg py-4" />
 				</div>
 			</div>
 		</main>

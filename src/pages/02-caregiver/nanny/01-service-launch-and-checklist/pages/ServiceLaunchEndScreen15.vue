@@ -17,10 +17,10 @@
 					-->
 				</div>
 				<div>
-					<div class="mt-96">
-						<ButtonSecondary text="Go to Explore" />
+					<div class="flex flex-col justify-center items-center mt-96">
+						<ButtonSecondary text="Continue to apply" class="w-button-lg py-4" />
 					</div>
-					<p class="mt-8 font-thin text-white text-center"><a href="#" class="anchor-with-underline text-green-200">Learn more about being a Nanny</a></p>
+					<p class="mt-8 font-medium text-white text-center"><a href="#" class="anchor-with-underline text-green-200">Learn more about being a Nanny</a></p>
 				</div>
 			</div>
 		</main>
