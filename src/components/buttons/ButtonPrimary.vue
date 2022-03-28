@@ -10,7 +10,9 @@
 			bg-lilac-500
 			hover:bg-lilac-400
 			focus:bg-lilac-600
-		">{{ text }}</button>
+		">
+		<slot name="iconWithText"></slot>
+		{{ text }}</button>
 </template>
 
 <script>

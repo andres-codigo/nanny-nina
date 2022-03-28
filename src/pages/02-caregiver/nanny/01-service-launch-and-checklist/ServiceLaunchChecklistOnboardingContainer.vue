@@ -11,7 +11,7 @@
 		<MediaUploadVideo04 class="max-w-450-for-dev-not-prod" />
 
 		<!-- 02 Residence Card/Id Checklist -->
-		<ResidenceCardOrID05 class="max-w-450-for-dev-not-prod" />
+		<!-- <ResidenceCardOrID05 class="max-w-450-for-dev-not-prod" /> -->
 
 		<!-- 03 Onboarding Form Checklist -->
 		<AddressForm06 class="max-w-450-for-dev-not-prod" />
@@ -41,8 +41,8 @@ import ChecklistLandingPage02 from './pages/ChecklistLandingPage02.vue'
 import MediaUploadPhoto03 from './pages/01-media-upload/MediaUploadPhoto03.vue'
 import MediaUploadVideo04 from './pages/01-media-upload/MediaUploadVideo04.vue'
 
-/* 02 Residence Card/Id Checklist */
-import ResidenceCardOrID05 from './pages/02-residence-card-id/ResidenceCardOrID05.vue'
+// /* 02 Residence Card/Id Checklist */
+// import ResidenceCardOrID05 from './pages/02-residence-card-id/ResidenceCardOrID05.vue'
 
 /* 03 Onboarding Form Checklist */
 import AddressForm06 from './pages/03-onboarding-form/AddressForm06.vue'
@@ -66,7 +66,7 @@ export default {
 		ChecklistLandingPage02,
 		MediaUploadPhoto03,
 		MediaUploadVideo04,
-		ResidenceCardOrID05,
+		// ResidenceCardOrID05,
 		AddressForm06,
 		EducationForm07,
 		HealthAndSafetyForm08,
