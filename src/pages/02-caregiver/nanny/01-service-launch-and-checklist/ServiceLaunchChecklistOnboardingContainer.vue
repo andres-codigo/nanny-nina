@@ -20,7 +20,7 @@
 		<ReferenceForm09 class="max-w-450-for-dev-not-prod" />
 
 		<!-- 04 Preferences Checklist -->
-		<PreferencesLaunchScreen10 class="max-w-450-for-dev-not-prod" />
+		<!-- <PreferencesLaunchScreen10 class="max-w-450-for-dev-not-prod" /> -->
 		<ChecklistLandingPage11 class="max-w-450-for-dev-not-prod" />
 		<AvailabilityWeeklyHours12 class="max-w-450-for-dev-not-prod" />
 		<AvailabilityCalendar13 class="max-w-450-for-dev-not-prod" />
@@ -51,7 +51,7 @@ import HealthAndSafetyForm08 from './pages/03-onboarding-form/HealthAndSafetyFor
 import ReferenceForm09 from './pages/03-onboarding-form/ReferenceForm09.vue'
 
 /* 04 Preferences Checklist */
-import PreferencesLaunchScreen10 from './pages/04-preferences/PreferencesLaunchScreen10.vue'
+// import PreferencesLaunchScreen10 from './pages/04-preferences/PreferencesLaunchScreen10.vue'
 import ChecklistLandingPage11 from './pages/04-preferences/ChecklistLandingPage11.vue'
 import AvailabilityWeeklyHours12 from './pages/04-preferences/AvailabilityWeeklyHours12.vue'
 import AvailabilityCalendar13 from './pages/04-preferences/AvailabilityCalendar13.vue'
@@ -71,7 +71,7 @@ export default {
 		EducationForm07,
 		HealthAndSafetyForm08,
 		ReferenceForm09,
-		PreferencesLaunchScreen10,
+		// PreferencesLaunchScreen10,
 		ChecklistLandingPage11,
 		AvailabilityWeeklyHours12,
 		AvailabilityCalendar13,

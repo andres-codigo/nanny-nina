@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full h-full">pNavigation>
+	<div class="w-full h-full">
 		<TopNavigation text="Availability">
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 			<template #iconRight><QuestionMarkCircleIcon class="w-8 h-8 text-green-500" aria-hidden="true" /></template>

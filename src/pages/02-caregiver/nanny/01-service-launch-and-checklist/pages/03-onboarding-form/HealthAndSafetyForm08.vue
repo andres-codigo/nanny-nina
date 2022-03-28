@@ -6,17 +6,16 @@
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="my-6 text-left text-header-five text-gray-900">Health and Safety Documents</h5>
 
 					<div class="mt-4 mb-16">
 						<div class="mb-2">
-							<h6 class="text-header-six font-medium mb-4">Personal Health</h6>
-							<p class="text-xl font-thin mb-4">Do you have any health conditions?</p>
+							<h5 class="text-header-five font-medium mb-4">Personal Health</h5>
+							<p class="font-thin mb-4">Do you have any health conditions?</p>
 							<RadioQuestion :screenReaderOnly="true" legend="Do you have any health conditions?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
 						<div>
-							<p class="font-thin">If yes, please specify</p>
+							<p class="font-thin">Please specify</p>
 
 							<div class="flex">
 								<div class="grow h-14">
@@ -32,12 +31,12 @@
 					<div class="mt-4 mb-16">
 						<div class="mb-8">
 							<h6 class="text-header-six font-medium mb-4">Allergies</h6>
-							<p class="text-xl font-thin mb-4">Do you have any allergies?</p>
+							<p class="font-thin mb-4">Are you allergic to pets?</p>
 							<RadioQuestion :screenReaderOnly="true" legend="Do you have any allergies?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
 						<div>
-							<p class="font-thin">If yes, please specify</p>
+							<p class="font-thin">Please specify</p>
 
 							<div class="flex">
 								<div class="grow h-14">
@@ -50,29 +49,10 @@
 						</div>
 					</div>
 
-					<div class="mt-4 mb-16">
-						<div class="mb-8">
-							<h6 class="text-header-six font-medium mb-4">Safety Document</h6>
-							<p class="text-xl font-thin mb-4">Are you First Aid certified?</p>
-							<RadioQuestion :screenReaderOnly="true" legend="Are you First Aid certified?" questionOneText="Yes" questionTwoText="No" />
-						</div>
-
-						<div>
-							<p class="font-thin mb-4">If yes, please upload</p>
-
-							<div class="flex">
-								<div class="grow h-14">
-									<ButtonOutlineDark text="Upload file" />
-									<p class="text-sm font-light text-center text-gray-500 mt-2">Size limit 3MB</p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="mt-4 mb-16">
+					<!-- <div class="mt-4 mb-16">
 						<div class="mb-4">
 							<h6 class="text-header-six font-medium mb-4">Other Relevant Safety Qualifications</h6>
-							<p class="text-xl font-thin mb-4">Please specify other relevant qualifications?</p>
+							<p class="font-thin mb-4">Please specify other relevant qualifications?</p>
 						</div>
 
 						<div class="flex">
@@ -83,11 +63,11 @@
 								<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
 							</div>
 						</div>
-					</div>
+					</div> -->
 
 
-					<div class="mt-10">
-						<ButtonPrimary text="Save &amp; Continue" />
+					<div class="flex flex-col justify-center items-center mt-10">
+						<ButtonPrimary text="Next" class="w-button-lg py-4" />
 					</div>
 				</form>
 			</div>
@@ -99,7 +79,6 @@
 import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
 import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
-import ButtonOutlineDark from '../../../../../../components/buttons/ButtonOutlineDark.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, PlusIcon } from '@heroicons/vue/solid'
@@ -109,7 +88,6 @@ export default {
 		TopNavigation,
 		RadioQuestion,
 		InputFieldBorderBottomOnly,
-		ButtonOutlineDark,
 		ButtonPrimary,
 		ChevronLeftIcon,
 		PlusIcon
