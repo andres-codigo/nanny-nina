@@ -11,7 +11,6 @@
 			hover:bg-lilac-400
 			focus:bg-lilac-600
 		">
-		<slot name="iconWithText"></slot>
 		{{ text }}</button>
 </template>
 
