@@ -28,7 +28,7 @@
 						</div>
 					</div>
 
-					<div class="my-16">
+					<div class="mt-16 mb-24">
 						<h6 class="text-header-six font-medium">What is your religion?</h6>
 						<div class="mt-4 grid grid-cols-2 gap-y-6 gap-x-2">
 							<div><SelectMenu text="Religion" /></div>
