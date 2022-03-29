@@ -98,8 +98,8 @@
 						<ListItem
 							:subItem="true"
 							:hideNotes="false"
-							notes="Waiting on final design approval/sign-off from business before making DOM/class updates"
-							date="24/03/22"
+							notes="Pending final design approval/sign-off from business before making final updates"
+							date="29/03/22"
 							routerLinkPath="/nanny-service-launch-checklist-onboarding"
 							title="Onboarding"
 							textColor="text-lilac-600"
@@ -110,8 +110,8 @@
 						<ListItem
 							:subItem="true"
 							:hideNotes="false"
-							notes="Waiting on final design approval/sign-off from business before making DOM/class updates"
-							date="24/03/22"
+							notes="Pending final design approval/sign-off from business before making final updates"
+							date="29/03/22"
 							routerLinkPath="/nanny-parent-profile"
 							title="Parent Profile"
 							textColor="text-lilac-600"
