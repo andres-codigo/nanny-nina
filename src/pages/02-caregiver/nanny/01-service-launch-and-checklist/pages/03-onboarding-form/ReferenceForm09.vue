@@ -6,36 +6,32 @@
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="my-6 text-left text-header-five font-normal text-gray-900">Reference Check</h5>
 
 					<div class="mt-4 mb-16">
-						<div class="mb-2">
-							<h6 class="text-header-six font-medium mb-4">Reference</h6>
-							<p class="text-xl font-thin mb-4">Do you have a reference?</p>
-							<RadioQuestion :screenReaderOnly="true" legend="Do you have any health conditions?" questionOneText="Yes" questionTwoText="No" />
+						<div class="mb-20">
+							<h5 class="text-header-five font-medium mb-4">We would like to a check <span class="text-red-500">*</span></h5>
+							<p class="font-thin mb-4">Please provide a reference, somebody that you have worked for (can also be family)that can tell us a little about you</p>
+
+							<div class="mt-4 grid grid-cols-2 gap-x-2">
+								<div><InputField text="First name" /></div>
+							</div>
 						</div>
 
 						<div>
-							<p class="font-thin">If yes, please provide details</p>
+							<p class="font-thin">Please provide phone number or email address</p>
 
-							<div class="mt-4 grid grid-cols-2 gap-y-6 gap-x-2">
-								<div><InputField text="First name" /></div>
-								<div><InputField text="Last name" /></div>
-							</div>
-
-							<div class="mt-6 grid grid-cols-2 gap-y-6 gap-x-2">
-								<div><InputField text="Mobile no" /></div>
-								<div>&nbsp;</div>
+							<div class="mt-6">
+								<InputWithSelectInternationPhoneNumber />
 							</div>
 
 							<div class="mt-6">
-								<InputField text="Email" />
+								<InputField text="Email address" />
 							</div>
 						</div>
 					</div>
 
-					<div class="mt-10">
-						<ButtonPrimary text="Save &amp; Continue" />
+					<div class="flex flex-col justify-center items-center mt-10">
+						<ButtonPrimary text="Submit" class="w-button-lg text-xl py-4" />
 					</div>
 				</form>
 			</div>
@@ -47,6 +43,7 @@
 import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
 import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import InputField from '../../../../../../components/form/InputField.vue'
+import InputWithSelectInternationPhoneNumber from '../../../../../../components/form/InputWithSelectInternationPhoneNumber.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
@@ -56,6 +53,7 @@ export default {
 		TopNavigation,
 		RadioQuestion,
 		InputField,
+		InputWithSelectInternationPhoneNumber,
 		ButtonPrimary,
 		ChevronLeftIcon
 	}

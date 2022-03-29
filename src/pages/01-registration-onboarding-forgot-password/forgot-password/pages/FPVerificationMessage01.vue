@@ -27,6 +27,7 @@
 <script>
 import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
 import Mail from '../../../../assets/svg/mail/mail.vue'
+
 import { XIcon } from '@heroicons/vue/solid'
 
 export default {

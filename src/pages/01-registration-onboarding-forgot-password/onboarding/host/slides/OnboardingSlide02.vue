@@ -30,7 +30,7 @@
 				</div>
 
 				<div class="flex flex-col justify-center items-center pt-20 pb-24 px-4">
-					<ButtonPrimary text="Next" class="w-button-lg py-4" />
+					<ButtonPrimary text="Next" class="w-button-lg text-xl py-4" />
 				</div>
 			</div>
 		</main>

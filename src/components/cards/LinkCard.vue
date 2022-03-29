@@ -17,6 +17,7 @@
 
 <script>
 import Image from './Image.vue'
+
 import { ChevronRightIcon } from '@heroicons/vue/solid'
 
 export default {

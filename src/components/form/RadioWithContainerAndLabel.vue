@@ -12,10 +12,10 @@
 				type="radio"
 				class="
 					rounded-full
-					h-5 w-5
+					h-4 w-4
 					text-lilac-500
-					checked:ring-1 checked:ring-offset-2 checked:ring-gray-400 checked:bg-none
-					focus:ring-gray-400
+					checked:ring-2 checked:ring-offset-2 checked:ring-lilac-400 checked:bg-none
+					focus:ring-lilac-400
 					border-1 border-gray-400
 				"
 			>

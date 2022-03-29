@@ -41,6 +41,7 @@
 
 <script>
 import Details from './details/Details.vue'
+
 import { UserCircleIcon, StarIcon, CalendarIcon, ClockIcon } from '@heroicons/vue/outline'
 
 export default {

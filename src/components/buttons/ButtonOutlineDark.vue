@@ -6,7 +6,7 @@
 		class="
 			justify-center
 			rounded-full
-			text-purple-900 font-bold
+			font-bold
 			antialiased
 			border
 			hover:border-purple-900

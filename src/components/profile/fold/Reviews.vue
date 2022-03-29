@@ -25,6 +25,7 @@
 
 <script>
 import ReviewCard from '../../cards/ReviewCard.vue'
+
 import { ChevronRightIcon } from '@heroicons/vue/solid'
 
 export default {

@@ -16,6 +16,7 @@
 <script>
 import UserProgress from '../../../../components/home/UserProgress.vue'
 import HomeCard from '../../../../components/cards/HomeCard.vue'
+
 import { XIcon } from '@heroicons/vue/solid'
 
 export default {

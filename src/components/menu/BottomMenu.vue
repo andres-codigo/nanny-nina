@@ -12,6 +12,7 @@
 
 <script>
 import BottomMenuItem from './BottomMenuItem.vue'
+
 import { HomeIcon, BookmarkIcon, PlusCircleIcon, BellIcon, DotsVerticalIcon } from '@heroicons/vue/solid'
 
 export default {

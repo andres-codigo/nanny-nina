@@ -24,6 +24,7 @@
 
 <script>
 import PrimaryButton from '../../buttons/ButtonPrimary.vue'
+
 import { ChevronRightIcon } from '@heroicons/vue/solid'
 
 export default {

@@ -6,7 +6,7 @@
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
-				<h5 class="my-6 text-left text-header-five font-normal text-gray-900">Why should you be considered for nanny jobs?</h5>
+				<h5 class="my-6 text-left text-header-five text-gray-900">Why should you be considered for nanny jobs?</h5>
 
 				<div class="mt-4 mb-16">
 					<Textarea text="Motivation for Applying" name="motivation" id="motivation" />
