@@ -1,5 +1,5 @@
 <template>
-	<h5 class="text-left text-header-five text-gray-900 mb-2 ">Upload more pictures</h5>
+	<h5 class="text-left text-header-five text-gray-900 font-semibold antialiased mb-2 ">Upload more pictures</h5>
 	<p class="text-sm font-light">Add more pictures of yourself/with kids for more invites</p>
 
 	<div class="mt-7">

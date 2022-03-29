@@ -6,7 +6,7 @@
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="my-6 text-left text-header-five text-gray-900">Education <span class="text-base text-gray-500">(optional)</span></h5>
+					<h5 class="my-6 text-left text-header-five text-gray-900 font-semibold antialiased">Education <span class="text-base text-gray-500">(optional)</span></h5>
 
 					<div class="mt-4 mb-8">
 						<h6 class="text-header-six font-medium mb-4">Current Education Status</h6>
@@ -38,7 +38,7 @@
 
 					<div class="mt-4 mb-16">
 						<div>
-							<h5 class="text-header-five font-medium mb-4">Safety Document</h5>
+							<h5 class="text-header-five font-semibold antialiased mb-4">Safety Document</h5>
 							<p class="font-thin mb-4">Are you First Aid certified?</p>
 							<RadioQuestion :screenReaderOnly="true" legend="Are you First Aid certified?" questionOneText="Yes" questionTwoText="No" />
 						</div>
@@ -78,7 +78,7 @@
 
 					<div class="mt-28 mb-16">
 						<div class="mb-4">
-							<h5 class="text-header-five font-medium mb-4">Other Relevant Safety Skills <span class="text-base text-gray-500 font-normal">(optional)</span></h5>
+							<h5 class="text-header-five font-semibold antialiased mb-4">Other Relevant Safety Skills <span class="text-base text-gray-500 font-normal">(optional)</span></h5>
 							<p class="font-thin mb-4">Please specify other relevant qualification(s)?</p>
 						</div>
 
@@ -93,7 +93,7 @@
 					</div>
 
 					<div class="mt-4">
-						<h5 class="text-header-five font-medium mb-4">Travel <span class="text-base text-gray-500 font-normal">(optional)</span></h5>
+						<h5 class="text-header-five font-semibold antialiased mb-4">Travel <span class="text-base text-gray-500 font-normal">(optional)</span></h5>
 						<p class="font-thin mb-2">Do you have a driver's license?</p>
 						<RadioQuestion :screenReaderOnly="true" legend="Do you have a driver's license?" questionOneText="Yes" questionTwoText="No" />
 					</div>

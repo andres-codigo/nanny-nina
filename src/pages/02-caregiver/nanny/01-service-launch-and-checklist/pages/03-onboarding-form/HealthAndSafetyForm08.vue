@@ -9,7 +9,7 @@
 
 					<div class="mt-4 mb-16">
 						<div class="mb-2">
-							<h5 class="text-header-five font-medium mb-4">Personal Health</h5>
+							<h5 class="text-header-five font-semibold antialiased mb-4">Personal Health</h5>
 							<p class="font-thin mb-4">Do you have any health conditions?</p>
 							<RadioQuestion :screenReaderOnly="true" legend="Do you have any health conditions?" questionOneText="Yes" questionTwoText="No" />
 						</div>
@@ -30,7 +30,7 @@
 
 					<div class="mt-4 mb-16">
 						<div class="mb-8">
-							<h6 class="text-header-six font-medium mb-4">Allergies</h6>
+							<h5 class="text-header-five font-semibold antialiased mb-4">Allergies</h5>
 							<p class="font-thin mb-4">Are you allergic to pets?</p>
 							<RadioQuestion :screenReaderOnly="true" legend="Do you have any allergies?" questionOneText="Yes" questionTwoText="No" />
 						</div>

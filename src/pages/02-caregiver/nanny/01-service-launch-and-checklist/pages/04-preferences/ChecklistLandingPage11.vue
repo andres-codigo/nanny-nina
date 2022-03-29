@@ -6,10 +6,10 @@
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col px-4 pt-12">
-				<h5 class="mb-6 text-left text-header-five font-semibold">Let's help you find more jobs</h5>
+				<h5 class="mb-2 text-left text-header-five font-semibold antialiased">Let's help you find more jobs</h5>
 				<p	class="font-light">You can always adjust this later in your profile</p>
 
-				<div class="flex flex-col mt-4">
+				<div class="flex flex-col mt-8">
 					<ul role="list">
 						<CheckListItem :hideContent="false" title="Availability" description="Choose the days &amp; time you want to work">
 							<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-green-800" aria-hidden="true" /></template>

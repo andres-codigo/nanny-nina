@@ -6,7 +6,7 @@
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col px-4 pt-12">
-				<h5 class="mb-6 text-left text-header-five font-semibold">Complete checklist to begin</h5>
+				<h5 class="mb-6 text-left text-header-five font-semibold antialiased">Complete checklist to begin</h5>
 				<div class="flex flex-col">
 					<ul role="list" class="">
 						<CheckListItem title="Media Upload">
