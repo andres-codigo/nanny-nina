@@ -17,25 +17,25 @@
 					<span class="inline-block mb-4">Tips:</span>
 					<ul role="list">
 						<li class="py-1 flex">
-							<CheckCircleIcon class="w-4 h-4 text-lilac-500" aria-hidden="true" />
+							<CheckCircleIcon class="w-4 h-4 text-purple-500" aria-hidden="true" />
 							<div class="ml-3">
 								<p class="text-sm leading-none font-thin text-gray-900">Keep it short. Maximum 2 minutes</p>
 							</div>
 						</li>
 						<li class="py-1 flex">
-							<CheckCircleIcon class="w-4 h-4 text-lilac-500" aria-hidden="true" />
+							<CheckCircleIcon class="w-4 h-4 text-purple-500" aria-hidden="true" />
 							<div class="ml-3">
 								<p class="text-sm leading-none font-thin text-gray-900">Smile, make it personal. A funny detail works great</p>
 							</div>
 						</li>
 						<li class="py-1 flex">
-							<CheckCircleIcon class="w-4 h-4 text-lilac-500" aria-hidden="true" />
+							<CheckCircleIcon class="w-4 h-4 text-purple-500" aria-hidden="true" />
 							<div class="ml-3">
 								<p class="text-sm leading-none font-thin text-gray-900">Introduce yourself  and why you’ve chosen this</p>
 							</div>
 						</li>
 						<li class="py-1 flex">
-							<CheckCircleIcon class="w-4 h-4 text-lilac-500" aria-hidden="true" />
+							<CheckCircleIcon class="w-4 h-4 text-purple-500" aria-hidden="true" />
 							<div class="ml-3">
 								<p class="text-sm leading-none font-thin text-gray-900">Remember to share your experience with children</p>
 							</div>

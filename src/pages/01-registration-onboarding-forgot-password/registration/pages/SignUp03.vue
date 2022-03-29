@@ -9,7 +9,7 @@
 				<h5 class="mb-2 text-left text-header-five text-gray-900">Get started 100% free</h5>
 				<p class="text-sm font-light">It's free to join, Already have an account? <a href="#" class="text-blue-500 anchor-with-underline">Sign in</a></p>
 
-				<h2 class="mt-8 mb-2 text-left text-header-two font-semibold text-gray-900">Sign up as <span class="text-lilac-500">Parent/Host</span></h2>
+				<h2 class="mt-8 mb-2 text-left text-header-two font-semibold text-gray-900">Sign up as <span class="text-purple-500">Parent/Host</span></h2>
 				<p class="font-light">Request Nanny, Childminder or an Au pair</p>
 
 				<div class="mt-20">

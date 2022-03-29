@@ -11,8 +11,8 @@
 			border border-gray-500
 			bg-white
 			hover:border-black
-			focus:border-purple-500
-			focus:text-purple-500
+			focus:border-lilac-500
+			focus:text-lilac-500
 		">{{ text }}</button>
 </template>
 

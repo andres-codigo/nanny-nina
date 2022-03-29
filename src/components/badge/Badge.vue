@@ -5,7 +5,7 @@
 			px-5 py-1.5 mr-2 my-2
 			rounded-full
 			font-semibold
-			bg-purple-50
+			bg-lilac-50
 		">
 		<slot name="icon"></slot>
 		<span class="pl-2">

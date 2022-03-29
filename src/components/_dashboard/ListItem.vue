@@ -1,6 +1,6 @@
 <template>
 	<li class="bg-white">
-		<router-link :to="routerLinkPath" class="block hover:bg-lilac-50">
+		<router-link :to="routerLinkPath" class="block hover:bg-purple-50">
 			<div :class="['py-4', subItem ? 'ml-16 mr-4' : 'mx-4']">
 				<div class="flex items-center justify-between">
 					<p :class="['text-sm font-medium truncate', textColor]">{{ title }}</p>

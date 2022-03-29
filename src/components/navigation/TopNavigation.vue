@@ -17,7 +17,7 @@ export default {
 	props: {
 		backgroundColor: {
 			type: String,
-			default: 'bg-lilac-500'
+			default: 'bg-purple-500'
 		},
 		dropShadow: {
 			type: Boolean,

@@ -1,10 +1,10 @@
 <template>
 	<div>
-		<TopNavigation backgroundColor="bg-purple-100" :dropShadow="false">
+		<TopNavigation backgroundColor="bg-lilac-100" :dropShadow="false">
 			<template #iconRight><router-link to="/dashboard"><XIcon class="w-8 h-8 text-black" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
-			<div class="min-h-screen flex flex-col justify-center px-4 bg-purple-100">
+			<div class="min-h-screen flex flex-col justify-center px-4 bg-lilac-100">
 				<div class="flex justify-center h-48">
 					<!--
 						Image component for svg here
@@ -14,7 +14,7 @@
 				</div>
 
 				<div class="pt-6">
-					<Badge title="Quick &amp; easy" backgroundColor="bg-green-50" textColor="text-lilac-900" />
+					<Badge title="Quick &amp; easy" backgroundColor="bg-green-50" textColor="text-purple-900" />
 				</div>
 
 				<div class="pt-2">
@@ -23,10 +23,10 @@
 				</div>
 
 				<div class="inline-flex justify-center space-x-5 pt-10">
-					<NavigationDot backgroundColor="bg-lilac-500 ring-8 ring-purple-300" />
-					<NavigationDot backgroundColor="bg-purple-300" backgroundColorHover="hover:bg-lilac-500 hover:ring-8 hover:ring-purple-300" />
-					<NavigationDot backgroundColor="bg-purple-300" backgroundColorHover="hover:bg-lilac-500 hover:ring-8 hover:ring-purple-300" />
-					<NavigationDot backgroundColor="bg-purple-300" backgroundColorHover="hover:bg-lilac-500 hover:ring-8 hover:ring-purple-300" />
+					<NavigationDot backgroundColor="bg-purple-500 ring-8 ring-lilac-300" />
+					<NavigationDot backgroundColor="bg-lilac-300" backgroundColorHover="hover:bg-purple-500 hover:ring-8 hover:ring-lilac-300" />
+					<NavigationDot backgroundColor="bg-lilac-300" backgroundColorHover="hover:bg-purple-500 hover:ring-8 hover:ring-lilac-300" />
+					<NavigationDot backgroundColor="bg-lilac-300" backgroundColorHover="hover:bg-purple-500 hover:ring-8 hover:ring-lilac-300" />
 				</div>
 
 				<div class="flex flex-col justify-center items-center pt-20 pb-24 px-4">

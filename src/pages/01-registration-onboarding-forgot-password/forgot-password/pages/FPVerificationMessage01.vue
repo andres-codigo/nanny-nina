@@ -1,5 +1,5 @@
 <template>
-	<div class="bg-lilac-500">
+	<div class="bg-purple-500">
 		<main>
 			<div class="h-screen flex flex-col items-center justify-center mx-4">
 				<div class="grid grid-rows-3 grid-flow-col gap-0">

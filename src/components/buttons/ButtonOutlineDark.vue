@@ -9,9 +9,8 @@
 			font-bold
 			antialiased
 			border
-			hover:border-purple-900
-			focus:border-purple-500
-			focus:text-purple-500
+			hover:border-lilac-900
+			focus:border-lilac-500
 		">
 			<slot name="iconWithText"></slot>
 			{{ text }}

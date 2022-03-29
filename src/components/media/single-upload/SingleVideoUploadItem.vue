@@ -7,11 +7,11 @@
 				relative
 				w-44 h-44
 				rounded-full
-				bg-purple-50
-				hover:border-transparent hover:bg-purple-100
+				bg-lilac-50
+				hover:border-transparent hover:bg-lilac-100
 				focus:border-transparent focus:bg-green-100
 			">
-			<VideoCameraIcon class="w-24 h-24 text-purple-500" aria-hidden="true" />
+			<VideoCameraIcon class="w-24 h-24 text-lilac-500" aria-hidden="true" />
 			<span
 				class="
 					flex items-center justify-center

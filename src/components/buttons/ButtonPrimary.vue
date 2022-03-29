@@ -7,9 +7,9 @@
 			rounded-full
 			text-white font-bold
 			antialiased leading-none
-			bg-lilac-500
-			hover:bg-lilac-400
-			focus:bg-lilac-600
+			bg-purple-500
+			hover:bg-purple-400
+			focus:bg-purple-600
 		">
 		{{ text }}</button>
 </template>

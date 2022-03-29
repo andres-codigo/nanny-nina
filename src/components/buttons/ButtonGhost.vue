@@ -6,11 +6,11 @@
 		class="
 			justify-center
 			rounded-full
-			text-purple-900 font-bold
+			text-lilac-900 font-bold
 			antialiased leading-none
 			underline
-			hover:text-purple-400
-			focus:text-purple-500"
+			hover:text-lilac-400
+			focus:text-lilac-500"
 		>{{ text }}</button>
 </template>
 

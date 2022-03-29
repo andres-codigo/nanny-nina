@@ -13,9 +13,9 @@
 				class="
 					rounded-full
 					h-4 w-4
-					text-lilac-500
-					checked:ring-2 checked:ring-offset-2 checked:ring-lilac-400 checked:bg-none
-					focus:ring-lilac-400
+					text-purple-500
+					checked:ring-2 checked:ring-offset-2 checked:ring-purple-400 checked:bg-none
+					focus:ring-purple-400
 					border-1 border-gray-400
 				"
 			>

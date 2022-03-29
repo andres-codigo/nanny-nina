@@ -9,12 +9,12 @@
 					<div class="mt-6">
 						<h3 class="text-center text-header-three text-gray-900 font-bold">Verify your number</h3>
 						<p class="text-center font-light mt-6">A 6 digit code has been sent to</p>
-						<p class="text-center text-lilac-500 font-light">+31  6844 8440</p>
+						<p class="text-center text-purple-500 font-light">+31  6844 8440</p>
 						<p class="text-center text-sm font-light mt-6">Enter the code we sent to +31 6844 84610 via SMS</p>
 					</div>
 					<div class="mt-6">
 						<div class="flex justify-center space-x-2 slideshow-navigation">
-							<input type="number" id="v1" name="v1" maxlength="1" class="dot no-add-remove-on-input text-center text-4xl h-11 w-11 rounded-full border border-lilac-500 bg-none focus:outline-none" />
+							<input type="number" id="v1" name="v1" maxlength="1" class="dot no-add-remove-on-input text-center text-4xl h-11 w-11 rounded-full border border-purple-500 bg-none focus:outline-none" />
 							<input type="number" id="v2" name="v2" maxlength="1" class="dot no-add-remove-on-input text-center text-4xl h-11 w-11 rounded-full border border-red-500 bg-none focus:outline-none" />
 							<input type="number" id="v3" name="v3" maxlength="1" class="dot no-add-remove-on-input text-center text-4xl h-11 w-11 rounded-full border border-gray-500 bg-none focus:outline-none" />
 							<input type="number" id="v4" name="v4" maxlength="1" class="dot no-add-remove-on-input text-center text-4xl h-11 w-11 rounded-full border border-gray-500 bg-none focus:outline-none" />

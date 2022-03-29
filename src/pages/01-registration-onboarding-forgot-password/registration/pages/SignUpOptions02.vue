@@ -5,10 +5,10 @@
 			<div class="min-h-screen flex flex-col justify-center mx-4">
 				<h5 class="mb-2 text-left text-header-five font-semibold text-gray-900 antialiased">Welcome to Nanny Nina</h5>
 				<div class="inline-flex pb-8">
-					<LinkCard to="dashboard" class="text-black bg-green-500 hover:bg-green-400 focus:ring-green-600" title="Sign up as Parent/Host" content="Request Nanny, Childminder or Au pair" />
+					<LinkCard to="dashboard" class="text-black bg-green-500 hover:bg-green-300 focus:ring-green-600" title="Sign up as Parent/Host" content="Request Nanny, Childminder or Au pair" />
 				</div>
 				<div class="inline-flex pb-8">
-					<LinkCard to="dashboard" class="text-white bg-lilac-500 hover:bg-lilac-400 focus:ring-lilac-600" title="Sign up for Care jobs" content="Work as Nanny, Childminder or Au pair" />
+					<LinkCard to="dashboard" class="text-white bg-purple-500 hover:bg-purple-400 focus:ring-purple-600" title="Sign up for Care jobs" content="Work as Nanny, Childminder or Au pair" />
 				</div>
 				<div class="inline-flex items-center justify-center">
 					<span class="mr-2">Already have an account?</span>

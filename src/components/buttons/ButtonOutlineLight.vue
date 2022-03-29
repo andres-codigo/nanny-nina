@@ -9,8 +9,8 @@
 			font-bold text-white
 			antialiased leading-none
 			border border-white
-			hover:border-purple-300
-			focus:border-purple-600
+			hover:border-lilac-400
+			focus:border-green-500
 		">{{ text }}</button>
 </template>
 

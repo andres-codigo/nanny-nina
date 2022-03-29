@@ -1,6 +1,6 @@
 <!-- TODO: is text green value for h2 and link (span w underline) correct? -->
 <template>
-	<div class="bg-lilac-500">
+	<div class="bg-purple-500">
 		<main>
 			<div class="h-screen flex flex-col items-center justify-center mx-4">
 				<form class="mb-40" action="#" method="POST">
@@ -16,7 +16,7 @@
 						</div>
 					</div>
 				</form>
-				<p class="mx-8 text-xs font-medium text-white text-center">We encourage everyone on our platform to visit our <a href="#" class="anchor-with-underline">Trust & Safety</a> and <a href="#" class="anchor-with-underline">Privacy Policy</a> to learn more about our commitment to keeping you safe</p>
+				<p class="mx-8 text-xs font-medium text-white text-center">We encourage everyone on our platform to visit our <a href="#" class="anchor-with-underline text-green-600">Trust & Safety</a> and <a href="#" class="anchor-with-underline text-green-600">Privacy Policy</a> to learn more about our commitment to keeping you safe</p>
 			</div>
 		</main>
 	</div>

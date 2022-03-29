@@ -11,11 +11,11 @@
 					relative
 					h-56 w-56
 					rounded-full
-					bg-purple-100
+					bg-lilac-100
 					hover:border-transparent hover:text-gray-200 hover:bg-gray-100
 					focus:outline-none focus:ring-2 focus:ring-offset-2
 				">
-				<DocumentTextIcon class="w-32 h-32 text-purple-500" aria-hidden="true" />
+				<DocumentTextIcon class="w-32 h-32 text-lilac-500" aria-hidden="true" />
 				<span
 					class="
 						flex items-center justify-center

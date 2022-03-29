@@ -1,7 +1,7 @@
 <!-- TODO: text color for label and input; hover & focus behavior for input -->
 <template>
 	<label for="qualification" class="hidden text-xs font-medium text-gray-500">{{ text }}</label>
-	<div class="mt-0 border-b border-gray-500 focus-within:border-lilac-400">
+	<div class="mt-0 border-b border-gray-500 focus-within:border-purple-400">
 		<input
 			id="qualification"
 			name="qualification"
@@ -14,7 +14,7 @@
 				block w-full
 				py-3 px-0
 				border-0 border-b border-transparent
-				focus:border-b-lilac-400 focus:ring-0
+				focus:border-b-purple-400 focus:ring-0
 			"
 		>
 	</div>

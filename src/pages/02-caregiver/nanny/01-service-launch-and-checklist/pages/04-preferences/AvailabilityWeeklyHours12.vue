@@ -22,83 +22,83 @@
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row  h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<ToggleButton backgroundColor="bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-lilac-500" translateXPosition="translate-x-0" text="Sun" />
+								<ToggleButton backgroundColor="bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-0" text="Sun" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeDisabled placeholder="Unavailable" /></div>
-							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-lilac-500" aria-hidden="true" /></div>
+							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></div>
 						</div>
 					</div>
 
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<ToggleButton backgroundColor="bg-lilac-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-lilac-500" translateXPosition="translate-x-6" text="Mon" />
+								<ToggleButton backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Mon" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 11:00" /></div>
-							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-lilac-500" aria-hidden="true" /></div>
+							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></div>
 						</div>
 						<div class="flex flex-row h-20">
 							<div class="inline-flex justify-center items-center w-24">&nbsp;</div>
 							<div class="inline-flex justify-center items-center w-14"><a href="#"><XCircleIcon class="w-6 h-6 text-gray-500" aria-hidden="true" /></a></div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="13:00 - 17:00" /></div>
-							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-lilac-500" aria-hidden="true" /></div>
+							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></div>
 						</div>
 					</div>
 
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row  h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<ToggleButton backgroundColor="bg-lilac-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-lilac-500" translateXPosition="translate-x-6" text="Tue" />
+								<ToggleButton backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Tue" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 17:00" /></div>
-							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-lilac-500" aria-hidden="true" /></div>
+							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></div>
 						</div>
 					</div>
 
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row  h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<ToggleButton backgroundColor="bg-lilac-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-lilac-500" translateXPosition="translate-x-6" text="Wed" />
+								<ToggleButton backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Wed" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 17:00" /></div>
-							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-lilac-500" aria-hidden="true" /></div>
+							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></div>
 						</div>
 					</div>
 
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row  h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<ToggleButton backgroundColor="bg-lilac-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-lilac-500" translateXPosition="translate-x-6" text="Thur" />
+								<ToggleButton backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Thur" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 17:00" /></div>
-							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-lilac-500" aria-hidden="true" /></div>
+							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></div>
 						</div>
 					</div>
 
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row  h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<ToggleButton backgroundColor="bg-lilac-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-lilac-500" translateXPosition="translate-x-6" text="Fri" />
+								<ToggleButton backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Fri" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 17:00" /></div>
-							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-lilac-500" aria-hidden="true" /></div>
+							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></div>
 						</div>
 					</div>
 
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row  h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<ToggleButton backgroundColor="bg-lilac-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-lilac-500" translateXPosition="translate-x-6" text="Sat" />
+								<ToggleButton backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Sat" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="09:00 - 17:00" /></div>
-							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-lilac-500" aria-hidden="true" /></div>
+							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></div>
 						</div>
 					</div>
 

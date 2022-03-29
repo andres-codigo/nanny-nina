@@ -9,7 +9,7 @@
 			<div class="absolute -bottom-1 right-0 ">
 				<span class="inline-block text-sm text-black font-light antialiased">30% Ready to work</span>
 				<div class="bg-gray-200 rounded-full overflow-hidden">
-					<div class="h-2 bg-lilac-500 rounded-full" style="width: 30%"></div>
+					<div class="h-2 bg-purple-500 rounded-full" style="width: 30%"></div>
 				</div>
 			</div>
 		</div>

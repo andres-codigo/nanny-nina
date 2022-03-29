@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full h-full bg-lilac-500">
+	<div class="w-full h-full bg-purple-500">
 		<TopNavigation :hideHeader="true">
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>

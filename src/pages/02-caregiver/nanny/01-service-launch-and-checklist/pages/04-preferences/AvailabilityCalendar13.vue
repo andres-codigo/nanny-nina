@@ -43,7 +43,7 @@
 								<div class="inline-flex grow items-center w-44">Sun, 10/02/2022</div>
 								<div class="inline-flex justify-center items-center w-8"><a href="#"><XCircleIcon class="w-6 h-6 text-gray-500" aria-hidden="true" /></a></div>
 								<div class="inline-flex items-center w-36 px-4"><a href="#" class="text-blue-500 anchor-with-underline">9:00 - 18:00</a></div>
-								<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-lilac-500" aria-hidden="true" /></div>
+								<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></div>
 							</div>
 						</div>
 						<div class="border-b border-gray-50">
@@ -51,7 +51,7 @@
 								<div class="inline-flex grow items-center w-44">Mon, 11/02/2022</div>
 								<div class="inline-flex justify-center items-center w-8"><a href="#"><XCircleIcon class="w-6 h-6 text-gray-500" aria-hidden="true" /></a></div>
 								<div class="inline-flex items-center w-36 px-4"><a href="#" class="text-blue-500 anchor-with-underline">9:00 - 18:00</a></div>
-								<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-lilac-500" aria-hidden="true" /></div>
+								<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></div>
 							</div>
 						</div>
 					</div>
