@@ -1,3 +1,4 @@
+<!-- TODO: bg color for default, hover & focus -->
 <template>
 	<li>
 		<!-- Completed Step -->

@@ -1,10 +1,10 @@
 <template>
 	<div class="flex flex-wrap grow gap-y-6 gap-x-4">
 		<!-- Start -->
-		<!-- <ServiceLaunchStartScreen01 class="max-w-450-for-dev-not-prod" /> -->
+		<ServiceLaunchStartScreen01 class="max-w-450-for-dev-not-prod" />
 
 		<!-- Checklist Landing Page -->
-		<!-- <ChecklistLandingPage02 class="max-w-450-for-dev-not-prod" /> -->
+		<ChecklistLandingPage02 class="max-w-450-for-dev-not-prod" />
 
 		<!-- 01 Media Upload Checklist -->
 		<MediaUploadPhoto03 class="max-w-450-for-dev-not-prod" />
