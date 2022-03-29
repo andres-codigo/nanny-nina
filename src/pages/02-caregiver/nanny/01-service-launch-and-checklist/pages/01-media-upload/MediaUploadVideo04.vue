@@ -4,7 +4,11 @@
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col pt-12 mx-4">
+			<Steps text="Step 2 of 2">
+				<template #step-one><CompletedStep /></template>
+				<template #step-two><CurrentStep /></template>
+			</Steps>
+			<div class="flex flex-col pt-6 mx-4">
 				<form class="w-full" action="#" method="POST">
 					<SingleVideoUpload />
 
@@ -49,6 +53,12 @@
 
 <script>
 import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+
+import Steps from '../../../../../../components/steps/Steps.vue'
+import CompletedStep from '../../../../../../components/steps/types/CompletedStep.vue'
+import CurrentStep from '../../../../../../components/steps/types/CurrentStep.vue'
+import UpcomingStep from '../../../../../../components/steps/types/UpcomingStep.vue'
+
 import SingleVideoUpload from '../../../../../../components/media/single-upload/SingleVideoUpload.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
@@ -57,6 +67,10 @@ import { ChevronLeftIcon, CheckCircleIcon } from '@heroicons/vue/solid'
 export default {
 	components: {
 		TopNavigation,
+		Steps,
+		CompletedStep,
+		CurrentStep,
+		UpcomingStep,
 		SingleVideoUpload,
 		ButtonPrimary,
 		ChevronLeftIcon,
