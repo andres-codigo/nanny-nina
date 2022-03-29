@@ -5,7 +5,7 @@
 		class="
 			justify-center
 			rounded-full
-			text-white text-xl font-bold
+			text-white font-bold
 			antialiased leading-none
 			bg-lilac-500
 			hover:bg-lilac-400
@@ -19,7 +19,7 @@ export default {
 	props: {
 		class: {
 			type: String,
-			default: 'w-full py-4'
+			default: 'w-full text-xl py-4'
 		},
 		text: String
 	}

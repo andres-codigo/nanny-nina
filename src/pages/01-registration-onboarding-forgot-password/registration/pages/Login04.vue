@@ -18,7 +18,7 @@
 
 					<div class="flex flex-col justify-center items-center mt-14">
 						<div class="mt-6 mb-4">
-							<ButtonPrimary text="Login" class="py-4 w-button-xl" />
+							<ButtonPrimary text="Login" class="w-button-xl text-xl py-4" />
 						</div>
 						<p class="text-sm font-light">Don't have an account? <a href="#" class="font-light text-blue-500 anchor-with-underline">Sign Up</a></p>
 					</div>

@@ -25,7 +25,7 @@
 				</div>
 
 				<div class="flex flex-col justify-center items-center mt-32">
-					<ButtonDisabled text="Continue" class="w-button-lg py-4" />
+					<ButtonDisabled text="Continue" class="w-button-lg text-xl py-4" />
 				</div>
 			</div>
 		</main>

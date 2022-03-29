@@ -15,7 +15,7 @@
 
 					<div class="flex flex-col justify-center items-center">
 						<div class="grid grid-rows-2 gap-2">
-							<div><ButtonPrimary text="Resend Another Link" class="w-button-lg py-4" /></div>
+							<div><ButtonPrimary text="Resend Another Link" class="w-button-lg text-xl py-4" /></div>
 							<div><ButtonGhost text="Cancel" /></div>
 						</div>
 					</div>

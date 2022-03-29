@@ -165,8 +165,8 @@
 		</div>
 
 		<div class="flex mt-8">
-			<div class="flex-1"><ButtonGhost text="Cancel" class="w-28 py-2" /></div>
-			<div class="flex-1"><ButtonPrimary text="Done" class="w-28 py-2" /></div>
+			<div class="flex-1"><ButtonGhost text="Cancel" class="text-xl w-28 py-2" /></div>
+			<div class="flex-1"><ButtonPrimary text="Done" class="text-xl w-28 py-2" /></div>
 		</div>
 	</div>
 </template>

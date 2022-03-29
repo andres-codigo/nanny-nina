@@ -6,7 +6,7 @@
 		class="
 			justify-center
 			rounded-full
-			text-sm font-semibold text-gray-500
+			font-semibold text-gray-500
 			antialiased leading-none
 			border border-gray-500
 			bg-white
@@ -21,7 +21,7 @@ export default {
 	props: {
 		class: {
 			type: String,
-			default: 'w-full py-4'
+			default: 'w-full text-sm py-4'
 		},
 		text: String
 	}

@@ -36,7 +36,7 @@
 					</div>
 
 					<div class="flex flex-col justify-center items-center mt-10">
-						<ButtonPrimary text="Next" class="w-button-lg py-4" />
+						<ButtonPrimary text="Next" class="w-button-lg text-xl py-4" />
 					</div>
 				</form>
 			</div>

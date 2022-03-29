@@ -6,7 +6,7 @@
 		class="
 			justify-center
 			rounded-full
-			text-xl font-bold text-gray-500
+			font-bold text-gray-500
 			antialiased leading-none
 			disabled:bg-gray-100
 		">{{ text }}</button>
@@ -17,7 +17,7 @@ export default {
 	props: {
 		class: {
 			type: String,
-			default: 'w-full py-4'
+			default: 'w-full text-xl py-4'
 		},
 		text: String
 	}

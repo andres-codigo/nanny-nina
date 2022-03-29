@@ -24,7 +24,7 @@
 					</div>
 
 					<div class="flex items-center justify-center">
-						<ButtonGhost class="w-full py-3 text-white" text="Cancel Application" />
+						<ButtonGhost class="w-full text-xl text-white py-3" text="Cancel Application" />
 					</div>
 				</div>
 			</div>

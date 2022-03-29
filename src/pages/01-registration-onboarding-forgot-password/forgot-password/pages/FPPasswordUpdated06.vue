@@ -18,7 +18,7 @@
 						</div>
 						<div class="flex flex-col justify-center items-center">
 							<div class="grid grid-rows-1 gap-0">
-								<div><ButtonPrimary text="Continue to Login" class="w-button-lg py-4 mt-20" /></div>
+								<div><ButtonPrimary text="Continue to Login" class="w-button-lg text-xl py-4 mt-20" /></div>
 							</div>
 						</div>
 					</div>

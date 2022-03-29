@@ -18,7 +18,7 @@
 				</div>
 				<div>
 					<div class="flex flex-col justify-center items-center mt-96">
-						<ButtonSecondary text="Continue to apply" class="w-button-lg py-4" />
+						<ButtonSecondary text="Continue to apply" class="w-button-lg text-xl py-4" />
 					</div>
 					<p class="mt-8 font-medium text-white text-center"><a href="#" class="anchor-with-underline text-green-200">Learn more about being a Nanny</a></p>
 				</div>

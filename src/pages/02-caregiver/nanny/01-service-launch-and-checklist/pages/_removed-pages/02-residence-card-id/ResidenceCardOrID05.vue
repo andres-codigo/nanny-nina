@@ -13,7 +13,7 @@
 					<Back />
 
 					<div class="mt-20">
-						<ButtonDisabled text="Upload &amp; Continue" />
+						<ButtonDisabled text="Upload &amp; Continue" class="text-xl" />
 					</div>
 				</form>
 			</div>

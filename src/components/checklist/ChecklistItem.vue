@@ -20,7 +20,7 @@
 					</div>
 
 					<div :class="['inline-flex', showBadge ? 'mt-4' : 'hidden']">
-						<ButtonOutlineGrey text="&euro;10" class="w-20 py-2" />
+						<ButtonOutlineGrey text="&euro;10" class="text-sm w-20 py-2" />
 					</div>
 				</div>
 				<div class="ml-5 flex-shrink-0">

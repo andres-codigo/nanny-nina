@@ -10,12 +10,10 @@
 					<p class="font-thin text-white text-center">Let's get you setup!</p>
 				</div>
 
-				<div class="mt-96">
-					<div>
-						<ButtonOutlineLight text="Not now, I'm exploring" />
-					</div>
-					<div class="mt-2">
-						<ButtonSecondary text="Get Started" />
+				<div class="flex flex-col justify-center items-center mt-96">
+					<div class="grid grid-rows-2 gap-2">
+						<div><ButtonOutlineLight text="Not now, I'm exploring" class="w-button-xl text-xl py-4" /></div>
+						<div><ButtonSecondary text="Get Started" class="w-button-xl text-xl py-4" /></div>
 					</div>
 					<p class="mt-8 font-thin text-white text-center"><a href="#" class="anchor-with-underline text-green-200">Learn more about being a Nanny</a></p>
 				</div>
