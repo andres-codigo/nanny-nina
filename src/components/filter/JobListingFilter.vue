@@ -1,0 +1,23 @@
+<template>
+	<div class="flex border border-b-1">
+		<div class="flex-none inline-flex justify-center items-center mx-2"><AdjustmentsIcon class="w-5 h-5 " /></div>
+		<div class="inline-flex grow overflow-x-scroll py-4 no-scrollbar items-center">
+			<slot name="filter-one"></slot>
+			<slot name="filter-two"></slot>
+			<slot name="filter-three"></slot>
+			<slot name="filter-four"></slot>
+			<slot name="filter-five"></slot>
+			<slot name="filter-six"></slot>
+		</div>
+	</div>
+</template>
+
+<script>
+import { AdjustmentsIcon } from '@heroicons/vue/solid'
+
+export default {
+	components: {
+		AdjustmentsIcon
+	}
+}
+</script>

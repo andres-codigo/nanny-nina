@@ -119,6 +119,18 @@
 							textColorBadge="text-pink-800"
 							backgroundColorBadge="bg-pink-100"
 						/>
+						<ListItem
+							:subItem="true"
+							:hideNotes="true"
+							notes=""
+							date=""
+							routerLinkPath="/nanny-job-listings"
+							title="Job Listings"
+							textColor="text-lilac-600"
+							textBadge="In Progress"
+							textColorBadge="text-amber-800"
+							backgroundColorBadge="bg-amber-100"
+						/>
 					</ul>
 				</div>
 				<div class="relative">

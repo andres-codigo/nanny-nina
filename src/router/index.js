@@ -19,6 +19,7 @@ import ChildminderAndNannyContainer from '../pages/02-caregiver/childminder-and-
 	/* Caregiver - Nanny */
 	import ServiceLaunchChecklistOnboardingContainer from '../pages/02-caregiver/nanny/01-service-launch-and-checklist/ServiceLaunchChecklistOnboardingContainer.vue'
 	import ParentProfileContainer from '../pages/02-caregiver/nanny/02-parent-profile/ParentProfileContainer.vue'
+	import JobListings from '../pages/02-caregiver/nanny/03-job-listings/JobListing.vue'
 
 /* Host - Nanny */
 import HostNannyHome from '../pages/03-host/Home.vue'
@@ -77,6 +78,11 @@ const routes = [
 	{
 		path: '/nanny-parent-profile',
 		component: ParentProfileContainer,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/nanny-job-listings',
+		component: JobListings,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
