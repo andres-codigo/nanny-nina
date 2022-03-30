@@ -7,11 +7,11 @@
 		<main>
 			<div class="flex flex-col pt-12 mx-4">
 				<form class="w-full" action="#" method="POST">
-					<SinglePhotoUpload />
+					<SinglePhotoUpload title="Upload Profile Picture" description="Please upload a clear and happy picture, for higher responses. If you have a pet or kid in it even better!" />
 
 					<hr class="border-1 border-gray-50 my-6" />
 
-					<MultiplePhotoUpload />
+					<MultiplePhotoUpload title="Upload more pictures" description="Add more pictures of yourself/with kids for more invites" />
 
 					<div class="mt-20">
 						<div class="my-6">

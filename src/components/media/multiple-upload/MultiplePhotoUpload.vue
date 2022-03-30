@@ -1,6 +1,6 @@
 <template>
-	<h5 class="text-left text-header-five text-gray-900 font-semibold antialiased mb-2 ">Upload more pictures</h5>
-	<p class="text-sm font-light">Add more pictures of yourself/with kids for more invites</p>
+	<h5 class="text-left text-header-five text-gray-900 font-semibold antialiased mb-2 ">{{ title }}</h5>
+	<p class="text-sm font-light">{{ description }}</p>
 
 	<div class="mt-7">
 		<div class="flex flex-nowrap items-center justify-center gap-3 mb-10">
@@ -18,6 +18,10 @@ import MultipleUploadItem from './MultipleUploadItem.vue'
 export default {
 	components: {
 		MultipleUploadItem
+	},
+	props: {
+		title: String,
+		description: String
 	}
 }
 </script>

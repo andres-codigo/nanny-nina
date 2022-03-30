@@ -1,6 +1,7 @@
 <template>
 	<div class="flex flex-wrap grow gap-y-6 gap-x-4">
 		<Location class="max-w-450-for-dev-not-prod" />
+		<MediaUploadPhoto class="max-w-450-for-dev-not-prod" />
 
 		<!-- Start -->
 		<ServiceLaunchStartScreen01 class="max-w-450-for-dev-not-prod" />
@@ -35,6 +36,7 @@
 <script>
 /* Location */
 import Location from './pages/Location.vue'
+import MediaUploadPhoto from './pages/MediaUploadPhoto.vue'
 
 /* Start */
 import ServiceLaunchStartScreen01 from './pages/ServiceLaunchStartScreen01.vue'
@@ -68,6 +70,7 @@ import ServiceLaunchEndScreen15 from './pages/ServiceLaunchEndScreen15.vue'
 export default {
 	components: {
 		Location,
+		MediaUploadPhoto,
 		ServiceLaunchStartScreen01,
 		ChecklistLandingPage02,
 		MediaUploadPhoto03,
