@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import PrimaryButton from '../../buttons/ButtonPrimary.vue'
+import PrimaryButton from '../../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronRightIcon } from '@heroicons/vue/solid'
 

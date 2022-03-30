@@ -27,6 +27,15 @@
 							<div class="mt-6">
 								<InputField text="Email address" />
 							</div>
+
+							<div class="mt-8">
+								<div class="flex">
+									<div class="inline-flex items-center justify-center"><PlusCircleIcon class="w-5 h-5 text-purple-500" /></div>
+									<div class="flex-none pl-2">
+										<a href="#" class="font-semibold text-purple-500 anchor-with-underline">Add another</a>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 
@@ -46,7 +55,7 @@ import InputField from '../../../../../../components/form/InputField.vue'
 import InputWithSelectInternationPhoneNumber from '../../../../../../components/form/InputWithSelectInternationPhoneNumber.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
-import { ChevronLeftIcon } from '@heroicons/vue/solid'
+import { ChevronLeftIcon, PlusCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
@@ -55,7 +64,8 @@ export default {
 		InputField,
 		InputWithSelectInternationPhoneNumber,
 		ButtonPrimary,
-		ChevronLeftIcon
+		ChevronLeftIcon,
+		PlusCircleIcon
 	}
 }
 </script>

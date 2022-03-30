@@ -16,7 +16,7 @@
 import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
 import ParentCard from '../../../../../components/profile/parent-card/ParentCard.vue'
 import ParentNeeds from '../../../../../components/profile/parent-needs/ParentNeeds.vue'
-import FoldContainer from '../../../../../components/profile/fold/_FoldContainer.vue'
+import FoldContainer from './fold/_FoldContainer.vue'
 
 import { ChevronLeftIcon, DotsVerticalIcon } from '@heroicons/vue/solid'
 

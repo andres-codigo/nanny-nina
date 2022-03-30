@@ -19,7 +19,7 @@
 					</div>
 
 					<div class="mb-10">
-						<p class="font-medium">What is your highest level of education?</p>
+						<p>What is your highest level of education?</p>
 						<div class="mt-4 grid grid-cols-2 gap-x-2">
 							<div><SelectMenu /></div>
 						</div>
@@ -90,6 +90,17 @@
 								<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
 							</div>
 						</div>
+
+						<div class="flex mt-4">
+							<div class="grow h-14">
+								<div class="mt-4 grid grid-cols-2 justify-items-center gap-x-2">
+									<div>
+										<ButtonOutlineDark text="Upload file" class="w-button-sm py-2 text-sm font-semibold" />
+										<p class="text-sm font-light text-center text-gray-500 mt-2">Size limit 3MB</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 
 					<div class="mt-4">
@@ -103,7 +114,20 @@
 						<RadioQuestion :screenReaderOnly="true" legend="Do you have any health conditions?" questionOneText="Yes" questionTwoText="No" />
 					</div>
 
-					<div class="flex flex-col justify-center items-center mt-10">
+					<div class="my-4">
+						<h5 class="text-header-five font-semibold antialiased">Language</h5>
+						<div class="mt-4 grid grid-cols-2 gap-y-6 gap-x-2">
+							<div><SelectMenu text="Language(s)" /></div>
+							<div class="flex flex-wrap justify-center items-center mt-4">
+								<BadgeRemove text="Dutch" />
+								<BadgeRemove text="English" />
+								<BadgeRemove text="Portuguese" />
+								<BadgeRemove text="Irish" />
+							</div>
+						</div>
+					</div>
+
+					<div class="flex flex-col justify-center items-center mt-20">
 						<ButtonPrimary text="Next" class="w-button-lg text-xl py-4" />
 					</div>
 				</form>
@@ -119,6 +143,7 @@ import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
 import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
 import ButtonOutlineDark from '../../../../../../components/buttons/ButtonOutlineDark.vue'
+import BadgeRemove from '../../../../../../components/badge/BadgeRemove.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, PlusIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
@@ -131,6 +156,7 @@ export default {
 		RadioQuestion,
 		InputFieldBorderBottomOnly,
 		ButtonOutlineDark,
+		BadgeRemove,
 		ButtonPrimary,
 		ChevronLeftIcon,
 		PlusIcon,

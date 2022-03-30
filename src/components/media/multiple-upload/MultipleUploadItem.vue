@@ -4,7 +4,7 @@
 			flex shrink items-center justify-center
 			relative
 			w-28 h-32
-			rounded-lg
+			rounded-30px
 			text-purple-500
 			bg-lilac-50
 			hover:border-transparent hover:bg-lilac-100
