@@ -127,9 +127,9 @@
 							routerLinkPath="/nanny-job-listings"
 							title="Job Listings"
 							textColor="text-purple-600"
-							textBadge="In Progress"
-							textColorBadge="text-amber-800"
-							backgroundColorBadge="bg-amber-100"
+							textBadge="Design/UI Review"
+							textColorBadge="text-pink-800"
+							backgroundColorBadge="bg-pink-100"
 						/>
 					</ul>
 				</div>
