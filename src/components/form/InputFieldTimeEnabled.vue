@@ -12,7 +12,7 @@
 			border border-gray-500 rounded-full
 			text-center font-thin
 			read-only:border-gray-100
-			focus:outline-none focus:ring-0 focus:ring-purple-500 focus:border-purple-500
+			focus:outline-none focus:ring-0 focus:border-purple-500
 		"
 	>
 </template>

@@ -26,6 +26,6 @@
 				border border-gray-400
 				rounded-r-full
 				text-sm	text-gray-600
-				focus:outline-none focus:ring-0 focus:ring-purple-500 focus:border-purple-500">
+				focus:outline-none focus:ring-0 focus:border-purple-500">
 	</div>
 </template>

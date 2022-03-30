@@ -23,7 +23,7 @@
 									px-3 py-2
 									border border-red-500 text-black rounded-full shadow-sm
 									placeholder-red-500
-									focus:outline-none focus:ring-0 focus:ring-red-500 focus:border-red-500"
+									focus:outline-none focus:ring-0 focus:border-red-500"
 								placeholder="you@example.com"
 								value="adamwathan"
 								aria-invalid="true"

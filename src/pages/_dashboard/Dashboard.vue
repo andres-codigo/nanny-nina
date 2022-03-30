@@ -97,6 +97,18 @@
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
 							:subItem="true"
+							:hideNotes="true"
+							notes=""
+							date=""
+							routerLinkPath="/nanny-job-listings"
+							title="Job Listings"
+							textColor="text-purple-600"
+							textBadge="Design/UI Review"
+							textColorBadge="text-pink-800"
+							backgroundColorBadge="bg-pink-100"
+						/>
+						<ListItem
+							:subItem="true"
 							:hideNotes="false"
 							notes="Pending final design approval/sign-off from business before making final updates"
 							date="29/03/22"
@@ -118,18 +130,6 @@
 							textBadge="Design/UI Review"
 							textColorBadge="text-pink-800"
 							backgroundColorBadge="bg-pink-100"
-						/>
-						<ListItem
-							:subItem="true"
-							:hideNotes="true"
-							notes=""
-							date=""
-							routerLinkPath="/nanny-job-listings"
-							title="Job Listings"
-							textColor="text-purple-600"
-							textBadge="In Progress"
-							textColorBadge="text-amber-800"
-							backgroundColorBadge="bg-amber-100"
 						/>
 					</ul>
 				</div>
