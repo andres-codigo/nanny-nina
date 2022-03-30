@@ -17,7 +17,7 @@
 		<!-- <ResidenceCardOrID05 class="max-w-450-for-dev-not-prod" /> -->
 
 		<!-- 03 Onboarding Form Checklist -->
-		<NationalityLanguageReligionForm06 class="max-w-450-for-dev-not-prod" />
+		<!-- <NationalityLanguageReligionForm06 class="max-w-450-for-dev-not-prod" /> -->
 		<EducationForm07 class="max-w-450-for-dev-not-prod" />
 		<HealthAndSafetyForm08 class="max-w-450-for-dev-not-prod" />
 		<ReferenceForm09 class="max-w-450-for-dev-not-prod" />
@@ -52,7 +52,7 @@ import MediaUploadVideo04 from './pages/01-media-upload/MediaUploadVideo04.vue'
 // import ResidenceCardOrID05 from './pages/02-residence-card-id/ResidenceCardOrID05.vue'
 
 /* 03 Onboarding Form Checklist */
-import NationalityLanguageReligionForm06 from './pages/03-onboarding-form/NationalityLanguageReligionForm06.vue'
+// import NationalityLanguageReligionForm06 from './pages/03-onboarding-form/NationalityLanguageReligionForm06.vue'
 import EducationForm07 from './pages/03-onboarding-form/EducationForm07.vue'
 import HealthAndSafetyForm08 from './pages/03-onboarding-form/HealthAndSafetyForm08.vue'
 import ReferenceForm09 from './pages/03-onboarding-form/ReferenceForm09.vue'
@@ -76,7 +76,7 @@ export default {
 		MediaUploadPhoto03,
 		MediaUploadVideo04,
 		// ResidenceCardOrID05,
-		NationalityLanguageReligionForm06,
+		// NationalityLanguageReligionForm06,
 		EducationForm07,
 		HealthAndSafetyForm08,
 		ReferenceForm09,

@@ -49,23 +49,6 @@
 						</div>
 					</div>
 
-					<!-- <div class="mt-4 mb-16">
-						<div class="mb-4">
-							<h6 class="text-header-six font-medium mb-4">Other Relevant Safety Qualifications</h6>
-							<p class="font-thin mb-4">Please specify other relevant qualifications?</p>
-						</div>
-
-						<div class="flex">
-							<div class="grow h-14">
-								<InputFieldBorderBottomOnly type="text" />
-							</div>
-							<div class="flex-none inline-flex justify-center items-center w-14 h-14">
-								<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
-							</div>
-						</div>
-					</div> -->
-
-
 					<div class="flex flex-col justify-center items-center mt-10">
 						<ButtonPrimary text="Next" class="w-button-lg text-xl py-4" />
 					</div>
@@ -79,6 +62,7 @@
 import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
 import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
+import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, PlusIcon } from '@heroicons/vue/solid'
@@ -88,6 +72,7 @@ export default {
 		TopNavigation,
 		RadioQuestion,
 		InputFieldBorderBottomOnly,
+		SelectMenu,
 		ButtonPrimary,
 		ChevronLeftIcon,
 		PlusIcon
