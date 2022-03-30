@@ -18,7 +18,7 @@
 				</div>
 
 				<div class="pt-2">
-					<Header title="Work at your convenience" />
+					<Header class="mx-5 mt-8" title="Work at your convenience" />
 					<Paragraph content="Work as a reliable nanny on regular fixed schedule, returning days per week or work at flexible hours." />
 				</div>
 

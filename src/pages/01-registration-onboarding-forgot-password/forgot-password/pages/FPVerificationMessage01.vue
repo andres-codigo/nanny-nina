@@ -16,7 +16,7 @@
 					</div>
 
 					<div class="mt-32">
-						<p class="text-white text-center font-light">Did not receive any email? Please check your spam or <a href="#" class="text-green-200 font-light anchor-with-underline">resend link</a>.  Error singing up?  Try <a href="#" class="text-green-200 font-light anchor-with-underline">signing up again.</a></p>
+						<p class="text-white text-center font-light">Did not receive any email? Please check your spam or <a href="#" class="text-green-600 font-light anchor-with-underline">resend link</a>.  Error singing up?  Try <a href="#" class="text-green-600 font-light anchor-with-underline">signing up again.</a></p>
 					</div>
 				</div>
 			</div>

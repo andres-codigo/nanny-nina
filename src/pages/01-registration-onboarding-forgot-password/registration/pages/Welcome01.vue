@@ -11,7 +11,7 @@
 						<div class="flex flex-col justify-center items-center mt-24">
 							<div class="grid grid-rows-2 gap-2">
 								<div><ButtonSecondary text="Login" class="w-button-xl text-xl py-4" /></div>
-								<div><ButtonOutlineLight text="Sign Up" class="w-button-xl text-xl py-4" /></div>
+								<div><ButtonOutlineLight text="Sign Up" class="w-button-xl text-xl py-4 text-white border-white hover:border-lilac-400 focus:border-green-500" /></div>
 							</div>
 						</div>
 					</div>

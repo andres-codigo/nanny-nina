@@ -1,7 +1,7 @@
 <template>
 	<div class="w-full h-screen">
 		<TopNavigation backgroundColor="bg-white" :dropShadow="false">
-			<template #iconLeft><Header /></template>
+			<template #iconLeft><Header class="mx-5 mt-8" /></template>
 		</TopNavigation>
 		<main>
 			<div class="min-h-screen flex flex-col justify-center mx-4">

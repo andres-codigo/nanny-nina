@@ -14,12 +14,12 @@
 					</div>
 					<div class="mt-6">
 						<div class="flex justify-center space-x-2 slideshow-navigation">
-							<input type="number" id="v1" name="v1" maxlength="1" class="dot no-add-remove-on-input text-center text-4xl h-11 w-11 rounded-full border border-purple-500 bg-none focus:outline-none" />
-							<input type="number" id="v2" name="v2" maxlength="1" class="dot no-add-remove-on-input text-center text-4xl h-11 w-11 rounded-full border border-red-500 bg-none focus:outline-none" />
-							<input type="number" id="v3" name="v3" maxlength="1" class="dot no-add-remove-on-input text-center text-4xl h-11 w-11 rounded-full border border-gray-500 bg-none focus:outline-none" />
-							<input type="number" id="v4" name="v4" maxlength="1" class="dot no-add-remove-on-input text-center text-4xl h-11 w-11 rounded-full border border-gray-500 bg-none focus:outline-none" />
-							<input type="number" id="v5" name="v5" maxlength="1" class="dot no-add-remove-on-input text-center text-4xl h-11 w-11 rounded-full border border-gray-500 bg-none focus:outline-none" />
-							<input type="number" id="v6" name="v6" maxlength="1" class="dot no-add-remove-on-input text-center text-4xl h-11 w-11 rounded-full border border-gray-500 bg-none focus:outline-none" />
+							<input type="number" id="v1" name="v1" maxlength="1" class="dot no-add-remove-on-input text-center text-4xl h-11 w-11 rounded-full border border-purple-500 bg-none focus:outline-none focus:border focus:border-purple-500 focus:ring-0" />
+							<input type="number" id="v2" name="v2" maxlength="1" class="dot no-add-remove-on-input text-center text-4xl h-11 w-11 rounded-full border border-red-500 bg-none focus:outline-none focus:border focus:border-red-500 focus:ring-0" />
+							<input type="number" id="v3" name="v3" maxlength="1" class="dot no-add-remove-on-input text-center text-4xl h-11 w-11 rounded-full border border-gray-500 bg-none focus:outline-none focus:border focus:border-purple-500 focus:ring-0" />
+							<input type="number" id="v4" name="v4" maxlength="1" class="dot no-add-remove-on-input text-center text-4xl h-11 w-11 rounded-full border border-gray-500 bg-none focus:outline-none focus:border focus:border-purple-500 focus:ring-0" />
+							<input type="number" id="v5" name="v5" maxlength="1" class="dot no-add-remove-on-input text-center text-4xl h-11 w-11 rounded-full border border-gray-500 bg-none focus:outline-none focus:border focus:border-purple-500 focus:ring-0" />
+							<input type="number" id="v6" name="v6" maxlength="1" class="dot no-add-remove-on-input text-center text-4xl h-11 w-11 rounded-full border border-gray-500 bg-none focus:outline-none focus:border focus:border-purple-500 focus:ring-0" />
 						</div>
 					</div>
 

@@ -18,7 +18,7 @@
 				</div>
 
 				<div class="pt-2">
-					<Header title="No need for negotiations" />
+					<Header class="mx-5 mt-8" title="No need for negotiations" />
 					<Paragraph content="We ensure safe and secure payment of all our partners, So you don't have to stress about it" />
 				</div>
 

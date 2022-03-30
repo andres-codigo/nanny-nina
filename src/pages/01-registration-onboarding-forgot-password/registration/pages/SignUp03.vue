@@ -1,11 +1,14 @@
 <template>
 	<div class="w-full">
-		<TopNavigation :hideHeader="true" backgroundColor="bg-white">
+		<TopNavigation backgroundColor="bg-white" :rightIconIsButton="true">
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8" aria-hidden="true" /></router-link></template>
+			<template #iconRight><ButtonOutlineDark text="Sign in" class="w-button-base py-1 text-sm font-semibold" /></template>
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col justify-center mx-4">
-
+				<div class="inline-flex w-14 h-14">
+					<Header class="mx-0 mt-0" />
+				</div>
 				<h5 class="mb-2 text-left text-header-five text-gray-900">Get started 100% free</h5>
 				<p class="text-sm font-light">It's free to join, Already have an account? <a href="#" class="text-blue-500 anchor-with-underline">Sign in</a></p>
 

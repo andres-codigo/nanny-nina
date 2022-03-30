@@ -18,7 +18,7 @@
 				</div>
 
 				<div class="pt-2">
-					<Header title="Find your perfect nanny that cares" />
+					<Header class="mx-5 mt-8" title="Find your perfect nanny that cares" />
 					<Paragraph content="Explore different profiles until you've found a match. We also suggest our very caregivers upon request." />
 				</div>
 
