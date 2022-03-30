@@ -12,7 +12,7 @@
 				rounded-lg
 				border border-gray-400
 				text-sm	text-gray-600
-				focus:outline-none focus:ring-0 focus:ring-purple-500 focus:border-purple-500">
+				focus:outline-none focus:ring-0 focus:border-purple-500">
 		</textarea>
 		<div class="font-light text-gray-500 text-right">0/280</div>
 	</div>

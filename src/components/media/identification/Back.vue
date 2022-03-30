@@ -13,7 +13,7 @@
 					rounded-full
 					bg-lilac-100
 					hover:border-transparent hover:text-gray-200 hover:bg-gray-100
-					focus:outline-none focus:ring-2 focus:ring-offset-2
+					focus:outline-none focus:ring-0
 				">
 				<DocumentTextIcon class="w-32 h-32 text-lilac-500" aria-hidden="true" />
 				<span
