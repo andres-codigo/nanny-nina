@@ -4,15 +4,15 @@
 		<div class="flex overflow-x-scroll pb-10 no-scrollbar">
 			<div class="flex flex-nowrap">
 				<div class="inline-block px-1">
-					<ReviewCard user="Sophie D" date="24 /03/2021" />
+					<ReviewCard user="Sophie D" date="24/03/2021" />
 				</div>
 
 				<div class="inline-block px-1">
-					<ReviewCard user="Rebecca" date="24 /03/2021" />
+					<ReviewCard user="Rebecca" date="24/03/2021" />
 				</div>
 
 				<div class="inline-block px-1">
-					<ReviewCard user="Amanda" date="24 /03/2021" />
+					<ReviewCard user="Amanda" date="24/03/2021" />
 				</div>
 			</div>
 		</div>
