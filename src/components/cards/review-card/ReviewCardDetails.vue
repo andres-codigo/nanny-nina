@@ -1,6 +1,5 @@
 <template>
-	<div class="px-3 py-4 w-64 h-48 overflow-hidden rounded-lg border">
-		<div class="flex mb-2">
+	<div class="flex mb-2">
 			<div class="basis-2/3">
 				<div class="grid grid-rows-2">
 					<div class="font-semibold">{{ user }}</div>
@@ -18,7 +17,6 @@
 			</div>
 		</div>
 		<p class="text-sm">One of the best homes I ever visited, She is such a great professional. Very nice kids, she is careful and kind, and never gets tired of playing with them!</p>
-	</div>
 </template>
 
 <script>
