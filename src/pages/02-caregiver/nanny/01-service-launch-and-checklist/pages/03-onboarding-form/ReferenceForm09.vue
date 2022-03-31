@@ -9,7 +9,7 @@
 
 					<div class="mt-4 mb-16">
 						<div class="mb-20">
-							<h5 class="text-header-five font-medium mb-4">We would like to a check <span class="text-red-500">*</span></h5>
+							<h5 class="text-header-five font-medium antialiased mb-4">We would like to a check <span class="text-red-500">*</span></h5>
 							<p class="font-thin mb-4">Please provide a reference, somebody that you have worked for (can also be family)that can tell us a little about you</p>
 
 							<div class="mt-4 grid grid-cols-2 gap-x-2">

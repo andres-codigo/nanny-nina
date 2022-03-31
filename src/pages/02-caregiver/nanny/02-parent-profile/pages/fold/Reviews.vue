@@ -1,6 +1,6 @@
 <template>
 	<div class="flex flex-col my-14">
-		<h5 class="text-header-five font-bold mb-7">What Others Say</h5>
+		<h5 class="text-header-five font-bold antialiased mb-7">What Others Say</h5>
 		<div class="flex overflow-x-scroll pb-10 no-scrollbar">
 			<div class="flex flex-nowrap">
 				<div class="inline-block px-1">

@@ -18,7 +18,7 @@
 				</div>
 
 				<div class="pt-2">
-					<Header class="mx-5 mt-8" title="You are fully insured and safer with us" />
+					<Header title="You are fully insured and safer with us" />
 					<Paragraph content="Working at Nanny Nina means that you're fully covered incase of accidents or unforeseen incidents while you work" />
 				</div>
 

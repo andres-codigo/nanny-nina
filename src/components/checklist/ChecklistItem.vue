@@ -13,7 +13,7 @@
 					</div>
 
 					<div :class="['flex-1', hideContent ? '' : '']">
-						<h5 :class="['text-left text-header-five font-medium text-gray-900', hideContent ? '-mt-2 mb-2' : '']">
+						<h5 :class="['text-left text-header-five font-medium text-gray-900 antialiased', hideContent ? '-mt-2 mb-2' : '']">
 							{{ title }}<span class="pl-1 text-red-500" v-if="!hideContent">*</span>
 						</h5>
 						<p class="mt-2 text-sm font-thin" v-if="!hideContent">{{ description }}</p>

@@ -1,12 +1,20 @@
 <template>
-	<div class="w-full h-full">
-		<TopNavigation backgroundColor="bg-white" :dropShadow="true" headerColor="text-black" text="Parent Profile Fold Content">
-			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-black" aria-hidden="true" /></router-link></template>
-			<template #iconRight><DotsVerticalIcon class="w-6 h-6 text-black" aria-hidden="true" /></template>
-		</TopNavigation>
+	<div>
 		<main>
-			<div class="flex flex-col mx-4">
-				<FoldContainer class="mt-10" />
+			<div class="h-full flex flex-col mx-4">
+				<ApplyDetails />
+
+				<hr class="border-1 border-gray-50 my-6" />
+
+				<Preferences />
+
+				<hr class="border-1 border-gray-50 my-6" />
+
+				<Photos />
+
+				<hr class="border-1 border-gray-50 my-6" />
+
+				<Reviews />
 			</div>
 		</main>
 	</div>
@@ -14,18 +22,20 @@
 
 <script>
 import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
-import ParentCard from '../../../../../components/profile/parent-card/ParentCard.vue'
-import ParentNeeds from '../../../../../components/profile/parent-needs/ParentNeeds.vue'
-import FoldContainer from './fold/_FoldContainer.vue'
+import ApplyDetails from './fold/ApplyDetails.vue'
+import Preferences from './fold/Preferences.vue'
+import Photos from './fold/photos/Photos.vue'
+import Reviews from './fold/Reviews.vue'
 
 import { ChevronLeftIcon, DotsVerticalIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
 		TopNavigation,
-		ParentCard,
-		ParentNeeds,
-		FoldContainer,
+		ApplyDetails,
+		Preferences,
+		Photos,
+		Reviews,
 		ChevronLeftIcon,
 		DotsVerticalIcon
 	}

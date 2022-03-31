@@ -18,7 +18,7 @@
 				</div>
 
 				<div class="pt-2">
-					<Header class="mx-5 mt-8" title="Start free &amp; save with discounts" />
+					<Header title="Start free &amp; save with discounts" />
 					<Paragraph content="Place a free booking, share with loved ones to earn discounts. Gift your friends and colleagues vouchers &amp; more" />
 				</div>
 

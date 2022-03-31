@@ -1,6 +1,6 @@
 <!-- TODO: focus behavior for checkbox -->
 <template>
-	<div class="relative flex items-start py-4">
+	<div class="flex py-4">
 		<div class="min-w-0 flex-1 text-xl">
 			<label :for="checkboxName" class="text-purple-900 font-thin select-none">{{ text }}</label>
 		</div>

@@ -1,12 +1,12 @@
 <template>
-	<div class="w-full h-full">
+	<div>
 		<TopNavigation backgroundColor="bg-white" :dropShadow="true" headerColor="text-black" text="Motivation">
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-black" aria-hidden="true" /></router-link></template>
 			<template #iconRight><DotsVerticalIcon class="w-6 h-6 text-black" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col pt-6 mx-4">
-				<h5 class="my-6 text-left text-header-five text-gray-900">Why should you be considered for nanny jobs?</h5>
+			<div class="h-full flex flex-col pt-6 mx-4">
+				<h5 class="text-left text-header-five text-gray-900 antialiased my-6">Why should you be considered for nanny jobs?</h5>
 
 				<div class="mt-4 mb-16">
 					<Textarea text="Motivation for Applying" name="motivation" id="motivation" />

@@ -9,7 +9,7 @@
 					<div class="grid grid-rows-3 grid-flow-col gap-0">
 						<div>
 							<div class="grid grid-rows-2 gap-0">
-								<div><h4 class="mb-6 text-center  text-header-four font-semibold">Password Updated!</h4></div>
+								<div><h4 class="text-center text-header-four font-semibold antialiased mb-6">Password Updated!</h4></div>
 								<div><p class="text-center font-light">Your password has been updated!</p></div>
 							</div>
 						</div>

@@ -1,12 +1,12 @@
 <template>
-	<div class="w-full h-full bg-purple-500">
+	<div class="bg-purple-500">
 		<TopNavigation :hideHeader="true">
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col mx-4 mb-10">
+			<div class="h-full flex flex-col mx-4 mb-10">
 				<div class="mt-16 mx-9">
-					<h2 class="mb-6 text-header-two font-medium text-green-500 text-center">Congrats!<br /> You have applied to the Sanders!</h2>
+					<h2 class="text-header-two font-medium text-green-500 text-center antialiased mb-6">Congrats!<br /> You have applied to the Sanders!</h2>
 				</div>
 
 				<div class="flex items-center justify-center">

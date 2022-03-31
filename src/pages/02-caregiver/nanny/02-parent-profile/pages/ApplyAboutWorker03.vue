@@ -1,12 +1,12 @@
 <template>
-	<div class="w-full h-full">
+	<div>
 		<TopNavigation backgroundColor="bg-white" :dropShadow="true" headerColor="text-black" text="About You">
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-black" aria-hidden="true" /></router-link></template>
 			<template #iconRight><DotsVerticalIcon class="w-6 h-6 text-black" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col pt-6 mx-4">
-				<h5 class="my-6 text-left text-header-five text-gray-900">Briefly describe yourself &amp; hobbies</h5>
+			<div class="h-full flex flex-col pt-6 mx-4">
+				<h5 class="text-left text-header-five text-gray-900 antialiased my-6">Briefly describe yourself &amp; hobbies</h5>
 
 				<div class="mt-4 mb-16">
 					<Textarea text="About you" name="about-you" id="about-you" />

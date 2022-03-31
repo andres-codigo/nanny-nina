@@ -6,7 +6,7 @@
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="my-6 text-left text-header-five text-gray-900 font-semibold antialiased">Education <span class="text-base text-gray-500">(optional)</span></h5>
+					<h5 class="text-left text-header-five text-gray-900 font-semibold antialiased my-6">Education <span class="text-base text-gray-500">(optional)</span></h5>
 
 					<div class="mt-4 mb-8">
 						<h6 class="text-header-six font-medium mb-4">Current Education Status</h6>

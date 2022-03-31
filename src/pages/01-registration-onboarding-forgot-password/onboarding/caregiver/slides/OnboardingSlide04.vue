@@ -18,7 +18,7 @@
 				</div>
 
 				<div class="pt-2">
-					<Header class="mx-5 mt-8" title="Earn  even more &euro; &euro; &euro;" />
+					<Header title="Earn  even more &euro; &euro; &euro;" />
 					<Paragraph content="Get even more with higher demands, in-app rewards and r referrals" />
 				</div>
 
