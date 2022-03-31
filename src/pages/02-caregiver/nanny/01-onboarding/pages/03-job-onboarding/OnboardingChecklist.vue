@@ -6,7 +6,7 @@
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col px-4 pt-12">
-				<h5 class="mb-6 text-left text-header-five font-semibold antialiased">Complete checklist to begin</h5>
+				<h5 class="text-left text-header-five font-semibold antialiased mb-6">Complete checklist to begin</h5>
 				<div class="flex flex-col">
 					<ul role="list" class="">
 						<CheckListItem title="Media Upload">
@@ -33,9 +33,9 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
-import CheckListItem from '../../../../../components/checklist/ChecklistItem.vue'
-import ButtonDisabled from '../../../../../components/buttons/ButtonDisabled.vue'
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import CheckListItem from '../../../../../../components/checklist/ChecklistItem.vue'
+import ButtonDisabled from '../../../../../../components/buttons/ButtonDisabled.vue'
 
 import { CheckCircleIcon, ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 

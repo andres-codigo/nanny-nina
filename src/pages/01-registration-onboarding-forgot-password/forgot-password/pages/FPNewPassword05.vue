@@ -7,7 +7,7 @@
 			<div class="h-screen mt-20 mx-4">
 				<form class="w-full" action="#" method="POST">
 					<div class="mt-6">
-						<h4 class="text-left text-header-four text-gray-900">Enter New Password</h4>
+						<h4 class="text-left text-header-four text-gray-900 antialiased">Enter New Password</h4>
 					</div>
 
 					<div class="grid grid-rows-2 gap-2 mt-14 mb-20">

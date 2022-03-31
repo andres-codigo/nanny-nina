@@ -6,7 +6,7 @@
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col px-4 pt-12">
-				<h5 class="mb-2 text-left text-header-five font-semibold antialiased">Let's help you find more jobs</h5>
+				<h5 class="text-left text-header-five font-semibold antialiased mb-2">Let's help you find more jobs</h5>
 				<p	class="font-light">You can always adjust this later in your profile</p>
 
 				<div class="flex flex-col mt-8">

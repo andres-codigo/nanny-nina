@@ -1,6 +1,6 @@
 <!-- TODO: bg color hover & focus -->
 <template>
-	<a href="/" :class="['h-80 rounded-3xl bg-white-500 hover:opacity-75 focus:outline-none', tempFocusRingColor]">
+	<a href="/" :class="['relative h-80 rounded-3xl bg-white-500 hover:opacity-75 focus:outline-none', tempFocusRingColor]">
 		<div :class="['flex flex-row rounded-t-3xl', tempBackgroundColor]">
 			<div class="flex grow h-40 rounded-t-3xl overflow-hidden">
 				<!--
@@ -13,7 +13,7 @@
 		<div class="h-40 bg-white rounded-b-3xl drop-shadow-md ">
 			<div class="flex flex-row">
 				<div class="basis-1/2 mt-4 ml-4">
-					<h4 class="antialiased text-header-four font-semibold">{{ user }}</h4>
+					<h4 class="text-header-four font-semibold antialiased">{{ user }}</h4>
 				</div>
 				<div :class="['basis-1/2 mt-4 mr-4 text-right', !showCompletionSteps ? 'hidden sm:hidden' : '']">
 					<span class="text-xs text-gray-500 font-light">0/5 steps completed</span>

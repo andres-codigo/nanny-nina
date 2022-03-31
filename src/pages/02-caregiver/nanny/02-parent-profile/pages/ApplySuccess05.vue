@@ -1,12 +1,12 @@
 <template>
-	<div class="w-full h-full bg-purple-500">
+	<div class="bg-purple-500">
 		<TopNavigation :hideHeader="true">
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col mx-4 mb-10">
-				<div class="mt-16 mx-9">
-					<h2 class="mb-6 text-header-two font-medium text-green-500 text-center">Congrats!<br /> You have applied to the Sanders!</h2>
+			<div class="h-full flex flex-col mx-4 mb-10">
+				<div class="mt-16 mx-12">
+					<h2 class="text-header-two font-medium text-green-500 text-center antialiased mb-6">Congrats!<br /> You have applied to the Sanders!</h2>
 				</div>
 
 				<div class="flex items-center justify-center">
@@ -17,14 +17,11 @@
 					-->
 				</div>
 
-				<div class="mt-96">
-					<p class="font-thin text-white text-center">You can now apply to jobs and receive booking requests in the bookings page</p>
-					<div class="my-6">
-						<ButtonSecondary text="Continue to Explore" />
-					</div>
+				<div class="mt-80 mb-20 mx-12">
+					<p class="font-thin text-white text-center py-12">You can now apply to jobs and receive booking requests in the bookings page</p>
 
 					<div class="flex items-center justify-center">
-						<ButtonGhost class="w-full text-xl text-white py-3" text="Cancel Application" />
+						<ButtonSecondary text="Continue to explore" class="w-button-lg text-xl py-4" />
 					</div>
 				</div>
 			</div>

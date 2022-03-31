@@ -35,8 +35,8 @@ export default {
     	return {
       		parentDetails: [
 				{
-					bookingType: 'One-time booking',
-					duration: '2 days'
+					bookingType: 'Recurring booking',
+					duration: '6 months'
 				}
 			]
 		}

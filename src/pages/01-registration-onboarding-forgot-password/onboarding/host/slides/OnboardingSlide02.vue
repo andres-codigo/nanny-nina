@@ -18,7 +18,7 @@
 				</div>
 
 				<div class="pt-2">
-					<Header class="mx-5 mt-8" title="You are fully insured and safer with us" />
+					<Header title="You are fully insured and safer with us" />
 					<Paragraph content="Sometimes accidents happen, we get that. You don't have to worry, all our partners are fully covered and insured, so you don't have to worry" />
 				</div>
 

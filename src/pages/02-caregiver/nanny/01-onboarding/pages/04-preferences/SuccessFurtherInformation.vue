@@ -6,7 +6,7 @@
 		<main>
 			<div class="flex flex-col mx-4 mb-10">
 				<div class="mt-16 mx-9">
-					<h2 class="mb-6 text-header-two font-medium text-green-500 text-center">Congrats!<br /> You are all set</h2>
+					<h2 class="text-header-two font-medium text-green-500 text-center antialiased mb-6">Congrats!<br /> You are all set</h2>
 					<p class="font-thin text-white text-center">You can now apply to jobs and receive booking requests in the bookings page</p>
 				</div>
 				<div class="flex items-center justify-center">
@@ -28,8 +28,8 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
-import ButtonSecondary from '../../../../../components/buttons/ButtonSecondary.vue'
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import ButtonSecondary from '../../../../../../components/buttons/ButtonSecondary.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 

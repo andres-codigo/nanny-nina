@@ -18,7 +18,7 @@
 				</div>
 
 				<div class="pt-2">
-					<Header class="mx-5 mt-8" title="Safe and Quickest payout" />
+					<Header title="Safe and Quickest payout" />
 					<Paragraph content="Get paid within 24hrs of job completion via the app.  We ensure that all our nannies are secure." />
 				</div>
 

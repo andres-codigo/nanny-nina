@@ -48,21 +48,16 @@
 				published="2hrs"
 			/>
 		</main>
-		<footer>
-			<BottomMenu />
-		</footer>
 	</div>
 </template>
 
 <script>
-import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
 
-import JobListingFilter from '../../../../components/filter/JobListingFilter.vue'
-import JobListingFilterItem from '../../../../components/filter/JobListingFilterItem.vue'
+import JobListingFilter from '../../../../../../components/filter/JobListingFilter.vue'
+import JobListingFilterItem from '../../../../../../components/filter/JobListingFilterItem.vue'
 
-import JobAdCard from '../../../../components/cards/JobAdCard.vue'
-
-import BottomMenu from '../../../../components/menu/BottomMenu.vue'
+import JobAdCard from '../../../../../../components/cards/JobAdCard.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 
@@ -72,7 +67,6 @@ export default {
 		JobListingFilter,
 		JobListingFilterItem,
 		JobAdCard,
-		BottomMenu,
 		ChevronLeftIcon
 	}
 }
