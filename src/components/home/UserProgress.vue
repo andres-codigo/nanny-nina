@@ -2,8 +2,8 @@
 <template>
 	<div class="flex flex-row mb-4 mt-4">
 		<div class="basis-1/2 ml-4">
-			<h5 class="text-header-five font-semibold antialiased">Hello, Brittany</h5>
-			<h6 class="text-header-six text-gray-500 antialiased">Explore Jobs</h6>
+			<h6 class="text-header-five font-semibold antialiased">Hello, Jane</h6>
+			<p class="text-sm text-gray-500 antialiased pt-2">Complete step to begin</p>
 		</div>
 		<div :class="['basis-1/2 mr-4 relative', !showCompletionPercentage ? 'hidden sm:hidden' : '']">
 			<div class="absolute -bottom-1 right-0 ">

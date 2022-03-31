@@ -17,9 +17,10 @@ import ForgotPasswordContainer from '../pages/01-registration-onboarding-forgot-
 import ChildminderAndNannyContainer from '../pages/02-caregiver/childminder-and-nanny/ChildminderAndNannyContainer.vue'
 
 	/* Caregiver - Nanny */
-	import ServiceLaunchChecklistOnboardingContainer from '../pages/02-caregiver/nanny/01-service-launch-and-checklist/ServiceLaunchChecklistOnboardingContainer.vue'
+	import HomeWithoutBottomMenu from '../pages/02-caregiver/childminder-and-nanny/pages/HomeWithoutMenu.vue'
+	import JobListings from '../pages/02-caregiver/nanny/01-onboarding/pages/02-job-listings/JobListings.vue'
+	import OnboardingContainer from '../pages/02-caregiver/nanny/01-onboarding/OnboardingContainer.vue'
 	import ParentProfileContainer from '../pages/02-caregiver/nanny/02-parent-profile/ParentProfileContainer.vue'
-	import JobListings from '../pages/02-caregiver/nanny/03-job-listings/JobListing.vue'
 
 /* Host - Nanny */
 import HostNannyHome from '../pages/03-host/Home.vue'
@@ -66,23 +67,28 @@ const routes = [
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/childminder-and-nanny',
+		path: '/childminder-and-nanny-home',
 		component: ChildminderAndNannyContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/nanny-service-launch-checklist-onboarding',
-		component: ServiceLaunchChecklistOnboardingContainer,
-		meta: { transition: 'slide-right-to-left' }
-	},
-	{
-		path: '/nanny-parent-profile',
-		component: ParentProfileContainer,
+		path: '/nanny-home-without-bottom-menu',
+		component: HomeWithoutBottomMenu,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
 		path: '/nanny-job-listings',
 		component: JobListings,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/nanny-service-onboarding',
+		component: OnboardingContainer,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/nanny-parent-profile',
+		component: ParentProfileContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{

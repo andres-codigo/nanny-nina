@@ -105,12 +105,12 @@ module.exports = {
 				/*
 					H1 to H6 classes, i.e., text-header-one
 				*/
-				'header-one': ['2.25rem', '1.4rem'],	/* 36px */
-				'header-two': ['2rem', '2.4rem'],		/* 32px */
-				'header-three': ['1.75rem', '1.8rem'],	/* 28px */
-				'header-four': ['1.5rem', '1.4rem'],	/* 24px */
-				'header-five': ['1.313rem', '1.4rem'],  /* 21px */
-				'header-six': ['1.125rem', '1.4rem'], 	/* 18px */
+				'header-one': ['2.25rem', '1.4rem', 'text-purple-900'],		/* 36px */
+				'header-two': ['2rem', '2.4rem', 'text-purple-900'],		/* 32px */
+				'header-three': ['1.75rem', '1.8rem', 'text-purple-900'],	/* 28px */
+				'header-four': ['1.5rem', '1.4rem', 'text-purple-900'],		/* 24px */
+				'header-five': ['1.313rem', '1.4rem', 'text-purple-900'],  	/* 21px */
+				'header-six': ['1.125rem', '1.4rem', 'text-purple-900'], 	/* 18px */
 			},
 			spacing: {
 				"safe-top": "env(safe-area-inset-top)",

@@ -23,9 +23,9 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
-import ButtonOutlineLight from '../../../../../components/buttons/ButtonOutlineLight.vue'
-import ButtonSecondary from '../../../../../components/buttons/ButtonSecondary.vue'
+import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import ButtonOutlineLight from '../../../../../../components/buttons/ButtonOutlineLight.vue'
+import ButtonSecondary from '../../../../../../components/buttons/ButtonSecondary.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 
