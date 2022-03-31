@@ -5,15 +5,19 @@
 			<template #iconRight><DotsVerticalIcon class="w-6 h-6 text-black" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
-			<div class="h-full flex flex-col pt-6 mx-4">
-				<h5 class="text-left text-header-five text-gray-900 antialiased my-6">Why should you be considered for nanny jobs?</h5>
+			<div class="h-full flex flex-col pt-12 mx-4">
+				<h5 class="text-left text-header-five text-gray-900 font-semibold antialiased">Why should you be considered for nanny jobs?</h5>
 
-				<div class="mt-4 mb-16">
-					<Textarea text="Motivation for Applying" name="motivation" id="motivation" />
+				<div class="mt-2 mb-10">
+					<label for="motivation" class="sr-only">{{ text }}</label>
+					<p	class="text-sm font-light text-gray-500">For example, My name is John Doe, I am a student at UVA, I enjoy cooking, riding a bike , I have 10years work experience etc.</p>
+					<div class="mt-8">
+						<Textarea text="Motivation for Applying" name="motivation" id="motivation" />
+					</div>
 				</div>
 
-				<div class="mt-10">
-					<ButtonPrimary text="Save &amp; Continue" />
+				<div class="flex flex-col justify-center items-center mt-10">
+					<ButtonPrimary text="Next" class="w-button-lg text-xl py-4" />
 				</div>
 			</div>
 		</main>
