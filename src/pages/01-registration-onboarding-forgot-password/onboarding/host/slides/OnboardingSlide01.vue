@@ -17,8 +17,9 @@
 					<Badge title="Quick &amp; easy" backgroundColor="bg-green-50" textColor="text-purple-900" />
 				</div>
 
-				<div class="pt-2">
-					<Header title="Find your perfect nanny that cares" />
+				<div class="pt-6">
+					<Header title="Find your perfect" />
+					<Header title="nanny that cares" />
 					<Paragraph content="Explore different profiles until you've found a match. We also suggest our very caregivers upon request." />
 				</div>
 

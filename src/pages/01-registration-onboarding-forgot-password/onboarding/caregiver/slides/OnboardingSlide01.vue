@@ -17,8 +17,9 @@
 					<Badge title="Quick &amp; easy" backgroundColor="bg-green-50" textColor="text-purple-900" />
 				</div>
 
-				<div class="pt-2">
-					<Header title="Work at your convenience" />
+				<div class="pt-6">
+					<Header title="Work at your" />
+					<Header title="convenience" />
 					<Paragraph content="Work as a reliable nanny on regular fixed schedule, returning days per week or work at flexible hours." />
 				</div>
 

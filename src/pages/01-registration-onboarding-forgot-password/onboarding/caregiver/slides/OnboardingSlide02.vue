@@ -17,8 +17,9 @@
 					<Badge title="Got you covered" backgroundColor="bg-green-50" textColor="text-purple-900" />
 				</div>
 
-				<div class="pt-2">
-					<Header title="You are fully insured and safer with us" />
+				<div class="pt-6">
+					<Header title="Fully insured," />
+					<Header title="You're safer with us" />
 					<Paragraph content="Working at Nanny Nina means that you're fully covered incase of accidents or unforeseen incidents while you work" />
 				</div>
 
