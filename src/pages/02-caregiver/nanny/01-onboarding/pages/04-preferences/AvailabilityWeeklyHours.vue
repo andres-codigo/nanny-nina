@@ -11,7 +11,7 @@
 
 				<div class="mt-12">
 					<Tabs
-						tabOneClasses="text-black"
+						tabOneClasses="text-purple-900"
 						tabOneText="Weekly Hours"
 						:tabOneIsActive="true"
 						tabTwoClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"

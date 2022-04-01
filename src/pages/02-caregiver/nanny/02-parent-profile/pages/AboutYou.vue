@@ -1,8 +1,8 @@
 <template>
 	<div>
-		<TopNavigation backgroundColor="bg-white" :dropShadow="true" headerColor="text-black" text="About You">
-			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-black" aria-hidden="true" /></router-link></template>
-			<template #iconRight><DotsVerticalIcon class="w-6 h-6 text-black" aria-hidden="true" /></template>
+		<TopNavigation backgroundColor="bg-white" :dropShadow="true" headerColor="text-purple-900" text="About You">
+			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
+			<template #iconRight><DotsVerticalIcon class="w-6 h-6 text-purple-900" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
 			<div class="h-full flex flex-col pt-12 mx-4">

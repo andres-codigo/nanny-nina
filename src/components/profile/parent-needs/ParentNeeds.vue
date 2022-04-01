@@ -66,37 +66,37 @@ export default {
     	return {
       		durations: [
 				{
-					day: 'Monday',
+					day: 'Mondays',
 					time: '12:00 - 17:00',
 					checked: 1
 				},
 				{
-					day: 'Tuesday',
+					day: 'Tuesdays',
 					time: '12:00 - 17:00',
 					checked: 0
 				},
 				{
-					day: 'Wednesday',
+					day: 'Wednesdays',
 					time: '12:00 - 17:00',
 					checked: 0
 				},
 				{
-					day: 'Thursday',
+					day: 'Thursdays',
 					time: '12:00 - 17:00',
 					checked: 0
 				},
 				{
-					day: 'Friday',
+					day: 'Fridays',
 					time: '12:00 - 17:00',
 					checked: 0
 				},
 				{
-					day: 'Saturday',
+					day: 'Saturdays',
 					time: '12:00 - 17:00',
 					checked: 0
 				},
 				{
-					day: 'Sunday',
+					day: 'Sundays',
 					time: '12:00 - 17:00',
 					checked: 0
 				}

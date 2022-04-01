@@ -1,12 +1,12 @@
 <template>
 	<div class="flex flex-wrap grow gap-y-6 gap-x-4">
 		<ProfileVersion01 class="max-w-450-for-dev-not-prod" />
-		<!-- <ProfileVersion02 class="max-w-450-for-dev-not-prod" /> -->
-		<!-- <ProfileFoldContent class="max-w-450-for-dev-not-prod" /> -->
-		<!-- <ProfileReviews class="max-w-450-for-dev-not-prod" /> -->
-		<!-- <AboutYou class="max-w-450-for-dev-not-prod" /> -->
-		<!-- <Motivation class="max-w-450-for-dev-not-prod" /> -->
-		<!-- <ApplicationSuccessConfirmation class="max-w-450-for-dev-not-prod" /> -->
+		<ProfileVersion02 class="max-w-450-for-dev-not-prod" />
+		<ProfileFoldContent class="max-w-450-for-dev-not-prod" />
+		<ProfileReviews class="max-w-450-for-dev-not-prod" />
+		<AboutYou class="max-w-450-for-dev-not-prod" />
+		<Motivation class="max-w-450-for-dev-not-prod" />
+		<ApplicationSuccessConfirmation class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 

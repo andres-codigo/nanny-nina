@@ -21,7 +21,7 @@
 								class="
 									appearance-none block w-full
 									px-3 py-2
-									border border-red-500 text-black rounded-full shadow-sm
+									border border-red-500 text-purple-900 rounded-full shadow-sm
 									placeholder-red-500
 									focus:outline-none focus:ring-0 focus:border-red-500"
 								placeholder="you@example.com"

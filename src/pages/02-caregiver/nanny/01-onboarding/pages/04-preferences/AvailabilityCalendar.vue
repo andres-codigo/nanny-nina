@@ -14,7 +14,7 @@
 						tabOneClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
 						tabOneText="Weekly Hours"
 						:tabOneIsActive="false"
-						tabTwoClasses="text-black"
+						tabTwoClasses="text-purple-900"
 						tabTwoText="Unavailability"
 						:tabTwoIsActive="true"
 					/>
