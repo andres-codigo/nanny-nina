@@ -39,7 +39,7 @@
 
 					<div class="flex flex-col mt-14">
 						<div class="grid grid-cols-2 gap-4 gap-y-6 gap-x-2">
-							<div><SelectMenu text="Gender" /></div>
+							<div><SelectMenu labelText="Gender" /></div>
 							<div><InputField text="Date of Birth" /></div>
 
 							<div><InputField text="First name" /></div>
@@ -50,7 +50,7 @@
 							<div><InputField text="Email Address" /></div>
 							<div><InputField text="New Password" type="password" value="newpassword" /></div>
 							<div><InputField text="Retype Password" type="text" /></div>
-							<div><SelectMenu text="Country" /></div>
+							<div><SelectMenu labelText="Country" /></div>
 						</div>
 					</div>
 

@@ -2,7 +2,7 @@
 <template>
 	<div class="relative flex items-start py-2">
 		<div class="min-w-0 flex-1">
-			<label for="radio" class="font-light text-gray-700">{{ text }}</label>
+			<label for="radio" class="font-light text-purple-800">{{ text }}</label>
 		</div>
 		<div class="ml-3 flex items-center h-5">
 			<input

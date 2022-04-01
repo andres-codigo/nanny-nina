@@ -19,25 +19,25 @@
 						<li class="py-1 flex">
 							<CheckCircleIcon class="w-4 h-4 text-purple-500" aria-hidden="true" />
 							<div class="ml-3">
-								<p class="text-sm leading-none font-thin text-purple-900">Keep it short. Maximum 2 minutes</p>
+								<p class="text-sm leading-none font-thin">Keep it short. Maximum 2 minutes</p>
 							</div>
 						</li>
 						<li class="py-1 flex">
 							<CheckCircleIcon class="w-4 h-4 text-purple-500" aria-hidden="true" />
 							<div class="ml-3">
-								<p class="text-sm leading-none font-thin text-purple-900">Smile, make it personal. A funny detail works great</p>
+								<p class="text-sm leading-none font-thin">Smile, make it personal. A funny detail works great</p>
 							</div>
 						</li>
 						<li class="py-1 flex">
 							<CheckCircleIcon class="w-4 h-4 text-purple-500" aria-hidden="true" />
 							<div class="ml-3">
-								<p class="text-sm leading-none font-thin text-purple-900">Introduce yourself  and why you’ve chosen this</p>
+								<p class="text-sm leading-none font-thin">Introduce yourself  and why you’ve chosen this</p>
 							</div>
 						</li>
 						<li class="py-1 flex">
 							<CheckCircleIcon class="w-4 h-4 text-purple-500" aria-hidden="true" />
 							<div class="ml-3">
-								<p class="text-sm leading-none font-thin text-purple-900">Remember to share your experience with children</p>
+								<p class="text-sm leading-none font-thin">Remember to share your experience with children</p>
 							</div>
 						</li>
 					</ul>

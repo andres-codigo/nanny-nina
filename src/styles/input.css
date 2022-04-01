@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+	html {
+		@apply text-purple-900;
+	}
+
+	p {
+		@apply text-purple-800;
+	}
+  }
 
 /* hyperlink with underline */
 .anchor-with-underline {

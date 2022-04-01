@@ -55,31 +55,10 @@
 						</div>
 					</div>
 
-					<!-- <div class="mt-4 mb-16">
-						<div class="mb-2">
-							<h6 class="text-header-six font-medium mb-4">Personal Health</h6>
-							<p class="font-thin mb-4">Do you have any health conditions?</p>
-							<RadioQuestion :screenReaderOnly="true" legend="Do you have any health conditions?" questionOneText="Yes" questionTwoText="No" />
-						</div>
-
-						<div>
-							<p class="font-thin">Please specify</p>
-
-							<div class="flex">
-								<div class="grow h-14">
-									<InputFieldBorderBottomOnly type="text" />
-								</div>
-								<div class="flex-none inline-flex justify-center items-center w-14 h-14">
-									<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
-								</div>
-							</div>
-						</div>
-					</div> -->
-
 					<div class="mt-28 mb-16">
 						<div class="mb-4">
 							<h5 class="text-header-five font-semibold antialiased mb-4">Other Relevant Safety Skills <span class="text-base text-gray-500 font-normal">(optional)</span></h5>
-							<p class="font-thin mb-4">Please specify other relevant qualification(s)?</p>
+							<p class="font-thin mb-4">Please specify, (If you have the VOG, it's a plus)</p>
 						</div>
 
 						<div class="flex">
@@ -115,9 +94,10 @@
 					</div>
 
 					<div class="my-4">
-						<h5 class="text-header-five font-semibold antialiased">Language</h5>
+						<h5 class="text-header-five font-semibold antialiased mb-4">Language</h5>
+						<p class="font-thin mb-2">What language(s) do you speak?</p>
 						<div class="mt-4 grid grid-cols-2 gap-y-6 gap-x-2">
-							<div><SelectMenu text="Language(s)" /></div>
+							<div><SelectMenu labelText="Preferred language" /></div>
 							<div class="flex flex-wrap justify-center items-center mt-4">
 								<BadgeRemove text="Dutch" />
 								<BadgeRemove text="English" />

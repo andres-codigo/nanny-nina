@@ -1,5 +1,5 @@
 <template>
-	<label for="phone-number" class="block text-xs font-light text-gray-700 pl-4">Phone number</label>
+	<label for="phone-number" class="block text-sm font-light text-purple-800 pl-4">Phone number</label>
 	<div class="mt-0 flex rounded-md">
 		<label for="international-area-code" class="sr-only">International Area Code</label>
 		<select

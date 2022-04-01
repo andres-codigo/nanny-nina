@@ -5,7 +5,7 @@
 		class="
 			justify-center
 			rounded-full
-			text-lilac-900 font-bold
+			text-purple-900 font-bold
 			antialiased leading-none
 			bg-green-500
 			hover:bg-green-400

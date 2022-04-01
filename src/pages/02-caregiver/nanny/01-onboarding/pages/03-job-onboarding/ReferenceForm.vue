@@ -30,9 +30,13 @@
 
 							<div class="mt-8">
 								<div class="flex">
-									<div class="inline-flex items-center justify-center"><PlusCircleIcon class="w-5 h-5 text-purple-500" /></div>
+									<div class="inline-flex items-center justify-center">
+									<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+										<path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+									</svg>
+									</div>
 									<div class="flex-none pl-2">
-										<a href="#" class="font-semibold text-purple-500 anchor-with-underline">Add another</a>
+										<a href="#" class="text-blue-500 anchor-with-underline">Add another</a>
 									</div>
 								</div>
 							</div>
@@ -55,7 +59,7 @@ import InputField from '../../../../../../components/form/InputField.vue'
 import InputWithSelectInternationPhoneNumber from '../../../../../../components/form/InputWithSelectInternationPhoneNumber.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
-import { ChevronLeftIcon, PlusCircleIcon } from '@heroicons/vue/solid'
+import { ChevronLeftIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
@@ -64,8 +68,7 @@ export default {
 		InputField,
 		InputWithSelectInternationPhoneNumber,
 		ButtonPrimary,
-		ChevronLeftIcon,
-		PlusCircleIcon
+		ChevronLeftIcon
 	}
 }
 </script>

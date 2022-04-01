@@ -20,7 +20,7 @@
 					<span class="text-xs text-gray-500 font-light">0/5 steps completed</span>
 				</div>
 			</div>
-			<p class="text-purple-800 font-light leading-5 mt-4 mx-4">{{ content }}</p>
+			<p class=" text-sm font-light leading-5 mt-4 mx-4">{{ content }}</p>
 		</div>
 	</a>
 </template>

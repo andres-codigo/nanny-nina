@@ -9,7 +9,7 @@
 
 					<div class="mt-4 mb-16">
 						<div class="mb-2">
-							<h5 class="text-header-five font-semibold antialiased mb-4">Personal Health</h5>
+							<h5 class="text-header-five font-semibold antialiased mb-4">Personal Health <span class="text-base text-gray-500">(optional)</span></h5>
 							<p class="font-thin mb-4">Do you have any health conditions?</p>
 							<RadioQuestion :screenReaderOnly="true" legend="Do you have any health conditions?" questionOneText="Yes" questionTwoText="No" />
 						</div>

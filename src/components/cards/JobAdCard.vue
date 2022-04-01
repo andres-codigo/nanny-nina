@@ -8,7 +8,7 @@
 				<div class="inline-flex w-full ml-4">
 					<div class="flex w-full">
 						<div class="inline-flex grow">
-							<h6 class="text-header-six font-semibold">{{ title }}</h6>
+							<h6 class="text-header-six font-semibold antialiased">{{ title }}</h6>
 						</div>
 						<div class="inline-flex justify-end w-6">
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-purple-500" viewBox="0 0 20 20" fill="currentColor">
@@ -18,19 +18,19 @@
 					</div>
 				</div>
 			</div>
-			<div class="flex flex-row text-xs mb-2 ml-20">
+			<div class="flex flex-row text-sm mb-2 ml-20">
 				<div class="flex-none w-6"><LocationMarkerIcon class="w-5 h-5" /></div>
 				<div class="w-24">2km</div>
 				<div class="flex-none w-6"><CalendarIcon class="w-5 h-5" /></div>
 				<div class="grow">Occasional</div>
 			</div>
-			<div class="flex flex-row text-xs mb-2 ml-20">
+			<div class="flex flex-row text-sm mb-2 ml-20">
 				<div class="flex-none w-6"><CashIcon class="w-5 h-5" /></div>
 				<div class="w-24">€13-€15/hr</div>
 				<div class="flex-none w-6"><ClockIcon class="w-5 h-5" /></div>
 				<div class="grow">From Wed, Dec 2</div>
 			</div>
-			<div class="flex flex-row text-xs mb-2 ml-20">
+			<div class="flex flex-row text-sm mb-2 ml-20">
 				<div class="flex-none w-6 h-6"><UsersIcon class="w-5 h-5" /></div>
 				<div class="w-24 h-6">{{ responses }} Responses</div>
 			</div>

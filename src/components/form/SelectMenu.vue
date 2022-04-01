@@ -1,7 +1,7 @@
 <!-- TODO: text color for label and input; default, hover & focus color numbers -->
 <template>
 	<div>
-		<label for="for-dev-not-prod" class="block text-xs font-light text-gray-700 pl-4">{{ text }}</label>
+		<label for="for-dev-not-prod" class="block text-sm font-light text-purple-800 pl-4 pb-2">{{ labelText }}</label>
 		<select
 			id="for-dev-not-prod"
 			name="for-dev-not-prod"
@@ -21,7 +21,7 @@
 <script>
 export default {
 	props: {
-		text: String
+		labelText: String
 	}
 }
 </script>

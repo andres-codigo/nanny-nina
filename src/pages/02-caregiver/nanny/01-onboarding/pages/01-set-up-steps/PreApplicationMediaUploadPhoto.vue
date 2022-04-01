@@ -12,7 +12,7 @@
 					<hr class="border-1 border-gray-50 my-6" />
 
 					<MultiplePhotoUpload description="Upload more pictures for quicker response time">
-						<template #title>Add more pictures <span class="text-base text-gray-500">(Optional)</span></template>
+						<template #title>Add more pictures <span class="text-base text-gray-500">(optional)</span></template>
 					</MultiplePhotoUpload>
 
 					<div class="flex flex-col justify-center items-center mt-10">

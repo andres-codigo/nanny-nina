@@ -1,6 +1,6 @@
 <!-- TODO: text color for label and input; hover & focus behavior for input -->
 <template>
-	<label for="email" class="block text-xs font-light text-purple-900 pl-4">{{ text }}</label>
+	<label for="email" class="block text-sm font-light text-purple-800 pl-4">{{ text }}</label>
 	<div class="mt-0">
 		<input
 			id="email"
