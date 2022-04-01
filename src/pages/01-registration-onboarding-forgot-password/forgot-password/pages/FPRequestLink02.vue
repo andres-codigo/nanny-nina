@@ -7,7 +7,7 @@
 			<div class="h-screen mt-20 mx-4">
 				<form class="w-full" action="#" method="POST">
 					<div class="mt-6">
-						<h4 class="text-left text-header-four text-gray-900 antialiased">Forgot Password</h4>
+						<h4 class="text-left text-header-four antialiased">Forgot Password</h4>
 						<p class="mt-6 text-sm font-light">Please enter your registered email, you will receive an email with a verification code to reset your password.</p>
 					</div>
 

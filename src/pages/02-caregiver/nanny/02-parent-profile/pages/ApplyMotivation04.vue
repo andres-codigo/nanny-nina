@@ -6,7 +6,7 @@
 		</TopNavigation>
 		<main>
 			<div class="h-full flex flex-col pt-12 mx-4">
-				<h5 class="text-left text-header-five text-gray-900 font-semibold antialiased">Why should you be considered for nanny jobs?</h5>
+				<h5 class="text-left text-header-five font-semibold antialiased">Why should you be considered for nanny jobs?</h5>
 
 				<div class="mt-2 mb-10">
 					<label for="motivation" class="sr-only">{{ text }}</label>

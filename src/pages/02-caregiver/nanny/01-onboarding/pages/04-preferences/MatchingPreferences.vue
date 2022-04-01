@@ -6,7 +6,7 @@
 		<main>
 			<div class="flex flex-col px-4 py-6">
 				<form action="#" method="POST">
-					<h5 class="text-left text-header-five text-gray-900 font-semibold antialiased mt-8 mb-2">I am comfortable with</h5>
+					<h5 class="text-left text-header-five font-semibold antialiased mt-8 mb-2">I am comfortable with</h5>
 					<div class="mt-4">
 						<CheckboxRightWithContainerAndLabelLeft checkboxName="checkout-1" text="Pets" />
 						<CheckboxRightWithContainerAndLabelLeft checkboxName="checkout-2" text="Meal preparation" />

@@ -7,7 +7,7 @@
 			<div class="mt-20 mx-4">
 				<form class="w-full" action="#" method="POST">
 					<div class="mt-6">
-						<h3 class="text-center text-header-three text-gray-900 font-bold antialiased">Verify your number</h3>
+						<h3 class="text-center text-header-three font-bold antialiased">Verify your number</h3>
 						<p class="text-center font-light mt-6">A 6 digit code has been sent to</p>
 						<p class="text-center text-purple-500 font-light">+31  6844 8440</p>
 						<p class="text-center text-sm font-light mt-6">Enter the code we sent to +31 6844 84610 via SMS</p>
