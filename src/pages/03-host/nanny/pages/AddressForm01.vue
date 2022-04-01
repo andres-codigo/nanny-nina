@@ -2,12 +2,12 @@
 	<div class="w-full h-full">
 		<TopNavigation text="Basic Information">
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
-			<template #iconRight><QuestionMarkCircleIcon class="w-8 h-8 text-green-500" aria-hidden="true" /></template>
+			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="text-left text-header-five text-gray-900 antialiased my-6">Let's get to know each other</h5>
+					<h5 class="text-left text-header-five antialiased my-6">Let's get to know each other</h5>
 
 					<div class="my-16">
 						<span class="inline-block font-light">When do you live?</span>

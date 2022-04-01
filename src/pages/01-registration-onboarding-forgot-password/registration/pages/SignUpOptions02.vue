@@ -3,9 +3,9 @@
 	<div>
 		<main>
 			<div class="min-h-screen flex flex-col justify-center mx-4">
-				<h5 class="text-left text-header-five font-semibold text-gray-900 antialiased mb-2">Welcome to Nanny Nina</h5>
+				<h5 class="text-left text-header-five font-semibold antialiased mb-2">Welcome to Nanny Nina</h5>
 				<div class="inline-flex pb-8">
-					<LinkCard to="dashboard" class="text-black bg-green-500 hover:bg-green-300 focus:bg-green-400" title="Sign up as Parent/Host" content="Request Nanny, Childminder or Au pair" />
+					<LinkCard to="dashboard" class="text-purple-900 bg-green-500 hover:bg-green-300 focus:bg-green-400" title="Sign up as Parent/Host" content="Request Nanny, Childminder or Au pair" />
 				</div>
 				<div class="inline-flex pb-8">
 					<LinkCard to="dashboard" class="text-white bg-purple-500 hover:bg-purple-300 focus:bg-purple-400" title="Sign up for Care jobs" content="Work as Nanny, Childminder or Au pair" />

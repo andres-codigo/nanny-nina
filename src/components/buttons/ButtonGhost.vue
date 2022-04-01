@@ -19,7 +19,7 @@ export default {
 	props: {
 		class: {
 			type: String,
-			default: 'w-full text-xl text-black py-4'
+			default: 'w-full text-xl text-purple-900 py-4'
 		},
 		text: String
 	}

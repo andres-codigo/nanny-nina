@@ -18,14 +18,20 @@
 				</div>
 			</div>
 		</div>
+		<div class="flex w-12 justify-end items-center">
+			<CheckboxRightWithContainerAndLabelLeft />
+		</div>
 	</div>
 </template>
 
 <script>
+import CheckboxRightWithContainerAndLabelLeft from '../../../../components/form/CheckboxRightWithContainerAndLabelLeft.vue'
+
 import { CalendarIcon } from '@heroicons/vue/outline'
 
 export default {
 	components: {
+		CheckboxRightWithContainerAndLabelLeft,
 		CalendarIcon
 	}
 }

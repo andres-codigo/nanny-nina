@@ -14,7 +14,9 @@
 
 					<hr class="border-1 border-gray-50 my-6" />
 
-					<MultiplePhotoUpload title="Upload more pictures" description="Add more pictures of yourself/with kids for more invites" />
+					<MultiplePhotoUpload description="Add more pictures of yourself/with kids for more invites">
+						<template #title>Upload more pictures</template>
+					</MultiplePhotoUpload>
 
 					<div class="flex flex-col justify-center items-center mt-10">
 						<ButtonPrimary text="Next" class="w-button-lg text-xl py-4" />

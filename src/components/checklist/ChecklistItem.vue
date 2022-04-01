@@ -1,7 +1,7 @@
 <!-- TODO: bg color for default, hover & focus... overall look of page too -->
 <template>
 	<li>
-		<a href="#" :class="['block mb-4 border border-gray-100 bg-white hover:bg-gray-200', hideContent ? 'rounded-30px hover:rounded-30px' : 'rounded-30px hover:rounded-30px']">
+		<a href="#" :class="['block mb-4 border border-gray-100 bg-white hover:bg-gray-200', hideContent ? 'rounded-20px hover:rounded-30px' : 'rounded-30px hover:rounded-30px']">
 			<div class="px-4 py-4 flex items-center">
 				<div class="mr-5 flex-shrink-0">
 					<slot name="iconLeft"></slot>
@@ -13,7 +13,7 @@
 					</div>
 
 					<div :class="['flex-1', hideContent ? '' : '']">
-						<h5 :class="['text-left text-header-five font-medium text-gray-900 antialiased', hideContent ? '-mt-2 mb-2' : '']">
+						<h5 :class="['text-left text-header-five font-medium antialiased', hideContent ? '-mt-2 mb-2' : '']">
 							{{ title }}<span class="pl-1 text-red-500" v-if="!hideContent">*</span>
 						</h5>
 						<p class="mt-2 text-sm font-thin" v-if="!hideContent">{{ description }}</p>

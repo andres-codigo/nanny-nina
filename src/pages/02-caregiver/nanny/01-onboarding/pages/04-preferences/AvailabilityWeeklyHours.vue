@@ -2,16 +2,16 @@
 	<div class="w-full h-full">
 		<TopNavigation text="Availability">
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
-			<template #iconRight><QuestionMarkCircleIcon class="w-8 h-8 text-green-500" aria-hidden="true" /></template>
+			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col px-4 py-6">
-				<h5 class="text-left text-header-five text-gray-900 font-semibold antialiased mt-8 mb-2">Availability</h5>
+				<h5 class="text-left text-header-five font-semibold antialiased mt-8 mb-2">Availability</h5>
 				<p	class="font-light">Set your weekly hours and add specific dates you may be unavailable</p>
 
 				<div class="mt-12">
 					<Tabs
-						tabOneClasses="text-black"
+						tabOneClasses="text-purple-900"
 						tabOneText="Weekly Hours"
 						:tabOneIsActive="true"
 						tabTwoClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"

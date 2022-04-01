@@ -1,9 +1,9 @@
 <template>
 	<div class="w-full">
-		<TopNavigation backgroundColor="bg-white" headerColor="text-black" text="Location" />
+		<TopNavigation backgroundColor="bg-white" headerColor="text-purple-900" text="Location" />
 		<main>
 			<div class="h-screen flex flex-col mx-4">
-				<h4 class="text-center text-header-four text-gray-900 antialiased my-12">Where are you currently?</h4>
+				<h4 class="text-center text-header-four antialiased my-12">Where are you currently?</h4>
 
 				<form class="w-full" action="#" method="POST">
 					<div class="flex flex-col">

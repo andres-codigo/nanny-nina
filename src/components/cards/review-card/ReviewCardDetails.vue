@@ -18,7 +18,7 @@
 				</div>
 			</div>
 		</div>
-		<p class="text-sm">One of the best homes I ever visited, She is such a great professional. Very nice kids, she is careful and kind, and never gets tired of playing with them!</p>
+		<p :class="class">One of the best homes I ever visited, She is such a great professional. Very nice kids, she is careful and kind, and never gets tired of playing with them!</p>
 </template>
 
 <script>
@@ -30,7 +30,8 @@ export default {
 	},
 	props: {
 		user: String,
-		date: String
+		date: String,
+		class: String
 	}
 }
 </script>

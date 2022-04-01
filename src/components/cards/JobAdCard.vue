@@ -8,7 +8,7 @@
 				<div class="inline-flex w-full ml-4">
 					<div class="flex w-full">
 						<div class="inline-flex grow">
-							<h6 class="text-header-six font-semibold">{{ title }}</h6>
+							<h6 class="text-header-six font-semibold antialiased">{{ title }}</h6>
 						</div>
 						<div class="inline-flex justify-end w-6">
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-purple-500" viewBox="0 0 20 20" fill="currentColor">

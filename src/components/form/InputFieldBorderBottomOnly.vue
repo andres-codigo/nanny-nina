@@ -1,6 +1,6 @@
 <!-- TODO: text color for label and input; hover & focus behavior for input -->
 <template>
-	<label for="qualification" class="hidden text-xs font-medium text-gray-500">{{ text }}</label>
+	<label for="qualification" class="hidden text-sm font-medium text-gray-500">{{ text }}</label>
 	<div class="mt-0 border-b border-gray-500 focus-within:border-purple-400">
 		<input
 			id="qualification"

@@ -1,6 +1,8 @@
 <template>
-	<h5 class="text-left text-header-five text-gray-900 font-semibold antialiased mb-2 ">{{ title }}</h5>
-	<p class="text-sm font-light">{{ description }}</p>
+	<h5 class="text-left text-header-five font-semibold antialiased mb-2 ">
+		<slot name="title">{{ title }}</slot>
+	</h5>
+	<p class="text-sm  font-light">{{ description }}</p>
 
 	<div class="mt-7">
 		<div class="flex flex-nowrap items-center justify-center gap-3 mb-10">

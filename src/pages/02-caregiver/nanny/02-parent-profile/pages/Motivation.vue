@@ -1,18 +1,18 @@
 <template>
 	<div>
-		<TopNavigation backgroundColor="bg-white" :dropShadow="true" headerColor="text-black" text="About You">
-			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-black" aria-hidden="true" /></router-link></template>
-			<template #iconRight><DotsVerticalIcon class="w-6 h-6 text-black" aria-hidden="true" /></template>
+		<TopNavigation backgroundColor="bg-white" :dropShadow="true" headerColor="text-purple-900" text="Motivation">
+			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
+			<template #iconRight><DotsVerticalIcon class="w-6 h-6 text-purple-900" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
 			<div class="h-full flex flex-col pt-12 mx-4">
-				<h5 class="text-left text-header-five text-gray-900 font-semibold antialiased">Briefly describe yourself &amp; hobbies</h5>
+				<h5 class="text-left text-header-five font-semibold antialiased">Why should you be considered for nanny jobs?</h5>
 
 				<div class="mt-2 mb-10">
 					<label for="motivation" class="sr-only">{{ text }}</label>
 					<p	class="text-sm font-light text-gray-500">For example, My name is John Doe, I am a student at UVA, I enjoy cooking, riding a bike , I have 10years work experience etc.</p>
 					<div class="mt-8">
-						<Textarea text="About you" name="about-you" id="about-you" />
+						<Textarea text="Motivation for Applying" name="motivation" id="motivation" />
 					</div>
 				</div>
 
