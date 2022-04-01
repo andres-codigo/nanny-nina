@@ -5,11 +5,7 @@
 		</div>
 		<div class="inline-flex items-center ml-6">
 			<div class="grid grid-rows-4 grid-flow-col gap-2">
-				<Details>
-					<template #leadingIcon><UserCircleIcon class="w-5 h-5"/></template>
-					<template #title><h4 class="text-header-four antialiased">The Sanders</h4></template>
-					<template #trailingIcon></template>
-				</Details>
+				<h4 class="text-header-four font-semibold leading-none antialiased">The Sanders</h4>
 
 				<Details>
 					<template #leadingIcon>
