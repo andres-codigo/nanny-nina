@@ -11,7 +11,9 @@
 
 					<hr class="border-1 border-gray-50 my-6" />
 
-					<MultiplePhotoUpload title="Add more pictures" description="Upload more pictures for quicker response time (Optional)" />
+					<MultiplePhotoUpload description="Upload more pictures for quicker response time">
+						<template #title>Add more pictures <span class="text-base text-gray-500">(Optional)</span></template>
+					</MultiplePhotoUpload>
 
 					<div class="flex flex-col justify-center items-center mt-10">
 						<ButtonDisabled text="Next" class="w-button-lg text-xl py-4" />

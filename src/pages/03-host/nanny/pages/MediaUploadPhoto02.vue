@@ -11,7 +11,9 @@
 
 					<hr class="border-1 border-gray-50 my-6" />
 
-					<MultiplePhotoUpload title="Upload more pictures" description="Add more pictures of yourself/with kids for more invites" />
+					<MultiplePhotoUpload description="Add more pictures of yourself/with kids for more invites">
+						<template #title>Upload more pictures</template>
+					</MultiplePhotoUpload>
 
 					<div class="mt-20">
 						<div class="my-6">
