@@ -1,7 +1,7 @@
 <template>
 	<div class="flex flex-wrap grow gap-y-6 gap-x-4">
 		<!-- 01 Set-up Steps -->
-		<Location class="max-w-450-for-dev-not-prod" />
+		<Location title="Where are you currently?" class="max-w-450-for-dev-not-prod" />
 		<PreApplicationMediaUploadPhoto class="max-w-450-for-dev-not-prod" />
 		<HomeWithoutMenu class="max-w-450-for-dev-not-prod" />
 
@@ -27,7 +27,7 @@
 </template>
 <script>
 /* Location */
-import Location from './pages/01-set-up-steps/Location.vue'
+import Location from '../../../00-duplicate-pages/Location.vue' /* Template */
 import PreApplicationMediaUploadPhoto from './pages/01-set-up-steps/PreApplicationMediaUploadPhoto.vue'
 import HomeWithoutMenu from '../../childminder-and-nanny/pages/HomeWithoutMenu.vue'
 
