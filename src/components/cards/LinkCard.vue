@@ -3,7 +3,7 @@
 	<router-link :to="'/' + to" :class="class" class="inline-flex grow relative h-60 px-7 py-8 rounded-20px focus:outline-none">
 		<div>
 			<h2 class="text-header-two font-bold antialiased">{{ title }}</h2>
-			<p class="pt-2">{{ content }}</p>
+			<slot name="details"></slot>
 		</div>
 
 		<!--

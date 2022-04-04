@@ -17,8 +17,9 @@
 					<Badge title="Don't miss out on goodies" backgroundColor="bg-green-50" textColor="text-purple-900" />
 				</div>
 
-				<div class="pt-2">
-					<Header title="Start free &amp; save with discounts" />
+				<div class="pt-6">
+					<Header title="Start free" />
+					<Header title="Save with discounts" />
 					<Paragraph content="Place a free booking, share with loved ones to earn discounts. Gift your friends and colleagues vouchers &amp; more" />
 				</div>
 

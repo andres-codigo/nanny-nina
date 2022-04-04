@@ -17,8 +17,9 @@
 					<Badge title="Track your money" backgroundColor="bg-green-50" textColor="text-purple-900" />
 				</div>
 
-				<div class="pt-2">
-					<Header title="Safe and Quickest payout" />
+				<div class="pt-6">
+					<Header title="Safe and" />
+					<Header title="Quickest payout" />
 					<Paragraph content="Get paid within 24hrs of job completion via the app.  We ensure that all our nannies are secure." />
 				</div>
 

@@ -17,8 +17,9 @@
 					<Badge title="Get help with ease" backgroundColor="bg-green-50" textColor="text-purple-900" />
 				</div>
 
-				<div class="pt-2">
-					<Header title="No need for negotiations" />
+				<div class="pt-6">
+					<Header title="No need for" />
+					<Header title="negotiations" />
 					<Paragraph content="We ensure safe and secure payment of all our partners, So you don't have to stress about it" />
 				</div>
 

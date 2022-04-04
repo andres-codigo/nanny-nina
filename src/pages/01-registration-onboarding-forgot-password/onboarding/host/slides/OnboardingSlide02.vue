@@ -17,8 +17,9 @@
 					<Badge title="we've got you covered" backgroundColor="bg-green-50" textColor="text-purple-900" />
 				</div>
 
-				<div class="pt-2">
-					<Header title="You are fully insured and safer with us" />
+				<div class="pt-6">
+					<Header title="You are fully insured" />
+					<Header title="and safer with us" />
 					<Paragraph content="Sometimes accidents happen, we get that. You don't have to worry, all our partners are fully covered and insured, so you don't have to worry" />
 				</div>
 

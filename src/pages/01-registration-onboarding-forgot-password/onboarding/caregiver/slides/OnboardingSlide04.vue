@@ -17,8 +17,9 @@
 					<Badge title="Don't miss out on goodies" backgroundColor="bg-green-50" textColor="text-purple-900" />
 				</div>
 
-				<div class="pt-2">
-					<Header title="Earn  even more &euro; &euro; &euro;" />
+				<div class="pt-6">
+					<Header title="Earn  even more" />
+					<Header title="&euro; &euro; &euro;" />
 					<Paragraph content="Get even more with higher demands, in-app rewards and r referrals" />
 				</div>
 
