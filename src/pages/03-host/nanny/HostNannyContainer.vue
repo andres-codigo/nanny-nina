@@ -1,15 +1,21 @@
 <template>
 	<div class="flex flex-wrap grow gap-y-6 gap-x-4">
-		<Location title="What’s your address?" class="max-w-450-for-dev-not-prod" />
+		<LocationPageTemplate title="What's your address?" class="max-w-450-for-dev-not-prod" />
+		<PreApplicationMediaUploadPhotoPageTemplate class="max-w-450-for-dev-not-prod" />
+		<HomeWithoutMenu class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 
 <script>
-import Location from '../../00-duplicate-pages/Location.vue' /* Template */
+import LocationPageTemplate from '../../00-duplicate-pages/LocationPageTemplate.vue' /* Template */
+import PreApplicationMediaUploadPhotoPageTemplate from '../../00-duplicate-pages/PreApplicationMediaUploadPhotoPageTemplate.vue' /* Template */
+import HomeWithoutMenu from './pages/HomeWithoutMenu.vue'
 
 export default {
 	components: {
-		Location
+		LocationPageTemplate,
+		PreApplicationMediaUploadPhotoPageTemplate,
+		HomeWithoutMenu
 	}
 }
 </script>

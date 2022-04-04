@@ -9,7 +9,7 @@
 
 <script>
 import HomeTemplate from './HomeTemplate.vue'
-import BottomMenu from '../../../../components/menu/BottomMenu.vue'
+import BottomMenu from '../../../components/menu/BottomMenu.vue'
 
 export default {
 	components: {
