@@ -12,9 +12,6 @@
 						<CheckListItem title="Media Upload">
 							<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-green-800" aria-hidden="true" /></template>
 						</CheckListItem>
-						<CheckListItem title="Residence Card/ID">
-							<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-gray-500" aria-hidden="true" /></template>
-						</CheckListItem>
 						<CheckListItem title="Nanny Form">
 							<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-gray-500" aria-hidden="true" /></template>
 						</CheckListItem>
