@@ -1,10 +1,10 @@
 <template>
 	<div class="flex flex-wrap grow gap-y-6 gap-x-4">
-		<!-- <LocationPageTemplate title="What's your address?" class="max-w-450-for-dev-not-prod" />
+		<LocationPageTemplate title="What's your address?" class="max-w-450-for-dev-not-prod" />
 		<PreApplicationMediaUploadPhotoPageTemplate class="max-w-450-for-dev-not-prod" />
 		<HomeWithoutMenu class="max-w-450-for-dev-not-prod" />
 		<NewRequest class="max-w-450-for-dev-not-prod" />
-		<JobListings class="max-w-450-for-dev-not-prod" /> -->
+		<JobListings class="max-w-450-for-dev-not-prod" />
 		<NannyProfile class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
