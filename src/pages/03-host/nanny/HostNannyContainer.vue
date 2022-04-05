@@ -4,6 +4,7 @@
 		<PreApplicationMediaUploadPhotoPageTemplate class="max-w-450-for-dev-not-prod" />
 		<HomeWithoutMenu class="max-w-450-for-dev-not-prod" />
 		<NewRequest class="max-w-450-for-dev-not-prod" />
+		<JobListings class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 
@@ -12,13 +13,15 @@ import LocationPageTemplate from '../../00-duplicate-pages/LocationPageTemplate.
 import PreApplicationMediaUploadPhotoPageTemplate from '../../00-duplicate-pages/PreApplicationMediaUploadPhotoPageTemplate.vue' /* Template */
 import HomeWithoutMenu from './pages/HomeWithoutMenu.vue'
 import NewRequest from './pages/NewRequest.vue'
+import JobListings from './pages/JobListings.vue'
 
 export default {
 	components: {
 		LocationPageTemplate,
 		PreApplicationMediaUploadPhotoPageTemplate,
 		HomeWithoutMenu,
-		NewRequest
+		NewRequest,
+		JobListings
 	}
 }
 </script>
