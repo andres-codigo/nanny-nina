@@ -124,17 +124,20 @@ module.exports = {
 			width: {
 				/*
 					button widths (rem / px) chart
-					5.5rem / 88px
-					10.5rem / 168px
-					13rem / 208px
-					17.428rem / 279px
-					20.5rem / 328px
+					XS: 5.5rem / 88px
+					SM: 10.5rem / 168px
+					BASE: 13rem / 208px
+					LG: 17.428rem / 279px
+					XL: 20.5rem / 328px
+
+					INPUT-SMS: 7.125rem / 114px
 				*/
 				'button-xs': '5.5rem',
 				'button-sm': '10.5rem',
 				'button-base': '13rem',
 				'button-lg': '17.428rem',
 				'button-xl': '20.5rem',
+				'button-input-sms': '7.125rem'
 			},
 			minWidth: {
 				'360-for-dev-not-prod': '360px',
