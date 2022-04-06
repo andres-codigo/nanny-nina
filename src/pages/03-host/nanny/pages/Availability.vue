@@ -16,9 +16,7 @@
 				<div class="flex flex-col">
 					<p class="text-xs font-thin antialiased ml-2">Sun, 10 Feb</p>
 					<div class="flex flex-wrap">
-						<Badge text="10:00 - 15:00" />
-						<Badge text="16:00 - 17:00" />
-						<Badge text="18:00 - 23:00" />
+						<Badge  v-for="available in availability" :key="available.time" :text="available.time" />
 					</div>
 				</div>
 			</div>
@@ -40,6 +38,21 @@ export default {
 		Badge,
 		ChevronLeftIcon,
 		DotsVerticalIcon
+	},
+	data() {
+		return {
+			availability: [
+				{
+					time: '10:00 - 15:00'
+				},
+				{
+					time: '16:00 - 17:00'
+				},
+				{
+					time: '18:00 - 23:00'
+				}
+			]
+		}
 	}
 }
 </script>
