@@ -27,6 +27,7 @@
 						</div>
 						<div class="basis-1/2 text-purple-500 text-right font-semibold">
 							<span class="inline-flex">&euro;60-90/week</span>
+							<span class="inline-flex text-xs text-gray-500">€35 Search fee included</span>
 						</div>
 					</div>
 
