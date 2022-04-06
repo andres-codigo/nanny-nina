@@ -7,6 +7,7 @@
 		<JobListings class="max-w-450-for-dev-not-prod" />
 		<NannyProfile class="max-w-450-for-dev-not-prod" />
 		<Availability class="max-w-450-for-dev-not-prod" />
+		<Ooops class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 
@@ -18,6 +19,7 @@ import NewRequest from './pages/NewRequest.vue'
 import JobListings from './pages/JobListings.vue'
 import NannyProfile from './pages/NannyProfile.vue'
 import Availability from './pages/Availability.vue'
+import Ooops from './pages/Ooops.vue'
 
 export default {
 	components: {
@@ -27,7 +29,8 @@ export default {
 		NewRequest,
 		JobListings,
 		NannyProfile,
-		Availability
+		Availability,
+		Ooops
 	}
 }
 </script>
