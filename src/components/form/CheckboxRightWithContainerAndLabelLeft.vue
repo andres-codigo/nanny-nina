@@ -3,6 +3,7 @@
 	<div class="flex py-4">
 		<div class="min-w-0 flex-1 text-xl">
 			<label :for="checkboxName" class="text-purple-800 font-thin select-none">{{ text }}</label>
+			<p :class="['text-xs text-gray-500', showSubText ? '' : 'hidden']">{{ subText }}</p>
 		</div>
 		<div class="ml-3 flex items-center h-5">
 			<input
@@ -19,6 +20,11 @@
 export default {
 	props: {
 		text: String,
+		subText: String,
+		showSubText: {
+			type: Boolean,
+			default: false
+		},
 		checkboxName: String
 	}
 }
