@@ -10,6 +10,7 @@
 		<Ooops class="max-w-450-for-dev-not-prod" />
 		<NewRequest class="max-w-450-for-dev-not-prod" />
 		<FamilyInformationForm class="max-w-450-for-dev-not-prod" />
+		<OneTimeBooking class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 
@@ -24,6 +25,7 @@ import Availability from './pages/Availability.vue'
 import Ooops from './pages/Ooops.vue'
 import NewRequest from './pages/NewRequest.vue'
 import FamilyInformationForm from './pages/FamilyInformationForm.vue'
+import OneTimeBooking from './pages/OneTimeBooking.vue'
 
 export default {
 	components: {
@@ -36,7 +38,8 @@ export default {
 		Availability,
 		Ooops,
 		NewRequest,
-		FamilyInformationForm
+		FamilyInformationForm,
+		OneTimeBooking
 	}
 }
 </script>
