@@ -5,6 +5,7 @@
 		<select
 			id="for-dev-not-prod"
 			name="for-dev-not-prod"
+			:class="class"
 			class="
 				appearance-none block w-full
 				px-3 py-3
@@ -21,7 +22,11 @@
 <script>
 export default {
 	props: {
-		labelText: String
+		labelText: String,
+		class: {
+			type: String,
+			default: 'w-full'
+		}
 	}
 }
 </script>
