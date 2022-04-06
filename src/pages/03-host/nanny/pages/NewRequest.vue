@@ -1,44 +1,51 @@
+<!-- TODO: hover, focus for LinkCard's -->
 <template>
-	<div class="bg-purple-500">
-		<TopNavigation backgroundColor="bg-purple-500" :dropShadow="false">
-			<template #iconRight><router-link to="/dashboard"><XIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
-		</TopNavigation>
+	<div>
 		<main>
-			<div class="h-screen flex flex-col items-center mx-8 bg-purple-500">
-				<form class="w-full mb-2" action="#" method="POST">
-					<div class="mb-44">
-						<h2 class="text-center text-header-two text-green-500 antialiased mx-5">Hey Janne!</h2>
-						<h5 class="text-lg text-center text-white font-thin mt-3">What are you looking for?</h5>
+			<div class="min-h-screen flex flex-col justify-center mx-4">
+				<h5 class="text-left text-header-five font-semibold antialiased mb-2">What kind of nanny do you want?</h5>
+				<div class="inline-flex pb-8">
+					<LinkCard to="dashboard" class="text-white bg-purple-500 hover:bg-purple-300 focus:bg-purple-400" title="One-time">
+						<template #details><p class="text-white pt-2">Urgent nanny for single or multiple days. Maximum 12days </p></template>
+					</LinkCard>
+				</div>
+				<div class="inline-flex pb-8">
+					<LinkCard to="dashboard" class="text-purple-900 bg-green-500 hover:bg-green-300 focus:bg-green-400" title="Recurring" >
+						<template #details><p class="pt-2">I need a nanny on returning days over a longer period</p></template>
+					</LinkCard>
+				</div>
+				<div class="inline-flex pb-8">
+					<LinkCard to="dashboard" class="text-purple-900 bg-lilac-50 hover:bg-lilac-100 focus:bg-lilac-200" title="Event" >
+						<template #details><p class="pt-2">Book a nanny for birthday, wedding &amp; other special occasions</p></template>
+					</LinkCard>
+				</div>
+
+				<div class="flex flex-col justify-center items-center mt-20">
+					<div class="grid grid-rows-2 gap-2">
+						<div><ButtonPrimary text="Not now" class="w-button-lg text-xl py-4" /></div>
+						<div>
+							<p class="mt-4 font-thin text-center"><a href="#" class="anchor-with-underline text-blue-500">Learn more about Nannies</a></p>
+						</div>
 					</div>
-					<div class="flex flex-col justify-center items-center">
-						<ul role="list" class="w-full">
-							<CheckListItem :hideStatusIcon="true" :hideContent="false" :hidePending="true" title="Au Pair" description="Live in nanny: 375 euro/ month" />
-							<CheckListItem :hideStatusIcon="true" :hideContent="false" :hidePending="true" title="Nanny" description="Last minute,One-time, Recurring or Event nanny" />
-							<CheckListItem :hideStatusIcon="true" :hideContent="false" :hidePending="true" title="Childminder" description="Nanny with subsidy: for full days" />
-						</ul>
-					</div>
-					<div class="flex justify-center mt-4">
-						<div class="flex-none"><p class="text-white text-center font-thin anchor-with-underline"><a href="#">Help me choose</a></p></div>
-						<div class="inline-flex items-center justify-center pl-1"><ChevronRightIcon class="w-5 h-5 text-white" /></div>
-					</div>
-				</form>
+				</div>
 			</div>
 		</main>
 	</div>
 </template>
 
 <script>
-import CheckListItem from '../../../../components/checklist/ChecklistItem.vue'
-import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
+import LinkCard from '../../../../components/cards/LinkCard.vue'
+import ButtonOutlineDark from '../../../../components/buttons/ButtonOutlineDark.vue'
+import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
 
-import { XIcon, ChevronRightIcon } from '@heroicons/vue/solid'
+import { XIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
-		TopNavigation,
-		CheckListItem,
-		XIcon,
-		ChevronRightIcon
+		LinkCard,
+		ButtonOutlineDark,
+		ButtonPrimary,
+		XIcon
 	}
 }
 </script>
