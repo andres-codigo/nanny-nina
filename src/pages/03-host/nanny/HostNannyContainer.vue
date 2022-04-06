@@ -9,7 +9,7 @@
 		<Availability class="max-w-450-for-dev-not-prod" />
 		<Ooops class="max-w-450-for-dev-not-prod" />
 		<NewRequest class="max-w-450-for-dev-not-prod" />
-		<FamilyInformationForm class="max-w-450-for-dev-not-prod" />
+		<BasicInformationForm class="max-w-450-for-dev-not-prod" />
 		<OneTimeBooking class="max-w-450-for-dev-not-prod" />
 		<RecurringBooking class="max-w-450-for-dev-not-prod" />
 		<RequestNote class="max-w-450-for-dev-not-prod" />
@@ -27,7 +27,7 @@ import NannyProfile from './pages/NannyProfile.vue'
 import Availability from './pages/Availability.vue'
 import Ooops from './pages/Ooops.vue'
 import NewRequest from './pages/NewRequest.vue'
-import FamilyInformationForm from './pages/FamilyInformationForm.vue'
+import BasicInformationForm from './pages/BasicInformationForm.vue'
 import OneTimeBooking from './pages/OneTimeBooking.vue'
 import RecurringBooking from './pages/RecurringBooking.vue'
 import RequestNote from './pages/RequestNote.vue'
@@ -44,7 +44,7 @@ export default {
 		Availability,
 		Ooops,
 		NewRequest,
-		FamilyInformationForm,
+		BasicInformationForm,
 		OneTimeBooking,
 		RecurringBooking,
 		RequestNote,

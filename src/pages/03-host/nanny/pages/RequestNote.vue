@@ -9,7 +9,7 @@
 				<form class="w-full" action="#" method="POST">
 					<h5 class="text-left text-header-five font-semibold antialiased">Request Note</h5>
 
-					<div class="mt-2 mb-10">
+					<div class="mt-2 mb-40">
 						<label for="motivation" class="sr-only">We need your help! We are a Dutch family with two kids (girl 3yrs old and boy 4yrs old). They love to play outside, bake (and eat!) cookies and cake.</label>
 						<p	class="text-sm font-light text-gray-500">We need your help! We are a Dutch family with two kids (girl 3yrs old and boy 4yrs old). They love to play outside, bake (and eat!) cookies and cake.</p>
 						<div class="mt-8">
@@ -17,7 +17,7 @@
 						</div>
 					</div>
 
-					<div class="flex flex-col justify-center items-center mt-10">
+					<div class="flex flex-col justify-center items-center mt-10 mb-20">
 						<ButtonPrimary text="Next" class="w-button-lg text-xl py-4" />
 					</div>
 				</form>

@@ -35,7 +35,7 @@
 					</div>
 					<div class="flex flex-row items-center mt-4 mb-2">
 						<div class="flex-none w-6"><ClockIcon class="w-5 h-5" /></div>
-						<div>Available to work</div>
+						<div>{{ availability }}</div>
 					</div>
 					<div class="flex flex-row items-center mt-4">
 						<div class="flex-none w-6"><BriefcaseIcon class="w-5 h-5" /></div>
@@ -65,8 +65,7 @@ export default {
 	props: {
 		src: String,
 		title: String,
-		responses: String,
-		published: String,
+		availability: String,
 		filledHeart: {
 			type: Boolean,
 			default: false

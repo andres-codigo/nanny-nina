@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<TopNavigation backgroundColor="bg-white" headerColor="text-purple-900" text="Profile">
-			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
+			<template #iconLeft><router-link to="/dashboard"><XIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
 			<template #iconRight><DotsVerticalIcon class="w-6 h-6 text-purple-900" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
@@ -49,7 +49,7 @@
 				<Reviews class="mt-7">
 					<template #title>
 						<div class="flex flex-row mb-7">
-							<div class="inline-flex items-center justify-center grow-0 pr-1">
+							<div class="inline-flex items-center justify-center grow-0 mr-3">
 								<StarIcon class="w-8 h-8 text-purple-500" />
 							</div>
 							<div class="inline-flex items-center justify-center">
@@ -88,7 +88,7 @@
 												<path d="M49.5 49.3989L66.495 60L61.985 40.02L77 26.5768L57.2275 24.8432L49.5 6L41.7725 24.8432L22 26.5768L37.015 40.02L32.505 60L49.5 49.3989Z" fill="#5427E2"/>
 												</g>
 											</svg>
-											<p class="text-center mt-4">Rising star</p>
+											<p class="text-center text-sm mt-4">Rising star</p>
 										</div>
 									</div>
 									<div class="inline-block">
@@ -103,7 +103,7 @@
 												<path d="M49.5 49.3989L66.495 60L61.985 40.02L77 26.5768L57.2275 24.8432L49.5 6L41.7725 24.8432L22 26.5768L37.015 40.02L32.505 60L49.5 49.3989Z" fill="#5427E2"/>
 												</g>
 											</svg>
-											<p class="text-center mt-4">Kitchen Queen</p>
+											<p class="text-center text-sm mt-4">Kitchen Queen</p>
 										</div>
 									</div>
 								</div>
@@ -125,7 +125,7 @@ import Photos from '../../../../components/profile/photos/Photos.vue'
 import Reviews from '../../../../components/profile/Reviews.vue'
 import BadgesEarned from '../../../../components/profile/badges/BadgesEarned.vue'
 
-import { ChevronLeftIcon, DotsVerticalIcon, StarIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
+import { XIcon, DotsVerticalIcon, StarIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
@@ -136,7 +136,7 @@ export default {
 		Photos,
 		Reviews,
 		BadgesEarned,
-		ChevronLeftIcon,
+		XIcon,
 		DotsVerticalIcon,
 		StarIcon,
 		QuestionMarkCircleIcon

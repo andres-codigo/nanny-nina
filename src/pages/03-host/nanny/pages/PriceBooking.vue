@@ -27,13 +27,13 @@
 						</div>
 						<div class="basis-1/2 text-purple-500 text-right font-semibold">
 							<span class="inline-flex">&euro;60-90/week</span>
-							<span class="inline-flex text-xs text-gray-500">€35 Search fee included</span>
+							<span class="inline-flex text-xs text-gray-500 font-thin">€35 Search fee included</span>
 						</div>
 					</div>
 
 					<p class="mx-4">This estimate is based on average pricing and availability of nannies in this period. We will not search or suggest nannies beyond your limit.</p>
 
-					<div class="flex flex-col justify-center items-center mt-20">
+					<div class="flex flex-col justify-center items-center mt-20 mb-32">
 						<ButtonPrimary text="Continue" class="w-button-lg text-xl py-4" />
 					</div>
 				</form>

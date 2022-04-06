@@ -7,26 +7,23 @@
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="text-left text-header-five font-semibold antialiased my-6">Family Information</h5>
+					<h5 class="text-left text-header-five font-semibold antialiased my-6">Basic Information</h5>
 
-					<div class="mt-4 mb-6">
-						<div>
-							<p class="font-thin">Are you expecting?</p>
-							<RadioQuestion :screenReaderOnly="true" legend="Are you expecting" questionOneText="Yes" questionTwoText="No" />
-						</div>
+					<div class="mt-4 mb-4">
+						<p class="font-thin">Are you expecting?</p>
+						<RadioQuestion :screenReaderOnly="true" legend="Are you expecting" questionOneText="Yes" questionTwoText="No" />
 					</div>
 
 					<div class="mb-10">
-						<p class="font-thin">Due date</p>
 						<div class="mt-4 grid grid-cols-2 gap-x-2">
-							<div><SelectMenu optionText="1" class="w-3/4" /></div>
+							<div><SelectMenu optionText="Sat, 21 /03/2022" labelText="Due date" /></div>
 						</div>
 					</div>
 
 					<div class="mb-10">
 						<p class="font-thin">How many kids do you have?</p>
 						<div class="mt-4 grid grid-cols-2 gap-x-2">
-							<div><SelectMenu optionText="- Select number -" class="w-4/5" /></div>
+							<div><SelectMenu optionText="- Select number -" /></div>
 						</div>
 					</div>
 

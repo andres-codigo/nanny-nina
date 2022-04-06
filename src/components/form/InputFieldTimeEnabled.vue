@@ -10,8 +10,7 @@
 			w-full
 			px-3 py-2
 			border border-gray-500 rounded-full
-			text-center font-thin
-			read-only:border-gray-100
+			text-center text-purple-900 font-thin
 			focus:outline-none focus:ring-0 focus:border-purple-500
 		"
 	>
