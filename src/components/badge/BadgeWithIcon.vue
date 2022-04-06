@@ -1,13 +1,14 @@
 <template>
 	<span
-		:class="class"
 		class="
 			inline-flex items-center
 			px-5 py-1.5 mr-2 my-2
 			rounded-full
 			font-semibold
+			bg-lilac-50
 		">
-		<span>
+		<slot name="icon"></slot>
+		<span class="pl-2">
 			{{ text }}
 		</span>
 	</span>
@@ -16,11 +17,7 @@
 <script>
 export default {
 	props: {
-		text: String,
-		class: {
-			type: String,
-			default: 'bg-gray-50'
-		}
+		text: String
 	}
 }
 </script>

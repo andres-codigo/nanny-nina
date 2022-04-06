@@ -17,7 +17,7 @@ import ForgotPasswordContainer from '../pages/01-registration-onboarding-forgot-
 import ChildminderAndNannyContainer from '../pages/02-caregiver/childminder-and-nanny/ChildminderAndNannyContainer.vue'
 
 	/* Caregiver - Nanny */
-	import HomeWithoutBottomMenu from '../pages/02-caregiver/childminder-and-nanny/pages/HomeWithoutMenu.vue'
+	import HomeWithoutBottomMenu from '../pages/00-duplicate-pages/home/HomeWithoutMenuTemplate.vue'
 	import JobListings from '../pages/02-caregiver/nanny/01-onboarding/pages/02-job-listings/JobListings.vue'
 	import OnboardingContainer from '../pages/02-caregiver/nanny/01-onboarding/OnboardingContainer.vue'
 	import ParentProfileContainer from '../pages/02-caregiver/nanny/02-parent-profile/ParentProfileContainer.vue'

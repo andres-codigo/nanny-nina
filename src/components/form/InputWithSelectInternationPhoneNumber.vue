@@ -5,7 +5,7 @@
 		<select
 			id="international-area-code"
 			name="international-area-code"
-			:class="['inline-flex items-center px-3 rounded-l-full border border-r-0 border-gray-400 focus:outline-none focus:ring-0', showButton ? 'w-24' : 'w-32']">
+			:class="['inline-flex items-center px-3 py-0 rounded-l-full border border-r-0 border-gray-400 focus:outline-none focus:ring-0', showButton ? 'w-24' : 'w-32']">
 				<option selected>+31 NL</option>
 				<option>+61 AUS</option>
 		</select>
@@ -18,12 +18,12 @@
 				placeholder="Enter number"
 				class="
 					appearance-none block w-[97%]
-					px-3 py-3
+					px-3 py-2
 					border border-gray-400
 					rounded-r-full
-					text-sm	text-gray-600
+					text-gray-600
 					focus:outline-none focus:ring-0 focus:border-purple-500">
-			<ButtonPrimary text="Send SMS" class="w-button-input-sms text-xl min-h-[45px] py-3 absolute top-0 left-[55%]" />
+			<ButtonPrimary text="Send SMS" class="w-button-input-sms text-xl min-h-[42px] py-2 absolute top-0 left-[55%]" />
 		</div>
 
 		<input
@@ -34,10 +34,10 @@
 			placeholder="Enter number"
 			class="
 				appearance-none block w-full
-				px-3 py-3
+				px-3 py-2
 				border border-gray-400
 				rounded-r-full
-				text-sm	text-gray-600
+				text-gray-600
 				focus:outline-none focus:ring-0 focus:border-purple-500">
 	</div>
 </template>

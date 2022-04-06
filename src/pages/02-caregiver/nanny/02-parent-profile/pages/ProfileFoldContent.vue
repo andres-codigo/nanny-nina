@@ -6,15 +6,19 @@
 
 				<hr class="border-1 border-gray-50 my-6" />
 
-				<Preferences />
+				<Preferences class="mt-7" />
 
 				<hr class="border-1 border-gray-50 my-6" />
 
-				<Photos />
+				<Photos class="mt-7" />
 
 				<hr class="border-1 border-gray-50 my-6" />
 
-				<Reviews />
+				<Reviews class="mt-7">
+					<template #title>
+						<h5 class="text-header-five font-bold antialiased mb-7">What Others Say</h5>
+					</template>
+				</Reviews>
 			</div>
 		</main>
 	</div>
@@ -23,9 +27,9 @@
 <script>
 import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
 import ApplyDetails from './fold/ApplyDetails.vue'
-import Preferences from './fold/Preferences.vue'
-import Photos from './fold/photos/Photos.vue'
-import Reviews from './fold/Reviews.vue'
+import Preferences from '../../../../../components/profile/Preferences.vue'
+import Photos from '../../../../../components/profile/photos/Photos.vue'
+import Reviews from '../../../../../components/profile/Reviews.vue'
 
 import { ChevronLeftIcon, DotsVerticalIcon } from '@heroicons/vue/solid'
 

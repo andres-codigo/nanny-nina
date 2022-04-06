@@ -1,9 +1,9 @@
 <template>
 	<div class="flex flex-wrap grow gap-y-6 gap-x-4">
 		<!-- 01 Set-up Steps -->
-		<Location class="max-w-450-for-dev-not-prod" />
-		<PreApplicationMediaUploadPhoto class="max-w-450-for-dev-not-prod" />
-		<HomeWithoutMenu class="max-w-450-for-dev-not-prod" />
+		<LocationPageTemplate title="Where are you currently?" class="max-w-450-for-dev-not-prod" />
+		<PreApplicationMediaUploadPhotoPageTemplate class="max-w-450-for-dev-not-prod" />
+		<HomeWithoutMenuTemplate class="max-w-450-for-dev-not-prod" />
 
 		<!-- 02 Job Listings -->
 		<JobListings class="max-w-450-for-dev-not-prod" />
@@ -27,9 +27,9 @@
 </template>
 <script>
 /* Location */
-import Location from './pages/01-set-up-steps/Location.vue'
-import PreApplicationMediaUploadPhoto from './pages/01-set-up-steps/PreApplicationMediaUploadPhoto.vue'
-import HomeWithoutMenu from '../../childminder-and-nanny/pages/HomeWithoutMenu.vue'
+import LocationPageTemplate from '../../../00-duplicate-pages/LocationPageTemplate.vue' /* Template */
+import PreApplicationMediaUploadPhotoPageTemplate from '../../../00-duplicate-pages/PreApplicationMediaUploadPhotoPageTemplate.vue' /* Template */
+import HomeWithoutMenuTemplate from '../../../00-duplicate-pages/home/HomeWithoutMenuTemplate.vue' /* Template */
 
 /* Job Listings */
 import JobListings from './pages/02-job-listings/JobListings.vue'
@@ -52,9 +52,9 @@ import SuccessFurtherInformation from './pages/04-preferences/SuccessFurtherInfo
 
 export default {
 	components: {
-		Location,
-		PreApplicationMediaUploadPhoto,
-		HomeWithoutMenu,
+		LocationPageTemplate,
+		PreApplicationMediaUploadPhotoPageTemplate,
+		HomeWithoutMenuTemplate,
 		JobListings,
 		ServiceLaunchStart,
 		OnboardingChecklist,

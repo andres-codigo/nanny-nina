@@ -11,13 +11,13 @@
 
 				<div class="flex flex-col mt-8">
 					<ul role="list">
-						<CheckListItem :hideContent="false" title="Availability" description="Choose the days &amp; time you want to work">
+						<CheckListItem :hideStatusIcon="true" :hideStar="false" :hideContent="false" :hidePending="true" title="Availability" description="Choose the days &amp; time you want to work">
 							<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-green-800" aria-hidden="true" /></template>
 						</CheckListItem>
-						<CheckListItem :hideContent="false" title="Matching Preference" description="This will help us to find a good match">
+						<CheckListItem :hideStatusIcon="true" :hideStar="false" :hideContent="false" :hidePending="true" title="Matching Preference" description="This will help us to find a good match">
 							<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-gray-500" aria-hidden="true" /></template>
 						</CheckListItem>
-						<CheckListItem :hideContent="false" :showBadge="true" title="Price" description="What is your minimum asking price?">
+						<CheckListItem :hideStatusIcon="true" :hideStar="false" :hideContent="false" :hidePending="true" :showBadge="true" title="Price" description="What is your minimum asking price?">
 							<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-gray-500" aria-hidden="true" /></template>
 						</CheckListItem>
 					</ul>

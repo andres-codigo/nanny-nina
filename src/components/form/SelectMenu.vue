@@ -5,11 +5,12 @@
 		<select
 			id="for-dev-not-prod"
 			name="for-dev-not-prod"
+			:class="class"
 			class="
 				appearance-none block w-full
-				px-3 py-3
+				px-3 py-2
 				border border-gray-400 rounded-full
-				text-sm	 text-gray-400
+				text-gray-400
 				focus:outline-none focus:ring-0 focus:border-black
 			"
 		>
@@ -21,7 +22,11 @@
 <script>
 export default {
 	props: {
-		labelText: String
+		labelText: String,
+		class: {
+			type: String,
+			default: 'w-full'
+		}
 	}
 }
 </script>

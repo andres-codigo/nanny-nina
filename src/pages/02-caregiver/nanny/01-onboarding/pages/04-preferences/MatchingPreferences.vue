@@ -5,7 +5,7 @@
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col px-4 py-6">
-				<form action="#" method="POST">
+				<form class="w-full" action="#" method="POST">
 					<h5 class="text-left text-header-five font-semibold antialiased mt-8 mb-2">I am comfortable with</h5>
 					<div class="mt-4">
 						<CheckboxRightWithContainerAndLabelLeft checkboxName="checkout-1" text="Pets" />

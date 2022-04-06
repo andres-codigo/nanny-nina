@@ -12,9 +12,9 @@
 			:value="value"
 			class="
 				appearance-none block w-full
-				px-3 py-3
+				px-3 py-2
 				border border-gray-400 rounded-full
-				text-sm	text-gray-600
+				text-gray-600
 				focus:outline-none focus:ring-0 focus:ring-purple-500 focus:border-purple-500
 			"
 		>

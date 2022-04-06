@@ -4,9 +4,9 @@
 			<h6 class="pl-4 py-4 header-six font-medium text-purple-900">Dashboard</h6>
 			<nav class="h-full overflow-y-auto" aria-label="Directory">
 				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-2 text-sm font-medium text-white antialiased">
-						<p class="text-md font-bold leading-none">Caregiver &amp; Host: </p>
-						<p class="text-md">Registration / Onboarding / Forgot Password</p>
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-2 text-sm font-medium antialiased">
+						<p class="text-md text-white font-bold leading-none">Caregiver &amp; Host: </p>
+						<p class="text-md text-white">Registration / Onboarding / Forgot Password</p>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
@@ -73,8 +73,8 @@
 				</div>
 				<div class="relative">
 					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-2 text-sm font-medium text-white antialiased">
-						<p class="text-md font-bold leading-none">Caregiver: </p>
-						<p class="text-md">Childminder &amp; Nanny</p>
+						<p class="text-md text-white font-bold leading-none">Caregiver: </p>
+						<p class="text-md text-white">Childminder &amp; Nanny</p>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
@@ -84,9 +84,9 @@
 							routerLinkPath="/childminder-and-nanny-home"
 							title="Home (with bottom menu)"
 							textColor="text-purple-600"
-							textBadge="Design/UI Review"
-							textColorBadge="text-pink-800"
-							backgroundColorBadge="bg-pink-100"
+							textBadge="Completed"
+							textColorBadge="text-white"
+							backgroundColorBadge="bg-green-800"
 						/>
 					</ul>
 				</div>
@@ -103,9 +103,9 @@
 							routerLinkPath="/nanny-home-without-bottom-menu"
 							title="Home (without bottom menu)"
 							textColor="text-purple-600"
-							textBadge="Design/UI Review"
-							textColorBadge="text-pink-800"
-							backgroundColorBadge="bg-pink-100"
+							textBadge="Completed"
+							textColorBadge="text-white"
+							backgroundColorBadge="bg-green-800"
 						/>
 						<ListItem
 							:subItem="true"
@@ -115,33 +115,33 @@
 							routerLinkPath="/nanny-job-listings"
 							title="Job Listings"
 							textColor="text-purple-600"
-							textBadge="Design/UI Review"
-							textColorBadge="text-pink-800"
-							backgroundColorBadge="bg-pink-100"
+							textBadge="Completed"
+							textColorBadge="text-white"
+							backgroundColorBadge="bg-green-800"
 						/>
 						<ListItem
 							:subItem="true"
-							:hideNotes="false"
-							notes="Pending final design approval/sign-off from business before making final updates"
-							date="29/03/22"
+							:hideNotes="true"
+							notes=""
+							date=""
 							routerLinkPath="/nanny-service-onboarding"
 							title="Onboarding"
 							textColor="text-purple-600"
-							textBadge="Design/UI Review"
-							textColorBadge="text-pink-800"
-							backgroundColorBadge="bg-pink-100"
+							textBadge="Completed"
+							textColorBadge="text-white"
+							backgroundColorBadge="bg-green-800"
 						/>
 						<ListItem
 							:subItem="true"
-							:hideNotes="false"
-							notes="Pending final design approval/sign-off from business before making final updates"
-							date="29/03/22"
+							:hideNotes="true"
+							notes=""
+							date=""
 							routerLinkPath="/nanny-parent-profile"
 							title="Parent Profile"
 							textColor="text-purple-600"
-							textBadge="Design/UI Review"
-							textColorBadge="text-pink-800"
-							backgroundColorBadge="bg-pink-100"
+							textBadge="Completed"
+							textColorBadge="text-white"
+							backgroundColorBadge="bg-green-800"
 						/>
 					</ul>
 				</div>
@@ -155,24 +155,27 @@
 							notes=""
 							date=""
 							routerLinkPath="/host-nanny-home"
-							title="Home"
+							title="Home (with bottom menu)"
 							textColor="text-purple-600"
-							textBadge="Design/UI Review"
-							textColorBadge="text-pink-800"
-							backgroundColorBadge="bg-pink-100"
+							textBadge="Completed"
+							textColorBadge="text-white"
+							backgroundColorBadge="bg-green-800"
 						/>
 					</ul>
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-16 pr-4 py-4 text-sm font-medium text-gray-600">
+						<h3><span class="font-bold">Nanny</span> </h3>
+					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
 							:hideNotes="true"
 							notes=""
 							date=""
 							routerLinkPath="/host-nanny"
-							title="Address Form / Media Upload Photos"
+							title="Onboarding"
 							textColor="text-purple-600"
-							textBadge="Design/UI Review"
-							textColorBadge="text-pink-800"
-							backgroundColorBadge="bg-pink-100"
+							textBadge="In Progress"
+							textColorBadge="text-amber-800"
+							backgroundColorBadge="bg-amber-100"
 						/>
 					</ul>
 				</div>

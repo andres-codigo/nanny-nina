@@ -1,6 +1,6 @@
 <template>
-	<div class="flex flex-col my-14">
-		<h5 class="text-header-five font-bold antialiased mb-7">What Others Say</h5>
+	<div :class="class" class="flex flex-col">
+		<slot name="title"></slot>
 		<div class="flex overflow-x-scroll pb-10 no-scrollbar">
 			<div class="flex flex-nowrap">
 				<div class="inline-block px-1">
@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import ReviewCard from '../../../../../../components/cards/review-card/ReviewCard.vue'
+import ReviewCard from '../cards/review-card/ReviewCard.vue'
 
 import { ChevronRightIcon } from '@heroicons/vue/solid'
 
@@ -32,6 +32,9 @@ export default {
 	components: {
 		ReviewCard,
 		ChevronRightIcon
+	},
+	props: {
+		class: String
 	}
 }
 </script>

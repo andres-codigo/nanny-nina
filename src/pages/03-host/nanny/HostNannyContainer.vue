@@ -1,18 +1,36 @@
 <template>
-	<div class="flex flex-wrap grow gap-y-6 sm:gap-x-4 w-full h-full">
-		<AddressForm01 class="min-w-360-for-dev-not-prod" />
-		<MediaUploadPhoto02 class="min-w-360-for-dev-not-prod" />
+	<div class="flex flex-wrap grow gap-y-6 gap-x-4">
+		<LocationPageTemplate title="What's your address?" class="max-w-450-for-dev-not-prod" />
+		<PreApplicationMediaUploadPhotoPageTemplate class="max-w-450-for-dev-not-prod" />
+		<HomeWithoutMenu class="max-w-450-for-dev-not-prod" />
+		<NewRequest class="max-w-450-for-dev-not-prod" />
+		<JobListings class="max-w-450-for-dev-not-prod" />
+		<NannyProfile class="max-w-450-for-dev-not-prod" />
+		<Availability class="max-w-450-for-dev-not-prod" />
+		<Ooops class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 
 <script>
-import AddressForm01 from './pages/AddressForm01.vue'
-import MediaUploadPhoto02 from './pages/MediaUploadPhoto02.vue'
+import LocationPageTemplate from '../../00-duplicate-pages/LocationPageTemplate.vue' /* Template */
+import PreApplicationMediaUploadPhotoPageTemplate from '../../00-duplicate-pages/PreApplicationMediaUploadPhotoPageTemplate.vue' /* Template */
+import HomeWithoutMenu from './pages/HomeWithoutMenu.vue'
+import NewRequest from './pages/NewRequest.vue'
+import JobListings from './pages/JobListings.vue'
+import NannyProfile from './pages/NannyProfile.vue'
+import Availability from './pages/Availability.vue'
+import Ooops from './pages/Ooops.vue'
 
 export default {
 	components: {
-		AddressForm01,
-		MediaUploadPhoto02
+		LocationPageTemplate,
+		PreApplicationMediaUploadPhotoPageTemplate,
+		HomeWithoutMenu,
+		NewRequest,
+		JobListings,
+		NannyProfile,
+		Availability,
+		Ooops
 	}
 }
 </script>
