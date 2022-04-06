@@ -9,6 +9,7 @@
 		<Availability class="max-w-450-for-dev-not-prod" />
 		<Ooops class="max-w-450-for-dev-not-prod" />
 		<NewRequest class="max-w-450-for-dev-not-prod" />
+		<FamilyInformationForm class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 
@@ -22,6 +23,7 @@ import NannyProfile from './pages/NannyProfile.vue'
 import Availability from './pages/Availability.vue'
 import Ooops from './pages/Ooops.vue'
 import NewRequest from './pages/NewRequest.vue'
+import FamilyInformationForm from './pages/FamilyInformationForm.vue'
 
 export default {
 	components: {
@@ -33,7 +35,8 @@ export default {
 		NannyProfile,
 		Availability,
 		Ooops,
-		NewRequest
+		NewRequest,
+		FamilyInformationForm
 	}
 }
 </script>
