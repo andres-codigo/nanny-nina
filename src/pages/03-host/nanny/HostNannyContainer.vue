@@ -12,6 +12,7 @@
 		<FamilyInformationForm class="max-w-450-for-dev-not-prod" />
 		<OneTimeBooking class="max-w-450-for-dev-not-prod" />
 		<RecurringBooking class="max-w-450-for-dev-not-prod" />
+		<RequestNote class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 
@@ -28,6 +29,7 @@ import NewRequest from './pages/NewRequest.vue'
 import FamilyInformationForm from './pages/FamilyInformationForm.vue'
 import OneTimeBooking from './pages/OneTimeBooking.vue'
 import RecurringBooking from './pages/RecurringBooking.vue'
+import RequestNote from './pages/RequestNote.vue'
 
 export default {
 	components: {
@@ -42,7 +44,8 @@ export default {
 		NewRequest,
 		FamilyInformationForm,
 		OneTimeBooking,
-		RecurringBooking
+		RecurringBooking,
+		RequestNote
 	}
 }
 </script>
