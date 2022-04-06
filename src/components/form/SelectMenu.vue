@@ -14,7 +14,7 @@
 				focus:outline-none focus:ring-0 focus:border-black
 			"
 		>
-			<option>Select an option</option>
+			<option>{{ optionText }}</option>
 		</select>
 	</div>
 </template>
@@ -23,6 +23,10 @@
 export default {
 	props: {
 		labelText: String,
+		optionText: {
+			type: String,
+			default: 'Select an option'
+		},
 		class: {
 			type: String,
 			default: 'w-full'

@@ -13,6 +13,7 @@
 		<OnboardingChecklist class="max-w-450-for-dev-not-prod" />
 		<MediaUploadPhoto class="max-w-450-for-dev-not-prod" />
 		<MediaUploadVideo class="max-w-450-for-dev-not-prod" />
+		<ExperienceForm class="max-w-450-for-dev-not-prod" />
 		<EducationForm class="max-w-450-for-dev-not-prod" />
 		<HealthAndSafetyForm class="max-w-450-for-dev-not-prod" />
 		<ReferenceForm class="max-w-450-for-dev-not-prod" />
@@ -40,6 +41,7 @@ import OnboardingChecklist from './pages/03-job-onboarding/OnboardingChecklist.v
 import MediaUploadPhoto from './pages/03-job-onboarding/MediaUploadPhoto.vue'
 import MediaUploadVideo from './pages/03-job-onboarding/MediaUploadVideo.vue'
 import EducationForm from './pages/03-job-onboarding/EducationForm.vue'
+import ExperienceForm from './pages/03-job-onboarding/ExperienceForm.vue'
 import HealthAndSafetyForm from './pages/03-job-onboarding/HealthAndSafetyForm.vue'
 import ReferenceForm from './pages/03-job-onboarding/ReferenceForm.vue'
 
@@ -61,6 +63,7 @@ export default {
 		MediaUploadPhoto,
 		MediaUploadVideo,
 		EducationForm,
+		ExperienceForm,
 		HealthAndSafetyForm,
 		ReferenceForm,
 		PreferencesChecklist,
