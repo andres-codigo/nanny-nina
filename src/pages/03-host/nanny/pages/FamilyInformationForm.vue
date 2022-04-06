@@ -97,7 +97,7 @@
 						</div>
 					</div>
 
-					<div class="flex flex-col justify-center items-center mt-20">
+					<div class="flex flex-col justify-center items-center mt-20 mb-10">
 						<ButtonPrimary text="Next" class="w-button-lg text-xl py-4" />
 					</div>
 				</form>
