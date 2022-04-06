@@ -27,7 +27,7 @@
 					<div class="grid grid-rows-2 gap-2">
 						<div><ButtonPrimary text="Not now" class="w-button-lg text-xl py-4" /></div>
 						<div>
-							<p class="mt-4 font-thin text-center"><a href="#" class="anchor-with-underline text-blue-500">Learn more about Nannies</a></p>
+							<p class="mt-4 font-thin text-center"><a href="#" target="_self" class="anchor-with-underline text-blue-500">Learn more about Nannies</a></p>
 						</div>
 					</div>
 				</div>

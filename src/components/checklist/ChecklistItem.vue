@@ -1,7 +1,7 @@
 <!-- TODO: bg color for default, hover & focus... overall look of page too -->
 <template>
 	<li>
-		<a href="#" class="block w-full mb-4 border border-gray-100 bg-white hover:bg-gray-200 rounded-30px hover:rounded-30px">
+		<a href="#" target="_self" class="block w-full mb-4 border border-gray-100 bg-white hover:bg-gray-200 rounded-30px hover:rounded-30px">
 			<div class="flex items-center px-4 py-4">
 				<div :class="['mr-2 flex-shrink-0', hideStatusIcon ? 'hidden' : '']">
 					<slot name="iconLeft"></slot>

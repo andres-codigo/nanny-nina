@@ -1,7 +1,7 @@
 <template>
 	<div class="flex flex-col">
 		<h5 class="text-header-five font-bold antialiased my-4">After School Sitter Needed</h5>
-		<a href="#" class="text-blue-500 anchor-with-underline">Amsterdam Sloterdijk, Netherlands</a>
+		<a href="#" target="_self" class="text-blue-500 anchor-with-underline">Amsterdam Sloterdijk, Netherlands</a>
 
 		<h6 class="text-header-six font-bold mt-12 mb-4">To Care For</h6>
 		<p>2 kids > 3yrs (M), 2yrs (F)</p>

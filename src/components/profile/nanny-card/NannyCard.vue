@@ -34,7 +34,7 @@
 					<template #leadingIcon><CalendarIcon class="w-5 h-5"/></template>
 					<template #title>
 						<div class="flex">
-							<div class="flex-none"><p class="text-center text-blue-500 font-thin anchor-with-underline"><a href="#">General availability</a></p></div>
+							<div class="flex-none"><p class="text-center text-blue-500 font-thin anchor-with-underline"><a href="#" target="_self">General availability</a></p></div>
 							<div class="inline-flex items-center justify-center pl-1"><ChevronRightIcon class="w-3 h-3 text-blue-500" /></div>
 						</div>
 					</template>
@@ -45,7 +45,7 @@
 					<template #leadingIcon><ClockIcon class="w-5 h-5 text-gray-100"/></template>
 					<template #title>
 						<div class="flex">
-							<div class="flex-none"><p class="text-center text-gray-100 font-thin anchor-with-underline"><a href="#">Schedule Call</a></p></div>
+							<div class="flex-none"><p class="text-center text-gray-100 font-thin anchor-with-underline"><a href="#" target="_self">Schedule Call</a></p></div>
 							<div class="inline-flex items-center justify-center pl-1"><ChevronRightIcon class="w-3 h-3 text-gray-100" /></div>
 						</div>
 					</template>
@@ -56,7 +56,7 @@
 					<template #leadingIcon><ReplyIcon class="w-5 h-5 text-gray-100"/></template>
 					<template #title>
 						<div class="flex">
-							<div class="flex-none"><p class="text-center text-gray-100 font-thin anchor-with-underline"><a href="#">Motivation</a></p></div>
+							<div class="flex-none"><p class="text-center text-gray-100 font-thin anchor-with-underline"><a href="#" target="_self">Motivation</a></p></div>
 							<div class="inline-flex items-center justify-center pl-1"><ChevronRightIcon class="w-3 h-3 text-gray-100" /></div>
 						</div>
 					</template>

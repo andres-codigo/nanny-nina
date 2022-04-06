@@ -47,7 +47,7 @@
 								</div>
 								<div class="flex flex-row h-20">
 									<div class="inline-flex justify-center items-center w-24">&nbsp;</div>
-									<div class="inline-flex justify-center items-center w-14"><a href="#"><XCircleIcon class="w-6 h-6 text-gray-500" aria-hidden="true" /></a></div>
+									<div class="inline-flex justify-center items-center w-14"><a href="#" target="_self"><XCircleIcon class="w-6 h-6 text-gray-500" aria-hidden="true" /></a></div>
 									<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled placeholder="13:00 - 17:00" /></div>
 									<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></div>
 								</div>

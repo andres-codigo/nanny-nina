@@ -18,7 +18,7 @@
 						</ul>
 					</div>
 					<div class="flex justify-center mt-4">
-						<div class="flex-none"><p class="text-white text-center font-thin anchor-with-underline"><a href="#">Help me choose</a></p></div>
+						<div class="flex-none"><p class="text-white text-center font-thin anchor-with-underline"><a href="#" target="_self">Help me choose</a></p></div>
 						<div class="inline-flex items-center justify-center pl-1"><ChevronRightIcon class="w-5 h-5 text-white" /></div>
 					</div>
 				</form>

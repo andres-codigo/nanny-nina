@@ -70,7 +70,7 @@
 							</svg>
 							</div>
 							<div class="flex-none pl-2">
-								<a href="#" class="text-blue-500 anchor-with-underline">Add another child</a>
+								<a href="#" target="_self" class="text-blue-500 anchor-with-underline">Add another child</a>
 							</div>
 						</div>
 					</div>

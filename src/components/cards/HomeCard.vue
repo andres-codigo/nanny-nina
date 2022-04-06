@@ -3,7 +3,7 @@
 	<a href="/" :class="['h-80 rounded-3xl bg-white-500 hover:opacity-75 focus:outline-none', tempFocusRingColor]">
 		<div :class="['flex flex-row rounded-t-3xl', tempBackgroundColor]">
 			<div class="relative flex grow h-40 rounded-t-3xl overflow-hidden">
-				<a href="#" class="absolute right-0 top-4 w-10"><QuestionMarkCircleIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></a>
+				<a href="#" target="_self" class="absolute right-0 top-4 w-10"><QuestionMarkCircleIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></a>
 				<!--
 					Image component for svg here
 					<Image src="*.svg" />
