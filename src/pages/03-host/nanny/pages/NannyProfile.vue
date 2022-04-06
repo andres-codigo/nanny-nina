@@ -6,7 +6,7 @@
 		</TopNavigation>
 		<main>
 			<div class="h-full flex flex-col mx-4">
-				<NannyCard :parentDetails="parentDetails" />
+				<NannyCard />
 
 				<hr class="border-1 border-gray-50 my-6" />
 
