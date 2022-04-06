@@ -1,8 +1,11 @@
 <!-- TODO: hover, focus for LinkCard's -->
 <template>
 	<div>
+		<TopNavigation backgroundColor="bg-white-500" :dropShadow="false">
+			<template #iconRight><router-link to="/dashboard"><XIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
+		</TopNavigation>
 		<main>
-			<div class="min-h-screen flex flex-col justify-center mx-4">
+			<div class="min-h-screen flex flex-col justify-center pt-12 mx-4">
 				<h5 class="text-left text-header-five font-semibold antialiased mb-2">What kind of nanny do you want?</h5>
 				<div class="inline-flex pb-8">
 					<LinkCard to="dashboard" class="text-white bg-purple-500 hover:bg-purple-300 focus:bg-purple-400" title="One-time">
@@ -34,6 +37,7 @@
 </template>
 
 <script>
+import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
 import LinkCard from '../../../../components/cards/LinkCard.vue'
 import ButtonOutlineDark from '../../../../components/buttons/ButtonOutlineDark.vue'
 import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
@@ -42,6 +46,7 @@ import { XIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
+		TopNavigation,
 		LinkCard,
 		ButtonOutlineDark,
 		ButtonPrimary,
