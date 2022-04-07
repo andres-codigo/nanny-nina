@@ -16,7 +16,7 @@
 			>
 		</div>
 		<div :class="classes" class="min-w-0 flex-1">
-			<label :for="checkboxName" class="font-thin select-none">
+			<label :for="checkboxName" class="select-none">
 				<slot name="text"></slot>
 			</label>
 		</div>
@@ -28,7 +28,7 @@ export default {
 	props: {
 		classes: {
 			type: String,
-			default: 'text-xs'
+			default: 'text-xs font-thin'
 		},
 		checkboxName: String
 	}

@@ -17,7 +17,8 @@
 		<Preferences class="max-w-450-for-dev-not-prod" />
 		<TitleBooking class="max-w-450-for-dev-not-prod" />
 		<UpdateAddress title="Update address?" buttonText="Save &amp; Continue" class="max-w-450-for-dev-not-prod" />
-		<NewOBRequest class="max-w-450-for-dev-not-prod" />
+		<!-- <NewOBRequest class="max-w-450-for-dev-not-prod" /> -->
+		<BookingConfirmation class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 
@@ -40,6 +41,7 @@ import Preferences from './pages/Preferences.vue'
 import TitleBooking from './pages/TitleBooking.vue'
 import UpdateAddress from './pages/UpdateAddress.vue'
 import NewOBRequest from './pages/NewOBRequest.vue'
+import BookingConfirmation from './pages/BookingConfirmation.vue'
 
 export default {
 	components: {
@@ -60,7 +62,8 @@ export default {
 		Preferences,
 		TitleBooking,
 		UpdateAddress,
-		NewOBRequest
+		NewOBRequest,
+		BookingConfirmation
 	}
 }
 </script>
