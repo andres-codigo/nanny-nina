@@ -13,7 +13,7 @@
 						<label for="motivation" class="sr-only">We need your help! We are a Dutch family with two kids (girl 3yrs old and boy 4yrs old). They love to play outside, bake (and eat!) cookies and cake.</label>
 						<p	class="text-sm font-light text-gray-500">We need your help! We are a Dutch family with two kids (girl 3yrs old and boy 4yrs old). They love to play outside, bake (and eat!) cookies and cake.</p>
 						<div class="mt-8">
-							<Textarea text="Motivation for Applying" name="motivation" id="motivation" />
+							<Textarea name="motivation" id="motivation" />
 						</div>
 					</div>
 

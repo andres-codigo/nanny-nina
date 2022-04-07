@@ -56,7 +56,9 @@
 
 					<div class="flex flex-col justify-center items-center mt-14">
 						<p class="mx-8 text-xs font-medium text-center">Thanks for signing up to Nanny Nina! Based on your sign up, we would love to keep you posted with product news and tips!. You can opt out at any time. See our <a href="#" target="_self" class="text-blue-500 anchor-with-underline">Privacy Policy</a> for more information.</p>
-						<CheckboxLeftWithContainerAndLabelRight text="No, please don't send any marketing emails or content" />
+						<CheckboxLeftWithContainerAndLabelRight>
+							<template #text>No, please don't send any marketing emails or content</template>
+						</CheckboxLeftWithContainerAndLabelRight>
 						<div class="mt-12 mb-4">
 							<ButtonPrimary text="Sign up" class="w-button-lg text-xl py-4" />
 						</div>

@@ -15,8 +15,10 @@
 				"
 			>
 		</div>
-		<div class="min-w-0 flex-1 text-xs">
-			<label :for="checkboxName" class="font-thin select-none">{{ text }}</label>
+		<div :class="classes" class="min-w-0 flex-1">
+			<label :for="checkboxName" class="font-thin select-none">
+				<slot name="text"></slot>
+			</label>
 		</div>
 	</div>
 </template>
@@ -24,7 +26,10 @@
 <script>
 export default {
 	props: {
-		text: String,
+		classes: {
+			type: String,
+			default: 'text-xs'
+		},
 		checkboxName: String
 	}
 }
