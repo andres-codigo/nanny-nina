@@ -1,6 +1,6 @@
 <template>
 	<div class="flex flex-wrap grow gap-y-6 gap-x-4">
-		<!-- <LocationPageTemplate title="What's your address?" class="max-w-450-for-dev-not-prod" />
+		<LocationPageTemplate title="What's your address?" class="max-w-450-for-dev-not-prod" />
 		<PreApplicationMediaUploadPhotoPageTemplate class="max-w-450-for-dev-not-prod" />
 		<HomeWithoutMenu class="max-w-450-for-dev-not-prod" />
 		<ServiceOptions class="max-w-450-for-dev-not-prod" />
@@ -16,7 +16,7 @@
 		<PriceBooking class="max-w-450-for-dev-not-prod" />
 		<Preferences class="max-w-450-for-dev-not-prod" />
 		<TitleBooking class="max-w-450-for-dev-not-prod" />
-		<UpdateAddress title="Update address?" buttonText="Save &amp; Continue" class="max-w-450-for-dev-not-prod" /> -->
+		<UpdateAddress title="Update address?" buttonText="Save &amp; Continue" class="max-w-450-for-dev-not-prod" />
 		<NewOBRequest class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>

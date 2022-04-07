@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full">
-		<TopNavigation isPopUpContent="true" backgroundColor="bg-white" headerColor="text-purple-900">
+		<TopNavigation :isPopUpContent="true" backgroundColor="bg-white" headerColor="text-purple-900">
 			<template #iconLeft><router-link to="/dashboard"><XIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
