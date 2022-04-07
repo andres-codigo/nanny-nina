@@ -25,8 +25,8 @@
 
 					<hr class="border-1 border-gray-50 my-6" />
 
-					<h5 class="text-left text-header-five font-semibold antialiased mb-2">Verify account <span class="text-sm text-gray-500">(mandatory)</span></h5>
-					<p	class="text-sm font-light">We don’t charge a fee for placing a booking but we require a mandatory €0.01  verification payment and a €35 monthly membership fee. This is to ensure that all our caregivers are paid for their services, you will only be charged if a match is found.</p>
+					<h5 class="text-left text-header-five font-semibold antialiased mb-2">Verify account</h5>
+					<p	class="text-sm font-light">We don't charge a fee for placing a booking but we require a mandatory €0.01  verification payment and a €35 monthly membership fee. This is to ensure that all our caregivers are paid for their services, you will only be charged if a match is found.</p>
 
 					<div class="flex flex-col justify-center items-center mt-10 mb-20">
 						<div class="grid grid-rows-2 gap-2">

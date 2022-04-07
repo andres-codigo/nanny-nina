@@ -113,7 +113,7 @@
 					<div class="mt-12">
 						<h5 class="text-left text-header-five font-semibold antialiased my-6">Preferred Start Date</h5>
 						<div class="mt-4 grid grid-cols-2 gap-x-2">
-							<div><SelectMenu optionText="- Select number -" labelText="Starting from" /></div>
+							<div><InputField text="Starting from" /></div>
 						</div>
 					</div>
 
@@ -136,6 +136,7 @@
 <script>
 import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
 import ToggleButton from '../../../../components/form/ToggleButton.vue'
+import InputField from '../../../../components/form/InputField.vue'
 import InputFieldTimeEnabled from '../../../../components/form/InputFieldTimeEnabled.vue'
 import InputFieldTimeDisabled from '../../../../components/form/InputFieldTimeDisabled.vue'
 import SelectMenu from '../../../../components/form/SelectMenu.vue'
@@ -147,6 +148,7 @@ export default {
 	components: {
 		TopNavigation,
 		ToggleButton,
+		InputField,
 		InputFieldTimeEnabled,
 		InputFieldTimeDisabled,
 		SelectMenu,

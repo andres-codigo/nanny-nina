@@ -16,7 +16,7 @@
 
 					<div class="mb-10">
 						<div class="mt-4 grid grid-cols-2 gap-x-2">
-							<div><SelectMenu optionText="Sat, 21 /03/2022" labelText="Due date" /></div>
+							<div><InputField text="Due date" /></div>
 						</div>
 					</div>
 
