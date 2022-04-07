@@ -1,6 +1,6 @@
 <template>
 	<a
-		href="#"
+		:href="url"
 		:target="hrefTarget"
 		:class="class"
 		class="
