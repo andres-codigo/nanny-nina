@@ -16,6 +16,7 @@
 		<PriceBooking class="max-w-450-for-dev-not-prod" />
 		<Preferences class="max-w-450-for-dev-not-prod" />
 		<TitleBooking class="max-w-450-for-dev-not-prod" />
+		<UpdateAddress title="Update address?" buttonText="Save &amp; Continue" class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 
@@ -36,6 +37,7 @@ import RequestNote from './pages/RequestNote.vue'
 import PriceBooking from './pages/PriceBooking.vue'
 import Preferences from './pages/Preferences.vue'
 import TitleBooking from './pages/TitleBooking.vue'
+import UpdateAddress from './pages/UpdateAddress.vue'
 
 export default {
 	components: {
@@ -54,7 +56,8 @@ export default {
 		RequestNote,
 		PriceBooking,
 		Preferences,
-		TitleBooking
+		TitleBooking,
+		UpdateAddress
 	}
 }
 </script>
