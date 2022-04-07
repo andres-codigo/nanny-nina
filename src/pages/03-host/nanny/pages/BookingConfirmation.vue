@@ -6,7 +6,7 @@
 		<main>
 			<div class="flex flex-col mx-8 mb-10">
 				<div class="mt-16">
-					<h2 class="text-header-two font-semibold text-green-500 antialiased">Booking request has been sent!</h2>
+					<h2 class="text-header-two text-center font-semibold text-green-500 antialiased">Booking request has been sent!</h2>
 				</div>
 
 				<div class="flex items-center justify-center my-8">
@@ -40,14 +40,14 @@
 				</ul>
 
 				<div class="flex flex-col justify-center items-center mt-7">
-					<CheckboxLeftWithContainerAndLabelRight classes="text-xs font-bold text-white">
+					<CheckboxLeftWithContainerAndLabelRight labelContainerClass="text-xs font-bold text-white" inputClass="text-black">
 						<template #text>Turn on notifications</template>
 					</CheckboxLeftWithContainerAndLabelRight>
 				</div>
 
 				<div class="flex flex-col justify-center items-center mb-12">
-					<ButtonSecondary text="Invite Nannies" class="w-button-xl text-xl py-4" />
-					<a href="#" target="_self" class="anchor-with-underline text-white font-medium pt-6">Learn more about Nannies</a>
+					<AnchorSecondary text="Invite Nannies" class="w-button-xl text-xl py-4" />
+					<a href="#" target="_self" class="anchor-with-underline text-white font-thin pt-6">Learn more about Nannies</a>
 				</div>
 			</div>
 		</main>
@@ -58,7 +58,7 @@
 import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
 import CheckboxLeftWithContainerAndLabelRight from '../../../../components/form/CheckboxLeftWithContainerAndLabelRight.vue'
 import ButtonOutlineLight from '../../../../components/buttons/ButtonOutlineLight.vue'
-import ButtonSecondary from '../../../../components/buttons/ButtonSecondary.vue'
+import AnchorSecondary from '../../../../components/dom-elements/AnchorSecondary.vue'
 
 import { ChevronLeftIcon, CheckCircleIcon } from '@heroicons/vue/solid'
 
@@ -67,7 +67,7 @@ export default {
 		TopNavigation,
 		CheckboxLeftWithContainerAndLabelRight,
 		ButtonOutlineLight,
-		ButtonSecondary,
+		AnchorSecondary,
 		ChevronLeftIcon,
 		CheckCircleIcon
 	}

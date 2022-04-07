@@ -24,7 +24,7 @@
 
 					<div class="flex flex-col justify-center items-center mt-20">
 						<div class="grid grid-rows-2 gap-2">
-							<div><ButtonSecondary text="Request Nanny" class="w-button-xl text-xl py-4" /></div>
+							<div><AnchorSecondary text="Request Nanny" class="w-button-xl text-xl py-4" /></div>
 							<div>
 								<p class="mt-4 font-thin text-white text-center"><a href="#" target="_self" class="anchor-with-underline text-green-600">Learn more about Nannies</a></p>
 							</div>
@@ -38,14 +38,14 @@
 
 <script>
 import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
-import ButtonSecondary from '../../../../components/buttons/ButtonSecondary.vue'
+import AnchorSecondary from '../../../../components/dom-elements/AnchorSecondary.vue'
 
 import { XIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
 		TopNavigation,
-		ButtonSecondary,
+		AnchorSecondary,
 		XIcon
 	}
 }
