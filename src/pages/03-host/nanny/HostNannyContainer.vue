@@ -14,6 +14,7 @@
 		<RecurringBooking class="max-w-450-for-dev-not-prod" />
 		<RequestNote class="max-w-450-for-dev-not-prod" />
 		<PriceBooking class="max-w-450-for-dev-not-prod" />
+		<Preferences class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 
@@ -32,6 +33,7 @@ import OneTimeBooking from './pages/OneTimeBooking.vue'
 import RecurringBooking from './pages/RecurringBooking.vue'
 import RequestNote from './pages/RequestNote.vue'
 import PriceBooking from './pages/PriceBooking.vue'
+import Preferences from './pages/Preferences.vue'
 
 export default {
 	components: {
@@ -48,7 +50,8 @@ export default {
 		OneTimeBooking,
 		RecurringBooking,
 		RequestNote,
-		PriceBooking
+		PriceBooking,
+		Preferences
 	}
 }
 </script>

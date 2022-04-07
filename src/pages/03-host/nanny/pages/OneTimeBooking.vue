@@ -25,7 +25,7 @@
 						<Calendar />
 
 						<p class="text-purple-900 font-semibold mt-16">Workday &amp; time</p>
-						<p class="font-thin mt-6">You haven’t selected any specific day</p>
+						<p class="font-thin mt-6">You haven't selected any specific day</p>
 
 						<div class="grid grid-rows-2 gap-2">
 							<div class="border-b border-gray-50">
