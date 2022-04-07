@@ -82,7 +82,7 @@
 				<time datetime="2022-01-10" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full bg-purple-500 text-white font-bold">10</time>
 			</button>
 			<button type="button" class="py-1.5 font-thin text-purple-900 hover:bg-gray-100 focus:z-10">
-				<time datetime="2022-01-11" class="mx-auto flex h-7 w-7 items-center justify-center rounded-full bg-purple-500 text-white font-bold">11</time>
+				<time datetime="2022-01-11" class="mx-auto flex h-7 w-7 items-center justify-center">11</time>
 			</button>
 			<button type="button" class="py-1.5 font-thin text-purple-900 hover:bg-gray-100 focus:z-10">
 				<time datetime="2022-01-12" class="mx-auto flex h-7 w-7 items-center justify-center">12</time>

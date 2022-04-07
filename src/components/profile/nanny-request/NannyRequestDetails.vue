@@ -1,9 +1,10 @@
 <template>
 	<div class="flex flex-col">
-		<h5 class="text-header-five font-bold antialiased my-4">After School Sitter Needed</h5>
-		<a href="#" target="_self" class="text-blue-500 anchor-with-underline">Amsterdam Sloterdijk, Netherlands</a>
+		<h5 class="text-header-five font-bold antialiased mt-8 mb-4">After School Sitter Needed For 2 days</h5>
 
-		<h6 class="text-header-six font-bold mt-12 mb-4">To Care For</h6>
+		<hr class="border-1 border-gray-50 my-6" />
+
+		<h6 class="text-header-six font-bold mb-4">To Care For</h6>
 		<p>2 kids > 3yrs (M), 2yrs (F)</p>
 
 		<hr class="border-1 border-gray-50 my-6" />

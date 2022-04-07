@@ -24,7 +24,7 @@
 					</div>
 
 					<div class="flex flex-col justify-center items-center mt-14">
-						<p class="text-sm  text-center font-light mt-6 mb-10">Didn't get a code? <a href="#" class="text-blue-500 anchor-with-underline">Resend code</a></p>
+						<p class="text-sm  text-center font-light mt-6 mb-10">Didn't get a code? <a href="#" target="_self" class="text-blue-500 anchor-with-underline">Resend code</a></p>
 						<ButtonPrimary text="Continue" class="w-button-lg text-xl py-4" />
 					</div>
 				</form>

@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full h-full">
-		<TopNavigation text="Nanny Form">
+		<TopNavigation text="Matching Preferences">
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
@@ -34,16 +34,14 @@ import TopNavigation from '../../../../../../components/navigation/TopNavigation
 import CheckboxRightWithContainerAndLabelLeft from '../../../../../../components/form/CheckboxRightWithContainerAndLabelLeft.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
-import { ChevronLeftIcon, PlusIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
+import { ChevronLeftIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
 		TopNavigation,
 		CheckboxRightWithContainerAndLabelLeft,
 		ButtonPrimary,
-		ChevronLeftIcon,
-		PlusIcon,
-		QuestionMarkCircleIcon
+		ChevronLeftIcon
 	}
 }
 </script>

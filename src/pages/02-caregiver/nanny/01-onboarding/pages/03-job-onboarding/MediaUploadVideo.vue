@@ -31,7 +31,7 @@
 						<li class="py-1 flex">
 							<CheckCircleIcon class="w-4 h-4 text-purple-500" aria-hidden="true" />
 							<div class="ml-3">
-								<p class="text-sm leading-none font-thin">Introduce yourself  and why you’ve chosen this</p>
+								<p class="text-sm leading-none font-thin">Introduce yourself  and why you've chosen this</p>
 							</div>
 						</li>
 						<li class="py-1 flex">

@@ -1,6 +1,6 @@
 <template>
 	<textarea
-		rows="8"
+		:rows="rows"
 		:name="name"
 		:id="id"
 		class="
@@ -10,15 +10,22 @@
 			text-gray-600
 			focus:outline-none focus:ring-0 focus:border-purple-500">
 	</textarea>
-	<div class="text-sm text-gray-500 text-right font-light">0/280</div>
+	<div class="text-sm text-gray-500 text-right font-light">0/{{ characterNumber }}</div>
 </template>
 
 <script>
 export default {
 	props: {
-		text: String,
+		rows: {
+			type: String,
+			default: '8'
+		},
 		name: String,
-		id: String
+		id: String,
+		characterNumber: {
+			type: String,
+			default: '280'
+		}
 	}
 }
 </script>

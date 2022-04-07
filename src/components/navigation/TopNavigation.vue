@@ -1,6 +1,6 @@
 <template>
 	<header>
-		<div :class="['flex', backgroundColor, dropShadow ? 'drop-shadow-md' : '']">
+		<div :class="['flex', isPopUpContent ? 'rounded-t-30px' : '', backgroundColor, dropShadow ? 'drop-shadow-md' : '']">
 			<div class="flex-none inline-flex justify-center items-center -ml-1.5 w-14 h-14">
 				<slot name="iconLeft"></slot>
 			</div>
@@ -15,6 +15,10 @@
 <script>
 export default {
 	props: {
+		isPopUpContent: {
+			type: Boolean,
+			default: false
+		},
 		backgroundColor: {
 			type: String,
 			default: 'bg-purple-500'

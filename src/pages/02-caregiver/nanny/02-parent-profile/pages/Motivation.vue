@@ -12,7 +12,7 @@
 					<label for="motivation" class="sr-only">{{ text }}</label>
 					<p	class="text-sm font-light text-gray-500">For example, My name is John Doe, I am a student at UVA, I enjoy cooking, riding a bike , I have 10years work experience etc.</p>
 					<div class="mt-8">
-						<Textarea text="Motivation for Applying" name="motivation" id="motivation" />
+						<Textarea name="motivation" id="motivation" />
 					</div>
 				</div>
 

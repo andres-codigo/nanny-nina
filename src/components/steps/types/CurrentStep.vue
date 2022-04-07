@@ -2,7 +2,7 @@
 <template>
 	<li>
 		<!-- Current Step -->
-		<a href="#" class="relative flex items-center justify-center" aria-current="step">
+		<a href="#" target="_self" class="relative flex items-center justify-center" aria-current="step">
 			<span class="absolute w-5 h-5 p-px flex" aria-hidden="true">
 				<span class="w-full h-full rounded-full bg-lilac-200"></span>
 			</span>

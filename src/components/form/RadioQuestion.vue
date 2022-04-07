@@ -1,9 +1,15 @@
 <template>
 	<fieldset>
 		<legend :class="screenReaderOnly ? 'sr-only' : ''">{{ legend }}</legend>
-		<div class="flex font-medium mb-2">
-			<div class="flex-none"><RadioWithContainerAndLabel :text="questionOneText" /></div>
-			<div class="flex-none pl-8"><RadioWithContainerAndLabel :text="questionTwoText" /></div>
+		<div :class="['flex font-medium mb-2', sideBySideRadioButtons ? '' : 'flex-col ']">
+			<div class="flex-none">
+				<RadioWithContainerAndLabel :sideBySideRadioButtons="sideBySideRadioButtons" :text="questionOneText" />
+				<p :class="['text-xs text-gray-500 font-thin', questionOneSubTextHidden ? 'hidden' : '']">{{ questionOneSubText }}</p>
+			</div>
+			<div :class="['flex-none', sideBySideRadioButtons ? 'pl-8' : '']">
+				<RadioWithContainerAndLabel :sideBySideRadioButtons="sideBySideRadioButtons" :text="questionTwoText" />
+				<p :class="['text-xs text-gray-500 font-thin', questionTwoSubTextHidden ? 'hidden' : '']">{{ questionTwoSubText }}</p>
+			</div>
 		</div>
 	</fieldset>
 </template>
@@ -20,9 +26,23 @@ export default {
 			type: Boolean,
 			default: false
 		},
+		sideBySideRadioButtons: {
+			type: Boolean,
+			default: true
+		},
 		legend: String,
 		questionOneText: String,
-		questionTwoText: String
+		questionOneSubText: String,
+		questionOneSubTextHidden: {
+			type: Boolean,
+			default: true
+		},
+		questionTwoText: String,
+		questionTwoSubText: String,
+		questionTwoSubTextHidden: {
+			type: Boolean,
+			default: true
+		}
 	}
 }
 </script>

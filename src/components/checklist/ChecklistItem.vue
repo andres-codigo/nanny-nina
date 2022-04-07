@@ -1,8 +1,8 @@
 <!-- TODO: bg color for default, hover & focus... overall look of page too -->
 <template>
 	<li>
-		<a href="#" class="block w-full mb-4 border border-gray-100 bg-white hover:bg-gray-200 rounded-30px hover:rounded-30px">
-			<div class="flex items-center px-4 py-4">
+		<a href="#" target="_self" class="block w-full mb-4 border border-gray-100 bg-white hover:bg-gray-200 rounded-30px hover:rounded-30px">
+			<div :class="['flex items-center px-4', hideContent ? 'py-3' : 'py-2']">
 				<div :class="['mr-2 flex-shrink-0', hideStatusIcon ? 'hidden' : '']">
 					<slot name="iconLeft"></slot>
 				</div>
@@ -16,7 +16,7 @@
 						<h5 class="text-left text-header-five font-medium antialiased -mt-2">
 							{{ title }}<span :class="['pl-1 text-red-500', hideStar ? 'hidden' : '']">*</span>
 						</h5>
-						<p class="mt-2 text-sm font-thin" v-if="!hideContent">{{ description }}</p>
+						<p :class="['mt-2 font-thin', isHostOptionDescription ? 'text-xs text-gray-500' : 'text-sm']" v-if="!hideContent">{{ description }}</p>
 					</div>
 
 					<div :class="['inline-flex', showBadge ? 'mt-4' : 'hidden']">
@@ -59,6 +59,10 @@ export default {
 			default: true
 		},
 		showBadge: {
+			type: Boolean,
+			default: false
+		},
+		isHostOptionDescription: {
 			type: Boolean,
 			default: false
 		},

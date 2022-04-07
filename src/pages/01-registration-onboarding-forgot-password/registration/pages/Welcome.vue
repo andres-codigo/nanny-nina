@@ -16,7 +16,7 @@
 						</div>
 					</div>
 				</form>
-				<p class="mx-8 text-xs font-medium text-white text-center">We encourage everyone on our platform to visit our <a href="#" class="anchor-with-underline text-green-600">Trust & Safety</a> and <a href="#" class="anchor-with-underline text-green-600">Privacy Policy</a> to learn more about our commitment to keeping you safe</p>
+				<p class="mx-8 text-xs font-medium text-white text-center">We encourage everyone on our platform to visit our <a href="#" target="_self" class="anchor-with-underline text-green-600">Trust & Safety</a> and <a href="#" target="_self" class="anchor-with-underline text-green-600">Privacy Policy</a> to learn more about our commitment to keeping you safe</p>
 			</div>
 		</main>
 	</div>
