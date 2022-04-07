@@ -1,14 +1,23 @@
 <template>
-	<div>
-		<a href="#" target="_self">
-			<div class="flex flex-row mt-4 mb-12 mx-4">
+	<div :class="['border-b', suggestedNanny ? 'border-b-white bg-lilac-50' : 'border-b-gray-50']">
+		<a href="#" target="_self" class="inline-flex w-full">
+			<div class="flex flex-row w-full mt-4 mb-12 mx-4">
 				<div class="flex-none items-center justify-center w-16">
 					<img class="h-16 w-16 rounded-full" :src="src" alt="">
 				</div>
 				<div class="flex-row w-full ml-4">
 					<div class="inline-flex w-full">
 						<div class="inline-flex grow">
-							<h6 class="text-header-six font-semibold antialiased">{{ title }}</h6>
+							<div class="flex flex-row items-center mb-2" v-if="suggestedNanny">
+								<div class="flex-none grow">
+									<h6 class="text-header-six font-semibold antialiased mr-2">{{ title }}</h6>
+								</div>
+								<div>
+									<Badge text="Suggested" class="text-xs bg-green-500 py-0.5" />
+								</div>
+							</div>
+
+							<h6 class="text-header-six font-semibold antialiased" v-else>{{ title }}</h6>
 						</div>
 						<div class="inline-flex justify-end w-6">
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-red-500" viewBox="0 0 20 20" fill="currentColor" v-if="filledHeart">
@@ -52,10 +61,13 @@
 </template>
 
 <script>
+import Badge from '../badge/Badge.vue'
+
 import { ClockIcon, BriefcaseIcon, LocationMarkerIcon, CashIcon, StarIcon } from '@heroicons/vue/outline'
 
 export default {
 	components: {
+		Badge,
 		ClockIcon,
 		BriefcaseIcon,
 		LocationMarkerIcon,
@@ -67,6 +79,10 @@ export default {
 		title: String,
 		availability: String,
 		filledHeart: {
+			type: Boolean,
+			default: false
+		},
+		suggestedNanny: {
 			type: Boolean,
 			default: false
 		}

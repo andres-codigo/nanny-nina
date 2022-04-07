@@ -3,9 +3,8 @@
 		:class="class"
 		class="
 			inline-flex items-center
-			px-5 py-1.5 mr-2 my-2
+			px-3
 			rounded-full
-			font-semibold
 		">
 		<span>
 			{{ text }}
@@ -19,7 +18,7 @@ export default {
 		text: String,
 		class: {
 			type: String,
-			default: 'bg-gray-50'
+			default: 'bg-gray-50 font-semibold my-2 mr-2 py-1.5 px-5'
 		}
 	}
 }
