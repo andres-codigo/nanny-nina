@@ -17,18 +17,15 @@
 						<template #details><p class="pt-2">I need a nanny on returning days over a longer period</p></template>
 					</LinkCard>
 				</div>
-				<div class="inline-flex pb-8">
+				<div class="inline-flex">
 					<LinkCard to="dashboard" class="text-purple-900 bg-lilac-50 hover:bg-lilac-100 focus:bg-lilac-200" title="Event" >
 						<template #details><p class="pt-2">Book a nanny for birthday, wedding &amp; other special occasions</p></template>
 					</LinkCard>
 				</div>
 
-				<div class="flex flex-col justify-center items-center mt-20">
-					<div class="grid grid-rows-2 gap-2">
-						<div><ButtonPrimary text="Not now" class="w-button-lg text-xl py-4" /></div>
-						<div>
-							<p class="mt-4 font-thin text-center"><a href="#" target="_self" class="anchor-with-underline text-blue-500">Learn more about Nannies</a></p>
-						</div>
+				<div class="flex flex-col justify-center items-center my-20">
+					<div class="grid grid-row">
+						<a href="#" target="_self" class="font-thin text-center anchor-with-underline text-blue-500">Learn more about Nannies</a>
 					</div>
 				</div>
 			</div>
