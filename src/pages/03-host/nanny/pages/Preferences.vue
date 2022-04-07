@@ -8,7 +8,7 @@
 			<div class="flex flex-col px-4 py-6">
 				<form class="w-full" action="#" method="POST">
 					<div class="mt-4 mb-4">
-						<h6 class="text-header-six font-semibold mb-4">Search type</h6>
+						<h5 class="text-header-five font-semibold mb-4">Search type</h5>
 						<RadioQuestion
 							:screenReaderOnly="true"
 							:sideBySideRadioButtons="false"
