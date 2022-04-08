@@ -10,7 +10,7 @@
 		class="
 			w-full
 			px-3 py-2
-			border border-gray-50 placeholder:text-gray-50 rounded-full
+			border border-gray-100 placeholder:text-gray-100 rounded-full
 			text-center font-thin
 			focus:outline-none
 		"
