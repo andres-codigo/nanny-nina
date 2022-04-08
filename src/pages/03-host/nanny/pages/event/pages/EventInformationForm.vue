@@ -9,7 +9,7 @@
 				<form class="w-full" action="#" method="POST">
 					<h5 class="text-left text-header-five font-semibold antialiased my-6">Event Information</h5>
 
-					<div class="mt-4 mb-10">
+					<div class="mb-10">
 						<p class="font-thin">What type of event do you have?</p>
 						<div class="mt-4 grid grid-cols-2 gap-x-2">
 							<div><SelectMenu optionText="- Select number -" /></div>
