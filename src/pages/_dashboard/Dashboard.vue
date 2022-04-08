@@ -167,11 +167,24 @@
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
+							:subItem="true"
 							:hideNotes="true"
 							notes=""
 							date=""
 							routerLinkPath="/host-nanny"
 							title="Onboarding"
+							textColor="text-purple-600"
+							textBadge="In Progress"
+							textColorBadge="text-amber-800"
+							backgroundColorBadge="bg-amber-100"
+						/>
+						<ListItem
+							:subItem="true"
+							:hideNotes="true"
+							notes=""
+							date=""
+							routerLinkPath="/host-nanny-event"
+							title="Event"
 							textColor="text-purple-600"
 							textBadge="In Progress"
 							textColorBadge="text-amber-800"

@@ -25,6 +25,7 @@ import ChildminderAndNannyContainer from '../pages/02-caregiver/childminder-and-
 /* Host - Nanny */
 import HostNannyHome from '../pages/03-host/Home.vue'
 import HostNannyContainer from '../pages/03-host/nanny/HostNannyContainer.vue'
+import HostNannyEvent from '../pages/03-host/nanny/pages/event/EventContainer.vue'
 
 const routes = [
 	{
@@ -99,6 +100,11 @@ const routes = [
 	{
 		path: '/host-nanny',
 		component: HostNannyContainer,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/host-nanny-event',
+		component: HostNannyEvent,
 		meta: { transition: 'slide-right-to-left' }
 	},
 ]
