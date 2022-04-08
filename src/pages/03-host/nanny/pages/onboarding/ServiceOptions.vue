@@ -28,8 +28,8 @@
 </template>
 
 <script>
-import CheckListItem from '../../../../components/checklist/ChecklistItem.vue'
-import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
+import CheckListItem from '../../../../../components/checklist/ChecklistItem.vue'
+import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
 
 import { XIcon, ChevronRightIcon } from '@heroicons/vue/solid'
 

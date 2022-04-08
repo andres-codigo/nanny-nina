@@ -25,9 +25,9 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
-import CalendarAvailability from '../../../../components/calendar/CalendarAvailability.vue'
-import Badge from '../../../../components/badge/Badge.vue'
+import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
+import CalendarAvailability from '../../../../../components/calendar/CalendarAvailability.vue'
+import Badge from '../../../../../components/badge/Badge.vue'
 
 import { ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 

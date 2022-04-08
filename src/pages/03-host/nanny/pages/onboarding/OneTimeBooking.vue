@@ -57,9 +57,9 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
-import Calendar from '../../../../components/calendar/Calendar.vue'
-import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
+import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
+import Calendar from '../../../../../components/calendar/Calendar.vue'
+import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, QuestionMarkCircleIcon, XCircleIcon, PlusIcon } from '@heroicons/vue/solid'
 

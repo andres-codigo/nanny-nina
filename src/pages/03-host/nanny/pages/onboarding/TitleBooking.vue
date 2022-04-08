@@ -41,11 +41,11 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
-import Textarea from '../../../../components/form/Textarea.vue'
-import CheckboxLeftWithContainerAndLabelRight from '../../../../components/form/CheckboxLeftWithContainerAndLabelRight.vue'
-import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
-import ButtonGhost from '../../../../components/buttons/ButtonGhost.vue'
+import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
+import Textarea from '../../../../../components/form/Textarea.vue'
+import CheckboxLeftWithContainerAndLabelRight from '../../../../../components/form/CheckboxLeftWithContainerAndLabelRight.vue'
+import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
+import ButtonGhost from '../../../../../components/buttons/ButtonGhost.vue'
 
 import { ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 

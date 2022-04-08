@@ -14,9 +14,9 @@
 </template>
 
 <script>
-import HomeTemplate from '../../../00-duplicate-pages/home/HomeTemplate.vue'
-import UserProgress from '../../../../components/home/UserProgress.vue'
-import HomeCard from '../../../../components/cards/HomeCard.vue'
+import HomeTemplate from '../../../../00-duplicate-pages/home/HomeTemplate.vue'
+import UserProgress from '../../../../../components/home/UserProgress.vue'
+import HomeCard from '../../../../../components/cards/HomeCard.vue'
 
 export default {
 	components: {

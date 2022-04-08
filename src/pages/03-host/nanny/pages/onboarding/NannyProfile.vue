@@ -117,13 +117,13 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
-import NannyCard from '../../../../components/profile/nanny-card/NannyCard.vue'
-import HeaderParagraphSection from '../../../../components/profile/nanny-card/HeaderParagraphSection.vue'
-import Preferences from '../../../../components/profile/Preferences.vue'
-import Photos from '../../../../components/profile/photos/Photos.vue'
-import Reviews from '../../../../components/profile/Reviews.vue'
-import BadgesEarned from '../../../../components/profile/badges/BadgesEarned.vue'
+import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
+import NannyCard from '../../../../../components/profile/nanny-card/NannyCard.vue'
+import HeaderParagraphSection from '../../../../../components/profile/nanny-card/HeaderParagraphSection.vue'
+import Preferences from '../../../../../components/profile/Preferences.vue'
+import Photos from '../../../../../components/profile/photos/Photos.vue'
+import Reviews from '../../../../../components/profile/Reviews.vue'
+import BadgesEarned from '../../../../../components/profile/badges/BadgesEarned.vue'
 
 import { XIcon, DotsVerticalIcon, StarIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 
