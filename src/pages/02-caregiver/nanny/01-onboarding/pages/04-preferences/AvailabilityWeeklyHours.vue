@@ -7,7 +7,7 @@
 		<main>
 			<div class="flex flex-col px-4 py-6">
 				<h5 class="text-left text-header-five font-semibold antialiased mt-8 mb-2">Availability</h5>
-				<p	class="font-light">Set your weekly hours and add specific dates you may be unavailable</p>
+				<p class="font-light">Set your weekly hours and add specific dates you may be unavailable</p>
 
 				<div class="mt-12">
 					<Tabs

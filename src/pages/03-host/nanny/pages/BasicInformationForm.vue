@@ -9,13 +9,13 @@
 				<form class="w-full" action="#" method="POST">
 					<h5 class="text-left text-header-five font-semibold antialiased my-6">Basic Information</h5>
 
-					<div class="mt-4 mb-4">
+					<div class="mt-4 mb-2">
 						<p class="font-thin">Are you expecting?</p>
 						<RadioQuestion :screenReaderOnly="true" legend="Are you expecting" questionOneText="Yes" questionTwoText="No" />
 					</div>
 
 					<div class="mb-10">
-						<div class="mt-4 grid grid-cols-2 gap-x-2">
+						<div class="mt-2 grid grid-cols-2 gap-x-2">
 							<div><InputField text="Due date" /></div>
 						</div>
 					</div>
