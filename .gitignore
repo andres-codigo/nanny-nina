@@ -13,3 +13,6 @@ coverage
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
+
+[commit]
+    gpgsign = false

@@ -20,8 +20,8 @@
 <script>
 import PricingConfirmation from './PricingConfirmation.vue'
 import RequestNote from './RequestNote.vue'
-import Preferences from '../../../../../components/profile/Preferences.vue'
-import Photos from '../../../../../components/profile/photos/Photos.vue'
+import Preferences from '../../../../../../components/profile/Preferences.vue'
+import Photos from '../../../../../../components/profile/photos/Photos.vue'
 
 export default {
 	components: {

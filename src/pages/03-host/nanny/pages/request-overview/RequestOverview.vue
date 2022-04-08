@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
 import Details from './Details.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'

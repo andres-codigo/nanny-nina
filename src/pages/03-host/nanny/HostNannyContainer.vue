@@ -41,8 +41,8 @@ import PriceBooking from './pages/PriceBooking.vue'
 import Preferences from './pages/Preferences.vue'
 import TitleBooking from './pages/TitleBooking.vue'
 import UpdateAddress from './pages/UpdateAddress.vue'
-import RequestOverview from './request-overview/RequestOverview.vue'
-import RequestOverviewFoldContent from './request-overview/fold/RequestOverviewFoldContent.vue'
+import RequestOverview from './pages/request-overview/RequestOverview.vue'
+import RequestOverviewFoldContent from './pages/request-overview/fold/RequestOverviewFoldContent.vue'
 import BookingConfirmation from './pages/BookingConfirmation.vue'
 
 export default {

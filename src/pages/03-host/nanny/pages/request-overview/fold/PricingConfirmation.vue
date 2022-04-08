@@ -16,8 +16,8 @@
 </template>
 
 <script>
-import ButtonGhost from '../../../../../components/buttons/ButtonGhost.vue'
-import PrimaryButton from '../../../../../components/buttons/ButtonPrimary.vue'
+import ButtonGhost from '../../../../../../components/buttons/ButtonGhost.vue'
+import PrimaryButton from '../../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronRightIcon } from '@heroicons/vue/solid'
 
