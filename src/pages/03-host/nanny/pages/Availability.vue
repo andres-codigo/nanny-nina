@@ -7,7 +7,7 @@
 		<main>
 			<div class="h-screen flex flex-col pt-12 mx-4">
 				<h5 class="text-header-five font-bold antialiased">Brittany's Availability</h5>
-				<p class="text-sm font-thin font-purple-800 mt-2">View her work hours on selected dates</p>
+				<p class="font-thin mt-2">View her work hours on selected dates</p>
 
 				<CalendarAvailability :showButtons="false" class="mb-4" />
 
