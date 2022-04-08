@@ -7,8 +7,8 @@
 		<!-- Solution to how user will edit overview details - title, start date, other dates, duration, etc - to be confirmed -->
 		<div class="inline-flex ">
 			<div class="grid grid-rows-2 grid-flow-col gap-1">
-				<div><h6 class="inline-flex w-full text-header-six font-bold">To Care For</h6></div>
-				<div><p class="inline-flex w-full">2 kids > 3yrs (M), 2yrs (F)</p></div>
+				<div><h6 class="text-header-six font-bold">To Care For</h6></div>
+				<div><p>2 kids > 3yrs (M), 2yrs (F)</p></div>
 			</div>
 		</div>
 
@@ -33,11 +33,8 @@
 <script>
 import Date from './dates/Date.vue'
 
-import { ClockIcon } from '@heroicons/vue/outline'
-
 export default {
 	components: {
-		ClockIcon,
 		Date
 	}
 }
