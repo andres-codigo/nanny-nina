@@ -9,6 +9,44 @@
 				<form class="w-full" action="#" method="POST">
 					<h5 class="text-left text-header-five font-semibold antialiased my-6">Event Information</h5>
 
+					<div class="mt-4 mb-10">
+						<p class="font-thin">What type of event do you have?</p>
+						<div class="mt-4 grid grid-cols-2 gap-x-2">
+							<div><SelectMenu optionText="- Select number -" /></div>
+						</div>
+					</div>
+
+					<div class="flex flex-col mb-10">
+						<p class="font-thin">When is this event happening?</p>
+						<div class="grid grid-cols-2 gap-4 gap-y-6 gap-x-2 mt-4">
+							<div><InputField text="Date" /></div>
+							<div>&nbsp;</div>
+
+							<div><InputField text="Start Time" /></div>
+							<div><InputField text="End Time" /></div>
+						</div>
+					</div>
+
+					<div class="flex flex-col mb-10">
+						<h5 class="text-left text-header-five font-semibold antialiased mb-2">Approximately, how many children do you expect?</h5>
+						<p	class="text-sm font-light">We recommend asking for 1 nanny per +-5 children. This depends on the age of the kids and the activity at the event. For tips / advice, please contact customer care for advice.</p>
+					</div>
+
+					<div class="mb-10">
+						<SelectMenuRightWithTextAndSubtextLeft text="Newborns" subText="2 months old or less" />
+						<SelectMenuRightWithTextAndSubtextLeft text="Infants" subText="2yrs &amp; under" />
+						<SelectMenuRightWithTextAndSubtextLeft text="Toddlers" subText="1-4yrs" />
+						<SelectMenuRightWithTextAndSubtextLeft text="Older Children" subText="7yrs &amp; above" />
+					</div>
+
+					<div class="mb-10">
+						<h5 class="text-left text-header-five font-semibold antialiased mb-2">How many nannies do you need?</h5>
+						<p class="font-thin">Based on total above, We advise at least 2 nannies.</p>
+						<div class="mt-4 grid grid-cols-2 gap-x-2">
+							<div><SelectMenu optionText="1" class="w-24" /></div>
+						</div>
+					</div>
+
 					<div class="flex flex-col justify-center items-center mt-20 mb-10">
 						<ButtonPrimary text="Next" class="w-button-lg text-xl py-4" />
 					</div>
@@ -20,6 +58,9 @@
 
 <script>
 import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import InputField from '../../../../../../components/form/InputField.vue'
+import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
+import SelectMenuRightWithTextAndSubtextLeft from '../../../../../../components/form/SelectMenuRightWithTextAndSubtextLeft.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, PlusIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
@@ -27,6 +68,9 @@ import { ChevronLeftIcon, PlusIcon, QuestionMarkCircleIcon } from '@heroicons/vu
 export default {
 	components: {
 		TopNavigation,
+		InputField,
+		SelectMenu,
+		SelectMenuRightWithTextAndSubtextLeft,
 		ButtonPrimary,
 		ChevronLeftIcon,
 		QuestionMarkCircleIcon
