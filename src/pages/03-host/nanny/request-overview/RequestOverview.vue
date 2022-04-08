@@ -4,8 +4,8 @@
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
-			<div class="h-full flex flex-col mx-4 mt-4">
-				<NannyRequestDetails :parentDetails="parentDetails" />
+			<div class="h-full flex flex-col pt-12 mx-4">
+				<Details />
 			</div>
 		</main>
 	</div>
@@ -13,25 +13,15 @@
 
 <script>
 import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
-import NannyRequestDetails from '../../../../components/profile/nanny-request/NannyRequestDetails.vue'
+import Details from './Details.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
 		TopNavigation,
-		NannyRequestDetails,
+		Details,
 		ChevronLeftIcon
-	},
-	data() {
-    	return {
-      		parentDetails: [
-				{
-					bookingType: 'One-time booking',
-					duration: '2 days'
-				}
-			]
-		}
 	}
 }
 </script>

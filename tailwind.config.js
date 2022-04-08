@@ -131,13 +131,15 @@ module.exports = {
 					XL: 20.5rem / 328px
 
 					INPUT-SMS: 7.125rem / 114px
+					OVERVIEW: 9.375rem / 150px
 				*/
 				'button-xs': '5.5rem',
 				'button-sm': '10.5rem',
 				'button-base': '13rem',
 				'button-lg': '17.428rem',
 				'button-xl': '20.5rem',
-				'button-input-sms': '7.125rem'
+				'button-input-sms': '7.125rem',
+				'button-overview': '9.375rem'
 			},
 			minWidth: {
 				'360-for-dev-not-prod': '360px',

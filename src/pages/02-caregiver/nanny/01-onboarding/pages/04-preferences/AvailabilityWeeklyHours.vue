@@ -22,7 +22,7 @@
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row  h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<ToggleButton backgroundColor="bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-0" text="Sun" />
+								<ToggleButtonTextRight backgroundColor="bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-0" text="Sun" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeDisabled placeholder="Unavailable" /></div>
@@ -33,7 +33,7 @@
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<ToggleButton backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Mon" />
+								<ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Mon" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled value="09:00 - 11:00" /></div>
@@ -50,7 +50,7 @@
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row  h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<ToggleButton backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Tue" />
+								<ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Tue" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled value="09:00 - 17:00" /></div>
@@ -61,7 +61,7 @@
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row  h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<ToggleButton backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Wed" />
+								<ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Wed" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled value="09:00 - 17:00" /></div>
@@ -72,7 +72,7 @@
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row  h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<ToggleButton backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Thur" />
+								<ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Thur" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled value="09:00 - 17:00" /></div>
@@ -83,7 +83,7 @@
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row  h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<ToggleButton backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Fri" />
+								<ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Fri" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled value="09:00 - 17:00" /></div>
@@ -94,7 +94,7 @@
 					<div class="border-b border-gray-50">
 						<div class="flex flex-row  h-20">
 							<div class="inline-flex justify-center items-center w-24">
-								<ToggleButton backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Sat" />
+								<ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Sat" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
 							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled value="09:00 - 17:00" /></div>
@@ -115,7 +115,7 @@
 <script>
 import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
 import Tabs from '../../../../../../components/tabs/Tabs.vue'
-import ToggleButton from '../../../../../../components/form/ToggleButton.vue'
+import ToggleButtonTextRight from '../../../../../../components/form/ToggleButtonTextRight.vue'
 import InputFieldTimeEnabled from '../../../../../../components/form/InputFieldTimeEnabled.vue'
 import InputFieldTimeDisabled from '../../../../../../components/form/InputFieldTimeDisabled.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
@@ -126,7 +126,7 @@ export default {
 	components: {
 		TopNavigation,
 		Tabs,
-		ToggleButton,
+		ToggleButtonTextRight,
 		InputFieldTimeEnabled,
 		InputFieldTimeDisabled,
 		ButtonPrimary,
