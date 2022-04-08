@@ -6,7 +6,7 @@
 		class="
 			block w-full
 			rounded-30px
-			border border-gray-50
+			border border-gray-100
 			text-gray-600
 			focus:outline-none focus:ring-0 focus:border-purple-500">
 	</textarea>
