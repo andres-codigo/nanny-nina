@@ -6,7 +6,7 @@
 		<main>
 			<div class="flex flex-col px-4 py-6">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="text-left text-header-five font-semibold antialiased mt-8 mb-2">Awesome</h5>
+					<h5 class="text-left text-header-five font-semibold antialiased mt-6 mb-2">Awesome</h5>
 					<p	class="font-light">Select the day &amp; add time you need a nanny</p>
 
 					<div class="mt-12">

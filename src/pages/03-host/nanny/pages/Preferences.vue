@@ -5,9 +5,9 @@
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col px-4 py-6">
+			<div class="flex flex-col px-4 pt-12 pb-6">
 				<form class="w-full" action="#" method="POST">
-					<div class="mt-4 mb-4">
+					<div class="mb-4">
 						<h5 class="text-header-five font-semibold mb-4">Search type</h5>
 						<RadioQuestion
 							:screenReaderOnly="true"
