@@ -17,7 +17,7 @@
 		<Preferences class="max-w-450-for-dev-not-prod" />
 		<TitleBooking class="max-w-450-for-dev-not-prod" />
 		<UpdateAddress title="Update address?" buttonText="Save &amp; Continue" class="max-w-450-for-dev-not-prod" />
-		<!-- <NewOBRequest class="max-w-450-for-dev-not-prod" /> -->
+		<NewOBRequest class="max-w-450-for-dev-not-prod" />
 		<BookingConfirmation class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
