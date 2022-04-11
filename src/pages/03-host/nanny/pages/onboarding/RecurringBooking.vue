@@ -6,7 +6,7 @@
 		<main>
 			<div class="flex flex-col px-4 py-6">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="text-left text-header-five font-semibold antialiased mt-6 mb-2">Awesome</h5>
+					<h5 class="text-left text-header-five font-semibold antialiased mt-6 mb-2">Plan your booking</h5>
 					<p	class="font-light">Select the day &amp; add time you need a nanny</p>
 
 					<div class="mt-12">
@@ -118,9 +118,9 @@
 					</div>
 
 					<div class="mt-12">
-						<h5 class="text-left text-header-five font-semibold antialiased my-6">Duration</h5>
+						<h5 class="text-left text-header-five font-semibold antialiased my-6">Duration of booking</h5>
 						<div class="mt-4 grid grid-cols-2 gap-x-2">
-							<div><SelectMenu optionText="- No end -" labelText="How long?" /></div>
+							<div><SelectMenu optionText="- No end -" labelText="Choose" /></div>
 						</div>
 					</div>
 
