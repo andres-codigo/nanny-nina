@@ -23,8 +23,8 @@
 
 					<div class="mb-10">
 						<div class="mb-2">
-							<p class="font-thin mb-4">Do you have pets?</p>
-							<RadioQuestion :screenReaderOnly="true" legend="Do you have pets?" questionOneText="Yes" questionTwoText="No" />
+							<p class="font-thin mb-4">Will there be pets?</p>
+							<RadioQuestion :screenReaderOnly="true" legend="Will there be pets?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
 						<div>
@@ -42,7 +42,7 @@
 					</div>
 
 					<div class="mx-8 mb-10">
-						<CheckboxLeftWithContainerAndLabelRight labelContainerClass="text-xs" inputClass="text-black">
+						<CheckboxLeftWithContainerAndLabelRight labelContainerClass="text-sm" inputClass="text-black">
 							<template #text>I would like to receive the free wedding surprise package for the little ones</template>
 						</CheckboxLeftWithContainerAndLabelRight>
 					</div>
@@ -60,6 +60,7 @@
 import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
 import InputField from '../../../../../../components/form/InputField.vue'
 import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
+import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import CheckboxLeftWithContainerAndLabelRight from '../../../../../../components/form/CheckboxLeftWithContainerAndLabelRight.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
@@ -70,6 +71,7 @@ export default {
 		TopNavigation,
 		InputField,
 		InputFieldBorderBottomOnly,
+		RadioQuestion,
 		CheckboxLeftWithContainerAndLabelRight,
 		ButtonPrimary,
 		ChevronLeftIcon,

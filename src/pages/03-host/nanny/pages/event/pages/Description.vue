@@ -1,13 +1,13 @@
 <template>
-	<div>
+	<div class="w-full h-full">
 		<TopNavigation text="Event Description">
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
-			<div class="h-full flex flex-col pt-6 mx-4">
+			<div class="h-full flex flex-col pt-12 mx-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="text-left text-header-five font-semibold antialiased pt-6">Event Description</h5>
+					<h5 class="text-left text-header-five font-semibold antialiased">Event Description</h5>
 
 					<div class="mt-2 mb-12">
 						<label for="motivation" class="sr-only">Tell us about the activities you expect from the nanny</label>
