@@ -1,5 +1,5 @@
 <template>
-	<div class="bg-purple-500">
+	<div class="w-full bg-purple-500">
 		<TopNavigation backgroundColor="bg-purple-500" :dropShadow="false">
 			<template #iconRight><router-link to="/dashboard"><XIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>

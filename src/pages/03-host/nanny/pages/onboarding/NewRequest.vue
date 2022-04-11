@@ -1,11 +1,11 @@
 <!-- TODO: hover, focus for LinkCard's -->
 <template>
-	<div>
+	<div class="w-full">
 		<TopNavigation backgroundColor="bg-white-500" :dropShadow="false">
 			<template #iconRight><router-link to="/dashboard"><XIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
-			<div class="min-h-screen flex flex-col justify-center pt-12 mx-4">
+			<div class="h-screen flex flex-col justify-center pt-12 mx-4">
 				<h5 class="text-left text-header-five font-semibold antialiased mb-4">What kind of nanny do you want?</h5>
 				<div class="inline-flex pb-8">
 					<LinkCard to="dashboard" class="text-white bg-purple-500 hover:bg-purple-300 focus:bg-purple-400" title="One-time">
@@ -23,10 +23,8 @@
 					</LinkCard>
 				</div>
 
-				<div class="flex flex-col justify-center items-center my-20">
-					<div class="grid grid-row">
-						<a href="#" target="_self" class="anchor-with-underline text-blue-500 text-center font-medium">Learn more about Nannies</a>
-					</div>
+				<div class="flex flex-col justify-center items-center my-4">
+					<a href="#" target="_self" class="anchor-with-underline text-blue-500 text-center font-medium">Learn more about Nannies</a>
 				</div>
 			</div>
 		</main>

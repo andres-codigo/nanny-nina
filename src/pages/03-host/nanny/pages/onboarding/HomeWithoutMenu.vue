@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="w-full h-full">
 		<main>
 			<div class="h-full flex flex-col mx-4">
 				<UserProgress :showCompletionPercentage="false"  welcomeMessage="Welcome, Jane" instruction="Find care now" />

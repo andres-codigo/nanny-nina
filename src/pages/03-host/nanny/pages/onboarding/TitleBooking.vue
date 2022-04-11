@@ -1,11 +1,11 @@
 <template>
-	<div>
+	<div class="w-full">
 		<TopNavigation text="Title Booking">
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
-			<div class="h-full flex flex-col pt-12 mx-4">
+			<div class="h-screen flex flex-col pt-12 mx-4">
 				<form class="w-full" action="#" method="POST">
 					<h5 class="text-left text-header-five font-semibold antialiased">Before we begin your search!</h5>
 
@@ -39,7 +39,7 @@
 						</div>
 					</div>
 
-					<div class="flex flex-col justify-center items-center mt-16">
+					<div class="flex flex-col justify-center items-center my-16">
 						<ButtonPrimary text="Save &amp; Continue" class="w-button-lg text-xl py-4" />
 					</div>
 				</form>
