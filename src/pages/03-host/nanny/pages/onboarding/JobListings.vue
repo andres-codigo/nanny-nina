@@ -4,7 +4,7 @@
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
-			<div class="h-screen">
+			<div class="h-full">
 				<JobListingFilter>
 					<template #filter-one><JobListingFilterItem text="Last minute" /></template>
 					<template #filter-two><JobListingFilterItem text="Recurring" /></template>

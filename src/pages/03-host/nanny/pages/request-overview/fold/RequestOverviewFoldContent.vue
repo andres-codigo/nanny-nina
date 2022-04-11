@@ -1,7 +1,7 @@
 <template>
-	<div class="w-full">
+	<div>
 		<main>
-			<div class="h-screen flex flex-col mx-4">
+			<div class="h-full flex flex-col mx-4">
 				<PricingConfirmation />
 				<RequestNote />
 

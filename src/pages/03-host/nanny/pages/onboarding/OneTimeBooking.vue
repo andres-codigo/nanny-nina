@@ -1,10 +1,10 @@
 <template>
-	<div class="w-full">
+	<div class="w-full h-full">
 		<TopNavigation text="One-time Booking">
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
-			<div class="h-screen flex flex-col px-4 py-6">
+			<div class="flex flex-col px-4 py-6">
 				<form class="w-full" action="#" method="POST">
 					<h5 class="text-left text-header-five font-semibold antialiased mt-6 mb-2">Plan your booking</h5>
 					<p	class="font-light">We generally accept a maximum of 6 days per one-time booking.</p>

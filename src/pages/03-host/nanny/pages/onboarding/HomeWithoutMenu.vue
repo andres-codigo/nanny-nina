@@ -1,7 +1,7 @@
 <template>
-	<div class="w-full">
+	<div class="w-full h-full">
 		<main>
-			<div class="h-screen flex flex-col mx-4">
+			<div class="h-full flex flex-col mx-4">
 				<UserProgress :showCompletionPercentage="false"  welcomeMessage="Welcome, Jane" instruction="Find care now" />
 				<div class="grid grid-rows-3 gap-4">
 					<div><HomeCard tempBackgroundColor="bg-pink-100" tempFocusRingColor="focus:bg-pink-200" :showCompletionSteps="false" user="Nanny" content="Book a  last minute, one-time, recurring or event nanny" /></div>

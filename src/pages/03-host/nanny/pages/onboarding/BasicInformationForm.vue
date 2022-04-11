@@ -1,11 +1,11 @@
 <template>
-	<div class="w-full">
+	<div class="w-full h-full">
 		<TopNavigation text="Basic Information">
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
-			<div class="h-screen flex flex-col pt-6 mx-4">
+			<div class="flex flex-col pt-6 mx-4">
 				<form class="w-full" action="#" method="POST">
 					<h5 class="text-left text-header-five font-semibold antialiased my-6">Basic Information</h5>
 

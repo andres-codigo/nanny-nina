@@ -9,7 +9,7 @@
 					<h2 class="text-header-two text-center font-semibold text-green-500 antialiased">Booking request has been sent!</h2>
 				</div>
 
-				<div class="flex items-center justify-center my-8">
+				<div class="flex items-center justify-center my-32">
 					<!--
 						Image component for svg here
 						<Image src="*.svg" />
