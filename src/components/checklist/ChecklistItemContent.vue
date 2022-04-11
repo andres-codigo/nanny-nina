@@ -1,5 +1,5 @@
 <template>
-	<div :class="['flex items-center px-4', hideContent ? 'py-3' : 'py-2']">
+	<div :class="['flex items-center px-4', hideContent ? 'py-6' : 'py-7']">
 		<div :class="['mr-2 flex-shrink-0', hideStatusIcon ? 'hidden' : '']">
 			<slot name="iconLeft"></slot>
 		</div>
