@@ -1,11 +1,11 @@
 <template>
-	<div class="w-full h-full">
+	<div class="w-full">
 		<TopNavigation text="Preferences">
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col px-4 pt-12 pb-6">
+			<div class="h-screen flex flex-col px-4 pt-12 pb-6">
 				<form class="w-full" action="#" method="POST">
 					<div class="mb-4">
 						<h5 class="text-header-five font-semibold mb-4">Search type</h5>

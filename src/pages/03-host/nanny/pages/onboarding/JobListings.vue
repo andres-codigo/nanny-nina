@@ -1,52 +1,54 @@
 <template>
-	<div class="w-full h-full">
+	<div class="w-full">
 		<TopNavigation text="Nanny">
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
-			<JobListingFilter>
-				<template #filter-one><JobListingFilterItem text="Last minute" /></template>
-				<template #filter-two><JobListingFilterItem text="Recurring" /></template>
-				<template #filter-three><JobListingFilterItem text="Distance" /></template>
-				<template #filter-four><JobListingFilterItem text="Start Date" /></template>
-				<template #filter-five><JobListingFilterItem text="Price" /></template>
-				<template #filter-six><JobListingFilterItem text="One time" /></template>
-			</JobListingFilter>
+			<div class="h-screen">
+				<JobListingFilter>
+					<template #filter-one><JobListingFilterItem text="Last minute" /></template>
+					<template #filter-two><JobListingFilterItem text="Recurring" /></template>
+					<template #filter-three><JobListingFilterItem text="Distance" /></template>
+					<template #filter-four><JobListingFilterItem text="Start Date" /></template>
+					<template #filter-five><JobListingFilterItem text="Price" /></template>
+					<template #filter-six><JobListingFilterItem text="One time" /></template>
+				</JobListingFilter>
 
-			<!--
-				FYI, Tjardo/Aliu, please note that this is a combination of JobListing and Active Explore
+				<!--
+					FYI, Tjardo/Aliu, please note that this is a combination of JobListing and Active Explore
 
-				Job Listing Filter options - Distance, Start Date, Price and One Time
-				Active Explore - Last minute and Recurring
+					Job Listing Filter options - Distance, Start Date, Price and One Time
+					Active Explore - Last minute and Recurring
 
-				'Suggested JobAdNannyCards are is for the 'Active Explore' designs
-			-->
-			<JobAdNannyCard
-				src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
-				title="Brittany (27)"
-				availability="Available to work now"
-				:suggestedNanny="true"
-			/>
-			<JobAdNannyCard
-				src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
-				title="Sadiat (18)"
-				:filledHeart="true"
-				availability="Available from 4pm"
-				:suggestedNanny="true"
-			/>
-			<JobAdNannyCard
-				src="https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
-				title="Maud (22)"
-				availability="Available from 8pm tomorrow"
-			/>
-			<JobAdNannyCard
-				src="https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
-				title="Nour (25)"
-				availability="Available Mon, Tues, Thurs"
-			/>
+					'Suggested JobAdNannyCards are is for the 'Active Explore' designs
+				-->
+				<JobAdNannyCard
+					src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
+					title="Brittany (27)"
+					availability="Available to work now"
+					:suggestedNanny="true"
+				/>
+				<JobAdNannyCard
+					src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
+					title="Sadiat (18)"
+					:filledHeart="true"
+					availability="Available from 4pm"
+					:suggestedNanny="true"
+				/>
+				<JobAdNannyCard
+					src="https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
+					title="Maud (22)"
+					availability="Available from 8pm tomorrow"
+				/>
+				<JobAdNannyCard
+					src="https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
+					title="Nour (25)"
+					availability="Available Mon, Tues, Thurs"
+				/>
 
-			<div class="flex flex-col justify-center items-center my-6">
-				<ButtonOutlineDark class="w-button-lg text-sm text-gray-500 leading-5 py-4" text="Load Next 10" />
+				<div class="flex flex-col justify-center items-center my-6">
+					<ButtonOutlineDark class="w-button-lg text-sm text-gray-500 leading-5 py-4" text="Load Next 10" />
+				</div>
 			</div>
 		</main>
 	</div>

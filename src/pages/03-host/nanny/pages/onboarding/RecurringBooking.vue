@@ -1,10 +1,10 @@
 <template>
-	<div class="w-full h-full">
+	<div class="w-full">
 		<TopNavigation text="Recurring Booking">
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col px-4 py-6">
+			<div class="h-screen flex flex-col px-4 py-6">
 				<form class="w-full" action="#" method="POST">
 					<h5 class="text-left text-header-five font-semibold antialiased mt-6 mb-2">Plan your booking</h5>
 					<p	class="font-light">Select the day &amp; add time you need a nanny</p>
@@ -124,7 +124,7 @@
 						</div>
 					</div>
 
-					<div class="flex flex-col justify-center items-center mt-16">
+					<div class="flex flex-col justify-center items-center my-16">
 						<ButtonPrimary text="Continue" class="w-button-lg text-xl py-4" />
 					</div>
 				</form>

@@ -1,10 +1,10 @@
 <template>
-	<div class="w-full h-full bg-purple-500">
+	<div class="w-full bg-purple-500">
 		<TopNavigation :hideHeader="true">
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col mx-8 mb-10">
+			<div class="h-screen flex flex-col mx-8 mb-10">
 				<div class="mt-16">
 					<h2 class="text-header-two text-center font-semibold text-green-500 antialiased">Booking request has been sent!</h2>
 				</div>
@@ -28,7 +28,7 @@
 					<li class="py-1 flex">
 						<CheckCircleIcon class="w-4 h-4 text-green-500" aria-hidden="true" />
 						<div class="ml-3">
-							<p class="text-sm text-white leading-none font-thin">We’ve suggested profiles, you can also invite more</p>
+							<p class="text-sm text-white leading-none font-thin">We've suggested profiles, you can also invite more</p>
 						</div>
 					</li>
 					<li class="py-1 flex">
@@ -46,8 +46,12 @@
 				</div>
 
 				<div class="flex flex-col justify-center items-center mb-12">
-					<AnchorSecondary text="Invite Nannies" class="w-button-xl text-xl py-4" />
-					<a href="#" target="_self" class="anchor-with-underline text-white font-thin pt-6">Learn more about Nannies</a>
+					<div class="grid grid-rows-2 gap-2">
+						<div><AnchorSecondary text="Invite Nannies" class="w-button-xl text-xl py-4" /></div>
+						<div class="text-center">
+							<a href="#" target="_self" class="inline-flex anchor-with-underline text-white font-medium mt-4">Learn more about Nannies</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</main>
