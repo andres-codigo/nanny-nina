@@ -5,23 +5,21 @@
 		</TopNavigation>
 		<main>
 			<div class="h-screen flex flex-col items-center mt-8 mx-8 bg-purple-500">
-				<form class="w-full mb-2" action="#" method="POST">
-					<div class="mb-44">
-						<h2 class="text-center text-header-two text-green-500 font-semibold antialiased mx-5">Hey Janne!</h2>
-						<h5 class="text-lg text-center text-white font-thin mt-3">What are you looking for?</h5>
-					</div>
-					<div class="flex flex-col justify-center items-center">
-						<ul role="list" class="w-full">
-							<CheckListItem :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isHostOptionDescription="true" title="Au Pair" description="Live in nanny: 375 euro/ month" />
-							<CheckListItem :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isHostOptionDescription="true" title="Nanny" description="Last minute,One-time, Recurring or Event nanny" />
-							<CheckListItem :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isHostOptionDescription="true" title="Childminder" description="Nanny with subsidy: for full days" />
-						</ul>
-					</div>
-					<div class="flex justify-center mt-4">
-						<div class="flex-none"><p class="text-white text-center font-thin anchor-with-underline"><a href="#" target="_self">Help me choose</a></p></div>
-						<div class="inline-flex items-center justify-center pl-1"><ChevronRightIcon class="w-5 h-5 text-white" /></div>
-					</div>
-				</form>
+				<div class="mb-44">
+					<h2 class="text-center text-header-two text-green-500 font-semibold antialiased mx-5">Hey Janne!</h2>
+					<h5 class="text-lg text-center text-white font-thin mt-3">What are you looking for?</h5>
+				</div>
+				<div class="flex flex-col justify-center items-center">
+					<ul role="list" class="w-full">
+						<CheckListItem :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isHostOptionDescription="true" title="Au Pair" description="Live in nanny: 375 euro/ month" />
+						<CheckListItem :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isHostOptionDescription="true" title="Nanny" description="Last minute,One-time, Recurring or Event nanny" />
+						<CheckListItem :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isHostOptionDescription="true" title="Childminder" description="Nanny with subsidy: for full days" />
+					</ul>
+				</div>
+				<div class="flex justify-center mt-4">
+					<div class="flex-none"><p class="text-white text-center font-thin anchor-with-underline"><a href="#" target="_self">Help me choose</a></p></div>
+					<div class="inline-flex items-center justify-center pl-1"><ChevronRightIcon class="w-5 h-5 text-white" /></div>
+				</div>
 			</div>
 		</main>
 	</div>

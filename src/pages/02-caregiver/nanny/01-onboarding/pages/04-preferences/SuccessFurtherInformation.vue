@@ -18,7 +18,7 @@
 				</div>
 				<div>
 					<div class="flex flex-col justify-center items-center mt-96">
-						<ButtonSecondary text="Continue to apply" class="w-button-lg text-xl py-4" />
+						<AnchorSecondary text="Continue to apply" class="w-button-lg text-xl py-4" />
 					</div>
 					<p class="mt-8 font-medium text-white text-center"><a href="#" target="_self" class="anchor-with-underline">Learn more about being a Nanny</a></p>
 				</div>
@@ -29,14 +29,14 @@
 
 <script>
 import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
-import ButtonSecondary from '../../../../../../components/buttons/ButtonSecondary.vue'
+import AnchorSecondary from '../../../../../../components/dom-elements/AnchorSecondary.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
 		TopNavigation,
-		ButtonSecondary,
+		AnchorSecondary,
 		ChevronLeftIcon
 	}
 }

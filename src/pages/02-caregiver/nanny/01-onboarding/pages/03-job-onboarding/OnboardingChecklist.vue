@@ -9,13 +9,13 @@
 				<h5 class="text-left text-header-five font-semibold antialiased mb-6">Complete checklist to begin</h5>
 				<div class="flex flex-col">
 					<ul role="list" class="">
-						<CheckListItem title="Media Upload">
+						<CheckListItem :checkListItemIsHyperlink="true" title="Media Upload">
 							<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-green-800" aria-hidden="true" /></template>
 						</CheckListItem>
-						<CheckListItem title="Nanny Form">
+						<CheckListItem :checkListItemIsHyperlink="true" title="Nanny Form">
 							<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-gray-500" aria-hidden="true" /></template>
 						</CheckListItem>
-						<CheckListItem title="Preferences">
+						<CheckListItem :checkListItemIsHyperlink="true" title="Preferences">
 							<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-gray-500" aria-hidden="true" /></template>
 						</CheckListItem>
 					</ul>
@@ -44,6 +44,12 @@ export default {
 		ChevronLeftIcon,
 		QuestionMarkCircleIcon,
 		CheckCircleIcon
+	},
+	props: {
+		checkListItemIsHyperlink: {
+			type: Boolean,
+			default: true
+		}
 	}
 }
 </script>

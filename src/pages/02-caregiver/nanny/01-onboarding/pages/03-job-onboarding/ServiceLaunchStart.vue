@@ -12,10 +12,10 @@
 
 				<div class="flex flex-col justify-center items-center mt-96">
 					<div class="grid grid-rows-2 gap-2">
-						<div><ButtonOutlineLight text="Not now, I'm exploring" class="w-button-xl text-xl py-4 text-white border-white hover:border-lilac-400 focus:border-green-500" /></div>
-						<div><ButtonSecondary text="Get Started" class="w-button-xl text-xl py-4" /></div>
+						<div><AnchorOutlineLight text="Not now, I'm exploring" class="w-button-xl text-xl py-4 text-white border-white hover:border-lilac-400 focus:border-green-500" /></div>
+						<div><AnchorSecondary text="Get Started" class="w-button-xl text-xl py-4" /></div>
 					</div>
-					<p class="mt-8 font-thin text-white text-center"><a href="#" target="_self" class="anchor-with-underline text-green-600">Learn more about being a Nanny</a></p>
+					<a href="#" target="_self" class="anchor-with-underline text-white text-center font-medium mt-8">Learn more about being a Nanny</a>
 				</div>
 			</div>
 		</main>
@@ -24,16 +24,16 @@
 
 <script>
 import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
-import ButtonOutlineLight from '../../../../../../components/buttons/ButtonOutlineLight.vue'
-import ButtonSecondary from '../../../../../../components/buttons/ButtonSecondary.vue'
+import AnchorOutlineLight from '../../../../../../components/dom-elements/AnchorOutlineLight.vue'
+import AnchorSecondary from '../../../../../../components/dom-elements/AnchorSecondary.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
 		TopNavigation,
-		ButtonOutlineLight,
-		ButtonSecondary,
+		AnchorOutlineLight,
+		AnchorSecondary,
 		ChevronLeftIcon
 	}
 }
