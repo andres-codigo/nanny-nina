@@ -7,8 +7,8 @@
 			</div>
 		</div>
 		<div class="basis-2/3">
-			<div class="flex justify-end">
-				<div class="inline-flex px-6"><ButtonGhost text="Cancel" /></div>
+			<div class="flex justify-start">
+				<div class="inline-flex pr-4"><ButtonGhost text="Cancel" /></div>
 				<div class="inline-flex"><PrimaryButton text="Complete" class="w-button-overview py-4" /></div>
 			</div>
 		</div>

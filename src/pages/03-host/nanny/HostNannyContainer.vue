@@ -16,7 +16,7 @@
 		<PriceBooking class="max-w-450-for-dev-not-prod" />
 		<Preferences class="max-w-450-for-dev-not-prod" />
 		<TitleBooking class="max-w-450-for-dev-not-prod" />
-		<UpdateAddress title="Update address?" buttonText="Save &amp; Continue" class="max-w-450-for-dev-not-prod" />
+		<VerifyAccount title="Update address?" buttonText="Save &amp; Continue" class="max-w-450-for-dev-not-prod" />
 		<RequestOverview class="max-w-450-for-dev-not-prod" />
 		<RequestOverviewFoldContent class="max-w-450-for-dev-not-prod" />
 		<BookingConfirmation class="max-w-450-for-dev-not-prod" />
@@ -40,7 +40,7 @@ import RequestNote from './pages/onboarding/RequestNote.vue'
 import PriceBooking from './pages/onboarding/PriceBooking.vue'
 import Preferences from './pages/onboarding/Preferences.vue'
 import TitleBooking from './pages/onboarding/TitleBooking.vue'
-import UpdateAddress from './pages/onboarding/UpdateAddress.vue'
+import VerifyAccount from './pages/onboarding/VerifyAccount.vue'
 import RequestOverview from './pages/request-overview/RequestOverview.vue'
 import RequestOverviewFoldContent from './pages/request-overview/fold/RequestOverviewFoldContent.vue'
 import BookingConfirmation from './pages/onboarding/BookingConfirmation.vue'
@@ -63,7 +63,7 @@ export default {
 		PriceBooking,
 		Preferences,
 		TitleBooking,
-		UpdateAddress,
+		VerifyAccount,
 		RequestOverview,
 		RequestOverviewFoldContent,
 		BookingConfirmation

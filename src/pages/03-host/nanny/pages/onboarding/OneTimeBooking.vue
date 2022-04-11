@@ -6,8 +6,8 @@
 		<main>
 			<div class="flex flex-col px-4 py-6">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="text-left text-header-five font-semibold antialiased mt-6 mb-2">Awesome</h5>
-					<p	class="font-light">Select the day &amp; add time you need a nanny</p>
+					<h5 class="text-left text-header-five font-semibold antialiased mt-6 mb-2">Plan your booking</h5>
+					<p	class="font-light">We generally accept a maximum of 6 days per one-time booking.</p>
 
 					<div class="mt-12">
 						<div class="flex items-center justify-between">
@@ -21,6 +21,8 @@
 								<span aria-hidden="true" class="translate-x-0 pointer-events-none inline-block h-5 w-5 rounded-full bg-white shadow transform ring-0 transition ease-in-out duration-200"></span>
 							</button>
 						</div>
+
+						<h4 class="text-left text-header-four font-semibold antialiased mt-12 mb-4">Dates &amp; Time Needed</h4>
 
 						<Calendar />
 

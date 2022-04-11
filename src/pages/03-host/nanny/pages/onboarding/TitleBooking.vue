@@ -13,26 +13,34 @@
 						<label for="personalise-your-booking" class="sr-only">Personalize your booking</label>
 						<p	class="text-sm font-light text-gray-500">Personalize your booking</p>
 						<div class="mt-8">
-							<Textarea rows="2" name="personalise-your-booking" id="personalise-your-booking" characterNumber="35" />
+							<Textarea rows="3" name="personalise-your-booking" id="personalise-your-booking" characterNumber="35" />
 						</div>
 					</div>
 
-					<div class="flex flex-col justify-center items-center">
-						<CheckboxLeftWithContainerAndLabelRight>
+					<div class="mb-10">
+						<CheckboxLeftWithContainerAndLabelRight inputClass="h-5 w-5 text-purple-500" labelContainerClass="text-base">
 							<template #text>Use my address, <a href="#" target="_self" class="anchor-with-underline text-blue-500">update address</a>?</template>
 						</CheckboxLeftWithContainerAndLabelRight>
 					</div>
 
-					<hr class="border-1 border-gray-50 my-6" />
-
-					<h5 class="text-left text-header-five font-semibold antialiased mb-2">Verify account</h5>
-					<p	class="text-sm font-light">We don't charge a fee for placing a booking but we require a mandatory €0.01  verification payment and a €35 monthly membership fee. This is to ensure that all our caregivers are paid for their services, you will only be charged if a match is found.</p>
-
-					<div class="flex flex-col justify-center items-center mt-10 mb-20">
-						<div class="grid grid-rows-2 gap-2">
-							<div><ButtonPrimary text="Verify" class="w-button-lg text-xl py-4" /></div>
-							<div><ButtonGhost text="Cancel" /></div>
+					<div class="flex flex-col">
+						<div class="grid grid-cols-2 gap-4 gap-y-6 gap-x-2">
+							<div><InputField text="Country" /></div>
+							<div><InputField text="Postcode" /></div>
 						</div>
+
+						<div class="grid grid-cols-1 gap-4 gap-y-6 gap-x-2 mt-6">
+							<div><InputField text="Number, Home Address" /></div>
+						</div>
+
+						<div class="grid grid-cols-2 gap-4 gap-y-6 gap-x-2 mt-6">
+							<div><InputField text="Province" /></div>
+							<div><InputField text="State/City" /></div>
+						</div>
+					</div>
+
+					<div class="flex flex-col justify-center items-center mt-16">
+						<ButtonPrimary text="Save &amp; Continue" class="w-button-lg text-xl py-4" />
 					</div>
 				</form>
 			</div>
@@ -44,6 +52,7 @@
 import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
 import Textarea from '../../../../../components/form/Textarea.vue'
 import CheckboxLeftWithContainerAndLabelRight from '../../../../../components/form/CheckboxLeftWithContainerAndLabelRight.vue'
+import InputField from '../../../../../components/form/InputField.vue'
 import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 import ButtonGhost from '../../../../../components/buttons/ButtonGhost.vue'
 
@@ -54,6 +63,7 @@ export default {
 		TopNavigation,
 		Textarea,
 		CheckboxLeftWithContainerAndLabelRight,
+		InputField,
 		ButtonPrimary,
 		ButtonGhost,
 		ChevronLeftIcon,

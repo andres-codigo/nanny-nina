@@ -8,7 +8,6 @@
 				type="checkbox"
 				:class="inputClass"
 				class="
-					h-3 w-3
 					checked:ring-1 checked:ring-offset-2 checked:ring-gray-400
 					focus:ring-gray-400
 					border-1 border-gray-400
@@ -28,7 +27,7 @@ export default {
 	props: {
 		inputClass: {
 			type: String,
-			default: 'text-purple-500'
+			default: 'h-3 w-3 text-purple-500'
 		},
 		labelContainerClass: {
 			type: String,

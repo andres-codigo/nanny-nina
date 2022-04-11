@@ -6,7 +6,7 @@
 		</TopNavigation>
 		<main>
 			<div class="min-h-screen flex flex-col justify-center pt-12 mx-4">
-				<h5 class="text-left text-header-five font-semibold antialiased mb-2">What kind of nanny do you want?</h5>
+				<h5 class="text-left text-header-five font-semibold antialiased mb-4">What kind of nanny do you want?</h5>
 				<div class="inline-flex pb-8">
 					<LinkCard to="dashboard" class="text-white bg-purple-500 hover:bg-purple-300 focus:bg-purple-400" title="One-time">
 						<template #details><p class="text-white pt-2">Urgent nanny for single or multiple days. Maximum 12days </p></template>
@@ -25,7 +25,7 @@
 
 				<div class="flex flex-col justify-center items-center my-20">
 					<div class="grid grid-row">
-						<a href="#" target="_self" class="font-thin text-center anchor-with-underline text-blue-500">Learn more about Nannies</a>
+						<a href="#" target="_self" class="anchor-with-underline text-blue-500 text-center font-medium">Learn more about Nannies</a>
 					</div>
 				</div>
 			</div>
