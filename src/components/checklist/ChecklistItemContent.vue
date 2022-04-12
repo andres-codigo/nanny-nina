@@ -1,9 +1,9 @@
 <template>
-	<div :class="['flex items-center px-4', hideContent ? 'py-6' : 'py-7']">
+	<div :class="['flex items-center px-4', hideContent ? 'py-6' : 'py-2']">
 		<div :class="['mr-2 flex-shrink-0', hideStatusIcon ? 'hidden' : '']">
 			<slot name="iconLeft"></slot>
 		</div>
-		<div :class="['flex-1', hideContent ? 'my-2' : 'my-4 mx-2']">
+		<div :class="['flex-1', hideContent ? 'my-2' : 'my-4 ml-2']">
 
 			<div :class="['flex text-xs relative -top-2', hidePending ? 'hidden' : '']">
 				<p class="font-thin text-gray-500">Pending (0/2)</p>
