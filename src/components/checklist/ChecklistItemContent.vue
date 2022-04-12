@@ -10,10 +10,10 @@
 			</div>
 
 			<div class="flex-1">
-				<h5 class="text-left text-header-five font-medium antialiased -mt-2">
+				<h5 class="text-left text-header-five text-purple-900 font-semibold antialiased -mt-2">
 					{{ title }}<span :class="['pl-1 text-red-500', hideMandatoryRedStar ? 'hidden' : '']">*</span>
 				</h5>
-				<p :class="['mt-2 font-thin', isHostOptionDescription ? 'text-xs text-gray-500' : 'text-sm']" v-if="!hideContent">{{ description }}</p>
+				<span :class="['inline-flex mt-2 font-medium', isHostOptionDescription ? 'text-xs' : 'text-sm']" v-if="!hideContent">{{ description }}</span>
 			</div>
 
 			<div :class="['inline-flex', showBadge ? 'mt-4' : 'hidden']">
@@ -21,7 +21,7 @@
 				<ButtonOutlineGrey text="&euro;15" class="text-sm w-20 py-3" />
 			</div>
 		</div>
-		<div :class="['ml-5 flex-shrink-0', hideHyperlinkIcon ? 'hidden' : '']">
+		<div :class="['ml-2 w-5', hideHyperlinkIcon ? 'hidden' : '']">
 			<ChevronRightIcon class="relative right-0 top-1 w-5 h-5 text-gray-400" aria-hidden="true" />
 		</div>
 	</div>
