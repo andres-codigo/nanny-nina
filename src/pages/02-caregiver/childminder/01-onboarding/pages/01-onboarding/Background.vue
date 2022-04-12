@@ -36,29 +36,18 @@
 
 <script>
 import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
-import RadioWithContainerAndLabel from '../../../../../../components/form/RadioWithContainerAndLabel.vue'
-import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
 import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
-import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
-import ButtonOutlineDark from '../../../../../../components/buttons/ButtonOutlineDark.vue'
-import BadgeRemove from '../../../../../../components/badge/BadgeRemove.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
-import { ChevronLeftIcon, PlusIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
+import { ChevronLeftIcon, PlusIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
 		TopNavigation,
-		RadioWithContainerAndLabel,
-		SelectMenu,
 		RadioQuestion,
-		InputFieldBorderBottomOnly,
-		ButtonOutlineDark,
-		BadgeRemove,
 		ButtonPrimary,
 		ChevronLeftIcon,
 		PlusIcon,
-		QuestionMarkCircleIcon
 	}
 }
 </script>
