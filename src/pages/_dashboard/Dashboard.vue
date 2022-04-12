@@ -72,9 +72,9 @@
 					</ul>
 				</div>
 				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-2 text-sm font-medium text-white antialiased">
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-2 text-sm font-medium antialiased">
 						<p class="text-md text-white font-bold leading-none">Caregiver: </p>
-						<p class="text-md text-white">Childminder &amp; Nanny</p>
+						<p class="text-md text-white">Nanny &amp; Childminder</p>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
@@ -121,33 +121,51 @@
 						/>
 						<ListItem
 							:subItem="true"
-							:hideNotes="true"
-							notes=""
-							date=""
+							:hideNotes="false"
+							notes="Waiting on reply to design questions"
+							date="12/04/22"
 							routerLinkPath="/nanny-service-onboarding"
 							title="Onboarding"
 							textColor="text-purple-600"
 							textBadge="Completed"
-							textColorBadge="text-white"
-							backgroundColorBadge="bg-green-800"
+							textColorBadge="text-red-800"
+							backgroundColorBadge="bg-red-100"
 						/>
+						<ListItem
+							:subItem="true"
+							:hideNotes="false"
+							notes="Waiting on reply to design questions"
+							date="12/04/22"
+							routerLinkPath="/nanny-parent-profile"
+							title="Parent Profile"
+							textColor="text-purple-600"
+							textBadge="Completed"
+							textColorBadge="text-red-800"
+							backgroundColorBadge="bg-red-100"
+						/>
+					</ul>
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-16 pr-4 py-4 text-sm font-medium text-gray-600">
+						<h3><span class="font-bold">Childminder</span> </h3>
+					</div>
+					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
 							:subItem="true"
 							:hideNotes="true"
 							notes=""
 							date=""
-							routerLinkPath="/nanny-parent-profile"
-							title="Parent Profile"
+							routerLinkPath="/childminder-service-onboarding"
+							title="Onboarding"
 							textColor="text-purple-600"
-							textBadge="Completed"
-							textColorBadge="text-white"
-							backgroundColorBadge="bg-green-800"
+							textBadge="In Progress"
+							textColorBadge="text-amber-800"
+							backgroundColorBadge="bg-amber-100"
 						/>
 					</ul>
 				</div>
 				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-4 text-sm font-medium text-white antialiased">
-						<h3><span class="font-bold">Host: </span>Childminder &amp; Nanny</h3>
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-2 text-sm font-medium text-white antialiased">
+						<p class="text-md text-white font-bold leading-none">Host: </p>
+						<p class="text-md text-white">Childminder &amp; Nanny</p>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
@@ -168,27 +186,27 @@
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
 							:subItem="true"
-							:hideNotes="true"
-							notes=""
-							date=""
+							:hideNotes="false"
+							notes="Waiting on reply to design questions"
+							date="12/04/22"
 							routerLinkPath="/host-nanny"
 							title="Onboarding"
 							textColor="text-purple-600"
-							textBadge="In Progress"
-							textColorBadge="text-amber-800"
-							backgroundColorBadge="bg-amber-100"
+							textBadge="UI/Design Updates"
+							textColorBadge="text-red-800"
+							backgroundColorBadge="bg-red-100"
 						/>
 						<ListItem
 							:subItem="true"
-							:hideNotes="true"
-							notes=""
-							date=""
+							:hideNotes="false"
+							notes="Waiting on reply to design questions"
+							date="12/04/22"
 							routerLinkPath="/host-nanny-event"
 							title="Event"
 							textColor="text-purple-600"
-							textBadge="In Progress"
-							textColorBadge="text-amber-800"
-							backgroundColorBadge="bg-amber-100"
+							textBadge="UI/Design Updates"
+							textColorBadge="text-red-800"
+							backgroundColorBadge="bg-red-100"
 						/>
 					</ul>
 				</div>

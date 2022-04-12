@@ -19,8 +19,11 @@ import ChildminderAndNannyContainer from '../pages/02-caregiver/childminder-and-
 	/* Caregiver - Nanny */
 	import HomeWithoutBottomMenu from '../pages/00-duplicate-pages/home/HomeWithoutMenuTemplate.vue'
 	import JobListings from '../pages/02-caregiver/nanny/01-onboarding/pages/02-job-listings/JobListings.vue'
-	import OnboardingContainer from '../pages/02-caregiver/nanny/01-onboarding/OnboardingContainer.vue'
+	import NannyOnboardingContainer from '../pages/02-caregiver/nanny/01-onboarding/OnboardingContainer.vue'
 	import ParentProfileContainer from '../pages/02-caregiver/nanny/02-parent-profile/ParentProfileContainer.vue'
+
+	/* Caregiver - Childminder */
+	import ChildminderOnboardingContainer from '../pages/02-caregiver/childminder/01-onboarding/OnboardingContainer.vue'
 
 /* Host - Nanny */
 import HostNannyHome from '../pages/03-host/Home.vue'
@@ -84,12 +87,17 @@ const routes = [
 	},
 	{
 		path: '/nanny-service-onboarding',
-		component: OnboardingContainer,
+		component: NannyOnboardingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
 		path: '/nanny-parent-profile',
 		component: ParentProfileContainer,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/childminder-service-onboarding',
+		component: ChildminderOnboardingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
