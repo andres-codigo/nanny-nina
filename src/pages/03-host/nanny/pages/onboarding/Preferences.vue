@@ -5,7 +5,7 @@
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
-			<div class="h-screen flex flex-col px-4 pt-12 pb-6">
+			<div class="flex flex-col pt-12 mx-4">
 				<form class="w-full" action="#" method="POST">
 					<div class="mb-4">
 						<h5 class="text-header-five font-semibold mb-4">Search type</h5>

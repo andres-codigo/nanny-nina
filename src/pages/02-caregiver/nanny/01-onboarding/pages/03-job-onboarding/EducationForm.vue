@@ -10,12 +10,19 @@
 
 					<div class="mt-4 mb-8">
 						<h6 class="text-header-six font-medium mb-4">Current Education Status</h6>
-						<fieldset>
-							<legend class="sr-only">Current Education Status</legend>
-							<RadioWithContainerAndLabel text="Currently enrolled" />
-							<RadioWithContainerAndLabel text="Completed" />
-							<RadioWithContainerAndLabel text="I don't have a formal education" />
-						</fieldset>
+
+						<RadioQuestion
+							:screenReaderOnly="true"
+							:sideBySideRadioButtons="false"
+							:isQuestionOne="true"
+							questionOneText="Currently enrolled"
+							:questionOneSubTextHidden="true"
+							questionTwoText="Completed"
+							:questionTwoSubTextHidden="true"
+							:hasThirdQuestion="true"
+							questionThreeText="I don't have a formal education"
+							:questionThreeSubTextHidden="true"
+						/>
 					</div>
 
 					<div class="mb-10">

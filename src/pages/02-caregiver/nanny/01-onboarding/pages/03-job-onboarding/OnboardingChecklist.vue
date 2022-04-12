@@ -5,7 +5,7 @@
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col px-4 pt-12">
+			<div class="flex flex-col pt-12 mx-4">
 				<h5 class="text-left text-header-five font-semibold antialiased mb-6">Complete checklist to begin</h5>
 				<div class="flex flex-col">
 					<ul role="list" class="">
