@@ -127,7 +127,7 @@
 							routerLinkPath="/nanny-service-onboarding"
 							title="Onboarding"
 							textColor="text-purple-600"
-							textBadge="Completed"
+							textBadge="UI/Design Updates"
 							textColorBadge="text-red-800"
 							backgroundColorBadge="bg-red-100"
 						/>
@@ -139,7 +139,7 @@
 							routerLinkPath="/nanny-parent-profile"
 							title="Parent Profile"
 							textColor="text-purple-600"
-							textBadge="Completed"
+							textBadge="UI/Design Updates"
 							textColorBadge="text-red-800"
 							backgroundColorBadge="bg-red-100"
 						/>
