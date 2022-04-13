@@ -5,7 +5,7 @@
 			<template #iconRight><DotsVerticalIcon class="w-6 h-6 text-purple-900" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
-			<div class="h-full flex flex-col mx-4">
+			<div class="flex flex-col mx-4">
 				<NannyCard />
 
 				<hr class="border-1 border-gray-50 my-6" />

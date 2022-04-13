@@ -47,3 +47,12 @@ export default {
 	}
 }
 </script>
+
+<style scoped>
+.no-add-remove-on-input::-webkit-outer-spin-button,
+.no-add-remove-on-input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+</style>

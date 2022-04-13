@@ -5,7 +5,7 @@
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col px-4 pt-12">
+			<div class="flex flex-col pt-12 mx-4">
 				<form class="w-full" action="#" method="POST">
 					<h5 class="text-left text-header-five font-semibold antialiased mb-2">Let's help you find more jobs</h5>
 					<p	class="font-light">You can always adjust this later in your profile</p>

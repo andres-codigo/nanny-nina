@@ -1,6 +1,6 @@
 <!-- TODO: focus behavior for radio -->
 <template>
-	<div :class="['relative flex items-start', sideBySideRadioButtons ? 'py-2' : 'pt-2']">
+	<div :class="['relative flex items-start', sideBySideRadioButtons ? 'py-2' : '', isQuestionOne ? '' : 'pt-2']">
 		<div class="min-w-0 flex-1">
 			<label for="radio" class="font-light text-purple-800">{{ text }}</label>
 		</div>
@@ -27,7 +27,8 @@
 export default {
 	props: {
 		text: String,
-		sideBySideRadioButtons: Boolean
+		sideBySideRadioButtons: Boolean,
+		isQuestionOne: Boolean
 	}
 }
 </script>

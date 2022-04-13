@@ -4,18 +4,24 @@
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col pt-6 mx-4">
+			<div class="flex flex-col pt-12 mx-4">
 				<form class="w-full" action="#" method="POST">
 					<h5 class="text-left text-header-five font-semibold antialiased my-6">Education <span class="text-base text-gray-500">(optional)</span></h5>
 
-					<div class="mt-4 mb-8">
+					<div class="mb-8">
 						<p class="font-thin mb-4">What is your current education status?</p>
-						<fieldset>
-							<legend class="sr-only">Current Education Status</legend>
-							<RadioWithContainerAndLabel text="Currently enrolled" />
-							<RadioWithContainerAndLabel text="Completed" />
-							<RadioWithContainerAndLabel text="I don't have a formal education" />
-						</fieldset>
+						<RadioQuestion
+							:screenReaderOnly="true"
+							:sideBySideRadioButtons="false"
+							:isQuestionOne="true"
+							questionOneText="Currently enrolled"
+							:questionOneSubTextHidden="true"
+							questionTwoText="Completed"
+							:questionTwoSubTextHidden="true"
+							:hasThirdQuestion="true"
+							questionThreeText="I don't have a formal education"
+							:questionThreeSubTextHidden="true"
+						/>
 					</div>
 
 					<div class="mb-10">

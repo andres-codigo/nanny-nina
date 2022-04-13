@@ -1,11 +1,11 @@
 <!-- TODO: hover, focus for LinkCard's -->
 <template>
-	<div class="w-full">
+	<div class="w-full h-full">
 		<TopNavigation backgroundColor="bg-white-500" :dropShadow="false">
 			<template #iconRight><router-link to="/dashboard"><XIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
-			<div class="h-screen flex flex-col justify-center pt-12 mx-4">
+			<div class="flex flex-col justify-center pt-12 mx-4">
 				<h5 class="text-left text-header-five font-semibold antialiased mb-4">What kind of nanny do you want?</h5>
 				<div class="inline-flex pb-8">
 					<LinkCard to="dashboard" class="text-white bg-purple-500 hover:bg-purple-300 focus:bg-purple-400" title="One-time">
