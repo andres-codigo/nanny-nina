@@ -21,7 +21,7 @@
 							questionTwoSubText="You are unregistered with the government and can only work at parent's"
 							:questionTwoSubTextHidden="false"
 							:hasThirdQuestion="true"
-							questionThreeText="I don't have a formal education"
+							questionThreeText="I don't know yet"
 							questionThreeSubText="I'll figure it out later"
 							:questionThreeSubTextHidden="false"
 						/>
@@ -29,8 +29,8 @@
 
 					<div class="mb-20">
 						<div>
-							<h5 class="text-header-five font-semibold antialiased mb-4">Safety Document</h5>
-							<p class="font-thin mb-4">Are you First Aid certified?</p>
+							<h5 class="text-header-five font-semibold antialiased mb-4">Safety Document <span class="text-sm text-gray-500">(optional)</span></h5>
+							<p class="font-thin mb-4">Do you have a VOG safety document?</p>
 							<RadioQuestion :screenReaderOnly="true" legend="Are you First Aid certified?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
@@ -64,6 +64,51 @@
 								<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
 							</div>
 						</div>
+
+						<div class="mt-12">
+							<MultiplePhotoUpload description="Add pictures of your home" />
+						</div>
+					</div>
+
+					<div class="mb-10">
+						<div class="mb-2">
+							<p class="font-thin mb-4">Do you have pets?</p>
+							<RadioQuestion :screenReaderOnly="true" legend="Do you have pets?" questionOneText="Yes" questionTwoText="No" />
+						</div>
+
+						<div>
+							<p class="font-thin">Please specify</p>
+
+							<div class="flex">
+								<div class="grow h-14">
+									<InputFieldBorderBottomOnly type="text" />
+								</div>
+								<div class="flex-none inline-flex justify-center items-center w-14 h-14">
+									<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="mb-10">
+						<div class="mb-8">
+							<h5 class="text-header-five font-semibold antialiased mb-4">Allergies</h5>
+							<p class="font-thin mb-4">Are you allergic to pets?</p>
+							<RadioQuestion :screenReaderOnly="true" legend="Do you have any allergies?" questionOneText="Yes" questionTwoText="No" />
+						</div>
+
+						<div>
+							<p class="font-thin">Please specify</p>
+
+							<div class="flex">
+								<div class="grow h-14">
+									<InputFieldBorderBottomOnly type="text" />
+								</div>
+								<div class="flex-none inline-flex justify-center items-center w-14 h-14">
+									<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
+								</div>
+							</div>
+						</div>
 					</div>
 
 					<div class="flex flex-col justify-center items-center mt-20">
@@ -80,6 +125,7 @@ import TopNavigation from '../../../../../../components/navigation/TopNavigation
 import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
 import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
+import MultiplePhotoUpload from '../../../../../../components/media/multiple-upload/MultiplePhotoUpload.vue'
 import ButtonOutlineDark from '../../../../../../components/buttons/ButtonOutlineDark.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
@@ -91,6 +137,7 @@ export default {
 		RadioQuestion,
 		SelectMenu,
 		InputFieldBorderBottomOnly,
+		MultiplePhotoUpload,
 		ButtonOutlineDark,
 		ButtonPrimary,
 		ChevronLeftIcon,
