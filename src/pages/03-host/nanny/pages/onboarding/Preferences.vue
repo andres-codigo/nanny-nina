@@ -7,12 +7,14 @@
 		<main>
 			<div class="flex flex-col pt-12 mx-4">
 				<form class="w-full" action="#" method="POST">
+					<h5 class="text-header-five font-semibold antialiased mb-6">Customise your preferences</h5>
+
 					<div class="mb-4">
-						<h5 class="text-header-five font-semibold mb-4">Search type</h5>
+						<p class="font-thin mb-4">What kind of profile would you like to receive?</p>
 						<RadioQuestion
 							:screenReaderOnly="true"
 							:sideBySideRadioButtons="false"
-							questionOneText="Receive childminder profiles"
+							questionOneText="Both nanny and childminder profiles"
 							questionOneSubText="We'll invite childminders to your booking"
 							:questionOneSubTextHidden="false"
 							questionTwoText="Nannies only"

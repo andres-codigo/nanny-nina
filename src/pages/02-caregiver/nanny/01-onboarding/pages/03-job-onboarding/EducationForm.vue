@@ -9,8 +9,7 @@
 					<h5 class="text-left text-header-five font-semibold antialiased my-6">Education <span class="text-base text-gray-500">(optional)</span></h5>
 
 					<div class="mb-8">
-						<h6 class="text-header-six font-medium mb-4">Current Education Status</h6>
-
+						<p class="font-thin mb-4">What is your current education status?</p>
 						<RadioQuestion
 							:screenReaderOnly="true"
 							:sideBySideRadioButtons="false"
