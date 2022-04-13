@@ -5,14 +5,16 @@
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
-			<div class="h-screen flex flex-col px-4 pt-12 pb-6">
+			<div class="flex flex-col px-4 pt-12 pb-6">
 				<form class="w-full" action="#" method="POST">
+					<h5 class="text-header-five font-semibold antialiased mb-6">Customise your preferences</h5>
+
 					<div class="mb-4">
-						<h5 class="text-header-five font-semibold mb-4">Search type</h5>
+						<p class="font-thin mb-4">What kind of profile would you like to receive?</p>
 						<RadioQuestion
 							:screenReaderOnly="true"
 							:sideBySideRadioButtons="false"
-							questionOneText="Receive childminder profiles"
+							questionOneText="Both nanny and childminder profiles"
 							questionOneSubText="We'll invite childminders to your booking"
 							:questionOneSubTextHidden="false"
 							questionTwoText="Nannies only"
