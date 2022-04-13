@@ -14,7 +14,7 @@
 						<RadioQuestion
 							:screenReaderOnly="true"
 							:sideBySideRadioButtons="false"
-							questionOneText="Receive childminder profiles"
+							questionOneText="Both nanny and childminder profiles"
 							questionOneSubText="We'll invite childminders to your booking"
 							:questionOneSubTextHidden="false"
 							questionTwoText="Nannies only"
