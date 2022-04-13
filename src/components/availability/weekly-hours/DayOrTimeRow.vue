@@ -1,5 +1,5 @@
 <template>
-	<div class="flex flex-row  h-20">
+	<div class="flex flex-row h-20">
 		<div class="inline-flex justify-center items-center availability-toggle-button">
 			<slot name="toggleDay"></slot>
 		</div>

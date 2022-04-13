@@ -4,7 +4,7 @@
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col pt-12 mx-4">
+			<div class="flex flex-col py-12 mx-4">
 				<form class="w-full" action="#" method="POST">
 					<div class="mb-10">
 						<h5 class="text-left text-header-five font-semibold antialiased mb-4">Type of Childminder</h5>

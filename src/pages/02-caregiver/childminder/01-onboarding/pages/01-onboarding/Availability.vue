@@ -5,8 +5,8 @@
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col px-4 py-6">
-				<h5 class="text-left text-header-five font-semibold antialiased mt-8 mb-2">Availability</h5>
+			<div class="flex flex-col py-12 mx-4">
+				<h5 class="text-left text-header-five font-semibold antialiased mb-4">Availability</h5>
 				<p class="font-light">Set your weekly hours and add specific dates you may be unavailable</p>
 
 				<div class="mt-12">
