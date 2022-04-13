@@ -6,8 +6,8 @@
 		autocomplete="date"
 		required
 		:value="value"
+		:class="classes"
 		class="
-			w-full
 			px-3 py-2
 			border border-gray-500 rounded-full
 			text-center text-purple-900 font-thin
@@ -19,7 +19,11 @@
 <script>
 export default {
 	props: {
-		value: String
+		value: String,
+		classes: {
+			type: String,
+			default: 'w-full'
+		}
 	}
 }
 </script>
