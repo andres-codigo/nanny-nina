@@ -20,86 +20,72 @@
 					/>
 
 					<div class="border-b border-gray-50">
-						<div class="flex flex-row  h-20">
-							<div class="inline-flex justify-center items-center w-24">
-								<ToggleButtonTextRight backgroundColor="bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-0" text="Sun" />
-							</div>
-							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
-							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeDisabled placeholder="Unavailable" /></div>
-							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-gray-500" aria-hidden="true" /></div>
-						</div>
+						<DayOrTimeAvailabilityRow>
+							<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-0" text="Sun" /></template>
+							<template #removeIcon>&nbsp;</template>
+							<template #inputHours><InputFieldTimeDisabled class="availability-input-time-only mr-2" placeholder="Unavailable" /></template>
+							<template #AddIcon><PlusIcon class="w-6 h-6 text-gray-500" aria-hidden="true" /></template>
+						</DayOrTimeAvailabilityRow>
 					</div>
 
 					<div class="border-b border-gray-50">
-						<div class="flex flex-row h-20">
-							<div class="inline-flex justify-center items-center w-24">
-								<ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Mon" />
-							</div>
-							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
-							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled value="09:00 - 11:00" /></div>
-							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></div>
-						</div>
-						<div class="flex flex-row h-20">
-							<div class="inline-flex justify-center items-center w-24">&nbsp;</div>
-							<div class="inline-flex justify-center items-center w-14"><a href="#" target="_self"><XCircleIcon class="w-6 h-6 text-gray-500" aria-hidden="true" /></a></div>
-							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled value="13:00 - 17:00" /></div>
-							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></div>
-						</div>
+						<DayOrTimeAvailabilityRow>
+							<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Mon" /></template>
+							<template #removeIcon>&nbsp;</template>
+							<template #inputHours><InputFieldTimeEnabled class="availability-input-time-only mr-2" value="09:00 - 11:00" /></template>
+							<template #AddIcon><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></template>
+						</DayOrTimeAvailabilityRow>
+						<DayOrTimeAvailabilityRow>
+							<template #toggleDay>&nbsp;</template>
+							<template #removeIcon><XCircleIcon class="w-6 h-6 text-gray-500" aria-hidden="true" /></template>
+							<template #inputHours><InputFieldTimeEnabled class="availability-input-time-only mr-2" value="13:00 - 17:00" /></template>
+							<template #AddIcon><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></template>
+						</DayOrTimeAvailabilityRow>
 					</div>
 
 					<div class="border-b border-gray-50">
-						<div class="flex flex-row  h-20">
-							<div class="inline-flex justify-center items-center w-24">
-								<ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Tue" />
-							</div>
-							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
-							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled value="09:00 - 17:00" /></div>
-							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></div>
-						</div>
+						<DayOrTimeAvailabilityRow>
+							<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Tue" /></template>
+							<template #removeIcon>&nbsp;</template>
+							<template #inputHours><InputFieldTimeEnabled class="availability-input-time-only mr-2" value="09:00 - 11:00" /></template>
+							<template #AddIcon><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></template>
+						</DayOrTimeAvailabilityRow>
 					</div>
 
 					<div class="border-b border-gray-50">
-						<div class="flex flex-row  h-20">
-							<div class="inline-flex justify-center items-center w-24">
-								<ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Wed" />
-							</div>
-							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
-							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled value="09:00 - 17:00" /></div>
-							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></div>
-						</div>
+						<DayOrTimeAvailabilityRow>
+							<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Wed" /></template>
+							<template #removeIcon>&nbsp;</template>
+							<template #inputHours><InputFieldTimeEnabled class="availability-input-time-only mr-2" value="09:00 - 11:00" /></template>
+							<template #AddIcon><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></template>
+						</DayOrTimeAvailabilityRow>
 					</div>
 
 					<div class="border-b border-gray-50">
-						<div class="flex flex-row  h-20">
-							<div class="inline-flex justify-center items-center w-24">
-								<ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Thur" />
-							</div>
-							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
-							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled value="09:00 - 17:00" /></div>
-							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></div>
-						</div>
+						<DayOrTimeAvailabilityRow>
+							<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Thur" /></template>
+							<template #removeIcon>&nbsp;</template>
+							<template #inputHours><InputFieldTimeEnabled class="availability-input-time-only mr-2" value="09:00 - 11:00" /></template>
+							<template #AddIcon><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></template>
+						</DayOrTimeAvailabilityRow>
 					</div>
 
 					<div class="border-b border-gray-50">
-						<div class="flex flex-row  h-20">
-							<div class="inline-flex justify-center items-center w-24">
-								<ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Fri" />
-							</div>
-							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
-							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled value="09:00 - 17:00" /></div>
-							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></div>
-						</div>
+						<DayOrTimeAvailabilityRow>
+							<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Fri" /></template>
+							<template #removeIcon>&nbsp;</template>
+							<template #inputHours><InputFieldTimeEnabled class="availability-input-time-only mr-2" value="09:00 - 11:00" /></template>
+							<template #AddIcon><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></template>
+						</DayOrTimeAvailabilityRow>
 					</div>
 
 					<div class="border-b border-gray-50">
-						<div class="flex flex-row  h-20">
-							<div class="inline-flex justify-center items-center w-24">
-								<ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Sat" />
-							</div>
-							<div class="inline-flex justify-center items-center w-14">&nbsp;</div>
-							<div class="inline-flex grow justify-center items-center px-4"><InputFieldTimeEnabled value="09:00 - 17:00" /></div>
-							<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></div>
-						</div>
+						<DayOrTimeAvailabilityRow>
+							<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Sat" /></template>
+							<template #removeIcon>&nbsp;</template>
+							<template #inputHours><InputFieldTimeEnabled class="availability-input-time-only mr-2" value="09:00 - 11:00" /></template>
+							<template #AddIcon><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></template>
+						</DayOrTimeAvailabilityRow>
 					</div>
 
 				</div>
@@ -115,6 +101,7 @@
 <script>
 import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
 import Tabs from '../../../../../../components/tabs/Tabs.vue'
+import DayOrTimeAvailabilityRow from '../../../../../../components/availability/weekly-hours/DayOrTimeRow.vue'
 import ToggleButtonTextRight from '../../../../../../components/form/ToggleButtonTextRight.vue'
 import InputFieldTimeEnabled from '../../../../../../components/form/InputFieldTimeEnabled.vue'
 import InputFieldTimeDisabled from '../../../../../../components/form/InputFieldTimeDisabled.vue'
@@ -126,6 +113,7 @@ export default {
 	components: {
 		TopNavigation,
 		Tabs,
+		DayOrTimeAvailabilityRow,
 		ToggleButtonTextRight,
 		InputFieldTimeEnabled,
 		InputFieldTimeDisabled,

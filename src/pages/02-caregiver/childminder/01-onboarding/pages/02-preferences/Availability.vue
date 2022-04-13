@@ -20,39 +20,39 @@
 					/>
 
 					<div class="border-b border-gray-50">
-						<DayOrTimeAvailabilityRow>
+						<DayOrTimeAvailabilityRow :rowWithTimeInputOnly="false">
 							<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-0" text="Sun" /></template>
 							<template #removeIcon>&nbsp;</template>
-							<template #inputHours><InputFieldTimeDisabled class="availability-small-time-input mr-2" placeholder="Unavailable" /></template>
-							<template #inputNumberOfKids><InputFieldTimeDisabled class="availability-no-of-kids-input" placeholder="No of kids" /></template>
+							<template #inputHours><InputFieldTimeDisabled class="availability-input-time-with-no-kids-input mr-2" placeholder="Unavailable" /></template>
+							<template #inputNumberOfKids><InputFieldTimeDisabled class="availability-input-no-of-kids" placeholder="No of kids" /></template>
 							<template #AddIcon><PlusIcon class="w-6 h-6 text-gray-500" aria-hidden="true" /></template>
 						</DayOrTimeAvailabilityRow>
 					</div>
 
 					<div class="border-b border-gray-50">
-						<DayOrTimeAvailabilityRow>
+						<DayOrTimeAvailabilityRow :rowWithTimeInputOnly="false">
 							<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Mon" /></template>
 							<template #removeIcon>&nbsp;</template>
-							<template #inputHours><InputFieldTimeEnabled class="availability-small-time-input mr-2" value="09:00- 17:00" /></template>
-							<template #inputNumberOfKids><InputFieldTimeEnabled class="availability-no-of-kids-input" value="3" /></template>
+							<template #inputHours><InputFieldTimeEnabled class="availability-input-time-with-no-kids-input mr-2" value="09:00- 17:00" /></template>
+							<template #inputNumberOfKids><InputFieldTimeEnabled class="availability-input-no-of-kids" value="3" /></template>
 							<template #AddIcon>&nbsp;</template>
 						</DayOrTimeAvailabilityRow>
 
-						<DayOrTimeAvailabilityRow>
+						<DayOrTimeAvailabilityRow :rowWithTimeInputOnly="false">
 							<template #toggleDay>&nbsp;</template>
 							<template #removeIcon><XCircleIcon class="w-6 h-6 text-gray-500" aria-hidden="true" /></template>
-							<template #inputHours><InputFieldTimeEnabled class="availability-small-time-input mr-2" value="17:00- 22:00" /></template>
-							<template #inputNumberOfKids><InputFieldTimeEnabled class="availability-no-of-kids-input" value="3" /></template>
+							<template #inputHours><InputFieldTimeEnabled class="availability-input-time-with-no-kids-input mr-2" value="17:00- 22:00" /></template>
+							<template #inputNumberOfKids><InputFieldTimeEnabled class="availability-input-no-of-kids" value="3" /></template>
 							<template #AddIcon><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></template>
 						</DayOrTimeAvailabilityRow>
 					</div>
 
 					<div class="border-b border-gray-50">
-						<DayOrTimeAvailabilityRow>
+						<DayOrTimeAvailabilityRow :rowWithTimeInputOnly="false">
 							<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Tue" /></template>
 							<template #removeIcon>&nbsp;</template>
-							<template #inputHours><InputFieldTimeEnabled class="availability-small-time-input mr-2" value="09:00- 17:00" /></template>
-							<template #inputNumberOfKids><InputFieldTimeEnabled class="availability-no-of-kids-input" value="3" /></template>
+							<template #inputHours><InputFieldTimeEnabled class="availability-input-time-with-no-kids-input mr-2" value="09:00- 17:00" /></template>
+							<template #inputNumberOfKids><InputFieldTimeEnabled class="availability-input-no-of-kids" value="3" /></template>
 							<template #AddIcon><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></template>
 						</DayOrTimeAvailabilityRow>
 					</div>

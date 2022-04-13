@@ -3,11 +3,11 @@
 		<nav class="-mb-px flex relative text-lg text-center font-semibold antialiased" aria-label="Tabs">
 			<a href="#" target="_self" :class="['flex-1 py-4 px-1', tabOneClasses]">
 				{{ tabOneText }}
-				<span :class="['inline-flex absolute left-[4.2rem] top-[3.7rem] w-20 border-b-2 border-purple-500', tabOneIsActive ? '' : 'hidden']"></span>
+				<span :class="['inline-flex absolute left-[3.2rem] top-[3.7rem] w-20 border-b-2 border-purple-500', tabOneIsActive ? '' : 'hidden']"></span>
 			</a>
 			<a href="#" target="_self" :class="['flex-1 py-4 px-1', tabTwoClasses]">
 				{{ tabTwoText }}
-				<span :class="['inline-flex absolute left-[17.5rem] top-[3.7rem] w-20 border-b-2 border-purple-500', tabTwoIsActive ? '' : 'hidden']"></span>
+				<span :class="['inline-flex absolute left-[14.5rem] top-[3.7rem] w-20 border-b-2 border-purple-500', tabTwoIsActive ? '' : 'hidden']"></span>
 			</a>
 		</nav>
 	</div>
