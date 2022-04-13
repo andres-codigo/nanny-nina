@@ -4,15 +4,15 @@
 		<div :class="['flex font-medium mb-2', sideBySideRadioButtons ? '' : 'flex-col ']">
 			<div class="flex-none mb-2">
 				<RadioWithContainerAndLabel :isQuestionOne="true" :sideBySideRadioButtons="sideBySideRadioButtons" :text="questionOneText" />
-				<p :class="['text-xs text-gray-500 font-thin', questionOneSubTextHidden ? 'hidden' : '']">{{ questionOneSubText }}</p>
+				<p :class="['text-xs w-3/4 text-gray-500 font-thin', questionOneSubTextHidden ? 'hidden' : '']">{{ questionOneSubText }}</p>
 			</div>
 			<div :class="['flex-none mb-2', sideBySideRadioButtons ? 'pl-8' : '']">
 				<RadioWithContainerAndLabel :sideBySideRadioButtons="sideBySideRadioButtons" :text="questionTwoText" />
-				<p :class="['text-xs text-gray-500 font-thin', questionTwoSubTextHidden ? 'hidden' : '']">{{ questionTwoSubText }}</p>
+				<p :class="['text-xs w-3/4 text-gray-500 font-thin', questionTwoSubTextHidden ? 'hidden' : '']">{{ questionTwoSubText }}</p>
 			</div>
 			<div :class="['flex-none mb-2', sideBySideRadioButtons ? 'pl-8' : '']" v-if="hasThirdQuestion">
 				<RadioWithContainerAndLabel :sideBySideRadioButtons="sideBySideRadioButtons" :text="questionThreeText" />
-				<p :class="['text-xs text-gray-500 font-thin', questionThreeSubTextHidden ? 'hidden' : '']">{{ questionThreeSubText }}</p>
+				<p :class="['text-xs w-3/4 text-gray-500 font-thin', questionThreeSubTextHidden ? 'hidden' : '']">{{ questionThreeSubText }}</p>
 			</div>
 		</div>
 	</fieldset>

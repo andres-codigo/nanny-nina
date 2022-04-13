@@ -5,19 +5,23 @@
 
 		<!-- 02 Preferences Checklist -->
 		<Availability class="max-w-450-for-dev-not-prod" />
+		<MatchingPreferences class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
+
 <script>
 /* 01 Onboarding */
 import Background from '../01-onboarding/pages/01-onboarding/Background.vue'
 
 /* 02 Preferences Checklist */
-import Availability from '../01-onboarding/pages/01-onboarding/Availability.vue'
+import Availability from './pages/02-preferences/Availability.vue'
+import MatchingPreferences from './pages/02-preferences/MatchingPreferences.vue'
 
 export default {
 	components: {
 		Background,
-		Availability
+		Availability,
+		MatchingPreferences
 	}
 }
 </script>
