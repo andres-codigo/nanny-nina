@@ -32,18 +32,29 @@
 	@apply min-w-[96px];
 }
 
-.availability-remove-button {
-	@apply min-w-[40px];
-}
-
 .availability-add-button {
 	@apply min-w-[24px];
+	@apply pr-2;
 }
 
-.availability-small-time-input {
-	@apply min-w-[140px];
+.availability-remove-button {
+	@apply min-w-[55px];
 }
 
-.availability-no-of-kids-input {
-	@apply min-w-[100px];
+	/* Time Input Only */
+	.availability-input-time-only {
+		@apply max-w-[227px];
+	}
+
+	/* Time & Number of Kids Inputs */
+	.availability-input-time-with-no-kids-input {
+		@apply min-w-[140px];
+	}
+
+	.availability-input-no-of-kids {
+		@apply min-w-[100px];
+	}
+
+.availability-remove-button-time-and-kids {
+	@apply min-w-[40px];
 }
