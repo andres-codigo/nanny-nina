@@ -16,7 +16,7 @@
 
 					<div class="mb-10">
 						<div class="mt-2 grid grid-cols-2 gap-x-2">
-							<div><InputField text="Due date" /></div>
+							<div><InputField :hasLeadingIcon="true" inputIconType="calendar" text="Due date" /></div>
 						</div>
 					</div>
 
@@ -31,7 +31,7 @@
 						<p class="font-thin">Who needs a nanny?</p>
 						<div class="grid grid-cols-2 gap-4 gap-y-6 gap-x-2 mt-4">
 							<div><InputField text="First name" /></div>
-							<div><SelectMenu optionText="DD/MM/YYYY" labelText="Date of birth" /></div>
+							<div><InputField :hasLeadingIcon="true" inputIconType="calendar" placeholder="DD/MM/YYYY" text="Date of birth" /></div>
 
 							<div><SelectMenu labelText="Gender" /></div>
 						</div>
