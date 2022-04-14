@@ -18,7 +18,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="flex w-12 justify-end items-center">
+		<div class="flex grow justify-end items-center mr-4">
 			<CheckboxRightWithContainerAndLabelLeft />
 		</div>
 	</div>
