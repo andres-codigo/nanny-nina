@@ -1,16 +1,8 @@
 <template>
-	<div class="flex mt-6">
-		<div class="basis-1/2">
-			<div class="grid grid-rows-2">
-				<div class="text-xl"><span class="text-2xl font-bold">&euro;13-15</span>/hr</div>
-				<div class="text-xl font-bold">2km away</div>
-			</div>
-		</div>
-		<div class="basis-1/2 items-center justify-center">
-			<AnchorPrimary text="Apply" class="w-button-sm py-4" />
-		</div>
-		<slot name="trailingIcon"></slot>
-	</div>
+	<FixedBottomContentAndButton anchorText="Apply">
+		<template #topText><span class="text-2xl font-bold">&euro;13-15</span>/hr</template>
+		<template #bottomText>2km away</template>
+	</FixedBottomContentAndButton>
 
 	<div class="flex flex-col mt-14">
 		<h5 class="text-header-five font-bold antialiased">Request Note</h5>
@@ -23,13 +15,13 @@
 </template>
 
 <script>
-import AnchorPrimary from '../../../../../../components/dom-elements/AnchorPrimary.vue'
+import FixedBottomContentAndButton from '../../../../../../components/fixed/FixedBottomContentAndButton.vue'
 
 import { ChevronRightIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
-		AnchorPrimary,
+		FixedBottomContentAndButton,
 		ChevronRightIcon
 	}
 }
