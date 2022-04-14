@@ -5,7 +5,7 @@
 		</TopNavigation>
 		<main>
 			<JobListingFilter>
-				<template #filter-one><JobListingFilterItem text="Distance" /></template>
+				<template #filter-one><JobListingFilterItemSelected text="Distance" /></template>
 				<template #filter-two><JobListingFilterItem text="Start Date" /></template>
 				<template #filter-three><JobListingFilterItem text="Price" /></template>
 				<template #filter-four><JobListingFilterItem text="One time" /></template>
@@ -56,6 +56,7 @@ import TopNavigation from '../../../../../../components/navigation/TopNavigation
 
 import JobListingFilter from '../../../../../../components/filter/JobListingFilter.vue'
 import JobListingFilterItem from '../../../../../../components/filter/JobListingFilterItem.vue'
+import JobListingFilterItemSelected from '../../../../../../components/filter/JobListingFilterItemSelected.vue'
 
 import JobAdCard from '../../../../../../components/cards/JobAdCard.vue'
 
@@ -66,6 +67,7 @@ export default {
 		TopNavigation,
 		JobListingFilter,
 		JobListingFilterItem,
+		JobListingFilterItemSelected,
 		JobAdCard,
 		ChevronLeftIcon
 	}
