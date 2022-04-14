@@ -7,7 +7,7 @@
 			</div>
 		</div>
 		<div class="basis-1/2 items-center justify-center">
-			<PrimaryButton text="Apply" class="w-button-sm py-4" />
+			<AnchorPrimary text="Apply" class="w-button-sm py-4" />
 		</div>
 		<slot name="trailingIcon"></slot>
 	</div>
@@ -23,13 +23,13 @@
 </template>
 
 <script>
-import PrimaryButton from '../../../../../../components/buttons/ButtonPrimary.vue'
+import AnchorPrimary from '../../../../../../components/dom-elements/AnchorPrimary.vue'
 
 import { ChevronRightIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
-		PrimaryButton,
+		AnchorPrimary,
 		ChevronRightIcon
 	}
 }

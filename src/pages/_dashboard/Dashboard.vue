@@ -208,6 +208,18 @@
 							textColorBadge="text-red-800"
 							backgroundColorBadge="bg-red-100"
 						/>
+						<ListItem
+							:subItem="true"
+							:hideNotes="true"
+							notes=""
+							date=""
+							routerLinkPath="/host-nanny-availability-w-sticky-button"
+							title="Availability with sticky button"
+							textColor="text-purple-600"
+							textBadge="Completed"
+							textColorBadge="text-white"
+							backgroundColorBadge="bg-green-800"
+						/>
 					</ul>
 				</div>
 			</nav>
