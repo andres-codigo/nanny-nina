@@ -21,10 +21,10 @@
 				</div>
 			</div>
 			<section class="block fixed inset-x-0 w-full bottom-0 z-10 bg-white border-t border-gray min-w-360-for-dev-not-prod">
-				<ContentAndButton anchorText="Invite">
+				<FixedBottomContentAndButton anchorText="Invite">
 					<template #topText><span class="text-2xl font-bold">&euro;13-15</span>/hr</template>
 					<template #bottomText>2km away</template>
-				</ContentAndButton>
+				</FixedBottomContentAndButton>
 			</section>
 		</main>
 	</div>
@@ -34,7 +34,7 @@
 import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
 import CalendarAvailability from '../../../../../components/calendar/CalendarAvailability.vue'
 import Badge from '../../../../../components/badge/Badge.vue'
-import ContentAndButton from '../../../../../components/fixed/ContentAndButton.vue'
+import FixedBottomContentAndButton from '../../../../../components/fixed/FixedBottomContentAndButton.vue'
 
 import { ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 
@@ -43,7 +43,7 @@ export default {
 		TopNavigation,
 		CalendarAvailability,
 		Badge,
-		ContentAndButton,
+		FixedBottomContentAndButton,
 		ChevronLeftIcon,
 		QuestionMarkCircleIcon
 	},
