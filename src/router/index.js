@@ -29,6 +29,7 @@ import ChildminderAndNannyContainer from '../pages/02-caregiver/childminder-and-
 import HostNannyHome from '../pages/03-host/Home.vue'
 import HostNannyContainer from '../pages/03-host/nanny/HostNannyContainer.vue'
 import HostNannyEvent from '../pages/03-host/nanny/pages/event/EventContainer.vue'
+import HostNannyAvailabilityWithFixedContentBottom from '../pages/03-host/nanny/pages/onboarding/AvailabilityWithFixedContentBottom.vue'
 
 const routes = [
 	{
@@ -113,6 +114,11 @@ const routes = [
 	{
 		path: '/host-nanny-event',
 		component: HostNannyEvent,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/host-nanny-availability-w-sticky-button',
+		component: HostNannyAvailabilityWithFixedContentBottom,
 		meta: { transition: 'slide-right-to-left' }
 	},
 ]
