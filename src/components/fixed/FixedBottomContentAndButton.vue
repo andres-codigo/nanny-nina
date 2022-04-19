@@ -1,5 +1,5 @@
 <template>
-	<div class="flex my-6 mx-4">
+	<div class="flex w-full my-6 mx-4">
 		<div class="basis-1/2">
 			<div class="grid grid-rows-2">
 				<div class="text-xl">

@@ -1,10 +1,5 @@
 <template>
-	<FixedBottomContentAndButton anchorText="Apply">
-		<template #topText><span class="text-2xl font-bold">&euro;13-15</span>/hr</template>
-		<template #bottomText>2km away</template>
-	</FixedBottomContentAndButton>
-
-	<div class="flex flex-col mt-14">
+	<div class="flex flex-col mt-7">
 		<h5 class="text-header-five font-bold antialiased">Request Note</h5>
 		<p class="my-7">We need your help! We are a Dutch family with two fun kids (girl 3 and boy 2). They love to play outside, bake (and eat!) cookies and cake, chill & relax, make loud music, eat ice-cream, be creative – and have their friends over to play. We do need you to have a drivers license and feel...</p>
 		<div class="flex">
@@ -15,13 +10,10 @@
 </template>
 
 <script>
-import FixedBottomContentAndButton from '../../../../../../components/fixed/FixedBottomContentAndButton.vue'
-
 import { ChevronRightIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
-		FixedBottomContentAndButton,
 		ChevronRightIcon
 	}
 }
