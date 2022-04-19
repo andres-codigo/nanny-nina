@@ -18,7 +18,6 @@
 		<TitleBooking class="max-w-450-for-dev-not-prod" />
 		<VerifyAccount title="Update address?" buttonText="Save &amp; Continue" class="max-w-450-for-dev-not-prod" />
 		<RequestOverview class="max-w-450-for-dev-not-prod" />
-		<RequestOverviewFoldContent class="max-w-450-for-dev-not-prod" />
 		<BookingConfirmation class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
@@ -42,7 +41,6 @@ import Preferences from './pages/onboarding/Preferences.vue'
 import TitleBooking from './pages/onboarding/TitleBooking.vue'
 import VerifyAccount from './pages/onboarding/VerifyAccount.vue'
 import RequestOverview from './pages/request-overview/RequestOverview.vue'
-import RequestOverviewFoldContent from './pages/request-overview/fold/RequestOverviewFoldContent.vue'
 import BookingConfirmation from './pages/onboarding/BookingConfirmation.vue'
 
 export default {
@@ -65,7 +63,6 @@ export default {
 		TitleBooking,
 		VerifyAccount,
 		RequestOverview,
-		RequestOverviewFoldContent,
 		BookingConfirmation
 	}
 }

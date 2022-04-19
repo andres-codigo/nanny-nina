@@ -1,16 +1,19 @@
 <template>
-	<div class="flex flex-row h-20">
-		<div class="inline-flex justify-center items-center availability-toggle-button">
+	<div :class="['flex flex-row', rowWithTimeInputOnly ? 'h-20' : 'h-32']">
+		<div :class="['inline-flex justify-center availability-toggle-button', rowWithTimeInputOnly ? 'items-center' : 'pt-6']">
 			<slot name="toggleDay"></slot>
 		</div>
-		<div :class="['inline-flex justify-center items-center', rowWithTimeInputOnly ? 'availability-remove-button' : 'availability-remove-button-time-and-kids']">
+		<div :class="['inline-flex justify-center availability-remove-button', rowWithTimeInputOnly ? 'items-center' : 'pt-6']">
 			<slot name="removeIcon"></slot>
 		</div>
-		<div class="inline-flex grow justify-center items-center px-4">
-			<slot name="inputHours"></slot>
-			<slot name="inputNumberOfKids"></slot>
+		<div :class="['inline-flex grow justify-center', rowWithTimeInputOnly ? 'items-center' : 'pt-4 pr-2']">
+			<slot name="inputHours" v-if="rowWithTimeInputOnly"></slot>
+			<div class="grid grid-cols-1 gap-4 gap-y-1 gap-x-0" v-else>
+				<div><slot name="inputHours"></slot></div>
+				<div><slot name="inputNumberOfKids"></slot></div>
+			</div>
 		</div>
-		<div class="inline-flex justify-center items-center availability-add-button">
+		<div :class="['inline-flex justify-center availability-add-button', rowWithTimeInputOnly ? 'items-center' : 'pt-6']">
 			<slot name="AddIcon"></slot>
 		</div>
 	</div>

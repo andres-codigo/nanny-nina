@@ -6,7 +6,7 @@
 		autocomplete="date"
 		required
 		:value="value"
-		:class="classes"
+		:class="class"
 		class="
 			px-3 py-2
 			border border-gray-500 rounded-full
@@ -20,7 +20,7 @@
 export default {
 	props: {
 		value: String,
-		classes: {
+		class: {
 			type: String,
 			default: 'w-full'
 		}
