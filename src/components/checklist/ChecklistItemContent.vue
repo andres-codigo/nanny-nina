@@ -17,8 +17,8 @@
 			</div>
 
 			<div :class="['inline-flex', showBadge ? 'mt-4' : 'hidden']">
-				<ButtonOutlineGrey text="&euro;10" class="text-sm w-20 py-3 mr-2" />
-				<ButtonOutlineGrey text="&euro;15" class="text-sm w-20 py-3" />
+				<ButtonPreferenceOutlineGrey text="&euro;10" class="text-sm w-20 py-3 mr-2" />
+				<ButtonPreferenceOutlineGrey text="&euro;15" class="text-sm w-20 py-3" />
 			</div>
 		</div>
 		<div :class="['ml-2 w-5', hideHyperlinkIcon ? 'hidden' : '']">
@@ -29,13 +29,13 @@
 
 
 <script>
-import ButtonOutlineGrey from '../buttons/ButtonOutlineGrey.vue'
+import ButtonPreferenceOutlineGrey from '../buttons/ButtonPreferenceOutlineGrey.vue'
 
 import { ChevronRightIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
-		ButtonOutlineGrey,
+		ButtonPreferenceOutlineGrey,
 		ChevronRightIcon,
 	},
 	props: {
