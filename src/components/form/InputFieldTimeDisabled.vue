@@ -7,7 +7,7 @@
 		required
 		:placeholder="placeholder"
 		readonly
-		:class="classes"
+		:class="class"
 		class="
 			px-3 py-2
 			border border-gray-100 placeholder:text-gray-100 rounded-full
@@ -21,7 +21,7 @@
 export default {
 	props: {
 		placeholder: String,
-		classes: {
+		class: {
 			type: String,
 			default: 'w-full'
 		}
