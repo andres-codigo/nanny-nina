@@ -55,15 +55,10 @@
 							<SelectMenu />
 						</div>
 
-						<p class="font-thin mt-8 mb-4">Please add other specific details</p>
+						<p class="font-thin mt-8">Please add other specific details</p>
 
-						<div class="flex">
-							<div class="grow h-14">
-								<InputFieldBorderBottomOnly type="text" />
-							</div>
-							<div class="flex-none inline-flex justify-center items-center w-14 h-14">
-								<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
-							</div>
+						<div class="mt-4">
+							<Textarea name="note-for-parents" id="note-for-parents" />
 						</div>
 
 						<div class="mt-12">
@@ -125,7 +120,7 @@
 import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
 import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
-import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
+import Textarea from '../../../../../../components/form/Textarea.vue'
 import MultiplePhotoUpload from '../../../../../../components/media/multiple-upload/MultiplePhotoUpload.vue'
 import ButtonOutlineDark from '../../../../../../components/buttons/ButtonOutlineDark.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
@@ -137,7 +132,7 @@ export default {
 		TopNavigation,
 		RadioQuestion,
 		SelectMenu,
-		InputFieldBorderBottomOnly,
+		Textarea,
 		MultiplePhotoUpload,
 		ButtonOutlineDark,
 		ButtonPrimary,
