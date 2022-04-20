@@ -45,10 +45,6 @@
 					title="Nour (25)"
 					availability="Available Mon, Tues, Thurs"
 				/>
-
-				<div class="flex flex-col justify-center items-center my-6">
-					<ButtonOutlineDark class="w-button-lg text-sm text-gray-500 leading-5 py-4" text="Load Next 10" />
-				</div>
 			</div>
 		</main>
 	</div>
