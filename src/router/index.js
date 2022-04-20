@@ -32,6 +32,9 @@ import HostNannyEvent from '../pages/03-host/nanny/pages/event/EventContainer.vu
 import HostNannyAvailabilityWithFixedContentBottom from '../pages/03-host/nanny/pages/onboarding/AvailabilityWithFixedContentBottom.vue'
 import RequestOverviewWithFixedContentBottom from '../pages/03-host/nanny/pages/request-overview/RequestOverviewWithFixedContentBottom.vue'
 
+/* Host - Childminder */
+import HostChildminderContainer from '../pages/03-host/childminder/HostChildminderContainer.vue'
+
 const routes = [
 	{
 		path: '/',
@@ -125,6 +128,11 @@ const routes = [
 	{
 		path: '/host-nanny-availability-w-fixed-complete-button',
 		component: RequestOverviewWithFixedContentBottom,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/host-childminder',
+		component: HostChildminderContainer,
 		meta: { transition: 'slide-right-to-left' }
 	}
 ]
