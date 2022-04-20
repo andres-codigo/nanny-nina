@@ -4,7 +4,7 @@
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
-			<div class="h-full pt-12 mx-4">
+			<div class="h-full pt-12 pb-28 mx-4">
 				<h5 class="text-header-five font-bold antialiased mb-10">After School Sitter Needed For 2 days</h5>
 
 				<EditToCareFor>
@@ -29,6 +29,12 @@
 
 				<EditPhotos  />
 			</div>
+			<section class="block fixed inset-x-0 w-full bottom-0 z-10 bg-white border-t border-gray">
+				<PricingConfirmation anchorText="Invite">
+					<template #topText><span class="text-2xl font-bold">&euro;13-15</span>/hr</template>
+					<template #bottomText>2km away</template>
+				</PricingConfirmation>
+			</section>
 		</main>
 	</div>
 </template>
@@ -40,6 +46,7 @@ import EditDate from '../../../../../components/profile/request-overview/EditDat
 import EditRequestNote from '../../../../../components/profile/request-overview/EditRequestNote.vue'
 import EditPreferences from '../../../../../components/profile/request-overview/EditPreferences.vue'
 import EditPhotos from '../../../../../components/profile/request-overview/EditPhotos.vue'
+import PricingConfirmation from '../../../../../components/fixed/PricingConfirmation.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 
@@ -51,6 +58,7 @@ export default {
 		EditRequestNote,
 		EditPreferences,
 		EditPhotos,
+		PricingConfirmation,
 		ChevronLeftIcon
 	}
 }

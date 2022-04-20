@@ -1,9 +1,9 @@
 <template>
-	<div class="flex flex-row mt-2 mb-2">
+	<a href="#" class="flex flex-row border-t py-6 border-gray-50">
 		<div class="flex-none w-5">
 			<CalendarIcon />
 		</div>
-		<div class="inline-flex items-center ml-2">
+		<div class="inline-flex grow items-center ml-2">
 			<div class="grid grid-rows-3 grid-flow-col gap-1">
 				<div>
 					<h6 class="text-header-six font-bold">
@@ -19,17 +19,18 @@
 			</div>
 		</div>
 		<div class="flex w-12 justify-end items-center">
-			<!-- To be confirmed -->
+			<ChevronRightIcon class="w-8 h-8 text-purple-900" aria-hidden="true" />
 		</div>
-	</div>
+	</a>
 </template>
 
 <script>
-import { CalendarIcon } from '@heroicons/vue/outline'
+import { CalendarIcon, ChevronRightIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
-		CalendarIcon
+		CalendarIcon,
+		ChevronRightIcon
 	}
 }
 </script>

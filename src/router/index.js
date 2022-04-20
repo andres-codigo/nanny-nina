@@ -30,6 +30,7 @@ import HostNannyHome from '../pages/03-host/Home.vue'
 import HostNannyContainer from '../pages/03-host/nanny/HostNannyContainer.vue'
 import HostNannyEvent from '../pages/03-host/nanny/pages/event/EventContainer.vue'
 import HostNannyAvailabilityWithFixedContentBottom from '../pages/03-host/nanny/pages/onboarding/AvailabilityWithFixedContentBottom.vue'
+import RequestOverviewWithFixedContentBottom from '../pages/03-host/nanny/pages/request-overview/RequestOverviewWithFixedContentBottom.vue'
 
 const routes = [
 	{
@@ -117,10 +118,15 @@ const routes = [
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/host-nanny-availability-w-sticky-button',
+		path: '/host-nanny-availability-w-fixed-button',
 		component: HostNannyAvailabilityWithFixedContentBottom,
 		meta: { transition: 'slide-right-to-left' }
 	},
+	{
+		path: '/host-nanny-availability-w-fixed-complete-button',
+		component: RequestOverviewWithFixedContentBottom,
+		meta: { transition: 'slide-right-to-left' }
+	}
 ]
 const router = createRouter({
 	history: createWebHistory(),

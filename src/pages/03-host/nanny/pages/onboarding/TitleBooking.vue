@@ -19,7 +19,7 @@
 
 					<div class="mb-10">
 						<CheckboxLeftWithContainerAndLabelRight inputClass="h-5 w-5 text-purple-500" labelContainerClass="text-base">
-							<template #text>Use my address, <a href="#" target="_self" class="anchor-with-underline text-blue-500">update address</a>?</template>
+							<template #text>Use my address</template>
 						</CheckboxLeftWithContainerAndLabelRight>
 					</div>
 
