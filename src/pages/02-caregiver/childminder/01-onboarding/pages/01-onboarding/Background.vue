@@ -121,6 +121,7 @@ import TopNavigation from '../../../../../../components/navigation/TopNavigation
 import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
 import Textarea from '../../../../../../components/form/Textarea.vue'
+import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
 import MultiplePhotoUpload from '../../../../../../components/media/multiple-upload/MultiplePhotoUpload.vue'
 import ButtonOutlineDark from '../../../../../../components/buttons/ButtonOutlineDark.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
@@ -133,6 +134,7 @@ export default {
 		RadioQuestion,
 		SelectMenu,
 		Textarea,
+		InputFieldBorderBottomOnly,
 		MultiplePhotoUpload,
 		ButtonOutlineDark,
 		ButtonPrimary,
