@@ -47,6 +47,26 @@
 						</div>
 					</div>
 
+					<div class="mb-10">
+						<div class="mb-2">
+							<p class="font-thin mb-4">Will there be pets?</p>
+							<RadioQuestion :screenReaderOnly="true" legend="Will there be pets?" questionOneText="Yes" questionTwoText="No" />
+						</div>
+
+						<div>
+							<p class="font-thin">Please specify</p>
+
+							<div class="flex">
+								<div class="grow h-14">
+									<InputFieldBorderBottomOnly type="text" />
+								</div>
+								<div class="flex-none inline-flex justify-center items-center w-14 h-14">
+									<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
+								</div>
+							</div>
+						</div>
+					</div>
+
 					<div class="flex flex-col justify-center items-center mt-20 mb-10">
 						<ButtonPrimary text="Next" class="w-button-lg text-xl py-4" />
 					</div>
@@ -61,6 +81,7 @@ import TopNavigation from '../../../../../../components/navigation/TopNavigation
 import InputField from '../../../../../../components/form/InputField.vue'
 import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
 import SelectMenuRightWithTextAndSubtextLeft from '../../../../../../components/form/SelectMenuRightWithTextAndSubtextLeft.vue'
+import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, PlusIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
@@ -71,8 +92,10 @@ export default {
 		InputField,
 		SelectMenu,
 		SelectMenuRightWithTextAndSubtextLeft,
+		InputFieldBorderBottomOnly,
 		ButtonPrimary,
 		ChevronLeftIcon,
+		PlusIcon,
 		QuestionMarkCircleIcon
 	}
 }

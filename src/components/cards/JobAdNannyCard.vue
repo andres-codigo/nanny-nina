@@ -43,7 +43,7 @@
 						</div>
 					</div>
 					<div class="flex flex-row items-center mt-4 mb-2">
-						<div class="flex-none w-6"><ClockIcon class="w-5 h-5" /></div>
+						<div class="flex-none w-6"><ClockIcon class="w-5 h-5 text-gray-500" /></div>
 						<div>{{ availability }}</div>
 					</div>
 					<div class="flex flex-row items-center mt-4">

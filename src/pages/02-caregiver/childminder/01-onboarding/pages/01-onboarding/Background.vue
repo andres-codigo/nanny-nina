@@ -49,12 +49,13 @@
 					<div class="mb-10">
 						<h5 class="text-header-five font-semibold antialiased mb-4">Home Information</h5>
 
-						<p>What type of house to you have?</p>
-						<div class="mt-4 grid grid-cols-2 gap-x-2">
-							<div><SelectMenu /></div>
+						<p class="font-thin">What type of home do you live in?</p>
+						<p class="text-sm text-gray-500 font-thin mb-4">It is important for parents that you describe your home</p>
+						<div class="mt-4 mr-4">
+							<SelectMenu />
 						</div>
 
-						<p class="font-thin mt-8 mb-4">Please specify</p>
+						<p class="font-thin mt-8 mb-4">Please add other specific details</p>
 
 						<div class="flex">
 							<div class="grow h-14">

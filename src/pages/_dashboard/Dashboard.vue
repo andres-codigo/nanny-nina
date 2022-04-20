@@ -156,9 +156,9 @@
 							routerLinkPath="/childminder-service-onboarding"
 							title="Onboarding"
 							textColor="text-purple-600"
-							textBadge="In Progress"
-							textColorBadge="text-amber-800"
-							backgroundColorBadge="bg-amber-100"
+							textBadge="UI/Design Updates"
+							textColorBadge="text-red-800"
+							backgroundColorBadge="bg-red-100"
 						/>
 					</ul>
 				</div>
@@ -213,8 +213,20 @@
 							:hideNotes="true"
 							notes=""
 							date=""
-							routerLinkPath="/host-nanny-availability-w-sticky-button"
-							title="Availability with sticky button"
+							routerLinkPath="/host-nanny-availability-w-fixed-button"
+							title="Availability with fixed button"
+							textColor="text-purple-600"
+							textBadge="Completed"
+							textColorBadge="text-white"
+							backgroundColorBadge="bg-green-800"
+						/>
+						<ListItem
+							:subItem="true"
+							:hideNotes="true"
+							notes=""
+							date=""
+							routerLinkPath="/host-nanny-availability-w-fixed-complete-button"
+							title="Request Overview with fixed complete button"
 							textColor="text-purple-600"
 							textBadge="Completed"
 							textColorBadge="text-white"

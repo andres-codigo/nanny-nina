@@ -29,21 +29,27 @@
 						<p class="text-purple-900 font-semibold mt-16">Workday &amp; time</p>
 						<p class="font-thin mt-6">You haven't selected any specific day</p>
 
-						<div class="grid grid-rows-2 gap-2">
-							<div class="border-b border-gray-50">
-								<div class="flex flex-row h-20">
+						<div>
+							<div class="border-b border-gray-50 py-3">
+								<div class="flex flex-row py-3">
 									<div class="inline-flex grow items-center w-32">Sun, 10/02/2022</div>
 									<div class="inline-flex justify-center items-center w-8"><a href="#" target="_self"><XCircleIcon class="w-6 h-6 text-gray-500" aria-hidden="true" /></a></div>
 									<div class="inline-flex items-center w-32 px-4"><a href="#" target="_self" class="text-blue-500 anchor-with-underline">9:00 - 18:00</a></div>
 									<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></div>
 								</div>
 							</div>
-							<div class="border-b border-gray-50">
-								<div class="flex flex-row h-20">
+							<div class="border-b border-gray-50 py-3">
+								<div class="flex flex-row py-3">
 									<div class="inline-flex grow items-center w-32">Mon, 11/02/2022</div>
 									<div class="inline-flex justify-center items-center w-8"><a href="#" target="_self"><XCircleIcon class="w-6 h-6 text-gray-500" aria-hidden="true" /></a></div>
 									<div class="inline-flex items-center w-32 px-4"><a href="#" target="_self" class="text-blue-500 anchor-with-underline">9:00 - 18:00</a></div>
 									<div class="inline-flex justify-center items-center w-10"><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></div>
+								</div>
+								<div class="flex flex-row py-3">
+									<div class="inline-flex grow items-center w-32">&nbsp;</div>
+									<div class="inline-flex justify-center items-center w-8"><a href="#" target="_self"><XCircleIcon class="w-6 h-6 text-gray-500" aria-hidden="true" /></a></div>
+									<div class="inline-flex items-center w-32 px-4"><a href="#" target="_self" class="text-blue-500 anchor-with-underline">9:00 - 18:00</a></div>
+									<div class="inline-flex justify-center items-center w-10">&nbsp;</div>
 								</div>
 							</div>
 						</div>
