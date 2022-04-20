@@ -55,13 +55,12 @@
 
 						<div>
 							<p class="font-thin">Please specify</p>
-
-							<div class="flex">
-								<div class="grow h-14">
-									<InputFieldBorderBottomOnly type="text" />
-								</div>
-								<div class="flex-none inline-flex justify-center items-center w-14 h-14">
-									<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
+							<div class="mt-4 grid grid-cols-2 gap-y-6 gap-x-2">
+								<div><SelectMenu /></div>
+								<div class="flex flex-wrap justify-center items-center mt-4">
+									<BadgeRemove text="Cats" />
+									<BadgeRemove text="Dogs" />
+									<BadgeRemove text="Birds" />
 								</div>
 							</div>
 						</div>
@@ -81,7 +80,8 @@ import TopNavigation from '../../../../../../components/navigation/TopNavigation
 import InputField from '../../../../../../components/form/InputField.vue'
 import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
 import SelectMenuRightWithTextAndSubtextLeft from '../../../../../../components/form/SelectMenuRightWithTextAndSubtextLeft.vue'
-import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
+import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
+import BadgeRemove from '../../../../../../components/badge/BadgeRemove.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, PlusIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
@@ -92,7 +92,8 @@ export default {
 		InputField,
 		SelectMenu,
 		SelectMenuRightWithTextAndSubtextLeft,
-		InputFieldBorderBottomOnly,
+		RadioQuestion,
+		BadgeRemove,
 		ButtonPrimary,
 		ChevronLeftIcon,
 		PlusIcon,
