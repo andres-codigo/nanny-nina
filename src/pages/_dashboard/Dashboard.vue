@@ -156,9 +156,9 @@
 							routerLinkPath="/childminder-service-onboarding"
 							title="Onboarding"
 							textColor="text-purple-600"
-							textBadge="In Progress"
-							textColorBadge="text-amber-800"
-							backgroundColorBadge="bg-amber-100"
+							textBadge="UI/Design Updates"
+							textColorBadge="text-red-800"
+							backgroundColorBadge="bg-red-100"
 						/>
 					</ul>
 				</div>
