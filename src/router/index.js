@@ -35,6 +35,9 @@ import RequestOverviewWithFixedContentBottom from '../pages/03-host/nanny/pages/
 /* Host - Childminder */
 import HostChildminderContainer from '../pages/03-host/childminder/HostChildminderContainer.vue'
 
+/* Host - Au Pair */
+import HostAuPairContainer from '../pages/03-host/au-pair/HostAuPairContainer.vue'
+
 const routes = [
 	{
 		path: '/',
@@ -133,6 +136,11 @@ const routes = [
 	{
 		path: '/host-childminder',
 		component: HostChildminderContainer,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/host-au-pair',
+		component: HostAuPairContainer,
 		meta: { transition: 'slide-right-to-left' }
 	}
 ]
