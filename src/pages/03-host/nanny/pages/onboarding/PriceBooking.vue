@@ -8,7 +8,7 @@
 			<div class="h-screen flex flex-col pt-12 mx-4">
 				<form class="w-full" action="#" method="POST">
 					<h5 class="text-left text-header-five font-semibold antialiased mb-2">What's your budget?</h5>
-					<p class="text-left text-lg font-thin antialiased">How much is your budget for this booking?</p>
+					<p class="text-left font-thin antialiased">How much is your budget for this booking?</p>
 
 					<div class="mt-12">
 						<PriceRange />
@@ -43,7 +43,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import PriceRange from '../../../../../components/form/price-range/PriceRange.vue'
 import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 

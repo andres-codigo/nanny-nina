@@ -45,22 +45,18 @@
 					title="Nour (25)"
 					availability="Available Mon, Tues, Thurs"
 				/>
-
-				<div class="flex flex-col justify-center items-center my-6">
-					<ButtonOutlineDark class="w-button-lg text-sm text-gray-500 leading-5 py-4" text="Load Next 10" />
-				</div>
 			</div>
 		</main>
 	</div>
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 
 import JobListingFilter from '../../../../../components/filter/JobListingFilter.vue'
 import JobListingFilterItem from '../../../../../components/filter/JobListingFilterItem.vue'
 
-import JobAdNannyCard from '../../../../../components/cards/JobAdNannyCard.vue'
+import JobAdNannyCard from '../../../../../components/cards/job-ad-card/JobAdNannyCard.vue'
 
 import ButtonOutlineDark from '../../../../../components/buttons/ButtonOutlineDark.vue'
 

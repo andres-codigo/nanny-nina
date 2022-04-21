@@ -5,7 +5,7 @@
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
-			<div class="h-full flex flex-col pt-12 mx-4">
+			<div class="flex flex-col pt-12 mx-4">
 				<form class="w-full" action="#" method="POST">
 					<h5 class="text-left text-header-five font-semibold antialiased">Event Description</h5>
 
@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import Textarea from '../../../../../../components/form/Textarea.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 

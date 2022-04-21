@@ -60,7 +60,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import CheckListItem from '../../../../../../components/checklist/ChecklistItem.vue'
 import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'

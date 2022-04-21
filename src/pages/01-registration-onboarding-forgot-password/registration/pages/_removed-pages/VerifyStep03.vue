@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'

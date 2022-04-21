@@ -43,7 +43,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import InputField from '../../../../../../components/form/InputField.vue'
 import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import CheckboxLeftWithContainerAndLabelRight from '../../../../../../components/form/CheckboxLeftWithContainerAndLabelRight.vue'

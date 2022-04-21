@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import ReviewCard from '../cards/review-card/ReviewCard.vue'
+import ReviewCard from '../../cards/review-card/ReviewCard.vue'
 
 import { ChevronRightIcon } from '@heroicons/vue/solid'
 

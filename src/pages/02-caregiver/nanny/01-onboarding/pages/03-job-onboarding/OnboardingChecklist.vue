@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import CheckListItem from '../../../../../../components/checklist/ChecklistItem.vue'
 import ButtonDisabled from '../../../../../../components/buttons/ButtonDisabled.vue'
 

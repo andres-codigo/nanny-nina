@@ -6,7 +6,7 @@
 		<div class="inline-flex items-center ml-2">
 			<div class="grid grid-rows-3 grid-flow-col gap-1">
 				<div>
-					<h6 class="text-header-six font-bold">
+					<h6 class="text-header-six font-semibold">
 						<slot name="header"></slot>
 					</h6>
 				</div>
@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import CheckboxRightWithContainerAndLabelLeft from '../../../../components/form/CheckboxRightWithContainerAndLabelLeft.vue'
+import CheckboxRightWithContainerAndLabelLeft from '../../form/CheckboxRightWithContainerAndLabelLeft.vue'
 
 import { CalendarIcon } from '@heroicons/vue/outline'
 

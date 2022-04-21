@@ -1,7 +1,7 @@
 <template>
 
 	<div :class="classes" class="flex flex-col">
-		<h5 class="text-header-five font-bold antialiased mb-7">{{ title }}</h5>
+		<h5 class="text-header-five font-semibold antialiased mb-7">{{ title }}</h5>
 
 		<div class="flex overflow-x-scroll pb-10 no-scrollbar">
 			<div class="flex flex-nowrap">

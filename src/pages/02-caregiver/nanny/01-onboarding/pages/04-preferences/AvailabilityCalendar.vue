@@ -66,8 +66,8 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
-import Tabs from '../../../../../../components/tabs/Tabs.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import Tabs from '../../../../../../components/navigation-and-tabs/Tabs.vue'
 import Calendar from '../../../../../../components/calendar/Calendar.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 

@@ -53,7 +53,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import InputField from '../../../../../../components/form/InputField.vue'
 import InputWithSelectInternationPhoneNumber from '../../../../../../components/form/InputWithSelectInternationPhoneNumber.vue'

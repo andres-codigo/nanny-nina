@@ -18,7 +18,7 @@
 					<div class="my-16">
 						<h5 class="text-header-five font-semibold antialiased">Language</h5>
 						<div class="mt-4 grid grid-cols-2 gap-y-6 gap-x-2">
-							<div><SelectMenu labelText="Language(s)" /></div>
+							<SelectMenu labelText="Language(s)" />
 							<div class="flex flex-wrap justify-center items-center mt-4">
 								<BadgeRemove text="Dutch" />
 								<BadgeRemove text="English" />
@@ -45,7 +45,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
 import BadgeRemove from '../../../../../../components/badge/BadgeRemove.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'

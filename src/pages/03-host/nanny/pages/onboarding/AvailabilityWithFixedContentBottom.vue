@@ -6,7 +6,7 @@
 		</TopNavigation>
 		<main>
 			<div class="h-full flex flex-col pt-12 pb-28 mx-4">
-				<h5 class="text-header-five font-bold antialiased">Brittany's Availability</h5>
+				<h5 class="text-header-five font-semibold antialiased">Brittany's Availability</h5>
 				<p class="font-thin mt-2">View her work hours on selected dates</p>
 
 				<CalendarAvailability :showButtons="false" class="mb-4" />
@@ -31,10 +31,10 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import CalendarAvailability from '../../../../../components/calendar/CalendarAvailability.vue'
 import Badge from '../../../../../components/badge/Badge.vue'
-import FixedBottomContentAndButton from '../../../../../components/fixed/FixedBottomContentAndButton.vue'
+import FixedBottomContentAndButton from '../../../../../components/content/fixed/FixedBottomContentAndButton.vue'
 
 import { ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 

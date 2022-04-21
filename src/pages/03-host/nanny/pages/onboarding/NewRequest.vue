@@ -32,8 +32,8 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
-import LinkCard from '../../../../../components/cards/LinkCard.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import LinkCard from '../../../../../components/cards/link-card/LinkCard.vue'
 import ButtonOutlineDark from '../../../../../components/buttons/ButtonOutlineDark.vue'
 import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 

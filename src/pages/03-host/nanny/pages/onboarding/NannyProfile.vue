@@ -53,7 +53,7 @@
 								<StarIcon class="w-8 h-8 text-purple-500" />
 							</div>
 							<div class="inline-flex items-center justify-center">
-								<h5 class="text-header-five font-bold antialiased">What Other Parents Say</h5>
+								<h5 class="text-header-five font-semibold antialiased">What Other Parents Say</h5>
 							</div>
 						</div>
 					</template>
@@ -65,7 +65,7 @@
 					<template #title>
 						<div class="flex flex-row mb-7">
 							<div class="inline-flex items-center justify-center">
-								<h5 class="text-header-five font-bold antialiased">Badges Earned (2)</h5>
+								<h5 class="text-header-five font-semibold antialiased">Badges Earned (2)</h5>
 							</div>
 							<div class="inline-flex items-center justify-center grow-0 pl-2">
 								<QuestionMarkCircleIcon class="w-8 h-8 text-purple-500" />
@@ -117,13 +117,13 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
-import NannyCard from '../../../../../components/profile/nanny-card/NannyCard.vue'
-import HeaderParagraphSection from '../../../../../components/profile/nanny-card/HeaderParagraphSection.vue'
-import Preferences from '../../../../../components/profile/Preferences.vue'
-import Photos from '../../../../../components/profile/photos/Photos.vue'
-import Reviews from '../../../../../components/profile/Reviews.vue'
-import BadgesEarned from '../../../../../components/profile/badges/BadgesEarned.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import NannyCard from './nanny-card/_NannyCard.vue'
+import HeaderParagraphSection from './nanny-card/_HeaderParagraphSection.vue'
+import Preferences from '../../../../../components/profile/view/Preferences.vue'
+import Photos from '../../../../../components/profile/_photos/Photos.vue'
+import Reviews from '../../../../../components/profile/view/Reviews.vue'
+import BadgesEarned from '../../../../../components/badge/BadgeEarned.vue'
 
 import { XIcon, DotsVerticalIcon, StarIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 

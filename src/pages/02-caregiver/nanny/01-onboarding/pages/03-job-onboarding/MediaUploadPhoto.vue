@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
 
 import Steps from '../../../../../../components/steps/Steps.vue'
 import CompletedStep from '../../../../../../components/steps/types/CompletedStep.vue'

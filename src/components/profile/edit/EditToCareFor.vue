@@ -2,7 +2,7 @@
 	<a href="#" class="flex flex-row border-t py-6 border-gray-50">
 		<div class="inline-flex grow">
 			<div class="grid grid-rows-2 grid-flow-col gap-1">
-				<div><h6 class="text-header-six font-bold">To Care For</h6></div>
+				<div><h6 class="text-header-six font-semibold antialiased">To Care For</h6></div>
 				<div><slot name="details"></slot></div>
 			</div>
 		</div>

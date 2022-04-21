@@ -5,7 +5,7 @@
 		</TopNavigation>
 		<main>
 			<div class="h-full pt-12 mx-4">
-				<h5 class="text-header-five font-bold antialiased mb-10">After School Sitter Needed For 2 days</h5>
+				<h5 class="text-header-five font-semibold antialiased mb-10">After School Sitter Needed For 2 days</h5>
 
 				<EditToCareFor>
 					<template #details><p>2 kids > 3yrs (M), 2yrs (F)</p></template>
@@ -34,12 +34,12 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
-import EditToCareFor from '../../../../../components/profile/request-overview/EditToCareFor.vue'
-import EditDate from '../../../../../components/profile/request-overview/EditDate.vue'
-import EditRequestNote from '../../../../../components/profile/request-overview/EditRequestNote.vue'
-import EditPreferences from '../../../../../components/profile/request-overview/EditPreferences.vue'
-import EditPhotos from '../../../../../components/profile/request-overview/EditPhotos.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import EditToCareFor from '../../../../../components/profile/edit/EditToCareFor.vue'
+import EditDate from '../../../../../components/profile/edit/EditDate.vue'
+import EditRequestNote from '../../../../../components/profile/edit/EditRequestNote.vue'
+import EditPreferences from '../../../../../components/profile/edit/EditPreferences.vue'
+import EditPhotos from '../../../../../components/profile/edit/EditPhotos.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 

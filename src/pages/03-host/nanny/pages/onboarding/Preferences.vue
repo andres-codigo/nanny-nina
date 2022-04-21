@@ -45,7 +45,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import RadioQuestion from '../../../../../components/form/RadioQuestion.vue'
 import CheckboxRightWithContainerAndLabelLeft from '../../../../../components/form/CheckboxRightWithContainerAndLabelLeft.vue'
 import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'

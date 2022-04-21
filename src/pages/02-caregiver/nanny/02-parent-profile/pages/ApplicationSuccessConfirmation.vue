@@ -11,8 +11,8 @@
 
 				<div class="flex items-center justify-center">
 					<!--
-						Image component for svg here
-						<Image src="*.svg" />
+						Image svg here
+						<img src="*.svg" />
 						* remove background color in div as visual placeholder
 					-->
 				</div>
@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import ButtonSecondary from '../../../../../components/buttons/ButtonSecondary.vue'
 import ButtonGhost from '../../../../../components/buttons/ButtonGhost.vue'
 

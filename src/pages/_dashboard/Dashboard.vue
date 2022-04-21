@@ -4,9 +4,8 @@
 			<h6 class="pl-4 py-4 header-six font-medium text-purple-900">Dashboard</h6>
 			<nav class="h-full overflow-y-auto" aria-label="Directory">
 				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-2 text-sm font-medium antialiased">
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-4 text-sm font-medium antialiased">
 						<p class="text-md text-white font-bold leading-none">Caregiver &amp; Host: </p>
-						<p class="text-md text-white">Registration / Onboarding / Forgot Password</p>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
@@ -34,12 +33,12 @@
 					</ul>
 				</div>
 				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-16 pr-4 py-4 text-sm font-medium text-gray-600">
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
 						<h3><span class="font-bold">Caregiver</span> </h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
-							:subItem="true"
+							:subItem="false"
 							:hideNotes="true"
 							notes=""
 							date=""
@@ -53,12 +52,12 @@
 					</ul>
 				</div>
 				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-16 pr-4 py-4 text-sm font-medium text-gray-600">
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
 						<h3><span class="font-bold">Host</span> </h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
-							:subItem="true"
+							:subItem="false"
 							:hideNotes="true"
 							notes=""
 							date=""
@@ -72,9 +71,8 @@
 					</ul>
 				</div>
 				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-2 text-sm font-medium antialiased">
-						<p class="text-md text-white font-bold leading-none">Caregiver: </p>
-						<p class="text-md text-white">Nanny &amp; Childminder</p>
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-4 text-sm font-medium antialiased">
+						<p class="text-md text-white font-bold leading-none">Caregiver:</p>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
@@ -91,12 +89,12 @@
 					</ul>
 				</div>
 				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-16 pr-4 py-4 text-sm font-medium text-gray-600">
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
 						<h3><span class="font-bold">Nanny</span> </h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
-							:subItem="true"
+							:subItem="false"
 							:hideNotes="true"
 							notes=""
 							date=""
@@ -108,7 +106,7 @@
 							backgroundColorBadge="bg-green-800"
 						/>
 						<ListItem
-							:subItem="true"
+							:subItem="false"
 							:hideNotes="true"
 							notes=""
 							date=""
@@ -120,7 +118,7 @@
 							backgroundColorBadge="bg-green-800"
 						/>
 						<ListItem
-							:subItem="true"
+							:subItem="false"
 							:hideNotes="false"
 							notes="Waiting on reply to design questions"
 							date="12/04/22"
@@ -132,7 +130,7 @@
 							backgroundColorBadge="bg-red-100"
 						/>
 						<ListItem
-							:subItem="true"
+							:subItem="false"
 							:hideNotes="false"
 							notes="Waiting on reply to design questions"
 							date="12/04/22"
@@ -144,12 +142,12 @@
 							backgroundColorBadge="bg-red-100"
 						/>
 					</ul>
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-16 pr-4 py-4 text-sm font-medium text-gray-600">
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
 						<h3><span class="font-bold">Childminder</span> </h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
-							:subItem="true"
+							:subItem="false"
 							:hideNotes="true"
 							notes=""
 							date=""
@@ -163,9 +161,8 @@
 					</ul>
 				</div>
 				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-2 text-sm font-medium text-white antialiased">
-						<p class="text-md text-white font-bold leading-none">Host: </p>
-						<p class="text-md text-white">Nanny &amp; Childminder</p>
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-4 text-sm font-medium text-white antialiased">
+						<p class="text-md text-white font-bold leading-none">Host:</p>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
@@ -180,12 +177,12 @@
 							backgroundColorBadge="bg-green-800"
 						/>
 					</ul>
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-16 pr-4 py-4 text-sm font-medium text-gray-600">
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
 						<h3><span class="font-bold">Nanny</span> </h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
-							:subItem="true"
+							:subItem="false"
 							:hideNotes="false"
 							notes="Waiting on reply to design questions"
 							date="12/04/22"
@@ -197,7 +194,7 @@
 							backgroundColorBadge="bg-red-100"
 						/>
 						<ListItem
-							:subItem="true"
+							:subItem="false"
 							:hideNotes="false"
 							notes="Waiting on reply to design questions"
 							date="12/04/22"
@@ -209,7 +206,7 @@
 							backgroundColorBadge="bg-red-100"
 						/>
 						<ListItem
-							:subItem="true"
+							:subItem="false"
 							:hideNotes="true"
 							notes=""
 							date=""
@@ -221,7 +218,7 @@
 							backgroundColorBadge="bg-green-800"
 						/>
 						<ListItem
-							:subItem="true"
+							:subItem="false"
 							:hideNotes="true"
 							notes=""
 							date=""
@@ -233,21 +230,21 @@
 							backgroundColorBadge="bg-green-800"
 						/>
 					</ul>
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-16 pr-4 py-4 text-sm font-medium text-gray-600">
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
 						<h3><span class="font-bold">Childminder</span> </h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
-							:subItem="true"
-							:hideNotes="true"
-							notes=""
-							date=""
+							:subItem="false"
+							:hideNotes="false"
+							notes="Waiting on reply to design questions"
+							date="21/04/22"
 							routerLinkPath="/host-childminder"
 							title="Onboarding"
 							textColor="text-purple-600"
-							textBadge="In Progress"
-							textColorBadge="text-amber-800"
-							backgroundColorBadge="bg-amber-100"
+							textBadge="UI/Design Updates"
+							textColorBadge="text-red-800"
+							backgroundColorBadge="bg-red-100"
 						/>
 					</ul>
 				</div>

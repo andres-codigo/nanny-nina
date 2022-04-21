@@ -28,7 +28,7 @@
 					</div>
 
 					<h5 class="text-left text-header-five font-semibold antialiased mb-2">What's your budget?</h5>
-					<p class="text-left text-lg font-thin antialiased">Prices vary depending on the venue. Select the most suitable option above to adjust pricing</p>
+					<p class="text-left font-thin antialiased">Prices vary depending on the venue. Select the most suitable option above to adjust pricing</p>
 
 					<div class="mt-12">
 						<PriceRange />
@@ -63,7 +63,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import RadioQuestion from '../../../../../components/form/RadioQuestion.vue'
 import PriceRange from '../../../../../components/form/price-range/PriceRange.vue'
 import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'

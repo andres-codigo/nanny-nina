@@ -12,8 +12,8 @@
 
 				<div class="flex items-center justify-center">
 					<!--
-						Image component for svg here
-						<Image src="*.svg" />
+						Image svg here
+						<img src="*.svg" />
 						* remove background color in div as visual placeholder
 					-->
 				</div>
@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import AnchorSecondary from '../../../../../../components/dom-elements/AnchorSecondary.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'

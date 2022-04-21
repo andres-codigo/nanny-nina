@@ -10,7 +10,7 @@
 					<h5 class="text-left text-header-five font-semibold antialiased my-6">Basic Information</h5>
 
 					<div class="mt-4 mb-2">
-						<p class="font-thin">Are you expecting?</p>
+						<p class="font-thin mb-2">Are you expecting?</p>
 						<RadioQuestion :screenReaderOnly="true" legend="Are you expecting" questionOneText="Yes" questionTwoText="No" />
 					</div>
 
@@ -39,7 +39,7 @@
 
 					<div class="mb-10">
 						<div class="mb-2">
-							<p class="font-thin mb-4">Does this person have any health condition or require special attention?</p>
+							<p class="font-thin mb-2">Does this person have any health condition or require special attention?</p>
 							<RadioQuestion :screenReaderOnly="true" legend="Does this person have any health condition or require special attention?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
@@ -74,7 +74,7 @@
 
 					<div class="mb-10">
 						<div class="mb-2">
-							<p class="font-thin mb-4">Do you have pets?</p>
+							<p class="font-thin mb-2">Do you have pets?</p>
 							<RadioQuestion :screenReaderOnly="true" legend="Do you have pets?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
@@ -102,7 +102,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import SelectMenu from '../../../../../components/form/SelectMenu.vue'
 import RadioQuestion from '../../../../../components/form/RadioQuestion.vue'
 import InputField from '../../../../../components/form/InputField.vue'

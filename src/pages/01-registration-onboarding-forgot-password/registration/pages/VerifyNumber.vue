@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../components/navigation-and-tabs/TopNavigation.vue'
 import InputWithSelectInternationPhoneNumber from '../../../../components/form/InputWithSelectInternationPhoneNumber.vue'
 import InputField from '../../../../components/form/InputField.vue'
 import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'

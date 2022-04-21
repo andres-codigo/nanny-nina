@@ -30,7 +30,7 @@
 					<div class="mb-20">
 						<div>
 							<h5 class="text-header-five font-semibold antialiased mb-4">Safety Document <span class="text-sm text-gray-500">(optional)</span></h5>
-							<p class="font-thin mb-4">Do you have a VOG safety document?</p>
+							<p class="font-thin mb-2">Do you have a VOG safety document?</p>
 							<RadioQuestion :screenReaderOnly="true" legend="Are you First Aid certified?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
@@ -55,15 +55,10 @@
 							<SelectMenu />
 						</div>
 
-						<p class="font-thin mt-8 mb-4">Please add other specific details</p>
+						<p class="font-thin mt-8">Please add other specific details</p>
 
-						<div class="flex">
-							<div class="grow h-14">
-								<InputFieldBorderBottomOnly type="text" />
-							</div>
-							<div class="flex-none inline-flex justify-center items-center w-14 h-14">
-								<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
-							</div>
+						<div class="mt-4">
+							<Textarea name="note-for-parents" id="note-for-parents" />
 						</div>
 
 						<div class="mt-12">
@@ -73,7 +68,7 @@
 
 					<div class="mb-10">
 						<div class="mb-2">
-							<p class="font-thin mb-4">Do you have pets?</p>
+							<p class="font-thin mb-2">Do you have pets?</p>
 							<RadioQuestion :screenReaderOnly="true" legend="Do you have pets?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
@@ -94,7 +89,7 @@
 					<div class="mb-10">
 						<div class="mb-8">
 							<h5 class="text-header-five font-semibold antialiased mb-4">Allergies</h5>
-							<p class="font-thin mb-4">Are you allergic to pets?</p>
+							<p class="font-thin mb-2">Are you allergic to pets?</p>
 							<RadioQuestion :screenReaderOnly="true" legend="Do you have any allergies?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
@@ -122,9 +117,10 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
+import Textarea from '../../../../../../components/form/Textarea.vue'
 import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
 import MultiplePhotoUpload from '../../../../../../components/media/multiple-upload/MultiplePhotoUpload.vue'
 import ButtonOutlineDark from '../../../../../../components/buttons/ButtonOutlineDark.vue'
@@ -137,6 +133,7 @@ export default {
 		TopNavigation,
 		RadioQuestion,
 		SelectMenu,
+		Textarea,
 		InputFieldBorderBottomOnly,
 		MultiplePhotoUpload,
 		ButtonOutlineDark,

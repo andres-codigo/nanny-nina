@@ -28,7 +28,7 @@
 
 				<Reviews class="mt-7">
 					<template #title>
-						<h5 class="text-header-five font-bold antialiased mb-7">What Others Say</h5>
+						<h5 class="text-header-five font-semibold antialiased mb-7">What Others Say</h5>
 					</template>
 				</Reviews>
 			</div>
@@ -37,14 +37,14 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
-import ParentCard from '../../../../../components/profile/parent-card/ParentCard.vue'
-import ParentNeeds from '../../../../../components/profile/parent-needs/ParentNeeds.vue'
-import FixedApplicationContent from '../../../../../components/profile/FixedApplicationContent.vue'
-import RequestNote from '../../../../../components/profile/RequestNote.vue'
-import Preferences from '../../../../../components/profile/Preferences.vue'
-import Photos from '../../../../../components/profile/photos/Photos.vue'
-import Reviews from '../../../../../components/profile/Reviews.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import ParentCard from './parent-card/_ParentCard.vue'
+import ParentNeeds from './_ParentNeeds.vue'
+import FixedApplicationContent from '../../../../../components/profile/view/FixedApplicationContent.vue'
+import RequestNote from '../../../../../components/profile/view/RequestNote.vue'
+import Preferences from '../../../../../components/profile/view/Preferences.vue'
+import Photos from '../../../../../components/profile/_photos/Photos.vue'
+import Reviews from '../../../../../components/profile/view/Reviews.vue'
 
 import { ChevronLeftIcon, DotsVerticalIcon } from '@heroicons/vue/solid'
 

@@ -52,13 +52,13 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
 
 import JobListingFilter from '../../../../../../components/filter/JobListingFilter.vue'
 import JobListingFilterItem from '../../../../../../components/filter/JobListingFilterItem.vue'
 import JobListingFilterItemSelected from '../../../../../../components/filter/JobListingFilterItemSelected.vue'
 
-import JobAdCard from '../../../../../../components/cards/JobAdCard.vue'
+import JobAdCard from '../../../../../../components/cards/job-ad-card/JobAdCard.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 
