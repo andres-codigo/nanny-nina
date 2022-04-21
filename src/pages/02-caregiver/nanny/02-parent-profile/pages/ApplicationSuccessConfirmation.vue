@@ -31,8 +31,8 @@
 
 <script>
 import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
-import ButtonSecondary from '../../../../../components/buttons/ButtonSecondary.vue'
-import ButtonGhost from '../../../../../components/buttons/ButtonGhost.vue'
+import ButtonSecondary from '../../../../../components/form/buttons/ButtonSecondary.vue'
+import ButtonGhost from '../../../../../components/form/buttons/ButtonGhost.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 

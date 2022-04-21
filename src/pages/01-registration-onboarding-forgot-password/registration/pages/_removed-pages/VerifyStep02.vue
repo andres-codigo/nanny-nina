@@ -35,7 +35,7 @@
 
 <script>
 import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
-import ButtonDisabled from '../../../../../components/buttons/ButtonDisabled.vue'
+import ButtonDisabled from '../../../../../components/form/buttons/ButtonDisabled.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 

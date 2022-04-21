@@ -123,8 +123,8 @@ import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
 import Textarea from '../../../../../../components/form/Textarea.vue'
 import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
 import MultiplePhotoUpload from '../../../../../../components/media/multiple-upload/MultiplePhotoUpload.vue'
-import ButtonOutlineDark from '../../../../../../components/buttons/ButtonOutlineDark.vue'
-import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
+import ButtonOutlineDark from '../../../../../../components/form/buttons/ButtonOutlineDark.vue'
+import ButtonPrimary from '../../../../../../components/form/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, PlusIcon } from '@heroicons/vue/solid'
 

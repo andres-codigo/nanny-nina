@@ -53,8 +53,8 @@ import TopNavigation from '../../../../../components/navigation/TopNavigation.vu
 import Textarea from '../../../../../components/form/Textarea.vue'
 import CheckboxLeftWithContainerAndLabelRight from '../../../../../components/form/CheckboxLeftWithContainerAndLabelRight.vue'
 import InputField from '../../../../../components/form/InputField.vue'
-import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
-import ButtonGhost from '../../../../../components/buttons/ButtonGhost.vue'
+import ButtonPrimary from '../../../../../components/form/buttons/ButtonPrimary.vue'
+import ButtonGhost from '../../../../../components/form/buttons/ButtonGhost.vue'
 
 import { ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 

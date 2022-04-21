@@ -172,8 +172,8 @@
 </template>
 
 <script>
-import ButtonGhost from '../buttons/ButtonGhost.vue'
-import ButtonPrimary from '../buttons/ButtonPrimary.vue'
+import ButtonGhost from '../form/buttons/ButtonGhost.vue'
+import ButtonPrimary from '../form/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/vue/solid'
 

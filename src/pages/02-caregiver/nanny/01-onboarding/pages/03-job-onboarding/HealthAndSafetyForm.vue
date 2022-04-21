@@ -63,7 +63,7 @@ import TopNavigation from '../../../../../../components/navigation/TopNavigation
 import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
 import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
-import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
+import ButtonPrimary from '../../../../../../components/form/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, PlusIcon } from '@heroicons/vue/solid'
 

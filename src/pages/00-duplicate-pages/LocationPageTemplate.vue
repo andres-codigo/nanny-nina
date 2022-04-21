@@ -38,7 +38,7 @@
 <script>
 import TopNavigation from '../../components/navigation/TopNavigation.vue'
 import InputField from '../../components/form/InputField.vue'
-import ButtonPrimary from '../../components/buttons/ButtonPrimary.vue'
+import ButtonPrimary from '../../components/form/buttons/ButtonPrimary.vue'
 
 import { XIcon } from '@heroicons/vue/solid'
 

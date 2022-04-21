@@ -32,7 +32,7 @@
 <script>
 import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
 import CheckboxRightWithContainerAndLabelLeft from '../../../../../../components/form/CheckboxRightWithContainerAndLabelLeft.vue'
-import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
+import ButtonPrimary from '../../../../../../components/form/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 

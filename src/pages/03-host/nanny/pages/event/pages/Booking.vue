@@ -47,7 +47,7 @@ import TopNavigation from '../../../../../../components/navigation/TopNavigation
 import InputField from '../../../../../../components/form/InputField.vue'
 import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import CheckboxLeftWithContainerAndLabelRight from '../../../../../../components/form/CheckboxLeftWithContainerAndLabelRight.vue'
-import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
+import ButtonPrimary from '../../../../../../components/form/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, PlusIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 

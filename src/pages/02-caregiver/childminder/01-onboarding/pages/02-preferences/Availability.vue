@@ -73,7 +73,7 @@ import DayOrTimeAvailabilityRow from '../../../../../../components/availability/
 import ToggleButtonTextRight from '../../../../../../components/form/ToggleButtonTextRight.vue'
 import InputFieldTimeEnabled from '../../../../../../components/form/InputFieldTimeEnabled.vue'
 import InputFieldTimeDisabled from '../../../../../../components/form/InputFieldTimeDisabled.vue'
-import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
+import ButtonPrimary from '../../../../../../components/form/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, QuestionMarkCircleIcon, PlusIcon, XCircleIcon } from '@heroicons/vue/solid'
 

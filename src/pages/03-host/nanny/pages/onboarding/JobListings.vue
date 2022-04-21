@@ -58,7 +58,7 @@ import JobListingFilterItem from '../../../../../components/filter/JobListingFil
 
 import JobAdNannyCard from '../../../../../components/cards/job-ad-card/JobAdNannyCard.vue'
 
-import ButtonOutlineDark from '../../../../../components/buttons/ButtonOutlineDark.vue'
+import ButtonOutlineDark from '../../../../../components/form/buttons/ButtonOutlineDark.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 

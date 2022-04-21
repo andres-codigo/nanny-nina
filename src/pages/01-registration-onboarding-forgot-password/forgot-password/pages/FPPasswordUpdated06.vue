@@ -32,7 +32,7 @@
 import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
 import Header from '../../../../components/header/Header.vue'
 import Mail from '../../../../assets/svg/mail/mail.vue'
-import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
+import ButtonPrimary from '../../../../components/form/buttons/ButtonPrimary.vue'
 
 export default {
 	components: {

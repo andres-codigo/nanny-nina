@@ -28,8 +28,8 @@
 <script>
 import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
 import Header from '../../../../components/header/Header.vue'
-import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
-import ButtonGhost from '../../../../components/buttons/ButtonGhost.vue'
+import ButtonPrimary from '../../../../components/form/buttons/ButtonPrimary.vue'
+import ButtonGhost from '../../../../components/form/buttons/ButtonGhost.vue'
 
 export default {
 	components: {

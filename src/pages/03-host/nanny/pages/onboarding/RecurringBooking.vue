@@ -127,7 +127,7 @@ import InputField from '../../../../../components/form/InputField.vue'
 import InputFieldTimeEnabled from '../../../../../components/form/InputFieldTimeEnabled.vue'
 import InputFieldTimeDisabled from '../../../../../components/form/InputFieldTimeDisabled.vue'
 import SelectMenu from '../../../../../components/form/SelectMenu.vue'
-import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
+import ButtonPrimary from '../../../../../components/form/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, QuestionMarkCircleIcon, PlusIcon, XCircleIcon } from '@heroicons/vue/solid'
 

@@ -23,8 +23,8 @@
 </template>
 
 <script>
-import ButtonSecondary from '../../../../components/buttons/ButtonSecondary.vue'
-import ButtonOutlineLight from '../../../../components/buttons/ButtonOutlineLight.vue'
+import ButtonSecondary from '../../../../components/form/buttons/ButtonSecondary.vue'
+import ButtonOutlineLight from '../../../../components/form/buttons/ButtonOutlineLight.vue'
 
 export default {
 	components: {

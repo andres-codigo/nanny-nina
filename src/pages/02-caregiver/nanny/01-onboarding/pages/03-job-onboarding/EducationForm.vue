@@ -128,9 +128,9 @@ import RadioWithContainerAndLabel from '../../../../../../components/form/RadioW
 import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
 import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
-import ButtonOutlineDark from '../../../../../../components/buttons/ButtonOutlineDark.vue'
+import ButtonOutlineDark from '../../../../../../components/form/buttons/ButtonOutlineDark.vue'
 import BadgeRemove from '../../../../../../components/badge/BadgeRemove.vue'
-import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
+import ButtonPrimary from '../../../../../../components/form/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, PlusIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 

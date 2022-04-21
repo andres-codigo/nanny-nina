@@ -72,11 +72,11 @@
 <script>
 import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
 import Header from '../../../../components/header/Header.vue'
-import ButtonOutlineDark from '../../../../components/buttons/ButtonOutlineDark.vue'
+import ButtonOutlineDark from '../../../../components/form/buttons/ButtonOutlineDark.vue'
 import SelectMenu from '../../../../components/form/SelectMenu.vue'
 import InputField from '../../../../components/form/InputField.vue'
 import CheckboxLeftWithContainerAndLabelRight from '../../../../components/form/CheckboxLeftWithContainerAndLabelRight.vue'
-import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
+import ButtonPrimary from '../../../../components/form/buttons/ButtonPrimary.vue'
 import Google from '../../../../assets/svg/other/google.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'

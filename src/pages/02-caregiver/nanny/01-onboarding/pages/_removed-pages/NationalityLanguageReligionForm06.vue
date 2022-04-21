@@ -48,7 +48,7 @@
 import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
 import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
 import BadgeRemove from '../../../../../../components/badge/BadgeRemove.vue'
-import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
+import ButtonPrimary from '../../../../../../components/form/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, XCircleIcon } from '@heroicons/vue/solid'
 

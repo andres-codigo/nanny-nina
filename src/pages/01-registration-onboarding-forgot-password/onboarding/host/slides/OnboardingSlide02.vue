@@ -44,7 +44,7 @@ import Badge from '../../../../../components/carousel/Badge.vue'
 import Header from '../../../../../components/carousel/Header.vue'
 import Paragraph from '../../../../../components/carousel/Paragraph.vue'
 import NavigationDot from '../../../../../components/carousel/NavigationDot.vue'
-import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
+import ButtonPrimary from '../../../../../components/form/buttons/ButtonPrimary.vue'
 
 import { XIcon } from '@heroicons/vue/solid'
 

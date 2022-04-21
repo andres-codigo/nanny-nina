@@ -61,7 +61,7 @@
 <script>
 import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
 import CheckboxLeftWithContainerAndLabelRight from '../../../../../components/form/CheckboxLeftWithContainerAndLabelRight.vue'
-import ButtonOutlineLight from '../../../../../components/buttons/ButtonOutlineLight.vue'
+import ButtonOutlineLight from '../../../../../components/form/buttons/ButtonOutlineLight.vue'
 import AnchorSecondary from '../../../../../components/dom-elements/AnchorSecondary.vue'
 
 import { ChevronLeftIcon, CheckCircleIcon } from '@heroicons/vue/solid'

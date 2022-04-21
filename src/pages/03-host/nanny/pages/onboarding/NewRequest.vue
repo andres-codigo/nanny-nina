@@ -34,8 +34,8 @@
 <script>
 import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
 import LinkCard from '../../../../../components/cards/link-card/LinkCard.vue'
-import ButtonOutlineDark from '../../../../../components/buttons/ButtonOutlineDark.vue'
-import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
+import ButtonOutlineDark from '../../../../../components/form/buttons/ButtonOutlineDark.vue'
+import ButtonPrimary from '../../../../../components/form/buttons/ButtonPrimary.vue'
 
 import { XIcon } from '@heroicons/vue/solid'
 

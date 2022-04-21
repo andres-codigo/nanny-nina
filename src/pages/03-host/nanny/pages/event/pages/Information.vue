@@ -80,7 +80,7 @@ import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
 import SelectMenuRightWithTextAndSubtextLeft from '../../../../../../components/form/SelectMenuRightWithTextAndSubtextLeft.vue'
 import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import BadgeRemove from '../../../../../../components/badge/BadgeRemove.vue'
-import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
+import ButtonPrimary from '../../../../../../components/form/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, PlusIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 
