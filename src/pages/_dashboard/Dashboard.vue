@@ -236,9 +236,9 @@
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
 							:subItem="false"
-							:hideNotes="true"
-							notes=""
-							date=""
+							:hideNotes="false"
+							notes="Waiting on reply to design questions"
+							date="21/04/22"
 							routerLinkPath="/host-childminder"
 							title="Onboarding"
 							textColor="text-purple-600"
