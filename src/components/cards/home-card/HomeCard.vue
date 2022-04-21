@@ -11,8 +11,8 @@
 				<div class="relative flex grow h-40 overflow-hidden">
 					<a href="#" target="_self" class="absolute right-0 top-4 w-10"><QuestionMarkCircleIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></a>
 					<!--
-						Image component for svg here
-						<Image src="*.svg" />
+						Image svg here
+						<img src="*.svg" />
 						* remove background color in div as visual placeholder
 					-->
 				</div>
@@ -33,13 +33,10 @@
 </template>
 
 <script>
-import Image from './Image.vue'
-
 import { QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
-		Image,
 		QuestionMarkCircleIcon
 	},
 	props: {

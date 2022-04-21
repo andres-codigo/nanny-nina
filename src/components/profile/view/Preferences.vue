@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import BadgeWithIcon from '../badge/BadgeWithIcon.vue'
+import BadgeWithIcon from '../../badge/BadgeWithIcon.vue'
 
 import { CakeIcon, UserCircleIcon, ChatAlt2Icon, ArrowRightIcon } from '@heroicons/vue/solid'
 

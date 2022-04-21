@@ -56,7 +56,7 @@ import TopNavigation from '../../../../../components/navigation/TopNavigation.vu
 import JobListingFilter from '../../../../../components/filter/JobListingFilter.vue'
 import JobListingFilterItem from '../../../../../components/filter/JobListingFilterItem.vue'
 
-import JobAdNannyCard from '../../../../../components/cards/JobAdNannyCard.vue'
+import JobAdNannyCard from '../../../../../components/cards/job-ad-card/JobAdNannyCard.vue'
 
 import ButtonOutlineDark from '../../../../../components/buttons/ButtonOutlineDark.vue'
 

@@ -7,22 +7,19 @@
 		</div>
 
 		<!--
-			Image component for svg here
+			Image svg here
 			width, height and bottom position may need to be adjusted
-			<Image src="*.svg" class="w-32 h-32 absolute -bottom-6"/>
+			<img src="*.svg" class="w-32 h-32 absolute -bottom-6"/>
 		-->
 		<ChevronRightIcon class="absolute right-2 top-28 w-8 h-8" aria-hidden="true" />
 	</router-link>
 </template>
 
 <script>
-import Image from './Image.vue'
-
 import { ChevronRightIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
-		Image,
 		ChevronRightIcon,
 	},
 	props: {

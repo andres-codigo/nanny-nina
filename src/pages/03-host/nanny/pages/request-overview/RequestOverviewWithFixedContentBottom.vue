@@ -41,11 +41,11 @@
 
 <script>
 import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
-import EditToCareFor from '../../../../../components/profile/request-overview/EditToCareFor.vue'
-import EditDate from '../../../../../components/profile/request-overview/EditDate.vue'
-import EditRequestNote from '../../../../../components/profile/request-overview/EditRequestNote.vue'
-import EditPreferences from '../../../../../components/profile/request-overview/EditPreferences.vue'
-import EditPhotos from '../../../../../components/profile/request-overview/EditPhotos.vue'
+import EditToCareFor from '../../../../../components/profile/edit/EditToCareFor.vue'
+import EditDate from '../../../../../components/profile/edit/EditDate.vue'
+import EditRequestNote from '../../../../../components/profile/edit/EditRequestNote.vue'
+import EditPreferences from '../../../../../components/profile/edit/EditPreferences.vue'
+import EditPhotos from '../../../../../components/profile/edit/EditPhotos.vue'
 import PricingConfirmation from '../../../../../components/fixed/PricingConfirmation.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'

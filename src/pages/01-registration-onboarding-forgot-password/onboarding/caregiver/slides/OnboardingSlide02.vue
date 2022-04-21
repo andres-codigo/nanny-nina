@@ -7,8 +7,8 @@
 			<div class="min-h-screen flex flex-col justify-center px-4 bg-lilac-100">
 				<div class="flex justify-center h-48">
 					<!--
-						Image component for svg here
-						<Image src="*.svg" />
+						Image svg here
+						<img src="*.svg" />
 						* remove background color in div as visual placeholder
 					-->
 				</div>

@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import Photo from '../photos/Photo.vue'
+import Photo from '../_photos/Photo.vue'
 
 import { ChevronRightIcon } from '@heroicons/vue/solid'
 

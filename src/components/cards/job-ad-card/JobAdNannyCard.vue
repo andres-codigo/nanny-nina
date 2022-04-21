@@ -61,7 +61,7 @@
 </template>
 
 <script>
-import Badge from '../badge/Badge.vue'
+import Badge from '../../badge/Badge.vue'
 
 import { ClockIcon, BriefcaseIcon, LocationMarkerIcon, CashIcon, StarIcon } from '@heroicons/vue/outline'
 

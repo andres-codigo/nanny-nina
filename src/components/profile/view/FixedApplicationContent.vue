@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import FixedBottomContentAndButton from '../fixed/FixedBottomContentAndButton.vue'
+import FixedBottomContentAndButton from '../../fixed/FixedBottomContentAndButton.vue'
 
 export default {
 	components: {

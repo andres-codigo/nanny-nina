@@ -58,7 +58,7 @@ import JobListingFilter from '../../../../../../components/filter/JobListingFilt
 import JobListingFilterItem from '../../../../../../components/filter/JobListingFilterItem.vue'
 import JobListingFilterItemSelected from '../../../../../../components/filter/JobListingFilterItemSelected.vue'
 
-import JobAdCard from '../../../../../../components/cards/JobAdCard.vue'
+import JobAdCard from '../../../../../../components/cards/job-ad-card/JobAdCard.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 

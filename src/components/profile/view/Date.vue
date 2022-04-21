@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import CheckboxRightWithContainerAndLabelLeft from '../../../../components/form/CheckboxRightWithContainerAndLabelLeft.vue'
+import CheckboxRightWithContainerAndLabelLeft from '../../form/CheckboxRightWithContainerAndLabelLeft.vue'
 
 import { CalendarIcon } from '@heroicons/vue/outline'
 

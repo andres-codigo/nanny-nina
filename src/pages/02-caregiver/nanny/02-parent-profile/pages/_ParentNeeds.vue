@@ -52,7 +52,7 @@
 </template>
 
 <script>
-import Date from './dates/Date.vue'
+import Date from '../../../../../components/profile/view/Date.vue'
 
 import { ClockIcon } from '@heroicons/vue/outline'
 
