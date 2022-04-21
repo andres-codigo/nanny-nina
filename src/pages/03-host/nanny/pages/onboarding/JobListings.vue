@@ -51,14 +51,14 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 
 import JobListingFilter from '../../../../../components/filter/JobListingFilter.vue'
 import JobListingFilterItem from '../../../../../components/filter/JobListingFilterItem.vue'
 
 import JobAdNannyCard from '../../../../../components/cards/job-ad-card/JobAdNannyCard.vue'
 
-import ButtonOutlineDark from '../../../../../components/form/buttons/ButtonOutlineDark.vue'
+import ButtonOutlineDark from '../../../../../components/buttons/ButtonOutlineDark.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 

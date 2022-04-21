@@ -29,7 +29,7 @@
 
 
 <script>
-import ButtonPreferenceOutlineGrey from '../form/buttons/ButtonPreferenceOutlineGrey.vue'
+import ButtonPreferenceOutlineGrey from '../buttons/ButtonPreferenceOutlineGrey.vue'
 
 import { ChevronRightIcon } from '@heroicons/vue/solid'
 

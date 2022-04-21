@@ -52,7 +52,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
 
 import Steps from '../../../../../../components/steps/Steps.vue'
 import CompletedStep from '../../../../../../components/steps/types/CompletedStep.vue'
@@ -60,7 +60,7 @@ import CurrentStep from '../../../../../../components/steps/types/CurrentStep.vu
 import UpcomingStep from '../../../../../../components/steps/types/UpcomingStep.vue'
 
 import SingleVideoUpload from '../../../../../../components/media/single-upload/SingleVideoUpload.vue'
-import ButtonPrimary from '../../../../../../components/form/buttons/ButtonPrimary.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, CheckCircleIcon } from '@heroicons/vue/solid'
 

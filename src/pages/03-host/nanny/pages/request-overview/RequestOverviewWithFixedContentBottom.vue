@@ -30,23 +30,23 @@
 				<EditPhotos  />
 			</div>
 			<section class="block fixed inset-x-0 w-full bottom-0 z-10 bg-white border-t border-gray">
-				<PricingConfirmation anchorText="Invite">
+				<FixedBottomPricingConfirmation anchorText="Invite">
 					<template #topText><span class="text-2xl font-bold">&euro;13-15</span>/hr</template>
 					<template #bottomText>2km away</template>
-				</PricingConfirmation>
+				</FixedBottomPricingConfirmation>
 			</section>
 		</main>
 	</div>
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import EditToCareFor from '../../../../../components/profile/edit/EditToCareFor.vue'
 import EditDate from '../../../../../components/profile/edit/EditDate.vue'
 import EditRequestNote from '../../../../../components/profile/edit/EditRequestNote.vue'
 import EditPreferences from '../../../../../components/profile/edit/EditPreferences.vue'
 import EditPhotos from '../../../../../components/profile/edit/EditPhotos.vue'
-import PricingConfirmation from '../../../../../components/fixed/PricingConfirmation.vue'
+import FixedBottomPricingConfirmation from '../../../../../components/content/fixed/FixedBottomPricingConfirmation.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 
@@ -58,7 +58,7 @@ export default {
 		EditRequestNote,
 		EditPreferences,
 		EditPhotos,
-		PricingConfirmation,
+		FixedBottomPricingConfirmation,
 		ChevronLeftIcon
 	}
 }

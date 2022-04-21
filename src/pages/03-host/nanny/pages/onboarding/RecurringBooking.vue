@@ -120,14 +120,14 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import ToggleButtonTextRight from '../../../../../components/form/ToggleButtonTextRight.vue'
 import DayOrTimeAvailabilityRow from '../../../../../components/availability/weekly-hours/DayOrTimeRow.vue'
 import InputField from '../../../../../components/form/InputField.vue'
 import InputFieldTimeEnabled from '../../../../../components/form/InputFieldTimeEnabled.vue'
 import InputFieldTimeDisabled from '../../../../../components/form/InputFieldTimeDisabled.vue'
 import SelectMenu from '../../../../../components/form/SelectMenu.vue'
-import ButtonPrimary from '../../../../../components/form/buttons/ButtonPrimary.vue'
+import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, QuestionMarkCircleIcon, PlusIcon, XCircleIcon } from '@heroicons/vue/solid'
 

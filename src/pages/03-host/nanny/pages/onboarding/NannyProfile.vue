@@ -117,7 +117,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import NannyCard from './nanny-card/_NannyCard.vue'
 import HeaderParagraphSection from './nanny-card/_HeaderParagraphSection.vue'
 import Preferences from '../../../../../components/profile/view/Preferences.vue'

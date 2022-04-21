@@ -46,10 +46,10 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
-import Header from '../../../../components/header/Header.vue'
-import ButtonDisabled from '../../../../components/form/buttons/ButtonDisabled.vue'
-import ButtonGhost from '../../../../components/form/buttons/ButtonGhost.vue'
+import TopNavigation from '../../../../components/navigation-and-tabs/TopNavigation.vue'
+import Header from '../../../../components/content/logos/Header.vue'
+import ButtonDisabled from '../../../../components/buttons/ButtonDisabled.vue'
+import ButtonGhost from '../../../../components/buttons/ButtonGhost.vue'
 
 export default {
 	components: {

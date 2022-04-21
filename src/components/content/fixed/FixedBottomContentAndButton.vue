@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import AnchorPrimary from '../dom-elements/AnchorPrimary.vue'
+import AnchorPrimary from '../../dom-elements/AnchorPrimary.vue'
 
 export default {
 	components: {

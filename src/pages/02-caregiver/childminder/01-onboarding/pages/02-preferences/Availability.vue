@@ -67,13 +67,13 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
-import Tabs from '../../../../../../components/tabs/Tabs.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import Tabs from '../../../../../../components/navigation-and-tabs/Tabs.vue'
 import DayOrTimeAvailabilityRow from '../../../../../../components/availability/weekly-hours/DayOrTimeRow.vue'
 import ToggleButtonTextRight from '../../../../../../components/form/ToggleButtonTextRight.vue'
 import InputFieldTimeEnabled from '../../../../../../components/form/InputFieldTimeEnabled.vue'
 import InputFieldTimeDisabled from '../../../../../../components/form/InputFieldTimeDisabled.vue'
-import ButtonPrimary from '../../../../../../components/form/buttons/ButtonPrimary.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, QuestionMarkCircleIcon, PlusIcon, XCircleIcon } from '@heroicons/vue/solid'
 

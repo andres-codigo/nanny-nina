@@ -27,9 +27,9 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../components/navigation-and-tabs/TopNavigation.vue'
 import LinkCard from '../../../../components/cards/link-card/LinkCard.vue'
-import ButtonOutlineDark from '../../../../components/form/buttons/ButtonOutlineDark.vue'
+import ButtonOutlineDark from '../../../../components/buttons/ButtonOutlineDark.vue'
 
 import { XIcon } from '@heroicons/vue/solid'
 

@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import AnchorOutlineLight from '../../../../../../components/dom-elements/AnchorOutlineLight.vue'
 import AnchorSecondary from '../../../../../../components/dom-elements/AnchorSecondary.vue'
 

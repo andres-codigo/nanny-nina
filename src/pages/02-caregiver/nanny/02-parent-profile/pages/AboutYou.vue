@@ -25,9 +25,9 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import Textarea from '../../../../../components/form/Textarea.vue'
-import ButtonPrimary from '../../../../../components/form/buttons/ButtonPrimary.vue'
+import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, DotsVerticalIcon } from '@heroicons/vue/solid'
 

@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import ParentCard from './parent-card/_ParentCard.vue'
 import ParentNeeds from './_ParentNeeds.vue'
 import FixedApplicationContent from '../../../../../components/profile/view/FixedApplicationContent.vue'

@@ -43,7 +43,7 @@
 </template>
 
 <script>
-import ButtonPrimary from '../form/buttons/ButtonPrimary.vue'
+import ButtonPrimary from '../buttons/ButtonPrimary.vue'
 
 export default {
 	components: {

@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
 
 import Steps from '../../../../../../components/steps/Steps.vue'
 import CompletedStep from '../../../../../../components/steps/types/CompletedStep.vue'
@@ -37,7 +37,7 @@ import UpcomingStep from '../../../../../../components/steps/types/UpcomingStep.
 
 import SinglePhotoUpload from '../../../../../../components/media/single-upload/SinglePhotoUpload.vue'
 import MultiplePhotoUpload from '../../../../../../components/media/multiple-upload/MultiplePhotoUpload.vue'
-import ButtonPrimary from '../../../../../../components/form/buttons/ButtonPrimary.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 

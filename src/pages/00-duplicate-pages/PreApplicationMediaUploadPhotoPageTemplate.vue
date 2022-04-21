@@ -25,10 +25,10 @@
 </template>
 
 <script>
-import TopNavigation from '../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../components/navigation-and-tabs/TopNavigation.vue'
 import SinglePhotoUpload from '../../components/media/single-upload/SinglePhotoUpload.vue'
 import MultiplePhotoUpload from '../../components/media/multiple-upload/MultiplePhotoUpload.vue'
-import ButtonDisabled from '../../components/form/buttons/ButtonDisabled.vue'
+import ButtonDisabled from '../../components/buttons/ButtonDisabled.vue'
 
 import { ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 

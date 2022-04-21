@@ -15,7 +15,7 @@
 
 <script>
 import HomeTemplate from '../../../../00-duplicate-pages/home/HomeTemplate.vue'
-import UserProgress from '../../../../../components/home/UserProgress.vue'
+import UserProgress from '../../../../../components/progress/UserProgress.vue'
 import HomeCard from '../../../../../components/cards/home-card/HomeCard.vue'
 
 export default {

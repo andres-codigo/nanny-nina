@@ -21,9 +21,9 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
-import ButtonPrimary from '../../../../../components/form/buttons/ButtonPrimary.vue'
-import ButtonGhost from '../../../../../components/form/buttons/ButtonGhost.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
+import ButtonGhost from '../../../../../components/buttons/ButtonGhost.vue'
 
 import { ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 

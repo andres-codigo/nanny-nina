@@ -49,11 +49,11 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../components/navigation/TopNavigation.vue'
-import Header from '../../../../components/header/Header.vue'
+import TopNavigation from '../../../../components/navigation-and-tabs/TopNavigation.vue'
+import Header from '../../../../components/content/logos/Header.vue'
 import InputField from '../../../../components/form/InputField.vue'
-import ButtonPrimary from '../../../../components/form/buttons/ButtonPrimary.vue'
-import ButtonOutlineDark from '../../../../components/form/buttons/ButtonOutlineDark.vue'
+import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
+import ButtonOutlineDark from '../../../../components/buttons/ButtonOutlineDark.vue'
 import Google from '../../../../assets/svg/other/google.vue'
 
 export default {

@@ -63,10 +63,10 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import RadioQuestion from '../../../../../components/form/RadioQuestion.vue'
 import PriceRange from '../../../../../components/form/price-range/PriceRange.vue'
-import ButtonPrimary from '../../../../../components/form/buttons/ButtonPrimary.vue'
+import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 

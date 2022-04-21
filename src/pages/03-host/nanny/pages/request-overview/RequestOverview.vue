@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import EditToCareFor from '../../../../../components/profile/edit/EditToCareFor.vue'
 import EditDate from '../../../../../components/profile/edit/EditDate.vue'
 import EditRequestNote from '../../../../../components/profile/edit/EditRequestNote.vue'

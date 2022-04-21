@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import AnchorSecondary from '../../../../../../components/dom-elements/AnchorSecondary.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'

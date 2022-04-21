@@ -45,10 +45,10 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
 import BadgeRemove from '../../../../../../components/badge/BadgeRemove.vue'
-import ButtonPrimary from '../../../../../../components/form/buttons/ButtonPrimary.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, XCircleIcon } from '@heroicons/vue/solid'
 

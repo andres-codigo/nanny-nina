@@ -49,12 +49,12 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation/TopNavigation.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import Textarea from '../../../../../components/form/Textarea.vue'
 import CheckboxLeftWithContainerAndLabelRight from '../../../../../components/form/CheckboxLeftWithContainerAndLabelRight.vue'
 import InputField from '../../../../../components/form/InputField.vue'
-import ButtonPrimary from '../../../../../components/form/buttons/ButtonPrimary.vue'
-import ButtonGhost from '../../../../../components/form/buttons/ButtonGhost.vue'
+import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
+import ButtonGhost from '../../../../../components/buttons/ButtonGhost.vue'
 
 import { ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 
