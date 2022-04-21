@@ -1,6 +1,6 @@
 <template>
 	<div :class="class" class="flex flex-col">
-		<h5 class="text-header-five font-bold antialiased">{{ title }}</h5>
+		<h5 class="text-header-five font-semibold antialiased">{{ title }}</h5>
 		<div class="flex flex-wrap mt-4">
 			<BadgeWithIcon text="Cooking"><template #icon><CakeIcon class="w-5 h-5"/></template></BadgeWithIcon>
 			<BadgeWithIcon text="Biking"><template #icon><UserCircleIcon class="w-5 h-5"/></template></BadgeWithIcon>

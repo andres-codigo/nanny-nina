@@ -5,7 +5,7 @@
 		</TopNavigation>
 		<main>
 			<div class="h-full pt-12 pb-28 mx-4">
-				<h5 class="text-header-five font-bold antialiased mb-10">After School Sitter Needed For 2 days</h5>
+				<h5 class="text-header-five font-semibold antialiased mb-10">After School Sitter Needed For 2 days</h5>
 
 				<EditToCareFor>
 					<template #details><p>2 kids > 3yrs (M), 2yrs (F)</p></template>

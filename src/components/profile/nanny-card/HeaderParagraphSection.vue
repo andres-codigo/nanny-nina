@@ -1,6 +1,6 @@
 <template>
 	<div :class="class" class="flex flex-col">
-		<h5 class="text-header-five font-bold antialiased">{{ title }}</h5>
+		<h5 class="text-header-five font-semibold antialiased">{{ title }}</h5>
 		<slot name="content"></slot>
 	</div>
 </template>

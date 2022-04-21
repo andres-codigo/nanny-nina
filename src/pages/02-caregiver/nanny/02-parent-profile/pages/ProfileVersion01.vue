@@ -28,7 +28,7 @@
 
 				<Reviews class="mt-7">
 					<template #title>
-						<h5 class="text-header-five font-bold antialiased mb-7">What Others Say</h5>
+						<h5 class="text-header-five font-semibold antialiased mb-7">What Others Say</h5>
 					</template>
 				</Reviews>
 			</div>

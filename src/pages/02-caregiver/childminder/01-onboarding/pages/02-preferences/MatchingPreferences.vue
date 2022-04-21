@@ -24,7 +24,7 @@
 					</div>
 
 					<div class="mb-10">
-						<h5 class="text-left text-header-five font-semibold antialiased mb-6">I am comfortable with</h5>
+						<h5 class="text-left text-header-five font-semibold antialiased mb-4">I am comfortable with</h5>
 						<div class="mt-4">
 							<CheckboxRightWithContainerAndLabelLeft checkboxName="checkout-2" text="Meal preparation" />
 							<CheckboxRightWithContainerAndLabelLeft checkboxName="checkout-5" text="Pick up from school" />

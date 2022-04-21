@@ -5,9 +5,9 @@
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col pt-6 mx-4">
+			<div class="flex flex-col pt-12 mx-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="text-left text-header-five font-semibold antialiased my-6">Event Information</h5>
+					<h5 class="text-left text-header-five font-semibold antialiased mb-6">Event Information</h5>
 
 					<div class="mb-10">
 						<p class="font-thin">What type of event do you have?</p>
@@ -41,7 +41,7 @@
 
 					<div class="mb-10">
 						<h5 class="text-left text-header-five font-semibold antialiased mb-2">How many nannies do you need?</h5>
-						<p class="font-thin">Based on total above, We advise at least 2 nannies.</p>
+						<p class="font-thin">Based on total above, we advise at least 2 nannies.</p>
 						<div class="mt-4 grid grid-cols-2 gap-x-2">
 							<div><SelectMenu optionText="1" class="w-24" /></div>
 						</div>
@@ -49,19 +49,17 @@
 
 					<div class="mb-10">
 						<div class="mb-2">
-							<p class="font-thin mb-4">Will there be pets?</p>
+							<p class="font-thin mb-2">Will there be pets?</p>
 							<RadioQuestion :screenReaderOnly="true" legend="Will there be pets?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
-						<div>
-							<p class="font-thin">Please specify</p>
-							<div class="mt-4 grid grid-cols-2 gap-y-6 gap-x-2">
-								<div><SelectMenu /></div>
-								<div class="flex flex-wrap justify-center items-center mt-4">
-									<BadgeRemove text="Cats" />
-									<BadgeRemove text="Dogs" />
-									<BadgeRemove text="Birds" />
-								</div>
+						<p class="font-thin">Please specify</p>
+						<div class="grid grid-cols-2 gap-y-6 gap-x-2">
+							<SelectMenu class="mt-2" />
+							<div class="flex flex-wrap justify-center items-center mt-2">
+								<BadgeRemove text="Cats" />
+								<BadgeRemove text="Dogs" />
+								<BadgeRemove text="Birds" />
 							</div>
 						</div>
 					</div>

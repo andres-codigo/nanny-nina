@@ -5,7 +5,7 @@
 		</TopNavigation>
 		<main>
 			<div class="h-screen flex flex-col mx-4">
-				<h4 class="text-center text-header-four antialiased my-12">{{ title }}</h4>
+				<h4 class="text-center text-header-four font-semibold antialiased my-12">{{ title }}</h4>
 
 				<form class="w-full" action="#" method="POST">
 					<div class="flex flex-col">

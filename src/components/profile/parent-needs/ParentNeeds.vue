@@ -1,9 +1,9 @@
 <template>
 	<div class="flex flex-col">
-		<h5 class="text-header-five font-bold antialiased my-4">After School Sitter Needed</h5>
+		<h5 class="text-header-five font-semibold antialiased my-4">After School Sitter Needed</h5>
 		<a href="#" target="_self" class="text-blue-500 anchor-with-underline">Amsterdam Sloterdijk, Netherlands</a>
 
-		<h6 class="text-header-six font-bold mt-12 mb-4">To Care For</h6>
+		<h6 class="text-header-six font-semibold mt-12 mb-4">To Care For</h6>
 		<p>2 kids > 3yrs (M), 2yrs (F)</p>
 
 		<hr class="border-1 border-gray-50 my-6" />
@@ -30,7 +30,7 @@
 				<div class="inline-flex items-center ml-2">
 					<div class="grid grid-rows-3 grid-flow-col gap-1">
 						<div>
-							<h6 class="text-header-six font-bold">
+							<h6 class="text-header-six font-semibold">
 								Duration 6 months
 							</h6>
 						</div>

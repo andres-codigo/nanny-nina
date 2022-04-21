@@ -53,7 +53,7 @@
 								<StarIcon class="w-8 h-8 text-purple-500" />
 							</div>
 							<div class="inline-flex items-center justify-center">
-								<h5 class="text-header-five font-bold antialiased">What Other Parents Say</h5>
+								<h5 class="text-header-five font-semibold antialiased">What Other Parents Say</h5>
 							</div>
 						</div>
 					</template>
@@ -65,7 +65,7 @@
 					<template #title>
 						<div class="flex flex-row mb-7">
 							<div class="inline-flex items-center justify-center">
-								<h5 class="text-header-five font-bold antialiased">Badges Earned (2)</h5>
+								<h5 class="text-header-five font-semibold antialiased">Badges Earned (2)</h5>
 							</div>
 							<div class="inline-flex items-center justify-center grow-0 pl-2">
 								<QuestionMarkCircleIcon class="w-8 h-8 text-purple-500" />

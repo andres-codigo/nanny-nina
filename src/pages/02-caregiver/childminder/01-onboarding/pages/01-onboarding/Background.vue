@@ -30,7 +30,7 @@
 					<div class="mb-20">
 						<div>
 							<h5 class="text-header-five font-semibold antialiased mb-4">Safety Document <span class="text-sm text-gray-500">(optional)</span></h5>
-							<p class="font-thin mb-4">Do you have a VOG safety document?</p>
+							<p class="font-thin mb-2">Do you have a VOG safety document?</p>
 							<RadioQuestion :screenReaderOnly="true" legend="Are you First Aid certified?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
@@ -68,7 +68,7 @@
 
 					<div class="mb-10">
 						<div class="mb-2">
-							<p class="font-thin mb-4">Do you have pets?</p>
+							<p class="font-thin mb-2">Do you have pets?</p>
 							<RadioQuestion :screenReaderOnly="true" legend="Do you have pets?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
@@ -89,7 +89,7 @@
 					<div class="mb-10">
 						<div class="mb-8">
 							<h5 class="text-header-five font-semibold antialiased mb-4">Allergies</h5>
-							<p class="font-thin mb-4">Are you allergic to pets?</p>
+							<p class="font-thin mb-2">Are you allergic to pets?</p>
 							<RadioQuestion :screenReaderOnly="true" legend="Do you have any allergies?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 

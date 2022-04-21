@@ -11,7 +11,7 @@
 					<div class="mt-4 mb-8">
 						<div>
 							<p class="font-thin">Have you cared for children or elderly before?</p>
-							<p class="text-sm text-gray-500 font-thin mb-4">This doesn't have to be a professional experience</p>
+							<p class="text-sm text-gray-500 font-thin mb-2">This doesn't have to be a professional experience</p>
 							<RadioQuestion :screenReaderOnly="true" legend="Have you cared for children or elderly before?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 					</div>

@@ -45,7 +45,7 @@
 					<div class="mt-4 mb-16">
 						<div>
 							<h5 class="text-header-five font-semibold antialiased mb-4">Safety Document</h5>
-							<p class="font-thin mb-4">Are you First Aid certified?</p>
+							<p class="font-thin mb-2">Are you First Aid certified?</p>
 							<RadioQuestion :screenReaderOnly="true" legend="Are you First Aid certified?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
@@ -103,8 +103,8 @@
 						<h5 class="text-header-five font-semibold antialiased mb-4">Language</h5>
 						<p class="font-thin mb-2">What language(s) do you speak?</p>
 						<div class="mt-4 grid grid-cols-2 gap-y-6 gap-x-2">
-							<div><SelectMenu labelText="Preferred language" /></div>
-							<div class="flex flex-wrap justify-center items-center mt-4">
+							<SelectMenu />
+							<div class="flex flex-wrap justify-center items-center">
 								<BadgeRemove text="Dutch" />
 								<BadgeRemove text="English" />
 								<BadgeRemove text="Portuguese" />
