@@ -4,9 +4,23 @@
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col px-4 py-6">
+			<div class="flex flex-col pt-12 px-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="text-left text-header-five font-semibold antialiased mt-8 mb-2">I am comfortable with</h5>
+					<h5 class="text-left text-header-five font-semibold antialiased mb-2">Your Preferences</h5>
+
+					<div class="flex items-center justify-between mt-8 mb-10">
+						<span class="flex flex flex-col">
+							<span class="text-purple-900 font-semibold antialiased" id="availability-label">Available for last minute booking</span>
+							<span class="text-sm text-gray-500 font-thin pr-10">You will be automatically invited to last minute bookings in your city. Learn more</span>
+						</span>
+						<!-- Enabled: "bg-purple-600", Not Enabled: "bg-gray-500" -->
+						<button type="button" class="bg-gray-500 relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" role="switch" aria-checked="false" aria-labelledby="availability-label" aria-describedby="availability-description">
+							<!-- Enabled: "translate-x-6", Not Enabled: "translate-x-0" -->
+							<span aria-hidden="true" class="translate-x-0 pointer-events-none inline-block h-5 w-5 rounded-full bg-white shadow transform ring-0 transition ease-in-out duration-200"></span>
+						</button>
+					</div>
+
+					<h5 class="text-left text-header-five font-semibold antialiased mb-2">I am comfortable with</h5>
 					<div class="mt-4">
 						<CheckboxRightWithContainerAndLabelLeft checkboxName="checkout-1" text="Pets" />
 						<CheckboxRightWithContainerAndLabelLeft checkboxName="checkout-2" text="Meal preparation" />

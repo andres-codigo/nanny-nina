@@ -55,11 +55,11 @@
 
 						<p class="font-thin">Please specify</p>
 						<div class="grid grid-cols-2 gap-y-6 gap-x-2">
-							<SelectMenu class="mt-2" />
-							<div class="flex flex-wrap justify-center items-center mt-2">
-								<BadgeRemove text="Cats" />
-								<BadgeRemove text="Dogs" />
-								<BadgeRemove text="Birds" />
+							<div><SelectMenu class="mt-2" /></div>
+							<div class="grid grid-rows-2 grid-flow-col gap-x-0 justify-center">
+								<div><BadgeRemove text="Cats" /></div>
+								<div><BadgeRemove text="Dogs" /></div>
+								<div><BadgeRemove text="Birds" /></div>
 							</div>
 						</div>
 					</div>

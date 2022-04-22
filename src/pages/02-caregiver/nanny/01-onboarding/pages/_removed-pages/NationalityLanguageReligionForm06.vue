@@ -18,12 +18,12 @@
 					<div class="my-16">
 						<h5 class="text-header-five font-semibold antialiased">Language</h5>
 						<div class="mt-4 grid grid-cols-2 gap-y-6 gap-x-2">
-							<SelectMenu labelText="Language(s)" />
-							<div class="flex flex-wrap justify-center items-center mt-4">
-								<BadgeRemove text="Dutch" />
-								<BadgeRemove text="English" />
-								<BadgeRemove text="Portuguese" />
-								<BadgeRemove text="Irish" />
+							<div><SelectMenu labelText="Language(s)" /></div>
+							<div class="grid grid-rows-2 grid-flow-col gap-x-0 justify-center">
+								<div><BadgeRemove text="Dutch" /></div>
+								<div><BadgeRemove text="English" /></div>
+								<div><BadgeRemove text="Portuguese" /></div>
+								<div><BadgeRemove text="Irish" /></div>
 							</div>
 						</div>
 					</div>
