@@ -4,10 +4,10 @@
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col pt-6 mx-4">
+			<div class="flex flex-col pt-12 mx-4">
 				<form class="w-full" action="#" method="POST">
 
-					<div class="mt-4 mb-16">
+					<div class="mb-16">
 						<div class="mb-20">
 							<h5 class="text-header-five font-medium antialiased mb-4">We would like to a check <span class="text-red-500">*</span></h5>
 							<p class="font-thin mb-4">Please provide a reference, somebody that you have worked for (can also be family)that can tell us a little about you</p>

@@ -4,9 +4,9 @@
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col px-4 py-6">
+			<div class="flex flex-col pt-12 px-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="text-left text-header-five font-semibold antialiased mt-6 mb-2">Plan your booking</h5>
+					<h5 class="text-left text-header-five font-semibold antialiased mb-2">Plan your booking</h5>
 					<p	class="font-light">Select the day &amp; add time you need a nanny</p>
 
 					<div class="mt-12">
@@ -14,7 +14,7 @@
 							<div class="flex items-center justify-between">
 								<span class="flex flex flex-col">
 									<span class="text-purple-900 font-semibold antialiased" id="availability-label">Last Minute Booking</span>
-									<span class="text-sm text-gray-500 font-thin">I need a nanny urgently</span>
+									<span class="text-sm text-gray-500 font-thin pr-10">I need a nanny urgently</span>
 								</span>
 								<!-- Enabled: "bg-purple-600", Not Enabled: "bg-gray-500" -->
 								<button type="button" class="bg-gray-500 relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" role="switch" aria-checked="false" aria-labelledby="availability-label" aria-describedby="availability-description">
@@ -97,16 +97,16 @@
 					</div>
 
 					<div class="mt-12">
-						<h5 class="text-left text-header-five font-semibold antialiased my-6">Preferred Start Date</h5>
+						<h5 class="text-left text-header-five font-semibold antialiased my-6">Preferred start date</h5>
 						<div class="mt-4 grid grid-cols-2 gap-x-2">
 							<div><InputField text="Starting from" /></div>
 						</div>
 					</div>
 
 					<div class="mt-12">
-						<h5 class="text-left text-header-five font-semibold antialiased my-6">Duration of booking</h5>
+						<h5 class="text-left text-header-five font-semibold antialiased my-6">Preferred end date</h5>
 						<div class="mt-4 grid grid-cols-2 gap-x-2">
-							<div><SelectMenu optionText="- No end -" labelText="Choose" /></div>
+							<div><SelectMenu optionText="- No end -" labelText="Ending on" /></div>
 						</div>
 					</div>
 

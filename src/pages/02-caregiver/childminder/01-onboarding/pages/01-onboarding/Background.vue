@@ -29,7 +29,7 @@
 
 					<div class="mb-20">
 						<div>
-							<h5 class="text-header-five font-semibold antialiased mb-4">Safety Document <span class="text-sm text-gray-500">(optional)</span></h5>
+							<h5 class="text-header-five font-semibold antialiased mb-4">Safety Document <span class="text-sm text-gray-500">(Optional)</span></h5>
 							<p class="font-thin mb-2">Do you have a VOG safety document?</p>
 							<RadioQuestion :screenReaderOnly="true" legend="Are you First Aid certified?" questionOneText="Yes" questionTwoText="No" />
 						</div>
@@ -58,7 +58,7 @@
 						<p class="font-thin mt-8">Please add other specific details</p>
 
 						<div class="mt-4">
-							<Textarea name="note-for-parents" id="note-for-parents" />
+							<Textarea :characterNumber="140" name="note-for-parents" id="note-for-parents" />
 						</div>
 
 						<div class="mt-12">
@@ -67,41 +67,39 @@
 					</div>
 
 					<div class="mb-10">
-						<div class="mb-2">
+						<div>
 							<p class="font-thin mb-2">Do you have pets?</p>
 							<RadioQuestion :screenReaderOnly="true" legend="Do you have pets?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
-						<div>
-							<p class="font-thin">Please specify</p>
-
-							<div class="flex">
-								<div class="grow h-14">
-									<InputFieldBorderBottomOnly type="text" />
-								</div>
-								<div class="flex-none inline-flex justify-center items-center w-14 h-14">
-									<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
-								</div>
+						<div class="flex flex-row">
+							<div class="inline-flex items-center border-r border-r-gray-50 pr-4">
+								<SelectMenu optionText="Select pet" class="w-select-sm" />
+							</div>
+							<div class="flex grow justify-center items-center border-r border-r-gray-50 px-4">
+								<SelectMenu optionText="1" class="w-select-xs" />
+							</div>
+							<div class="inline-flex justify-center items-center w-14 h-14">
+								<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
 							</div>
 						</div>
 					</div>
 
 					<div class="mb-10">
-						<div class="mb-8">
-							<h5 class="text-header-five font-semibold antialiased mb-4">Allergies</h5>
+						<div class="mb-4">
+							<h5 class="text-header-five font-semibold antialiased mb-4">Allergies <span class="text-sm text-gray-500">(Optional)</span></h5>
 							<p class="font-thin mb-2">Are you allergic to pets?</p>
 							<RadioQuestion :screenReaderOnly="true" legend="Do you have any allergies?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
 						<div>
-							<p class="font-thin">Please specify</p>
-
-							<div class="flex">
-								<div class="grow h-14">
-									<InputFieldBorderBottomOnly type="text" />
-								</div>
-								<div class="flex-none inline-flex justify-center items-center w-14 h-14">
-									<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
+							<p class="font-thin mb-2">Select what pet's you have and how many?</p>
+							<div class="mt-4 grid grid-cols-2 gap-y-6 gap-x-2">
+								<div><SelectMenu /></div>
+								<div class="grid grid-rows-2 grid-flow-col gap-x-0 justify-center">
+									<div><BadgeRemove text="Cats" /></div>
+									<div><BadgeRemove text="Dogs" /></div>
+									<div><BadgeRemove text="Birds" /></div>
 								</div>
 							</div>
 						</div>
@@ -123,6 +121,7 @@ import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
 import Textarea from '../../../../../../components/form/Textarea.vue'
 import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
 import MultiplePhotoUpload from '../../../../../../components/media/multiple-upload/MultiplePhotoUpload.vue'
+import BadgeRemove from '../../../../../../components/badge/BadgeRemove.vue'
 import ButtonOutlineDark from '../../../../../../components/buttons/ButtonOutlineDark.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
@@ -136,6 +135,7 @@ export default {
 		Textarea,
 		InputFieldBorderBottomOnly,
 		MultiplePhotoUpload,
+		BadgeRemove,
 		ButtonOutlineDark,
 		ButtonPrimary,
 		ChevronLeftIcon,
