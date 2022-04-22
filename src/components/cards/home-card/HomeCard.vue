@@ -1,15 +1,9 @@
-<!--
-	NOTE:
-	I have not implemented the text and bg color for focus state as per the design update b/c I think too much refactor is required
-	Instead I've add an opacity for focus state.
-	I'll leave a note on the design.
--->
 <template>
-	<div class="inline-flex w-full border border-gray-50  hover:border hover:border-gray-500 focus:opacity-50 rounded-3xl">
-		<a href="/" class="w-full h-80">
+	<div class="inline-flex w-full border border-gray-50  hover:border hover:border-gray-500  rounded-3xl">
+		<a href="/" class="w-full h-80 focus:opacity-60">
 			<div :class="['flex flex-row rounded-t-3xl', tempBackgroundColor]">
 				<div class="relative flex grow h-40 overflow-hidden">
-					<a href="#" target="_self" class="absolute right-0 top-4 w-10"><QuestionMarkCircleIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></a>
+					<span class="absolute right-2 top-2 w-6"><QuestionMarkCircleIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></span>
 					<!--
 						Image svg here
 						<img src="*.svg" />
