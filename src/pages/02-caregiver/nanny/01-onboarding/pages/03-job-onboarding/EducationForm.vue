@@ -6,7 +6,7 @@
 		<main>
 			<div class="flex flex-col pt-12 mx-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="text-left text-header-five font-semibold antialiased my-6">Education <span class="text-base text-gray-500">(optional)</span></h5>
+					<h5 class="text-left text-header-five font-semibold antialiased mb-6">Education <span class="text-base text-gray-500">(Optional)</span></h5>
 
 					<div class="mb-8">
 						<p class="font-thin mb-4">What is your current education status?</p>
@@ -63,7 +63,7 @@
 
 					<div class="mt-28 mb-16">
 						<div class="mb-4">
-							<h5 class="text-header-five font-semibold antialiased mb-4">Other Relevant Safety Skills <span class="text-base text-gray-500 font-normal">(optional)</span></h5>
+							<h5 class="text-header-five font-semibold antialiased mb-4">Other Relevant Safety Skills <span class="text-base text-gray-500 font-normal">(Optional)</span></h5>
 							<p class="font-thin mb-4">Please specify, (If you have the VOG, it's a plus)</p>
 						</div>
 
@@ -89,7 +89,7 @@
 					</div>
 
 					<div class="mt-4">
-						<h5 class="text-header-five font-semibold antialiased mb-4">Travel <span class="text-base text-gray-500 font-normal">(optional)</span></h5>
+						<h5 class="text-header-five font-semibold antialiased mb-4">Travel <span class="text-base text-gray-500 font-normal">(Optional)</span></h5>
 						<p class="font-thin mb-2">Do you have a driver's license?</p>
 						<RadioQuestion :screenReaderOnly="true" legend="Do you have a driver's license?" questionOneText="Yes" questionTwoText="No" />
 					</div>
@@ -103,12 +103,12 @@
 						<h5 class="text-header-five font-semibold antialiased mb-4">Language</h5>
 						<p class="font-thin mb-2">What language(s) do you speak?</p>
 						<div class="mt-4 grid grid-cols-2 gap-y-6 gap-x-2">
-							<SelectMenu />
-							<div class="flex flex-wrap justify-center items-center">
-								<BadgeRemove text="Dutch" />
-								<BadgeRemove text="English" />
-								<BadgeRemove text="Portuguese" />
-								<BadgeRemove text="Irish" />
+							<div><SelectMenu /></div>
+							<div class="grid grid-rows-2 grid-flow-col gap-x-0 justify-center">
+								<div><BadgeRemove text="Dutch" /></div>
+								<div><BadgeRemove text="English" /></div>
+								<div><BadgeRemove text="Portuguese" /></div>
+								<div><BadgeRemove text="Irish" /></div>
 							</div>
 						</div>
 					</div>

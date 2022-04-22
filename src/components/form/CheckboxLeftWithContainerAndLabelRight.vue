@@ -8,8 +8,8 @@
 				type="checkbox"
 				:class="inputClass"
 				class="
-					checked:ring-1 checked:ring-offset-2 checked:ring-gray-400
-					focus:ring-gray-400
+					checked:bg-gray-600 checked:ring-1 checked:ring-offset-0 checked:ring-gray-400
+					focus:bg-gray-700 focus:ring-0 focus:ring-offset-0 focus:ring-gray-400
 					border-1 border-gray-400
 				"
 			>

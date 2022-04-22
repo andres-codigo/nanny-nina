@@ -13,7 +13,7 @@
 						<label for="personalise-your-booking" class="sr-only">Personalize your booking</label>
 						<p	class="text-sm font-light text-gray-500">Personalize your booking</p>
 						<div class="mt-8">
-							<Textarea rows="3" name="personalise-your-booking" id="personalise-your-booking" characterNumber="35" />
+							<InputField text="Title of booking" />
 						</div>
 					</div>
 

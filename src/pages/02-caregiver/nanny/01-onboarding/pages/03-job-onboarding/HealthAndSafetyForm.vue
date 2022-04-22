@@ -4,12 +4,12 @@
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col pt-6 mx-4">
+			<div class="flex flex-col pt-12 mx-4">
 				<form class="w-full" action="#" method="POST">
 
-					<div class="mt-4 mb-16">
+					<div class="mb-16">
 						<div class="mb-2">
-							<h5 class="text-header-five font-semibold antialiased mb-4">Personal Health <span class="text-base text-gray-500">(optional)</span></h5>
+							<h5 class="text-header-five font-semibold antialiased mb-4">Personal Health <span class="text-base text-gray-500">(Optional)</span></h5>
 							<p class="font-thin mb-2">Do you have any health conditions?</p>
 							<RadioQuestion :screenReaderOnly="true" legend="Do you have any health conditions?" questionOneText="Yes" questionTwoText="No" />
 						</div>
