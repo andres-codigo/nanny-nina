@@ -9,33 +9,11 @@
 				<form class="w-full" action="#" method="POST">
 					<h5 class="text-left text-header-five font-semibold antialiased">Before we begin your search!</h5>
 
-					<div class="mt-2 mb-6">
+					<div class="mt-2 mb-40">
 						<label for="personalise-your-booking" class="sr-only">Personalize your booking</label>
 						<p	class="text-sm font-light text-gray-500">Personalize your booking</p>
 						<div class="mt-8">
-							<Textarea rows="3" name="personalise-your-booking" id="personalise-your-booking" characterNumber="35" />
-						</div>
-					</div>
-
-					<div class="mb-10">
-						<CheckboxLeftWithContainerAndLabelRight inputClass="h-5 w-5 text-purple-500" labelContainerClass="text-base">
-							<template #text>Use my address</template>
-						</CheckboxLeftWithContainerAndLabelRight>
-					</div>
-
-					<div class="flex flex-col">
-						<div class="grid grid-cols-2 gap-4 gap-y-6 gap-x-2">
-							<div><InputField text="Country" /></div>
-							<div><InputField text="Postcode" /></div>
-						</div>
-
-						<div class="grid grid-cols-1 gap-4 gap-y-6 gap-x-2 mt-6">
-							<div><InputField text="Number, Home Address" /></div>
-						</div>
-
-						<div class="grid grid-cols-2 gap-4 gap-y-6 gap-x-2 mt-6">
-							<div><InputField text="Province" /></div>
-							<div><InputField text="State/City" /></div>
+							<InputField text="Title of booking" />
 						</div>
 					</div>
 
