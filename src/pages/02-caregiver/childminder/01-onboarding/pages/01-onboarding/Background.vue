@@ -27,20 +27,21 @@
 						/>
 					</div>
 
-					<div class="mb-20">
+					<div class="mb-10">
 						<div>
-							<h5 class="text-header-five font-semibold antialiased mb-4">Safety Document <span class="text-sm text-gray-500">(Optional)</span></h5>
+							<h5 class="text-header-five font-semibold antialiased mb-4">Safety Document</h5>
 							<p class="font-thin mb-2">Do you have a VOG safety document?</p>
 							<RadioQuestion :screenReaderOnly="true" legend="Are you First Aid certified?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
 						<div class="flex">
-							<div class="grow h-14">
+							<div class="grow">
 								<div class="mt-4 grid grid-cols-2 justify-items-center gap-x-2">
 									<div>
 										<ButtonOutlineDark text="Upload file" class="w-button-sm py-2 text-sm font-semibold" />
 										<p class="text-sm font-light text-center text-gray-500 mt-2">Size limit 3MB</p>
 									</div>
+									<div><span class="text-sm text-gray-500">(Optional)</span></div>
 								</div>
 							</div>
 						</div>
