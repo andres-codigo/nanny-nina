@@ -119,27 +119,27 @@
 						/>
 						<ListItem
 							:subItem="false"
-							:hideNotes="false"
-							notes="Waiting on reply to design questions"
-							date="12/04/22"
+							:hideNotes="true"
+							notes=""
+							date=""
 							routerLinkPath="/nanny-service-onboarding"
 							title="Onboarding"
 							textColor="text-purple-600"
-							textBadge="UI/Design Updates"
-							textColorBadge="text-red-800"
-							backgroundColorBadge="bg-red-100"
+							textBadge="Completed"
+							textColorBadge="text-white"
+							backgroundColorBadge="bg-green-800"
 						/>
 						<ListItem
 							:subItem="false"
-							:hideNotes="false"
-							notes="Waiting on reply to design questions"
-							date="12/04/22"
+							:hideNotes="true"
+							notes=""
+							date=""
 							routerLinkPath="/nanny-parent-profile"
 							title="Parent Profile"
 							textColor="text-purple-600"
-							textBadge="UI/Design Updates"
-							textColorBadge="text-red-800"
-							backgroundColorBadge="bg-red-100"
+							textBadge="Completed"
+							textColorBadge="text-white"
+							backgroundColorBadge="bg-green-800"
 						/>
 					</ul>
 					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
@@ -148,9 +148,9 @@
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
 							:subItem="false"
-							:hideNotes="true"
-							notes=""
-							date=""
+							:hideNotes="false"
+							notes="Waiting on design outcome around Availability 'No of kids' dropdown/modal"
+							date="22/04/22"
 							routerLinkPath="/childminder-service-onboarding"
 							title="Onboarding"
 							textColor="text-purple-600"
@@ -184,8 +184,8 @@
 						<ListItem
 							:subItem="false"
 							:hideNotes="false"
-							notes="Waiting on reply to design questions"
-							date="12/04/22"
+							notes="Waiting on design outcome regarding 'use my address' checkbox/address form"
+							date="22/04/22"
 							routerLinkPath="/host-nanny"
 							title="Onboarding"
 							textColor="text-purple-600"
@@ -195,15 +195,15 @@
 						/>
 						<ListItem
 							:subItem="false"
-							:hideNotes="false"
-							notes="Waiting on reply to design questions"
-							date="12/04/22"
+							:hideNotes="true"
+							notes=""
+							date=""
 							routerLinkPath="/host-nanny-event"
 							title="Event"
 							textColor="text-purple-600"
-							textBadge="UI/Design Updates"
-							textColorBadge="text-red-800"
-							backgroundColorBadge="bg-red-100"
+							textBadge="Completed"
+							textColorBadge="text-white"
+							backgroundColorBadge="bg-green-800"
 						/>
 						<ListItem
 							:subItem="false"
@@ -237,8 +237,8 @@
 						<ListItem
 							:subItem="false"
 							:hideNotes="false"
-							notes="Waiting on reply to design questions"
-							date="21/04/22"
+							notes="Waiting on design outcome regarding card '+' icon"
+							date="22/04/22"
 							routerLinkPath="/host-childminder"
 							title="Onboarding"
 							textColor="text-purple-600"
