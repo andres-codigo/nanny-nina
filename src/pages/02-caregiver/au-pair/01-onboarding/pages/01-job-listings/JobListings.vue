@@ -17,6 +17,10 @@
 				</div>
 
 				<AuPairCard tempBackgroundColor="bg-lilac-500" />
+
+				<AuPairCard tempBackgroundColor="bg-lilac-500" />
+
+				<AuPairCard tempBackgroundColor="bg-lilac-500" />
 			</div>
 		</main>
 	</div>
