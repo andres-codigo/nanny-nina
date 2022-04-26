@@ -10,6 +10,14 @@
 				<template #filter-three><JobListingFilterItem text="Region" /></template>
 				<template #filter-four><JobListingFilterItem text="Duration" /></template>
 			</JobListingFilter>
+
+			<div class="h-full pt-12 mx-4">
+				<div class="mb-10">
+					<h5 class="text-left text-header-five font-semibold antialiased mb-2">Find your host</h5>
+				</div>
+
+				<AuPairCard tempBackgroundColor="bg-lilac-500" />
+			</div>
 		</main>
 	</div>
 </template>
@@ -21,6 +29,8 @@ import JobListingFilter from '../../../../../../components/filter/JobListingFilt
 import JobListingFilterItem from '../../../../../../components/filter/JobListingFilterItem.vue'
 import JobListingFilterItemSelected from '../../../../../../components/filter/JobListingFilterItemSelected.vue'
 
+import AuPairCard from '../../../../../../components/cards/au-pair-card/AuPairCard.vue'
+
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 
 export default {
@@ -29,6 +39,7 @@ export default {
 		JobListingFilter,
 		JobListingFilterItem,
 		JobListingFilterItemSelected,
+		AuPairCard,
 		ChevronLeftIcon
 	}
 }

@@ -2,7 +2,7 @@
 	<h5 class="text-left text-header-five font-semibold antialiased mb-2 ">
 		<slot name="title">{{ title }}</slot>
 	</h5>
-	<p class="text-sm  font-light">{{ description }}</p>
+	<p class="text-sm font-light">{{ description }}</p>
 
 	<div class="mt-7">
 		<div class="grid gap-2 grid-cols-3 items-center place-items-center mb-10">

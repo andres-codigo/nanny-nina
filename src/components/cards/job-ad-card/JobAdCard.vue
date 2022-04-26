@@ -32,7 +32,7 @@
 			</div>
 			<div class="flex flex-row text-sm mb-2 ml-20">
 				<div class="flex-none w-6 h-6"><UsersIcon class="w-5 h-5" /></div>
-				<div class="w-24 h-6">{{ responses }} Responses</div>
+				<div class="w-24 h-6">{{ responsesTotal }} Responses</div>
 			</div>
 			<div class="flex flex-row justify-end text-xs text-gray-500 mr-4">{{ published }} ago</div>
 		</a>
@@ -54,7 +54,7 @@ export default {
 	props: {
 		src: String,
 		title: String,
-		responses: String,
+		responsesTotal: String,
 		published: String
 	}
 }

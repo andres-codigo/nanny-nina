@@ -112,6 +112,9 @@ module.exports = {
 				'header-five': ['1.313rem', '1.4rem'],  	/* 21px */
 				'header-six': ['1.125rem', '1.4rem'], 		/* 18px */
 			},
+			height: {
+				'card-au-pair': '30rem'
+			},
 			spacing: {
 				"safe-top": "env(safe-area-inset-top)",
 				"safe-bottom": "env(safe-area-inset-bottom)",
