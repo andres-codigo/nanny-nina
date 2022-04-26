@@ -56,7 +56,7 @@
 							</div>
 							<div class="ml-4">
 								<h6 class="text-header-six font-semibold antialiased">Via friend in community</h6>
-								<p class="text-sm text-gray-500">We offer rewards to both you & your referee</p>
+								<p class="text-sm font-thin text-gray-500">We offer rewards to both you & your referee</p>
 							</div>
 						</div>
 						<div>
