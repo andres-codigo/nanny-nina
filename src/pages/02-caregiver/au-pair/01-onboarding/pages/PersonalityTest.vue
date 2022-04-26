@@ -8,7 +8,7 @@
 				<form class="w-full" action="#" method="POST">
 					<div class="mb-12">
 						<h5 class="text-left text-header-five font-semibold antialiased mb-2">Personality test</h5>
-						<p class="text-sm  font-light">Please choose the personality that best describes you. You can submit when it's a 100 total</p>
+						<p class="text-sm  font-light">Please choose the personality traits that best describe you. Submit when there is a total of 100</p>
 					</div>
 
 					<PercentageBar title="Quiet" />

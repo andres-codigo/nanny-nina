@@ -4,6 +4,7 @@
 		<Home class="max-w-450-for-dev-not-prod" />
 		<MediaUploadPhoto class="max-w-450-for-dev-not-prod" />
 		<TravelDocument class="max-w-450-for-dev-not-prod" />
+		<PersonalityTest class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 
@@ -12,13 +13,15 @@ import Reference from './pages/Reference.vue'
 import Home from './pages/Home.vue'
 import MediaUploadPhoto from './pages/MediaUploadPhoto.vue'
 import TravelDocument from './pages/TravelDocument.vue'
+import PersonalityTest from './pages/PersonalityTest.vue'
 
 export default {
 	components: {
 		Reference,
 		Home,
 		MediaUploadPhoto,
-		TravelDocument
+		TravelDocument,
+		PersonalityTest
 	}
 }
 </script>

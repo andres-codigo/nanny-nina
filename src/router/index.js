@@ -18,7 +18,7 @@ import ChildminderAndNannyContainer from '../pages/02-caregiver/childminder-and-
 
 	/* Caregiver - Nanny */
 	import HomeWithoutBottomMenu from '../pages/00-duplicate-pages/home/HomeWithoutMenuTemplate.vue'
-	import JobListings from '../pages/02-caregiver/nanny/01-onboarding/pages/02-job-listings/JobListings.vue'
+	import JobListings from '../pages/02-caregiver/nanny/01-onboarding/pages/01-job-listings/JobListings.vue'
 	import NannyOnboardingContainer from '../pages/02-caregiver/nanny/01-onboarding/OnboardingContainer.vue'
 	import ParentProfileContainer from '../pages/02-caregiver/nanny/02-parent-profile/ParentProfileContainer.vue'
 
