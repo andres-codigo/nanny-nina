@@ -63,7 +63,7 @@
 						</div>
 
 						<div class="mt-12">
-							<MultiplePhotoUpload description="Add pictures of your home" />
+							<MultiplePhotoUploadFlex description="Add pictures of your home" />
 						</div>
 					</div>
 
@@ -121,7 +121,7 @@ import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
 import Textarea from '../../../../../../components/form/Textarea.vue'
 import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
-import MultiplePhotoUpload from '../../../../../../components/media/multiple-upload/MultiplePhotoUpload.vue'
+import MultiplePhotoUploadFlex from '../../../../../../components/media/multiple-upload/MultiplePhotoUploadFlex.vue'
 import BadgeRemove from '../../../../../../components/badge/BadgeRemove.vue'
 import ButtonOutlineDark from '../../../../../../components/buttons/ButtonOutlineDark.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
@@ -135,7 +135,7 @@ export default {
 		SelectMenu,
 		Textarea,
 		InputFieldBorderBottomOnly,
-		MultiplePhotoUpload,
+		MultiplePhotoUploadFlex,
 		BadgeRemove,
 		ButtonOutlineDark,
 		ButtonPrimary,
