@@ -3,6 +3,7 @@
 		<div class="max-w-3xl mx-auto w-screen h-screen">
 			<h6 class="pl-4 py-4 header-six font-medium text-purple-900">Dashboard</h6>
 			<nav class="h-full overflow-y-auto" aria-label="Directory">
+				<!-- Start: Caregiver & Host Links -->
 				<div class="relative">
 					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-4 text-sm font-medium antialiased">
 						<p class="text-md text-white font-bold leading-none">Caregiver &amp; Host: </p>
@@ -34,25 +35,6 @@
 				</div>
 				<div class="relative">
 					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
-						<h3><span class="font-bold">Caregiver</span> </h3>
-					</div>
-					<ul role="list" class="relative z-0 divide-y divide-gray-200">
-						<ListItem
-							:subItem="false"
-							:hideNotes="true"
-							notes=""
-							date=""
-							routerLinkPath="/onboarding-caregiver"
-							title="Onboarding"
-							textColor="text-purple-600"
-							textBadge="Completed"
-							textColorBadge="text-white"
-							backgroundColorBadge="bg-green-800"
-						/>
-					</ul>
-				</div>
-				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
 						<h3><span class="font-bold">Host</span> </h3>
 					</div>
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
@@ -70,6 +52,29 @@
 						/>
 					</ul>
 				</div>
+				<div class="relative">
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
+						<h3><span class="font-bold">Caregiver</span> </h3>
+					</div>
+					<ul role="list" class="relative z-0 divide-y divide-gray-200">
+						<ListItem
+							:subItem="false"
+							:hideNotes="true"
+							notes=""
+							date=""
+							routerLinkPath="/onboarding-caregiver"
+							title="Onboarding"
+							textColor="text-purple-600"
+							textBadge="Completed"
+							textColorBadge="text-white"
+							backgroundColorBadge="bg-green-800"
+						/>
+					</ul>
+				</div>
+				<!-- End: Caregiver & Host Links -->
+
+
+				<!-- Start: Caregiver Links -->
 				<div class="relative">
 					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-4 text-sm font-medium antialiased">
 						<p class="text-md text-white font-bold leading-none">Caregiver:</p>
@@ -159,7 +164,28 @@
 							backgroundColorBadge="bg-red-100"
 						/>
 					</ul>
+					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
+						<h3><span class="font-bold">Au Pair</span> </h3>
+					</div>
+					<ul role="list" class="relative z-0 divide-y divide-gray-200">
+						<ListItem
+							:subItem="false"
+							:hideNotes="true"
+							notes=""
+							date=""
+							routerLinkPath="/au-pair-service-onboarding"
+							title="Onboarding"
+							textColor="text-purple-600"
+							textBadge="In Progress"
+							textColorBadge="text-amber-800"
+							backgroundColorBadge="bg-amber-100"
+						/>
+					</ul>
 				</div>
+				<!-- End: Caregiver Links -->
+
+
+				<!-- Start: Host Links -->
 				<div class="relative">
 					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-4 text-sm font-medium text-white antialiased">
 						<p class="text-md text-white font-bold leading-none">Host:</p>
@@ -248,6 +274,7 @@
 						/>
 					</ul>
 				</div>
+				<!-- End: Host Links -->
 			</nav>
 		</div>
 	</div>
