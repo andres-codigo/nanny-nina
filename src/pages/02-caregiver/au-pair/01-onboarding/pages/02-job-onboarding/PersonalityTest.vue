@@ -23,8 +23,8 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
-import PercentageBar from '../../../../../components/percentage-bar/PercentageBar.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import PercentageBar from '../../../../../../components/percentage-bar/PercentageBar.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 

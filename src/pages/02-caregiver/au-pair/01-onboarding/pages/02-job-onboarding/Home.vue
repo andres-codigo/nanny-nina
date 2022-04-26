@@ -34,10 +34,10 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
-import CountryCard from '../../../../../components/cards/country-card/CountryCard.vue'
-import JoinCard from '../../../../../components/cards/join-card/JoinCard.vue'
-import AnchorSecondary from '../../../../../components/dom-elements/AnchorSecondary.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import CountryCard from '../../../../../../components/cards/country-card/CountryCard.vue'
+import JoinCard from '../../../../../../components/cards/join-card/JoinCard.vue'
+import AnchorSecondary from '../../../../../../components/dom-elements/AnchorSecondary.vue'
 
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/vue/solid'
 

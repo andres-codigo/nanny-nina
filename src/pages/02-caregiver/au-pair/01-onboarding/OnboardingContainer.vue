@@ -9,11 +9,11 @@
 </template>
 
 <script>
-import Reference from './pages/Reference.vue'
-import Home from './pages/Home.vue'
-import MediaUploadPhoto from './pages/MediaUploadPhoto.vue'
-import TravelDocument from './pages/TravelDocument.vue'
-import PersonalityTest from './pages/PersonalityTest.vue'
+import Reference from './pages/02-job-onboarding/Reference.vue'
+import Home from './pages/02-job-onboarding/Home.vue'
+import MediaUploadPhoto from './pages/02-job-onboarding/MediaUploadPhoto.vue'
+import TravelDocument from './pages/02-job-onboarding/TravelDocument.vue'
+import PersonalityTest from './pages/02-job-onboarding/PersonalityTest.vue'
 
 export default {
 	components: {

@@ -173,6 +173,18 @@
 							:hideNotes="true"
 							notes=""
 							date=""
+							routerLinkPath="/au-pair-job-listings"
+							title="Job Listings"
+							textColor="text-purple-600"
+							textBadge="In Progress"
+							textColorBadge="text-amber-800"
+							backgroundColorBadge="bg-amber-100"
+						/>
+						<ListItem
+							:subItem="false"
+							:hideNotes="true"
+							notes=""
+							date=""
 							routerLinkPath="/au-pair-service-onboarding"
 							title="Onboarding"
 							textColor="text-purple-600"

@@ -26,11 +26,11 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
-import Steps from '../../../../../components/steps/Steps.vue'
-import CurrentStep from '../../../../../components/steps/types/CurrentStep.vue'
-import SinglePhotoUploadItem from '../../../../../components/media/single-upload/SinglePhotoUploadItem.vue'
-import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import Steps from '../../../../../../components/steps/Steps.vue'
+import CurrentStep from '../../../../../../components/steps/types/CurrentStep.vue'
+import SinglePhotoUploadItem from '../../../../../../components/media/single-upload/SinglePhotoUploadItem.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 

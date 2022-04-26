@@ -74,11 +74,11 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
-import ReferenceCard from '../../../../../components/cards/reference-card/ReferenceCard.vue'
-import CheckboxRightWithContainerAndLabelLeft from '../../../../../components/form/CheckboxRightWithContainerAndLabelLeft.vue'
-import InputField from '../../../../../components/form/InputField.vue'
-import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import ReferenceCard from '../../../../../../components/cards/reference-card/ReferenceCard.vue'
+import CheckboxRightWithContainerAndLabelLeft from '../../../../../../components/form/CheckboxRightWithContainerAndLabelLeft.vue'
+import InputField from '../../../../../../components/form/InputField.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
 import { XIcon } from '@heroicons/vue/solid'
 

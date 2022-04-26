@@ -28,16 +28,16 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
 
-import Steps from '../../../../../components/steps/Steps.vue'
-import CompletedStep from '../../../../../components/steps/types/CompletedStep.vue'
-import CurrentStep from '../../../../../components/steps/types/CurrentStep.vue'
-import UpcomingStep from '../../../../../components/steps/types/UpcomingStep.vue'
+import Steps from '../../../../../../components/steps/Steps.vue'
+import CompletedStep from '../../../../../../components/steps/types/CompletedStep.vue'
+import CurrentStep from '../../../../../../components/steps/types/CurrentStep.vue'
+import UpcomingStep from '../../../../../../components/steps/types/UpcomingStep.vue'
 
-import SinglePhotoUpload from '../../../../../components/media/single-upload/SinglePhotoUpload.vue'
-import MultiplePhotoUploadGrid from '../../../../../components/media/multiple-upload/MultiplePhotoUploadGrid.vue'
-import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
+import SinglePhotoUpload from '../../../../../../components/media/single-upload/SinglePhotoUpload.vue'
+import MultiplePhotoUploadGrid from '../../../../../../components/media/multiple-upload/MultiplePhotoUploadGrid.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 
