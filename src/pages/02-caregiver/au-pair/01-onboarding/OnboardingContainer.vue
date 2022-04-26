@@ -3,6 +3,7 @@
 		<Reference class="max-w-450-for-dev-not-prod" />
 		<Home class="max-w-450-for-dev-not-prod" />
 		<MediaUploadPhoto class="max-w-450-for-dev-not-prod" />
+		<TravelDocument class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 
@@ -10,12 +11,14 @@
 import Reference from './pages/Reference.vue'
 import Home from './pages/Home.vue'
 import MediaUploadPhoto from './pages/MediaUploadPhoto.vue'
+import TravelDocument from './pages/TravelDocument.vue'
 
 export default {
 	components: {
 		Reference,
 		Home,
-		MediaUploadPhoto
+		MediaUploadPhoto,
+		TravelDocument
 	}
 }
 </script>
