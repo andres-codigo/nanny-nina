@@ -146,9 +146,10 @@ module.exports = {
 				'select-sm': '10.5rem',
 				'select-base': '13rem',
 				'select-lg': '17.428rem',
-				'select-xl': '20.5rem',
+				'select-xl': '20.5rem'
 			},
 			minWidth: {
+				'apply-country': '10.5rem',
 				'360-for-dev-not-prod': '360px',
 				'450-for-dev-not-prod': '450px',
 			},
