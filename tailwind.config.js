@@ -28,7 +28,7 @@ module.exports = {
 					100: '#DCFFED',
 					200: '#D6FFEB',
 					300: '#C2FFE0',
-					400: '#ADFFD6',
+					400: '#BDFFDE',
 					500: '#ADFFD6',
 					600: '#57FFAB',
 					700: '#02FF80',
@@ -112,6 +112,9 @@ module.exports = {
 				'header-five': ['1.313rem', '1.4rem'],  	/* 21px */
 				'header-six': ['1.125rem', '1.4rem'], 		/* 18px */
 			},
+			height: {
+				'card-au-pair': '30rem'
+			},
 			spacing: {
 				"safe-top": "env(safe-area-inset-top)",
 				"safe-bottom": "env(safe-area-inset-bottom)",
@@ -136,19 +139,28 @@ module.exports = {
 						page design by page design so a consistent size needs to be set
 						by Obafemi
 				*/
+				/* Buttons */
 				'button-xs': '5.5rem',
 				'button-sm': '10.5rem',
 				'button-base': '13rem',
 				'button-lg': '17.428rem',
 				'button-xl': '20.5rem',
 				'button-input-sms': '7.125rem',
+				/* Selects */
 				'select-xs': '5.5rem',
 				'select-sm': '10.5rem',
 				'select-base': '13rem',
 				'select-lg': '17.428rem',
 				'select-xl': '20.5rem',
+				/* Input Fields */
+				'input-xs': '',
+				'input-sm': '7.313rem',
+				'input-base': '',
+				'input-lg': '',
+				'input-xl': '',
 			},
 			minWidth: {
+				'apply-country': '10.5rem',
 				'360-for-dev-not-prod': '360px',
 				'450-for-dev-not-prod': '450px',
 			},

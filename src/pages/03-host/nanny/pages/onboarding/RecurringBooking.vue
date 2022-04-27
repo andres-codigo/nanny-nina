@@ -12,7 +12,7 @@
 					<div class="mt-12">
 
 							<div class="flex items-center justify-between">
-								<span class="flex flex flex-col">
+								<span class="flex flex-col">
 									<span class="text-purple-900 font-semibold antialiased" id="availability-label">Last Minute Booking</span>
 									<span class="text-sm text-gray-500 font-thin pr-10">I need a nanny urgently</span>
 								</span>

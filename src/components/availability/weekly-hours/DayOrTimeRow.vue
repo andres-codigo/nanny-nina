@@ -8,7 +8,7 @@
 		</div>
 		<div :class="['inline-flex grow justify-center', rowWithTimeInputOnly ? 'items-center' : 'pt-4 pr-2']">
 			<slot name="inputHours" v-if="rowWithTimeInputOnly"></slot>
-			<div class="grid grid-cols-1 gap-4 gap-y-1 gap-x-0" v-else>
+			<div class="grid grid-cols-1 gap-4 gap-y-1 gap-x-0 justify-items-center" v-else>
 				<div><slot name="inputHours"></slot></div>
 				<div><slot name="inputNumberOfKids"></slot></div>
 			</div>

@@ -14,9 +14,9 @@
 
 					<hr class="border-1 border-gray-50 my-6" />
 
-					<MultiplePhotoUpload description="Add more pictures of yourself/with kids for more invites">
+					<MultiplePhotoUploadFlex description="Add more pictures of yourself/with kids for more invites">
 						<template #title>Upload more pictures</template>
-					</MultiplePhotoUpload>
+					</MultiplePhotoUploadFlex>
 
 					<div class="flex flex-col justify-center items-center mt-10">
 						<ButtonPrimary text="Next" class="w-button-lg text-xl py-4" />
@@ -36,7 +36,7 @@ import CurrentStep from '../../../../../../components/steps/types/CurrentStep.vu
 import UpcomingStep from '../../../../../../components/steps/types/UpcomingStep.vue'
 
 import SinglePhotoUpload from '../../../../../../components/media/single-upload/SinglePhotoUpload.vue'
-import MultiplePhotoUpload from '../../../../../../components/media/multiple-upload/MultiplePhotoUpload.vue'
+import MultiplePhotoUploadFlex from '../../../../../../components/media/multiple-upload/MultiplePhotoUploadFlex.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
@@ -49,7 +49,7 @@ export default {
 		CurrentStep,
 		UpcomingStep,
 		SinglePhotoUpload,
-		MultiplePhotoUpload,
+		MultiplePhotoUploadFlex,
 		ButtonPrimary,
 		ChevronLeftIcon
 	}

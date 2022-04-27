@@ -7,7 +7,7 @@
 				</div>
 				<div class="ml-4">
 					<h6 class="text-header-six font-semibold antialiased">{{ name }}</h6>
-					<p class="text-sm text-gray-500">{{ position }}</p>
+					<p class="text-sm font-thin text-gray-500">{{ position }}</p>
 				</div>
 			</div>
 		</div>

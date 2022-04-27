@@ -33,24 +33,24 @@ import PreApplicationMediaUploadPhotoPageTemplate from '../../../00-duplicate-pa
 import HomeWithoutMenuTemplate from '../../../00-duplicate-pages/home/HomeWithoutMenuTemplate.vue' /* Template */
 
 /* Job Listings */
-import JobListings from './pages/02-job-listings/JobListings.vue'
+import JobListings from './pages/01-job-listings/JobListings.vue'
 
 /* Job Onboarding */
-import ServiceLaunchStart from './pages/03-job-onboarding/ServiceLaunchStart.vue'
-import OnboardingChecklist from './pages/03-job-onboarding/OnboardingChecklist.vue'
-import MediaUploadPhoto from './pages/03-job-onboarding/MediaUploadPhoto.vue'
-import MediaUploadVideo from './pages/03-job-onboarding/MediaUploadVideo.vue'
-import EducationForm from './pages/03-job-onboarding/EducationForm.vue'
-import ExperienceForm from './pages/03-job-onboarding/ExperienceForm.vue'
-import HealthAndSafetyForm from './pages/03-job-onboarding/HealthAndSafetyForm.vue'
-import ReferenceForm from './pages/03-job-onboarding/ReferenceForm.vue'
+import ServiceLaunchStart from './pages/02-job-onboarding/ServiceLaunchStart.vue'
+import OnboardingChecklist from './pages/02-job-onboarding/OnboardingChecklist.vue'
+import MediaUploadPhoto from './pages/02-job-onboarding/MediaUploadPhoto.vue'
+import MediaUploadVideo from './pages/02-job-onboarding/MediaUploadVideo.vue'
+import EducationForm from './pages/02-job-onboarding/EducationForm.vue'
+import ExperienceForm from './pages/02-job-onboarding/ExperienceForm.vue'
+import HealthAndSafetyForm from './pages/02-job-onboarding/HealthAndSafetyForm.vue'
+import ReferenceForm from './pages/02-job-onboarding/ReferenceForm.vue'
 
 /* 04 Preferences Checklist */
-import PreferencesChecklist from './pages/04-preferences/PreferencesChecklist.vue'
-import AvailabilityWeeklyHours from './pages/04-preferences/AvailabilityWeeklyHours.vue'
-import AvailabilityCalendar from './pages/04-preferences/AvailabilityCalendar.vue'
-import MatchingPreferences from './pages/04-preferences/MatchingPreferences.vue'
-import SuccessFurtherInformation from './pages/04-preferences/SuccessFurtherInformation.vue'
+import PreferencesChecklist from './pages/03-preferences/PreferencesChecklist.vue'
+import AvailabilityWeeklyHours from './pages/03-preferences/AvailabilityWeeklyHours.vue'
+import AvailabilityCalendar from './pages/03-preferences/AvailabilityCalendar.vue'
+import MatchingPreferences from './pages/03-preferences/MatchingPreferences.vue'
+import SuccessFurtherInformation from './pages/03-preferences/SuccessFurtherInformation.vue'
 
 export default {
 	components: {
