@@ -18,24 +18,24 @@
 					</div>
 
 					<div class="mb-10">
-						<CheckboxLeftWithContainerAndLabelRight inputClass="h-5 w-5 text-purple-500" labelContainerClass="text-base">
+						<CheckboxLeftWithContainerAndLabelRight :checked="true" inputClass="h-5 w-5 text-purple-500" labelContainerClass="text-base">
 							<template #text>Use my address</template>
 						</CheckboxLeftWithContainerAndLabelRight>
 					</div>
 
 					<div class="flex flex-col">
 						<div class="grid grid-cols-2 gap-4 gap-y-6 gap-x-2">
-							<div><InputField text="Country" /></div>
-							<div><InputField text="Postcode" /></div>
+							<div><InputField value="Netherlands" text="Country" /></div>
+							<div><InputField value="1012" text="Postcode" /></div>
 						</div>
 
 						<div class="grid grid-cols-1 gap-4 gap-y-6 gap-x-2 mt-6">
-							<div><InputField text="Number, Home Address" /></div>
+							<div><InputField value="Kalverstraat 66-72" text="Number, Home Address" /></div>
 						</div>
 
 						<div class="grid grid-cols-2 gap-4 gap-y-6 gap-x-2 mt-6">
-							<div><InputField text="Province" /></div>
-							<div><InputField text="State/City" /></div>
+							<div><InputField value="PG" text="Province" /></div>
+							<div><InputField value="Amsterdam" text="State/City" /></div>
 						</div>
 					</div>
 

@@ -9,6 +9,7 @@
 			<input
 				:id="checkboxName"
 				:name="checkboxName"
+				:checked="checked"
 				type="checkbox"
 				class="h-5 w-5 text-purple-500"
 			>
@@ -22,6 +23,10 @@ export default {
 		text: String,
 		subText: String,
 		showSubText: {
+			type: Boolean,
+			default: false
+		},
+		checked: {
 			type: Boolean,
 			default: false
 		},
