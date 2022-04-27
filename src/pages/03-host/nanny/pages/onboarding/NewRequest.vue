@@ -33,10 +33,6 @@
 <script>
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import LinkCard from '../../../../../components/cards/link-card/LinkCard.vue'
-<<<<<<< HEAD
-
-=======
->>>>>>> 25f002a216f9b39b2b47320b2619209c52c3bb69
 import { XIcon } from '@heroicons/vue/solid'
 
 export default {
