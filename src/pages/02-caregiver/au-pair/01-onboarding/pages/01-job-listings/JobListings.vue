@@ -11,8 +11,8 @@
 				<template #filter-four><JobListingFilterItem text="Duration" /></template>
 			</JobListingFilter>
 
-			<div class="h-full pt-12 mx-4">
-				<div class="mb-10">
+			<div class="h-full pt-6 mx-4">
+				<div class="mb-6">
 					<h5 class="text-left text-header-five font-semibold antialiased mb-2">Find your host</h5>
 				</div>
 

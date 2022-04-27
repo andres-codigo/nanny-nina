@@ -5,6 +5,7 @@
 		<MediaUploadPhoto class="max-w-450-for-dev-not-prod" />
 		<TravelDocument class="max-w-450-for-dev-not-prod" />
 		<PersonalityTest class="max-w-450-for-dev-not-prod" />
+		<ParentProfile class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 
@@ -14,6 +15,7 @@ import Home from './pages/02-job-onboarding/Home.vue'
 import MediaUploadPhoto from './pages/02-job-onboarding/MediaUploadPhoto.vue'
 import TravelDocument from './pages/02-job-onboarding/TravelDocument.vue'
 import PersonalityTest from './pages/02-job-onboarding/PersonalityTest.vue'
+import ParentProfile from './pages/02-job-onboarding/ParentProfile.vue'
 
 export default {
 	components: {
@@ -21,7 +23,8 @@ export default {
 		Home,
 		MediaUploadPhoto,
 		TravelDocument,
-		PersonalityTest
+		PersonalityTest,
+		ParentProfile
 	}
 }
 </script>

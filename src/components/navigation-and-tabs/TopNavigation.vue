@@ -4,7 +4,9 @@
 			<div class="flex-none inline-flex justify-center items-center -ml-1.5 w-14 h-14">
 				<slot name="iconLeft"></slot>
 			</div>
-			<div :class="['grow h-14 inline-flex justify-center items-center text-xl font-bold antialiased', headerColor, hideHeader ? 'hidden sm:hidden' : '']">{{ text }}</div>
+			<div :class="['grow h-14 inline-flex justify-center items-center text-xl font-bold antialiased', headerColor, hideHeader ? 'hidden sm:hidden' : '']">
+				<slot name="profileImage"></slot>{{ text }}
+			</div>
 			<div :class="['flex-none inline-flex items-center', rightIconIsButton ? 'justify-end w-20 h-14 mr-4' : 'justify-center w-14 h-14']">
 				<slot name="iconRight"></slot>
 			</div>
