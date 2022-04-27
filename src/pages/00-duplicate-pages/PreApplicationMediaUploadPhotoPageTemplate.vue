@@ -11,9 +11,9 @@
 
 					<hr class="border-1 border-gray-50 my-6" />
 
-					<MultiplePhotoUpload description="Upload more pictures for quicker response time">
+					<MultiplePhotoUploadFlex description="Upload more pictures for quicker response time">
 						<template #title>Add more pictures <span class="text-base text-gray-500">(Optional)</span></template>
-					</MultiplePhotoUpload>
+					</MultiplePhotoUploadFlex>
 
 					<div class="flex flex-col justify-center items-center mt-10">
 						<ButtonDisabled text="Next" class="w-button-lg text-xl py-4" />
@@ -27,7 +27,7 @@
 <script>
 import TopNavigation from '../../components/navigation-and-tabs/TopNavigation.vue'
 import SinglePhotoUpload from '../../components/media/single-upload/SinglePhotoUpload.vue'
-import MultiplePhotoUpload from '../../components/media/multiple-upload/MultiplePhotoUpload.vue'
+import MultiplePhotoUploadFlex from '../../components/media/multiple-upload/MultiplePhotoUploadFlex.vue'
 import ButtonDisabled from '../../components/buttons/ButtonDisabled.vue'
 
 import { ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
@@ -36,7 +36,7 @@ export default {
 	components: {
 		TopNavigation,
 		SinglePhotoUpload,
-		MultiplePhotoUpload,
+		MultiplePhotoUploadFlex,
 		ButtonDisabled,
 		ChevronLeftIcon,
 		QuestionMarkCircleIcon

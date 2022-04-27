@@ -1,5 +1,5 @@
 <template>
-	<div class="inline-flex w-full border border-gray-50  hover:border hover:border-gray-500  rounded-3xl">
+	<div class="inline-flex w-full border border-gray-50 hover:border hover:border-gray-500  rounded-3xl">
 		<a href="/" class="w-full h-80 focus:opacity-60">
 			<div :class="['flex flex-row rounded-t-3xl', tempBackgroundColor]">
 				<div class="relative flex grow h-40 overflow-hidden">

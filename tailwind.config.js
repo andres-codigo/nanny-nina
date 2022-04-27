@@ -28,7 +28,7 @@ module.exports = {
 					100: '#DCFFED',
 					200: '#D6FFEB',
 					300: '#C2FFE0',
-					400: '#ADFFD6',
+					400: '#BDFFDE',
 					500: '#ADFFD6',
 					600: '#57FFAB',
 					700: '#02FF80',
@@ -112,6 +112,9 @@ module.exports = {
 				'header-five': ['1.313rem', '1.4rem'],  	/* 21px */
 				'header-six': ['1.125rem', '1.4rem'], 		/* 18px */
 			},
+			height: {
+				'card-au-pair': '30rem'
+			},
 			spacing: {
 				"safe-top": "env(safe-area-inset-top)",
 				"safe-bottom": "env(safe-area-inset-bottom)",
@@ -146,9 +149,10 @@ module.exports = {
 				'select-sm': '10.5rem',
 				'select-base': '13rem',
 				'select-lg': '17.428rem',
-				'select-xl': '20.5rem',
+				'select-xl': '20.5rem'
 			},
 			minWidth: {
+				'apply-country': '10.5rem',
 				'360-for-dev-not-prod': '360px',
 				'450-for-dev-not-prod': '450px',
 			},
