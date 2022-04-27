@@ -5,7 +5,16 @@
 			<p :class="['text-sm antialiased leading-none mt-4', textColorContent]">{{ content }}</p>
 		</div>
 
-		<div class="inline-flex w-full justify-center absolute bottom-[2rem]">
+		<div class="flex flex-col items-center h-40">
+			<!--
+				Image svg here
+				width, height (including div container) and bottom position will need to be adjusted as assets not provided
+				<img src="*.svg" class="w-32 h-32 absolute -bottom-6"/>
+			-->
+			<img src="../../../assets/svg/other/placeholder.svg" class="w-48 h-48 absolute bottom-9"/>
+		</div>
+
+		<div class="inline-flex w-full justify-center absolute bottom-[1.6rem]">
 			<slot name="link"></slot>
 		</div>
 	</div>
