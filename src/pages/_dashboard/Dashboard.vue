@@ -274,15 +274,15 @@
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
 							:subItem="false"
-							:hideNotes="false"
-							notes="Waiting on design outcome regarding card '+' icon"
-							date="22/04/22"
+							:hideNotes="true"
+							notes=""
+							date=""
 							routerLinkPath="/host-childminder"
 							title="Onboarding"
 							textColor="text-purple-600"
-							textBadge="UI/Design Updates"
-							textColorBadge="text-red-800"
-							backgroundColorBadge="bg-red-100"
+							textBadge="Completed"
+							textColorBadge="text-white"
+							backgroundColorBadge="bg-green-800"
 						/>
 					</ul>
 				</div>
