@@ -30,12 +30,6 @@ export default {
 		to: String,
 		title: String,
 		class: String,
-<<<<<<< HEAD
-		hasPrice: {
-			type: Boolean,
-			default: false
-		}
-=======
 		showQuestionMark: {
 			type: Boolean,
 			default: false
@@ -44,7 +38,6 @@ export default {
 			type: Boolean,
 			default: false
 		},
->>>>>>> 25f002a216f9b39b2b47320b2619209c52c3bb69
 	}
 }
 </script>
