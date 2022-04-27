@@ -26,7 +26,7 @@ import ChildminderAndNannyContainer from '../pages/02-caregiver/childminder-and-
 	import ChildminderOnboardingContainer from '../pages/02-caregiver/childminder/01-onboarding/OnboardingContainer.vue'
 
 	/* Caregiver - Au Pair */
-	import AuPairJobListings from '../pages/02-caregiver/au-pair/01-onboarding/pages/01-job-listings/JobListings.vue'
+	import AuPairCountryListings from '../pages/02-caregiver/au-pair/01-onboarding/pages/01-country-listings/CountryListings.vue'
 	import AuPairOnboardingContainer from '../pages/02-caregiver/au-pair/01-onboarding/OnboardingContainer.vue'
 
 /* Host - Nanny */
@@ -129,8 +129,8 @@ const routes = [
 		Caregiver - Au Pair
 	*/
 	{
-		path: '/au-pair-job-listings',
-		component: AuPairJobListings,
+		path: '/au-pair-country-listings',
+		component: AuPairCountryListings,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
