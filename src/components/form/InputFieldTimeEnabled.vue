@@ -5,6 +5,7 @@
 		type="text"
 		autocomplete="date"
 		required
+		:readonly="readonly"
 		:value="value"
 		:class="class"
 		class="
@@ -23,6 +24,10 @@ export default {
 		class: {
 			type: String,
 			default: 'w-full'
+		},
+		readonly: {
+			type: Boolean,
+			default: false
 		}
 	}
 }

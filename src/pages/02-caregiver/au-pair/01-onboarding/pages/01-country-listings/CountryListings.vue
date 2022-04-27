@@ -16,11 +16,11 @@
 					<h5 class="text-left text-header-five font-semibold antialiased mb-2">Find your host</h5>
 				</div>
 
-				<AuPairCard tempBackgroundColor="bg-lilac-500" />
+				<AuPairCard />
 
-				<AuPairCard tempBackgroundColor="bg-lilac-500" />
+				<AuPairCard />
 
-				<AuPairCard tempBackgroundColor="bg-lilac-500" />
+				<AuPairCard  />
 			</div>
 		</main>
 	</div>

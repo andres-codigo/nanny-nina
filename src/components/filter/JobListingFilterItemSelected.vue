@@ -1,14 +1,12 @@
 <template>
 	<div class="flex flex-nowrap">
 		<span class="
-			inline-flex
-			justify-center
+			inline-flex justify-center
 			rounded-full
-			text-xs
-			leading-none
+			text-xs text-white leading-none
 			bg-purple-500
-			text-white
 			w-button-xs
+			cursor-pointer
 			mx-1 px-2 py-1
 			">
 			<span class="inline-flex text-xs">{{ text }}</span>

@@ -13,6 +13,7 @@
 			border border-gray-100 placeholder:text-gray-100 rounded-full
 			text-center font-thin
 			focus:outline-none
+			cursor-default
 		"
 	>
 </template>
