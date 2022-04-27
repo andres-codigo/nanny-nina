@@ -153,15 +153,15 @@
 					<ul role="list" class="relative z-0 divide-y divide-gray-200">
 						<ListItem
 							:subItem="false"
-							:hideNotes="false"
-							notes="Waiting on design outcome around Availability 'No of kids' dropdown/modal"
-							date="22/04/22"
+							:hideNotes="true"
+							notes=""
+							date=""
 							routerLinkPath="/childminder-service-onboarding"
 							title="Onboarding"
 							textColor="text-purple-600"
-							textBadge="UI/Design Updates"
-							textColorBadge="text-red-800"
-							backgroundColorBadge="bg-red-100"
+							textBadge="Completed"
+							textColorBadge="text-white"
+							backgroundColorBadge="bg-green-800"
 						/>
 					</ul>
 					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
