@@ -7,14 +7,14 @@
 			<div class="flex flex-col justify-center pt-12 mx-4">
 				<h5 class="text-left text-header-five font-semibold antialiased mb-4">Select your plan</h5>
 				<div class="inline-flex pb-8">
-					<LinkCard :hasPrice="true" to="dashboard" class="text-white bg-purple-500 hover:bg-purple-300 focus:bg-purple-400" title="Full Service">
+					<LinkCard :hasPrice="true" :showPlaceholderSVG="true" to="dashboard" class="text-white bg-purple-500 hover:bg-purple-300 focus:bg-purple-400" title="Full Service">
 						<template #details><p class="text-white pt-2">Nanny Nina finds and screens an au pair specially for you</p></template>
 						<template #price>&euro;2,998</template>
 					</LinkCard>
 				</div>
 				<div class="inline-flex pb-8">
 					<LinkCard :hasPrice="true" to="dashboard" class="text-purple-900 bg-green-500 hover:bg-green-300 focus:bg-green-400" title="Self Match" >
-						<template #details><p class="pt-2">I already found somewhere else, Nanny Nina takes care of the rest</p></template>
+						<template #details><p class="pt-2">I already found an au pair, Nanny Nina helps me with the administration.</p></template>
 						<template #price>&euro;1,998</template>
 					</LinkCard>
 				</div>
