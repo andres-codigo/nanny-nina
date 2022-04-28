@@ -1,320 +1,355 @@
 <template>
-	<div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-		<div class="max-w-3xl mx-auto w-screen h-screen">
-			<h6 class="pl-4 py-4 header-six font-medium text-purple-900">Dashboard</h6>
-			<nav class="h-full overflow-y-auto" aria-label="Directory">
-				<!-- Start: Caregiver & Host Links -->
-				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-4 text-sm font-medium antialiased">
-						<p class="text-md text-white font-bold leading-none">Caregiver &amp; Host: </p>
-					</div>
-					<ul role="list" class="relative z-0 divide-y divide-gray-200">
-						<ListItem
-							:hideNotes="true"
-							notes=""
-							date=""
-							routerLinkPath="/registration"
-							title="Registration"
-							textColor="text-purple-600"
-							textBadge="Completed"
-							textColorBadge="text-white"
-							backgroundColorBadge="bg-green-800"
-						/>
-						<ListItem
-							:hideNotes="true"
-							notes=""
-							date=""
-							routerLinkPath="/forgot-password"
-							title="Forgot Password"
-							textColor="text-purple-600"
-							textBadge="Completed"
-							textColorBadge="text-white"
-							backgroundColorBadge="bg-green-800"
-						/>
-					</ul>
-				</div>
-				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
-						<h3><span class="font-bold">Host</span> </h3>
-					</div>
-					<ul role="list" class="relative z-0 divide-y divide-gray-200">
-						<ListItem
-							:subItem="false"
-							:hideNotes="true"
-							notes=""
-							date=""
-							routerLinkPath="/onboarding-host"
-							title="Onboarding"
-							textColor="text-purple-600"
-							textBadge="Completed"
-							textColorBadge="text-white"
-							backgroundColorBadge="bg-green-800"
-						/>
-					</ul>
-				</div>
-				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
-						<h3><span class="font-bold">Caregiver</span> </h3>
-					</div>
-					<ul role="list" class="relative z-0 divide-y divide-gray-200">
-						<ListItem
-							:subItem="false"
-							:hideNotes="true"
-							notes=""
-							date=""
-							routerLinkPath="/onboarding-caregiver"
-							title="Onboarding"
-							textColor="text-purple-600"
-							textBadge="Completed"
-							textColorBadge="text-white"
-							backgroundColorBadge="bg-green-800"
-						/>
-					</ul>
-				</div>
-				<!-- End: Caregiver & Host Links -->
+	<div>
+		<nav class="flex items-center justify-between flex-wrap bg-white py-6 px-4">
+			<Header class="mr-4" />
+			<div class="block sm:hidden">
+				<button @click="toggleMenu" class="flex items-center border rounded text-purple-900 border-purple-900 hover:text-purple-500 hover:border-gray-100 px-3 py-2">
+					<MenuIcon class="text-purple-900 h-4 w-4" />
+				</button>
+			</div>
 
-
-				<!-- Start: Caregiver Links -->
-				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-4 text-sm font-medium antialiased">
-						<p class="text-md text-white font-bold leading-none">Caregiver:</p>
-					</div>
-					<ul role="list" class="relative z-0 divide-y divide-gray-200">
-						<ListItem
-							:hideNotes="true"
-							notes=""
-							date=""
-							routerLinkPath="/childminder-and-nanny-home"
-							title="Home (with bottom menu)"
-							textColor="text-purple-600"
-							textBadge="Completed"
-							textColorBadge="text-white"
-							backgroundColorBadge="bg-green-800"
-						/>
-					</ul>
+			<div :class="menuSelected ? 'block': 'hidden'" class="w-full flex-grow sm:flex sm:items-center sm:w-auto">
+				<div class="text-sm font-bold  sm:flex-grow">
+					<a @click="activeTab = 1" :class="[ activeTab === 1 ? 'active underline' : 'no-underline' ]" class="cursor-pointer block mt-4 sm:inline-block sm:mt-0 text-purple-900 hover:underline mr-4">Caregiver & Host</a>
+					<a @click="activeTab = 2" :class="[ activeTab === 2 ? 'active underline' : 'no-underline' ]" class="cursor-pointer block mt-4 sm:inline-block sm:mt-0 text-purple-900 hover:underline mr-4">Caregiver</a>
+					<a @click="activeTab = 3" :class="[ activeTab === 3 ? 'active underline' : 'no-underline' ]" class="cursor-pointer block mt-4 sm:inline-block sm:mt-0 text-purple-900 hover:underline">Host</a>
 				</div>
-				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
-						<h3><span class="font-bold">Nanny</span> </h3>
+			</div>
+		</nav>
+		<main>
+			<div class="content">
+				<div v-if="activeTab === 1">
+					<!-- Start: Caregiver & Host Links -->
+					<div class="relative">
+						<div class="z-10 sticky bg-gray-500 px-4 py-4 text-sm font-medium antialiased">
+							<p class="text-md text-white font-bold leading-none">Caregiver &amp; Host</p>
+						</div>
+						<ul role="list" class="relative z-0 divide-y divide-gray-200">
+							<ListItem
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/registration"
+								title="Registration"
+								textColor="text-purple-600"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
+							/>
+							<ListItem
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/forgot-password"
+								title="Forgot Password"
+								textColor="text-purple-600"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
+							/>
+						</ul>
 					</div>
-					<ul role="list" class="relative z-0 divide-y divide-gray-200">
-						<ListItem
-							:subItem="false"
-							:hideNotes="true"
-							notes=""
-							date=""
-							routerLinkPath="/nanny-home-without-bottom-menu"
-							title="Home (without bottom menu)"
-							textColor="text-purple-600"
-							textBadge="Completed"
-							textColorBadge="text-white"
-							backgroundColorBadge="bg-green-800"
-						/>
-						<ListItem
-							:subItem="false"
-							:hideNotes="true"
-							notes=""
-							date=""
-							routerLinkPath="/nanny-job-listings"
-							title="Job Listings"
-							textColor="text-purple-600"
-							textBadge="Completed"
-							textColorBadge="text-white"
-							backgroundColorBadge="bg-green-800"
-						/>
-						<ListItem
-							:subItem="false"
-							:hideNotes="true"
-							notes=""
-							date=""
-							routerLinkPath="/nanny-service-onboarding"
-							title="Onboarding"
-							textColor="text-purple-600"
-							textBadge="Completed"
-							textColorBadge="text-white"
-							backgroundColorBadge="bg-green-800"
-						/>
-						<ListItem
-							:subItem="false"
-							:hideNotes="true"
-							notes=""
-							date=""
-							routerLinkPath="/nanny-parent-profile"
-							title="Parent Profile"
-							textColor="text-purple-600"
-							textBadge="Completed"
-							textColorBadge="text-white"
-							backgroundColorBadge="bg-green-800"
-						/>
-					</ul>
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
-						<h3><span class="font-bold">Childminder</span> </h3>
+					<div class="relative">
+						<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
+							<h3><span class="font-bold">Caregiver</span> </h3>
+						</div>
+						<ul role="list" class="relative z-0 divide-y divide-gray-200">
+							<ListItem
+								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/onboarding-caregiver"
+								title="Onboarding"
+								textColor="text-purple-600"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
+							/>
+						</ul>
 					</div>
-					<ul role="list" class="relative z-0 divide-y divide-gray-200">
-						<ListItem
-							:subItem="false"
-							:hideNotes="true"
-							notes=""
-							date=""
-							routerLinkPath="/childminder-service-onboarding"
-							title="Onboarding"
-							textColor="text-purple-600"
-							textBadge="Completed"
-							textColorBadge="text-white"
-							backgroundColorBadge="bg-green-800"
-						/>
-					</ul>
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
-						<h3><span class="font-bold">Au Pair</span> </h3>
+					<div class="relative">
+						<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
+							<h3><span class="font-bold">Host</span> </h3>
+						</div>
+						<ul role="list" class="relative z-0 divide-y divide-gray-200">
+							<ListItem
+								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/onboarding-host"
+								title="Onboarding"
+								textColor="text-purple-600"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
+							/>
+						</ul>
 					</div>
-					<ul role="list" class="relative z-0 divide-y divide-gray-200">
-						<ListItem
-							:subItem="false"
-							:hideNotes="false"
-							notes="Waiting on Design comment updates"
-							date="27/04/22"
-							routerLinkPath="/au-pair-country-listings"
-							title="Country Listings"
-							textColor="text-purple-600"
-							textBadge="On Hold - UI/Design"
-							textColorBadge="text-amber-800"
-							backgroundColorBadge="bg-amber-100"
-						/>
-						<ListItem
-							:subItem="false"
-							:hideNotes="false"
-							notes="Waiting on Design comment updates"
-							date="27/04/22"
-							routerLinkPath="/au-pair-service-onboarding"
-							title="Onboarding"
-							textColor="text-purple-600"
-							textBadge="On Hold - UI/Design"
-							textColorBadge="text-amber-800"
-							backgroundColorBadge="bg-amber-100"
-						/>
-					</ul>
+					<!-- End: Caregiver & Host Links -->
 				</div>
-				<!-- End: Caregiver Links -->
 
-
-				<!-- Start: Host Links -->
-				<div class="relative">
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-500 px-4 py-4 text-sm font-medium text-white antialiased">
-						<p class="text-md text-white font-bold leading-none">Host:</p>
+				<div v-if="activeTab === 2">
+					<!-- Start: Caregiver Links -->
+					<div class="relative">
+						<div class="z-10 sticky bg-gray-500 px-4 py-4 text-sm font-medium antialiased">
+							<p class="text-md text-white font-bold leading-none">Caregiver</p>
+						</div>
+						<ul role="list" class="relative z-0 divide-y divide-gray-200">
+							<ListItem
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/childminder-and-nanny-home"
+								title="Home (with bottom menu)"
+								textColor="text-purple-600"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
+							/>
+						</ul>
 					</div>
-					<ul role="list" class="relative z-0 divide-y divide-gray-200">
-						<ListItem
-							:hideNotes="true"
-							notes=""
-							date=""
-							routerLinkPath="/host-nanny-home"
-							title="Home (with bottom menu)"
-							textColor="text-purple-600"
-							textBadge="Completed"
-							textColorBadge="text-white"
-							backgroundColorBadge="bg-green-800"
-						/>
-					</ul>
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
-						<h3><span class="font-bold">Nanny</span> </h3>
+					<div class="relative">
+						<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
+							<h3><span class="font-bold">Nanny</span> </h3>
+						</div>
+						<ul role="list" class="relative z-0 divide-y divide-gray-200">
+							<ListItem
+								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/nanny-home-without-bottom-menu"
+								title="Home (without bottom menu)"
+								textColor="text-purple-600"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
+							/>
+							<ListItem
+								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/nanny-job-listings"
+								title="Job Listings"
+								textColor="text-purple-600"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
+							/>
+							<ListItem
+								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/nanny-service-onboarding"
+								title="Onboarding"
+								textColor="text-purple-600"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
+							/>
+							<ListItem
+								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/nanny-parent-profile"
+								title="Parent Profile"
+								textColor="text-purple-600"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
+							/>
+						</ul>
+						<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
+							<h3><span class="font-bold">Childminder</span> </h3>
+						</div>
+						<ul role="list" class="relative z-0 divide-y divide-gray-200">
+							<ListItem
+								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/childminder-service-onboarding"
+								title="Onboarding"
+								textColor="text-purple-600"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
+							/>
+						</ul>
+						<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
+							<h3><span class="font-bold">Au Pair</span> </h3>
+						</div>
+						<ul role="list" class="relative z-0 divide-y divide-gray-200">
+							<ListItem
+								:subItem="false"
+								:hideNotes="false"
+								notes="Waiting on Design comment updates"
+								date="27/04/22"
+								routerLinkPath="/au-pair-country-listings"
+								title="Country Listings"
+								textColor="text-purple-600"
+								textBadge="On Hold - UI/Design"
+								textColorBadge="text-amber-800"
+								backgroundColorBadge="bg-amber-100"
+							/>
+							<ListItem
+								:subItem="false"
+								:hideNotes="false"
+								notes="Waiting on Design comment updates"
+								date="27/04/22"
+								routerLinkPath="/au-pair-service-onboarding"
+								title="Onboarding"
+								textColor="text-purple-600"
+								textBadge="On Hold - UI/Design"
+								textColorBadge="text-amber-800"
+								backgroundColorBadge="bg-amber-100"
+							/>
+						</ul>
 					</div>
-					<ul role="list" class="relative z-0 divide-y divide-gray-200">
-						<ListItem
-							:subItem="false"
-							:hideNotes="true"
-							notes=""
-							date=""
-							routerLinkPath="/host-nanny"
-							title="Onboarding"
-							textColor="text-purple-600"
-							textBadge="Completed"
-							textColorBadge="text-white"
-							backgroundColorBadge="bg-green-800"
-						/>
-						<ListItem
-							:subItem="false"
-							:hideNotes="true"
-							notes=""
-							date=""
-							routerLinkPath="/host-nanny-event"
-							title="Event"
-							textColor="text-purple-600"
-							textBadge="Completed"
-							textColorBadge="text-white"
-							backgroundColorBadge="bg-green-800"
-						/>
-						<ListItem
-							:subItem="false"
-							:hideNotes="true"
-							notes=""
-							date=""
-							routerLinkPath="/host-nanny-availability-w-fixed-button"
-							title="Availability with fixed button"
-							textColor="text-purple-600"
-							textBadge="Completed"
-							textColorBadge="text-white"
-							backgroundColorBadge="bg-green-800"
-						/>
-						<ListItem
-							:subItem="false"
-							:hideNotes="true"
-							notes=""
-							date=""
-							routerLinkPath="/host-nanny-availability-w-fixed-complete-button"
-							title="Request Overview with fixed complete button"
-							textColor="text-purple-600"
-							textBadge="Completed"
-							textColorBadge="text-white"
-							backgroundColorBadge="bg-green-800"
-						/>
-					</ul>
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
-						<h3><span class="font-bold">Childminder</span> </h3>
-					</div>
-					<ul role="list" class="relative z-0 divide-y divide-gray-200">
-						<ListItem
-							:subItem="false"
-							:hideNotes="true"
-							notes=""
-							date=""
-							routerLinkPath="/host-childminder"
-							title="Onboarding"
-							textColor="text-purple-600"
-							textBadge="Completed"
-							textColorBadge="text-white"
-							backgroundColorBadge="bg-green-800"
-						/>
-					</ul>
-					<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
-						<h3><span class="font-bold">Au Pair</span> </h3>
-					</div>
-					<ul role="list" class="relative z-0 divide-y divide-gray-200">
-						<ListItem
-							:subItem="false"
-							:hideNotes="true"
-							notes=""
-							date=""
-							routerLinkPath="/host-au-pair"
-							title="Onboarding"
-							textColor="text-purple-600"
-							textBadge="In Progress"
-							textColorBadge="text-amber-800"
-							backgroundColorBadge="bg-amber-100"
-						/>
-					</ul>
+					<!-- End: Caregiver Links -->
 				</div>
-				<!-- End: Host Links -->
-			</nav>
-		</div>
+
+				<div v-if="activeTab === 3">
+					<!-- Start: Host Links -->
+					<div class="relative">
+						<div class="z-10 sticky bg-gray-500 px-4 py-4 text-sm font-medium antialiased">
+							<p class="text-md text-white font-bold leading-none">Host</p>
+						</div>
+						<ul role="list" class="relative z-0 divide-y divide-gray-200">
+							<ListItem
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/host-nanny-home"
+								title="Home (with bottom menu)"
+								textColor="text-purple-600"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
+							/>
+						</ul>
+						<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
+							<h3><span class="font-bold">Nanny</span> </h3>
+						</div>
+						<ul role="list" class="relative z-0 divide-y divide-gray-200">
+							<ListItem
+								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/host-nanny"
+								title="Onboarding"
+								textColor="text-purple-600"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
+							/>
+							<ListItem
+								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/host-nanny-event"
+								title="Event"
+								textColor="text-purple-600"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
+							/>
+							<ListItem
+								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/host-nanny-availability-w-fixed-button"
+								title="Availability with fixed button"
+								textColor="text-purple-600"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
+							/>
+							<ListItem
+								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/host-nanny-availability-w-fixed-complete-button"
+								title="Request Overview with fixed complete button"
+								textColor="text-purple-600"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
+							/>
+						</ul>
+						<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
+							<h3><span class="font-bold">Childminder</span> </h3>
+						</div>
+						<ul role="list" class="relative z-0 divide-y divide-gray-200">
+							<ListItem
+								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/host-childminder"
+								title="Onboarding"
+								textColor="text-purple-600"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
+							/>
+						</ul>
+						<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
+							<h3><span class="font-bold">Au Pair</span> </h3>
+						</div>
+						<ul role="list" class="relative z-0 divide-y divide-gray-200">
+							<ListItem
+								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/host-au-pair"
+								title="Onboarding"
+								textColor="text-purple-600"
+								textBadge="In Progress"
+								textColorBadge="text-amber-800"
+								backgroundColorBadge="bg-amber-100"
+							/>
+						</ul>
+					</div>
+					<!-- End: Host Links -->
+				</div>
+			</div>
+		</main>
 	</div>
 </template>
 
 <script>
+import Header from '../../components/content/logos/Header.vue'
 import ListItem from '../../components/_dashboard/ListItem.vue'
 
+import { MenuIcon } from '@heroicons/vue/solid'
+
 export default {
+	data() {
+		return {
+			menuSelected: false,
+			activeTab: 1
+		}
+  	},
 	components: {
-		ListItem
-	}
+		Header,
+		ListItem,
+		MenuIcon
+	},
+	 methods: {
+		toggleMenu() {
+			this.menuSelected = !this.menuSelected
+		}
+  	}
 }
 </script>
