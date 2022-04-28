@@ -49,7 +49,7 @@ export default {
 		ChecklistItemContent
 	},
 	props: [
-		'pageBackgroundColour',
+		'pageBackgroundColor',
 		'checkListItemIsHyperlink',
 		'hideStatusIcon',
 		'hideMandatoryRedStar',
@@ -61,8 +61,8 @@ export default {
 		'hideHyperlinkIcon'
 	],
 	methods: {
-		checklistItemClasses(pageBackgroundColour) {
-			if (pageBackgroundColour === 'purple') {
+		checklistItemClasses(pageBackgroundColor) {
+			if (pageBackgroundColor === 'purple') {
 				this.checklistItemBackgroundClasses = 'hover:text-purple-800 hover:bg-green-400 hover:border-green-400 focus:bg-green-600 focus:border-green-600';
 			} else {
 				this.checklistItemBackgroundClasses = 'hover:bg-lilac-50 hover:border-lilac-50 focus:bg-lilac-100 focus:border-lilac-100';
@@ -70,7 +70,7 @@ export default {
 		}
 	},
 	mounted() {
-    	this.checklistItemClasses(this.pageBackgroundColour);
+    	this.checklistItemClasses(this.pageBackgroundColor);
   	}
 }
 </script>

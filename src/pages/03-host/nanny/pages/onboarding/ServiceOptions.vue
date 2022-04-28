@@ -11,9 +11,9 @@
 				</div>
 				<div class="flex flex-col justify-center items-center">
 					<ul role="list" class="w-full">
-						<CheckListItem pageBackgroundColour="purple" :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isHostOptionDescription="true" title="Au Pair" description="Live in nanny: 375 euro/ month" />
-						<CheckListItem pageBackgroundColour="purple" :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isHostOptionDescription="true" title="Nanny" description="Last minute,One-time, Recurring or Event nanny" />
-						<CheckListItem pageBackgroundColour="purple" :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isHostOptionDescription="true" title="Childminder" description="Nanny with subsidy: for full days" />
+						<CheckListItem pageBackgroundColor="purple" :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isHostOptionDescription="true" title="Au Pair" description="Live in nanny: 375 euro/ month" />
+						<CheckListItem pageBackgroundColor="purple" :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isHostOptionDescription="true" title="Nanny" description="Last minute,One-time, Recurring or Event nanny" />
+						<CheckListItem pageBackgroundColor="purple" :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isHostOptionDescription="true" title="Childminder" description="Nanny with subsidy: for full days" />
 					</ul>
 				</div>
 				<div class="flex justify-center mt-4">
