@@ -22,7 +22,7 @@
 					<p class="mt-8 mx-10 font-thin text-center text-gray-500">Your unavailability on the specific dates, exceptions to the regular schedule</p>
 
 					<div class="flex items-center justify-between my-8 mx-10">
-						<span class="flex flex flex-col">
+						<span class="flex flex-col">
 							<span class="font-thin text-purple-900" id="availability-label">I'm selecting single days</span>
 						</span>
 						<!-- Enabled: "bg-purple-600", Not Enabled: "bg-gray-500" -->

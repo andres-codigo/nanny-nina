@@ -9,7 +9,7 @@
 					<h5 class="text-header-five font-semibold antialiased mb-2">Your Preferences</h5>
 
 					<div class="flex items-center justify-between mt-8 mb-10">
-						<span class="flex flex flex-col">
+						<span class="flex flex-col">
 							<span class="text-purple-900 font-semibold antialiased" id="availability-label">Available for last minute booking</span>
 							<span class="text-sm text-gray-500 font-thin pr-10">You will be automatically invited to last minute bookings in your city. Learn more</span>
 						</span>
