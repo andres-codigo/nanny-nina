@@ -41,7 +41,7 @@ import AnchorPrimary from '../../../../../components/dom-elements/AnchorPrimary.
 export default {
 	components: {
 		TopNavigation,
-		IntakeCard,
+		IntakeCallCard,
 		AnchorPrimary
 	}
 }

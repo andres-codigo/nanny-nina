@@ -7,7 +7,7 @@
 			<div class="flex flex-col justify-center pt-12 mx-4">
 				<form class="w-full" action="#" method="POST">
 					<div class="mb-10">
-						<h5 class="text-left text-header-five font-semibold antialiased mb-2">How did you hear about us?</h5>
+						<h5 class="text-header-five font-semibold antialiased mb-2">How did you hear about us?</h5>
 						<p class="font-light">Who is right? (There is a bet)</p>
 					</div>
 

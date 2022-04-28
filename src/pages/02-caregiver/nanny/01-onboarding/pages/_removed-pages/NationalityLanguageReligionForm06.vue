@@ -6,7 +6,7 @@
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="text-left text-header-five font-semibold antialiased my-6">Let's get to know you better</h5>
+					<h5 class="text-header-five font-semibold antialiased my-6">Let's get to know you better</h5>
 
 					<div class="mt-4 mb-8">
 						<h5 class="text-header-five font-semibold antialiased">Where are you from?</h5>

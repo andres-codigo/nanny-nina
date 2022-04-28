@@ -7,7 +7,7 @@
 		<main>
 			<div class="flex flex-col mt-12 mx-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="text-left text-header-five font-semibold antialiased pb-6">Event Booking</h5>
+					<h5 class="text-header-five font-semibold antialiased pb-6">Event Booking</h5>
 
 					<div class="flex flex-col mb-32">
 						<p class="font-thin">Where is the event taking place?</p>

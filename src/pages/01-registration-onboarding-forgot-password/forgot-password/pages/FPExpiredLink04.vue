@@ -7,7 +7,7 @@
 			<div class="h-screen mt-20 mx-4">
 				<form class="w-full" action="#" method="POST">
 					<div class="mt-6">
-						<h4 class="text-left text-header-four antialiased">Oops! Link Expired</h4>
+						<h4 class="text-header-four font-semibold antialiased">Oops! Link Expired</h4>
 						<p class="mt-6 text-sm font-light">Your link has expired because you haven't used it in 24 hours.  You can create another link by clicking the button below.</p>
 					</div>
 

@@ -10,7 +10,7 @@
 			</div>
 
 			<div class="flex-1">
-				<h5 class="text-left text-header-five text-purple-900 font-semibold antialiased -mt-2">
+				<h5 class="text-header-five text-purple-900 font-semibold antialiased -mt-2">
 					{{ title }}<span :class="['pl-1 text-red-500', hideMandatoryRedStar ? 'hidden' : '']">*</span>
 				</h5>
 				<span :class="['inline-flex mt-2 font-medium', isHostOptionDescription ? 'text-xs' : 'text-sm']" v-if="!hideContent">{{ description }}</span>

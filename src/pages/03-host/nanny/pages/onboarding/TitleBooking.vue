@@ -7,7 +7,7 @@
 		<main>
 			<div class="flex flex-col pt-12 mx-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="text-left text-header-five font-semibold antialiased">Before we begin your search!</h5>
+					<h5 class="text-header-five font-semibold antialiased">Before we begin your search!</h5>
 
 					<div class="mt-2 mb-6">
 						<label for="personalise-your-booking" class="sr-only">Personalize your booking</label>

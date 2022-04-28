@@ -5,7 +5,7 @@
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col justify-center pt-12 mx-4">
-				<h5 class="text-left text-header-five font-semibold antialiased mb-4">Select your plan</h5>
+				<h5 class="text-header-five font-semibold antialiased mb-4">Select your plan</h5>
 				<div class="inline-flex pb-8">
 					<LinkCard :hasPrice="true" :showPlaceholderSVG="true" to="dashboard" class="text-white bg-purple-500 hover:bg-purple-300 focus:bg-purple-400" title="Full Service">
 						<template #details><p class="text-white pt-2">Nanny Nina finds and screens an au pair specially for you</p></template>

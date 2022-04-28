@@ -6,7 +6,7 @@
 		<main>
 			<div class="flex flex-col pt-6 mx-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="text-left text-header-five font-semibold antialiased my-6">Experience</h5>
+					<h5 class="text-header-five font-semibold antialiased my-6">Experience</h5>
 
 					<div class="mt-4 mb-8">
 						<div>
@@ -24,7 +24,7 @@
 					</div>
 
 					<div class="mt-4 mb-16">
-						<h5 class="text-left text-header-five font-semibold antialiased mt-8 mb-2">Caring For</h5>
+						<h5 class="text-header-five font-semibold antialiased mt-8 mb-2">Caring For</h5>
 						<p class="font-thin">What age range have you cared for in the past?</p>
 						<div class="mt-4">
 							<CheckboxRightWithContainerAndLabelLeft :showSubText="true" checkboxName="checkout-1" text="Newborns" subText="2 months old or less" />

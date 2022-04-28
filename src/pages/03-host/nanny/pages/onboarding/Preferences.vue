@@ -21,7 +21,7 @@
 						/>
 					</div>
 
-					<h5 class="text-left text-header-five font-semibold antialiased mt-8 mb-4">I want a nanny comfortable with</h5>
+					<h5 class="text-header-five font-semibold antialiased mt-8 mb-4">I want a nanny comfortable with</h5>
 					<p class="text-sm font-thin">This will help us find a nanny that's perfect for you very quickly. Don't worry you can change these preference anytime you want</p>
 
 					<div class="mt-4">

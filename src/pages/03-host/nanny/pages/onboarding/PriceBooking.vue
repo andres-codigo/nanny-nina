@@ -7,7 +7,7 @@
 		<main>
 			<div class="h-screen flex flex-col pt-12 mx-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="text-left text-header-five font-semibold antialiased mb-2">What's your budget?</h5>
+					<h5 class="text-header-five font-semibold antialiased mb-2">What's your budget?</h5>
 					<p class="text-left font-thin antialiased">How much is your budget for this booking?</p>
 
 					<div class="mt-12">

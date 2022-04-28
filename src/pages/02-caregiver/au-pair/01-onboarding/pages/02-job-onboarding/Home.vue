@@ -6,7 +6,7 @@
 		<main>
 			<div class="h-full pt-12 mx-4">
 				<div class="mb-10">
-					<h5 class="text-left text-header-five font-semibold antialiased mb-2">Become an au pair and experience your best adventure yet!</h5>
+					<h5 class="text-header-five font-semibold antialiased mb-2">Become an au pair and experience your best adventure yet!</h5>
 					<p class="font-light">Become an Au Pair 1 of 5 our different destinations.</p>
 					<p class="font-light">Start your dream experience now.</p>
 				</div>
@@ -23,7 +23,7 @@
 				</div>
 
 				<div class="mb-10">
-					<h3 class="text-left text-header-five font-semibold antialiased mb-2">We are social!</h3>
+					<h3 class="text-header-five font-semibold antialiased mb-2">We are social!</h3>
 					<JoinCard backgroundColor="bg-purple-500" textColorHeader="text-green-500" header="Join the Au pair community" content="Meet other Au Pairs, learn & share experiences">
 						<template #link><AnchorSecondary text="Join" class="w-button-xl text-xl py-4" /></template>
 					</JoinCard>

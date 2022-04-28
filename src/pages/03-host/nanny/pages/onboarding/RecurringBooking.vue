@@ -6,7 +6,7 @@
 		<main>
 			<div class="flex flex-col pt-12 px-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="text-left text-header-five font-semibold antialiased mb-2">Plan your booking</h5>
+					<h5 class="text-header-five font-semibold antialiased mb-2">Plan your booking</h5>
 					<p	class="font-light">Select the day &amp; add time you need a nanny</p>
 
 					<div class="mt-12">
@@ -23,7 +23,7 @@
 								</button>
 							</div>
 
-							<h4 class="text-left text-header-four font-semibold antialiased mt-12 mb-4">Week hours Needed</h4>
+							<h4 class="text-header-four font-semibold antialiased mt-12 mb-4">Week hours Needed</h4>
 
 							<div class="border-b border-gray-50">
 						<DayOrTimeAvailabilityRow>
@@ -97,14 +97,14 @@
 					</div>
 
 					<div class="mt-12">
-						<h5 class="text-left text-header-five font-semibold antialiased my-6">Preferred start date</h5>
+						<h5 class="text-header-five font-semibold antialiased my-6">Preferred start date</h5>
 						<div class="mt-4 grid grid-cols-2 gap-x-2">
 							<div><InputField text="Starting from" /></div>
 						</div>
 					</div>
 
 					<div class="mt-12">
-						<h5 class="text-left text-header-five font-semibold antialiased my-6">Preferred end date</h5>
+						<h5 class="text-header-five font-semibold antialiased my-6">Preferred end date</h5>
 						<div class="mt-4 grid grid-cols-2 gap-x-2">
 							<div><SelectMenu optionText="- No end -" labelText="Ending on" /></div>
 						</div>

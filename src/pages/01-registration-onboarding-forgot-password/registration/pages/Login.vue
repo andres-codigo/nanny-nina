@@ -5,7 +5,7 @@
 		</TopNavigation>
 		<main>
 			<div class="min-h-screen flex flex-col justify-center mx-4">
-				<h4 class="text-left text-header-four font-semibold antialiased ml-3 my-6">Login</h4>
+				<h4 class="text-header-four font-semibold antialiased ml-3 my-6">Login</h4>
 				<form class="w-full" action="#" method="POST">
 					<div class="m-0">
 						<InputField text="Email Address" />

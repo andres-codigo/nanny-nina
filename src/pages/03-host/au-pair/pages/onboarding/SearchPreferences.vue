@@ -7,7 +7,7 @@
 			<div class="flex flex-col justify-center pt-12 mx-4">
 				<form class="w-full" action="#" method="POST">
 					<div class="mb-12">
-						<h5 class="text-left text-header-five font-semibold antialiased mb-2">Let's talk about your wishes!</h5>
+						<h5 class="text-header-five font-semibold antialiased mb-2">Let's talk about your wishes!</h5>
 						<p class="text-sm  font-light">In which region should we search for your au pair</p>
 					</div>
 
