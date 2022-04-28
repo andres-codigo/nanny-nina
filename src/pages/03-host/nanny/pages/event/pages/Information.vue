@@ -7,7 +7,7 @@
 		<main>
 			<div class="flex flex-col pt-12 mx-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="text-left text-header-five font-semibold antialiased mb-6">Event Information</h5>
+					<h5 class="text-header-five font-semibold antialiased mb-6">Event Information</h5>
 
 					<div class="mb-10">
 						<p class="font-thin">What type of event do you have?</p>
@@ -28,7 +28,7 @@
 					</div>
 
 					<div class="flex flex-col mb-10">
-						<h5 class="text-left text-header-five font-semibold antialiased mb-2">Approximately, how many children do you expect?</h5>
+						<h5 class="text-header-five font-semibold antialiased mb-2">Approximately, how many children do you expect?</h5>
 						<p	class="text-sm font-light">We recommend asking for 1 nanny per +-5 children. This depends on the age of the kids and the activity at the event. For tips / advice, please contact customer care for advice.</p>
 					</div>
 
@@ -40,7 +40,7 @@
 					</div>
 
 					<div class="mb-10">
-						<h5 class="text-left text-header-five font-semibold antialiased mb-2">How many nannies do you need?</h5>
+						<h5 class="text-header-five font-semibold antialiased mb-2">How many nannies do you need?</h5>
 						<p class="font-thin">Based on total above, we advise at least 2 nannies.</p>
 						<div class="mt-4 grid grid-cols-2 gap-x-2">
 							<div><SelectMenu optionText="1" class="w-24" /></div>

@@ -1,0 +1,43 @@
+<template>
+	<div class="w-full h-full">
+		<TopNavigation backgroundColor="bg-white-500" :dropShadow="false">
+			<template #iconRight><router-link to="/dashboard"><XIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
+		</TopNavigation>
+		<main>
+			<div class="flex flex-col justify-center pt-12 mx-4">
+				<h5 class="text-header-five font-semibold antialiased mb-4">Select your plan</h5>
+				<div class="inline-flex pb-8">
+					<LinkCard :hasPrice="true" :showPlaceholderSVG="true" to="dashboard" class="text-white bg-purple-500 hover:bg-purple-300 focus:bg-purple-400" title="Full Service">
+						<template #details><p class="text-white pt-2">Nanny Nina finds and screens an au pair specially for you</p></template>
+						<template #price>&euro;2,998</template>
+					</LinkCard>
+				</div>
+				<div class="inline-flex pb-8">
+					<LinkCard :hasPrice="true" to="dashboard" class="text-purple-900 bg-green-500 hover:bg-green-300 focus:bg-green-400" title="Self Match" >
+						<template #details><p class="pt-2">I already found an au pair, Nanny Nina helps me with the administration.</p></template>
+						<template #price>&euro;1,998</template>
+					</LinkCard>
+				</div>
+
+				<div class="flex flex-col justify-center items-center my-4">
+					<a href="#" target="_self" class="anchor-with-underline text-blue-500 text-center font-medium">Learn more about Au Pairs</a>
+				</div>
+			</div>
+		</main>
+	</div>
+</template>
+
+<script>
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import LinkCard from '../../../../../components/cards/link-card/LinkCard.vue'
+
+import { XIcon } from '@heroicons/vue/solid'
+
+export default {
+	components: {
+		TopNavigation,
+		LinkCard,
+		XIcon
+	}
+}
+</script>

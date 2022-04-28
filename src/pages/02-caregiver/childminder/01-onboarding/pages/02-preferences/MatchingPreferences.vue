@@ -7,7 +7,7 @@
 			<div class="flex flex-col py-12 mx-4">
 				<form class="w-full" action="#" method="POST">
 					<div class="mb-10">
-						<h5 class="text-left text-header-five font-semibold antialiased mb-4">Childminder Type</h5>
+						<h5 class="text-header-five font-semibold antialiased mb-4">Childminder Type</h5>
 						<p class="font-thin mb-4">Where can you look after the kids?</p>
 
 						<RadioQuestion
@@ -24,7 +24,7 @@
 					</div>
 
 					<div class="mb-10">
-						<h5 class="text-left text-header-five font-semibold antialiased mb-4">I am comfortable with</h5>
+						<h5 class="text-header-five font-semibold antialiased mb-4">I am comfortable with</h5>
 						<div class="mt-4">
 							<CheckboxRightWithContainerAndLabelLeft checkboxName="checkout-2" text="Meal preparation" />
 							<CheckboxRightWithContainerAndLabelLeft checkboxName="checkout-5" text="Pick up from school" />
@@ -33,7 +33,7 @@
 					</div>
 
 					<div class="mb-10">
-						<h5 class="text-left text-header-five font-semibold antialiased">Special Note to Parents</h5>
+						<h5 class="text-header-five font-semibold antialiased">Special Note to Parents</h5>
 
 						<div class="mt-2">
 							<label for="note-for-parents" class="sr-only">Special Note to Parents</label>

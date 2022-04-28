@@ -5,7 +5,7 @@
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col justify-center pt-12 mx-4">
-				<h5 class="text-left text-header-five font-semibold antialiased mb-4">What kind of nanny do you want?</h5>
+				<h5 class="text-header-five font-semibold antialiased mb-4">What kind of nanny do you want?</h5>
 				<div class="inline-flex pb-8">
 					<LinkCard  :showPlaceholderSVG="true" to="dashboard" class="text-white bg-purple-500 hover:bg-purple-300 focus:bg-purple-400" title="One-time">
 						<template #details><p class="text-white pt-2">Urgent nanny for single or multiple days. Maximum 12days </p></template>
@@ -13,12 +13,12 @@
 				</div>
 				<div class="inline-flex pb-8">
 					<LinkCard to="dashboard" class="text-purple-900 bg-green-500 hover:bg-green-300 focus:bg-green-400" title="Recurring" >
-						<template #details><p class="pt-2">I need a nanny on returning days over a longer period</p></template>
+						<template #details><p class="pt-2 pr-24">I need a nanny on returning days over a longer period</p></template>
 					</LinkCard>
 				</div>
 				<div class="inline-flex">
 					<LinkCard to="dashboard" class="text-purple-900 bg-lilac-50 hover:bg-lilac-100 focus:bg-lilac-200" title="Event" >
-						<template #details><p class="pt-2">Book a nanny for birthday, wedding &amp; other special occasions</p></template>
+						<template #details><p class="pt-2 pr-24">Book a nanny for birthday, wedding &amp; other special occasions</p></template>
 					</LinkCard>
 				</div>
 

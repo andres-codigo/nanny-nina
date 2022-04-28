@@ -6,12 +6,12 @@
 		<main>
 			<div class="flex flex-col pt-12 px-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="text-left text-header-five font-semibold antialiased mb-2">Plan your booking</h5>
+					<h5 class="text-header-five font-semibold antialiased mb-2">Plan your booking</h5>
 					<p	class="font-light">We generally accept a maximum of 6 days per one-time booking.</p>
 
 					<div class="mt-12">
 						<div class="flex items-center justify-between">
-							<span class="flex flex flex-col">
+							<span class="flex flex-col">
 								<span class="text-purple-900 font-semibold antialiased" id="availability-label">Last Minute Booking</span>
 								<span class="text-sm text-gray-500 font-thin pr-10">I need a nanny urgently</span>
 							</span>
@@ -22,7 +22,7 @@
 							</button>
 						</div>
 
-						<h4 class="text-left text-header-four font-semibold antialiased mt-12 mb-4">Dates &amp; Time Needed</h4>
+						<h4 class="text-header-four font-semibold antialiased mt-12 mb-4">Dates &amp; Time Needed</h4>
 
 						<Calendar />
 

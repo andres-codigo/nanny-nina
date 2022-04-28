@@ -9,7 +9,7 @@
 			</Steps>
 			<div class="flex flex-col pt-6 mx-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="text-left text-header-five font-semibold antialiased mb-2">Upload Passport</h5>
+					<h5 class="text-header-five font-semibold antialiased mb-2">Upload Passport</h5>
 					<p	class="font-light">Please upload the information page of your permit/ID card</p>
 
 					<div class="my-40">

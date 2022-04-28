@@ -15,7 +15,7 @@
 			</header>
 			<main>
 				<div class="flex flex-col px-4 py-12">
-					<h3 class="text-left text-header-three font-semibold antialiased mb-4">Reviews</h3>
+					<h3 class="text-header-three font-semibold antialiased mb-4">Reviews</h3>
 
 					<div class="border-t border-gray-50 py-5">
 						<ReviewCardDetails user="Sophie" date="24/03/2021" />

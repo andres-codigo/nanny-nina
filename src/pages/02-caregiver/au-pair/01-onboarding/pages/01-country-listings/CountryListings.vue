@@ -13,7 +13,7 @@
 
 			<div class="h-full pt-6 mx-4">
 				<div class="mb-6">
-					<h5 class="text-left text-header-five font-semibold antialiased mb-2">Find your host</h5>
+					<h5 class="text-header-five font-semibold antialiased mb-2">Find your host</h5>
 				</div>
 
 				<AuPairCard />

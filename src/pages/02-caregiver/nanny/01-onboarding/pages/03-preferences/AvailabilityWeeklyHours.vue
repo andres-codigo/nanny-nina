@@ -6,7 +6,7 @@
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col pt-12 px-4">
-				<h5 class="text-left text-header-five font-semibold antialiased mb-2">Availability</h5>
+				<h5 class="text-header-five font-semibold antialiased mb-2">Availability</h5>
 				<p class="font-light">Set your weekly hours and add specific dates you may be unavailable</p>
 
 				<div class="mt-12">

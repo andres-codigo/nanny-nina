@@ -135,7 +135,7 @@ module.exports = {
 
 					INPUT-SMS: 7.125rem / 114px
 
-					NB: select-[size] classes added; currently, the sizes are different
+					NB: select-[size] & input-[size] classes added; currently, the sizes are different
 						page design by page design so a consistent size needs to be set
 						by Obafemi
 				*/
@@ -148,10 +148,10 @@ module.exports = {
 				'button-input-sms': '7.125rem',
 				/* Selects */
 				'select-xs': '5.5rem',
-				'select-sm': '10.5rem',
-				'select-base': '13rem',
-				'select-lg': '17.428rem',
-				'select-xl': '20.5rem',
+				'select-sm': '8.125rem',
+				'select-base': '',
+				'select-lg': '',
+				'select-xl': '',
 				/* Input Fields */
 				'input-xs': '',
 				'input-sm': '7.313rem',

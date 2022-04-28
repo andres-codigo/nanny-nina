@@ -7,7 +7,7 @@
 			<div class="flex flex-col py-12 mx-4">
 				<form class="w-full" action="#" method="POST">
 					<div class="mb-10">
-						<h5 class="text-left text-header-five font-semibold antialiased mb-4">Type of Childminder</h5>
+						<h5 class="text-header-five font-semibold antialiased mb-4">Type of Childminder</h5>
 						<p class="font-thin mb-4">What kind of childminder are you?</p>
 
 						<RadioQuestion

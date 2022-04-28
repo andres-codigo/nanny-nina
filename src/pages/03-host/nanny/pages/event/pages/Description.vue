@@ -7,7 +7,7 @@
 		<main>
 			<div class="flex flex-col pt-12 mx-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="text-left text-header-five font-semibold antialiased">Event Description</h5>
+					<h5 class="text-header-five font-semibold antialiased">Event Description</h5>
 
 					<div class="mt-2 mb-12">
 						<label for="motivation" class="sr-only">Tell us about the activities you expect from the nanny</label>

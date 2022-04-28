@@ -6,7 +6,7 @@
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col pt-12 mx-4">
-				<h5 class="text-left text-header-five font-semibold antialiased mb-6">Complete checklist to begin</h5>
+				<h5 class="text-header-five font-semibold antialiased mb-6">Complete checklist to begin</h5>
 				<div class="flex flex-col">
 					<ul role="list" class="">
 						<CheckListItem :checkListItemIsHyperlink="true" title="Media Upload">

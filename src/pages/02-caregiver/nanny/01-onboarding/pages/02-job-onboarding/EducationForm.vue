@@ -6,7 +6,7 @@
 		<main>
 			<div class="flex flex-col pt-12 mx-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="text-left text-header-five font-semibold antialiased mb-6">Education <span class="text-base text-gray-500">(Optional)</span></h5>
+					<h5 class="text-header-five font-semibold antialiased mb-6">Education <span class="text-base text-gray-500">(Optional)</span></h5>
 
 					<div class="mb-8">
 						<p class="font-thin mb-4">What is your current education status?</p>
