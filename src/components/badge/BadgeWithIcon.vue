@@ -1,12 +1,5 @@
 <template>
-	<span
-		class="
-			inline-flex items-center
-			px-5 py-1.5 mr-2 my-2
-			rounded-full
-			font-semibold
-			bg-lilac-50
-		">
+	<span :class="['inline-flex items-center px-5 py-1.5 mr-2 my-2 rounded-full font-semibold', isMatchingPreference ? 'bg-purple-50' : 'bg-lilac-50']">
 		<slot name="icon"></slot>
 		<span class="pl-2">
 			{{ text }}
@@ -17,7 +10,8 @@
 <script>
 export default {
 	props: {
-		text: String
+		text: String,
+		isMatchingPreference: Boolean
 	}
 }
 </script>

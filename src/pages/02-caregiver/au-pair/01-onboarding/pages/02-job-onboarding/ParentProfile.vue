@@ -25,6 +25,8 @@
 
 				<h5 class="text-header-five font-semibold antialiased mt-4 mb-2">Meet The Sanders</h5>
 				<p class="inline-flex items-center text-sm font-light leading-none">Married <span class="h-1 w-1 bg-gray-500 rounded-full mx-1"></span> Lawyer &amp; Accountant <span class="h-1 w-1 bg-gray-500 rounded-full mx-1"></span> Amsterdam, NL</p>
+
+				<Preferences class="mt-7" />
 			</div>
 		</main>
 	</div>
@@ -33,6 +35,7 @@
 <script>
 import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import NavigationDot from '../../../../../../components/carousel/NavigationDot.vue'
+import Preferences from '../../../../../../components/profile/view/Preferences.vue'
 
 import { ChevronLeftIcon, DotsVerticalIcon, HeartIcon } from '@heroicons/vue/solid'
 
@@ -40,6 +43,7 @@ export default {
 	components: {
 		TopNavigation,
 		NavigationDot,
+		Preferences,
 		HeartIcon,
 		ChevronLeftIcon,
 		DotsVerticalIcon
