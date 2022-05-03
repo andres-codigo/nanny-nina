@@ -14,6 +14,8 @@
 					:tabTwoIsActive="true"
 				/>
 
+				<BookingNotification src="../../../../../assets/svg/other/alarm.svg" title="Booking with Sanders was updated!" />
+
 				<div class="flex flex-col pt-12 px-4">
 					<div class="mb-10">
 						<h5 class="text-header-five font-semibold antialiased mb-2">Your Matches</h5>
@@ -49,6 +51,7 @@
 <script>
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import Tabs from '../../../../../components/navigation-and-tabs/Tabs.vue'
+import BookingNotification from '../../../../../components/notifications/BookingNotification.vue'
 import BookingCard from '../../../../../components/cards/booking-card/BookingCard.vue'
 
 import { QuestionMarkCircleIcon } from '@heroicons/vue/solid'
@@ -57,6 +60,7 @@ export default {
 	components: {
 		TopNavigation,
 		Tabs,
+		BookingNotification,
 		BookingCard,
 		QuestionMarkCircleIcon
 	}
