@@ -14,7 +14,7 @@ import ForgotPasswordContainer from '../pages/01-registration-onboarding-forgot-
 	import OnboardingCaregiverContainer from '../pages/01-registration-onboarding-forgot-password/onboarding/caregiver/OnboardingCaregiverContainer.vue'
 
 /* Caregiver - Childminder Nanny */
-import ChildminderAndNannyContainer from '../pages/02-caregiver/childminder-and-nanny/ChildminderAndNannyContainer.vue'
+import HomeWithMenuTemplate from '../pages/02-caregiver/childminder-and-nanny/HomeWithMenuTemplate.vue'
 
 	/* Caregiver - Nanny */
 	import HomeWithoutBottomMenu from '../pages/00-duplicate-pages/home/HomeWithoutMenuTemplate.vue'
@@ -28,6 +28,7 @@ import ChildminderAndNannyContainer from '../pages/02-caregiver/childminder-and-
 	/* Caregiver - Au Pair */
 	import AuPairCountryListings from '../pages/02-caregiver/au-pair/01-onboarding/pages/01-country-listings/CountryListings.vue'
 	import AuPairOnboardingContainer from '../pages/02-caregiver/au-pair/01-onboarding/OnboardingContainer.vue'
+	import AuPairPersonalityTest from '../pages/02-caregiver/au-pair/01-onboarding/pages/02-job-onboarding/PersonalityTest.vue'
 
 /* Host - Nanny */
 import HostNannyHome from '../pages/03-host/Home.vue'
@@ -90,8 +91,8 @@ const routes = [
 		Caregiver - Childminder Nanny
 	*/
 	{
-		path: '/childminder-and-nanny-home',
-		component: ChildminderAndNannyContainer,
+		path: '/childminder-and-nanny-home-with-bottom-menu',
+		component: HomeWithMenuTemplate,
 		meta: { transition: 'slide-right-to-left' }
 	},
 
@@ -139,6 +140,11 @@ const routes = [
 	{
 		path: '/au-pair-service-onboarding',
 		component: AuPairOnboardingContainer,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/au-pair-personality-test',
+		component: AuPairPersonalityTest,
 		meta: { transition: 'slide-right-to-left' }
 	},
 

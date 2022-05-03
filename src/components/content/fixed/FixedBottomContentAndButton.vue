@@ -11,20 +11,34 @@
 			</div>
 		</div>
 		<div class="basis-1/2 items-center">
-			<AnchorPrimary :text="anchorText" class="w-button-sm float-right py-4" />
+			<AnchorPrimary :text="anchorText" class="w-button-sm float-right py-4" v-if="!isButton" />
+			<ButtonPrimary :text="anchorText" class="w-button-sm float-right py-4" v-else-if="isButton && !isButtonDisabled" />
+			<ButtonDisabled :text="anchorText" class="w-button-sm float-right py-4" v-else-if="isButton && isButtonDisabled" />
 		</div>
 	</div>
 </template>
 
 <script>
 import AnchorPrimary from '../../dom-elements/AnchorPrimary.vue'
+import ButtonPrimary from '../../buttons/ButtonPrimary.vue'
+import ButtonDisabled from '../../buttons/ButtonDisabled.vue'
 
 export default {
 	components: {
-		AnchorPrimary
+		AnchorPrimary,
+		ButtonPrimary,
+		ButtonDisabled
 	},
 	props: {
-		anchorText: String
+		anchorText: String,
+		isButton: {
+			type: Boolean,
+			default: false
+		},
+		isButtonDisabled: {
+			type: Boolean,
+			default: false
+		}
 	}
 }
 </script>

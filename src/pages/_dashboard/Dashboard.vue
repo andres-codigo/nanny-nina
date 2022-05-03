@@ -101,7 +101,7 @@
 								:hideNotes="true"
 								notes=""
 								date=""
-								routerLinkPath="/childminder-and-nanny-home"
+								routerLinkPath="/childminder-and-nanny-home-with-bottom-menu"
 								title="Home (with bottom menu)"
 								textColor="text-purple-600"
 								textBadge="Completed"
@@ -164,6 +164,8 @@
 								backgroundColorBadge="bg-green-800"
 							/>
 						</ul>
+					</div>
+					<div class="relative">
 						<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
 							<h3><span class="font-bold">Childminder</span> </h3>
 						</div>
@@ -181,17 +183,31 @@
 								backgroundColorBadge="bg-green-800"
 							/>
 						</ul>
+					</div>
+					<div class="relative">
 						<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
 							<h3><span class="font-bold">Au Pair</span> </h3>
 						</div>
 						<ul role="list" class="relative z-0 divide-y divide-gray-200">
 							<ListItem
 								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/au-pair-country-listings"
+								title="Country Listings"
+								textColor="text-purple-600"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
+							/>
+							<ListItem
+								:subItem="false"
 								:hideNotes="false"
 								notes="Waiting on Design comment updates"
 								date="27/04/22"
-								routerLinkPath="/au-pair-country-listings"
-								title="Country Listings"
+								routerLinkPath="/au-pair-service-onboarding"
+								title="Onboarding"
 								textColor="text-purple-600"
 								textBadge="On Hold - UI/Design"
 								textColorBadge="text-amber-800"
@@ -202,8 +218,8 @@
 								:hideNotes="false"
 								notes="Waiting on Design comment updates"
 								date="27/04/22"
-								routerLinkPath="/au-pair-service-onboarding"
-								title="Onboarding"
+								routerLinkPath="/au-pair-personality-test"
+								title="Personality Test"
 								textColor="text-purple-600"
 								textBadge="On Hold - UI/Design"
 								textColorBadge="text-amber-800"

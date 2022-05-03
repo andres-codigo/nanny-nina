@@ -16,6 +16,13 @@
 					<PercentageBar title="Extroverted" />
 
 					<PercentageBar title="Playful" />
+
+				<section class="block fixed inset-x-0 w-full bottom-0 z-10 bg-white border-t border-gray min-w-360-for-dev-not-prod">
+					<FixedBottomContentAndButton anchorText="Save & Continue" :isButton="true" :isButtonDisabled="true">
+						<template #topText><span class="text-2xl font-bold">0</span>/100%</template>
+						<template #bottomText>Total</template>
+					</FixedBottomContentAndButton>
+				</section>
 				</form>
 			</div>
 		</main>
@@ -25,6 +32,7 @@
 <script>
 import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import PercentageBar from '../../../../../../components/percentage-bar/PercentageBar.vue'
+import FixedBottomContentAndButton from '../../../../../../components/content/fixed/FixedBottomContentAndButton.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 
@@ -32,6 +40,7 @@ export default {
 	components: {
 		TopNavigation,
 		PercentageBar,
+		FixedBottomContentAndButton,
 		ChevronLeftIcon
 	}
 }

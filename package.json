@@ -10,6 +10,7 @@
     "@heroicons/vue": "^1.0.5",
     "@tailwindcss/forms": "^0.4.0",
     "vue": "^3.2.29",
+    "vue-country-flag-next": "^2.3.2",
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
