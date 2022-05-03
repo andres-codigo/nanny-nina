@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full">
-		<TopNavigation backgroundColor="bg-white" headerColor="text-purple-900" text="New Request">
+		<TopNavigation backgroundColor="bg-white" headerColor="text-purple-900" text="The Sanders">
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
 			<template #profileImage>
 				<div class="flex-none w-8 mr-2">
