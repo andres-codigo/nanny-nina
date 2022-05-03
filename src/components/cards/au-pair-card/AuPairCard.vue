@@ -50,6 +50,8 @@ https://bestofvue.com/repo/P3trur0-vue-country-flag-vuejs-icons
 VueJS3
 npm install vue-country-flag-next
 
+<country-flag country='nl' size='small'/>
+
 This is a 'placeholder' flag package example, as I didn't want to spent too much time
 finding the one used on the design as you may already have an npm package.
 

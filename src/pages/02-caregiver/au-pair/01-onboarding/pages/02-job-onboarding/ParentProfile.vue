@@ -24,7 +24,7 @@
 				</div>
 
 				<h5 class="text-header-five font-semibold antialiased mt-4 mb-2">Meet The Sanders</h5>
-				<p class="inline-flex items-center text-sm font-light leading-none">Married <span class="h-1 w-1 bg-gray-500 rounded-full mx-1"></span> Lawyer &amp; Accountant <span class="h-1 w-1 bg-gray-500 rounded-full mx-1"></span> Amsterdam, NL</p>
+				<p class="inline-flex items-center text-sm font-light leading-none">Married <span class="h-1 w-1 bg-gray-500 rounded-full mx-1"></span> Lawyer &amp; Accountant <span class="h-1 w-1 bg-gray-500 rounded-full mx-1"></span> <country-flag country='nl' size='small'/> <span class="pl-1">Amsterdam</span></p>
 
 				<Preferences class="mt-7" />
 			</div>
@@ -39,6 +39,22 @@ import Preferences from '../../../../../../components/profile/view/Preferences.v
 
 import { ChevronLeftIcon, DotsVerticalIcon, HeartIcon } from '@heroicons/vue/solid'
 
+/*
+https://bestofvue.com/repo/P3trur0-vue-country-flag-vuejs-icons
+
+VueJS3
+npm install vue-country-flag-next
+
+<country-flag country='nl' size='small'/>
+
+This is a 'placeholder' flag package example, as I didn't want to spent too much time
+finding the one used on the design as you may already have an npm package.
+
+Do note the tailwind css classes used in the span to wrap and add an ellipsis on the language spoken
+<span class="w-40 text-ellipsis overflow-hidden  whitespace-nowrap">Speak Dutch, English</span>
+*/
+import CountryFlag from 'vue-country-flag-next'
+
 export default {
 	components: {
 		TopNavigation,
@@ -46,7 +62,8 @@ export default {
 		Preferences,
 		HeartIcon,
 		ChevronLeftIcon,
-		DotsVerticalIcon
+		DotsVerticalIcon,
+		CountryFlag
 	}
 }
 </script>
