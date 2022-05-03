@@ -8,11 +8,11 @@
 				<form class="w-full" action="#" method="POST">
 					<div class="mb-12">
 						<h5 class="text-header-five font-semibold antialiased mb-2">Let's talk about your wishes!</h5>
-						<p class="text-sm  font-light">In which region should we search for your au pair</p>
+						<p class="text-sm font-light">In which region should we search for your au pair</p>
 					</div>
 
 					<div class="mb-10">
-						<p class="inline-flex w-full font-thin mb-4">How many years of experience do you have as a nanny?</p>
+						<p class="inline-flex w-full font-thin mb-4">What are your main/preferred languages for your au pair?</p>
 
 						<div class="flex flex-row">
 							<div class="inline-flex justify-center items-center">
