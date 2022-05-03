@@ -7,8 +7,8 @@
 			<BadgeWithIcon text="Dutch"><template #icon><ChatAlt2Icon class="w-5 h-5"/></template></BadgeWithIcon>
 			<BadgeWithIcon text="Non-smoker"><template #icon><ArrowRightIcon class="w-5 h-5"/></template></BadgeWithIcon>
 			<BadgeWithIcon text="Bathing"><template #icon><ArrowRightIcon class="w-5 h-5"/></template></BadgeWithIcon>
-			<BadgeWithIcon text="Homework"><template #icon><ArrowRightIcon class="w-5 h-5"/></template></BadgeWithIcon>
-			<BadgeWithIcon text="Housekeeping"><template #icon><ArrowRightIcon class="w-5 h-5"/></template></BadgeWithIcon>
+			<BadgeWithIcon text="Homework" :isMatchingPreference="true"><template #icon><ArrowRightIcon class="w-5 h-5"/></template></BadgeWithIcon>
+			<BadgeWithIcon text="Housekeeping" :isMatchingPreference="true"><template #icon><ArrowRightIcon class="w-5 h-5"/></template></BadgeWithIcon>
 			<BadgeWithIcon text="First Aid"><template #icon><ArrowRightIcon class="w-5 h-5"/></template></BadgeWithIcon>
 			<BadgeWithIcon text="Available on short notice"><template #icon><ArrowRightIcon class="w-5 h-5"/></template></BadgeWithIcon>
 			<BadgeWithIcon text="Pet Lover"><template #icon><ArrowRightIcon class="w-5 h-5"/></template></BadgeWithIcon>
@@ -34,6 +34,10 @@ export default {
 		title: {
 			type: String,
 			default: 'Preferences'
+		},
+		isMatchingPreference: {
+			type: Boolean,
+			default: false
 		}
 	}
 }

@@ -20,7 +20,10 @@
 				<div class="flex flex-row mb-4 items-center">
 					<div class="flex-none w-6"><GlobeAltIcon class="w-5 h-5" /></div>
 					<div class="inline-flex grow items-center font-thin">
-						Speak Dutch, English <span class="h-1 w-1 bg-purple-900 rounded-full mx-1"></span> Amsterdam, NL
+						<span class="w-40 text-ellipsis overflow-hidden  whitespace-nowrap">Speak Dutch, English</span>
+						<span class="h-1 w-1 bg-purple-900 rounded-full mx-1"></span>
+						<country-flag country='nl' size='small'/>
+						<span class="pl-1">Amsterdam</span>
 					</div>
 				</div>
 				<div class="flex flex-row mb-3">
@@ -41,6 +44,22 @@
 <script>
 import { HeartIcon, GlobeAltIcon, GlobeIcon, CalendarIcon, ClockIcon, UserIcon } from '@heroicons/vue/solid'
 
+/*
+https://bestofvue.com/repo/P3trur0-vue-country-flag-vuejs-icons
+
+VueJS3
+npm install vue-country-flag-next
+
+<country-flag country='nl' size='small'/>
+
+This is a 'placeholder' flag package example, as I didn't want to spent too much time
+finding the one used on the design as you may already have an npm package.
+
+Do note the tailwind css classes used in the span to wrap and add an ellipsis on the language spoken
+<span class="w-40 text-ellipsis overflow-hidden  whitespace-nowrap">Speak Dutch, English</span>
+*/
+import CountryFlag from 'vue-country-flag-next'
+
 export default {
 	components: {
 		HeartIcon,
@@ -48,7 +67,8 @@ export default {
 		GlobeIcon,
 		UserIcon,
 		CalendarIcon,
-		ClockIcon
+		ClockIcon,
+		CountryFlag
 	},
 	props: {
 		tempBackgroundColor: String,
