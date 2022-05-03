@@ -163,6 +163,18 @@
 								textColorBadge="text-white"
 								backgroundColorBadge="bg-green-800"
 							/>
+							<ListItem
+								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/nanny-booking"
+								title="Booking"
+								textColor="text-purple-600"
+								textBadge="In Progress"
+								textColorBadge="text-amber-800"
+								backgroundColorBadge="bg-amber-100"
+							/>
 						</ul>
 					</div>
 					<div class="relative">
