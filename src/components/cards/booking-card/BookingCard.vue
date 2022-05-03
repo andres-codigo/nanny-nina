@@ -1,5 +1,5 @@
 <template>
-	<a href="#" target="_self" class="inline-flex grow relative h-36 rounded-20px border border-gray-50">
+	<a href="#" target="_self" class="inline-flex w-full relative h-36 rounded-20px border border-gray-50 mb-4">
 		<div>
 			<div class="flex flex-row mt-4 mx-4">
 				<div class="flex-none items-center justify-center w-12">

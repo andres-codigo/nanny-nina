@@ -20,10 +20,24 @@
 						<p class="font-light">Review hours</p>
 					</div>
 
-					<div class="flex">
+					<div class="block mb-10">
+						<p class="text-sm font-light mb-2">Next</p>
 						<BookingCard
 							src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
 							title="Working @ Sanders"
+						/>
+					</div>
+
+					<div class="block mb-10">
+						<p class="text-sm font-light mb-2">Show all</p>
+						<BookingCard
+							src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
+							title="Working @ Kalous"
+						/>
+
+						<BookingCard
+							src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
+							title="Working @ Kalous"
 						/>
 					</div>
 				</div>
