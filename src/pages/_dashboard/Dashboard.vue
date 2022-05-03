@@ -101,7 +101,7 @@
 								:hideNotes="true"
 								notes=""
 								date=""
-								routerLinkPath="/childminder-and-nanny-home"
+								routerLinkPath="/childminder-and-nanny-home-with-bottom-menu"
 								title="Home (with bottom menu)"
 								textColor="text-purple-600"
 								textBadge="Completed"
