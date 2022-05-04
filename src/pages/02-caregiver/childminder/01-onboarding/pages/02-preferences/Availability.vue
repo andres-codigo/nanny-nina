@@ -5,7 +5,11 @@
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col py-12 mx-4">
+			<Steps text="Step 2 of 2">
+				<template #step-one><CompletedStep /></template>
+				<template #step-two><CurrentStep /></template>
+			</Steps>
+			<div class="flex flex-col py-6 mx-4">
 				<h5 class="text-header-five font-semibold antialiased mb-4">Availability</h5>
 				<p class="font-light">Set your weekly hours and add specific dates you may be unavailable</p>
 
@@ -59,8 +63,11 @@
 				</div>
 
 				<div class="flex flex-col justify-center items-center mt-16">
-					<ButtonPrimary text="Save Changes" class="w-button-lg text-xl py-4" />
-				</div>
+						<div class="grid grid-rows-2 gap-2">
+							<div><ButtonPrimary text="Save Changes" class="w-button-lg text-xl py-4" /></div>
+							<div class="inline-flex items-center justify-center"><AnchorTextOnly text="< Back to Checklist" /></div>
+						</div>
+					</div>
 			</div>
 		</main>
 	</div>
@@ -68,24 +75,36 @@
 
 <script>
 import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
+
+import Steps from '../../../../../../components/steps/Steps.vue'
+import CompletedStep from '../../../../../../components/steps/types/CompletedStep.vue'
+import CurrentStep from '../../../../../../components/steps/types/CurrentStep.vue'
+import UpcomingStep from '../../../../../../components/steps/types/UpcomingStep.vue'
+
 import Tabs from '../../../../../../components/navigation-and-tabs/Tabs.vue'
 import DayOrTimeAvailabilityRow from '../../../../../../components/availability/weekly-hours/DayOrTimeRow.vue'
 import ToggleButtonTextRight from '../../../../../../components/form/ToggleButtonTextRight.vue'
 import InputFieldTimeEnabled from '../../../../../../components/form/InputFieldTimeEnabled.vue'
 import InputFieldTimeDisabled from '../../../../../../components/form/InputFieldTimeDisabled.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
+import AnchorTextOnly from '../../../../../../components/dom-elements/AnchorTextOnly.vue'
 
 import { ChevronLeftIcon, QuestionMarkCircleIcon, PlusIcon, XCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
 		TopNavigation,
+		Steps,
+		CompletedStep,
+		CurrentStep,
+		UpcomingStep,
 		Tabs,
 		DayOrTimeAvailabilityRow,
 		ToggleButtonTextRight,
 		InputFieldTimeEnabled,
 		InputFieldTimeDisabled,
 		ButtonPrimary,
+		AnchorTextOnly,
 		ChevronLeftIcon,
 		QuestionMarkCircleIcon,
 		PlusIcon,

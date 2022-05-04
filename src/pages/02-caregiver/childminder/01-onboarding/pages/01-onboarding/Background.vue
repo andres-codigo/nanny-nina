@@ -4,7 +4,11 @@
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col py-12 mx-4">
+			<Steps text="Step 2 of 2">
+				<template #step-one><CompletedStep /></template>
+				<template #step-two><CurrentStep /></template>
+			</Steps>
+			<div class="flex flex-col py-6 mx-4">
 				<form class="w-full" action="#" method="POST">
 					<div class="mb-10">
 						<h5 class="text-header-five font-semibold antialiased mb-4">Type of Childminder</h5>
@@ -107,7 +111,10 @@
 					</div>
 
 					<div class="flex flex-col justify-center items-center mt-20">
-						<ButtonPrimary text="Next" class="w-button-lg text-xl py-4" />
+						<div class="grid grid-rows-2 gap-2">
+							<div><ButtonPrimary text="Next" class="w-button-lg text-xl py-4" /></div>
+							<div class="inline-flex items-center justify-center"><AnchorTextOnly text="< Back to Checklist" /></div>
+						</div>
 					</div>
 				</form>
 			</div>
@@ -117,6 +124,12 @@
 
 <script>
 import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
+
+import Steps from '../../../../../../components/steps/Steps.vue'
+import CompletedStep from '../../../../../../components/steps/types/CompletedStep.vue'
+import CurrentStep from '../../../../../../components/steps/types/CurrentStep.vue'
+import UpcomingStep from '../../../../../../components/steps/types/UpcomingStep.vue'
+
 import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
 import Textarea from '../../../../../../components/form/Textarea.vue'
@@ -125,12 +138,17 @@ import MultiplePhotoUploadFlex from '../../../../../../components/media/multiple
 import BadgeRemove from '../../../../../../components/badge/BadgeRemove.vue'
 import ButtonOutlineDark from '../../../../../../components/buttons/ButtonOutlineDark.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
+import AnchorTextOnly from '../../../../../../components/dom-elements/AnchorTextOnly.vue'
 
 import { ChevronLeftIcon, PlusIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
 		TopNavigation,
+		Steps,
+		CompletedStep,
+		CurrentStep,
+		UpcomingStep,
 		RadioQuestion,
 		SelectMenu,
 		Textarea,
@@ -139,6 +157,7 @@ export default {
 		BadgeRemove,
 		ButtonOutlineDark,
 		ButtonPrimary,
+		AnchorTextOnly,
 		ChevronLeftIcon,
 		PlusIcon,
 	}
