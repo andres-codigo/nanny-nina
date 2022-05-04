@@ -203,6 +203,18 @@
 							/>
 							<ListItem
 								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/au-pair-reference"
+								title="Reference"
+								textColor="text-purple-600"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
+							/>
+							<ListItem
+								:subItem="false"
 								:hideNotes="false"
 								notes="Waiting on Design comment updates"
 								date="27/04/22"
