@@ -52,7 +52,7 @@
 						</ul>
 					</div>
 
-					<p class="text-center text-sm py-2"><a href="#" target="_self" class="anchor-with-underline text-blue-500">Price advice</a> for Amsterdam: From &euro;10/hr</p>
+					<p class="text-center text-sm py-2"><a href="#" target="_self" class="anchor-blue anchor-with-underline">Price advice</a> for Amsterdam: From &euro;10/hr</p>
 
 					<div class="flex flex-col justify-center items-center mt-16">
 						<div class="grid grid-rows-2 gap-2">

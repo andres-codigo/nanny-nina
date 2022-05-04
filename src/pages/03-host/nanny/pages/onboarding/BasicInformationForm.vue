@@ -66,7 +66,7 @@
 						</svg>
 						</div>
 						<div class="flex-none pl-2">
-							<a href="#" target="_self" class="text-blue-500 anchor-with-underline">Add another child</a>
+							<a href="#" target="_self" class="anchor-blue anchor-with-underline">Add another child</a>
 						</div>
 					</div>
 
@@ -79,14 +79,13 @@
 						</div>
 
 						<div>
-							<p class="font-thin">Please specify</p>
-
-							<div class="flex">
-								<div class="grow h-14">
-									<InputFieldBorderBottomOnly type="text" />
-								</div>
-								<div class="flex-none inline-flex justify-center items-center w-14 h-14">
-									<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
+							<p class="font-thin mb-2">Please specify</p>
+							<div class="mt-4 grid grid-cols-2 gap-y-6 gap-x-2">
+								<div><SelectMenu /></div>
+								<div class="grid grid-rows-2 grid-flow-col gap-x-0 justify-center">
+									<div><BadgeRemove text="Cats" /></div>
+									<div><BadgeRemove text="Dogs" /></div>
+									<div><BadgeRemove text="Birds" /></div>
 								</div>
 							</div>
 						</div>
@@ -107,6 +106,7 @@ import SelectMenu from '../../../../../components/form/SelectMenu.vue'
 import RadioQuestion from '../../../../../components/form/RadioQuestion.vue'
 import InputField from '../../../../../components/form/InputField.vue'
 import InputFieldBorderBottomOnly from '../../../../../components/form/InputFieldBorderBottomOnly.vue'
+import BadgeRemove from '../../../../../components/badge/BadgeRemove.vue'
 import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, PlusIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
@@ -118,6 +118,7 @@ export default {
 		RadioQuestion,
 		InputField,
 		InputFieldBorderBottomOnly,
+		BadgeRemove,
 		ButtonPrimary,
 		ChevronLeftIcon,
 		PlusIcon,

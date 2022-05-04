@@ -16,10 +16,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="flex">
-			<div class="flex-none"><a href="#" target="_self" class="font-semibold text-blue-500 anchor-with-underline">Show all reviews</a></div>
-			<div class="inline-flex items-center justify-center pl-1"><ChevronRightIcon class="w-5 h-5 text-blue-500" /></div>
-		</div>
+		<a href="#" target="_self" class="font-semibold anchor-blue anchor-with-underline">Show all reviews ></a>
 	</div>
 </template>
 

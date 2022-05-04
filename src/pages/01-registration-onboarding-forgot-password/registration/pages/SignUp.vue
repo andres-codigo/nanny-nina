@@ -10,7 +10,7 @@
 					<Header class="mx-0 mt-0" />
 				</div>
 				<h5 class="text-header-five antialiased mb-2">Get started 100% free</h5>
-				<p class="text-sm font-light">It's free to join, Already have an account? <a href="#" target="_self" class="text-blue-500 anchor-with-underline">Sign in</a></p>
+				<p class="text-sm font-light">It's free to join, Already have an account? <a href="#" target="_self" class="anchor-blue anchor-with-underline">Sign in</a></p>
 
 				<h2 class="text-header-two font-semibold antialiased mt-8 mb-2">Sign up as <span class="text-purple-500">Parent/Host</span></h2>
 				<p class="font-light">Request Nanny, Childminder or an Au pair</p>
@@ -55,7 +55,7 @@
 					</div>
 
 					<div class="flex flex-col justify-center items-center mt-14">
-						<p class="mx-8 text-xs font-medium text-center">Thanks for signing up to Nanny Nina! Based on your sign up, we would love to keep you posted with product news and tips!. You can opt out at any time. See our <a href="#" target="_self" class="text-blue-500 anchor-with-underline">Privacy Policy</a> for more information.</p>
+						<p class="mx-8 text-xs font-medium text-center">Thanks for signing up to Nanny Nina! Based on your sign up, we would love to keep you posted with product news and tips!. You can opt out at any time. See our <a href="#" target="_self" class="anchor-blue anchor-with-underline">Privacy Policy</a> for more information.</p>
 						<CheckboxLeftWithContainerAndLabelRight>
 							<template #text>No, please don't send any marketing emails or content</template>
 						</CheckboxLeftWithContainerAndLabelRight>

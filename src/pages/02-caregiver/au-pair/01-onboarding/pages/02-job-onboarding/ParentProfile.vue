@@ -26,7 +26,8 @@
 				</div>
 
 				<h5 class="text-header-five font-semibold antialiased mt-4 mb-2">Meet The Sanders</h5>
-				<p class="inline-flex items-center text-sm font-light leading-none">Married <span class="h-1 w-1 bg-gray-500 rounded-full mx-1"></span> Lawyer &amp; Accountant <span class="h-1 w-1 bg-gray-500 rounded-full mx-1"></span> <country-flag country='nl' size='small'/> <span class="pl-1">Amsterdam</span></p>
+				<p class="inline-flex items-center text-sm font-light leading-none pb-2">Speaks English, Dutch <span class="h-1 w-1 bg-gray-500 rounded-full mx-1"></span>  <country-flag country='nl' size='small'/> <span class="pl-1">Amsterdam</span></p>
+				<p class="inline-flex items-center text-sm font-light leading-none">Lawyer &amp; Accountant <span class="h-1 w-1 bg-gray-500 rounded-full mx-1"></span> Married</p>
 
 				<Preferences class="mt-7" />
 			</div>

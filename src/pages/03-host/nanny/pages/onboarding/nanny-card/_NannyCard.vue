@@ -33,10 +33,7 @@
 				<Details>
 					<template #leadingIcon><CalendarIcon class="w-5 h-5"/></template>
 					<template #title>
-						<div class="flex">
-							<div class="flex-none"><a href="#" target="_self" class="text-blue-500 font-thin anchor-with-underline">General availability</a></div>
-							<div class="inline-flex items-center justify-center pl-1"><ChevronRightIcon class="w-3 h-3 text-blue-500" /></div>
-						</div>
+						<a href="#" target="_self" class="font-thin anchor-blue anchor-with-underline">General availability ></a>
 					</template>
 					<template #trailingIcon></template>
 				</Details>

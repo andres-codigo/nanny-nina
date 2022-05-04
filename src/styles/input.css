@@ -18,6 +18,18 @@
 	@apply hover:no-underline;
 }
 
+.anchor-blue {
+	@apply text-blue-500;
+}
+
+.anchor-blue:hover {
+	@apply text-purple-500;
+}
+
+.anchor-blue:focus {
+	@apply text-purple-600;
+}
+
 /* hide scrollbar; used for horizontal photos, reviews */
 .no-scrollbar {
 	-ms-overflow-style: none;

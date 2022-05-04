@@ -77,11 +77,12 @@
 							<RadioQuestion :screenReaderOnly="true" legend="Do you have pets?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
+						<p>Select what pet(s) you have and how many?</p>
 						<div class="flex flex-row">
-							<div class="inline-flex items-center border-r border-r-gray-50 pr-4">
+							<div class="inline-flex items-center pr-4">
 								<SelectMenu optionText="Select pet" class="w-select-sm" />
 							</div>
-							<div class="flex grow justify-center items-center border-r border-r-gray-50 px-4">
+							<div class="flex grow justify-center items-center px-4">
 								<SelectMenu optionText="1" class="w-select-xs" />
 							</div>
 							<div class="inline-flex justify-center items-center w-14 h-14">
@@ -98,7 +99,7 @@
 						</div>
 
 						<div>
-							<p class="font-thin mb-2">Select what pet's you have and how many?</p>
+							<p class="font-thin mb-2">Please specify</p>
 							<div class="mt-4 grid grid-cols-2 gap-y-6 gap-x-2">
 								<div><SelectMenu /></div>
 								<div class="grid grid-rows-2 grid-flow-col gap-x-0 justify-center">

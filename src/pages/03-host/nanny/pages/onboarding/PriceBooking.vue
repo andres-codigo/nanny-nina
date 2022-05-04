@@ -16,7 +16,7 @@
 
 					<div class="mb-10">
 						<p class="text-center text-sm text-gray-500">Only nannies that accept this fee will be shown</p>
-						<p class="text-center text-sm py-2"><a href="#" target="_self" class="anchor-with-underline text-blue-500">Price advice</a> for Amsterdam: From &euro;10/hr</p>
+						<p class="text-center text-sm py-2"><a href="#" target="_self" class="anchor-blue anchor-with-underline">Price advice</a> for Amsterdam: From &euro;10/hr</p>
 					</div>
 
 					<hr class="border-1 border-gray-50 my-6" />

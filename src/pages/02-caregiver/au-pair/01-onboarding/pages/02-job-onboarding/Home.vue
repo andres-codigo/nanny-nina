@@ -18,8 +18,7 @@
 				</div>
 
 				<div class="flex justify-center my-10">
-					<div class="flex-none"><a href="#" target="_self" class="text-center text-blue-500 font-thin anchor-with-underline">Not sure where to go?</a></div>
-					<div class="inline-flex items-center pl-1"><ChevronRightIcon class="w-5 h-5 text-blue-500" /></div>
+					<a href="#" target="_self" class="text-center font-thin anchor-blue anchor-with-underline">Not sure where to go? ></a>
 				</div>
 
 				<div class="mb-10">

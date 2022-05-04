@@ -13,14 +13,14 @@
 
 					<div class="mt-6">
 						<InputField text="Password" />
-						<a href="#" target="_self" class="block text-xs font-light text-blue-500 mt-3 anchor-with-underline">Forgot your password?</a>
+						<a href="#" target="_self" class="block text-xs font-light anchor-blue mt-3 anchor-with-underline">Forgot your password?</a>
 					</div>
 
 					<div class="flex flex-col justify-center items-center mt-14">
 						<div class="mt-6 mb-4">
 							<ButtonPrimary text="Login" class="w-button-xl text-xl py-4" />
 						</div>
-						<p class="text-sm font-light">Don't have an account? <a href="#" target="_self" class="font-light text-blue-500 anchor-with-underline">Sign Up</a></p>
+						<p class="text-sm font-light">Don't have an account? <a href="#" target="_self" class="font-light anchor-blue anchor-with-underline">Sign Up</a></p>
 					</div>
 				</form>
 
