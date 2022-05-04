@@ -5,7 +5,11 @@
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col pt-12 px-4">
+			<Steps text="Step 2 of 2">
+				<template #step-one><CompletedStep /></template>
+				<template #step-two><CurrentStep /></template>
+			</Steps>
+			<div class="flex flex-col pt-6 px-4">
 				<h5 class="text-header-five font-semibold antialiased mb-2">Availability</h5>
 				<p class="font-light">Set your weekly hours and add specific dates you may be unavailable</p>
 
@@ -58,8 +62,11 @@
 				</div>
 
 				<div class="flex flex-col justify-center items-center mt-16">
-					<ButtonPrimary text="Save Changes" class="w-button-lg text-xl py-4" />
-				</div>
+						<div class="grid grid-rows-2 gap-2">
+							<div><ButtonPrimary text="Save Changes" class="w-button-lg text-xl py-4" /></div>
+							<div class="inline-flex items-center justify-center"><AnchorTextOnly text="< Back to Checklist" /></div>
+						</div>
+					</div>
 			</div>
 		</main>
 	</div>
@@ -67,18 +74,30 @@
 
 <script>
 import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
+
+import Steps from '../../../../../../components/steps/Steps.vue'
+import CompletedStep from '../../../../../../components/steps/types/CompletedStep.vue'
+import CurrentStep from '../../../../../../components/steps/types/CurrentStep.vue'
+import UpcomingStep from '../../../../../../components/steps/types/UpcomingStep.vue'
+
 import Tabs from '../../../../../../components/navigation-and-tabs/Tabs.vue'
 import Calendar from '../../../../../../components/calendar/Calendar.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
+import AnchorTextOnly from '../../../../../../components/dom-elements/AnchorTextOnly.vue'
 
 import { ChevronLeftIcon, QuestionMarkCircleIcon, XCircleIcon, PlusIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
 		TopNavigation,
+		Steps,
+		CompletedStep,
+		CurrentStep,
+		UpcomingStep,
 		Tabs,
 		Calendar,
 		ButtonPrimary,
+		AnchorTextOnly,
 		ChevronLeftIcon,
 		QuestionMarkCircleIcon,
 		XCircleIcon,
