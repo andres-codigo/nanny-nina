@@ -163,18 +163,6 @@
 								textColorBadge="text-white"
 								backgroundColorBadge="bg-green-800"
 							/>
-							<ListItem
-								:subItem="false"
-								:hideNotes="true"
-								notes=""
-								date=""
-								routerLinkPath="/nanny-booking"
-								title="Booking"
-								textColor="text-purple-600"
-								textBadge="In Progress"
-								textColorBadge="text-amber-800"
-								backgroundColorBadge="bg-amber-100"
-							/>
 						</ul>
 					</div>
 					<div class="relative">
@@ -312,6 +300,18 @@
 								textBadge="Completed"
 								textColorBadge="text-white"
 								backgroundColorBadge="bg-green-800"
+							/>
+							<ListItem
+								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/nanny-booking"
+								title="Booking"
+								textColor="text-purple-600"
+								textBadge="In Progress"
+								textColorBadge="text-amber-800"
+								backgroundColorBadge="bg-amber-100"
 							/>
 						</ul>
 						<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">

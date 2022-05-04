@@ -3,7 +3,7 @@
 		<a href="/" target="_self" class="w-full h-card-au-pair focus:opacity-60">
 			<div :class="['flex flex-row rounded-t-3xl', tempBackgroundColor]">
 				<div class="relative grow h-64 overflow-hidden">
-					<span class="absolute right-6 top-2 w-6"><HeartIcon class="w-11 h-11 text-red-500" aria-hidden="true" /></span>
+					<span class="absolute right-2 top-2 w-11"><HeartIcon class="w-11 h-11 text-red-500" aria-hidden="true" /></span>
 					<!--
 						Image svg/png here
 						<img src="*.svg" class="rounded-t-3xl" />

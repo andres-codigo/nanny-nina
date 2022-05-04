@@ -1,43 +1,95 @@
 <template>
-	<a href="#" target="_self" class="inline-flex w-full relative h-36 rounded-20px border border-gray-50 mb-4">
-		<div>
-			<div class="flex flex-row mt-4 mx-4">
-				<div class="flex-none items-center justify-center w-12">
-					<img class="h-12 w-12 rounded-full" :src="src" alt="">
+	<div class="inline-flex w-full border border-gray-50 hover:border hover:border-gray-500 rounded-3xl mb-4">
+		<a href="/" target="_self" class="w-full h-card-au-pair focus:opacity-60">
+			<div :class="['flex flex-row rounded-t-3xl', tempBackgroundColor]">
+				<div class="relative grow h-64 overflow-hidden">
+					<span class="absolute left-4 top-5 w-24 inline-flex rounded-3xl justify-center font-bold text-purple-500 bg-green-500 px-2">€16-18/hr</span>
+					<span class="absolute right-2 top-2 w-11"><HeartIcon class="w-11 h-11 text-red-500" aria-hidden="true" /></span>
+					<!--
+						Image svg/png here
+						<img src="*.svg" class="rounded-t-3xl" />
+						* remove background color in div as visual placeholder
+					-->
+					<img src="https://images.unsplash.com/photo-1543721482-bc95ff1f1dea" class="rounded-t-3xl">
 				</div>
-				<div class="inline-flex w-full ml-4">
-					<div class="flex w-full">
-						<div class="inline-flex grow">
-							<h6 class="text-header-six font-semibold antialiased">{{ title }}</h6>
+			</div>
+			<div class="h-56 mx-4">
+				<div class="flex flex-row my-6">
+					<div class="basis-1/2">
+						<h4 class="text-header-four font-semibold antialiased mb-1">The Sanders</h4>
+						<p class="text-sm text-gray-500 font-thin">Shared on 5mins ago</p>
+					</div>
+					<div class="basis-1/2">
+						<div class="float-right w-24 h-9 inline-flex rounded-3xl items-center justify-center text-white bg-purple-500 py-2 px-2">
+							<BellIcon class="w-5 h-5 text-white" aria-hidden="true" />
+							<span class="text-sm px-1">+2 days</span>
 						</div>
 					</div>
 				</div>
+				<div class="flex flex-row mb-4 items-center">
+					<div class="flex-none w-6"><LocationMarkerIcon class="w-5 h-5" /></div>
+					<div class="inline-flex grow items-center font-thin">
+						2km away
+						<span class="h-1 w-1 bg-purple-900 rounded-full mx-1"></span>
+						<country-flag country='nl' size='small'/>
+						<span class="pl-1">Amsterdam</span>
+					</div>
+				</div>
+				<div class="flex flex-row mb-3">
+					<div class="flex-none w-6"><CalendarIcon class="w-5 h-5" /></div>
+					<div class="inline-flex grow items-center font-thin">
+						Short-term
+						<span class="h-1 w-1 bg-purple-900 rounded-full mx-1"></span>
+						<ClockIcon class="w-5 h-5" /> Starts: 4pm today
+					</div>
+				</div>
+				<div class="flex flex-row mb-3">
+					<div class="flex-none w-6 h-6"><UserIcon class="w-5 h-5" /></div>
+					<div class="grow font-thin">2 kids (2yr, 3yr)</div>
+				</div>
 			</div>
-			<div class="flex flex-row text-sm mb-2 ml-20">
-				<div class="flex-none w-6"><CalendarIcon class="w-5 h-5" /></div>
-				<div class="grow">Thurs, 24/03/2022</div>
-			</div>
-			<div class="flex flex-row text-sm mb-2 ml-20">
-				<div class="flex-none w-6"><ClockIcon class="w-5 h-5" /></div>
-				<div class="grow">13:00 - 18:00</div>
-			</div>
-		</div>
-		<ChevronRightIcon class="absolute right-2 top-14 w-6 h-6 text-gray-500" aria-hidden="true" />
-	</a>
+		</a>
+	</div>
 </template>
 
 <script>
-import { CalendarIcon, ClockIcon, ChevronRightIcon } from '@heroicons/vue/outline'
+import { HeartIcon, BellIcon, LocationMarkerIcon, CalendarIcon, ClockIcon, UserIcon } from '@heroicons/vue/solid'
+
+/*
+https://bestofvue.com/repo/P3trur0-vue-country-flag-vuejs-icons
+
+VueJS3
+npm install vue-country-flag-next
+
+<country-flag country='nl' size='small'/>
+
+This is a 'placeholder' flag package example, as I didn't want to spent too much time
+finding the one used on the design as you may already have an npm package.
+
+Do note the tailwind css classes used in the span to wrap and add an ellipsis on the language spoken
+<span class="w-40 text-ellipsis overflow-hidden  whitespace-nowrap">Speak Dutch, English</span>
+*/
+import CountryFlag from 'vue-country-flag-next'
 
 export default {
 	components: {
+		HeartIcon,
+		BellIcon,
+		LocationMarkerIcon,
+		UserIcon,
 		CalendarIcon,
 		ClockIcon,
-		ChevronRightIcon
+		CountryFlag
 	},
 	props: {
-		src: String,
-		title: String
+		tempBackgroundColor: String,
+		tempFocusRingColor: String,
+		user: String,
+		content: String,
+		showCompletionSteps: {
+			type: Boolean,
+			default: true
+		}
 	}
 }
 </script>
