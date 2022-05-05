@@ -78,15 +78,16 @@
 							<RadioQuestion :screenReaderOnly="true" legend="Do you have pets?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
-						<div>
-							<p class="font-thin mb-2">Please specify</p>
-							<div class="mt-4 grid grid-cols-2 gap-y-6 gap-x-2">
-								<div><SelectMenu /></div>
-								<div class="grid grid-rows-2 grid-flow-col gap-x-0 justify-center">
-									<div><BadgeRemove text="Cats" /></div>
-									<div><BadgeRemove text="Dogs" /></div>
-									<div><BadgeRemove text="Birds" /></div>
-								</div>
+						<p class="font-thin">Select what pet(s) you have and how many?</p>
+						<div class="flex flex-row">
+							<div class="inline-flex items-center pr-4">
+								<SelectMenu optionText="Select pet" class="w-select-sm" />
+							</div>
+							<div class="flex grow justify-center items-center px-4">
+								<SelectMenu optionText="0" class="w-select-xs" />
+							</div>
+							<div class="inline-flex justify-center items-center w-14 h-14">
+								<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
 							</div>
 						</div>
 					</div>
@@ -106,7 +107,6 @@ import SelectMenu from '../../../../../components/form/SelectMenu.vue'
 import RadioQuestion from '../../../../../components/form/RadioQuestion.vue'
 import InputField from '../../../../../components/form/InputField.vue'
 import InputFieldBorderBottomOnly from '../../../../../components/form/InputFieldBorderBottomOnly.vue'
-import BadgeRemove from '../../../../../components/badge/BadgeRemove.vue'
 import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, PlusIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
@@ -118,7 +118,6 @@ export default {
 		RadioQuestion,
 		InputField,
 		InputFieldBorderBottomOnly,
-		BadgeRemove,
 		ButtonPrimary,
 		ChevronLeftIcon,
 		PlusIcon,
