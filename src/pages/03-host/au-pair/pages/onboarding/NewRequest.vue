@@ -20,7 +20,7 @@
 				</div>
 
 				<div class="flex flex-col justify-center items-center my-4">
-					<a href="#" target="_self" class="anchor-with-underline text-blue-500 text-center font-medium">Learn more about Au Pairs</a>
+					<a href="#" target="_self" class="anchor-blue anchor-with-underline text-center font-medium">Learn more about Au Pairs</a>
 				</div>
 			</div>
 		</main>

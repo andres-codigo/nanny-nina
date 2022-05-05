@@ -108,6 +108,18 @@
 								textColorBadge="text-white"
 								backgroundColorBadge="bg-green-800"
 							/>
+							<ListItem
+								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/au-pair-reference"
+								title="Reference"
+								textColor="text-purple-600"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
+							/>
 						</ul>
 					</div>
 					<div class="relative">
@@ -243,6 +255,18 @@
 								date=""
 								routerLinkPath="/host-nanny-home"
 								title="Home (with bottom menu)"
+								textColor="text-purple-600"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
+							/>
+							<ListItem
+								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/au-pair-reference"
+								title="Reference"
 								textColor="text-purple-600"
 								textBadge="Completed"
 								textColorBadge="text-white"

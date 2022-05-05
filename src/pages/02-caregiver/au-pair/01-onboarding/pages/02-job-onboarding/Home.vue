@@ -12,14 +12,14 @@
 				</div>
 
 				<div class="grid grid-rows-3 gap-4 mb-8">
-					<div><CountryCard tempBackgroundColor="bg-purple-100" country="Netherlands" content="Apply to Netherlands" /></div>
-					<div><CountryCard tempBackgroundColor="bg-purple-100" country="Paris" content="Apply to Paris" /></div>
-					<div><CountryCard tempBackgroundColor="bg-purple-100" country="Zurich" content="Apply to Zurich" /></div>
+					<div><CountryCard src="https://images.unsplash.com/photo-1517736996303-4eec4a66bb17" country="Netherlands" content="Apply to Netherlands" /></div>
+					<div><CountryCard src="https://images.unsplash.com/photo-1549144511-f099e773c147" country="Paris" content="Apply to Paris" /></div>
+					<div><CountryCard src="https://images.unsplash.com/photo-1556918380-e1eea4592bb3" country="Zurich" content="Apply to Zurich" /></div>
+					<div><CountryCard src="https://images.unsplash.com/photo-1529655683826-aba9b3e77383" country="London" content="Apply to London" /></div>
 				</div>
 
 				<div class="flex justify-center my-10">
-					<div class="flex-none"><a href="#" target="_self" class="text-center text-blue-500 font-thin anchor-with-underline">Not sure where to go?</a></div>
-					<div class="inline-flex items-center pl-1"><ChevronRightIcon class="w-5 h-5 text-blue-500" /></div>
+					<a href="#" target="_self" class="text-center font-thin anchor-blue anchor-with-underline">Not sure where to go? ></a>
 				</div>
 
 				<div class="mb-10">

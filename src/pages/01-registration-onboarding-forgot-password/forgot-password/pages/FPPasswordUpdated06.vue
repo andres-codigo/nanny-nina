@@ -14,7 +14,7 @@
 							</div>
 						</div>
 						<div class="flex flex-col justify-center items-center">
-							<Mail class="w-44 h-44" />
+							<Img class="w-44 h-44" src="./assets/svg/mail/mail.svg" alt="" />
 						</div>
 						<div class="flex flex-col justify-center items-center">
 							<div class="grid grid-rows-1 gap-0">
@@ -31,14 +31,14 @@
 <script>
 import TopNavigation from '../../../../components/navigation-and-tabs/TopNavigation.vue'
 import Header from '../../../../components/content/logos/Header.vue'
-import Mail from '../../../../assets/svg/mail/mail.vue'
+import Img from '../../../../components/dom-elements/Img.vue'
 import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
 
 export default {
 	components: {
 		TopNavigation,
 		Header,
-		Mail,
+		Img,
 		ButtonPrimary
 	}
 }

@@ -19,7 +19,10 @@
 					</MultiplePhotoUploadFlex>
 
 					<div class="flex flex-col justify-center items-center mt-10">
-						<ButtonPrimary text="Next" class="w-button-lg text-xl py-4" />
+						<div class="grid grid-rows-2 gap-2">
+							<div><ButtonPrimary text="Next" class="w-button-lg text-xl py-4" /></div>
+							<div class="inline-flex items-center justify-center"><AnchorTextOnly text="< Back to Checklist" /></div>
+						</div>
 					</div>
 				</form>
 			</div>
@@ -38,6 +41,7 @@ import UpcomingStep from '../../../../../../components/steps/types/UpcomingStep.
 import SinglePhotoUpload from '../../../../../../components/media/single-upload/SinglePhotoUpload.vue'
 import MultiplePhotoUploadFlex from '../../../../../../components/media/multiple-upload/MultiplePhotoUploadFlex.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
+import AnchorTextOnly from '../../../../../../components/dom-elements/AnchorTextOnly.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 
@@ -51,6 +55,7 @@ export default {
 		SinglePhotoUpload,
 		MultiplePhotoUploadFlex,
 		ButtonPrimary,
+		AnchorTextOnly,
 		ChevronLeftIcon
 	}
 }

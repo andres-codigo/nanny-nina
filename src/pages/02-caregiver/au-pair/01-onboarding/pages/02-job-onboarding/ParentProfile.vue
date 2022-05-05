@@ -13,18 +13,21 @@
 			<div class="h-full flex flex-col mx-4 pb-40">
 				<div class="relative justify-center">
 					<span class="absolute right-2 top-2 w-6"><HeartIcon class="w-6 h-6 text-red-500" aria-hidden="true" /></span>
-					<img src="https://images.unsplash.com/photo-1543721482-bc95ff1f1dea" >
-					<div class="inline-flex w-full absolute bottom-[1rem] justify-center space-x-3">
-						<NavigationDot dotWidthAndHeight="h-2 w-2" backgroundColor="bg-purple-500 ring-4 ring-lilac-300" />
-						<NavigationDot dotWidthAndHeight="h-2 w-2" backgroundColor="bg-white" backgroundColorHover="hover:bg-purple-500 hover:ring-8 hover:ring-lilac-300" />
-						<NavigationDot dotWidthAndHeight="h-2 w-2" backgroundColor="bg-white" backgroundColorHover="hover:bg-purple-500 hover:ring-8 hover:ring-lilac-300" />
-						<NavigationDot dotWidthAndHeight="h-2 w-2" backgroundColor="bg-white" backgroundColorHover="hover:bg-purple-500 hover:ring-8 hover:ring-lilac-300" />
+					<img src="https://images.unsplash.com/photo-1543721482-bc95ff1f1dea">
+					<div class="flex justify-center">
+						<div class="inline-flex absolute bottom-[0.5rem] rounded-3xl justify-center bg-green-500 space-x-3 py-2 px-3">
+							<NavigationDot dotWidthAndHeight="h-2 w-2" backgroundColor="bg-purple-500 ring-4 ring-lilac-300" />
+							<NavigationDot dotWidthAndHeight="h-2 w-2" backgroundColor="bg-purple-100" backgroundColorHover="hover:bg-purple-500 hover:ring-8 hover:ring-lilac-300" />
+							<NavigationDot dotWidthAndHeight="h-2 w-2" backgroundColor="bg-purple-100" backgroundColorHover="hover:bg-purple-500 hover:ring-8 hover:ring-lilac-300" />
+							<NavigationDot dotWidthAndHeight="h-2 w-2" backgroundColor="bg-purple-100" backgroundColorHover="hover:bg-purple-500 hover:ring-8 hover:ring-lilac-300" />
+						</div>
 					</div>
-					<div class="inline-flex absolute bottom-[0.5rem] right-4 rounded-3xl justify-center bg-purple-50 w-14">1/8</div>
+					<div class="inline-flex text-sm absolute bottom-[0.5rem] right-4 rounded-3xl justify-center bg-green-500 w-14">1/8</div>
 				</div>
 
 				<h5 class="text-header-five font-semibold antialiased mt-4 mb-2">Meet The Sanders</h5>
-				<p class="inline-flex items-center text-sm font-light leading-none">Married <span class="h-1 w-1 bg-gray-500 rounded-full mx-1"></span> Lawyer &amp; Accountant <span class="h-1 w-1 bg-gray-500 rounded-full mx-1"></span> <country-flag country='nl' size='small'/> <span class="pl-1">Amsterdam</span></p>
+				<p class="inline-flex items-center text-sm font-light leading-none pb-2">Speaks English, Dutch <span class="h-1 w-1 bg-gray-500 rounded-full mx-1"></span>  <country-flag country='nl' size='small'/> <span class="pl-1">Amsterdam</span></p>
+				<p class="inline-flex items-center text-sm font-light leading-none">Lawyer &amp; Accountant <span class="h-1 w-1 bg-gray-500 rounded-full mx-1"></span> Married</p>
 
 				<Preferences class="mt-7" />
 			</div>

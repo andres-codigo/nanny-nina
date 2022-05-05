@@ -66,7 +66,7 @@
 						</svg>
 						</div>
 						<div class="flex-none pl-2">
-							<a href="#" target="_self" class="text-blue-500 anchor-with-underline">Add another child</a>
+							<a href="#" target="_self" class="anchor-blue anchor-with-underline">Add another child</a>
 						</div>
 					</div>
 
@@ -78,16 +78,16 @@
 							<RadioQuestion :screenReaderOnly="true" legend="Do you have pets?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
-						<div>
-							<p class="font-thin">Please specify</p>
-
-							<div class="flex">
-								<div class="grow h-14">
-									<InputFieldBorderBottomOnly type="text" />
-								</div>
-								<div class="flex-none inline-flex justify-center items-center w-14 h-14">
-									<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
-								</div>
+						<p class="font-thin">Select what pet(s) you have and how many?</p>
+						<div class="flex flex-row">
+							<div class="inline-flex items-center pr-4">
+								<SelectMenu optionText="Select pet" class="w-select-sm" />
+							</div>
+							<div class="flex grow justify-center items-center px-4">
+								<SelectMenu optionText="0" class="w-select-xs" />
+							</div>
+							<div class="inline-flex justify-center items-center w-14 h-14">
+								<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
 							</div>
 						</div>
 					</div>
