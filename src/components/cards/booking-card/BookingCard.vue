@@ -15,11 +15,11 @@
 			</div>
 			<div class="h-56 mx-4">
 				<div class="flex flex-row my-6">
-					<div class="basis-1/2">
-						<h4 class="text-header-four font-semibold antialiased mb-1">The Sanders</h4>
-						<p class="text-sm text-gray-500 font-thin">{{ sharedTime }}</p>
+					<div class="basis-2/3">
+						<h4 class="text-header-four font-semibold antialiased mb-2">{{ title }}</h4>
+						<p class="text-sm text-gray-500 font-thin">{{ timeOrDate }}</p>
 					</div>
-					<div class="basis-1/2">
+					<div class="basis-1/3">
 						<div class="float-right w-24 h-9 inline-flex rounded-3xl items-center justify-center text-white bg-purple-500 py-2 px-2">
 							<BellIcon class="w-5 h-5 text-white" aria-hidden="true" />
 							<span class="text-sm px-1">+2 days</span>
@@ -27,25 +27,35 @@
 					</div>
 				</div>
 				<div class="flex flex-row mb-4 items-center">
-					<div class="flex-none w-6"><LocationMarkerIcon class="w-5 h-5" /></div>
-					<div class="inline-flex grow items-center font-thin">
+					<div class="flex-none w-5"><LocationMarkerIcon class="w-5 h-5" /></div>
+
+					<!-- Invites -->
+					<div class="inline-flex grow items-center font-thin" v-if="isInvite">
 						2km away
 						<span class="h-1 w-1 bg-purple-900 rounded-full mx-1"></span>
 						<country-flag country='nl' size='small'/>
 						<span class="pl-1">Amsterdam</span>
 					</div>
-				</div>
-				<div class="flex flex-row mb-3">
-					<div class="flex-none w-6"><CalendarIcon class="w-5 h-5" /></div>
-					<div class="inline-flex grow items-center font-thin">
-						Short-term
+
+					<!-- Matches -->
+					<div class="inline-flex grow items-center font-thin" v-else>
+						{{ bookingAddress }}
 						<span class="h-1 w-1 bg-purple-900 rounded-full mx-1"></span>
-						<ClockIcon class="w-5 h-5" /> Starts: 4pm today
+					</div>
+
+				</div>
+				<div class="flex flex-row  items-center mb-3">
+					<div class="flex-none w-5"><CalendarIcon class="w-5 h-5" /></div>
+					<div class="inline-flex grow items-center font-thin">
+						<span class="pl-1">{{ bookingDuration }}</span>
+						<span class="h-1 w-1 bg-purple-900 rounded-full mx-1"></span>
+						<ClockIcon class="w-5 h-5" />
+						<span class="pl-1">{{ startingTime }}</span>
 					</div>
 				</div>
 				<div class="flex flex-row mb-3">
 					<div class="flex-none w-6 h-6"><UserIcon class="w-5 h-5" /></div>
-					<div class="grow font-thin">2 kids (2yr, 3yr)</div>
+					<div class="grow font-thin">{{ numberOfChildren }}</div>
 				</div>
 			</div>
 		</a>
@@ -53,7 +63,7 @@
 </template>
 
 <script>
-import { HeartIcon, BellIcon, LocationMarkerIcon, CalendarIcon, ClockIcon, UserIcon } from '@heroicons/vue/solid'
+import { HeartIcon, BellIcon, LocationMarkerIcon, CalendarIcon, ClockIcon, UserIcon } from '@heroicons/vue/outline'
 
 /*
 https://bestofvue.com/repo/P3trur0-vue-country-flag-vuejs-icons
@@ -83,13 +93,31 @@ export default {
 	},
 	props: {
 		tempBackgroundColor: String,
-		tempFocusRingColor: String,
-		user: String,
-		sharedTime: {
-			type: String,
-			default: 'Shared on 5 mins ago'
+		isInvite: {
+			type: Boolean,
+			default: true
 		},
-		content: String,
+		title: String,
+		timeOrDate: {
+			type: String,
+			default: ''
+		},
+		bookingAddress: {
+			type: String,
+			default: '86A, Prins Hendrikkade, Amsterdam'
+		},
+		bookingDuration: {
+			type: String,
+			default: 'Short-term'
+		},
+		startingTime: {
+			type: String,
+			default: 'Starts: 4pm today'
+		},
+		numberOfChildren: {
+			type: String,
+			default: '2 kids (2yr, 3yr)'
+		},
 		showHeart: {
 			type: Boolean,
 			default: false
