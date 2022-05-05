@@ -37,7 +37,7 @@
 					</ReferenceCard>
 
 					<ReferenceCard
-						src="../../../../../../public/assets/svg/other/sml-profile-placeholder.svg"
+						src="./assets/svg/other/sml-profile-placeholder.svg"
 						name="David"
 						position="Designer"
 					>
@@ -52,7 +52,7 @@
 					<div class="flex flex-col w-full mb-40">
 						<div class="inline-flex grow mt-4 mb-10">
 							<div class="w-16">
-								<img class="h-16 w-16 rounded-full" src="../../../../../../public/assets/svg/other/sml-via-friend-placeholder.svg" alt="">
+								<Img class="h-16 w-16 rounded-full" src="./assets/svg/other/sml-via-friend-placeholder.svg" alt="" />
 							</div>
 							<div class="ml-4">
 								<h6 class="text-header-six font-semibold antialiased">Via friend in community</h6>
@@ -77,6 +77,7 @@
 import TopNavigation from '../../components/navigation-and-tabs/TopNavigation.vue'
 import ReferenceCard from '../../components/cards/reference-card/ReferenceCard.vue'
 import CheckboxRightWithContainerAndLabelLeft from '../../components/form/CheckboxRightWithContainerAndLabelLeft.vue'
+import Img from '../../components/dom-elements/Img.vue'
 import InputField from '../../components/form/InputField.vue'
 import ButtonDisabled from '../../components/buttons/ButtonDisabled.vue'
 
@@ -87,6 +88,7 @@ export default {
 		TopNavigation,
 		ReferenceCard,
 		CheckboxRightWithContainerAndLabelLeft,
+		Img,
 		InputField,
 		ButtonDisabled,
 		XIcon
