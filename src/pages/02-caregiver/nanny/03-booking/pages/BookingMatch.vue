@@ -4,7 +4,7 @@
 			<template #iconRight><router-link to="/dashboard"><XIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
-			<div class="h-screen first-letter:flex flex-col items-center justify-center mx-4">
+			<div class="h-full first-letter:flex flex-col items-center justify-center pt-12 mx-4">
 				<div>
 					<h2 class="font-semibold text-center text-header-two text-green-500 antialiased">Yay!</h2>
 					<h2 class="font-semibold text-center text-header-two text-green-500 antialiased mx-6">You have matched with Brittany</h2>
@@ -13,13 +13,13 @@
 
 				<div class="flex flex-col justify-center items-center mt-24">
 					<div class="inline-flex -space-x-3">
-						<div><img class="rounded-full ring-offset-4 ring-2 h-32 w-32 z-0" src="https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt=""></div>
-						<div><img class="rounded-full ring-offset-4 ring-2 h-32 w-32 z-10" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt=""></div>
+						<div><img class="rounded-full ring-offset-4 ring-0 h-32 w-32 z-0" src="https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt=""></div>
+						<div><img class="rounded-full ring-offset-4 ring-0 h-32 w-32 z-10" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt=""></div>
 					</div>
 				</div>
 
-				<div class="flex flex-col justify-center items-center mt-24">
-					<p class="font-medium antialiased text-white text-center pb-10 mx-6">To view her work hours or make payment to Brittany go to your matches in your booking page</p>
+				<div class="flex flex-col justify-center items-center mt-24 mb-10">
+					<p class="font-medium antialiased text-white text-center pb-10 mx-4	">To view her work hours or make payment to Brittany go to your matches in your booking page</p>
 					<div class="grid grid-rows-2 gap-2">
 						<div><ButtonSecondary text="Contact Brittany" class="w-button-xl text-xl py-4" /></div>
 						<div><ButtonOutlineLight text="Go to Matches" class="w-button-xl text-xl py-4 text-white border-white hover:border-lilac-400 focus:border-green-500" /></div>
