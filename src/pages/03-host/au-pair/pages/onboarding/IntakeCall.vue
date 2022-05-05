@@ -16,7 +16,7 @@
 
 					<div class="mb-20">
 						<h6 class="text-header-six font-semibold antialiased mb-2">Team Nanny Nina</h6>
-						<p class="text-sm text-gray-500 mb-2">
+						<p class="text-gray-500 mb-2">
 							<a href="tel:+31 6844 8434" class="anchor-blue anchor-with-underline">+31 6844 8434</a>
 							or
 							<a href="mailto:aupair@nannynina.nl?subject=Waiting on subject wording" class="anchor-blue anchor-with-underline">aupair@nannynina.nl</a>

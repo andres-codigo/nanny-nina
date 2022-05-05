@@ -12,9 +12,10 @@
 				</div>
 
 				<div class="grid grid-rows-3 gap-4 mb-8">
-					<div><CountryCard tempBackgroundColor="bg-purple-100" country="Netherlands" content="Apply to Netherlands" /></div>
-					<div><CountryCard tempBackgroundColor="bg-purple-100" country="Paris" content="Apply to Paris" /></div>
-					<div><CountryCard tempBackgroundColor="bg-purple-100" country="Zurich" content="Apply to Zurich" /></div>
+					<div><CountryCard src="https://images.unsplash.com/photo-1517736996303-4eec4a66bb17" country="Netherlands" content="Apply to Netherlands" /></div>
+					<div><CountryCard src="https://images.unsplash.com/photo-1549144511-f099e773c147" country="Paris" content="Apply to Paris" /></div>
+					<div><CountryCard src="https://images.unsplash.com/photo-1556918380-e1eea4592bb3" country="Zurich" content="Apply to Zurich" /></div>
+					<div><CountryCard src="https://images.unsplash.com/photo-1529655683826-aba9b3e77383" country="London" content="Apply to London" /></div>
 				</div>
 
 				<div class="flex justify-center my-10">
