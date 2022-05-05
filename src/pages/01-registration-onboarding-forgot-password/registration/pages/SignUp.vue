@@ -19,7 +19,7 @@
 					<div class="flex flex-col justify-center items-center">
 						<ButtonOutlineDark class="inline-flex w-full py-4 text-sm leading-5">
 							<template #iconWithText>
-								<Google class="w-5 h-5" />
+								<Img class="w-5 h-5" src="./assets/svg/other/google.svg" alt="" />
 								<span class="pl-2">Continue with Google</span>
 							</template>
 						</ButtonOutlineDark>
@@ -77,7 +77,7 @@ import SelectMenu from '../../../../components/form/SelectMenu.vue'
 import InputField from '../../../../components/form/InputField.vue'
 import CheckboxLeftWithContainerAndLabelRight from '../../../../components/form/CheckboxLeftWithContainerAndLabelRight.vue'
 import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
-import Google from '../../../../assets/svg/other/google.vue'
+import Img from '../../../../components/dom-elements/Img.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 
@@ -90,7 +90,7 @@ export default {
 		InputField,
 		CheckboxLeftWithContainerAndLabelRight,
 		ButtonPrimary,
-		Google,
+		Img,
 		ChevronLeftIcon
 	}
 }

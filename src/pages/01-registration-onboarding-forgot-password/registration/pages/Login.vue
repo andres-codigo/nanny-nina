@@ -37,7 +37,7 @@
 					<div class="flex flex-col justify-center items-center mt-6">
 						<ButtonOutlineDark class="inline-flex w-full py-4 text-sm leading-5">
 							<template #iconWithText>
-								<Google class="w-5 h-5" />
+								<Img class="w-5 h-5" src="./assets/svg/other/google.svg" alt="" />
 								<span class="pl-2">Sign in with Google</span>
 							</template>
 						</ButtonOutlineDark>
@@ -54,7 +54,7 @@ import Header from '../../../../components/content/logos/Header.vue'
 import InputField from '../../../../components/form/InputField.vue'
 import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
 import ButtonOutlineDark from '../../../../components/buttons/ButtonOutlineDark.vue'
-import Google from '../../../../assets/svg/other/google.vue'
+import Img from '../../../../components/dom-elements/Img.vue'
 
 export default {
 	components: {
@@ -63,7 +63,7 @@ export default {
 		InputField,
 		ButtonPrimary,
 		ButtonOutlineDark,
-		Google
+		Img
 	}
 }
 </script>
