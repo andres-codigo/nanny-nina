@@ -6,7 +6,7 @@
 
 					<div>
 						<div class="grid grid-rows-2 gap-0">
-							<div><h1 class="text-center text-header-one font-bold text-green-500 antialiased mb-6">Check your mail</h1></div>
+							<div><h1 class="text-center text-header-one font-semibold text-green-500 antialiased mb-6">Check your mail</h1></div>
 							<div><p class="text-white text-center font-light">We've sent a verification link to your mail, please click this link to login</p></div>
 						</div>
 					</div>

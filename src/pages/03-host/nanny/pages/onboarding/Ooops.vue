@@ -9,7 +9,7 @@
 
 					<div>
 						<div class="grid grid-rows-2 gap-0">
-							<div><h3 class="text-center text-header-three font-bold text-green-500 antialiased mb-6">Ooops!</h3></div>
+							<div><h3 class="font-semibold text-center text-header-three text-green-500 antialiased mb-6">Ooops!</h3></div>
 							<div><p class="text-white text-center font-light">You have to place a new request to contact a nanny</p></div>
 						</div>
 					</div>

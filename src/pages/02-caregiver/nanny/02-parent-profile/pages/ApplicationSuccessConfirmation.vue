@@ -6,7 +6,7 @@
 		<main>
 			<div class="h-full flex flex-col mx-4 mb-10">
 				<div class="mt-16 mx-12">
-					<h2 class="text-header-two font-medium text-green-500 text-center antialiased mb-6">Congrats!<br /> You have applied to the Sanders!</h2>
+					<h2 class="font-semibold text-header-two text-green-500 text-center antialiased mb-6">Congrats!<br /> You have applied to the Sanders!</h2>
 				</div>
 
 				<div class="flex items-center justify-center">

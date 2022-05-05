@@ -1,4 +1,3 @@
-<!-- TODO: is text green value for h2 and link (span w underline) correct? -->
 <template>
 	<div class="bg-purple-500">
 		<main>
@@ -6,7 +5,7 @@
 				<form class="mb-40" action="#" method="POST">
 					<div class="grid grid-rows-2 grid-flow-col gap-0">
 						<div>
-							<h2 class="text-center text-header-two text-green-500 antialiased mx-5">Safe &amp; Affordable childcare for every family</h2>
+							<h2 class="font-semibold text-center text-header-two text-green-500 antialiased mx-5">Safe &amp; Affordable childcare for every family</h2>
 						</div>
 						<div class="flex flex-col justify-center items-center mt-24">
 							<div class="grid grid-rows-2 gap-2">
