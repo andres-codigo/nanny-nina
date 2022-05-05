@@ -4,9 +4,13 @@
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
+			<Steps text="Step 2 of 2">
+				<template #step-one><CompletedStep /></template>
+				<template #step-two><CurrentStep /></template>
+			</Steps>
 			<div class="flex flex-col pt-6 mx-4">
 				<form class="w-full" action="#" method="POST">
-					<h5 class="text-header-five font-semibold antialiased my-6">Experience</h5>
+					<h5 class="text-header-five font-semibold antialiased mb-6">Experience</h5>
 
 					<div class="mt-4 mb-8">
 						<div>
@@ -35,7 +39,10 @@
 					</div>
 
 					<div class="flex flex-col justify-center items-center mt-20">
-						<ButtonPrimary text="Next" class="w-button-lg text-xl py-4" />
+						<div class="grid grid-rows-2 gap-2">
+							<div><ButtonPrimary text="Next" class="w-button-lg text-xl py-4" /></div>
+							<div class="inline-flex items-center justify-center"><AnchorTextOnly text="< Back to Checklist" /></div>
+						</div>
 					</div>
 				</form>
 			</div>
@@ -45,20 +52,32 @@
 
 <script>
 import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
+
+import Steps from '../../../../../../components/steps/Steps.vue'
+import CompletedStep from '../../../../../../components/steps/types/CompletedStep.vue'
+import CurrentStep from '../../../../../../components/steps/types/CurrentStep.vue'
+import UpcomingStep from '../../../../../../components/steps/types/UpcomingStep.vue'
+
 import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
 import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import CheckboxRightWithContainerAndLabelLeft from '../../../../../../components/form/CheckboxRightWithContainerAndLabelLeft.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
+import AnchorTextOnly from '../../../../../../components/dom-elements/AnchorTextOnly.vue'
 
 import { ChevronLeftIcon, PlusIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
 		TopNavigation,
+		Steps,
+		CompletedStep,
+		CurrentStep,
+		UpcomingStep,
 		SelectMenu,
 		RadioQuestion,
 		CheckboxRightWithContainerAndLabelLeft,
 		ButtonPrimary,
+		AnchorTextOnly,
 		ChevronLeftIcon,
 		PlusIcon,
 		QuestionMarkCircleIcon

@@ -4,9 +4,12 @@
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col pt-12 mx-4">
+			<Steps text="Step 2 of 2">
+				<template #step-one><CompletedStep /></template>
+				<template #step-two><CurrentStep /></template>
+			</Steps>
+			<div class="flex flex-col pt-6 mx-4">
 				<form class="w-full" action="#" method="POST">
-
 					<div class="mb-16">
 						<div class="mb-20">
 							<h5 class="text-header-five font-medium antialiased mb-4">We would like to a check <span class="text-red-500">*</span></h5>
@@ -36,15 +39,18 @@
 									</svg>
 									</div>
 									<div class="flex-none pl-2">
-										<a href="#" target="_self" class="text-blue-500 anchor-with-underline">Add another</a>
+										<a href="#" target="_self" class="anchor-blue anchor-with-underline">Add another</a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="flex flex-col justify-center items-center mt-10">
-						<ButtonPrimary text="Submit" class="w-button-lg text-xl py-4" />
+					<div class="flex flex-col justify-center items-center mt-20">
+						<div class="grid grid-rows-2 gap-2">
+							<div><ButtonPrimary text="Submit" class="w-button-lg text-xl py-4" /></div>
+							<div class="inline-flex items-center justify-center"><AnchorTextOnly text="< Back to Checklist" /></div>
+						</div>
 					</div>
 				</form>
 			</div>
@@ -54,20 +60,32 @@
 
 <script>
 import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
+
+import Steps from '../../../../../../components/steps/Steps.vue'
+import CompletedStep from '../../../../../../components/steps/types/CompletedStep.vue'
+import CurrentStep from '../../../../../../components/steps/types/CurrentStep.vue'
+import UpcomingStep from '../../../../../../components/steps/types/UpcomingStep.vue'
+
 import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
 import InputField from '../../../../../../components/form/InputField.vue'
 import InputWithSelectInternationPhoneNumber from '../../../../../../components/form/InputWithSelectInternationPhoneNumber.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
+import AnchorTextOnly from '../../../../../../components/dom-elements/AnchorTextOnly.vue'
 
 import { ChevronLeftIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
 		TopNavigation,
+		Steps,
+		CompletedStep,
+		CurrentStep,
+		UpcomingStep,
 		RadioQuestion,
 		InputField,
 		InputWithSelectInternationPhoneNumber,
 		ButtonPrimary,
+		AnchorTextOnly,
 		ChevronLeftIcon
 	}
 }

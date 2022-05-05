@@ -37,7 +37,7 @@
 					</ReferenceCard>
 
 					<ReferenceCard
-						src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
+						src="./assets/svg/other/sml-profile-placeholder.svg"
 						name="David"
 						position="Designer"
 					>
@@ -49,14 +49,14 @@
 						</template>
 					</ReferenceCard>
 
-					<div class="flex flex-col w-full">
+					<div class="flex flex-col w-full mb-40">
 						<div class="inline-flex grow mt-4 mb-10">
 							<div class="w-16">
-								<img class="h-16 w-16 rounded-full" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
+								<Img class="h-16 w-16 rounded-full" src="./assets/svg/other/sml-via-friend-placeholder.svg" alt="" />
 							</div>
 							<div class="ml-4">
 								<h6 class="text-header-six font-semibold antialiased">Via friend in community</h6>
-								<p class="text-sm font-thin text-gray-500">We offer rewards to both you & your referee</p>
+								<p class="text-sm text-gray-500">We offer rewards to both you & your referee</p>
 							</div>
 						</div>
 						<div>
@@ -64,9 +64,9 @@
 						</div>
 					</div>
 
-					<div class="flex flex-col justify-center items-center mt-20 mb-10">
-						<ButtonPrimary text="Submit" class="w-button-lg text-xl py-4" />
-					</div>
+					<section class="flex flex-col justify-center items-center fixed inset-x-0 w-full bottom-0 z-10 bg-white border-t border-gray min-w-360-for-dev-not-prod py-6">
+						<ButtonDisabled text="Submit" class="w-button-sm text-xl py-4" />
+					</section>
 				</form>
 			</div>
 		</main>
@@ -74,11 +74,12 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
-import ReferenceCard from '../../../../../../components/cards/reference-card/ReferenceCard.vue'
-import CheckboxRightWithContainerAndLabelLeft from '../../../../../../components/form/CheckboxRightWithContainerAndLabelLeft.vue'
-import InputField from '../../../../../../components/form/InputField.vue'
-import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
+import TopNavigation from '../../components/navigation-and-tabs/TopNavigation.vue'
+import ReferenceCard from '../../components/cards/reference-card/ReferenceCard.vue'
+import CheckboxRightWithContainerAndLabelLeft from '../../components/form/CheckboxRightWithContainerAndLabelLeft.vue'
+import Img from '../../components/dom-elements/Img.vue'
+import InputField from '../../components/form/InputField.vue'
+import ButtonDisabled from '../../components/buttons/ButtonDisabled.vue'
 
 import { XIcon } from '@heroicons/vue/solid'
 
@@ -87,8 +88,9 @@ export default {
 		TopNavigation,
 		ReferenceCard,
 		CheckboxRightWithContainerAndLabelLeft,
+		Img,
 		InputField,
-		ButtonPrimary,
+		ButtonDisabled,
 		XIcon
 	}
 }

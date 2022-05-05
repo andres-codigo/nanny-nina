@@ -2,12 +2,13 @@
 	<div class="inline-flex w-full border border-gray-50 hover:border hover:border-gray-500  rounded-3xl">
 		<a href="/" class="w-full relative focus:opacity-60">
 			<div :class="['flex flex-row h-96 rounded-3xl', tempBackgroundColor]">
-				<div class="relative flex grow overflow-hidden">
+				<div class="block overflow-hidden rounded-3xl">
 					<!--
 						Image svg here
 						<img src="*.svg" />
 						* remove background color in div as visual placeholder
 					-->
+					<img :src="src" class="country-image">
 				</div>
 			</div>
 			<div class="h-40 absolute top-0 z-10">
@@ -38,6 +39,7 @@ export default {
 	},
 	props: {
 		tempBackgroundColor: String,
+		src: String,
 		country: String,
 		content: String
 	}

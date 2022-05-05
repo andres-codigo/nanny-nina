@@ -15,7 +15,7 @@ import ForgotPasswordContainer from '../pages/01-registration-onboarding-forgot-
 
 /* Caregiver - Childminder Nanny */
 import HomeWithMenuTemplate from '../pages/02-caregiver/childminder-and-nanny/HomeWithMenuTemplate.vue'
-
+import Reference from '../pages/00-duplicate-pages/Reference.vue'
 	/* Caregiver - Nanny */
 	import HomeWithoutBottomMenu from '../pages/00-duplicate-pages/home/HomeWithoutMenuTemplate.vue'
 	import NannyJobListings from '../pages/02-caregiver/nanny/01-onboarding/pages/01-job-listings/JobListings.vue'
@@ -94,6 +94,11 @@ const routes = [
 	{
 		path: '/childminder-and-nanny-home-with-bottom-menu',
 		component: HomeWithMenuTemplate,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/au-pair-reference',
+		component: Reference,
 		meta: { transition: 'slide-right-to-left' }
 	},
 

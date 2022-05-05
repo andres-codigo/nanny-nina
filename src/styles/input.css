@@ -18,6 +18,23 @@
 	@apply hover:no-underline;
 }
 
+.anchor-blue {
+	@apply text-blue-500;
+}
+
+.anchor-blue:hover, .anchor-blue:active {
+	@apply text-purple-500;
+}
+
+.anchor-blue:focus {
+	@apply text-purple-600;
+}
+
+/* Caregiver > Au Pair > Onboarding > Home Page > Country Card background image */
+.country-image:hover, .country-image:active {
+	@apply scale-110 transform-gpu;
+}
+
 /* hide scrollbar; used for horizontal photos, reviews */
 .no-scrollbar {
 	-ms-overflow-style: none;

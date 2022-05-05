@@ -22,7 +22,7 @@
 
 					<div class="flex flex-col justify-center items-center mt-14">
 						<ButtonPrimary text="Verify and Login" class="w-button-lg text-xl py-4" />
-						<p class="text-sm  text-center font-light mt-6 mb-10">Didn't get a code? <a href="#" target="_self" class="text-blue-500 anchor-with-underline">Resend code</a></p>
+						<p class="text-sm  text-center font-light mt-6 mb-10">Didn't get a code? <a href="#" target="_self" class="anchor-blue anchor-with-underline">Resend code</a></p>
 					</div>
 				</form>
 			</div>

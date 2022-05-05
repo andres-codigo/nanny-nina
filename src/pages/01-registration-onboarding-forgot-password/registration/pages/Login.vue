@@ -13,14 +13,14 @@
 
 					<div class="mt-6">
 						<InputField text="Password" />
-						<a href="#" target="_self" class="block text-xs font-light text-blue-500 mt-3 anchor-with-underline">Forgot your password?</a>
+						<a href="#" target="_self" class="block text-xs font-light anchor-blue mt-3 anchor-with-underline">Forgot your password?</a>
 					</div>
 
 					<div class="flex flex-col justify-center items-center mt-14">
 						<div class="mt-6 mb-4">
 							<ButtonPrimary text="Login" class="w-button-xl text-xl py-4" />
 						</div>
-						<p class="text-sm font-light">Don't have an account? <a href="#" target="_self" class="font-light text-blue-500 anchor-with-underline">Sign Up</a></p>
+						<p class="text-sm font-light">Don't have an account? <a href="#" target="_self" class="font-light anchor-blue anchor-with-underline">Sign Up</a></p>
 					</div>
 				</form>
 
@@ -37,7 +37,7 @@
 					<div class="flex flex-col justify-center items-center mt-6">
 						<ButtonOutlineDark class="inline-flex w-full py-4 text-sm leading-5">
 							<template #iconWithText>
-								<Google class="w-5 h-5" />
+								<Img class="w-5 h-5" src="./assets/svg/other/google.svg" alt="" />
 								<span class="pl-2">Sign in with Google</span>
 							</template>
 						</ButtonOutlineDark>
@@ -54,7 +54,7 @@ import Header from '../../../../components/content/logos/Header.vue'
 import InputField from '../../../../components/form/InputField.vue'
 import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
 import ButtonOutlineDark from '../../../../components/buttons/ButtonOutlineDark.vue'
-import Google from '../../../../assets/svg/other/google.vue'
+import Img from '../../../../components/dom-elements/Img.vue'
 
 export default {
 	components: {
@@ -63,7 +63,7 @@ export default {
 		InputField,
 		ButtonPrimary,
 		ButtonOutlineDark,
-		Google
+		Img
 	}
 }
 </script>
