@@ -23,25 +23,9 @@
 					</div>
 				</div>
 
-				<div class="flex flex-col pt-6 px-4">
-
-					<BookingCard
-						src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
-						title="Working @ Sanders"
-						sharedTime="Shared on 5 mins ago"
-					/>
-
-					<BookingCard
-						src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
-						title="Working @ Sanders"
-						showHeart="true"
-						sharedTime="Shared an hour ago"
-					/>
-
-					<BookingCard
-						src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
-						title="Working @ Sanders"
-					/>
+				<div class="mt-44 mx-20 font-thin text-center">
+					<p class="text-gray-500 mb-4">You have no invites yet. Apply to vacancies <a href="#" target="_blank" class="anchor-blue anchor-with-underline">here</a></p>
+					<p class="inline-flex text-xs text-gray-500"><LightBulbIcon class="w-5 h-5" /><span class="ml-1">Tip: Add more pictures</span></p>
 				</div>
 			</div>
 		</main>
@@ -51,16 +35,16 @@
 <script>
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import Tabs from '../../../../../components/navigation-and-tabs/Tabs.vue'
-import BookingCard from '../../../../../components/cards/booking-card/BookingCard.vue'
 
-import { QuestionMarkCircleIcon } from '@heroicons/vue/solid'
+import { QuestionMarkCircleIcon, ClockIcon, LightBulbIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
 		TopNavigation,
 		Tabs,
-		BookingCard,
-		QuestionMarkCircleIcon
+		QuestionMarkCircleIcon,
+		ClockIcon,
+		LightBulbIcon
 	}
 }
 </script>

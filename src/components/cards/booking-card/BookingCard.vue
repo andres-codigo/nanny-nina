@@ -3,8 +3,8 @@
 		<a href="/" target="_self" class="w-full h-card-au-pair focus:opacity-60">
 			<div :class="['flex flex-row rounded-t-3xl', tempBackgroundColor]">
 				<div class="relative grow h-64 overflow-hidden">
-					<span class="absolute left-4 top-5 w-24 inline-flex rounded-3xl justify-center font-bold text-purple-500 bg-green-500 px-2">€16-18/hr</span>
-					<span class="absolute right-2 top-2 w-11"><HeartIcon class="w-11 h-11 text-red-500" aria-hidden="true" /></span>
+					<span class="absolute left-4 top-10 w-24 inline-flex rounded-3xl justify-center font-bold text-purple-500 bg-green-500 px-2">€16-18/hr</span>
+					<span :class="['absolute right-2 top-2 w-11', showHeart ? '' : 'hidden']"><HeartIcon class="w-11 h-11 text-red-500" aria-hidden="true" /></span>
 					<!--
 						Image svg/png here
 						<img src="*.svg" class="rounded-t-3xl" />
@@ -17,7 +17,7 @@
 				<div class="flex flex-row my-6">
 					<div class="basis-1/2">
 						<h4 class="text-header-four font-semibold antialiased mb-1">The Sanders</h4>
-						<p class="text-sm text-gray-500 font-thin">Shared on 5mins ago</p>
+						<p class="text-sm text-gray-500 font-thin">{{ sharedTime }}</p>
 					</div>
 					<div class="basis-1/2">
 						<div class="float-right w-24 h-9 inline-flex rounded-3xl items-center justify-center text-white bg-purple-500 py-2 px-2">
@@ -85,10 +85,14 @@ export default {
 		tempBackgroundColor: String,
 		tempFocusRingColor: String,
 		user: String,
+		sharedTime: {
+			type: String,
+			default: 'Shared on 5 mins ago'
+		},
 		content: String,
-		showCompletionSteps: {
+		showHeart: {
 			type: Boolean,
-			default: true
+			default: false
 		}
 	}
 }
