@@ -19,8 +19,23 @@
 					<p class="font-light text-gray-500 antialiased">Booking days to come</p>
 				</div>
 
-				<div class="mt-44 mx-20 font-thin text-center">
-					<p class="text-gray-500 mb-4">You have no matches yet.</p>
+				<div class="flex flex-col pt-6 px-4">
+
+					<BookingCard
+						:isInvite="false"
+						src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
+						title="The Sanders"
+						timeOrDate="Started 22/03/2022"
+						bookingDuration="One-time"
+					/>
+
+					<BookingCard
+						:isInvite="false"
+						src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
+						title="The Sanders"
+						timeOrDate="Started 22/03/2022"
+						bookingDuration="One-time"
+					/>
 				</div>
 			</div>
 		</main>
@@ -30,6 +45,7 @@
 <script>
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import Tabs from '../../../../../components/navigation-and-tabs/Tabs.vue'
+import BookingCard from '../../../../../components/cards/booking-card/BookingCard.vue'
 
 import { QuestionMarkCircleIcon, ClockIcon, LightBulbIcon } from '@heroicons/vue/solid'
 
@@ -37,6 +53,7 @@ export default {
 	components: {
 		TopNavigation,
 		Tabs,
+		BookingCard,
 		QuestionMarkCircleIcon,
 		ClockIcon,
 		LightBulbIcon

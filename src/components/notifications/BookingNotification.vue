@@ -6,13 +6,10 @@
 		<div class="grow h-28 inline-flex items-center">
 			<div class="block">
 				<p class="text-white font-semibold antialiased">{{ title }}</p>
-				<div class="flex">
-					<div class="flex-none"><a href="#" target="_self" class="text-center text-green-500 font-thin anchor-with-underline">Review Change</a></div>
-					<div class="inline-flex items-center pl-1"><ChevronRightIcon class="w-5 h-5 text-green-500" /></div>
-				</div>
+				<a href="#" target="_self" class="text-center text-green-500 font-thin anchor-with-underline">{{ linkTitle }} ></a>
 			</div>
 		</div>
-		<div class="inline-flex justify-center w-14 h-28 mt-4">
+		<div class="inline-flex justify-center w-14 h-28 mt-4 cursor-pointer">
 			<XCircleIcon class=" w-6 h-6 text-white" aria-hidden="true" />
 		</div>
 	</div>
@@ -28,7 +25,11 @@ export default {
 	},
 	props: {
 		src: String,
-		title: String
+		title: String,
+		linkTitle: {
+			type: String,
+			default: 'Review'
+		}
 	}
 }
 </script>
