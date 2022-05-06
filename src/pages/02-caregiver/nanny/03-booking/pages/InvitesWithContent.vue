@@ -53,7 +53,7 @@ import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavi
 import Tabs from '../../../../../components/navigation-and-tabs/Tabs.vue'
 import BookingCard from '../../../../../components/cards/booking-card/BookingCard.vue'
 
-import { QuestionMarkCircleIcon, ClockIcon } from '@heroicons/vue/outline'
+import { QuestionMarkCircleIcon, ClockIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {

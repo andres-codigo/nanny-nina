@@ -36,7 +36,7 @@
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import Tabs from '../../../../../components/navigation-and-tabs/Tabs.vue'
 
-import { QuestionMarkCircleIcon, ClockIcon, LightBulbIcon } from '@heroicons/vue/outline'
+import { QuestionMarkCircleIcon, ClockIcon, LightBulbIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
