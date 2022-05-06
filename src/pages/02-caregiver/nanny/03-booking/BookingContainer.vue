@@ -5,6 +5,7 @@
 		<BookingMatch class="max-w-450-for-dev-not-prod" />
 		<MatchesWithContentVersionOne class="max-w-450-for-dev-not-prod" />
 		<MatchesWithContentVersionTwo class="max-w-450-for-dev-not-prod" />
+		<WorkingHours  />
 	</div>
 </template>
 
@@ -14,6 +15,7 @@ import InvitesWithContent from './pages/InvitesWithContent.vue'
 import BookingMatch from './pages/BookingMatch.vue'
 import MatchesWithContentVersionOne from './pages/MatchesWithContentVersionOne.vue'
 import MatchesWithContentVersionTwo from './pages/MatchesWithContentVersionTwo.vue'
+import WorkingHours from './pages/WorkingHours.vue'
 
 export default {
 	components: {
@@ -22,6 +24,7 @@ export default {
 		BookingMatch,
 		MatchesWithContentVersionOne,
 		MatchesWithContentVersionTwo,
+		WorkingHours
 	}
 }
 </script>
