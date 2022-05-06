@@ -10,7 +10,7 @@
 						<h5 class="text-header-five font-semibold antialiased mb-4">Reason for cancellation?</h5>
 						<p class="font-thin mb-16">Your feedback is important to us to be able to better improve our service</p>
 
-						<RadioQuestionsLabelLeftInputRight
+						<RadioQuestionsInputLeftLabelRight
 							:screenReaderOnly="true"
 							:sideBySideRadioButtons="false"
 							:isQuestionOne="true"
@@ -25,7 +25,13 @@
 						/>
 					</div>
 
-					<div class="flex flex-col justify-center items-center mt-20">
+					<div class="mb-20">
+						<p class="font-thin">Please explain further</p>
+
+						<InputFieldBorderBottomOnly type="text" />
+					</div>
+
+					<div class="flex flex-col items-center">
 						<ButtonPrimary text="Submit" class="w-button-lg text-xl py-4" />
 					</div>
 				</form>
@@ -36,7 +42,7 @@
 
 <script>
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
-import RadioQuestionsLabelLeftInputRight from '../../../../../components/form/RadioQuestionsLabelLeftInputRight.vue'
+import RadioQuestionsInputLeftLabelRight from '../../../../../components/form/RadioQuestionsInputLeftLabelRight.vue'
 import InputFieldBorderBottomOnly from '../../../../../components/form/InputFieldBorderBottomOnly.vue'
 import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
@@ -45,7 +51,7 @@ import { XIcon } from '@heroicons/vue/solid'
 export default {
 	components: {
 		TopNavigation,
-		RadioQuestionsLabelLeftInputRight,
+		RadioQuestionsInputLeftLabelRight,
 		InputFieldBorderBottomOnly,
 		ButtonPrimary,
 		XIcon,
