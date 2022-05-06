@@ -4,7 +4,7 @@
 			<div :class="['flex flex-row rounded-t-3xl', tempBackgroundColor]">
 				<div class="relative grow h-64 overflow-hidden">
 					<span class="absolute left-4 top-10 w-24 inline-flex rounded-3xl justify-center font-bold text-purple-500 bg-green-500 px-2">€16-18/hr</span>
-					<span :class="['absolute right-2 top-2 w-11', showHeart ? '' : 'hidden']"><HeartIcon class="w-11 h-11 text-red-500" aria-hidden="true" /></span>
+					<span :class="['absolute right-0 top-8 w-11', showHeart ? '' : 'hidden']"><Img src="./assets/svg/other/heart.svg" class="w-6 h-6" alt="" /></span>
 					<!--
 						Image svg/png here
 						<img src="*.svg" class="rounded-t-3xl" />
@@ -21,7 +21,7 @@
 					</div>
 					<div class="basis-1/3">
 						<div class="float-right w-24 h-9 inline-flex rounded-3xl items-center justify-center text-white bg-purple-500 py-2 px-2">
-							<BellIcon class="w-5 h-5 text-white" aria-hidden="true" />
+							<Img src="./assets/svg/other/hourglass.svg" class="w-5 h-5" alt="" />
 							<span class="text-sm px-1">+2 days</span>
 						</div>
 					</div>
@@ -63,7 +63,9 @@
 </template>
 
 <script>
-import { HeartIcon, BellIcon, LocationMarkerIcon, CalendarIcon, ClockIcon, UserIcon } from '@heroicons/vue/outline'
+import Img from '../../dom-elements/Img.vue'
+
+import { BellIcon, LocationMarkerIcon, CalendarIcon, ClockIcon, UserIcon } from '@heroicons/vue/outline'
 
 /*
 https://bestofvue.com/repo/P3trur0-vue-country-flag-vuejs-icons
@@ -83,7 +85,7 @@ import CountryFlag from 'vue-country-flag-next'
 
 export default {
 	components: {
-		HeartIcon,
+		Img,
 		BellIcon,
 		LocationMarkerIcon,
 		UserIcon,
