@@ -14,7 +14,7 @@
 
 					<div class="mb-8">
 						<p class="font-thin mb-4">What is your current education status?</p>
-						<RadioQuestion
+						<RadioQuestionsLabelLeftInputRight
 							:screenReaderOnly="true"
 							:sideBySideRadioButtons="false"
 							:isQuestionOne="true"
@@ -50,7 +50,7 @@
 						<div>
 							<h5 class="text-header-five font-semibold antialiased mb-4">Safety Document</h5>
 							<p class="font-thin mb-2">Are you First Aid certified?</p>
-							<RadioQuestion :screenReaderOnly="true" legend="Are you First Aid certified?" questionOneText="Yes" questionTwoText="No" />
+							<RadioQuestionsLabelLeftInputRight :screenReaderOnly="true" legend="Are you First Aid certified?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
 						<div class="flex">
@@ -95,12 +95,12 @@
 					<div class="mt-4">
 						<h5 class="text-header-five font-semibold antialiased mb-4">Travel <span class="text-base text-gray-500 font-normal">(Optional)</span></h5>
 						<p class="font-thin mb-2">Do you have a driver's license?</p>
-						<RadioQuestion :screenReaderOnly="true" legend="Do you have a driver's license?" questionOneText="Yes" questionTwoText="No" />
+						<RadioQuestionsLabelLeftInputRight :screenReaderOnly="true" legend="Do you have a driver's license?" questionOneText="Yes" questionTwoText="No" />
 					</div>
 
 					<div class="flex flex-col my-10">
 						<p class="font-thin mb-2">Are you willing to drive kids?</p>
-						<RadioQuestion :screenReaderOnly="true" legend="Do you have any health conditions?" questionOneText="Yes" questionTwoText="No" />
+						<RadioQuestionsLabelLeftInputRight :screenReaderOnly="true" legend="Do you have any health conditions?" questionOneText="Yes" questionTwoText="No" />
 					</div>
 
 					<div class="my-4">
@@ -137,9 +137,9 @@ import CompletedStep from '../../../../../../components/steps/types/CompletedSte
 import CurrentStep from '../../../../../../components/steps/types/CurrentStep.vue'
 import UpcomingStep from '../../../../../../components/steps/types/UpcomingStep.vue'
 
-import RadioWithContainerAndLabel from '../../../../../../components/form/RadioWithContainerAndLabel.vue'
+import RadioWithContainerLabelLeftInputRight from '../../../../../../components/form/RadioWithContainerLabelLeftInputRight.vue'
 import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
-import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
+import RadioQuestionsLabelLeftInputRight from '../../../../../../components/form/RadioQuestionsLabelLeftInputRight.vue'
 import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
 import ButtonOutlineDark from '../../../../../../components/buttons/ButtonOutlineDark.vue'
 import BadgeRemove from '../../../../../../components/badge/BadgeRemove.vue'
@@ -155,9 +155,9 @@ export default {
 		CompletedStep,
 		CurrentStep,
 		UpcomingStep,
-		RadioWithContainerAndLabel,
+		RadioWithContainerLabelLeftInputRight,
 		SelectMenu,
-		RadioQuestion,
+		RadioQuestionsLabelLeftInputRight,
 		InputFieldBorderBottomOnly,
 		ButtonOutlineDark,
 		BadgeRemove,

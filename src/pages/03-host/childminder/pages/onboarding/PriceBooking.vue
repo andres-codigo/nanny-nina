@@ -11,7 +11,7 @@
 
 					<div class="mb-10">
 						<p class="font-thin mb-4">Where do you want this booking to take place?</p>
-						<RadioQuestion
+						<RadioQuestionsLabelLeftInputRight
 							:screenReaderOnly="true"
 							:sideBySideRadioButtons="false"
 							questionOneText="Own home"
@@ -64,7 +64,7 @@
 
 <script>
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
-import RadioQuestion from '../../../../../components/form/RadioQuestion.vue'
+import RadioQuestionsLabelLeftInputRight from '../../../../../components/form/RadioQuestionsLabelLeftInputRight.vue'
 import PriceRange from '../../../../../components/form/price-range/PriceRange.vue'
 import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
@@ -73,7 +73,7 @@ import { ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 export default {
 	components: {
 		TopNavigation,
-		RadioQuestion,
+		RadioQuestionsLabelLeftInputRight,
 		PriceRange,
 		ButtonPrimary,
 		ChevronLeftIcon,

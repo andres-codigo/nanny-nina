@@ -14,7 +14,7 @@
 						<div class="mb-2">
 							<h5 class="text-header-five font-semibold antialiased mb-4">Personal Health <span class="text-base text-gray-500">(Optional)</span></h5>
 							<p class="font-thin mb-2">Do you have any health conditions?</p>
-							<RadioQuestion :screenReaderOnly="true" legend="Do you have any health conditions?" questionOneText="Yes" questionTwoText="No" />
+							<RadioQuestionsLabelLeftInputRight :screenReaderOnly="true" legend="Do you have any health conditions?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
 						<div>
@@ -35,7 +35,7 @@
 						<div class="mb-8">
 							<h5 class="text-header-five font-semibold antialiased mb-4">Allergies</h5>
 							<p class="font-thin mb-2">Are you allergic to pets?</p>
-							<RadioQuestion :screenReaderOnly="true" legend="Do you have any allergies?" questionOneText="Yes" questionTwoText="No" />
+							<RadioQuestionsLabelLeftInputRight :screenReaderOnly="true" legend="Do you have any allergies?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
 						<div>
@@ -71,7 +71,7 @@ import CompletedStep from '../../../../../../components/steps/types/CompletedSte
 import CurrentStep from '../../../../../../components/steps/types/CurrentStep.vue'
 import UpcomingStep from '../../../../../../components/steps/types/UpcomingStep.vue'
 
-import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
+import RadioQuestionsLabelLeftInputRight from '../../../../../../components/form/RadioQuestionsLabelLeftInputRight.vue'
 import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
 import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
 import BadgeRemove from '../../../../../../components/badge/BadgeRemove.vue'
@@ -87,7 +87,7 @@ export default {
 		CompletedStep,
 		CurrentStep,
 		UpcomingStep,
-		RadioQuestion,
+		RadioQuestionsLabelLeftInputRight,
 		InputFieldBorderBottomOnly,
 		SelectMenu,
 		BadgeRemove,

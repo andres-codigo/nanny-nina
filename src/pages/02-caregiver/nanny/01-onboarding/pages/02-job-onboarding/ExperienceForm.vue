@@ -16,7 +16,7 @@
 						<div>
 							<p class="font-thin">Have you cared for children or elderly before?</p>
 							<p class="text-sm text-gray-500 font-thin mb-2">This doesn't have to be a professional experience</p>
-							<RadioQuestion :screenReaderOnly="true" legend="Have you cared for children or elderly before?" questionOneText="Yes" questionTwoText="No" />
+							<RadioQuestionsLabelLeftInputRight :screenReaderOnly="true" legend="Have you cared for children or elderly before?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 					</div>
 
@@ -59,7 +59,7 @@ import CurrentStep from '../../../../../../components/steps/types/CurrentStep.vu
 import UpcomingStep from '../../../../../../components/steps/types/UpcomingStep.vue'
 
 import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
-import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
+import RadioQuestionsLabelLeftInputRight from '../../../../../../components/form/RadioQuestionsLabelLeftInputRight.vue'
 import CheckboxRightWithContainerAndLabelLeft from '../../../../../../components/form/CheckboxRightWithContainerAndLabelLeft.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 import AnchorTextOnly from '../../../../../../components/dom-elements/AnchorTextOnly.vue'
@@ -74,7 +74,7 @@ export default {
 		CurrentStep,
 		UpcomingStep,
 		SelectMenu,
-		RadioQuestion,
+		RadioQuestionsLabelLeftInputRight,
 		CheckboxRightWithContainerAndLabelLeft,
 		ButtonPrimary,
 		AnchorTextOnly,
