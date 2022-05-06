@@ -29,7 +29,7 @@
 
 					<div class="mb-10">
 						<p class="font-thin mb-4">What is your preferred gender?</p>
-						<RadioQuestion
+						<RadioQuestionsLabelLeftInputRight
 							:screenReaderOnly="true"
 							:sideBySideRadioButtons="false"
 							:isQuestionOne="true"
@@ -51,7 +51,7 @@
 <script>
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import SelectMenu from '../../../../../components/form/SelectMenu.vue'
-import RadioQuestion from '../../../../../components/form/RadioQuestion.vue'
+import RadioQuestionsLabelLeftInputRight from '../../../../../components/form/RadioQuestionsLabelLeftInputRight.vue'
 
 import { ChevronLeftIcon, PlusIcon } from '@heroicons/vue/solid'
 
@@ -59,7 +59,7 @@ export default {
 	components: {
 		TopNavigation,
 		SelectMenu,
-		RadioQuestion,
+		RadioQuestionsLabelLeftInputRight,
 		ChevronLeftIcon,
 		PlusIcon
 	}

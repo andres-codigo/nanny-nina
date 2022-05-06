@@ -11,7 +11,7 @@
 
 					<div class="mb-4">
 						<p class="font-thin mb-4">What kind of profile would you like to receive?</p>
-						<RadioQuestion
+						<RadioQuestionsLabelLeftInputRight
 							:screenReaderOnly="true"
 							:sideBySideRadioButtons="false"
 							questionOneText="Both nanny and childminder profiles"
@@ -46,7 +46,7 @@
 
 <script>
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
-import RadioQuestion from '../../../../../components/form/RadioQuestion.vue'
+import RadioQuestionsLabelLeftInputRight from '../../../../../components/form/RadioQuestionsLabelLeftInputRight.vue'
 import CheckboxRightWithContainerAndLabelLeft from '../../../../../components/form/CheckboxRightWithContainerAndLabelLeft.vue'
 import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
@@ -55,7 +55,7 @@ import { ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 export default {
 	components: {
 		TopNavigation,
-		RadioQuestion,
+		RadioQuestionsLabelLeftInputRight,
 		CheckboxRightWithContainerAndLabelLeft,
 		ButtonPrimary,
 		ChevronLeftIcon,

@@ -45,7 +45,7 @@
 <script>
 import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import InputField from '../../../../../../components/form/InputField.vue'
-import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
+import RadioQuestionsLabelLeftInputRight from '../../../../../../components/form/RadioQuestionsLabelLeftInputRight.vue'
 import CheckboxLeftWithContainerAndLabelRight from '../../../../../../components/form/CheckboxLeftWithContainerAndLabelRight.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
@@ -55,7 +55,7 @@ export default {
 	components: {
 		TopNavigation,
 		InputField,
-		RadioQuestion,
+		RadioQuestionsLabelLeftInputRight,
 		CheckboxLeftWithContainerAndLabelRight,
 		ButtonPrimary,
 		ChevronLeftIcon,

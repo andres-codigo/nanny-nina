@@ -3,23 +3,23 @@
 		<legend :class="screenReaderOnly ? 'sr-only' : ''">{{ legend }}</legend>
 		<div :class="['flex font-medium mb-2', sideBySideRadioButtons ? '' : 'flex-col ']">
 			<div class="flex-none mb-2">
-				<RadioWithContainerAndLabel :isQuestionOne="isQuestionOne" :sideBySideRadioButtons="sideBySideRadioButtons" :text="questionOneText" />
+				<RadioWithContainerLabelLeftInputRight :isQuestionOne="isQuestionOne" :sideBySideRadioButtons="sideBySideRadioButtons" :text="questionOneText" />
 				<p :class="['text-xs w-3/4 text-gray-500 font-thin', questionOneSubTextHidden ? 'hidden' : '']">{{ questionOneSubText }}</p>
 			</div>
 			<div :class="['flex-none mb-2', sideBySideRadioButtons ? 'pl-8' : '']">
-				<RadioWithContainerAndLabel :sideBySideRadioButtons="sideBySideRadioButtons" :text="questionTwoText" />
+				<RadioWithContainerLabelLeftInputRight :sideBySideRadioButtons="sideBySideRadioButtons" :text="questionTwoText" />
 				<p :class="['text-xs w-3/4 text-gray-500 font-thin', questionTwoSubTextHidden ? 'hidden' : '']">{{ questionTwoSubText }}</p>
 			</div>
 			<div :class="['flex-none mb-2', sideBySideRadioButtons ? 'pl-8' : '']" v-if="hasThirdQuestion">
-				<RadioWithContainerAndLabel :sideBySideRadioButtons="sideBySideRadioButtons" :text="questionThreeText" />
+				<RadioWithContainerLabelLeftInputRight :sideBySideRadioButtons="sideBySideRadioButtons" :text="questionThreeText" />
 				<p :class="['text-xs w-3/4 text-gray-500 font-thin', questionThreeSubTextHidden ? 'hidden' : '']">{{ questionThreeSubText }}</p>
 			</div>
 			<div :class="['flex-none mb-2', sideBySideRadioButtons ? 'pl-8' : '']" v-if="hasFourthQuestion">
-				<RadioWithContainerAndLabel :sideBySideRadioButtons="sideBySideRadioButtons" :text="questionFourText" />
+				<RadioWithContainerLabelLeftInputRight :sideBySideRadioButtons="sideBySideRadioButtons" :text="questionFourText" />
 				<p :class="['text-xs w-3/4 text-gray-500 font-thin', questionFourSubTextHidden ? 'hidden' : '']">{{ questionFourSubText }}</p>
 			</div>
 			<div :class="['flex-none mb-2', sideBySideRadioButtons ? 'pl-8' : '']" v-if="hasFifthQuestion">
-				<RadioWithContainerAndLabel :sideBySideRadioButtons="sideBySideRadioButtons" :text="questionFiveText" />
+				<RadioWithContainerLabelLeftInputRight :sideBySideRadioButtons="sideBySideRadioButtons" :text="questionFiveText" />
 				<p :class="['text-xs w-3/4 text-gray-500 font-thin', questionFiveSubTextHidden ? 'hidden' : '']">{{ questionFiveSubText }}</p>
 			</div>
 		</div>
@@ -27,11 +27,11 @@
 </template>
 
 <script>
-import RadioWithContainerAndLabel from './RadioWithContainerAndLabel.vue'
+import RadioWithContainerLabelLeftInputRight from './RadioWithContainerLabelLeftInputRight.vue'
 
 export default {
 	components: {
-		RadioWithContainerAndLabel
+		RadioWithContainerLabelLeftInputRight
 	},
 	props: {
 		screenReaderOnly: {

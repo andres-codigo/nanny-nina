@@ -75,7 +75,7 @@ import CurrentStep from '../../../../../../components/steps/types/CurrentStep.vu
 import UpcomingStep from '../../../../../../components/steps/types/UpcomingStep.vue'
 
 import CheckListItem from '../../../../../../components/checklist/ChecklistItem.vue'
-import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
+import RadioQuestionsLabelLeftInputRight from '../../../../../../components/form/RadioQuestionsLabelLeftInputRight.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 import AnchorTextOnly from '../../../../../../components/dom-elements/AnchorTextOnly.vue'
 
@@ -89,7 +89,7 @@ export default {
 		CurrentStep,
 		UpcomingStep,
 		CheckListItem,
-		RadioQuestion,
+		RadioQuestionsLabelLeftInputRight,
 		ButtonPrimary,
 		AnchorTextOnly,
 		ChevronLeftIcon,

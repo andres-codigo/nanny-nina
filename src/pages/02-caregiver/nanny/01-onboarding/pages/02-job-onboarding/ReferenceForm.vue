@@ -66,7 +66,7 @@ import CompletedStep from '../../../../../../components/steps/types/CompletedSte
 import CurrentStep from '../../../../../../components/steps/types/CurrentStep.vue'
 import UpcomingStep from '../../../../../../components/steps/types/UpcomingStep.vue'
 
-import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
+import RadioQuestionsLabelLeftInputRight from '../../../../../../components/form/RadioQuestionsLabelLeftInputRight.vue'
 import InputField from '../../../../../../components/form/InputField.vue'
 import InputWithSelectInternationPhoneNumber from '../../../../../../components/form/InputWithSelectInternationPhoneNumber.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
@@ -81,7 +81,7 @@ export default {
 		CompletedStep,
 		CurrentStep,
 		UpcomingStep,
-		RadioQuestion,
+		RadioQuestionsLabelLeftInputRight,
 		InputField,
 		InputWithSelectInternationPhoneNumber,
 		ButtonPrimary,

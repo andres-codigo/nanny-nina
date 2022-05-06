@@ -14,7 +14,7 @@
 						<h5 class="text-header-five font-semibold antialiased mb-4">Type of Childminder</h5>
 						<p class="font-thin mb-4">What kind of childminder are you?</p>
 
-						<RadioQuestion
+						<RadioQuestionsLabelLeftInputRight
 							:screenReaderOnly="true"
 							:sideBySideRadioButtons="false"
 							:isQuestionOne="true"
@@ -35,7 +35,7 @@
 						<div>
 							<h5 class="text-header-five font-semibold antialiased mb-4">Safety Document</h5>
 							<p class="font-thin mb-2">Do you have a VOG safety document?</p>
-							<RadioQuestion :screenReaderOnly="true" legend="Are you First Aid certified?" questionOneText="Yes" questionTwoText="No" />
+							<RadioQuestionsLabelLeftInputRight :screenReaderOnly="true" legend="Are you First Aid certified?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
 						<div class="flex">
@@ -74,7 +74,7 @@
 					<div class="mb-10">
 						<div>
 							<p class="font-thin mb-2">Do you have pets?</p>
-							<RadioQuestion :screenReaderOnly="true" legend="Do you have pets?" questionOneText="Yes" questionTwoText="No" />
+							<RadioQuestionsLabelLeftInputRight :screenReaderOnly="true" legend="Do you have pets?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
 						<p class="font-thin">Select what pet(s) you have and how many?</p>
@@ -95,7 +95,7 @@
 						<div class="mb-4">
 							<h5 class="text-header-five font-semibold antialiased mb-4">Allergies <span class="text-sm text-gray-500">(Optional)</span></h5>
 							<p class="font-thin mb-2">Are you allergic to pets?</p>
-							<RadioQuestion :screenReaderOnly="true" legend="Do you have any allergies?" questionOneText="Yes" questionTwoText="No" />
+							<RadioQuestionsLabelLeftInputRight :screenReaderOnly="true" legend="Do you have any allergies?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
 						<div>
@@ -131,7 +131,7 @@ import CompletedStep from '../../../../../../components/steps/types/CompletedSte
 import CurrentStep from '../../../../../../components/steps/types/CurrentStep.vue'
 import UpcomingStep from '../../../../../../components/steps/types/UpcomingStep.vue'
 
-import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
+import RadioQuestionsLabelLeftInputRight from '../../../../../../components/form/RadioQuestionsLabelLeftInputRight.vue'
 import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
 import Textarea from '../../../../../../components/form/Textarea.vue'
 import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
@@ -150,7 +150,7 @@ export default {
 		CompletedStep,
 		CurrentStep,
 		UpcomingStep,
-		RadioQuestion,
+		RadioQuestionsLabelLeftInputRight,
 		SelectMenu,
 		Textarea,
 		InputFieldBorderBottomOnly,

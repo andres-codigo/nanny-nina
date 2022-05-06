@@ -14,7 +14,7 @@
 						<h5 class="text-header-five font-semibold antialiased mb-4">Childminder Type</h5>
 						<p class="font-thin mb-4">Where can you look after the kids?</p>
 
-						<RadioQuestion
+						<RadioQuestionsLabelLeftInputRight
 							:screenReaderOnly="true"
 							:sideBySideRadioButtons="false"
 							:isQuestionOne="true"
@@ -68,7 +68,7 @@ import CompletedStep from '../../../../../../components/steps/types/CompletedSte
 import CurrentStep from '../../../../../../components/steps/types/CurrentStep.vue'
 import UpcomingStep from '../../../../../../components/steps/types/UpcomingStep.vue'
 
-import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
+import RadioQuestionsLabelLeftInputRight from '../../../../../../components/form/RadioQuestionsLabelLeftInputRight.vue'
 import CheckboxRightWithContainerAndLabelLeft from '../../../../../../components/form/CheckboxRightWithContainerAndLabelLeft.vue'
 import Textarea from '../../../../../../components/form/Textarea.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
@@ -83,7 +83,7 @@ export default {
 		CompletedStep,
 		CurrentStep,
 		UpcomingStep,
-		RadioQuestion,
+		RadioQuestionsLabelLeftInputRight,
 		CheckboxRightWithContainerAndLabelLeft,
 		Textarea,
 		ButtonPrimary,

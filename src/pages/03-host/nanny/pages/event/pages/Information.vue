@@ -50,7 +50,7 @@
 					<div class="mb-10">
 						<div class="mb-2">
 							<p class="font-thin mb-2">Will there be pets?</p>
-							<RadioQuestion :screenReaderOnly="true" legend="Will there be pets?" questionOneText="Yes" questionTwoText="No" />
+							<RadioQuestionsLabelLeftInputRight :screenReaderOnly="true" legend="Will there be pets?" questionOneText="Yes" questionTwoText="No" />
 						</div>
 
 						<p class="font-thin">Please specify</p>
@@ -78,7 +78,7 @@ import TopNavigation from '../../../../../../components/navigation-and-tabs/TopN
 import InputField from '../../../../../../components/form/InputField.vue'
 import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
 import SelectMenuRightWithTextAndSubtextLeft from '../../../../../../components/form/SelectMenuRightWithTextAndSubtextLeft.vue'
-import RadioQuestion from '../../../../../../components/form/RadioQuestion.vue'
+import RadioQuestionsLabelLeftInputRight from '../../../../../../components/form/RadioQuestionsLabelLeftInputRight.vue'
 import BadgeRemove from '../../../../../../components/badge/BadgeRemove.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
@@ -90,7 +90,7 @@ export default {
 		InputField,
 		SelectMenu,
 		SelectMenuRightWithTextAndSubtextLeft,
-		RadioQuestion,
+		RadioQuestionsLabelLeftInputRight,
 		BadgeRemove,
 		ButtonPrimary,
 		ChevronLeftIcon,

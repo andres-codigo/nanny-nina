@@ -29,7 +29,7 @@
 					<div class="mt-4 mb-8">
 						<h5 class="text-header-five font-semibold antialiased mb-4">Past Experience</h5>
 						<p class="font-thin mb-2">Have you previously hosted an au pair?</p>
-						<RadioQuestion :screenReaderOnly="true" legend="Have you cared for children or elderly before?" questionOneText="Yes" questionTwoText="No" />
+						<RadioQuestionsLabelLeftInputRight :screenReaderOnly="true" legend="Have you cared for children or elderly before?" questionOneText="Yes" questionTwoText="No" />
 					</div>
 
 					<div class="flex flex-col justify-center items-center mt-20">
@@ -45,7 +45,7 @@
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import InputField from '../../../../../components/form/InputField.vue'
 import SelectMenu from '../../../../../components/form/SelectMenu.vue'
-import RadioQuestion from '../../../../../components/form/RadioQuestion.vue'
+import RadioQuestionsLabelLeftInputRight from '../../../../../components/form/RadioQuestionsLabelLeftInputRight.vue'
 import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
 
@@ -56,7 +56,7 @@ export default {
 		TopNavigation,
 		InputField,
 		SelectMenu,
-		RadioQuestion,
+		RadioQuestionsLabelLeftInputRight,
 		ButtonPrimary,
 		ChevronLeftIcon,
 		PlusIcon

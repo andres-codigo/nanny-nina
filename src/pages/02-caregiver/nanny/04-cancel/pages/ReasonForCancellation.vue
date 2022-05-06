@@ -10,7 +10,7 @@
 						<h5 class="text-header-five font-semibold antialiased mb-4">Reason for cancellation?</h5>
 						<p class="font-thin mb-16">Your feedback is important to us to be able to better improve our service</p>
 
-						<RadioQuestion
+						<RadioQuestionsLabelLeftInputRight
 							:screenReaderOnly="true"
 							:sideBySideRadioButtons="false"
 							:isQuestionOne="true"
@@ -36,7 +36,7 @@
 
 <script>
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
-import RadioQuestion from '../../../../../components/form/RadioQuestion.vue'
+import RadioQuestionsLabelLeftInputRight from '../../../../../components/form/RadioQuestionsLabelLeftInputRight.vue'
 import InputFieldBorderBottomOnly from '../../../../../components/form/InputFieldBorderBottomOnly.vue'
 import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
@@ -45,7 +45,7 @@ import { XIcon } from '@heroicons/vue/solid'
 export default {
 	components: {
 		TopNavigation,
-		RadioQuestion,
+		RadioQuestionsLabelLeftInputRight,
 		InputFieldBorderBottomOnly,
 		ButtonPrimary,
 		XIcon,
