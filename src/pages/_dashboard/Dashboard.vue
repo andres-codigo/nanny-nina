@@ -187,6 +187,18 @@
 								textColorBadge="text-amber-800"
 								backgroundColorBadge="bg-amber-100"
 							/>
+							<ListItem
+								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/nanny-cancel-booking"
+								title="Cancel Booking"
+								textColor="text-purple-600"
+								textBadge="In Progress"
+								textColorBadge="text-amber-800"
+								backgroundColorBadge="bg-amber-100"
+							/>
 						</ul>
 					</div>
 					<div class="relative">

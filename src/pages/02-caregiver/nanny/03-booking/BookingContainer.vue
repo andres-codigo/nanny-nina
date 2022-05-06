@@ -5,7 +5,7 @@
 		<BookingMatch class="max-w-450-for-dev-not-prod" />
 		<MatchesWithContentVersionOne class="max-w-450-for-dev-not-prod" />
 		<MatchesWithContentVersionTwo class="max-w-450-for-dev-not-prod" />
-		<WorkingHours  />
+		<WorkingHours class="max-w-450-for-dev-not-prod"  />
 	</div>
 </template>
 
