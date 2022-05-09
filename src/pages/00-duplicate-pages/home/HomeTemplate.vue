@@ -1,6 +1,6 @@
 <template>
 	<main>
-		<div class="min-h-full flex flex-col mx-4">
+		<div class="min-h-full flex flex-col mx-4 pb-28">
 			<UserProgress welcomeMessage="Hello, Jane" instruction="Complete steps to begin" />
 			<div class="grid grid-rows-3 gap-4">
 				<div><HomeCard tempBackgroundColor="bg-pink-100" user="Nanny" content="Work on regular fixed schedule, returning days per week" /></div>
