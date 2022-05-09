@@ -60,7 +60,7 @@
 						src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
 						title="The Sanders"
 						timeOrDate="Shared an hour ago > 7 responses"
-						badgeClass="bg-yellow-100 text-purple-900"
+						badgeClass="bg-purple-100 text-purple-900"
 						badgeSvg="./assets/svg/other/clock.svg"
 						badgeText="Urgent"
 					/>
