@@ -16,7 +16,7 @@
 					<div class="grid grid-rows-2 gap-2">
 						<div><AnchorPrimary text="Continue" class="w-button-lg text-xl py-4" /></div>
 						<div class="text-center">
-							<a href="#" target="_self" class="inline-flex anchor-blue anchor-with-underline font-medium mt-4">Learn more about Childminders</a>
+							<a href="#" target="_self" class="anchor-blue anchor-with-underline font-medium mt-4">Learn more about Childminders</a>
 						</div>
 					</div>
 				</div>

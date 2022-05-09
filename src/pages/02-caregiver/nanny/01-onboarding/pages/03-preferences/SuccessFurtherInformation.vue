@@ -22,7 +22,7 @@
 					<div class="grid grid-rows-2 gap-2">
 						<div><AnchorSecondary text="Continue to apply" class="w-button-lg text-xl py-4" /></div>
 						<div class="text-center">
-							<a href="#" target="_self" class="inline-flex anchor-with-underline text-white font-medium mt-4">Learn more about being a Nanny</a>
+							<a href="#" target="_self" class="anchor-white anchor-with-underline font-medium mt-4">Learn more about being a Nanny</a>
 						</div>
 					</div>
 				</div>

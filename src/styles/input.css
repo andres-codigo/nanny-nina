@@ -18,6 +18,7 @@
 	@apply hover:no-underline;
 }
 
+/* hyperlink blue */
 .anchor-blue {
 	@apply text-blue-500;
 }
@@ -28,6 +29,45 @@
 
 .anchor-blue:focus {
 	@apply text-purple-600;
+}
+
+/* hyperlink green */
+.anchor-green {
+	@apply text-green-500;
+}
+
+.anchor-green:hover, .anchor-green:active {
+	@apply text-green-400;
+}
+
+.anchor-green:focus {
+	@apply text-green-600;
+}
+
+/* hyperlink white */
+.anchor-white {
+	@apply text-white;
+}
+
+.anchor-white:hover, .anchor-white:active {
+	@apply text-lilac-400;
+}
+
+.anchor-white:focus {
+	@apply text-green-500;
+}
+
+/* hyperlink black (lilac) */
+.anchor-black {
+	@apply text-lilac-900;
+}
+
+.anchor-black:hover, .anchor-black:active {
+	@apply text-lilac-400;
+}
+
+.anchor-black:focus {
+	@apply text-lilac-500;
 }
 
 /* Caregiver > Au Pair > Onboarding > Home Page > Country Card background image */
