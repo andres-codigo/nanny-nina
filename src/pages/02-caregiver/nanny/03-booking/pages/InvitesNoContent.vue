@@ -19,13 +19,13 @@
 						<h4 class="text-header-four font-semibold antialiased">Your Invites</h4>
 					</div>
 					<div class="basis-1/2">
-						<div class="inline-flex float-right items-center"><ClockIcon class="w-5 h-5" /><a href="#" target="_self" class="anchor-blue anchor-with-underline ml-1">View History</a></div>
+						<div class="inline-flex float-right items-center"><ClockIcon class="w-5 h-5" /><a href="#" target="_self" class="anchor-blue anchor-with-underline ml-1">History</a></div>
 					</div>
 				</div>
 
 				<div class="mt-44 mx-20 font-thin text-center">
-					<p class="text-gray-500 mb-4">You have no invites yet. Apply to vacancies <a href="#" target="_blank" class="anchor-blue anchor-with-underline">here</a></p>
-					<p class="inline-flex text-xs text-gray-500"><LightBulbIcon class="w-5 h-5" /><span class="ml-1">Tip: Add more pictures</span></p>
+					<p class="text-gray-500 mb-32">You have no invites yet. <a href="#" target="_blank" class="anchor-blue anchor-with-underline">Apply to vacancies</a></p>
+					<p class="inline-flex items-center text-gray-500"><LightBulbIcon class="w-5 h-5" />Tip: <a href="#" target="_self" class="anchor-blue anchor-with-underline ml-1">Add more pictures</a></p>
 				</div>
 			</div>
 		</main>

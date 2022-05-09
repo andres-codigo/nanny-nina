@@ -13,13 +13,19 @@
 					tabTwoText="Matches"
 					:tabTwoIsActive="false"
 				/>
+				<JobListingFilter>
+					<template #filter-one><JobListingFilterItemSelected text="Distance" /></template>
+					<template #filter-two><JobListingFilterItem text="Start Date" /></template>
+					<template #filter-three><JobListingFilterItem text="Price" /></template>
+					<template #filter-four><JobListingFilterItem text="One time" /></template>
+				</JobListingFilter>
 
 				<div class="flex flex-row pt-6 mx-4">
 					<div class="basis-1/2">
 						<h4 class="text-header-four font-semibold antialiased">Your Invites</h4>
 					</div>
 					<div class="basis-1/2">
-						<div class="inline-flex float-right items-center"><ClockIcon class="w-5 h-5" /><a href="#" target="_self" class="anchor-blue anchor-with-underline ml-1">View History</a></div>
+						<div class="inline-flex float-right items-center"><ClockIcon class="w-5 h-5" /><a href="#" target="_self" class="anchor-blue anchor-with-underline ml-1">History</a></div>
 					</div>
 				</div>
 
@@ -28,19 +34,35 @@
 					<BookingCard
 						src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
 						title="The Sanders"
-						timeOrDate="Shared on 5 mins ago"
+						timeOrDate="Shared on 5 mins ago > 20+ responses"
+						badgeClass="bg-green-400 text-purple-900"
+						badgeText="One-time"
 					/>
 
 					<BookingCard
 						src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
-						title="The Sanders"
+						title="The Alis"
 						:showHeart="true"
-						timeOrDate="Shared an hour ago"
+						timeOrDate="Shared an hour ago > 7 responses"
+						badgeClass="bg-lilac-50 text-purple-900"
+						badgeText="Recurring"
+					/>
+
+					<BookingCard
+						src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
+						title="The Van de Beeks"
+						timeOrDate="Shared an hour ago > 7 responses"
+						badgeSvg="./assets/svg/other/event.svg"
+						badgeText="Recurring"
 					/>
 
 					<BookingCard
 						src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
 						title="The Sanders"
+						timeOrDate="Shared an hour ago > 7 responses"
+						badgeClass="bg-yellow-100 text-purple-900"
+						badgeSvg="./assets/svg/other/clock.svg"
+						badgeText="Urgent"
 					/>
 				</div>
 			</div>
@@ -50,6 +72,11 @@
 
 <script>
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
+
+import JobListingFilter from '../../../../../components/filter/JobListingFilter.vue'
+import JobListingFilterItem from '../../../../../components/filter/JobListingFilterItem.vue'
+import JobListingFilterItemSelected from '../../../../../components/filter/JobListingFilterItemSelected.vue'
+
 import Tabs from '../../../../../components/navigation-and-tabs/Tabs.vue'
 import BookingCard from '../../../../../components/cards/booking-card/BookingCard.vue'
 
@@ -59,6 +86,9 @@ export default {
 	components: {
 		TopNavigation,
 		Tabs,
+		JobListingFilter,
+		JobListingFilterItem,
+		JobListingFilterItemSelected,
 		BookingCard,
 		QuestionMarkCircleIcon,
 		ClockIcon

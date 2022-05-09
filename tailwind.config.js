@@ -70,6 +70,9 @@ module.exports = {
 				},
 				blue: {
 					500: '#2563EB'
+				},
+				yellow: {
+					100: '#F3F4C1'
 				}
 			},
 			fontFamily: {
