@@ -7,6 +7,7 @@
 			inline-flex
 			font-bold
 			antialiased leading-none
+			anchor-black
 			anchor-with-underline
 		">
 		{{ text }}</a>

@@ -17,7 +17,7 @@
 					</ul>
 				</div>
 				<div class="justify-center mt-4">
-					<a href="#" target="_self" class="text-white text-center font-thin anchor-with-underline">Help me choose ></a>
+					<a href="#" target="_self" class="text-center font-thin anchor-white anchor-with-underline">Help me choose ></a>
 				</div>
 			</div>
 		</main>
