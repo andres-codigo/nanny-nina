@@ -5,9 +5,6 @@
 		<PreApplicationMediaUploadPhotoPageTemplate class="max-w-450-for-dev-not-prod" />
 		<HomeWithoutMenuTemplate class="max-w-450-for-dev-not-prod" />
 
-		<!-- 02 Job Listings -->
-		<JobListings class="max-w-450-for-dev-not-prod" />
-
 		<!-- 03 Job Onboarding -->
 		<ServiceLaunchStart class="max-w-450-for-dev-not-prod" />
 		<OnboardingChecklist class="max-w-450-for-dev-not-prod" />
@@ -32,9 +29,6 @@ import LocationPageTemplate from '../../../00-duplicate-pages/LocationPageTempla
 import PreApplicationMediaUploadPhotoPageTemplate from '../../../00-duplicate-pages/PreApplicationMediaUploadPhotoPageTemplate.vue' /* Template */
 import HomeWithoutMenuTemplate from '../../../00-duplicate-pages/home/HomeWithoutMenuTemplate.vue' /* Template */
 
-/* Job Listings */
-import JobListings from './pages/01-job-listings/JobListings.vue'
-
 /* Job Onboarding */
 import ServiceLaunchStart from './pages/02-job-onboarding/ServiceLaunchStart.vue'
 import OnboardingChecklist from './pages/02-job-onboarding/OnboardingChecklist.vue'
@@ -57,7 +51,6 @@ export default {
 		LocationPageTemplate,
 		PreApplicationMediaUploadPhotoPageTemplate,
 		HomeWithoutMenuTemplate,
-		JobListings,
 		ServiceLaunchStart,
 		OnboardingChecklist,
 		MediaUploadPhoto,

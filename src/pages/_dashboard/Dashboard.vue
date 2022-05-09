@@ -141,15 +141,15 @@
 							/>
 							<ListItem
 								:subItem="false"
-								:hideNotes="true"
-								notes=""
-								date=""
+								:hideNotes="false"
+								notes="Waiting on Design comment updates"
+								date="06/05/22"
 								routerLinkPath="/nanny-job-listings"
 								title="Job Listings"
 								textColor="text-purple-600"
-								textBadge="Completed"
-								textColorBadge="text-white"
-								backgroundColorBadge="bg-green-800"
+								textBadge="On Hold - UI/Design"
+								textColorBadge="text-amber-800"
+								backgroundColorBadge="bg-amber-100"
 							/>
 							<ListItem
 								:subItem="false"
@@ -165,15 +165,15 @@
 							/>
 							<ListItem
 								:subItem="false"
-								:hideNotes="true"
-								notes=""
-								date=""
+								:hideNotes="false"
+								notes="Waiting on Design comment updates"
+								date="06/05/22"
 								routerLinkPath="/nanny-parent-profile"
 								title="Parent Profile"
 								textColor="text-purple-600"
-								textBadge="Completed"
-								textColorBadge="text-white"
-								backgroundColorBadge="bg-green-800"
+								textBadge="On Hold - UI/Design"
+								textColorBadge="text-amber-800"
+								backgroundColorBadge="bg-amber-100"
 							/>
 							<ListItem
 								:subItem="false"
@@ -303,15 +303,15 @@
 						<ul role="list" class="relative z-0 divide-y divide-gray-200">
 							<ListItem
 								:subItem="false"
-								:hideNotes="true"
-								notes=""
-								date=""
+								:hideNotes="false"
+								notes="Waiting on Design comment updates"
+								date="06/05/22"
 								routerLinkPath="/host-nanny"
 								title="Onboarding"
 								textColor="text-purple-600"
-								textBadge="Completed"
-								textColorBadge="text-white"
-								backgroundColorBadge="bg-green-800"
+								textBadge="On Hold - UI/Design"
+								textColorBadge="text-amber-800"
+								backgroundColorBadge="bg-amber-100"
 							/>
 							<ListItem
 								:subItem="false"
