@@ -10,7 +10,7 @@
 						<img src="*.svg" class="rounded-t-3xl" />
 						* remove background color in div as visual placeholder
 					-->
-					<img src="https://images.unsplash.com/photo-1543721482-bc95ff1f1dea" class="rounded-t-3xl">
+					<Img :src="imageSrc" class="rounded-t-3xl" />
 				</div>
 			</div>
 			<div class="h-56 mx-4">
@@ -61,9 +61,9 @@
 
 <script>
 import BadgeBookingType from '../../badge/BadgeBookingType.vue'
+import Img from '../../dom-elements/Img.vue'
 
-import { BellIcon, LocationMarkerIcon, CalendarIcon, ClockIcon, UserIcon } from '@heroicons/vue/outline'
-
+import { LocationMarkerIcon, CalendarIcon, ClockIcon, UserIcon } from '@heroicons/vue/outline'
 /*
 https://bestofvue.com/repo/P3trur0-vue-country-flag-vuejs-icons
 
@@ -83,7 +83,7 @@ import CountryFlag from 'vue-country-flag-next'
 export default {
 	components: {
 		BadgeBookingType,
-		BellIcon,
+		Img,
 		LocationMarkerIcon,
 		UserIcon,
 		CalendarIcon,
@@ -95,6 +95,10 @@ export default {
 		badgeSvg: String,
 		badgeText: String,
 		tempBackgroundColor: String,
+		imageSrc: {
+			type: String,
+			default: 'https://images.unsplash.com/photo-1543721482-bc95ff1f1dea'
+		},
 		isInvite: {
 			type: Boolean,
 			default: true

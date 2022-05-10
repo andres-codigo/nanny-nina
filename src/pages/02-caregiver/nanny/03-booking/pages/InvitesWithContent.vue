@@ -32,7 +32,6 @@
 				<div class="flex flex-col pt-6 px-4">
 
 					<BookingCard
-						src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
 						title="The Sanders"
 						timeOrDate="Shared on 5 mins ago > 20+ responses"
 						badgeClass="bg-green-400 text-purple-900"
@@ -40,7 +39,6 @@
 					/>
 
 					<BookingCard
-						src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
 						title="The Alis"
 						:showHeart="true"
 						timeOrDate="Shared an hour ago > 7 responses"
@@ -49,7 +47,6 @@
 					/>
 
 					<BookingCard
-						src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
 						title="The Van de Beeks"
 						timeOrDate="Shared an hour ago > 7 responses"
 						badgeSvg="./assets/svg/other/event.svg"
@@ -57,7 +54,6 @@
 					/>
 
 					<BookingCard
-						src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
 						title="The Sanders"
 						timeOrDate="Shared an hour ago > 7 responses"
 						badgeClass="bg-purple-100 text-purple-900"
