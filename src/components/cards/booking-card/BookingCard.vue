@@ -3,7 +3,7 @@
 		<a href="/" target="_self" class="w-full h-card-au-pair focus:opacity-60">
 			<div :class="['flex flex-row rounded-t-3xl', tempBackgroundColor]">
 				<div class="relative grow h-64 overflow-hidden">
-					<span class="absolute left-4 top-10 w-24 inline-flex rounded-3xl justify-center font-bold text-purple-500 bg-green-500 px-2">€16-18/hr</span>
+					<span class="absolute left-4 top-8 w-24 inline-flex rounded-3xl justify-center font-semibold text-purple-500 bg-green-500 px-2">€16-18/hr</span>
 					<span :class="['absolute right-0 top-8 w-11', showHeart ? '' : 'hidden']"><Img src="./assets/svg/other/heart.svg" class="w-6 h-6" alt="" /></span>
 					<!--
 						Image svg/png here
@@ -20,10 +20,7 @@
 						<p class="text-sm text-gray-500 font-thin">{{ timeOrDate }}</p>
 					</div>
 					<div class="basis-1/3">
-						<div class="float-right w-24 h-9 inline-flex rounded-3xl items-center justify-center text-white bg-purple-500 py-2 px-2">
-							<Img src="./assets/svg/other/hourglass.svg" class="w-5 h-5" alt="" />
-							<span class="text-sm px-1">+2 days</span>
-						</div>
+						<BadgeBookingType :class="badgeClass" :badgeSvg="badgeSvg" :badgeText="badgeText" />
 					</div>
 				</div>
 				<div class="flex flex-row mb-4 items-center">
@@ -63,7 +60,7 @@
 </template>
 
 <script>
-import Img from '../../dom-elements/Img.vue'
+import BadgeBookingType from '../../badge/BadgeBookingType.vue'
 
 import { BellIcon, LocationMarkerIcon, CalendarIcon, ClockIcon, UserIcon } from '@heroicons/vue/outline'
 
@@ -85,7 +82,7 @@ import CountryFlag from 'vue-country-flag-next'
 
 export default {
 	components: {
-		Img,
+		BadgeBookingType,
 		BellIcon,
 		LocationMarkerIcon,
 		UserIcon,
@@ -94,6 +91,9 @@ export default {
 		CountryFlag
 	},
 	props: {
+		badgeClass: String,
+		badgeSvg: String,
+		badgeText: String,
 		tempBackgroundColor: String,
 		isInvite: {
 			type: Boolean,

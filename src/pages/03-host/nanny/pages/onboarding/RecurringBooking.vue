@@ -116,7 +116,7 @@
 <script>
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import ToggleButtonTextRight from '../../../../../components/form/ToggleButtonTextRight.vue'
-import DayOrTimeAvailabilityRow from '../../../../../components/availability/weekly-hours/DayOrTimeRow.vue'
+import DayOrTimeAvailabilityRow from '../../../../../components/availability/DayOrTimeRow.vue'
 import InputField from '../../../../../components/form/InputField.vue'
 import InputFieldTimeEnabled from '../../../../../components/form/InputFieldTimeEnabled.vue'
 import InputFieldTimeDisabled from '../../../../../components/form/InputFieldTimeDisabled.vue'
