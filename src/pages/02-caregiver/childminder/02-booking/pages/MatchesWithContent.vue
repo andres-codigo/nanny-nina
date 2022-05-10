@@ -14,29 +14,20 @@
 					:tabTwoIsActive="true"
 				/>
 
-				<div class="flex flex-col pt-6 mx-4">
+				<div class="flex flex-col pt-6 pb-12 mx-4">
 					<h4 class="text-header-four font-semibold antialiased mb-2">Your Matches</h4>
-					<p class="font-light text-gray-500 antialiased">Booking days to come</p>
+					<p class="font-light text-gray-500 antialiased">All childminder bookings go to Portabase. To submit your hours & process payments please go here</p>
 				</div>
 
-				<div class="flex flex-col pt-6 px-4">
-
-					<BookingCard
-						:isInvite="false"
-						src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
-						title="The Sanders"
-						timeOrDate="Started 22/03/2022"
-						bookingDuration="One-time"
-					/>
-
-					<BookingCard
-						:isInvite="false"
-						src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
-						title="The Sanders"
-						timeOrDate="Started 22/03/2022"
-						bookingDuration="One-time"
-					/>
+				<div class="flex flex-col pb-10 px-12">
+					<PortabaseCard to="dashboard" class="text-purple-900 bg-green-500 hover:bg-green-300 focus:bg-green-400" title="Portabase" />
 				</div>
+
+				<div class="flex justify-center mb-20">
+					<Img src="./assets/svg/logo/portabase.svg" class="w-24 h-20" />
+				</div>
+
+
 			</div>
 		</main>
 	</div>
@@ -45,18 +36,18 @@
 <script>
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import Tabs from '../../../../../components/navigation-and-tabs/Tabs.vue'
-import BookingCard from '../../../../../components/cards/booking-card/BookingCard.vue'
+import PortabaseCard from '../../../../../components/cards/portabase-card/PortabaseCard.vue'
+import Img from '../../../../../components/dom-elements/Img.vue'
 
-import { QuestionMarkCircleIcon, ClockIcon, LightBulbIcon } from '@heroicons/vue/solid'
+import { QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
 		TopNavigation,
 		Tabs,
-		BookingCard,
-		QuestionMarkCircleIcon,
-		ClockIcon,
-		LightBulbIcon
+		PortabaseCard,
+		Img,
+		QuestionMarkCircleIcon
 	}
 }
 </script>
