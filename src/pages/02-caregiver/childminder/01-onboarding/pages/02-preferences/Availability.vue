@@ -82,7 +82,7 @@ import CurrentStep from '../../../../../../components/steps/types/CurrentStep.vu
 import UpcomingStep from '../../../../../../components/steps/types/UpcomingStep.vue'
 
 import Tabs from '../../../../../../components/navigation-and-tabs/Tabs.vue'
-import DayOrTimeAvailabilityRow from '../../../../../../components/availability/weekly-hours/DayOrTimeRow.vue'
+import DayOrTimeAvailabilityRow from '../../../../../../components/availability/DayOrTimeRow.vue'
 import ToggleButtonTextRight from '../../../../../../components/form/ToggleButtonTextRight.vue'
 import InputFieldTimeEnabled from '../../../../../../components/form/InputFieldTimeEnabled.vue'
 import InputFieldTimeDisabled from '../../../../../../components/form/InputFieldTimeDisabled.vue'

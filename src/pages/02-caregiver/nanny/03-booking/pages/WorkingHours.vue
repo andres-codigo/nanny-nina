@@ -122,7 +122,7 @@
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import Img from '../../../../../components/dom-elements/Img.vue'
 
-import DayOrTimeBookingRow from '../../../../../components/availability/weekly-hours/DayOrTimeRow.vue'
+import DayOrTimeBookingRow from '../../../../../components/availability/DayOrTimeRow.vue'
 import ToggleButtonTextRight from '../../../../../components/form/ToggleButtonTextRight.vue'
 import InputFieldTimeEnabled from '../../../../../components/form/InputFieldTimeEnabled.vue'
 import InputFieldTimeDisabled from '../../../../../components/form/InputFieldTimeDisabled.vue'
