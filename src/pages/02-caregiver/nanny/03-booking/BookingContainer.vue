@@ -1,11 +1,11 @@
 <template>
 	<div class="flex flex-wrap grow gap-y-6 gap-x-4">
-		<!-- <InvitesNoContent class="max-w-450-for-dev-not-prod" />
+		<InvitesNoContent class="max-w-450-for-dev-not-prod" />
 		<InvitesWithContent class="max-w-450-for-dev-not-prod" />
 		<BookingMatch class="max-w-450-for-dev-not-prod" />
 		<MatchesWithContentVersionOne class="max-w-450-for-dev-not-prod" />
 		<MatchesWithContentVersionTwo class="max-w-450-for-dev-not-prod" />
-		<WorkingHours class="max-w-450-for-dev-not-prod"  /> -->
+		<WorkingHours class="max-w-450-for-dev-not-prod"  />
 		<Review class="max-w-450-for-dev-not-prod"  />
 	</div>
 </template>
