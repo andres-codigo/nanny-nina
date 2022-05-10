@@ -19,7 +19,7 @@
 						<h4 class="text-header-four font-semibold antialiased">Your Invites</h4>
 					</div>
 					<div class="basis-1/2">
-						<div class="inline-flex float-right items-center"><ClockIcon class="w-5 h-5" /><a href="#" target="_self" class="anchor-blue anchor-with-underline ml-1">History</a></div>
+						<div class="inline-flex float-right items-center"><Img src="./assets/svg/other/clock-outline.svg" /><a href="#" target="_self" class="anchor-blue anchor-with-underline ml-1">History</a></div>
 					</div>
 				</div>
 
@@ -35,6 +35,7 @@
 <script>
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import Tabs from '../../../../../components/navigation-and-tabs/Tabs.vue'
+import Img from '../../../../../components/dom-elements/Img.vue'
 
 import { QuestionMarkCircleIcon, ClockIcon, LightBulbIcon } from '@heroicons/vue/solid'
 
@@ -42,6 +43,7 @@ export default {
 	components: {
 		TopNavigation,
 		Tabs,
+		Img,
 		QuestionMarkCircleIcon,
 		ClockIcon,
 		LightBulbIcon
