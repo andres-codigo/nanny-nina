@@ -18,7 +18,7 @@ import HomeWithMenuTemplate from '../pages/02-caregiver/childminder-and-nanny/Ho
 import Reference from '../pages/00-duplicate-pages/Reference.vue'
 
 	/* Caregiver - Nanny */
-	import HomeWithoutBottomMenu from '../pages/00-duplicate-pages/home/HomeWithoutMenuTemplate.vue'
+	import HomeWithoutMenuTemplate from '../pages/00-duplicate-pages/home/HomeWithoutMenuTemplate.vue'
 	import NannyJobListings from '../pages/02-caregiver/nanny/01-onboarding/pages/01-job-listings/JobListings.vue'
 	import NannyOnboardingContainer from '../pages/02-caregiver/nanny/01-onboarding/OnboardingContainer.vue'
 	import NannyParentProfileContainer from '../pages/02-caregiver/nanny/02-parent-profile/ParentProfileContainer.vue'
@@ -110,7 +110,7 @@ const routes = [
 	*/
 	{
 		path: '/nanny-home-without-bottom-menu',
-		component: HomeWithoutBottomMenu,
+		component: HomeWithoutMenuTemplate,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
