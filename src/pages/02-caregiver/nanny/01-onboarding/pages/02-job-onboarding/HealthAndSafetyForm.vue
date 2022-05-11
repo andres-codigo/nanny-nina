@@ -24,7 +24,7 @@
 								<div class="grow h-14">
 									<InputFieldBorderBottomOnly type="text" />
 								</div>
-								<div class="flex-none inline-flex justify-center items-center w-14 h-14">
+								<div class="inline-flex justify-center items-center w-14 h-14">
 									<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
 								</div>
 							</div>

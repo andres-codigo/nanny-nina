@@ -19,7 +19,17 @@
 						<p class="text-gray-500 mb-2">
 							<a href="tel:+31 6844 8434" class="anchor-blue anchor-with-underline">+31 6844 8434</a>
 							or
-							<a href="mailto:aupair@nannynina.nl?subject=Waiting on subject wording" class="anchor-blue anchor-with-underline">aupair@nannynina.nl</a>
+							<!--
+								FYI Tjardo/Aliu
+								mailto 'subject' parameter is to change depending if from Netherlands or International
+
+								Netherlands
+								"Dutch Full Service: Intake Call" if it's from the Netherlands
+
+								International
+								"English Full Service: Intake Call" if it's International
+							-->
+							<a href="mailto:aupair@nannynina.nl?subject=Dutch Full Service: Intake Call" class="anchor-blue anchor-with-underline">aupair@nannynina.nl</a>
 						</p>
 						<p>We would love to meet you  and learn more about your family. After the call we will have all the information to start looking for your au pair. The call will only take about 10 mins and it's an old fashioned phone call!</p>
 					</div>
