@@ -89,6 +89,18 @@
 							<div class="inline-flex justify-center items-center w-14 h-14">
 								<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
 							</div>
+							<div class="inline-flex justify-center items-center w-14 h-14">&nbsp;</div>
+						</div>
+						<div class="flex flex-row">
+							<div class="inline-flex items-center pr-4">
+								<SelectMenu optionText="Select pet" class="w-select-sm" />
+							</div>
+							<div class="flex grow justify-center items-center px-4">
+								<SelectMenu optionText="0" class="w-select-xs" />
+							</div>
+							<div class="inline-flex justify-center items-center w-14 h-14">
+								<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
+							</div>
 							<div class="inline-flex justify-center items-center w-14 h-14">
 								<XCircleIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
 							</div>
