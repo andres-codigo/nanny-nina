@@ -89,6 +89,9 @@
 							<div class="inline-flex justify-center items-center w-14 h-14">
 								<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
 							</div>
+							<div class="inline-flex justify-center items-center w-14 h-14">
+								<XCircleIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
+							</div>
 						</div>
 					</div>
 
@@ -109,7 +112,7 @@ import InputField from '../../../../../components/form/InputField.vue'
 import InputFieldBorderBottomOnly from '../../../../../components/form/InputFieldBorderBottomOnly.vue'
 import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
-import { ChevronLeftIcon, PlusIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
+import { ChevronLeftIcon, PlusIcon, QuestionMarkCircleIcon, XCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
@@ -119,9 +122,10 @@ export default {
 		InputField,
 		InputFieldBorderBottomOnly,
 		ButtonPrimary,
+		QuestionMarkCircleIcon,
 		ChevronLeftIcon,
 		PlusIcon,
-		QuestionMarkCircleIcon
+		XCircleIcon
 	}
 }
 </script>

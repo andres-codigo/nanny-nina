@@ -88,6 +88,9 @@
 							<div class="inline-flex justify-center items-center w-14 h-14">
 								<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
 							</div>
+							<div class="inline-flex justify-center items-center w-14 h-14">
+								<XCircleIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
+							</div>
 						</div>
 					</div>
 
@@ -141,7 +144,7 @@ import ButtonOutlineDark from '../../../../../../components/buttons/ButtonOutlin
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 import AnchorTextOnly from '../../../../../../components/dom-elements/AnchorTextOnly.vue'
 
-import { ChevronLeftIcon, PlusIcon } from '@heroicons/vue/solid'
+import { ChevronLeftIcon, PlusIcon, XCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
@@ -161,6 +164,7 @@ export default {
 		AnchorTextOnly,
 		ChevronLeftIcon,
 		PlusIcon,
+		XCircleIcon
 	}
 }
 </script>
