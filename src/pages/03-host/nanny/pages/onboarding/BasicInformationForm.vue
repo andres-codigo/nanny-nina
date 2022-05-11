@@ -50,8 +50,21 @@
 								<div class="grow h-14">
 									<InputFieldBorderBottomOnly type="text" />
 								</div>
-								<div class="flex-none inline-flex justify-center items-center w-14 h-14">
+								<div class="inline-flex justify-center items-center w-14 h-14">
 									<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
+								</div>
+								<div class="inline-flex justify-center items-center w-14 h-14">&nbsp;</div>
+							</div>
+
+							<div class="flex">
+								<div class="grow h-14">
+									<InputFieldBorderBottomOnly type="text" />
+								</div>
+								<div class="inline-flex justify-center items-center w-14 h-14">
+									<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
+								</div>
+								<div class="inline-flex justify-center items-center w-14 h-14">
+									<XCircleIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
 								</div>
 							</div>
 						</div>
@@ -79,7 +92,7 @@
 						</div>
 
 						<p class="font-thin">Select what pet(s) you have and how many?</p>
-						<div class="flex flex-row">
+						<div class="flex">
 							<div class="inline-flex items-center pr-4">
 								<SelectMenu optionText="Select pet" class="w-select-sm" />
 							</div>
