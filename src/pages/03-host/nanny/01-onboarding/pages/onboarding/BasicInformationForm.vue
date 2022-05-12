@@ -130,12 +130,12 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
-import SelectMenu from '../../../../../components/form/SelectMenu.vue'
-import RadioQuestionsLabelLeftInputRight from '../../../../../components/form/RadioQuestionsLabelLeftInputRight.vue'
-import InputField from '../../../../../components/form/InputField.vue'
-import InputFieldBorderBottomOnly from '../../../../../components/form/InputFieldBorderBottomOnly.vue'
-import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
+import RadioQuestionsLabelLeftInputRight from '../../../../../../components/form/RadioQuestionsLabelLeftInputRight.vue'
+import InputField from '../../../../../../components/form/InputField.vue'
+import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, PlusIcon, QuestionMarkCircleIcon, XCircleIcon } from '@heroicons/vue/solid'
 

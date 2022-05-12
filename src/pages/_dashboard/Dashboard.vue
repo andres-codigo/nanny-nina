@@ -349,6 +349,18 @@
 								textColorBadge="text-white"
 								backgroundColorBadge="bg-green-800"
 							/>
+							<ListItem
+								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/host-nanny-booking"
+								title="Booking"
+								textColor="text-purple-600"
+								textBadge="In Progress"
+								textColorBadge="text-amber-800"
+								backgroundColorBadge="bg-amber-100"
+							/>
 						</ul>
 						<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
 							<h3><span class="font-bold">Childminder</span> </h3>

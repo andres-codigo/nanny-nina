@@ -31,8 +31,8 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
-import LinkCard from '../../../../../components/cards/link-card/LinkCard.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import LinkCard from '../../../../../../components/cards/link-card/LinkCard.vue'
 import { XIcon } from '@heroicons/vue/solid'
 
 export default {

@@ -117,13 +117,13 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import NannyCard from './nanny-card/_NannyCard.vue'
 import HeaderParagraphSection from './nanny-card/_HeaderParagraphSection.vue'
-import Preferences from '../../../../../components/profile/view/Preferences.vue'
-import Photos from '../../../../../components/profile/_photos/Photos.vue'
-import Reviews from '../../../../../components/profile/view/Reviews.vue'
-import BadgesEarned from '../../../../../components/badge/BadgeEarned.vue'
+import Preferences from '../../../../../../components/profile/view/Preferences.vue'
+import Photos from '../../../../../../components/profile/_photos/Photos.vue'
+import Reviews from '../../../../../../components/profile/view/Reviews.vue'
+import BadgesEarned from '../../../../../../components/badge/BadgeEarned.vue'
 
 import { XIcon, DotsVerticalIcon, StarIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 

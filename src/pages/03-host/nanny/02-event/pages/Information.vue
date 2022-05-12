@@ -74,13 +74,13 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
-import InputField from '../../../../../../components/form/InputField.vue'
-import SelectMenu from '../../../../../../components/form/SelectMenu.vue'
-import SelectMenuRightWithTextAndSubtextLeft from '../../../../../../components/form/SelectMenuRightWithTextAndSubtextLeft.vue'
-import RadioQuestionsLabelLeftInputRight from '../../../../../../components/form/RadioQuestionsLabelLeftInputRight.vue'
-import BadgeRemove from '../../../../../../components/badge/BadgeRemove.vue'
-import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import InputField from '../../../../../components/form/InputField.vue'
+import SelectMenu from '../../../../../components/form/SelectMenu.vue'
+import SelectMenuRightWithTextAndSubtextLeft from '../../../../../components/form/SelectMenuRightWithTextAndSubtextLeft.vue'
+import RadioQuestionsLabelLeftInputRight from '../../../../../components/form/RadioQuestionsLabelLeftInputRight.vue'
+import BadgeRemove from '../../../../../components/badge/BadgeRemove.vue'
+import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, PlusIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 

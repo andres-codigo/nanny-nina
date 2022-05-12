@@ -37,8 +37,8 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
-import AnchorSecondary from '../../../../../components/dom-elements/AnchorSecondary.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import AnchorSecondary from '../../../../../../components/dom-elements/AnchorSecondary.vue'
 
 import { XIcon } from '@heroicons/vue/solid'
 

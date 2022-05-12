@@ -45,10 +45,10 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
-import RadioQuestionsLabelLeftInputRight from '../../../../../components/form/RadioQuestionsLabelLeftInputRight.vue'
-import CheckboxRightWithContainerAndLabelLeft from '../../../../../components/form/CheckboxRightWithContainerAndLabelLeft.vue'
-import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
+import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import RadioQuestionsLabelLeftInputRight from '../../../../../../components/form/RadioQuestionsLabelLeftInputRight.vue'
+import CheckboxRightWithContainerAndLabelLeft from '../../../../../../components/form/CheckboxRightWithContainerAndLabelLeft.vue'
+import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 
 import { ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 

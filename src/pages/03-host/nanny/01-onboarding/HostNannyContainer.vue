@@ -23,8 +23,8 @@
 </template>
 
 <script>
-import LocationPageTemplate from '../../00-duplicate-pages/LocationPageTemplate.vue' /* Template */
-import PreApplicationMediaUploadPhotoPageTemplate from '../../00-duplicate-pages/PreApplicationMediaUploadPhotoPageTemplate.vue' /* Template */
+import LocationPageTemplate from '../../../00-duplicate-pages/LocationPageTemplate.vue' /* Template */
+import PreApplicationMediaUploadPhotoPageTemplate from '../../../00-duplicate-pages/PreApplicationMediaUploadPhotoPageTemplate.vue' /* Template */
 import HomeWithoutMenu from './pages/onboarding/HomeWithoutMenu.vue'
 import ServiceOptions from './pages/onboarding/ServiceOptions.vue'
 import JobListings from './pages/onboarding/JobListings.vue'
