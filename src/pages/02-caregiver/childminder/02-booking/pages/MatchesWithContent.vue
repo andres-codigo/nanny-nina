@@ -20,7 +20,7 @@
 				</div>
 
 				<div class="flex flex-col pb-10 px-12">
-					<PortabaseCard to="dashboard" class="text-purple-900 bg-lilac-100 hover:bg-green-300 focus:bg-green-400" title="Portabase" />
+					<PortabaseCard to="dashboard" class="text-purple-900 bg-lilac-100 hover:bg-lilac-300 focus:bg-lilac-400" title="Portabase" />
 				</div>
 
 				<div class="flex justify-center mb-20">
