@@ -25,11 +25,11 @@
 
 				<div class="flex flex-col pb-8">
 					<ResponsesCard
-						class="text-white bg-purple-500 hover:bg-purple-300 focus:bg-purple-600"
+						class="text-purple-900 bg-lilac-50 hover:bg-lilac-100 focus:bg-lilac-200"
 						badgeClass="bg-lilac-100 text-purple-900"
 						badgeText="One-time"
 						title="After School Nanny Needed...">
-						<template #details><p class="text-xs text-white pt-1">Shared 5mins ago > 20+ responses</p></template>
+						<template #details><p class="text-xs text-purple-900 pt-1">Shared 5mins ago > 20+ responses</p></template>
 						<template #chevron><ChevronRightIcon class="absolute right-2 top-28 w-8 h-8" aria-hidden="true" /></template>
 					</ResponsesCard>
 
@@ -43,12 +43,12 @@
 					</ResponsesCard>
 
 					<ResponsesCard
-						class="text-purple-900 bg-lilac-50 hover:bg-lilac-100 focus:bg-lilac-200"
+						class="text-white bg-purple-500 hover:bg-purple-300 focus:bg-purple-600"
 						badgeClass="bg-lilac-100 text-purple-900"
 						badgeText="Event"
 						badgeSvg="./assets/svg/other/event.svg"
 						title="Birthday party in Amsteveen">
-						<template #details><p class="text-xs text-purple-900 pt-1">Shared 5mins ago > 20+ responses</p></template>
+						<template #details><p class="text-xs text-white pt-1">Shared 5mins ago > 20+ responses</p></template>
 						<template #chevron><ChevronRightIcon class="absolute right-2 top-28 w-8 h-8" aria-hidden="true" /></template>
 					</ResponsesCard>
 				</div>
