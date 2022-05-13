@@ -8,13 +8,13 @@
 				<h5 class="text-header-five font-semibold antialiased mb-2">Brittany's Badges (6)</h5>
 				<p class="font-thin mb-4">This is what other parents thought of Brittany</p>
 
-				<div class="flex flex-wrap gap-1 justify-center mt-4">
+				<div class="flex flex-wrap gap-x-7 mt-4">
 					<BadgeProfile />
-					<BadgeProfile svg="./assets/svg/badges/zen.svg" title="Zen" />
-					<BadgeProfile svg="./assets/svg/badges/playful.svg" title="Playful" />
+					<BadgeProfile title="Calm/Zen" />
+					<BadgeProfile title="Playful" />
 					<BadgeProfile />
-					<BadgeProfile svg="./assets/svg/badges/zen.svg" title="Zen" />
-					<BadgeProfile svg="./assets/svg/badges/playful.svg" title="Playful" />
+					<BadgeProfile title="Calm/Zen" />
+					<BadgeProfile title="Playful" />
 				</div>
 
 				<div class="flex flex-col items-center mt-40 mb-8">

@@ -171,6 +171,8 @@ module.exports = {
 				'input-base': '',
 				'input-lg': '',
 				'input-xl': '',
+				/* Badge Icons */
+				'profile-badge': '5.75rem'
 			},
 			minWidth: {
 				'apply-country': '10.5rem',
