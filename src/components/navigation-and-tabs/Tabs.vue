@@ -9,6 +9,10 @@
 				{{ tabTwoText }}
 				<span :class="['inline-flex absolute left-[25%] top-[3.6rem] w-[50%] border-b-4 border-purple-500', tabTwoIsActive ? '' : 'hidden']"></span>
 			</a>
+			<a href="#" target="_self" :class="['flex-1 py-4 px-1 relative', tabThreeClasses]" v-if="displayThirdTab">
+				{{ tabThreeText }}
+				<span :class="['inline-flex absolute left-[25%] top-[3.6rem] w-[50%] border-b-4 border-purple-500', tabThreeIsActive ? '' : 'hidden']"></span>
+			</a>
 		</nav>
 	</div>
 </template>
@@ -18,16 +22,26 @@ export default {
 	props: {
 		tabOneText: String,
 		tabOneClasses: String,
-		tabOneIsActive:  {
+		tabOneIsActive: {
 			type: Boolean,
 			default: false
 		},
 		tabTwoText: String,
 		tabTwoClasses: String,
-		tabTwoIsActive:  {
+		tabTwoIsActive: {
 			type: Boolean,
 			default: false
 		},
+		displayThirdTab: {
+			type: Boolean,
+			default: false
+		},
+		tabThreeText: String,
+		tabThreeClasses: String,
+		tabThreeIsActive:  {
+			type: Boolean,
+			default: false
+		}
 	}
 }
 </script>

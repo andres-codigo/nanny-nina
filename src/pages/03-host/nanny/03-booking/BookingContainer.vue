@@ -3,6 +3,7 @@
 		<ResponsesWithContent class="max-w-450-for-dev-not-prod" />
 		<Availability class="max-w-450-for-dev-not-prod" />
 		<ProfileBadges class="max-w-450-for-dev-not-prod" />
+		<Matches class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 
@@ -10,12 +11,14 @@
 import ResponsesWithContent from './pages/ResponsesWithContent.vue'
 import Availability from './pages/Availability.vue'
 import ProfileBadges from './pages/ProfileBadges.vue'
+import Matches from './pages/Matches.vue'
 
 export default {
 	components: {
 		ResponsesWithContent,
 		Availability,
-		ProfileBadges
+		ProfileBadges,
+		Matches
 	}
 }
 </script>
