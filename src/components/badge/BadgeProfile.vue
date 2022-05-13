@@ -1,35 +1,59 @@
 <template>
 	<div>
-		<span class="svgImage"></span>
-		<span class="block text-sm text-center font-light select-none">{{ title }}</span>
+		<span class="image"></span>
+		<span :class="['block text-center select-none', isTipPage ? 'font-bold' : 'text-sm font-light']">
+			<slot name="title">Friendly</slot>
+		</span>
 	</div>
 </template>
 
 <script>
 export default {
+	data() {
+		return {
+			defaultBackgroundImage: 'url(' + this.defaultImage + ')',
+			hoverBackgroundImage: 'url(' + this.hoverImage + ')',
+			activeFocusBackgroundImage: 'url(' + this.activeFocusImage + ')',
+		}
+	},
 	props: {
 		title: {
 			type: String,
 			default: 'Friendly'
+		},
+		defaultImage: {
+			type: String,
+			default: './assets/svg/badges/playful.svg'
+		},
+		hoverImage: {
+			type: String,
+			default: './assets/svg/badges/playful-hover.svg'
+		},
+		activeFocusImage: {
+			type: String,
+			default: './assets/svg/badges/playful-active-focus.svg'
+		},
+		isTipPage: {
+			type: Boolean,
+			default: false
 		}
 	}
 }
 </script>
-<!--
-Gents, I've updated this from being prop based to style scoped based as it
-looks like each badge has a hover/active/focus state svg, one example of all
-state across repeat svg's should hopefully be helpful you guys
--->
+
 <style scoped>
-.svgImage {
-	@apply inline-flex px-2 w-profile-badge h-profile-badge cursor-pointer mt-5 mb-3;
-	@apply bg-[url('./assets/svg/badges/playful.svg')] bg-no-repeat;
+.image {
+	@apply inline-flex px-0 w-profile-badge h-profile-badge cursor-pointer mt-5 mb-3;
+	background-image: v-bind(defaultBackgroundImage);
+	@apply bg-no-repeat bg-center;
 }
-.svgImage:hover {
-	@apply bg-[url('./assets/svg/badges/playful-hover.svg')] bg-no-repeat;
+.image:hover {
+	background-image: v-bind(hoverBackgroundImage);
+	@apply bg-no-repeat bg-center;
 }
-.svgImage:active, .svgImage:focus {
-	@apply bg-[url('./assets/svg/badges/playful-active-focus.svg')] bg-no-repeat;
+.image:active, .image:focus {
+	background-image: v-bind(activeFocusBackgroundImage);
+	@apply bg-no-repeat bg-center;
 }
 
 </style>

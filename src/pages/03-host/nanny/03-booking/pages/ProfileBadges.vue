@@ -9,12 +9,16 @@
 				<p class="font-thin mb-4">This is what other parents thought of Brittany</p>
 
 				<div class="flex flex-wrap gap-x-7 mt-4">
+					<!--
+						The default, hover and active/focus images are the all based around the 'Friendly' svg;
+						eventually, all three states for each type of image will need to be provided
+					-->
 					<BadgeProfile />
-					<BadgeProfile title="Calm/Zen" />
-					<BadgeProfile title="Playful" />
 					<BadgeProfile />
-					<BadgeProfile title="Calm/Zen" />
-					<BadgeProfile title="Playful" />
+					<BadgeProfile />
+					<BadgeProfile />
+					<BadgeProfile />
+					<BadgeProfile />
 				</div>
 
 				<div class="flex flex-col items-center mt-40 mb-8">

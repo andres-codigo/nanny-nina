@@ -4,6 +4,7 @@
 		<Availability class="max-w-450-for-dev-not-prod" />
 		<ProfileBadges class="max-w-450-for-dev-not-prod" />
 		<Matches class="max-w-450-for-dev-not-prod" />
+		<Review class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 
@@ -12,13 +13,15 @@ import ResponsesWithContent from './pages/ResponsesWithContent.vue'
 import Availability from './pages/Availability.vue'
 import ProfileBadges from './pages/ProfileBadges.vue'
 import Matches from './pages/Matches.vue'
+import Review from './pages/Review.vue'
 
 export default {
 	components: {
 		ResponsesWithContent,
 		Availability,
 		ProfileBadges,
-		Matches
+		Matches,
+		Review
 	}
 }
 </script>
