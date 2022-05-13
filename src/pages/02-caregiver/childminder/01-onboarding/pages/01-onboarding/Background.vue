@@ -42,7 +42,7 @@
 							<div class="grow">
 								<div class="mt-4 grid grid-cols-2 justify-items-center gap-x-2">
 									<div>
-										<ButtonOutlineDark text="Upload file" class="w-button-sm py-2 text-sm font-semibold" />
+										<ButtonOutlineDark text="Upload file" class="w-button-sm text-sm font-semibold py-2" />
 										<p class="text-sm font-light text-center text-gray-500 mt-2">Size limit 3MB</p>
 									</div>
 									<div><span class="text-sm text-gray-500">(Optional)</span></div>

@@ -35,7 +35,7 @@
 					</div>
 
 					<div class="flex flex-col justify-center items-center mt-6">
-						<ButtonOutlineDark class="inline-flex w-full py-4 text-sm leading-5">
+						<ButtonOutlineDark class="inline-flex w-full text-sm leading-5 py-4">
 							<template #iconWithText>
 								<Img class="w-5 h-5" src="./assets/svg/other/google.svg" alt="" />
 								<span class="pl-2">Sign in with Google</span>

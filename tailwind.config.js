@@ -125,7 +125,8 @@ module.exports = {
 				'header-six': ['1.125rem', '1.4rem'], 		/* 18px */
 			},
 			height: {
-				'card-au-pair': '30rem'
+				'card-au-pair': '30rem',
+				'profile-badge': '5.75rem'
 			},
 			spacing: {
 				"safe-top": "env(safe-area-inset-top)",
@@ -170,6 +171,8 @@ module.exports = {
 				'input-base': '',
 				'input-lg': '',
 				'input-xl': '',
+				/* Badge Icons */
+				'profile-badge': '5.75rem'
 			},
 			minWidth: {
 				'apply-country': '10.5rem',

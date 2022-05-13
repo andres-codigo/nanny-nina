@@ -3,7 +3,7 @@
 		<a href="/" target="_self" class="w-full h-card-au-pair focus:opacity-60">
 			<div :class="['flex flex-row rounded-t-3xl', tempBackgroundColor]">
 				<div class="relative grow h-64 overflow-hidden">
-					<span class="absolute left-4 top-8 w-24 inline-flex rounded-3xl justify-center font-semibold text-purple-500 bg-green-500 px-2">€16-18/hr</span>
+					<span :class="['absolute left-4 top-8 w-24 inline-flex rounded-3xl justify-center font-semibold px-2', priceBackgroundAndTextColor]">€16-18/hr</span>
 					<span :class="['absolute right-0 top-8 w-11', showHeart ? '' : 'hidden']"><Img src="./assets/svg/other/heart.svg" class="w-6 h-6" alt="" /></span>
 					<!--
 						Image svg/png here
@@ -95,6 +95,10 @@ export default {
 		badgeSvg: String,
 		badgeText: String,
 		tempBackgroundColor: String,
+		priceBackgroundAndTextColor: {
+			type: String,
+			default: 'bg-green-500 text-purple-500'
+		},
 		imageSrc: {
 			type: String,
 			default: 'https://images.unsplash.com/photo-1543721482-bc95ff1f1dea'
