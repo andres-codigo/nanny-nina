@@ -24,15 +24,10 @@
 						</div>
 					</div>
 
-					<div class="flex flex-row pt-6 mb-2">
-						<div class="basis-1/2">
-							<h5 class="text-header-five font-semibold antialiased">Update booking</h5>
-						</div>
-						<div class="basis-1/2">
-							<div class="inline-flex float-right items-center"><Img src="./assets/svg/other/clock-outline.svg" /><a href="#" target="_self" class="anchor-blue anchor-with-underline ml-1">Payment History</a></div>
-						</div>
+					<div class="pt-6">
+						<h5 class="text-header-five font-semibold antialiased mb-2">Update booking</h5>
+						<p class="font-light">Update your schedule if you have worked extra hours within 24hrs. payments are made within 24hrs.</p>
 					</div>
-					<p class="font-light">Update your schedule if you have worked extra hours within 24hrs. payments are made within 24hrs.</p>
 
 					<div class="mt-6">
 
