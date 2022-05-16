@@ -112,37 +112,37 @@ const routes = [
 		Caregiver - Nanny
 	*/
 	{
-		path: '/nanny-home-without-bottom-menu',
+		path: '/caregiver-nanny-home-without-bottom-menu',
 		component: HomeWithoutMenuTemplate,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/nanny-job-listings',
+		path: '/caregiver-nanny-job-listings',
 		component: NannyJobListings,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/nanny-service-onboarding',
+		path: '/caregiver-nanny-service-onboarding',
 		component: NannyOnboardingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/nanny-parent-profile',
+		path: '/caregiver-nanny-parent-profile',
 		component: NannyParentProfileContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/nanny-booking-invites-list',
+		path: '/caregiver-caregiver-nanny-booking-invites-list',
 		component: NannyBookingInvitesListing,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/nanny-booking',
+		path: '/caregiver-nanny-booking',
 		component: NannyBookingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/nanny-cancel-booking',
+		path: '/caregiver-nanny-cancel-booking',
 		component: NannyCancelContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
@@ -209,12 +209,12 @@ const routes = [
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/host-nanny-booking',
+		path: '/host-caregiver-nanny-booking',
 		component: HostNannyBookingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/host-nanny-booking-profile',
+		path: '/host-caregiver-nanny-booking-profile',
 		component: HostNannyBookingProfile,
 		meta: { transition: 'slide-right-to-left' }
 	},
