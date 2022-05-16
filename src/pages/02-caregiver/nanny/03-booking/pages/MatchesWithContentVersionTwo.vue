@@ -14,7 +14,7 @@
 					:tabTwoIsActive="true"
 				/>
 
-				<BookingNotification src="./assets/svg/other/alarm.svg" title="Booking with The Sanders was updated!" />
+				<BookingNotification src="./assets/svg/other/alarm.svg" message="Booking with The Sanders was updated!" />
 
 				<div class="flex flex-col pt-6 mx-4">
 					<h4 class="text-header-four font-semibold antialiased mb-2">Your Matches</h4>
@@ -25,7 +25,6 @@
 
 					<BookingCard
 						:isInvite="false"
-						src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
 						title="The Sanders"
 						timeOrDate="Matched 22/03/2022"
 						bookingDuration="One-time"
@@ -33,7 +32,6 @@
 
 					<BookingCard
 						:isInvite="false"
-						src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
 						title="The Jeffersons"
 						timeOrDate="Matched 22/03/2022"
 						bookingDuration="One-time"

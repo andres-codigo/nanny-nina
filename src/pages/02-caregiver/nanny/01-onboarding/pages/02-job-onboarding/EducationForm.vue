@@ -40,7 +40,7 @@
 							<div class="grow h-14">
 								<InputFieldBorderBottomOnly type="text" />
 							</div>
-							<div class="flex-none inline-flex justify-center items-center w-14 h-14">
+							<div class="inline-flex justify-center items-center w-14 h-14">
 								<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
 							</div>
 						</div>
@@ -57,7 +57,7 @@
 							<div class="grow h-14">
 								<div class="mt-4 grid grid-cols-2 justify-items-center gap-x-2">
 									<div>
-										<ButtonOutlineDark text="Upload file" class="w-button-sm py-2 text-sm font-semibold" />
+										<ButtonOutlineDark text="Upload file" class="w-button-sm text-sm font-semibold py-2" />
 										<p class="text-sm font-light text-center text-gray-500 mt-2">Size limit 3MB</p>
 									</div>
 								</div>
@@ -75,7 +75,7 @@
 							<div class="grow h-14">
 								<InputFieldBorderBottomOnly type="text" />
 							</div>
-							<div class="flex-none inline-flex justify-center items-center w-14 h-14">
+							<div class="inline-flex justify-center items-center w-14 h-14">
 								<PlusIcon class="w-5 h-5 text-indigo-500" aria-hidden="true" />
 							</div>
 						</div>
@@ -84,7 +84,7 @@
 							<div class="grow h-14">
 								<div class="mt-4 grid grid-cols-2 justify-items-center gap-x-2">
 									<div>
-										<ButtonOutlineDark text="Upload file" class="w-button-sm py-2 text-sm font-semibold" />
+										<ButtonOutlineDark text="Upload file" class="w-button-sm text-sm font-semibold py-2" />
 										<p class="text-sm font-light text-center text-gray-500 mt-2">Size limit 3MB</p>
 									</div>
 								</div>

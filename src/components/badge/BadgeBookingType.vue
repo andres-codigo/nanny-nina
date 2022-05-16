@@ -1,5 +1,5 @@
 <template>
-	<div :class="badgeClass" class="float-right w-28 h-9 inline-flex rounded-3xl items-center justify-center py-2 px-2">
+	<div :class="badgeClass" class="float-right h-9 inline-flex rounded-3xl items-center justify-center py-2 px-3">
 		<Img :src="badgeSvg" class="w-5 h-5" alt="" />
 		<span class="text-sm font-semibold px-1">{{ badgeText }}</span>
 	</div>

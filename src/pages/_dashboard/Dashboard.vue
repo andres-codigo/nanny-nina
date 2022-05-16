@@ -153,15 +153,15 @@
 							/>
 							<ListItem
 								:subItem="false"
-								:hideNotes="true"
-								notes=""
-								date=""
+								:hideNotes="false"
+								notes="Waiting on Design comment updates"
+								date="16/05/22"
 								routerLinkPath="/nanny-service-onboarding"
 								title="Onboarding"
 								textColor="text-purple-600"
-								textBadge="Completed"
-								textColorBadge="text-white"
-								backgroundColorBadge="bg-green-800"
+								textBadge="On Hold - UI/Design"
+								textColorBadge="text-amber-800"
+								backgroundColorBadge="bg-amber-100"
 							/>
 							<ListItem
 								:subItem="false"
@@ -361,6 +361,30 @@
 								textColorBadge="text-white"
 								backgroundColorBadge="bg-green-800"
 							/>
+							<ListItem
+								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/host-nanny-booking"
+								title="Booking"
+								textColor="text-purple-600"
+								textBadge="In Progress"
+								textColorBadge="text-amber-800"
+								backgroundColorBadge="bg-amber-100"
+							/>
+							<ListItem
+								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
+								routerLinkPath="/host-nanny-booking-profile"
+								title="Booking Profile with fixed ignore/match button"
+								textColor="text-purple-600"
+								textBadge="In Progress"
+								textColorBadge="text-amber-800"
+								backgroundColorBadge="bg-amber-100"
+							/>
 						</ul>
 						<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
 							<h3><span class="font-bold">Childminder</span> </h3>
@@ -385,13 +409,13 @@
 						<ul role="list" class="relative z-0 divide-y divide-gray-200">
 							<ListItem
 								:subItem="false"
-								:hideNotes="true"
-								notes=""
-								date=""
+								:hideNotes="false"
+								notes="Waiting on Design comment updates"
+								date="27/04/22"
 								routerLinkPath="/host-au-pair"
 								title="Onboarding"
 								textColor="text-purple-600"
-								textBadge="In Progress"
+								textBadge="On Hold - UI/Design"
 								textColorBadge="text-amber-800"
 								backgroundColorBadge="bg-amber-100"
 							/>

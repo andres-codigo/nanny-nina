@@ -59,6 +59,18 @@ module.exports = {
 					800: '#373745',
 					900: '#1B1C22'
 				},
+				rose: {
+					50: '#FFF4F1',
+					100: '#FFEAE3',
+					200: '#FFDFD5',
+					300: '#FFD4C7',
+					400: '#FFCAB9',
+					500: '#FFBFAB',
+					600: '#FF7E56',
+					700: '#FF3D01',
+					800: '#AA2900',
+					900: '#551400'
+				},
 				red: {
 					500: '#B91C1C',
 				},
@@ -113,7 +125,8 @@ module.exports = {
 				'header-six': ['1.125rem', '1.4rem'], 		/* 18px */
 			},
 			height: {
-				'card-au-pair': '30rem'
+				'card-au-pair': '30rem',
+				'profile-badge': '5.75rem'
 			},
 			spacing: {
 				"safe-top": "env(safe-area-inset-top)",
@@ -158,6 +171,8 @@ module.exports = {
 				'input-base': '',
 				'input-lg': '',
 				'input-xl': '',
+				/* Badge Icons */
+				'profile-badge': '5.75rem'
 			},
 			minWidth: {
 				'apply-country': '10.5rem',

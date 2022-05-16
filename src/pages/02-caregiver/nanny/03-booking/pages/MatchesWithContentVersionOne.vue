@@ -23,7 +23,6 @@
 
 					<BookingCard
 						:isInvite="false"
-						src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
 						title="The Sanders"
 						timeOrDate="Started 22/03/2022"
 						bookingDuration="One-time"
@@ -31,7 +30,6 @@
 
 					<BookingCard
 						:isInvite="false"
-						src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
 						title="The Sanders"
 						timeOrDate="Started 22/03/2022"
 						bookingDuration="One-time"

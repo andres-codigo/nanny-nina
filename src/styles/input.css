@@ -37,7 +37,7 @@
 }
 
 .anchor-green:hover, .anchor-green:active {
-	@apply text-green-400;
+	@apply text-green-300;
 }
 
 .anchor-green:focus {
@@ -50,11 +50,11 @@
 }
 
 .anchor-white:hover, .anchor-white:active {
-	@apply text-lilac-400;
+	@apply text-white;
 }
 
 .anchor-white:focus {
-	@apply text-green-500;
+	@apply text-green-600;
 }
 
 /* hyperlink black (lilac) */
