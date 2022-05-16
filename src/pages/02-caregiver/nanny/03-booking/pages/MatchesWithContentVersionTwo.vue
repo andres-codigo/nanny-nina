@@ -12,6 +12,10 @@
 					tabTwoClasses="text-purple-900"
 					tabTwoText="Matches"
 					:tabTwoIsActive="true"
+					:displayThirdTab="true"
+					tabThreeClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
+					tabThreeText="Applications"
+					:tabThreeIsActive="false"
 				/>
 
 				<BookingNotification src="./assets/svg/other/alarm.svg" message="Booking with The Sanders was updated!" :displayButton="true" />
