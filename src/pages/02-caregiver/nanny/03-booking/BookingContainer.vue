@@ -6,6 +6,7 @@
 		<MatchesWithContentVersionTwo class="max-w-450-for-dev-not-prod" />
 		<WorkingHours class="max-w-450-for-dev-not-prod"  />
 		<Review class="max-w-450-for-dev-not-prod"  />
+		<ApplicationsWithContent class="max-w-450-for-dev-not-prod"  />
 	</div>
 </template>
 
@@ -16,6 +17,7 @@ import MatchesWithContentVersionOne from './pages/MatchesWithContentVersionOne.v
 import MatchesWithContentVersionTwo from './pages/MatchesWithContentVersionTwo.vue'
 import WorkingHours from './pages/WorkingHours.vue'
 import Review from './pages/Review.vue'
+import ApplicationsWithContent from './pages/ApplicationsWithContent.vue'
 
 export default {
 	components: {
@@ -24,7 +26,8 @@ export default {
 		MatchesWithContentVersionOne,
 		MatchesWithContentVersionTwo,
 		WorkingHours,
-		Review
+		Review,
+		ApplicationsWithContent
 	}
 }
 </script>
