@@ -22,6 +22,7 @@ import Reference from '../pages/00-duplicate-pages/Reference.vue'
 	import NannyJobListings from '../pages/02-caregiver/nanny/01-onboarding/pages/01-job-listings/JobListings.vue'
 	import NannyOnboardingContainer from '../pages/02-caregiver/nanny/01-onboarding/OnboardingContainer.vue'
 	import NannyParentProfileContainer from '../pages/02-caregiver/nanny/02-parent-profile/ParentProfileContainer.vue'
+	import NannyBookingInvitesListing from '../pages/02-caregiver/nanny/03-booking/pages/InvitesWithContent.vue'
 	import NannyBookingContainer from '../pages/02-caregiver/nanny/03-booking/BookingContainer.vue'
 	import NannyCancelContainer from '../pages/02-caregiver/nanny/04-cancel/CancelContainer.vue'
 
@@ -128,6 +129,11 @@ const routes = [
 	{
 		path: '/nanny-parent-profile',
 		component: NannyParentProfileContainer,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/nanny-booking-invites-list',
+		component: NannyBookingInvitesListing,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{

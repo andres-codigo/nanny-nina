@@ -4,7 +4,7 @@
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col">
+			<div class="flex flex-col pb-28">
 				<Tabs
 					tabOneClasses="text-purple-900"
 					tabOneText="Invites"
@@ -68,6 +68,9 @@
 					/>
 				</div>
 			</div>
+			<section class="block fixed inset-x-0 w-full bottom-0 z-10 bg-white border-t border-gray min-w-360-for-dev-not-prod">
+				<FixedBottomPrimaryButton />
+			</section>
 		</main>
 	</div>
 </template>
@@ -82,6 +85,7 @@ import JobListingFilterItem from '../../../../../components/filter/JobListingFil
 import JobListingFilterItemSelected from '../../../../../components/filter/JobListingFilterItemSelected.vue'
 
 import BookingCard from '../../../../../components/cards/booking-card/BookingCard.vue'
+import FixedBottomPrimaryButton from '../../../../../components/content/fixed/FixedBottomPrimaryButton.vue'
 
 import { QuestionMarkCircleIcon, ClockIcon } from '@heroicons/vue/solid'
 
@@ -94,6 +98,7 @@ export default {
 		JobListingFilterItem,
 		JobListingFilterItemSelected,
 		BookingCard,
+		FixedBottomPrimaryButton,
 		QuestionMarkCircleIcon,
 		ClockIcon
 	}

@@ -180,6 +180,18 @@
 								:hideNotes="true"
 								notes=""
 								date=""
+								routerLinkPath="/nanny-booking-invites-list"
+								title="Booking Invites List with fixed button"
+								textColor="text-purple-600"
+								textBadge="In Progress"
+								textColorBadge="text-amber-800"
+								backgroundColorBadge="bg-amber-100"
+							/>
+							<ListItem
+								:subItem="false"
+								:hideNotes="true"
+								notes=""
+								date=""
 								routerLinkPath="/nanny-booking"
 								title="Booking"
 								textColor="text-purple-600"
