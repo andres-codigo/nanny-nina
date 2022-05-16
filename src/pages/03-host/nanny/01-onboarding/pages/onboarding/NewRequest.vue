@@ -7,8 +7,8 @@
 			<div class="flex flex-col justify-center pt-12 mx-4">
 				<h5 class="text-header-five font-semibold antialiased mb-4">What kind of nanny do you want?</h5>
 				<div class="inline-flex pb-8">
-					<LinkCard  :showPlaceholderSVG="true" to="dashboard" class="text-white bg-purple-500 hover:bg-purple-300 focus:bg-purple-600" title="One-time">
-						<template #details><p class="text-white pt-2">Urgent nanny for single or multiple days. Maximum 12days </p></template>
+					<LinkCard  :showPlaceholderSVG="true" to="dashboard" class="text-purple-900 bg-lilac-50 hover:bg-lilac-100 focus:bg-lilac-200" title="One-time">
+						<template #details><p class="pt-2">Urgent nanny for single or multiple days. Maximum 12days </p></template>
 					</LinkCard>
 				</div>
 				<div class="inline-flex pb-8">
@@ -17,8 +17,8 @@
 					</LinkCard>
 				</div>
 				<div class="inline-flex">
-					<LinkCard to="dashboard" class="text-purple-900 bg-lilac-50 hover:bg-lilac-100 focus:bg-lilac-200" title="Event" >
-						<template #details><p class="pt-2 pr-24">Book a nanny for birthday, wedding &amp; other special occasions</p></template>
+					<LinkCard to="dashboard" class="text-white bg-purple-500 hover:bg-purple-300 focus:bg-purple-600" title="Event" >
+						<template #details><p class="text-white pt-2 pr-24">Book a nanny for birthday, wedding &amp; other special occasions</p></template>
 					</LinkCard>
 				</div>
 

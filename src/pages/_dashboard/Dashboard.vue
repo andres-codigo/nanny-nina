@@ -153,15 +153,15 @@
 							/>
 							<ListItem
 								:subItem="false"
-								:hideNotes="false"
-								notes="Waiting on Design comment updates"
-								date="16/05/22"
+								:hideNotes="true"
+								notes=""
+								date=""
 								routerLinkPath="/caregiver-nanny-service-onboarding"
 								title="Onboarding"
 								textColor="text-purple-600"
-								textBadge="On Hold - UI/Design"
-								textColorBadge="text-amber-800"
-								backgroundColorBadge="bg-amber-100"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
 							/>
 							<ListItem
 								:subItem="false"
@@ -181,11 +181,11 @@
 								notes=""
 								date=""
 								routerLinkPath="/caregiver-caregiver-nanny-booking-invites-list-with-content"
-								title="Booking Invites List with content and fixed button"
+								title="Booking Invites List (Content) and fixed content"
 								textColor="text-purple-600"
-								textBadge="In Progress"
-								textColorBadge="text-amber-800"
-								backgroundColorBadge="bg-amber-100"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
 							/>
 							<ListItem
 								:subItem="false"
@@ -193,11 +193,11 @@
 								notes=""
 								date=""
 								routerLinkPath="/caregiver-caregiver-nanny-booking-invites-list-with-no-content"
-								title="Booking Invites List with no content and fixed button"
+								title="Booking Invites List (No content) and fixed content"
 								textColor="text-purple-600"
-								textBadge="In Progress"
-								textColorBadge="text-amber-800"
-								backgroundColorBadge="bg-amber-100"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
 							/>
 							<ListItem
 								:subItem="false"
@@ -207,9 +207,9 @@
 								routerLinkPath="/caregiver-nanny-booking"
 								title="Booking"
 								textColor="text-purple-600"
-								textBadge="In Progress"
-								textColorBadge="text-amber-800"
-								backgroundColorBadge="bg-amber-100"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
 							/>
 							<ListItem
 								:subItem="false"
@@ -219,9 +219,9 @@
 								routerLinkPath="/caregiver-nanny-cancel-booking"
 								title="Cancel Booking"
 								textColor="text-purple-600"
-								textBadge="In Progress"
-								textColorBadge="text-amber-800"
-								backgroundColorBadge="bg-amber-100"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
 							/>
 						</ul>
 					</div>
@@ -387,13 +387,13 @@
 							/>
 							<ListItem
 								:subItem="false"
-								:hideNotes="true"
-								notes=""
-								date=""
+								:hideNotes="false"
+								notes="Waiting on Design and comment updates"
+								date="16/05/22"
 								routerLinkPath="/host-caregiver-nanny-booking"
 								title="Booking"
 								textColor="text-purple-600"
-								textBadge="In Progress"
+								textBadge="On Hold - UI/Design"
 								textColorBadge="text-amber-800"
 								backgroundColorBadge="bg-amber-100"
 							/>
@@ -405,9 +405,9 @@
 								routerLinkPath="/host-caregiver-nanny-booking-profile"
 								title="Booking Profile with fixed ignore/match button"
 								textColor="text-purple-600"
-								textBadge="In Progress"
-								textColorBadge="text-amber-800"
-								backgroundColorBadge="bg-amber-100"
+								textBadge="Completed"
+								textColorBadge="text-white"
+								backgroundColorBadge="bg-green-800"
 							/>
 						</ul>
 						<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">

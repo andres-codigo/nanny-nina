@@ -46,12 +46,7 @@
 				</div>
 
 				<div class="flex flex-col justify-center items-center mb-12">
-					<div class="grid grid-rows-2 gap-2">
-						<div><AnchorSecondary text="Invite Nannies" class="w-button-xl text-xl py-4" /></div>
-						<div class="text-center">
-							<a href="#" target="_self" class="anchor-white anchor-with-underline font-medium mt-4">Learn more about Nannies</a>
-						</div>
-					</div>
+					<AnchorSecondary text="Invite Nannies" class="w-button-xl text-xl py-4" />
 				</div>
 			</div>
 		</main>

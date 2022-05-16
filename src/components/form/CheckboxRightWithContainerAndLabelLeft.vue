@@ -1,6 +1,6 @@
 <!-- TODO: focus behavior for checkbox -->
 <template>
-	<div class="flex py-4">
+	<div class="flex py-4 items-center">
 		<div class="min-w-0 flex-1">
 			<label :for="checkboxName" class="text-purple-800 font-thin select-none">{{ text }}</label>
 			<p :class="['text-sm text-gray-500', showSubText ? '' : 'hidden']">{{ subText }}</p>
