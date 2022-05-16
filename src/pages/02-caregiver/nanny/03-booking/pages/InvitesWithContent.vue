@@ -12,6 +12,10 @@
 					tabTwoClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
 					tabTwoText="Matches"
 					:tabTwoIsActive="false"
+					:displayThirdTab="true"
+					tabThreeClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
+					tabThreeText="Applications"
+					:tabThreeIsActive="false"
 				/>
 				<JobListingFilter>
 					<template #filter-one><JobListingFilterItemSelected text="Distance" /></template>
@@ -34,7 +38,7 @@
 					<BookingCard
 						title="The Sanders"
 						timeOrDate="Shared on 5 mins ago > 20+ responses"
-						badgeClass="bg-green-400 text-purple-900"
+						badgeClass="bg-lilac-50 text-purple-900"
 						badgeText="One-time"
 					/>
 
@@ -42,21 +46,23 @@
 						title="The Alis"
 						:showHeart="true"
 						timeOrDate="Shared an hour ago > 7 responses"
-						badgeClass="bg-lilac-50 text-purple-900"
+						badgeSvg="./assets/svg/other/lock.svg"
+						badgeClass="bg-green-400 text-purple-900"
 						badgeText="Recurring"
 					/>
 
 					<BookingCard
 						title="The Van de Beeks"
-						timeOrDate="Shared an hour ago > 7 responses"
+						timeOrDate="Shared an hour ago > 20 responses"
+						badgeClass="bg-lilac-100 text-purple-900"
 						badgeSvg="./assets/svg/other/event.svg"
-						badgeText="Recurring"
+						badgeText="Event"
 					/>
 
 					<BookingCard
 						title="The Sanders"
-						timeOrDate="Shared an hour ago > 7 responses"
-						badgeClass="bg-purple-100 text-purple-900"
+						timeOrDate="Shared an hour ago > 20 responses"
+						badgeClass="bg-rose-100 text-purple-900"
 						badgeSvg="./assets/svg/other/clock.svg"
 						badgeText="Urgent"
 					/>

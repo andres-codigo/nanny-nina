@@ -97,7 +97,7 @@ export default {
 		tempBackgroundColor: String,
 		priceBackgroundAndTextColor: {
 			type: String,
-			default: 'bg-green-500 text-purple-500'
+			default: 'bg-green-500 text-purple-900'
 		},
 		imageSrc: {
 			type: String,
