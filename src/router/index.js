@@ -22,7 +22,8 @@ import Reference from '../pages/00-duplicate-pages/Reference.vue'
 	import NannyJobListings from '../pages/02-caregiver/nanny/01-onboarding/pages/01-job-listings/JobListings.vue'
 	import NannyOnboardingContainer from '../pages/02-caregiver/nanny/01-onboarding/OnboardingContainer.vue'
 	import NannyParentProfileContainer from '../pages/02-caregiver/nanny/02-parent-profile/ParentProfileContainer.vue'
-	import NannyBookingInvitesListing from '../pages/02-caregiver/nanny/03-booking/pages/InvitesWithContent.vue'
+	import NannyBookingInvitesListingWithContent from '../pages/02-caregiver/nanny/03-booking/pages/InvitesWithContent.vue'
+	import NannyBookingInvitesListingWithNoContent from '../pages/02-caregiver/nanny/03-booking/pages/InvitesNoContent.vue'
 	import NannyBookingContainer from '../pages/02-caregiver/nanny/03-booking/BookingContainer.vue'
 	import NannyCancelContainer from '../pages/02-caregiver/nanny/04-cancel/CancelContainer.vue'
 
@@ -132,8 +133,13 @@ const routes = [
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/caregiver-caregiver-nanny-booking-invites-list',
-		component: NannyBookingInvitesListing,
+		path: '/caregiver-caregiver-nanny-booking-invites-list-with-content',
+		component: NannyBookingInvitesListingWithContent,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/caregiver-caregiver-nanny-booking-invites-list-with-no-content',
+		component: NannyBookingInvitesListingWithNoContent,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{

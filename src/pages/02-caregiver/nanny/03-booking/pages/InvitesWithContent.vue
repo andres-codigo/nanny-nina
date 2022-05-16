@@ -69,7 +69,7 @@
 				</div>
 			</div>
 			<section class="block fixed inset-x-0 w-full bottom-0 z-10 bg-white border-t border-gray min-w-360-for-dev-not-prod">
-				<FixedBottomPrimaryButton />
+				<FixedBottomAnchorPrimary />
 			</section>
 		</main>
 	</div>
@@ -85,7 +85,7 @@ import JobListingFilterItem from '../../../../../components/filter/JobListingFil
 import JobListingFilterItemSelected from '../../../../../components/filter/JobListingFilterItemSelected.vue'
 
 import BookingCard from '../../../../../components/cards/booking-card/BookingCard.vue'
-import FixedBottomPrimaryButton from '../../../../../components/content/fixed/FixedBottomPrimaryButton.vue'
+import FixedBottomAnchorPrimary from '../../../../../components/content/fixed/FixedBottomAnchorPrimary.vue'
 
 import { QuestionMarkCircleIcon, ClockIcon } from '@heroicons/vue/solid'
 
@@ -98,7 +98,7 @@ export default {
 		JobListingFilterItem,
 		JobListingFilterItemSelected,
 		BookingCard,
-		FixedBottomPrimaryButton,
+		FixedBottomAnchorPrimary,
 		QuestionMarkCircleIcon,
 		ClockIcon
 	}
