@@ -12,7 +12,7 @@
 					<div class="flex flex-col">
 						<div class="inline-flex mb-3">
 							<div class="flex-none w-6 h-6"><LocationMarkerIcon class="w-5 h-5" /></div>
-							<div class="font-thin">86A, Prins Hendrikkade, Amsterdam</div>
+							<div class="font-thin"><a href="#" target="_self" class="anchor-blue anchor-with-underline">86A, Prins Hendrikkade, Amsterdam</a></div>
 						</div>
 						<div class="inline-flex mb-3">
 							<div class="flex-none w-6 h-6"><CalendarIcon class="w-5 h-5" /></div>
@@ -38,9 +38,9 @@
 
 						<div class="border-b border-gray-50">
 							<DayOrTimeBookingRow>
-								<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-0" text="Sun" /></template>
+								<template #toggleDay><ToggleButtonTextRight :isDisabled="true" backgroundColor="bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-0" text="Sun" /></template>
 								<template #removeIcon>&nbsp;</template>
-								<template #inputHours><InputFieldTimeDisabled class="w-full mr-2" placeholder="Unavailable" /></template>
+								<template #inputHours><InputFieldTimeDisabled class="w-input-sm mr-2" placeholder="Unavailable" /></template>
 								<template #AddIcon><PlusIcon class="w-6 h-6 text-gray-500" aria-hidden="true" /></template>
 							</DayOrTimeBookingRow>
 						</div>
@@ -49,66 +49,66 @@
 							<DayOrTimeBookingRow>
 								<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Mon" /></template>
 								<template #removeIcon>&nbsp;</template>
-								<template #inputHours><InputFieldTimeEnabled class="w-full mr-2" value="09:00 - 11:00" /></template>
+								<template #inputHours><InputFieldTimeEnabled class="w-input-sm mr-2" value="09:00 - 11:00" /></template>
 								<template #AddIcon><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></template>
 							</DayOrTimeBookingRow>
 							<DayOrTimeBookingRow>
 								<template #toggleDay>&nbsp;</template>
 								<template #removeIcon><XCircleIcon class="w-6 h-6 text-gray-500" aria-hidden="true" /></template>
-								<template #inputHours><InputFieldTimeEnabled class="w-full mr-2" value="13:00 - 17:00" /></template>
+								<template #inputHours><InputFieldTimeEnabled class="w-input-sm mr-2" value="13:00 - 17:00" /></template>
 								<template #AddIcon><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></template>
 							</DayOrTimeBookingRow>
 						</div>
 
 						<div class="border-b border-gray-50">
 							<DayOrTimeBookingRow>
-								<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Tue" /></template>
+								<template #toggleDay><ToggleButtonTextRight :isDisabled="true" backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Tue" /></template>
 								<template #removeIcon>&nbsp;</template>
-								<template #inputHours><InputFieldTimeEnabled class="w-full mr-2" value="09:00 - 11:00" /></template>
-								<template #AddIcon><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></template>
+								<template #inputHours><InputFieldTimeDisabled class="w-input-sm mr-2" value="09:00 - 11:00" /></template>
+								<template #AddIcon><PlusIcon class="w-6 h-6 text-gray-100" aria-hidden="true" /></template>
 							</DayOrTimeBookingRow>
 						</div>
 
 						<div class="border-b border-gray-50">
 							<DayOrTimeBookingRow>
-								<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Wed" /></template>
+								<template #toggleDay><ToggleButtonTextRight :isDisabled="true" backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Wed" /></template>
 								<template #removeIcon>&nbsp;</template>
-								<template #inputHours><InputFieldTimeEnabled class="w-full mr-2" value="09:00 - 11:00" /></template>
-								<template #AddIcon><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></template>
+								<template #inputHours><InputFieldTimeDisabled class="w-input-sm mr-2" value="09:00 - 11:00" /></template>
+								<template #AddIcon><PlusIcon class="w-6 h-6 text-gray-100" aria-hidden="true" /></template>
 							</DayOrTimeBookingRow>
 						</div>
 
 						<div class="border-b border-gray-50">
 							<DayOrTimeBookingRow>
-								<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Thur" /></template>
+								<template #toggleDay><ToggleButtonTextRight :isDisabled="true" backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Thur" /></template>
 								<template #removeIcon>&nbsp;</template>
-								<template #inputHours><InputFieldTimeEnabled class="w-full mr-2" value="09:00 - 11:00" /></template>
-								<template #AddIcon><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></template>
+								<template #inputHours><InputFieldTimeDisabled class="w-input-sm mr-2" value="09:00 - 11:00" /></template>
+								<template #AddIcon><PlusIcon class="w-6 h-6 text-gray-100" aria-hidden="true" /></template>
 							</DayOrTimeBookingRow>
 						</div>
 
 						<div class="border-b border-gray-50">
 							<DayOrTimeBookingRow>
-								<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Fri" /></template>
+								<template #toggleDay><ToggleButtonTextRight :isDisabled="true" backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Fri" /></template>
 								<template #removeIcon>&nbsp;</template>
-								<template #inputHours><InputFieldTimeEnabled class="w-full mr-2" value="09:00 - 11:00" /></template>
-								<template #AddIcon><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></template>
+								<template #inputHours><InputFieldTimeDisabled class="w-input-sm mr-2" value="09:00 - 11:00" /></template>
+								<template #AddIcon><PlusIcon class="w-6 h-6 text-gray-100" aria-hidden="true" /></template>
 							</DayOrTimeBookingRow>
 						</div>
 
 						<div class="border-b border-gray-50">
 							<DayOrTimeBookingRow>
-								<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Sat" /></template>
+								<template #toggleDay><ToggleButtonTextRight :isDisabled="true" backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Sat" /></template>
 								<template #removeIcon>&nbsp;</template>
-								<template #inputHours><InputFieldTimeEnabled class="w-full mr-2" value="09:00 - 11:00" /></template>
-								<template #AddIcon><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></template>
+								<template #inputHours><InputFieldTimeDisabled class="w-input-sm mr-2" value="09:00 - 11:00" /></template>
+								<template #AddIcon><PlusIcon class="w-6 h-6 text-gray-100" aria-hidden="true" /></template>
 							</DayOrTimeBookingRow>
 						</div>
 					</div>
 
 					<div class="flex flex-col justify-center items-center mt-16">
 						<div class="grid grid-rows-2 gap-2">
-							<div><ButtonPrimary text="Update" class="w-button-lg text-xl py-4" /></div>
+							<div><ButtonPrimary text="Update" class="w-button-sm text-xl py-4" /></div>
 							<div class="inline-flex items-center justify-center"><AnchorTextOnly text="Unmatch" /></div>
 						</div>
 					</div>
