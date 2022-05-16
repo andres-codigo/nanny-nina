@@ -1,7 +1,7 @@
 <template>
 	<div class="w-full">
 		<TopNavigation backgroundColor="bg-white" :rightIconIsButton="true">
-			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8" aria-hidden="true" /></router-link></template>
+			<template #iconLeft><router-link to="/dashboard?tab=1"><ChevronLeftIcon class="w-8 h-8" aria-hidden="true" /></router-link></template>
 			<template #iconRight><ButtonOutlineDark text="Sign in" class="w-button-base py-1 text-sm font-semibold" /></template>
 		</TopNavigation>
 		<main>

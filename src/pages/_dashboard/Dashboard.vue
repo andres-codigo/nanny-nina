@@ -10,9 +10,9 @@
 
 			<div :class="menuSelected ? 'block': 'hidden'" class="w-full flex-grow sm:flex sm:items-center sm:w-auto">
 				<div class="text-sm font-bold  sm:flex-grow">
-					<a @click="activeTab = 1" :class="[ activeTab === 1 ? 'active underline' : 'no-underline' ]" class="cursor-pointer block mt-4 sm:inline-block sm:mt-0 text-purple-900 hover:underline mr-4">Caregiver & Host</a>
-					<a @click="activeTab = 2" :class="[ activeTab === 2 ? 'active underline' : 'no-underline' ]" class="cursor-pointer block mt-4 sm:inline-block sm:mt-0 text-purple-900 hover:underline mr-4">Caregiver</a>
-					<a @click="activeTab = 3" :class="[ activeTab === 3 ? 'active underline' : 'no-underline' ]" class="cursor-pointer block mt-4 sm:inline-block sm:mt-0 text-purple-900 hover:underline">Host</a>
+					<router-link to="https://nanny-nina.vercel.app/dashboard?tab=1" @click="activeTab = 1" :class="[ activeTab === 1 ? 'active underline' : 'no-underline' ]" class="cursor-pointer block mt-4 sm:inline-block sm:mt-0 text-purple-900 hover:underline mr-4">Caregiver & Host</router-link>
+					<router-link to="https://nanny-nina.vercel.app/dashboard?tab=2" @click="activeTab = 2" :class="[ activeTab === 2 ? 'active underline' : 'no-underline' ]" class="cursor-pointer block mt-4 sm:inline-block sm:mt-0 text-purple-900 hover:underline mr-4">Caregiver</router-link>
+					<router-link to="https://nanny-nina.vercel.app/dashboard?tab=3" @click="activeTab = 3" :class="[ activeTab === 3 ? 'active underline' : 'no-underline' ]" class="cursor-pointer block mt-4 sm:inline-block sm:mt-0 text-purple-900 hover:underline">Host</router-link>
 				</div>
 			</div>
 		</nav>
@@ -320,18 +320,6 @@
 								textColorBadge="text-white"
 								backgroundColorBadge="bg-green-800"
 							/>
-							<ListItem
-								:subItem="false"
-								:hideNotes="true"
-								notes=""
-								date=""
-								routerLinkPath="/au-pair-reference"
-								title="Reference"
-								textColor="text-purple-600"
-								textBadge="Completed"
-								textColorBadge="text-white"
-								backgroundColorBadge="bg-green-800"
-							/>
 						</ul>
 						<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
 							<h3><span class="font-bold">Nanny</span> </h3>
@@ -474,6 +462,17 @@ export default {
 		toggleMenu() {
 			this.menuSelected = !this.menuSelected
 		}
+  	},
+	 mounted() {
+		 if (this.$route.query.tab === '1') {
+			 this.activeTab = 1
+		 } else if (this.$route.query.tab === '2') {
+			 this.activeTab = 2
+		 } else if (this.$route.query.tab === '3') {
+			 this.activeTab = 3
+		 } else {
+			 this.activeTab = 1
+		 }
   	}
 }
 </script>
