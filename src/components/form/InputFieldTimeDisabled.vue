@@ -11,7 +11,7 @@
 		class="
 			px-3 py-2
 			border border-gray-100 placeholder:text-gray-100 rounded-full
-			text-center font-thin
+			text-gray-500 text-center font-thin
 			focus:outline-none
 			cursor-default
 		"

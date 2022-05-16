@@ -12,9 +12,13 @@
 					tabTwoClasses="text-purple-900"
 					tabTwoText="Matches"
 					:tabTwoIsActive="true"
+					:displayThirdTab="true"
+					tabThreeClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
+					tabThreeText="Applications"
+					:tabThreeIsActive="false"
 				/>
 
-				<BookingNotification src="./assets/svg/other/alarm.svg" message="Booking with The Sanders was updated!" />
+				<BookingNotification src="./assets/svg/other/alarm.svg" message="Booking with The Sanders was updated!" :displayButton="true" />
 
 				<div class="flex flex-col pt-6 mx-4">
 					<h4 class="text-header-four font-semibold antialiased mb-2">Your Matches</h4>

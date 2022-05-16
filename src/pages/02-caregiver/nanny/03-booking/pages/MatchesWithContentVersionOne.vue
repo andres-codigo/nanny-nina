@@ -12,6 +12,10 @@
 					tabTwoClasses="text-purple-900"
 					tabTwoText="Matches"
 					:tabTwoIsActive="true"
+					:displayThirdTab="true"
+					tabThreeClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
+					tabThreeText="Applications"
+					:tabThreeIsActive="false"
 				/>
 
 				<div class="flex flex-col pt-6 mx-4">
@@ -23,15 +27,23 @@
 
 					<BookingCard
 						:isInvite="false"
+						priceBackgroundAndTextColor="bg-white text-purple-900"
 						title="The Sanders"
-						timeOrDate="Started 22/03/2022"
+						timeOrDate="Matched 22/03/2022"
+						badgeClass="bg-lilac-50 text-purple-900"
+						badgeText="One-time"
 						bookingDuration="One-time"
 					/>
 
 					<BookingCard
 						:isInvite="false"
+						:showHeart="true"
+						priceBackgroundAndTextColor="bg-white text-purple-900"
 						title="The Sanders"
-						timeOrDate="Started 22/03/2022"
+						timeOrDate="Matched 22/03/2022"
+						badgeSvg="./assets/svg/other/lock.svg"
+						badgeClass="bg-green-400 text-purple-900"
+						badgeText="Recurring"
 						bookingDuration="One-time"
 					/>
 				</div>

@@ -96,3 +96,8 @@
 .availability-remove-button {
 	@apply min-w-[55px];
 }
+
+/* Form Elements */
+.select-no-border-lg {
+	background-image: url('./assets/svg/form/select-dropdown-arrow-purple-900.svg');
+}

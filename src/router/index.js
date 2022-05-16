@@ -18,15 +18,18 @@ import HomeWithMenuTemplate from '../pages/02-caregiver/childminder-and-nanny/Ho
 import Reference from '../pages/00-duplicate-pages/Reference.vue'
 
 	/* Caregiver - Nanny */
-	import HomeWithoutBottomMenu from '../pages/00-duplicate-pages/home/HomeWithoutMenuTemplate.vue'
+	import HomeWithoutMenuTemplate from '../pages/00-duplicate-pages/home/HomeWithoutMenuTemplate.vue'
 	import NannyJobListings from '../pages/02-caregiver/nanny/01-onboarding/pages/01-job-listings/JobListings.vue'
 	import NannyOnboardingContainer from '../pages/02-caregiver/nanny/01-onboarding/OnboardingContainer.vue'
-	import ParentProfileContainer from '../pages/02-caregiver/nanny/02-parent-profile/ParentProfileContainer.vue'
-	import BookingContainer from '../pages/02-caregiver/nanny/03-booking/BookingContainer.vue'
-	import CancelContainer from '../pages/02-caregiver/nanny/04-cancel/CancelContainer.vue'
+	import NannyParentProfileContainer from '../pages/02-caregiver/nanny/02-parent-profile/ParentProfileContainer.vue'
+	import NannyBookingInvitesListingWithContent from '../pages/02-caregiver/nanny/03-booking/pages/InvitesWithContent.vue'
+	import NannyBookingInvitesListingWithNoContent from '../pages/02-caregiver/nanny/03-booking/pages/InvitesNoContent.vue'
+	import NannyBookingContainer from '../pages/02-caregiver/nanny/03-booking/BookingContainer.vue'
+	import NannyCancelContainer from '../pages/02-caregiver/nanny/04-cancel/CancelContainer.vue'
 
 	/* Caregiver - Childminder */
 	import ChildminderOnboardingContainer from '../pages/02-caregiver/childminder/01-onboarding/OnboardingContainer.vue'
+	import ChildminderBookingContainer from '../pages/02-caregiver/childminder/02-booking/BookingContainer.vue'
 
 	/* Caregiver - Au Pair */
 	import AuPairCountryListings from '../pages/02-caregiver/au-pair/01-onboarding/pages/01-country-listings/CountryListings.vue'
@@ -110,33 +113,43 @@ const routes = [
 		Caregiver - Nanny
 	*/
 	{
-		path: '/nanny-home-without-bottom-menu',
-		component: HomeWithoutBottomMenu,
+		path: '/caregiver-nanny-home-without-bottom-menu',
+		component: HomeWithoutMenuTemplate,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/nanny-job-listings',
+		path: '/caregiver-nanny-job-listings',
 		component: NannyJobListings,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/nanny-service-onboarding',
+		path: '/caregiver-nanny-service-onboarding',
 		component: NannyOnboardingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/nanny-parent-profile',
-		component: ParentProfileContainer,
+		path: '/caregiver-nanny-parent-profile',
+		component: NannyParentProfileContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/nanny-booking',
-		component: BookingContainer,
+		path: '/caregiver-caregiver-nanny-booking-invites-list-with-content',
+		component: NannyBookingInvitesListingWithContent,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/nanny-cancel-booking',
-		component: CancelContainer,
+		path: '/caregiver-caregiver-nanny-booking-invites-list-with-no-content',
+		component: NannyBookingInvitesListingWithNoContent,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/caregiver-nanny-booking',
+		component: NannyBookingContainer,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/caregiver-nanny-cancel-booking',
+		component: NannyCancelContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 
@@ -146,6 +159,11 @@ const routes = [
 	{
 		path: '/childminder-service-onboarding',
 		component: ChildminderOnboardingContainer,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/childminder-booking',
+		component: ChildminderBookingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 
@@ -197,12 +215,12 @@ const routes = [
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/host-nanny-booking',
+		path: '/host-caregiver-nanny-booking',
 		component: HostNannyBookingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/host-nanny-booking-profile',
+		path: '/host-caregiver-nanny-booking-profile',
 		component: HostNannyBookingProfile,
 		meta: { transition: 'slide-right-to-left' }
 	},

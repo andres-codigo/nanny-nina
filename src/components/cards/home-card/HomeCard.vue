@@ -16,8 +16,11 @@
 					<div class="basis-1/2 mt-4 ml-4">
 						<h4 class="text-header-four font-semibold antialiased">{{ user }}</h4>
 					</div>
-					<div :class="['basis-1/2 mt-4 mr-4 text-right', !showCompletionSteps ? 'hidden sm:hidden' : '']">
-						<span class="text-xs text-gray-500 font-light">0/5 steps completed</span>
+					<div class="basis-1/2 mt-4 mr-4 text-right">
+						<span class="text-xs text-gray-500 font-light" v-if="showCompletionSteps">0/5 steps completed</span>
+						<span class="inline-flex items-center rounded-3xl justify-center text-xs font-semibold bg-green-500 text-purple-900 px-2 py-1" v-else>
+							<span class="h-2 w-2 bg-green-800 rounded-full mx-1"></span>Active
+						</span>
 					</div>
 				</div>
 				<p class="text-sm font-light leading-5 mt-4 mx-4">{{ content }}</p>

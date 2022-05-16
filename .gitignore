@@ -3,6 +3,7 @@ logs
 *.log
 npm-debug.log*
 
+.cspell/*
 node_modules
 .DS_Store
 dist

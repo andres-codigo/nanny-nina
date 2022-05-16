@@ -29,7 +29,7 @@
 							<DayOrTimeAvailabilityRow>
 								<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-0" text="Sun" /></template>
 								<template #removeIcon>&nbsp;</template>
-								<template #inputHours><InputFieldTimeDisabled class="w-full mr-2" placeholder="Unavailable" /></template>
+								<template #inputHours><InputFieldTimeDisabled class="w-input-sm mr-2" placeholder="Unavailable" /></template>
 								<template #AddIcon><PlusIcon class="w-6 h-6 text-gray-500" aria-hidden="true" /></template>
 							</DayOrTimeAvailabilityRow>
 						</div>
@@ -38,13 +38,13 @@
 							<DayOrTimeAvailabilityRow>
 								<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Mon" /></template>
 								<template #removeIcon>&nbsp;</template>
-								<template #inputHours><InputFieldTimeEnabled class="w-full mr-2" value="09:00 - 11:00" /></template>
+								<template #inputHours><InputFieldTimeEnabled class="w-input-sm mr-2" value="09:00 - 11:00" /></template>
 								<template #AddIcon><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></template>
 							</DayOrTimeAvailabilityRow>
 							<DayOrTimeAvailabilityRow>
 								<template #toggleDay>&nbsp;</template>
 								<template #removeIcon><XCircleIcon class="w-6 h-6 text-gray-500" aria-hidden="true" /></template>
-								<template #inputHours><InputFieldTimeEnabled class="w-full mr-2" value="13:00 - 17:00" /></template>
+								<template #inputHours><InputFieldTimeEnabled class="w-input-sm mr-2" value="13:00 - 17:00" /></template>
 								<template #AddIcon><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></template>
 							</DayOrTimeAvailabilityRow>
 						</div>
@@ -53,7 +53,7 @@
 							<DayOrTimeAvailabilityRow>
 								<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Tue" /></template>
 								<template #removeIcon>&nbsp;</template>
-								<template #inputHours><InputFieldTimeEnabled class="w-full mr-2" value="09:00 - 11:00" /></template>
+								<template #inputHours><InputFieldTimeEnabled class="w-input-sm mr-2" value="09:00 - 11:00" /></template>
 								<template #AddIcon><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></template>
 							</DayOrTimeAvailabilityRow>
 						</div>
@@ -62,7 +62,7 @@
 							<DayOrTimeAvailabilityRow>
 								<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Wed" /></template>
 								<template #removeIcon>&nbsp;</template>
-								<template #inputHours><InputFieldTimeEnabled class="w-full mr-2" value="09:00 - 11:00" /></template>
+								<template #inputHours><InputFieldTimeEnabled class="w-input-sm mr-2" value="09:00 - 11:00" /></template>
 								<template #AddIcon><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></template>
 							</DayOrTimeAvailabilityRow>
 						</div>
@@ -71,7 +71,7 @@
 							<DayOrTimeAvailabilityRow>
 								<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Thur" /></template>
 								<template #removeIcon>&nbsp;</template>
-								<template #inputHours><InputFieldTimeEnabled class="w-full mr-2" value="09:00 - 11:00" /></template>
+								<template #inputHours><InputFieldTimeEnabled class="w-input-sm mr-2" value="09:00 - 11:00" /></template>
 								<template #AddIcon><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></template>
 							</DayOrTimeAvailabilityRow>
 						</div>
@@ -80,7 +80,7 @@
 							<DayOrTimeAvailabilityRow>
 								<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Fri" /></template>
 								<template #removeIcon>&nbsp;</template>
-								<template #inputHours><InputFieldTimeEnabled class="w-full mr-2" value="09:00 - 11:00" /></template>
+								<template #inputHours><InputFieldTimeEnabled class="w-input-sm mr-2" value="09:00 - 11:00" /></template>
 								<template #AddIcon><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></template>
 							</DayOrTimeAvailabilityRow>
 						</div>
@@ -89,7 +89,7 @@
 							<DayOrTimeAvailabilityRow>
 								<template #toggleDay><ToggleButtonTextRight backgroundColor="bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500" translateXPosition="translate-x-6" text="Sat" /></template>
 								<template #removeIcon>&nbsp;</template>
-								<template #inputHours><InputFieldTimeEnabled class="w-full mr-2" value="09:00 - 11:00" /></template>
+								<template #inputHours><InputFieldTimeEnabled class="w-input-sm mr-2" value="09:00 - 11:00" /></template>
 								<template #AddIcon><PlusIcon class="w-6 h-6 text-purple-500" aria-hidden="true" /></template>
 							</DayOrTimeAvailabilityRow>
 						</div>
