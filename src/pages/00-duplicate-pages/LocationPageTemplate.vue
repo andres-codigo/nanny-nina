@@ -1,7 +1,7 @@
 <template>
 	<div class="w-full">
 		<TopNavigation backgroundColor="bg-white" headerColor="text-purple-900" text="Location">
-			<template #iconRight><router-link to="/dashboard"><XIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
+			<template #iconRight><router-link to="/dashboard?tab=3"><XIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
 			<div class="h-screen flex flex-col mx-4">

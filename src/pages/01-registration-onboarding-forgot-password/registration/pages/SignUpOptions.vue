@@ -2,7 +2,7 @@
 <template>
 	<div>
 		<TopNavigation backgroundColor="bg-white-500" :dropShadow="false">
-			<template #iconRight><router-link to="/dashboard"><XIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
+			<template #iconRight><router-link to="/dashboard?tab=1"><XIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
 			<div class="min-h-screen flex flex-col justify-center pt-12 mx-4">

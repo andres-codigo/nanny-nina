@@ -1,7 +1,7 @@
 <template>
 	<div class="w-full h-full">
 		<TopNavigation text="One-time Booking">
-			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
+			<template #iconLeft><router-link to="/dashboard?tab=3"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col pt-12 px-4">

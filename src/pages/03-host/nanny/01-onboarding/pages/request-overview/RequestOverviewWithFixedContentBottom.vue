@@ -1,7 +1,7 @@
 <template>
 	<div class="w-full">
 		<TopNavigation backgroundColor="bg-white" :dropShadow="true" headerColor="text-purple-900" text="Request Overview">
-			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
+			<template #iconLeft><router-link to="/dashboard?tab=3"><ChevronLeftIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
 			<div class="h-full pt-12 pb-28 mx-4">
