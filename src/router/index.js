@@ -19,29 +19,29 @@ import Reference from '../pages/00-duplicate-pages/Reference.vue'
 
 	/* Caregiver - Nanny */
 	import HomeWithoutMenuTemplate from '../pages/00-duplicate-pages/home/HomeWithoutMenuTemplate.vue'
-	import NannyJobListings from '../pages/02-caregiver/nanny/01-onboarding/pages/01-job-listings/JobListings.vue'
-	import NannyOnboardingContainer from '../pages/02-caregiver/nanny/01-onboarding/OnboardingContainer.vue'
-	import NannyParentProfileContainer from '../pages/02-caregiver/nanny/02-parent-profile/ParentProfileContainer.vue'
-	import NannyBookingInvitesListingWithContent from '../pages/02-caregiver/nanny/03-booking/pages/InvitesWithContent.vue'
-	import NannyBookingInvitesListingWithNoContent from '../pages/02-caregiver/nanny/03-booking/pages/InvitesNoContent.vue'
-	import NannyBookingContainer from '../pages/02-caregiver/nanny/03-booking/BookingContainer.vue'
-	import NannyCancelContainer from '../pages/02-caregiver/nanny/04-cancel/CancelContainer.vue'
+	import CaregiverNannyJobListings from '../pages/02-caregiver/nanny/01-onboarding/pages/01-job-listings/JobListings.vue'
+	import CaregiverNannyOnboardingContainer from '../pages/02-caregiver/nanny/01-onboarding/OnboardingContainer.vue'
+	import CaregiverNannyParentProfileContainer from '../pages/02-caregiver/nanny/02-parent-profile/ParentProfileContainer.vue'
+	import CaregiverNannyBookingInvitesListingWithContent from '../pages/02-caregiver/nanny/03-booking/pages/InvitesWithContent.vue'
+	import CaregiverNannyBookingInvitesListingWithNoContent from '../pages/02-caregiver/nanny/03-booking/pages/InvitesNoContent.vue'
+	import CaregiverNannyBookingContainer from '../pages/02-caregiver/nanny/03-booking/BookingContainer.vue'
+	import CaregiverNannyCancelContainer from '../pages/02-caregiver/nanny/04-cancel/CancelContainer.vue'
 
 	/* Caregiver - Childminder */
-	import ChildminderOnboardingContainer from '../pages/02-caregiver/childminder/01-onboarding/OnboardingContainer.vue'
-	import ChildminderBookingContainer from '../pages/02-caregiver/childminder/02-booking/BookingContainer.vue'
+	import CaregiverChildminderOnboardingContainer from '../pages/02-caregiver/childminder/01-onboarding/OnboardingContainer.vue'
+	import CaregiverChildminderChildminderBookingContainer from '../pages/02-caregiver/childminder/02-booking/BookingContainer.vue'
 
 	/* Caregiver - Au Pair */
-	import AuPairCountryListings from '../pages/02-caregiver/au-pair/01-onboarding/pages/01-country-listings/CountryListings.vue'
-	import AuPairOnboardingContainer from '../pages/02-caregiver/au-pair/01-onboarding/OnboardingContainer.vue'
-	import AuPairPersonalityTest from '../pages/02-caregiver/au-pair/01-onboarding/pages/02-job-onboarding/PersonalityTest.vue'
+	import CaregiverChildminderBookingContainer from '../pages/02-caregiver/au-pair/01-onboarding/pages/01-country-listings/CountryListings.vue'
+	import CaregiverAuPairOnboardingContainer from '../pages/02-caregiver/au-pair/01-onboarding/OnboardingContainer.vue'
+	import CaregiverAuPairPersonalityTest from '../pages/02-caregiver/au-pair/01-onboarding/pages/02-job-onboarding/PersonalityTest.vue'
 
 /* Host - Nanny */
 import HostNannyHome from '../pages/03-host/Home.vue'
 import HostNannyContainer from '../pages/03-host/nanny/01-onboarding/HostNannyContainer.vue'
 import HostNannyEvent from '../pages/03-host/nanny/02-event/EventContainer.vue'
 import HostNannyAvailabilityWithFixedContentBottom from '../pages/03-host/nanny/01-onboarding/pages/onboarding/AvailabilityWithFixedContentBottom.vue'
-import RequestOverviewWithFixedContentBottom from '../pages/03-host/nanny/01-onboarding/pages/request-overview/RequestOverviewWithFixedContentBottom.vue'
+import HostRequestOverviewWithFixedContentBottom from '../pages/03-host/nanny/01-onboarding/pages/request-overview/RequestOverviewWithFixedContentBottom.vue'
 import HostNannyBookingContainer from '../pages/03-host/nanny/03-booking/BookingContainer.vue'
 import HostNannyBookingProfile from '../pages/03-host/nanny/03-booking/pages/NannyProfile.vue'
 
@@ -96,7 +96,7 @@ const routes = [
 	},
 
 	/*
-		Caregiver - Childminder Nanny
+		Caregiver - Childminder, Nanny & Au Pair
 	*/
 	{
 		path: '/caregiver-childminder-and-nanny-home-with-bottom-menu',
@@ -104,7 +104,7 @@ const routes = [
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/caregiver-au-pair-reference',
+		path: '/caregiver-reference',
 		component: Reference,
 		meta: { transition: 'slide-right-to-left' }
 	},
@@ -119,37 +119,37 @@ const routes = [
 	},
 	{
 		path: '/caregiver-nanny-job-listings',
-		component: NannyJobListings,
+		component: CaregiverNannyJobListings,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
 		path: '/caregiver-nanny-service-onboarding',
-		component: NannyOnboardingContainer,
+		component: CaregiverNannyOnboardingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
 		path: '/caregiver-nanny-parent-profile',
-		component: NannyParentProfileContainer,
+		component: CaregiverNannyParentProfileContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
 		path: '/caregiver-nanny-booking-invites-list-with-content',
-		component: NannyBookingInvitesListingWithContent,
+		component: CaregiverNannyBookingInvitesListingWithContent,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
 		path: '/caregiver-nanny-booking-invites-list-with-no-content',
-		component: NannyBookingInvitesListingWithNoContent,
+		component: CaregiverNannyBookingInvitesListingWithNoContent,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
 		path: '/caregiver-nanny-booking',
-		component: NannyBookingContainer,
+		component: CaregiverNannyBookingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
 		path: '/caregiver-nanny-cancel-booking',
-		component: NannyCancelContainer,
+		component: CaregiverNannyCancelContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 
@@ -158,12 +158,12 @@ const routes = [
 	*/
 	{
 		path: '/caregiver-childminder-service-onboarding',
-		component: ChildminderOnboardingContainer,
+		component: CaregiverChildminderOnboardingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
 		path: '/caregiver-childminder-booking',
-		component: ChildminderBookingContainer,
+		component: CaregiverChildminderChildminderBookingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 
@@ -172,17 +172,17 @@ const routes = [
 	*/
 	{
 		path: '/caregiver-au-pair-country-listings',
-		component: AuPairCountryListings,
+		component: CaregiverChildminderBookingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
 		path: '/caregiver-au-pair-service-onboarding',
-		component: AuPairOnboardingContainer,
+		component: CaregiverAuPairOnboardingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
 		path: '/caregiver-au-pair-personality-test',
-		component: AuPairPersonalityTest,
+		component: CaregiverAuPairPersonalityTest,
 		meta: { transition: 'slide-right-to-left' }
 	},
 
@@ -211,16 +211,16 @@ const routes = [
 	},
 	{
 		path: '/host-nanny-availability-w-fixed-complete-button',
-		component: RequestOverviewWithFixedContentBottom,
+		component: HostRequestOverviewWithFixedContentBottom,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/host-caregiver-nanny-booking',
+		path: '/host-nanny-booking',
 		component: HostNannyBookingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/host-caregiver-nanny-booking-profile',
+		path: '/host-nanny-booking-profile',
 		component: HostNannyBookingProfile,
 		meta: { transition: 'slide-right-to-left' }
 	},
@@ -233,6 +233,10 @@ const routes = [
 		component: HostChildminderContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
+
+	/*
+		Host - Au Pair
+	*/
 	{
 		path: '/host-au-pair',
 		component: HostAuPairContainer,
