@@ -28,11 +28,25 @@
 				</div>
 				<div class="flex flex-row items-center mb-4">
 					<div class="w-5"><ClockIcon class="w-5 h-5" /></div>
-					<span class="font-thin pl-1">{{ bookingDuration }}</span>
+					<span class="font-thin pl-1">{{ bookingStartTime }}</span>
+
+					<span class="inline-flex items-center" v-if="isCandidate">
+						<span class="h-1 w-1 bg-purple-900 rounded-full mx-1"></span>
+						<div class="w-5"><ClockIcon class="w-5 h-5" /></div>
+						<span class="font-thin pl-1">{{ bookingDuration }}</span>
+					</span>
+
 				</div>
 				<div class="flex flex-row items-center">
-					<div class="w-5"><BadgeCheckIcon class="w-5 h-5" /></div>
-					<div class="font-thin pl-1">{{ bookingPrice }}</div>
+					<span class="inline-flex items-center" v-if="!isCandidate">
+						<div class="w-5"><BadgeCheckIcon class="w-5 h-5" /></div>
+						<div class="font-thin pl-1">{{ bookingPrice }}</div>
+					</span>
+
+					<span class="inline-flex items-center" v-else>
+						<div class="w-5"><BadgeCheckIcon class="w-5 h-5" /></div>
+						<div class="font-thin pl-1">{{ bookingCandidateStrength }}</div>
+					</span>
 				</div>
 			</div>
 		</a>
@@ -62,6 +76,10 @@ export default {
 			type: Boolean,
 			default: false
 		},
+		isCandidate: {
+			type: Boolean,
+			default: false
+		},
 		imageSrc: {
 			type: String,
 			default: 'https://images.unsplash.com/photo-1543721482-bc95ff1f1dea'
@@ -82,13 +100,21 @@ export default {
 			type: String,
 			default: 'Babysitting on: Monday, 23/02'
 		},
-		bookingDuration: {
+		bookingStartTime: {
 			type: String,
 			default: 'Time: 13:30 - 16:00'
+		},
+		bookingDuration: {
+			type: String,
+			default: 'Up to 6-12months'
 		},
 		bookingPrice: {
 			type: String,
 			default: 'Payment due: €0'
+		},
+		bookingCandidateStrength: {
+			type: String,
+			default: 'Strength: Tidy'
 		}
 	}
 }

@@ -25,14 +25,14 @@
 
 				<div class="flex flex-col pt-6 px-4">
 
-					<MatchCard
+					<CandidateMatchCard
 						:showHeart="true"
 						badgeClass="bg-lilac-50 text-purple-900"
 						badgeText="6 days left"
 						bookingPrice="Payment due: €60"
 					/>
 
-					<MatchCard
+					<CandidateMatchCard
 						:showHeart="true"
 						badgeSvg="./assets/svg/badges/hourglass.svg"
 						badgeClass="bg-green-400 text-purple-900"
@@ -48,19 +48,17 @@
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import Tabs from '../../../../../components/navigation-and-tabs/Tabs.vue'
 import Img from '../../../../../components/dom-elements/Img.vue'
-import MatchCard from '../../../../../components/cards/match-card/MatchCard.vue'
+import CandidateMatchCard from '../../../../../components/cards/candidate-match-card/CandidateMatchCard.vue'
 
-import { QuestionMarkCircleIcon, ClockIcon, LightBulbIcon } from '@heroicons/vue/solid'
+import { QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
 		TopNavigation,
 		Tabs,
 		Img,
-		MatchCard,
-		QuestionMarkCircleIcon,
-		ClockIcon,
-		LightBulbIcon
+		CandidateMatchCard,
+		QuestionMarkCircleIcon
 	}
 }
 </script>
