@@ -28,7 +28,7 @@
 						badgeClass="bg-lilac-50 text-purple-900"
 						badgeText="Her home"
 						badgeSvg="./assets/svg/badges/house.svg"
-						title="After School Nanny Needed...">
+						title="Friendly Sitter Needed...">
 						<template #details><p class="text-xs text-purple-800 pt-1">Shared 5mins ago > 20+ responses</p></template>
 						<template #chevron><ChevronRightIcon class="absolute right-2 top-28 w-8 h-8" aria-hidden="true" /></template>
 					</ResponsesCard>
@@ -37,7 +37,7 @@
 						class="text-purple-900 bg-melon-100 hover:bg-melon-300 focus:bg-melon-600"
 						badgeClass="bg-melon-50 text-purple-900"
 						badgeText="Your home"
-						title="Nanny needed every week...">
+						title="Childminder needed..">
 						<template #details><p class="text-xs text-purple-900 pt-1">Shared 5mins ago > 20+ responses</p></template>
 						<template #chevron><ChevronRightIcon class="absolute right-2 top-28 w-8 h-8" aria-hidden="true" /></template>
 					</ResponsesCard>
