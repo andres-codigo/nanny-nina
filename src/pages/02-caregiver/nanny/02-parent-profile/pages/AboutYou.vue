@@ -9,7 +9,7 @@
 				<h5 class="text-header-five font-semibold antialiased">Briefly describe yourself &amp; hobbies</h5>
 
 				<div class="mt-2 mb-10">
-					<label for="motivation" class="sr-only">{{ text }}</label>
+					<label for="motivation" class="sr-only">For example, My name is John Doe, I am a student at UVA, I enjoy cooking, riding a bike , I have 10years work experience etc.</label>
 					<p	class="text-sm font-light text-gray-500">For example, My name is John Doe, I am a student at UVA, I enjoy cooking, riding a bike , I have 10years work experience etc.</p>
 					<div class="mt-8">
 						<Textarea name="about-you" id="about-you" />
