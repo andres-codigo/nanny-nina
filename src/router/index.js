@@ -99,12 +99,12 @@ const routes = [
 		Caregiver - Childminder Nanny
 	*/
 	{
-		path: '/childminder-and-nanny-home-with-bottom-menu',
+		path: '/caregiver-childminder-and-nanny-home-with-bottom-menu',
 		component: HomeWithMenuTemplate,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/au-pair-reference',
+		path: '/caregiver-au-pair-reference',
 		component: Reference,
 		meta: { transition: 'slide-right-to-left' }
 	},
@@ -133,12 +133,12 @@ const routes = [
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/caregiver-caregiver-nanny-booking-invites-list-with-content',
+		path: '/caregiver-nanny-booking-invites-list-with-content',
 		component: NannyBookingInvitesListingWithContent,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/caregiver-caregiver-nanny-booking-invites-list-with-no-content',
+		path: '/caregiver-nanny-booking-invites-list-with-no-content',
 		component: NannyBookingInvitesListingWithNoContent,
 		meta: { transition: 'slide-right-to-left' }
 	},
@@ -157,12 +157,12 @@ const routes = [
 		Caregiver - Childminder
 	*/
 	{
-		path: '/childminder-service-onboarding',
+		path: '/caregiver-childminder-service-onboarding',
 		component: ChildminderOnboardingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/childminder-booking',
+		path: '/caregiver-childminder-booking',
 		component: ChildminderBookingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
@@ -171,17 +171,17 @@ const routes = [
 		Caregiver - Au Pair
 	*/
 	{
-		path: '/au-pair-country-listings',
+		path: '/caregiver-au-pair-country-listings',
 		component: AuPairCountryListings,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/au-pair-service-onboarding',
+		path: '/caregiver-au-pair-service-onboarding',
 		component: AuPairOnboardingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/au-pair-personality-test',
+		path: '/caregiver-au-pair-personality-test',
 		component: AuPairPersonalityTest,
 		meta: { transition: 'slide-right-to-left' }
 	},
