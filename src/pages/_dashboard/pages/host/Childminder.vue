@@ -15,12 +15,12 @@
 		<ListItem
 			:subItem="false"
 			:hideNotes="false"
-			notes="Waiting on Design comment updates"
-			date="17/05/22"
+			notes="In Progress but waiting on solution to introduction of new profile switching"
+			date="18/05/22"
 			routerLinkPath="/host-childminder-booking"
 			title="Booking"
 			textColor="text-purple-600"
-			textBadge="On Hold - UI/Design"
+			textBadge="In Progress"
 			textColorBadge="text-amber-800"
 			backgroundColorBadge="bg-amber-100"
 		/>
