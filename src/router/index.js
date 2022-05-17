@@ -47,6 +47,7 @@ import HostNannyBookingProfile from '../pages/03-host/nanny/03-booking/pages/Nan
 
 /* Host - Childminder */
 import HostChildminderContainer from '../pages/03-host/childminder/01-onboarding/HostChildminderContainer.vue'
+import HostChildminderBookingContainer from '../pages/03-host/childminder/02-booking/BookingContainer.vue'
 
 /* Host - Au Pair */
 import HostAuPairContainer from '../pages/03-host/au-pair/01-onboarding/HostAuPairContainer.vue'
@@ -71,6 +72,7 @@ const routes = [
 			}
 		}
 	},
+
 	/*
 		Registration/ForgotPassword - Caregiver and Host
 	*/
@@ -231,6 +233,11 @@ const routes = [
 	{
 		path: '/host-childminder',
 		component: HostChildminderContainer,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/host-childminder-booking',
+		component: HostChildminderBookingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 

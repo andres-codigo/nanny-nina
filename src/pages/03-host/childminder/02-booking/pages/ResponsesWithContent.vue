@@ -1,0 +1,66 @@
+<template>
+	<div class="w-full h-full">
+		<TopNavigation text="Booking">
+			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
+		</TopNavigation>
+		<main>
+			<div class="flex flex-col mx-4">
+				<Tabs
+					tabOneClasses="text-purple-900"
+					tabOneText="Responses"
+					:tabOneIsActive="true"
+					tabTwoClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
+					tabTwoText="Matches"
+					:tabTwoIsActive="false"
+					:displayThirdTab="true"
+					tabThreeClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
+					tabThreeText="History"
+					:tabThreeIsActive="false"
+				/>
+
+				<div class="pt-6 mx-4 mb-4">
+					<h4 class="text-header-four font-semibold antialiased">Your Responses</h4>
+				</div>
+
+				<div class="flex flex-col pb-8">
+					<ResponsesCard
+						class="text-purple-900 bg-purple-50 hover:bg-lilac-100 focus:bg-lilac-200"
+						badgeClass="bg-lilac-50 text-purple-900"
+						badgeText="Her home"
+						badgeSvg="./assets/svg/badges/house.svg"
+						title="After School Nanny Needed...">
+						<template #details><p class="text-xs text-purple-800 pt-1">Shared 5mins ago > 20+ responses</p></template>
+						<template #chevron><ChevronRightIcon class="absolute right-2 top-28 w-8 h-8" aria-hidden="true" /></template>
+					</ResponsesCard>
+
+					<ResponsesCard
+						class="text-purple-900 bg-melon-100 hover:bg-melon-300 focus:bg-melon-600"
+						badgeClass="bg-melon-50 text-purple-900"
+						badgeText="Your home"
+						title="Nanny needed every week...">
+						<template #details><p class="text-xs text-purple-900 pt-1">Shared 5mins ago > 20+ responses</p></template>
+						<template #chevron><ChevronRightIcon class="absolute right-2 top-28 w-8 h-8" aria-hidden="true" /></template>
+					</ResponsesCard>
+				</div>
+			</div>
+		</main>
+	</div>
+</template>
+
+<script>
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import Tabs from '../../../../../components/navigation-and-tabs/Tabs.vue'
+import ResponsesCard from '../../../../../components/cards/responses-card/ResponsesCard.vue'
+
+import { QuestionMarkCircleIcon, ChevronRightIcon } from '@heroicons/vue/solid'
+
+export default {
+	components: {
+		TopNavigation,
+		Tabs,
+		ResponsesCard,
+		QuestionMarkCircleIcon,
+		ChevronRightIcon
+	}
+}
+</script>

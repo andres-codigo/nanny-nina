@@ -59,7 +59,7 @@ module.exports = {
 					800: '#373745',
 					900: '#1B1C22'
 				},
-				rose: {
+				melon: {
 					50: '#FFF4F1',
 					100: '#FFEAE3',
 					200: '#FFDFD5',
