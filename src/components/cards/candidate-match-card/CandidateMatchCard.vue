@@ -31,7 +31,7 @@
 					<span class="font-thin pl-1">{{ bookingStartTime }}</span>
 
 					<span class="inline-flex items-center" v-if="isCandidate">
-						<span class="h-1 w-1 bg-purple-900 rounded-full mx-1"></span>
+						<Dot />
 						<div class="w-5"><ClockIcon class="w-5 h-5" /></div>
 						<span class="font-thin pl-1">{{ bookingDuration }}</span>
 					</span>
@@ -56,6 +56,7 @@
 <script>
 import BadgeBookingType from '../../badge/BadgeBookingType.vue'
 import Img from '../../dom-elements/Img.vue'
+import Dot from '../../dom-elements/Dot.vue'
 
 import { CalendarIcon, ClockIcon, BadgeCheckIcon } from '@heroicons/vue/outline'
 
@@ -63,6 +64,7 @@ export default {
 	components: {
 		BadgeBookingType,
 		Img,
+		Dot,
 		BadgeCheckIcon,
 		CalendarIcon,
 		ClockIcon

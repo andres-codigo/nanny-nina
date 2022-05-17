@@ -17,8 +17,8 @@
 
 				<div class="mx-4">
 					<h5 class="text-header-five font-semibold antialiased mt-4 mb-2">Meet The Sanders</h5>
-					<p class="inline-flex items-center text-sm font-light leading-none pb-2">Speaks English, Dutch <span class="h-1 w-1 bg-gray-500 rounded-full mx-1"></span>  <country-flag country='nl' size='small'/> <span class="pl-1">Amsterdam</span></p>
-					<p class="inline-flex items-center text-sm font-light leading-none">Lawyer &amp; Accountant <span class="h-1 w-1 bg-gray-500 rounded-full mx-1"></span> Married</p>
+					<p class="inline-flex items-center text-sm font-light leading-none pb-2">Speaks English, Dutch <Dot color="bg-gray-500" /> <country-flag country='nl' size='small'/> <span class="pl-1">Amsterdam</span></p>
+					<p class="inline-flex items-center text-sm font-light leading-none">Lawyer &amp; Accountant <Dot color="bg-gray-500" /> Married</p>
 
 					<Preferences class="mt-7" />
 				</div>
@@ -31,6 +31,7 @@
 import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import ProfileCarousel from '../../../../../../components/carousel/ProfileCarousel.vue'
 import Img from '../../../../../../components/dom-elements/Img.vue'
+import Dot from '../../../../../../components/dom-elements/Dot.vue'
 import Preferences from '../../../../../../components/profile/view/Preferences.vue'
 
 import { ChevronLeftIcon, DotsVerticalIcon } from '@heroicons/vue/solid'
@@ -56,6 +57,7 @@ export default {
 		TopNavigation,
 		ProfileCarousel,
 		Img,
+		Dot,
 		Preferences,
 		ChevronLeftIcon,
 		DotsVerticalIcon,

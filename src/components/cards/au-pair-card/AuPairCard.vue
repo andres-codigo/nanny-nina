@@ -21,7 +21,7 @@
 					<div class="flex-none w-6"><GlobeAltIcon class="w-5 h-5" /></div>
 					<div class="inline-flex grow items-center font-thin">
 						<span class="w-40 text-ellipsis overflow-hidden  whitespace-nowrap">Speak Dutch, English</span>
-						<span class="h-1 w-1 bg-purple-900 rounded-full mx-1"></span>
+						<Dot />
 						<country-flag country='nl' size='small'/>
 						<span class="pl-1">Amsterdam</span>
 					</div>
@@ -29,7 +29,7 @@
 				<div class="flex flex-row mb-3">
 					<div class="flex-none w-6"><CalendarIcon class="w-5 h-5" /></div>
 					<div class="inline-flex grow items-center font-thin">
-						Starting Nov 2021 <span class="h-1 w-1 bg-purple-900 rounded-full mx-1"></span> <ClockIcon class="w-5 h-5" /> For 12months
+						Starting Nov 2021 <Dot /> <ClockIcon class="w-5 h-5" /> For 12months
 					</div>
 				</div>
 				<div class="flex flex-row mb-3">
@@ -42,6 +42,8 @@
 </template>
 
 <script>
+import Dot from '../../dom-elements/Dot.vue'
+
 import { HeartIcon, GlobeAltIcon, GlobeIcon, CalendarIcon, ClockIcon, UserIcon } from '@heroicons/vue/solid'
 
 /*
@@ -62,6 +64,7 @@ import CountryFlag from 'vue-country-flag-next'
 
 export default {
 	components: {
+		Dot,
 		HeartIcon,
 		GlobeAltIcon,
 		GlobeIcon,

@@ -20,18 +20,18 @@
 						<div class="inline-flex items-center">
 							<Img src="./assets/svg/stars/star-solid-gold.svg" class="w-5 h-5" />
 							<span class="pl-1 text-sm font-semibold">(4.5/5)</span>
-							<span class="h-1 w-1 bg-gray-500 rounded-full mx-1"></span>
+							<Dot color="bg-gray-500" />
 						</div>
 						<div class="inline-flex items-center">
 							<Img src="./assets/svg/profile/cake.svg" class="w-5 h-5" />
 							<span class="pl-1 text-sm">20th September</span>
 						</div>
 						<div class="inline-flex items-center">
-							<span class="h-1 w-1 bg-gray-500 rounded-full mx-1"></span>
+							<Dot color="bg-gray-500" />
 							<span class="pl-1 text-sm">27 yrs</span>
 						</div>
 						<div class="inline-flex items-center">
-							<span class="h-1 w-1 bg-gray-500 rounded-full mx-1"></span>
+							<Dot color="bg-gray-500" />
 							<Img src="./assets/svg/profile/medal-gold.svg" class="w-5 h-5" />
 							<span class="pl-1 text-sm">Creative</span>
 						</div>
@@ -86,6 +86,7 @@
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import ProfileCarousel from '../../../../../components/carousel/ProfileCarousel.vue'
 import Img from '../../../../../components/dom-elements/Img.vue'
+import Dot from '../../../../../components/dom-elements/Dot.vue'
 import FixedBottomBookingMatch from '../../../../../components/content/fixed/FixedBottomBookingMatch.vue'
 
 import { ChevronLeftIcon, DotsVerticalIcon, CalendarIcon } from '@heroicons/vue/solid'
@@ -95,6 +96,7 @@ export default {
 		TopNavigation,
 		ProfileCarousel,
 		Img,
+		Dot,
 		FixedBottomBookingMatch,
 		ChevronLeftIcon,
 		DotsVerticalIcon,
