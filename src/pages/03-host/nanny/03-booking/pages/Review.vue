@@ -10,7 +10,7 @@
 					<h5 class="text-header-five font-semibold antialiased mb-2">Leave a tip for Brittany</h5>
 					<p class="font-thin mb-4">Do you want to reward Brittany for her service?</p>
 
-					<div class="flex flex-wrap gap-x-0 mt-4">
+					<div class="flex flex-wrap gap-x-0 justify-center mt-4">
 						<!--
 							The hover and active/focus images are the same as I only have what you
 							see to go on; eventually, all three states for each type of image will need

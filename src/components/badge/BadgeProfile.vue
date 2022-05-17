@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="flex-none">
 		<span class="image"></span>
 		<span :class="['block text-center select-none', isTipPage ? 'font-bold' : 'text-sm font-light']">
 			<slot name="title">Friendly</slot>
@@ -43,7 +43,7 @@ export default {
 
 <style scoped>
 .image {
-	@apply inline-flex px-0 w-profile-badge h-profile-badge cursor-pointer mt-5 mb-3;
+	@apply w-icon-review-tip h-icon-review-tip inline-flex cursor-pointer mt-5 mb-3;
 	background-image: v-bind(defaultBackgroundImage);
 	@apply bg-no-repeat bg-center;
 }

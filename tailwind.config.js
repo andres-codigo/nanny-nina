@@ -126,7 +126,9 @@ module.exports = {
 			},
 			height: {
 				'card-au-pair': '30rem',
-				'profile-badge': '5.75rem'
+				/* Icons */
+				/* Review - Leave Tip */
+				'icon-review-tip': '5.75rem'
 			},
 			spacing: {
 				"safe-top": "env(safe-area-inset-top)",
@@ -151,6 +153,8 @@ module.exports = {
 					NB: select-[size] & input-[size] classes added; currently, the sizes are different
 						page design by page design so a consistent size needs to be set
 						by Obafemi
+
+					REVIEW-TIP: 5rem / 80px
 				*/
 				/* Buttons */
 				'button-xs': '5.5rem',
@@ -171,8 +175,9 @@ module.exports = {
 				'input-base': '',
 				'input-lg': '',
 				'input-xl': '',
-				/* Badge Icons */
-				'profile-badge': '5.75rem'
+				/* Icons */
+				/* Review - Leave Tip */
+				'icon-review-tip': '5rem',
 			},
 			minWidth: {
 				'apply-country': '10.5rem',
