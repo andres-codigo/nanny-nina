@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import NewRequest from './pages/onboarding/NewRequest.vue'
-import PriceBooking from './pages/onboarding/PriceBooking.vue'
+import NewRequest from './pages/NewRequest.vue'
+import PriceBooking from './pages/PriceBooking.vue'
 
 export default {
 	components: {

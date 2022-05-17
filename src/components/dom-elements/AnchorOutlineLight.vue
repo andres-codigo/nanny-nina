@@ -7,7 +7,7 @@
 			inline-flex
 			justify-center
 			rounded-full
-			font-bold
+			font-semibold
 			antialiased leading-none
 			border
 		">{{ text }}</a>

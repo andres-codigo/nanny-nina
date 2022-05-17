@@ -25,7 +25,7 @@
 					width, height (including div container) and position will need to be adjusted as assets not provided
 					<img src="*.svg" class="w-32 h-32 absolute -bottom-6"/>
 				-->
-				<Img class="w-48 h-48 absolute -left-6 -bottom-10" src="./assets/svg/other/placeholder.svg" alt="" />
+				<Img class="w-48 h-48 absolute -left-6 -bottom-10" src="./assets/svg/placeholder/placeholder.svg" alt="" />
 			</div>
 		</div>
 		<ChevronRightIcon class="absolute right-2 top-28 w-8 h-8" aria-hidden="true" />

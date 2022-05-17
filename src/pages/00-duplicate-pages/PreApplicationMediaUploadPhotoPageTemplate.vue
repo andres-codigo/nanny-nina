@@ -1,7 +1,7 @@
 <template>
 	<div class="w-full h-full">
 		<TopNavigation text="Media Upload">
-			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
+			<template #iconLeft><router-link :to="'/dashboard?tab=' + this.activeTab"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
@@ -33,6 +33,11 @@ import ButtonDisabled from '../../components/buttons/ButtonDisabled.vue'
 import { ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 
 export default {
+	data() {
+		return {
+			activeTab: 1
+		}
+  	},
 	components: {
 		TopNavigation,
 		SinglePhotoUpload,
@@ -40,6 +45,13 @@ export default {
 		ButtonDisabled,
 		ChevronLeftIcon,
 		QuestionMarkCircleIcon
+	},
+	mounted() {
+		if (window.location.href.indexOf("caregiver-nanny-service-onboarding") != -1) {
+			this.activeTab = 2
+		} else if (window.location.href.indexOf("host-nanny") != -1) {
+			this.activeTab = 3
+		}
 	}
 }
 </script>

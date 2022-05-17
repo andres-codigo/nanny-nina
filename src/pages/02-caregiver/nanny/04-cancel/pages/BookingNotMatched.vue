@@ -1,7 +1,7 @@
 <template>
 	<div class="w-full h-full bg-purple-500">
 		<TopNavigation backgroundColor="bg-white-500" :dropShadow="false">
-			<template #iconRight><router-link to="/dashboard"><XIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
+			<template #iconRight><router-link to="/dashboard?tab=2"><XIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
 			<div class="h-full first-letter:flex flex-col items-center justify-center pt-12 mx-4">

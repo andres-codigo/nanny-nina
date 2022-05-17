@@ -19,7 +19,7 @@
 					<div class="flex flex-col justify-center items-center">
 						<ButtonOutlineDark class="inline-flex w-full text-sm leading-5 py-4">
 							<template #iconWithText>
-								<Img class="w-5 h-5" src="./assets/svg/other/google.svg" alt="" />
+								<Img class="w-5 h-5" src="./assets/svg/buttons/google.svg" alt="" />
 								<span class="pl-2">Continue with Google</span>
 							</template>
 						</ButtonOutlineDark>

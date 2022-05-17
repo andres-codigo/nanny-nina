@@ -36,6 +36,9 @@
 						priceBackgroundAndTextColor="bg-white text-purple-900"
 						badgeClass="bg-lilac-50 text-purple-900"
 						badgeText="One-time"
+						bookingDuration="3 days"
+						startingTime="Start: 4pm Wed, 23/05"
+						numberOfChildren="2 children (2yr, 3yr)"
 					/>
 				</div>
 			</div>

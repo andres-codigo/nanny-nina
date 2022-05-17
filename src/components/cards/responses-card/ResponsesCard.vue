@@ -16,7 +16,7 @@
 				</div>
 
 				<div class="mb-3">
-					<h5 class="text-header-five font-bold antialiased">{{ title }}</h5>
+					<h5 class="w-80 text-ellipsis overflow-hidden  whitespace-nowrap text-header-five font-bold antialiased">{{ title }}</h5>
 					<slot name="details"></slot>
 				</div>
 

@@ -19,7 +19,7 @@ export default {
 		},
 		badgeSvg: {
 			type: String,
-			default: './assets/svg/other/hourglass.svg'
+			default: './assets/svg/badges/hourglass.svg'
 		},
 		badgeText: {
 			type: String,

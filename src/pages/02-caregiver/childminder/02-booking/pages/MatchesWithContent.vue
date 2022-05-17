@@ -16,11 +16,14 @@
 
 				<div class="flex flex-col pt-6 pb-12 mx-4">
 					<h4 class="text-header-four font-semibold antialiased mb-2">Your Matches</h4>
-					<p class="font-light text-gray-500 antialiased">All childminder bookings go to Portabase. To submit your hours & process payments please go here</p>
+					<p class="font-light text-gray-500 antialiased">All childminder bookings go to Portabase. To submit your hours & process.</p>
 				</div>
 
-				<div class="flex flex-col pb-10 px-12">
-					<PortabaseCard to="dashboard" class="text-purple-900 bg-lilac-100 hover:bg-lilac-300 focus:bg-lilac-400" title="Portabase" />
+				<div class="flex flex-col pb-20 px-12">
+					<PortabaseCard backgroundColor="bg-lilac-100" header="Portabase">
+						<!-- TODO: Need hover and focus hex values for anchor on lilac 100 background -->
+						<template #link><AnchorOutlineLight text="Go to Portabase" class="w-button-xl text-xl py-4 border-gray-500" /></template>
+					</PortabaseCard>
 				</div>
 
 				<div class="flex justify-center mb-20">
@@ -37,6 +40,7 @@
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import Tabs from '../../../../../components/navigation-and-tabs/Tabs.vue'
 import PortabaseCard from '../../../../../components/cards/portabase-card/PortabaseCard.vue'
+import AnchorOutlineLight from '../../../../../components/dom-elements/AnchorOutlineLight.vue'
 import Img from '../../../../../components/dom-elements/Img.vue'
 
 import { QuestionMarkCircleIcon } from '@heroicons/vue/solid'
@@ -46,6 +50,7 @@ export default {
 		TopNavigation,
 		Tabs,
 		PortabaseCard,
+		AnchorOutlineLight,
 		Img,
 		QuestionMarkCircleIcon
 	}

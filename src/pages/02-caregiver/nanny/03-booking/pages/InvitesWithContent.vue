@@ -24,13 +24,8 @@
 					<template #filter-four><JobListingFilterItem text="One time" /></template>
 				</JobListingFilter>
 
-				<div class="flex flex-row pt-6 mx-4">
-					<div class="basis-1/2">
-						<h4 class="text-header-four font-semibold antialiased">Your Invites</h4>
-					</div>
-					<div class="basis-1/2">
-						<div class="inline-flex float-right items-center"><Img src="./assets/svg/other/clock-outline.svg" /><a href="#" target="_self" class="anchor-blue anchor-with-underline ml-1">History</a></div>
-					</div>
+				<div class="pt-6 mx-4">
+					<h4 class="text-header-four font-semibold antialiased">Your Invites</h4>
 				</div>
 
 				<div class="flex flex-col pt-6 px-4">
@@ -46,7 +41,7 @@
 						title="The Alis"
 						:showHeart="true"
 						timeOrDate="Shared an hour ago > 7 responses"
-						badgeSvg="./assets/svg/other/lock.svg"
+						badgeSvg="./assets/svg/badges/lock.svg"
 						badgeClass="bg-green-400 text-purple-900"
 						badgeText="Recurring"
 					/>
@@ -55,7 +50,7 @@
 						title="The Van de Beeks"
 						timeOrDate="Shared an hour ago > 20 responses"
 						badgeClass="bg-lilac-100 text-purple-900"
-						badgeSvg="./assets/svg/other/event.svg"
+						badgeSvg="./assets/svg/badges/event.svg"
 						badgeText="Event"
 					/>
 
@@ -63,7 +58,7 @@
 						title="The Sanders"
 						timeOrDate="Shared an hour ago > 20 responses"
 						badgeClass="bg-rose-100 text-purple-900"
-						badgeSvg="./assets/svg/other/clock.svg"
+						badgeSvg="./assets/svg/badges/clock.svg"
 						badgeText="Urgent"
 					/>
 				</div>

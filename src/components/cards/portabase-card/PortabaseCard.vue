@@ -1,21 +1,13 @@
 <template>
-	<router-link :to="'/' + to" :class="class" class="inline-flex grow relative h-48 px-7 py-8 rounded-20px focus:outline-none">
-		<div>
-			<div class="flex flex-col">
-				<h4 class="inline-flex text-header-four font-bold antialiased">{{ title }} <Img :src="src" alt="" /></h4>
-				<slot name="details"></slot>
-			</div>
-
-			<div class="flex flex-col items-left" v-if="showPlaceholderSVG">
-				<!--
-					Image svg here
-					width, height (including div container) and position will need to be adjusted as assets not provided
-					<img src="*.svg" class="w-32 h-32 absolute -bottom-6"/>
-				-->
-				<Img class="w-48 h-48 absolute -left-6 -bottom-10" src="./assets/svg/other/placeholder.svg" alt="" />
-			</div>
+	<div :class="['flex flex-col relative h-48 py-8 rounded-20px', backgroundColor]">
+		<div class="inline-flex w-full justify-center">
+			<h4 :class="['inline-flex text-header-four font-bold antialiased', textColorHeader]">{{ header }} <Img :src="src" alt="" /></h4>
 		</div>
-	</router-link>
+
+		<div class="inline-flex w-full justify-center absolute bottom-[1.6rem]">
+			<slot name="link"></slot>
+		</div>
+	</div>
 </template>
 
 <script>
@@ -26,16 +18,15 @@ export default {
 		Img
 	},
 	props: {
-		to: String,
-		class: String,
-		title: String,
+		backgroundColor: String,
+		textColorHeader: {
+			type: String,
+			default: 'text-purple-900'
+		},
+		header: String,
 		src: {
 			type: String,
-			default: './assets/svg/other/arrow-right-up.svg'
-		},
-		showPlaceholderSVG: {
-			type: Boolean,
-			default: false
+			default: './assets/svg/cards/arrow-right-up.svg'
 		},
 	}
 }

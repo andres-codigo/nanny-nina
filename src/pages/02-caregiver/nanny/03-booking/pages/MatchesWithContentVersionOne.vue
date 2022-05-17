@@ -32,19 +32,19 @@
 						timeOrDate="Matched 22/03/2022"
 						badgeClass="bg-lilac-50 text-purple-900"
 						badgeText="One-time"
-						bookingDuration="One-time"
+						bookingDuration="3 days"
 					/>
 
 					<BookingCard
 						:isInvite="false"
 						:showHeart="true"
 						priceBackgroundAndTextColor="bg-white text-purple-900"
-						title="The Sanders"
+						title="The Alis"
 						timeOrDate="Matched 22/03/2022"
-						badgeSvg="./assets/svg/other/lock.svg"
+						badgeSvg="./assets/svg/badges/lock.svg"
 						badgeClass="bg-green-400 text-purple-900"
 						badgeText="Recurring"
-						bookingDuration="One-time"
+						bookingDuration="6 months"
 					/>
 				</div>
 			</div>

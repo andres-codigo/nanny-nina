@@ -1,7 +1,7 @@
 <template>
 	<div class="w-full">
 		<TopNavigation backgroundColor="bg-white" headerColor="text-purple-900" text="Location">
-			<template #iconRight><router-link to="/dashboard"><XIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
+			<template #iconRight><router-link :to="'/dashboard?tab=' + this.activeTab"><XIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
 			<div class="h-screen flex flex-col mx-4">
@@ -43,6 +43,11 @@ import ButtonPrimary from '../../components/buttons/ButtonPrimary.vue'
 import { XIcon } from '@heroicons/vue/solid'
 
 export default {
+	data() {
+		return {
+			activeTab: 1
+		}
+  	},
 	components: {
 		TopNavigation,
 		InputField,
@@ -51,6 +56,13 @@ export default {
 	},
 	props: {
 		title: String
+	},
+	mounted() {
+		if (window.location.href.indexOf("caregiver-nanny-service-onboarding") != -1) {
+			this.activeTab = 2
+		} else if (window.location.href.indexOf("host-nanny") != -1) {
+			this.activeTab = 3
+		}
 	}
 }
 </script>
