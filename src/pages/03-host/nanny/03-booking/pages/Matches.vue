@@ -18,7 +18,7 @@
 					:tabThreeIsActive="false"
 				/>
 
-				<BookingNotification src="./assets/svg/other/alarm.svg" message="Booking with The Sanders was updated!" :displayButton="true" />
+				<BookingNotification src="./assets/svg/notifications/alarm.svg" message="Booking with The Sanders was updated!" :displayButton="true" />
 
 				<div class="flex flex-col pt-6 mx-4">
 					<h4 class="text-header-four font-semibold antialiased mb-2">Your Matches</h4>
