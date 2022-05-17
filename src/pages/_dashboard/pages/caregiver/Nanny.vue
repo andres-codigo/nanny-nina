@@ -15,14 +15,14 @@
 		<ListItem
 			:subItem="false"
 			:hideNotes="false"
-			notes="Waiting on Design comment updates"
+			notes="Waiting on design updates"
 			date="06/05/22"
 			routerLinkPath="/caregiver-nanny-job-listings"
 			title="Job Listings"
 			textColor="text-purple-600"
-			textBadge="On Hold - UI/Design"
-			textColorBadge="text-amber-800"
-			backgroundColorBadge="bg-amber-100"
+			textBadge="Blocked - UI/Design"
+			textColorBadge="text-purple-900"
+			backgroundColorBadge="bg-melon-600"
 		/>
 		<ListItem
 			:subItem="false"
@@ -39,14 +39,14 @@
 		<ListItem
 			:subItem="false"
 			:hideNotes="false"
-			notes="Waiting on Design comment updates"
+			notes="Waiting on design updates"
 			date="06/05/22"
 			routerLinkPath="/caregiver-nanny-parent-profile"
 			title="Parent Profile"
 			textColor="text-purple-600"
-			textBadge="On Hold - UI/Design"
-			textColorBadge="text-amber-800"
-			backgroundColorBadge="bg-amber-100"
+			textBadge="Blocked - UI/Design"
+			textColorBadge="text-purple-900"
+			backgroundColorBadge="bg-melon-600"
 		/>
 		<ListItem
 			:subItem="false"
@@ -75,14 +75,14 @@
 		<ListItem
 			:subItem="false"
 			:hideNotes="false"
-			notes="Waiting on Design comment updates"
+			notes="Waiting on answers to Figma comments and design updates & solution to introduction of new profile switching"
 			date="17/05/22"
 			routerLinkPath="/caregiver-nanny-booking"
 			title="Booking"
 			textColor="text-purple-600"
-			textBadge="On Hold - UI/Design"
-			textColorBadge="text-amber-800"
-			backgroundColorBadge="bg-amber-100"
+			textBadge="Blocked - UI/Design"
+			textColorBadge="text-purple-900"
+			backgroundColorBadge="bg-melon-600"
 		/>
 		<ListItem
 			:subItem="false"
