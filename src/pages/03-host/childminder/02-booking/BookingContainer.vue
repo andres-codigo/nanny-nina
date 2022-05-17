@@ -1,8 +1,8 @@
 <template>
 	<div class="flex flex-wrap grow gap-y-6 gap-x-4">
-		<!-- <ResponsesWithContent class="max-w-450-for-dev-not-prod" /> -->
-		<CandidatesWithContent  />
-		<!-- <MatchesWithContent class="max-w-450-for-dev-not-prod" /> -->
+		<ResponsesWithContent class="max-w-450-for-dev-not-prod" />
+		<CandidatesWithContent class="max-w-450-for-dev-not-prod" />
+		<MatchesWithContent class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 
