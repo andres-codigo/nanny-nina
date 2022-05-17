@@ -9,11 +9,11 @@
 </template>
 
 <script>
-import NewRequest from './pages/onboarding/NewRequest.vue'
-import PersonalityTest from './pages/onboarding/PersonalityTest.vue'
-import SearchPreferencesPartOne from './pages/onboarding/SearchPreferencesPartOne.vue'
-import SearchPreferencesPartTwo from './pages/onboarding/SearchPreferencesPartTwo.vue'
-import IntakeCall from './pages/onboarding/IntakeCall.vue'
+import NewRequest from './pages/NewRequest.vue'
+import PersonalityTest from './pages/PersonalityTest.vue'
+import SearchPreferencesPartOne from './pages/SearchPreferencesPartOne.vue'
+import SearchPreferencesPartTwo from './pages/SearchPreferencesPartTwo.vue'
+import IntakeCall from './pages/IntakeCall.vue'
 
 export default {
 	components: {

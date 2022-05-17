@@ -46,10 +46,10 @@ import HostNannyBookingContainer from '../pages/03-host/nanny/03-booking/Booking
 import HostNannyBookingProfile from '../pages/03-host/nanny/03-booking/pages/NannyProfile.vue'
 
 /* Host - Childminder */
-import HostChildminderContainer from '../pages/03-host/childminder/HostChildminderContainer.vue'
+import HostChildminderContainer from '../pages/03-host/childminder/01-onboarding/HostChildminderContainer.vue'
 
 /* Host - Au Pair */
-import HostAuPairContainer from '../pages/03-host/au-pair/HostAuPairContainer.vue'
+import HostAuPairContainer from '../pages/03-host/au-pair/01-onboarding/HostAuPairContainer.vue'
 
 const routes = [
 	{
