@@ -45,7 +45,7 @@
 						class="text-white bg-purple-500 hover:bg-purple-300 focus:bg-purple-600"
 						badgeClass="bg-lilac-100 text-purple-900"
 						badgeText="Event nanny"
-						badgeSvg="./assets/svg/other/event.svg"
+						badgeSvg="./assets/svg/badges/event.svg"
 						title="Birthday party in Amsteveen">
 						<template #details><p class="text-xs text-white pt-1">Shared 5mins ago > 20+ responses</p></template>
 						<template #chevron><ChevronRightIcon class="absolute right-2 top-28 w-8 h-8" aria-hidden="true" /></template>

@@ -37,7 +37,7 @@
 					</ReferenceCard>
 
 					<ReferenceCard
-						src="./assets/svg/other/sml-profile-placeholder.svg"
+						src="./assets/svg/placeholder/sml-profile-placeholder.svg"
 						name="David"
 						position="Designer"
 					>
@@ -52,7 +52,7 @@
 					<div class="flex flex-col w-full mb-40">
 						<div class="inline-flex grow mt-4 mb-10">
 							<div class="w-16">
-								<Img class="h-16 w-16 rounded-full" src="./assets/svg/other/sml-via-friend-placeholder.svg" alt="" />
+								<Img class="h-16 w-16 rounded-full" src="./assets/svg/placeholder/sml-via-friend-placeholder.svg" alt="" />
 							</div>
 							<div class="ml-4">
 								<h6 class="text-header-six font-semibold antialiased">Via friend in community</h6>

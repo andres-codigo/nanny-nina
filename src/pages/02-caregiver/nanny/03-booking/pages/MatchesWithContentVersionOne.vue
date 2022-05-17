@@ -41,7 +41,7 @@
 						priceBackgroundAndTextColor="bg-white text-purple-900"
 						title="The Sanders"
 						timeOrDate="Matched 22/03/2022"
-						badgeSvg="./assets/svg/other/lock.svg"
+						badgeSvg="./assets/svg/badges/lock.svg"
 						badgeClass="bg-green-400 text-purple-900"
 						badgeText="Recurring"
 						bookingDuration="One-time"

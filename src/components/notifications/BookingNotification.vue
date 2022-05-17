@@ -10,7 +10,7 @@
 			</div>
 		</div>
 		<div class="inline-flex justify-center w-14 h-28 mt-4 cursor-pointer">
-			<Img src="./assets/svg/other/close-background-purple.svg" class="w-6 h-6 text-purple-500" />
+			<Img src="./assets/svg/notifications/close-background-purple.svg" class="w-6 h-6 text-purple-500" />
 		</div>
 	</div>
 </template>

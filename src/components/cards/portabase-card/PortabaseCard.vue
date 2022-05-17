@@ -26,7 +26,7 @@ export default {
 		header: String,
 		src: {
 			type: String,
-			default: './assets/svg/other/arrow-right-up.svg'
+			default: './assets/svg/cards/arrow-right-up.svg'
 		},
 	}
 }

@@ -18,12 +18,12 @@
 
 					<div class="flex flex-wrap gap-0 gap-y-2 mt-4">
 						<div class="inline-flex items-center">
-							<Img src="./assets/svg/other/star-solid-gold.svg" class="w-5 h-5" />
+							<Img src="./assets/svg/stars/star-solid-gold.svg" class="w-5 h-5" />
 							<span class="pl-1 text-sm font-semibold">(4.5/5)</span>
 							<span class="h-1 w-1 bg-gray-500 rounded-full mx-1"></span>
 						</div>
 						<div class="inline-flex items-center">
-							<Img src="./assets/svg/other/cake.svg" class="w-5 h-5" />
+							<Img src="./assets/svg/profile/cake.svg" class="w-5 h-5" />
 							<span class="pl-1 text-sm">20th September</span>
 						</div>
 						<div class="inline-flex items-center">
@@ -32,7 +32,7 @@
 						</div>
 						<div class="inline-flex items-center">
 							<span class="h-1 w-1 bg-gray-500 rounded-full mx-1"></span>
-							<Img src="./assets/svg/other/medal-gold.svg" class="w-5 h-5" />
+							<Img src="./assets/svg/profile/medal-gold.svg" class="w-5 h-5" />
 							<span class="pl-1 text-sm">Creative</span>
 						</div>
 					</div>
@@ -46,27 +46,27 @@
 
 					<div class="flex flex-col gap-y-2 font-semibold my-4">
 						<div class="inline-flex items-center">
-							<Img src="./assets/svg/other/tick-white-green-background.svg" class="w-4 h-4" />
+							<Img src="./assets/svg/ticks-and-crosses/tick-white-green-background.svg" class="w-4 h-4" />
 							<span class="ml-2">Monday 24th February</span>
 						</div>
 						<div class="inline-flex items-center">
-							<Img src="./assets/svg/other/tick-white-green-background.svg" class="w-4 h-4" />
+							<Img src="./assets/svg/ticks-and-crosses/tick-white-green-background.svg" class="w-4 h-4" />
 							<span class="ml-2">Tuesday 25th February</span>
 						</div>
 						<div class="inline-flex items-center">
-							<Img src="./assets/svg/other/tick-white-green-background.svg" class="w-4 h-4" />
+							<Img src="./assets/svg/ticks-and-crosses/tick-white-green-background.svg" class="w-4 h-4" />
 							<span class="ml-2">Wednesday 26th February</span>
 						</div>
 						<div class="inline-flex items-center">
-							<Img src="./assets/svg/other/remove-gray.svg" class="w-4 h-4" />
+							<Img src="./assets/svg/ticks-and-crosses/cross-remove-gray.svg" class="w-4 h-4" />
 							<span class="ml-2 text-gray-100">Thursday 27th February</span>
 						</div>
 						<div class="inline-flex items-center">
-							<Img src="./assets/svg/other/remove-gray.svg" class="w-4 h-4" />
+							<Img src="./assets/svg/ticks-and-crosses/cross-remove-gray.svg" class="w-4 h-4" />
 							<span class="ml-2 text-gray-100">Friday 28th February</span>
 						</div>
 						<div class="inline-flex items-center">
-							<Img src="./assets/svg/other/remove-gray.svg" class="w-4 h-4" />
+							<Img src="./assets/svg/ticks-and-crosses/cross-remove-gray.svg" class="w-4 h-4" />
 							<span class="ml-2 text-gray-100">Saturday 29th February</span>
 						</div>
 						<div class="pt-1">

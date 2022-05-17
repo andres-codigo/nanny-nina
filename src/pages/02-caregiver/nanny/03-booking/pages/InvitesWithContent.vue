@@ -46,7 +46,7 @@
 						title="The Alis"
 						:showHeart="true"
 						timeOrDate="Shared an hour ago > 7 responses"
-						badgeSvg="./assets/svg/other/lock.svg"
+						badgeSvg="./assets/svg/badges/lock.svg"
 						badgeClass="bg-green-400 text-purple-900"
 						badgeText="Recurring"
 					/>
@@ -55,7 +55,7 @@
 						title="The Van de Beeks"
 						timeOrDate="Shared an hour ago > 20 responses"
 						badgeClass="bg-lilac-100 text-purple-900"
-						badgeSvg="./assets/svg/other/event.svg"
+						badgeSvg="./assets/svg/badges/event.svg"
 						badgeText="Event"
 					/>
 
@@ -63,7 +63,7 @@
 						title="The Sanders"
 						timeOrDate="Shared an hour ago > 20 responses"
 						badgeClass="bg-rose-100 text-purple-900"
-						badgeSvg="./assets/svg/other/clock.svg"
+						badgeSvg="./assets/svg/badges/clock.svg"
 						badgeText="Urgent"
 					/>
 				</div>

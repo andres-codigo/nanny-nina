@@ -11,7 +11,7 @@
 				width, height (including div container) and bottom position will need to be adjusted as assets not provided
 				<img src="*.svg" class="w-32 h-32 absolute -bottom-6"/>
 			-->
-			<Img class="w-48 h-48 absolute bottom-9" src="./assets/svg/other/placeholder.svg" alt="" />
+			<Img class="w-48 h-48 absolute bottom-9" src="./assets/svg/placeholder/placeholder.svg" alt="" />
 		</div>
 
 		<div class="inline-flex w-full justify-center absolute bottom-[1.6rem]">
