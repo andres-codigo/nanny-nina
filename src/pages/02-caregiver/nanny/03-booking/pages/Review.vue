@@ -37,7 +37,7 @@
 					</div>
 
 					<div class="flex justify-center mb-20">
-						<ButtonPrimary text="Send" class="w-button-sm text-xl py-4" />
+						<ButtonPrimary text="Submit" class="w-button-sm text-xl py-4" />
 					</div>
 				</form>
 			</div>

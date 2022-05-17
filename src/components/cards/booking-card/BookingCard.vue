@@ -1,6 +1,6 @@
 <template>
 	<div class="inline-flex w-full border border-gray-50 hover:border hover:border-gray-500 rounded-3xl mb-4">
-		<a href="/" target="_self" class="w-full h-card-au-pair focus:opacity-60">
+		<a href="/" target="_self" class="w-full h-card-booking-match focus:opacity-60">
 			<div :class="['flex flex-row rounded-t-3xl', tempBackgroundColor]">
 				<div class="relative grow h-64 overflow-hidden">
 					<span :class="['absolute left-4 top-8 w-24 inline-flex rounded-3xl justify-center font-semibold px-2', priceBackgroundAndTextColor]">€16-18/hr</span>

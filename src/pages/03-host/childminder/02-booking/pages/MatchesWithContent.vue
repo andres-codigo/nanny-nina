@@ -7,44 +7,36 @@
 			<div class="flex flex-col">
 				<Tabs
 					tabOneClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
-					tabOneText="Invites"
+					tabOneText="Responses"
 					:tabOneIsActive="false"
 					tabTwoClasses="text-purple-900"
 					tabTwoText="Matches"
 					:tabTwoIsActive="true"
-					:displayThirdTab="true"
-					tabThreeClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
-					tabThreeText="Applications"
-					:tabThreeIsActive="false"
 				/>
 
-				<div class="flex flex-col pt-6 mx-4">
-					<h4 class="text-header-four font-semibold antialiased mb-2">Your Matches</h4>
-					<p class="font-light text-gray-500 antialiased">Booking days to come</p>
+				<div class="flex flex-row pt-6 mx-4">
+					<div class="basis-1/2">
+						<h4 class="text-header-four font-semibold antialiased">Your Matches</h4>
+					</div>
+					<div class="basis-1/2">
+						<div class="inline-flex float-right items-center"><Img src="./assets/svg/other/clock-outline.svg" /><a href="#" target="_self" class="anchor-blue anchor-with-underline ml-1">Completed</a></div>
+					</div>
 				</div>
 
 				<div class="flex flex-col pt-6 px-4">
 
-					<BookingCard
-						:isInvite="false"
-						priceBackgroundAndTextColor="bg-white text-purple-900"
-						title="The Sanders"
-						timeOrDate="Matched 22/03/2022"
+					<MatchCard
+						:showHeart="true"
 						badgeClass="bg-lilac-50 text-purple-900"
-						badgeText="One-time"
-						bookingDuration="3 days"
+						badgeText="6 days left"
+						bookingPrice="Payment due: €60"
 					/>
 
-					<BookingCard
-						:isInvite="false"
+					<MatchCard
 						:showHeart="true"
-						priceBackgroundAndTextColor="bg-white text-purple-900"
-						title="The Alis"
-						timeOrDate="Matched 22/03/2022"
-						badgeSvg="./assets/svg/badges/lock.svg"
+						badgeSvg="./assets/svg/badges/hourglass.svg"
 						badgeClass="bg-green-400 text-purple-900"
 						badgeText="Recurring"
-						bookingDuration="6 months"
 					/>
 				</div>
 			</div>
@@ -55,7 +47,8 @@
 <script>
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import Tabs from '../../../../../components/navigation-and-tabs/Tabs.vue'
-import BookingCard from '../../../../../components/cards/booking-card/BookingCard.vue'
+import Img from '../../../../../components/dom-elements/Img.vue'
+import MatchCard from '../../../../../components/cards/match-card/MatchCard.vue'
 
 import { QuestionMarkCircleIcon, ClockIcon, LightBulbIcon } from '@heroicons/vue/solid'
 
@@ -63,7 +56,8 @@ export default {
 	components: {
 		TopNavigation,
 		Tabs,
-		BookingCard,
+		Img,
+		MatchCard,
 		QuestionMarkCircleIcon,
 		ClockIcon,
 		LightBulbIcon

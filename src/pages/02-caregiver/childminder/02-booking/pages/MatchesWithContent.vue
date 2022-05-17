@@ -16,7 +16,7 @@
 
 				<div class="flex flex-col pt-6 pb-12 mx-4">
 					<h4 class="text-header-four font-semibold antialiased mb-2">Your Matches</h4>
-					<p class="font-light text-gray-500 antialiased">All childminder bookings go to Portabase. To submit your hours & process payments please go here</p>
+					<p class="font-light text-gray-500 antialiased">All childminder bookings go to Portabase. To submit your hours & process.</p>
 				</div>
 
 				<div class="flex flex-col pb-20 px-12">

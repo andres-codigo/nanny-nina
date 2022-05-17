@@ -24,13 +24,8 @@
 					<template #filter-four><JobListingFilterItem text="One time" /></template>
 				</JobListingFilter>
 
-				<div class="flex flex-row pt-6 mx-4">
-					<div class="basis-1/2">
-						<h4 class="text-header-four font-semibold antialiased">Your Invites</h4>
-					</div>
-					<div class="basis-1/2">
-						<div class="inline-flex float-right items-center"><Img src="./assets/svg/other/clock-outline.svg" /><a href="#" target="_self" class="anchor-blue anchor-with-underline ml-1">History</a></div>
-					</div>
+				<div class="pt-6 mx-4">
+					<h4 class="text-header-four font-semibold antialiased">Your Invites</h4>
 				</div>
 
 				<div class="flex flex-col pt-6 px-4">

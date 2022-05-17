@@ -125,7 +125,7 @@ module.exports = {
 				'header-six': ['1.125rem', '1.4rem'], 		/* 18px */
 			},
 			height: {
-				'card-au-pair': '30rem',
+				'card-booking-match': '30rem',
 				/* Icons */
 				/* Review - Leave Tip */
 				'icon-review-tip': '5.75rem'
