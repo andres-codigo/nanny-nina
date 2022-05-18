@@ -18,17 +18,17 @@
 					:tabThreeIsActive="false"
 				/>
 
-				<BookingNotification src="./assets/svg/notifications/alarm.svg" message="Booking with The Sanders was changed!" :displayButton="true" />
+				<BookingNotification src="./assets/svg/notifications/alarm.svg" message="Sanders booking has changed!" :displayButton="true" />
 
 				<div class="flex flex-col pt-6 mx-4">
 					<h4 class="text-header-four font-semibold antialiased mb-2">Your Matches</h4>
-					<p class="font-light text-gray-500 antialiased">View booking information and weekly hours</p>
+					<p class="font-light antialiased">View booking information and weekly hours</p>
 				</div>
 
 				<div class="flex flex-col pt-6 px-4">
 
 					<BookingCard
-						:isInvite="false"
+						:isLockedMatch="false"
 						priceBackgroundAndTextColor="bg-white text-purple-900"
 						title="The Sanders"
 						timeOrDate="Matched 22/03/2022"
@@ -38,7 +38,7 @@
 					/>
 
 					<BookingCard
-						:isInvite="false"
+						:isLockedMatch="false"
 						priceBackgroundAndTextColor="bg-white text-purple-900"
 						title="The Jeffersons"
 						timeOrDate="Started 22/03/2022"

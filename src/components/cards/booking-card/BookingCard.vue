@@ -4,7 +4,7 @@
 			<div :class="['flex flex-row rounded-t-3xl', tempBackgroundColor]">
 				<div class="relative grow h-64 overflow-hidden">
 					<span :class="['absolute left-4 top-8 w-24 inline-flex rounded-3xl justify-center font-semibold px-2', priceBackgroundAndTextColor]">€16-18/hr</span>
-					<span :class="['absolute right-0 top-8 w-11', showHeart ? '' : 'hidden']"><Img src="./assets/svg/other/heart.svg" class="w-6 h-6" alt="" /></span>
+					<span :class="['absolute right-0 top-7 w-11', showHeart ? '' : 'hidden']"><Img src="./assets/svg/other/heart.svg" class="w-9 h-9" alt="" /></span>
 					<!--
 						Image svg/png here
 						<img src="*.svg" class="rounded-t-3xl" />
@@ -17,17 +17,17 @@
 				<div class="flex flex-row my-6">
 					<div class="basis-2/3">
 						<h4 class="text-header-four font-semibold antialiased mb-2">{{ title }}</h4>
-						<p class="text-sm text-gray-500 font-thin">{{ timeOrDate }}</p>
+						<p class="text-sm text-gray-500 font-thin leading-none">{{ timeOrDate }}</p>
 					</div>
 					<div class="basis-1/3">
-						<BadgeBookingType :class="badgeClass" :badgeSvg="badgeSvg" :badgeText="badgeText" />
+						<BadgeBookingType :badgeClass="badgeClass" :badgeSvg="badgeSvg" :badgeText="badgeText" />
 					</div>
 				</div>
 				<div class="flex flex-row mb-4 items-center">
 					<div class="flex-none w-5"><LocationMarkerIcon class="w-5 h-5" /></div>
 
 					<!-- Invites -->
-					<div class="inline-flex grow items-center font-thin ml-1" v-if="isInvite">
+					<div class="inline-flex grow items-center font-thin ml-1" v-if="isLockedMatch">
 						2km away
 						<Dot />
 						<country-flag country='nl' size='small'/>
@@ -105,7 +105,7 @@ export default {
 			type: String,
 			default: 'https://images.unsplash.com/photo-1543721482-bc95ff1f1dea'
 		},
-		isInvite: {
+		isLockedMatch: {
 			type: Boolean,
 			default: true
 		},

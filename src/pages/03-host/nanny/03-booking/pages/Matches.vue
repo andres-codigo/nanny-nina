@@ -22,14 +22,14 @@
 
 				<div class="flex flex-col pt-6 mx-4">
 					<h4 class="text-header-four font-semibold antialiased mb-2">Your Matches</h4>
-					<p class="font-light text-gray-500 antialiased">View booking information and weekly hours</p>
+					<p class="font-light antialiased">View booking information and weekly hours</p>
 				</div>
 
 				<div class="flex flex-col pt-6 px-4">
 
 					<BookingCard
 						priceBackgroundAndTextColor="bg-white"
-						:isInvite="false"
+						:isLockedMatch="false"
 						title="The Sanders"
 						timeOrDate="Matched 22/03/2022"
 						bookingDuration="One-time"
@@ -37,7 +37,7 @@
 
 					<BookingCard
 						priceBackgroundAndTextColor="bg-white"
-						:isInvite="false"
+						:isLockedMatch="false"
 						title="The Jeffersons"
 						timeOrDate="Matched 22/03/2022"
 						bookingDuration="One-time"

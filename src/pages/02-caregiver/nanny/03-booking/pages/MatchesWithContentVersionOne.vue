@@ -20,13 +20,13 @@
 
 				<div class="flex flex-col pt-6 mx-4">
 					<h4 class="text-header-four font-semibold antialiased mb-2">Your Matches</h4>
-					<p class="font-light text-gray-500 antialiased">Booking days to come</p>
+					<p class="font-light antialiased">View booking information and update your hours</p>
 				</div>
 
 				<div class="flex flex-col pt-6 px-4">
 
 					<BookingCard
-						:isInvite="false"
+						:isLockedMatch="false"
 						priceBackgroundAndTextColor="bg-white text-purple-900"
 						title="The Sanders"
 						timeOrDate="Matched 22/03/2022"
@@ -36,7 +36,7 @@
 					/>
 
 					<BookingCard
-						:isInvite="false"
+						:isLockedMatch="true"
 						:showHeart="true"
 						priceBackgroundAndTextColor="bg-white text-purple-900"
 						title="The Alis"
