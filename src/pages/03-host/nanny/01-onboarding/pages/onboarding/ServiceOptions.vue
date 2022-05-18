@@ -11,9 +11,9 @@
 				</div>
 				<div class="flex flex-col justify-center items-center">
 					<ul role="list" class="w-full">
-						<CheckListItem pageBackgroundColor="purple" :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isHostOptionDescription="true" title="Au Pair" description="Live in nanny: 375 euro/ month" />
-						<CheckListItem pageBackgroundColor="purple" :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isHostOptionDescription="true" title="Nanny" description="Last minute,One-time, Recurring or Event nanny" />
-						<CheckListItem pageBackgroundColor="purple" :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isHostOptionDescription="true" title="Childminder" description="Nanny with subsidy: for full days" />
+						<ChecklistItem pageBackgroundColor="purple" :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isHostOptionDescription="true" title="Au Pair" description="Live in nanny: 375 euro/ month" />
+						<ChecklistItem pageBackgroundColor="purple" :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isHostOptionDescription="true" title="Nanny" description="Last minute,One-time, Recurring or Event nanny" />
+						<ChecklistItem pageBackgroundColor="purple" :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isHostOptionDescription="true" title="Childminder" description="Nanny with subsidy: for full days" />
 					</ul>
 				</div>
 				<div class="justify-center mt-4">
@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import CheckListItem from '../../../../../../components/checklist/ChecklistItem.vue'
+import ChecklistItem from '../../../../../../components/checklist/ChecklistItem.vue'
 import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
 
 import { XIcon, ChevronRightIcon } from '@heroicons/vue/solid'
@@ -33,7 +33,7 @@ import { XIcon, ChevronRightIcon } from '@heroicons/vue/solid'
 export default {
 	components: {
 		TopNavigation,
-		CheckListItem,
+		ChecklistItem,
 		XIcon,
 		ChevronRightIcon
 	}

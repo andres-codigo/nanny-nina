@@ -19,21 +19,21 @@
 					<div class="flex flex-wrap gap-0 gap-y-2 mt-4">
 						<div class="inline-flex items-center">
 							<Img src="./assets/svg/stars/star-solid-gold.svg" class="w-5 h-5" />
-							<span class="pl-1 text-sm font-semibold">(4.5/5)</span>
+							<span class="pl-1 text-sm font-semibold leading-none">(4.5/5)</span>
 							<Dot color="bg-gray-500" />
 						</div>
 						<div class="inline-flex items-center">
 							<Img src="./assets/svg/profile/cake.svg" class="w-5 h-5" />
-							<span class="pl-1 text-sm">20th September</span>
+							<span class="pl-1 text-sm leading-none">20th September</span>
 						</div>
 						<div class="inline-flex items-center">
 							<Dot color="bg-gray-500" />
-							<span class="pl-1 text-sm">27 yrs</span>
+							<span class="pl-1 text-sm leading-none">27 yrs</span>
 						</div>
 						<div class="inline-flex items-center">
 							<Dot color="bg-gray-500" />
 							<Img src="./assets/svg/profile/medal-gold.svg" class="w-5 h-5" />
-							<span class="pl-1 text-sm">Creative</span>
+							<span class="pl-1 text-sm leading-none">Creative</span>
 						</div>
 					</div>
 

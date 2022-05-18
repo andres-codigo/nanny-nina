@@ -130,6 +130,9 @@ module.exports = {
 				/* Review - Leave Tip */
 				'icon-review-tip': '5.75rem'
 			},
+			minHeight: {
+				'pop-up-notification': '9.063rem',
+			},
 			spacing: {
 				"safe-top": "env(safe-area-inset-top)",
 				"safe-bottom": "env(safe-area-inset-bottom)",

@@ -16,7 +16,7 @@
 						<p class="font-light">You can always adjust this later in your profile</p>
 
 						<ul role="list" class="mt-8">
-							<CheckListItem
+							<ChecklistItem
 								:checkListItemIsHyperlink="true"
 								:hideContent="false"
 								:hidePending="true"
@@ -25,8 +25,8 @@
 								description="Choose the days &amp; time you want to work"
 							>
 								<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-green-800" aria-hidden="true" /></template>
-							</CheckListItem>
-							<CheckListItem
+							</ChecklistItem>
+							<ChecklistItem
 								:checkListItemIsHyperlink="true"
 								:hideContent="false"
 								:hidePending="true"
@@ -35,8 +35,8 @@
 								description="This will help us to find a good match"
 							>
 								<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-gray-500" aria-hidden="true" /></template>
-							</CheckListItem>
-							<CheckListItem
+							</ChecklistItem>
+							<ChecklistItem
 								:hideStatusIcon="true"
 								:checkListItemIsHyperlink="false"
 								:hideContent="false"
@@ -48,7 +48,7 @@
 								:hideHyperlinkIcon="true"
 							>
 								<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-gray-500" aria-hidden="true" /></template>
-							</CheckListItem>
+							</ChecklistItem>
 						</ul>
 					</div>
 
@@ -74,7 +74,7 @@ import CompletedStep from '../../../../../../components/steps/types/CompletedSte
 import CurrentStep from '../../../../../../components/steps/types/CurrentStep.vue'
 import UpcomingStep from '../../../../../../components/steps/types/UpcomingStep.vue'
 
-import CheckListItem from '../../../../../../components/checklist/ChecklistItem.vue'
+import ChecklistItem from '../../../../../../components/checklist/ChecklistItem.vue'
 import RadioQuestionsLabelLeftInputRight from '../../../../../../components/form/RadioQuestionsLabelLeftInputRight.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 import AnchorTextOnly from '../../../../../../components/dom-elements/AnchorTextOnly.vue'
@@ -88,7 +88,7 @@ export default {
 		CompletedStep,
 		CurrentStep,
 		UpcomingStep,
-		CheckListItem,
+		ChecklistItem,
 		RadioQuestionsLabelLeftInputRight,
 		ButtonPrimary,
 		AnchorTextOnly,
