@@ -7,8 +7,8 @@
 			<div class="flex flex-col pt-12 px-4">
 				<form class="w-full" action="#" method="POST">
 					<div class="flex flex-col mb-4">
-						<h5 class="inline-flex items-baseline text-header-five font-semibold antialiased mb-2">The Sanders<span class="text-4xl mx-1">4/5</span><Img src="./assets/svg/stars/star-solid-gold.svg" /></h5>
-						<p class="font-sm">What did you think of The Sanders?</p>
+						<h5 class="inline-flex items-baseline text-header-five font-semibold antialiased mb-2">Sanders<span class="mx-2">4/5</span><Img src="./assets/svg/stars/star-solid-gold.svg" /></h5>
+						<p class="font-sm font-light">What did you think of The Sanders?</p>
 					</div>
 
 					<div class="mb-10">

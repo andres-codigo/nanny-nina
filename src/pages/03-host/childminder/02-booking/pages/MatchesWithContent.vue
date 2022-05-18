@@ -4,17 +4,17 @@
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col">
-				<Tabs
-					tabOneClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
-					tabOneText="Responses"
-					:tabOneIsActive="false"
-					tabTwoClasses="text-purple-900"
-					tabTwoText="Matches"
-					:tabTwoIsActive="true"
-				/>
+			<Tabs
+				tabOneClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
+				tabOneText="Responses"
+				:tabOneIsActive="false"
+				tabTwoClasses="text-purple-900"
+				tabTwoText="Matches"
+				:tabTwoIsActive="true"
+			/>
+			<div class="flex flex-col mx-4">
 
-				<div class="flex flex-row pt-6 mx-4">
+				<div class="flex flex-row pt-6">
 					<div class="basis-1/2">
 						<h4 class="text-header-four font-semibold antialiased">Your Matches</h4>
 					</div>
@@ -23,8 +23,7 @@
 					</div>
 				</div>
 
-				<div class="flex flex-col pt-6 px-4">
-
+				<div class="flex flex-col pt-6">
 					<CandidateMatchCard
 						:showHeart="true"
 						badgeClass="bg-lilac-50 text-purple-900"

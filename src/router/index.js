@@ -44,6 +44,7 @@ import HostNannyAvailabilityWithFixedContentBottom from '../pages/03-host/nanny/
 import HostRequestOverviewWithFixedContentBottom from '../pages/03-host/nanny/01-onboarding/pages/request-overview/RequestOverviewWithFixedContentBottom.vue'
 import HostNannyBookingContainer from '../pages/03-host/nanny/03-booking/BookingContainer.vue'
 import HostNannyBookingProfile from '../pages/03-host/nanny/03-booking/pages/NannyProfile.vue'
+import HostNannyBookingResponsesTabWithPopUp from '../pages/03-host/nanny/03-booking/pages/pop-ups/ResponsesTabWithPopUp.vue'
 
 /* Host - Childminder */
 import HostChildminderContainer from '../pages/03-host/childminder/01-onboarding/HostChildminderContainer.vue'
@@ -224,6 +225,11 @@ const routes = [
 	{
 		path: '/host-nanny-booking-profile',
 		component: HostNannyBookingProfile,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/host-nanny-booking-response-tab-with-pop-up',
+		component: HostNannyBookingResponsesTabWithPopUp,
 		meta: { transition: 'slide-right-to-left' }
 	},
 

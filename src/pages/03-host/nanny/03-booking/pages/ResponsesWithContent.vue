@@ -4,20 +4,20 @@
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col mx-4">
-				<Tabs
-					tabOneClasses="text-purple-900"
-					tabOneText="Responses"
-					:tabOneIsActive="true"
-					tabTwoClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
-					tabTwoText="Matches"
-					:tabTwoIsActive="false"
-					:displayThirdTab="true"
-					tabThreeClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
-					tabThreeText="History"
-					:tabThreeIsActive="false"
-				/>
+			<Tabs
+				tabOneClasses="text-purple-900"
+				tabOneText="Responses"
+				:tabOneIsActive="true"
+				tabTwoClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
+				tabTwoText="Matches"
+				:tabTwoIsActive="false"
+				:displayThirdTab="true"
+				tabThreeClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
+				tabThreeText="History"
+				:tabThreeIsActive="false"
+			/>
 
+			<div class="flex flex-col mx-4">
 				<div class="pt-6 mx-4 mb-4">
 					<h4 class="text-header-four font-semibold antialiased">Your Responses</h4>
 				</div>
@@ -28,8 +28,8 @@
 						badgeClass="bg-lilac-100 text-purple-900"
 						badgeText="One-time nanny"
 						title="After School Nanny Needed...">
-						<template #details><p class="text-xs text-purple-900 pt-1">Shared 5mins ago > 20+ responses</p></template>
-						<template #chevron><ChevronRightIcon class="absolute right-2 top-28 w-8 h-8" aria-hidden="true" /></template>
+						<template #details><p class="text-xs text-purple-900 pt-1 leading-none">Shared 5mins ago > 20+ responses</p></template>
+						<template #chevron><ChevronRightIcon class="absolute right-4 top-28 w-8 h-8" aria-hidden="true" /></template>
 					</ResponsesCard>
 
 					<ResponsesCard
@@ -37,8 +37,8 @@
 						badgeClass="bg-green-50 text-purple-900"
 						badgeText="Recurring nanny"
 						title="Nanny needed every week..">
-						<template #details><p class="text-xs text-purple-900 pt-1">Shared 5mins ago > 20+ responses</p></template>
-						<template #chevron><ChevronRightIcon class="absolute right-2 top-28 w-8 h-8" aria-hidden="true" /></template>
+						<template #details><p class="text-xs text-purple-900 pt-1 leading-none">Shared 5mins ago > 20+ responses</p></template>
+						<template #chevron><ChevronRightIcon class="absolute right-4 top-28 w-8 h-8" aria-hidden="true" /></template>
 					</ResponsesCard>
 
 					<ResponsesCard
@@ -48,7 +48,7 @@
 						badgeSvg="./assets/svg/badges/event.svg"
 						title="Birthday party in Amsteveen">
 						<template #details><p class="text-xs text-white pt-1">Shared 5mins ago > 20+ responses</p></template>
-						<template #chevron><ChevronRightIcon class="absolute right-2 top-28 w-8 h-8" aria-hidden="true" /></template>
+						<template #chevron><ChevronRightIcon class="absolute right-4 top-28 w-8 h-8" aria-hidden="true" /></template>
 					</ResponsesCard>
 				</div>
 			</div>

@@ -5,7 +5,8 @@
 		<MatchesWithContentVersionTwo class="max-w-450-for-dev-not-prod" />
 		<WorkingHours class="max-w-450-for-dev-not-prod"  />
 		<Review class="max-w-450-for-dev-not-prod"  />
-		<ApplicationsWithContent class="max-w-450-for-dev-not-prod"  />
+		<ApplicationsPendingWithContent class="max-w-450-for-dev-not-prod"  />
+		<ApplicationsUnmatchedWithContent class="max-w-450-for-dev-not-prod"  />
 	</div>
 </template>
 
@@ -15,7 +16,8 @@ import MatchesWithContentVersionOne from './pages/MatchesWithContentVersionOne.v
 import MatchesWithContentVersionTwo from './pages/MatchesWithContentVersionTwo.vue'
 import WorkingHours from './pages/WorkingHours.vue'
 import Review from './pages/Review.vue'
-import ApplicationsWithContent from './pages/ApplicationsWithContent.vue'
+import ApplicationsPendingWithContent from './pages/ApplicationsPendingWithContent.vue'
+import ApplicationsUnmatchedWithContent from './pages/ApplicationsUnmatchedWithContent.vue'
 
 export default {
 	components: {
@@ -24,7 +26,8 @@ export default {
 		MatchesWithContentVersionTwo,
 		WorkingHours,
 		Review,
-		ApplicationsWithContent
+		ApplicationsPendingWithContent,
+		ApplicationsUnmatchedWithContent
 	}
 }
 </script>

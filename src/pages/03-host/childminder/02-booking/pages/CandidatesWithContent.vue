@@ -4,20 +4,18 @@
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col">
-				<JobListingFilter>
-					<template #filter-one><JobListingFilterItemSelected text="Availability" /></template>
-					<template #filter-two><JobListingFilterItem text="Strength" /></template>
-					<template #filter-three><JobListingFilterItem text="Experience" /></template>
-					<template #filter-four><JobListingFilterItem text="Venue" /></template>
-				</JobListingFilter>
-
-				<div class="flex flex-row pt-6 mx-4">
+			<JobListingFilter>
+				<template #filter-one><JobListingFilterItemSelected text="Availability" /></template>
+				<template #filter-two><JobListingFilterItem text="Strength" /></template>
+				<template #filter-three><JobListingFilterItem text="Experience" /></template>
+				<template #filter-four><JobListingFilterItem text="Venue" /></template>
+			</JobListingFilter>
+			<div class="flex flex-col mx-4">
+				<div class="pt-6">
 					<h4 class="text-header-four font-semibold antialiased">Your Responses</h4>
 				</div>
 
-				<div class="flex flex-col pt-6 px-4">
-
+				<div class="flex flex-col pt-6">
 					<CandidateMatchCard
 						:isCandidate="true"
 						:showHeart="true"

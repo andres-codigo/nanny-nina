@@ -57,7 +57,8 @@
 					<BookingCard
 						title="The Sanders"
 						timeOrDate="Shared an hour ago > 20 responses"
-						badgeClass="bg-rose-100 text-purple-900"
+						priceBackgroundAndTextColor="bg-white text-purple-900"
+						badgeClass="bg-melon-100 text-purple-900"
 						badgeSvg="./assets/svg/badges/clock.svg"
 						badgeText="Urgent"
 					/>
