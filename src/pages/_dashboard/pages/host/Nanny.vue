@@ -72,6 +72,18 @@
 			textColorBadge="text-white"
 			backgroundColorBadge="bg-green-800"
 		/>
+		<ListItem
+			:subItem="false"
+			:hideNotes="true"
+			notes=""
+			date=""
+			routerLinkPath="/host-nanny-booking-response-tab-with-pop-up"
+			title="Booking > Responses Tab with Response Card pop-up"
+			textColor="text-purple-600"
+			textBadge="In Progress"
+			textColorBadge="text-amber-800"
+			backgroundColorBadge="bg-amber-100"
+		/>
 	</ul>
 </template>
 
