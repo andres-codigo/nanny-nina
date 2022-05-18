@@ -30,11 +30,11 @@
 				</div>
 
 				<div class="mt-44 text-center">
-					<p class="inline-flex items-center text-gray-500 font-thin"><LightBulbIcon class="w-5 h-5" />Tip: <a href="#" target="_self" class="anchor-blue anchor-with-underline ml-1">Add more pictures</a></p>
+					<p class="inline-flex items-center text-gray-500 font-thin"><Img src="./assets/svg/other/lightbulb.svg" />Tip: <a href="#" target="_self" class="anchor-blue anchor-with-underline ml-1">Add more pictures</a></p>
 				</div>
 			</div>
 			<section class="block fixed inset-x-0 w-full bottom-0 z-10 bg-white border-t border-gray min-w-360-for-dev-not-prod">
-				<FixedBottomAnchorPrimary :isDisabled="true" />
+				<FixedBottomAnchorPrimary :isDisabled="true" buttonText="New Invites (0)" />
 			</section>
 		</main>
 	</div>
@@ -43,6 +43,7 @@
 <script>
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import Tabs from '../../../../../components/navigation-and-tabs/Tabs.vue'
+import Img from '../../../../../components/dom-elements/Img.vue'
 import AnchorPrimary from '../../../../../components/dom-elements/AnchorPrimary.vue'
 
 import FixedBottomAnchorPrimary from '../../../../../components/content/fixed/FixedBottomAnchorPrimary.vue'
@@ -53,6 +54,7 @@ export default {
 	components: {
 		TopNavigation,
 		Tabs,
+		Img,
 		AnchorPrimary,
 		FixedBottomAnchorPrimary,
 		QuestionMarkCircleIcon,
