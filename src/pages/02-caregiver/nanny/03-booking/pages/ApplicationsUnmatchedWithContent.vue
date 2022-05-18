@@ -4,32 +4,30 @@
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
-			<div class="flex flex-col pb-28">
-				<Tabs
-					tabOneClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
-					tabOneText="Invites"
-					:tabOneIsActive="false"
-					tabTwoClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
-					tabTwoText="Matches"
-					:tabTwoIsActive="false"
-					:displayThirdTab="true"
-					tabThreeClasses="text-purple-900"
-					tabThreeText="Applications"
-					:tabThreeIsActive="true"
-				/>
-				<JobListingFilter>
-					<template #filter-one><JobListingFilterItemSelected text="All bookings" /></template>
-					<template #filter-two><JobListingFilterItem text="One-time" /></template>
-					<template #filter-three><JobListingFilterItem text="Recurring" /></template>
-					<template #filter-four><JobListingFilterItem text="[filter type]" /></template>
-				</JobListingFilter>
-
-				<div class="flex flex-row pt-2 mx-4">
+			<Tabs
+				tabOneClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
+				tabOneText="Invites"
+				:tabOneIsActive="false"
+				tabTwoClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
+				tabTwoText="Matches"
+				:tabTwoIsActive="false"
+				:displayThirdTab="true"
+				tabThreeClasses="text-purple-900"
+				tabThreeText="Applications"
+				:tabThreeIsActive="true"
+			/>
+			<JobListingFilter>
+				<template #filter-one><JobListingFilterItemSelected text="All bookings" /></template>
+				<template #filter-two><JobListingFilterItem text="One-time" /></template>
+				<template #filter-three><JobListingFilterItem text="Recurring" /></template>
+				<template #filter-four><JobListingFilterItem text="[filter type]" /></template>
+			</JobListingFilter>
+			<div class="flex flex-col pb-28 mx-4">
+				<div class="flex flex-row pt-2">
 					<SelectMenuNoBorder optionTextOne="Unmatched" optionTextTwo="Pending" optionTextThree="Pending" />
 				</div>
 
-				<div class="flex flex-col pt-2 px-4">
-
+				<div class="flex flex-col pt-2">
 					<BookingCard
 						title="The Sanders"
 						timeOrDate="Shared on 5 mins ago > 20+ responses"
