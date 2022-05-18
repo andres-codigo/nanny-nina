@@ -7,7 +7,7 @@ export default {
 	props: {
 		color: {
 			type: String,
-			default: 'bg-purple-900'
+			default: 'bg-gray-500'
 		},
 	}
 }
