@@ -28,8 +28,8 @@
 						badgeClass="bg-lilac-100 text-purple-900"
 						badgeText="One-time nanny"
 						title="After School Nanny Needed...">
-						<template #details><p class="text-xs text-purple-900 pt-1">Shared 5mins ago > 20+ responses</p></template>
-						<template #chevron><ChevronRightIcon class="absolute right-2 top-28 w-8 h-8" aria-hidden="true" /></template>
+						<template #details><p class="text-xs text-purple-900 pt-1 leading-none">Shared 5mins ago > 20+ responses</p></template>
+						<template #chevron><ChevronRightIcon class="absolute right-4 top-28 w-8 h-8" aria-hidden="true" /></template>
 					</ResponsesCard>
 
 					<ResponsesCard
@@ -37,8 +37,8 @@
 						badgeClass="bg-green-50 text-purple-900"
 						badgeText="Recurring nanny"
 						title="Nanny needed every week..">
-						<template #details><p class="text-xs text-purple-900 pt-1">Shared 5mins ago > 20+ responses</p></template>
-						<template #chevron><ChevronRightIcon class="absolute right-2 top-28 w-8 h-8" aria-hidden="true" /></template>
+						<template #details><p class="text-xs text-purple-900 pt-1 leading-none">Shared 5mins ago > 20+ responses</p></template>
+						<template #chevron><ChevronRightIcon class="absolute right-4 top-28 w-8 h-8" aria-hidden="true" /></template>
 					</ResponsesCard>
 
 					<ResponsesCard
@@ -48,7 +48,7 @@
 						badgeSvg="./assets/svg/badges/event.svg"
 						title="Birthday party in Amsteveen">
 						<template #details><p class="text-xs text-white pt-1">Shared 5mins ago > 20+ responses</p></template>
-						<template #chevron><ChevronRightIcon class="absolute right-2 top-28 w-8 h-8" aria-hidden="true" /></template>
+						<template #chevron><ChevronRightIcon class="absolute right-4 top-28 w-8 h-8" aria-hidden="true" /></template>
 					</ResponsesCard>
 				</div>
 			</div>

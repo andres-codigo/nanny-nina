@@ -28,7 +28,7 @@
 				<Img class="w-48 h-48 absolute -left-6 -bottom-10" src="./assets/svg/placeholder/placeholder.svg" alt="" />
 			</div>
 		</div>
-		<ChevronRightIcon class="absolute right-2 top-28 w-8 h-8" aria-hidden="true" />
+		<ChevronRightIcon class="absolute right-4 top-28 w-8 h-8" aria-hidden="true" />
 	</router-link>
 </template>
 
