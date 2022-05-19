@@ -9,17 +9,21 @@
 				<p class="font-thin mb-4">This is what other parents thought of Brittany</p>
 
 				<div class="flex flex-wrap gap-x-7 mt-4">
-					<BadgeProfileStatic>
-						<template #image><Img src="./assets/svg/badges/playful-active-focus.svg" /></template>
-					</BadgeProfileStatic>
-					<BadgeProfileStatic />
-					<BadgeProfileStatic />
-					<BadgeProfileStatic />
-					<BadgeProfileStatic />
-					<BadgeProfileStatic />
+					<BadgeProfileDynamic />
+					<BadgeProfileDynamic />
+					<BadgeProfileDynamic />
+					<BadgeProfileDynamic />
+					<BadgeProfileDynamic />
+					<BadgeProfileDynamic />
+					<BadgeProfileDynamic />
+					<BadgeProfileDynamic />
+					<BadgeProfileDynamic />
+					<BadgeProfileDynamic />
+					<BadgeProfileDynamic />
+					<BadgeProfileDynamic />
 				</div>
 
-				<div class="flex flex-col items-center mt-40 mb-8">
+				<div class="flex flex-col items-center my-20">
 					<div><AnchorPrimary text="Got It" class="w-button-sm text-xl py-4" /></div>
 				</div>
 			</div>
@@ -29,19 +33,16 @@
 
 <script>
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
-import BadgeProfileStatic from '../../../../../components/badge/BadgeProfileStatic.vue'
+import BadgeProfileDynamic from '../../../../../components/badge/BadgeProfileDynamic.vue'
 import Img from '../../../../../components/dom-elements/Img.vue'
 import AnchorPrimary from '../../../../../components/dom-elements/AnchorPrimary.vue'
-
-import { XIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
 		TopNavigation,
-		BadgeProfileStatic,
+		BadgeProfileDynamic,
 		Img,
-		AnchorPrimary,
-		XIcon
+		AnchorPrimary
 	}
 }
 </script>

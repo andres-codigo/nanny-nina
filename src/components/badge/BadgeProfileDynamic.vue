@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<span class="image"></span>
+		<span :class="['image', isTipPage ? 'w-icon-review-tip h-icon-review-tip' : 'w-icon-host-personality-badge h-icon-host-personality-badge']"></span>
 		<span :class="['block text-center select-none', isTipPage ? 'font-bold' : 'text-sm font-light']">
 			<slot name="title">{{ title }}</slot>
 		</span>
@@ -43,7 +43,7 @@ export default {
 
 <style scoped>
 .image {
-	@apply w-icon-review-tip h-icon-review-tip inline-flex cursor-pointer mt-5 mb-3;
+	@apply inline-flex cursor-pointer mt-5 mb-3;
 	background-image: v-bind(defaultBackgroundImage);
 	@apply bg-no-repeat bg-center;
 }

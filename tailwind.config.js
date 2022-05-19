@@ -180,7 +180,7 @@ module.exports = {
 				'input-lg': '',
 				'input-xl': '',
 				/* Icons */
-				'icon-host-personality-badge': '6rem',
+				'icon-host-personality-badge': '5.50rem',
 				/* Review - Leave Tip */
 				'icon-review-tip': '5rem',
 			},
