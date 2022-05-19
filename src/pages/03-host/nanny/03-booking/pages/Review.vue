@@ -1,7 +1,7 @@
 <template>
 	<div class="w-full h-full">
 		<TopNavigation backgroundColor="bg-white-500" :displayBorderBottom="false">
-			<template #iconRight><router-link to="/dashboard?tab=3"><XIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
+			<template #iconRight><router-link to="/dashboard?tab=3"><Img src="./assets/svg/ticks-and-crosses/cross-remove-black.svg" /></router-link></template>
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col pt-12 mx-4">
@@ -16,18 +16,18 @@
 							see to go on; eventually, all three states for each type of image will need
 							to be provided
 						-->
-						<BadgeProfile :isTipPage="true" defaultImage="./assets/svg/tip/small.svg" hoverImage="./assets/svg/tip/small.svg" activeFocusImage="./assets/svg/tip/small.svg">
+						<BadgeProfileDynamic :isTipPage="true" defaultImage="./assets/svg/tip/small.svg" hoverImage="./assets/svg/tip/small.svg" activeFocusImage="./assets/svg/tip/small.svg">
 							<template #title>&euro;2</template>
-						</BadgeProfile>
-						<BadgeProfile :isTipPage="true" defaultImage="./assets/svg/tip/medium.svg" hoverImage="./assets/svg/tip/medium.svg" activeFocusImage="./assets/svg/tip/medium.svg">
+						</BadgeProfileDynamic>
+						<BadgeProfileDynamic :isTipPage="true" defaultImage="./assets/svg/tip/medium.svg" hoverImage="./assets/svg/tip/medium.svg" activeFocusImage="./assets/svg/tip/medium.svg">
 							<template #title>&euro;5</template>
-						</BadgeProfile>
-						<BadgeProfile :isTipPage="true" defaultImage="./assets/svg/tip/high.svg" hoverImage="./assets/svg/tip/high.svg" activeFocusImage="./assets/svg/tip/high.svg">
+						</BadgeProfileDynamic>
+						<BadgeProfileDynamic :isTipPage="true" defaultImage="./assets/svg/tip/high.svg" hoverImage="./assets/svg/tip/high.svg" activeFocusImage="./assets/svg/tip/high.svg">
 							<template #title>&euro;10</template>
-						</BadgeProfile>
-						<BadgeProfile :isTipPage="true" defaultImage="./assets/svg/tip/other.svg" hoverImage="./assets/svg/tip/other.svg" activeFocusImage="./assets/svg/tip/other.svg">
+						</BadgeProfileDynamic>
+						<BadgeProfileDynamic :isTipPage="true" defaultImage="./assets/svg/tip/other.svg" hoverImage="./assets/svg/tip/other.svg" activeFocusImage="./assets/svg/tip/other.svg">
 							<template #title>Other</template>
-						</BadgeProfile>
+						</BadgeProfileDynamic>
 					</div>
 
 					<div class="mt-16">
@@ -47,7 +47,7 @@
 <script>
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import Img from '../../../../../components/dom-elements/Img.vue'
-import BadgeProfile from '../../../../../components/badge/BadgeProfile.vue'
+import BadgeProfileDynamic from '../../../../../components/badge/BadgeProfileDynamic.vue'
 import InputFieldBorderBottomOnly from '../../../../../components/form/InputFieldBorderBottomOnly.vue'
 import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
 
@@ -57,7 +57,7 @@ export default {
 	components: {
 		TopNavigation,
 		Img,
-		BadgeProfile,
+		BadgeProfileDynamic,
 		InputFieldBorderBottomOnly,
 		ButtonPrimary,
 		XIcon

@@ -1,7 +1,7 @@
 <template>
 	<div class="w-full h-full">
 		<TopNavigation backgroundColor="bg-white-500" :displayBorderBottom="false">
-			<template #iconRight><router-link to="/dashboard?tab=3"><XIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
+			<template #iconRight><router-link to="/dashboard?tab=3"><Img src="./assets/svg/ticks-and-crosses/cross-remove-black.svg" /></router-link></template>
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col pt-12 mx-4">
@@ -9,20 +9,18 @@
 				<p class="font-thin mb-4">This is what other parents thought of Brittany</p>
 
 				<div class="flex flex-wrap gap-x-7 mt-4">
-					<!--
-						The default, hover and active/focus images are the all based around the 'Friendly' svg;
-						eventually, all three states for each type of image will need to be provided
-					-->
-					<BadgeProfile />
-					<BadgeProfile />
-					<BadgeProfile />
-					<BadgeProfile />
-					<BadgeProfile />
-					<BadgeProfile />
+					<BadgeProfileStatic>
+						<template #image><Img src="./assets/svg/badges/playful-active-focus.svg" /></template>
+					</BadgeProfileStatic>
+					<BadgeProfileStatic />
+					<BadgeProfileStatic />
+					<BadgeProfileStatic />
+					<BadgeProfileStatic />
+					<BadgeProfileStatic />
 				</div>
 
 				<div class="flex flex-col items-center mt-40 mb-8">
-					<div><ButtonPrimary text="Got It" class="w-button-sm text-xl py-4" /></div>
+					<div><AnchorPrimary text="Got It" class="w-button-sm text-xl py-4" /></div>
 				</div>
 			</div>
 		</main>
@@ -31,16 +29,18 @@
 
 <script>
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
-import BadgeProfile from '../../../../../components/badge/BadgeProfile.vue'
-import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
+import BadgeProfileStatic from '../../../../../components/badge/BadgeProfileStatic.vue'
+import Img from '../../../../../components/dom-elements/Img.vue'
+import AnchorPrimary from '../../../../../components/dom-elements/AnchorPrimary.vue'
 
 import { XIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
 		TopNavigation,
-		BadgeProfile,
-		ButtonPrimary,
+		BadgeProfileStatic,
+		Img,
+		AnchorPrimary,
 		XIcon
 	}
 }

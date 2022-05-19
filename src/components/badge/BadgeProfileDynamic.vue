@@ -1,8 +1,8 @@
 <template>
-	<div class="flex-none">
+	<div>
 		<span class="image"></span>
 		<span :class="['block text-center select-none', isTipPage ? 'font-bold' : 'text-sm font-light']">
-			<slot name="title">Friendly</slot>
+			<slot name="title">{{ title }}</slot>
 		</span>
 	</div>
 </template>
