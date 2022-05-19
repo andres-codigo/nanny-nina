@@ -1,4 +1,3 @@
-<!-- TODO: bg color for default, hover & focus... overall look of page too -->
 <template>
 	<li>
 		<a href="#" target="_self" :class="checklistItemBackgroundClasses" class="block text-gray-500 mb-2 border border-gray-100 bg-white rounded-30px hover:rounded-30px" v-if="checkListItemIsHyperlink">
