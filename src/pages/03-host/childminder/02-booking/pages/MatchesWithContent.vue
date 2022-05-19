@@ -13,17 +13,11 @@
 				:tabTwoIsActive="true"
 			/>
 			<div class="flex flex-col mx-4">
-
-				<div class="flex flex-row pt-6">
-					<div class="basis-1/2">
-						<h4 class="text-header-four font-semibold antialiased">Your Matches</h4>
-					</div>
-					<div class="basis-1/2">
-						<div class="inline-flex float-right items-center"><Img src="./assets/svg/other/clock-outline.svg" /><a href="#" target="_self" class="anchor-blue anchor-with-underline ml-1">Completed</a></div>
-					</div>
+				<div class="pt-6 mb-4">
+					<h4 class="text-header-four font-semibold antialiased">Your Matches</h4>
 				</div>
 
-				<div class="flex flex-col pt-6">
+				<div class="flex flex-col pb-8">
 					<CandidateMatchCard
 						:showHeart="true"
 						badgeClass="bg-lilac-50 text-purple-900"
