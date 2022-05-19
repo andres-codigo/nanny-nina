@@ -75,7 +75,7 @@
 		<ListItem
 			:subItem="false"
 			:hideNotes="false"
-			notes="Waiting on answers to Figma comments and design updates & solution to introduction of new profile switching"
+			notes="Waiting on solution to introduction of new profile switching on title on title"
 			date="17/05/22"
 			routerLinkPath="/caregiver-nanny-booking"
 			title="Booking"

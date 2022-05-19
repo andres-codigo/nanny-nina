@@ -3,7 +3,7 @@
 		<ListItem
 			:subItem="false"
 			:hideNotes="false"
-			notes="Waiting on answers to Figma comments and design updates"
+			notes="Waiting on Figma comments and design updates"
 			date="06/05/22"
 			routerLinkPath="/host-nanny"
 			title="Onboarding"
@@ -51,14 +51,14 @@
 		<ListItem
 			:subItem="false"
 			:hideNotes="false"
-			notes="In Progress but still waiting on Figma comment updates"
+			notes="Waiting on Figma comments and design updates"
 			date="16/05/22"
 			routerLinkPath="/host-nanny-booking"
 			title="Booking"
 			textColor="text-purple-600"
-			textBadge="In Progress"
-			textColorBadge="text-amber-800"
-			backgroundColorBadge="bg-amber-100"
+			textBadge="Blocked - UI/Design"
+			textColorBadge="text-purple-900"
+			backgroundColorBadge="bg-melon-600"
 		/>
 		<ListItem
 			:subItem="false"
@@ -80,9 +80,9 @@
 			routerLinkPath="/host-nanny-booking-response-tab-with-pop-up"
 			title="Booking > Responses Tab with Response Card pop-up"
 			textColor="text-purple-600"
-			textBadge="In Progress"
-			textColorBadge="text-amber-800"
-			backgroundColorBadge="bg-amber-100"
+			textBadge="Completed"
+			textColorBadge="text-white"
+			backgroundColorBadge="bg-green-800"
 		/>
 	</ul>
 </template>
