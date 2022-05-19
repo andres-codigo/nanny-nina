@@ -9,15 +9,15 @@
 				<h5 class="text-header-five font-semibold antialiased mb-6">Complete checklist to begin</h5>
 				<div class="flex flex-col">
 					<ul role="list" class="">
-						<CheckListItem :checkListItemIsHyperlink="true" title="Media Upload">
+						<ChecklistItem :checkListItemIsHyperlink="true" title="Media Upload">
 							<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-green-800" aria-hidden="true" /></template>
-						</CheckListItem>
-						<CheckListItem :checkListItemIsHyperlink="true" title="Nanny Form">
+						</ChecklistItem>
+						<ChecklistItem :checkListItemIsHyperlink="true" title="Nanny Form">
 							<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-gray-500" aria-hidden="true" /></template>
-						</CheckListItem>
-						<CheckListItem :checkListItemIsHyperlink="true" title="Preferences">
+						</ChecklistItem>
+						<ChecklistItem :checkListItemIsHyperlink="true" title="Preferences">
 							<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-gray-500" aria-hidden="true" /></template>
-						</CheckListItem>
+						</ChecklistItem>
 					</ul>
 				</div>
 
@@ -31,7 +31,7 @@
 
 <script>
 import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
-import CheckListItem from '../../../../../../components/checklist/ChecklistItem.vue'
+import ChecklistItem from '../../../../../../components/checklist/ChecklistItem.vue'
 import ButtonDisabled from '../../../../../../components/buttons/ButtonDisabled.vue'
 
 import { CheckCircleIcon, ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
@@ -39,7 +39,7 @@ import { CheckCircleIcon, ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroi
 export default {
 	components: {
 		TopNavigation,
-		CheckListItem,
+		ChecklistItem,
 		ButtonDisabled,
 		ChevronLeftIcon,
 		QuestionMarkCircleIcon,

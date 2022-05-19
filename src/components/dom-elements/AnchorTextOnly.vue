@@ -2,14 +2,7 @@
 	<a
 		:href="url"
 		:target="hrefTarget"
-		:class="class"
-		class="
-			inline-flex
-			font-bold
-			antialiased leading-none
-			anchor-black
-			anchor-with-underline
-		">
+		:class="['inline-flex font-bold antialiased leading-none anchor-with-underline', textColorClass]">
 		{{ text }}</a>
 </template>
 
@@ -24,9 +17,9 @@ export default {
 			type: String,
 			default: '_self'
 		},
-		class: {
+		textColorClass: {
 			type: String,
-			default: 'text-purple-900'
+			default: 'anchor-black'
 		},
 		text: String
 	}

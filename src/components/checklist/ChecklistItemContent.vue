@@ -1,28 +1,34 @@
 <template>
-	<div :class="['flex items-center px-4', hideContent ? 'py-6' : 'py-2']">
-		<div :class="['mr-2 flex-shrink-0', hideStatusIcon ? 'hidden' : '']">
-			<slot name="iconLeft"></slot>
+	<div class="flex flex-row">
+		<div class="basis-11/12">
+			<div :class="['flex items-center px-4', hideContent ? 'py-6' : 'py-2']">
+				<div :class="['mr-2', hideStatusIcon ? 'hidden' : '']">
+					<slot name="iconLeft"></slot>
+				</div>
+				<div :class="['flex flex-col', hideContent ? 'my-2' : 'my-4 ml-2']">
+
+					<div :class="['flex  text-xs relative -top-2', hidePending ? 'hidden' : '']">
+						<p class="font-thin text-gray-500">Pending (0/2)</p>
+					</div>
+
+					<div class="flex flex-col">
+						<h5 class="text-header-five text-purple-900 font-semibold antialiased -mt-2">
+							{{ title }}<span :class="['pl-1 text-red-500', hideMandatoryRedStar ? 'hidden' : '']">*</span>
+						</h5>
+						<span :class="['inline-flex mt-2 font-medium', isCaregiverHostOptionDescription ? 'text-xs' : 'text-sm']" v-if="!hideContent">{{ description }}</span>
+					</div>
+
+					<div :class="['inline-flex', showBadge ? 'mt-4' : 'hidden']">
+						<ButtonPreferenceOutlineGrey text="&euro;10" class="text-sm w-20 py-3 mr-2" />
+						<ButtonPreferenceOutlineGrey text="&euro;15" class="text-sm w-20 py-3" />
+					</div>
+				</div>
+			</div>
 		</div>
-		<div :class="['flex-1', hideContent ? 'my-2' : 'my-4 ml-2']">
-
-			<div :class="['flex text-xs relative -top-2', hidePending ? 'hidden' : '']">
-				<p class="font-thin text-gray-500">Pending (0/2)</p>
+		<div class="basis-1/12 inline-flex items-center">
+			<div :class="['w-full pr-4', hideHyperlinkIcon ? 'hidden' : '']">
+				<Img src="./assets/svg/other/chevron-right-black.svg" />
 			</div>
-
-			<div class="flex-1">
-				<h5 class="text-header-five text-purple-900 font-semibold antialiased -mt-2">
-					{{ title }}<span :class="['pl-1 text-red-500', hideMandatoryRedStar ? 'hidden' : '']">*</span>
-				</h5>
-				<span :class="['inline-flex mt-2 font-medium', isHostOptionDescription ? 'text-xs' : 'text-sm']" v-if="!hideContent">{{ description }}</span>
-			</div>
-
-			<div :class="['inline-flex', showBadge ? 'mt-4' : 'hidden']">
-				<ButtonPreferenceOutlineGrey text="&euro;10" class="text-sm w-20 py-3 mr-2" />
-				<ButtonPreferenceOutlineGrey text="&euro;15" class="text-sm w-20 py-3" />
-			</div>
-		</div>
-		<div :class="['ml-2 w-5', hideHyperlinkIcon ? 'hidden' : '']">
-			<ChevronRightIcon class="relative right-0 top-1 w-5 h-5 text-gray-400" aria-hidden="true" />
 		</div>
 	</div>
 </template>
@@ -30,13 +36,12 @@
 
 <script>
 import ButtonPreferenceOutlineGrey from '../buttons/ButtonPreferenceOutlineGrey.vue'
-
-import { ChevronRightIcon } from '@heroicons/vue/solid'
+import Img from '../dom-elements/Img.vue'
 
 export default {
 	components: {
 		ButtonPreferenceOutlineGrey,
-		ChevronRightIcon,
+		Img,
 	},
 	props: {
 		hideStatusIcon: {
@@ -59,7 +64,7 @@ export default {
 			type: Boolean,
 			default: false
 		},
-		isHostOptionDescription: {
+		isCaregiverHostOptionDescription: {
 			type: Boolean,
 			default: false
 		},
