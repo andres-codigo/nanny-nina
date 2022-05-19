@@ -1,13 +1,13 @@
-<!-- TODO: bg color for default, hover & focus... overall look of page too -->
 <template>
 	<li>
-		<a href="#" target="_self" :class="checklistItemBackgroundClasses" class="block w-full text-gray-500 mb-4 border border-gray-100 bg-white rounded-30px hover:rounded-30px" v-if="checkListItemIsHyperlink">
+		<a href="#" target="_self" :class="checklistItemBackgroundClasses" class="block text-gray-500 mb-2 border border-gray-100 bg-white rounded-30px hover:rounded-30px" v-if="checkListItemIsHyperlink">
 			<ChecklistItemContent
 				:hideStatusIcon="hideStatusIcon"
 				:hideContent="hideContent"
 				:hidePending="hidePending"
 				:hideMandatoryRedStar="hideMandatoryRedStar"
 				:hideHyperlinkIcon="hideHyperlinkIcon"
+				:isCaregiverHostOptionDescription="isCaregiverHostOptionDescription"
 				:title="title"
 				:description="description"
 			>
@@ -25,6 +25,7 @@
 				:hideMandatoryRedStar="hideMandatoryRedStar"
 				:showBadge="showBadge"
 				:hideHyperlinkIcon="hideHyperlinkIcon"
+				:isCaregiverHostOptionDescription="isCaregiverHostOptionDescription"
 				:title="title"
 				:description="description"
 			>
@@ -58,7 +59,8 @@ export default {
 		'title',
 		'description',
 		'showBadge',
-		'hideHyperlinkIcon'
+		'hideHyperlinkIcon',
+		'isCaregiverHostOptionDescription'
 	],
 	methods: {
 		checklistItemClasses(pageBackgroundColor) {

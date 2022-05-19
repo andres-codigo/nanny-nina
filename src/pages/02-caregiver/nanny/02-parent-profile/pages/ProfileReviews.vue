@@ -1,7 +1,7 @@
 <template>
 		<div>
 			<header>
-				<div class="flex bg-white drop-shadow-md items-center justify-center h-24">
+				<div class="flex bg-white border-b border-gray-100 items-center justify-center h-24">
 					<div class="inline-flex justify-center items-center w-14 h-14">
 						<XIcon class="w-7 h-7" />
 					</div>

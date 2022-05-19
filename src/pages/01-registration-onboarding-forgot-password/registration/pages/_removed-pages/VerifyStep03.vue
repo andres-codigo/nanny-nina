@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full h-screen">
-		<TopNavigation backgroundColor="bg-white" :dropShadow="false">
+		<TopNavigation backgroundColor="bg-white" :displayBorderBottom="false">
 			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>

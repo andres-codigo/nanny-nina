@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<TopNavigation backgroundColor="bg-white" :dropShadow="false">
+		<TopNavigation backgroundColor="bg-white" :displayBorderBottom="false">
 			<template #iconLeft><Header class="mx-5 mt-8" /></template>
 		</TopNavigation>
 		<main>

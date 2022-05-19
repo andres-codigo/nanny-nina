@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full h-full">
-		<TopNavigation backgroundColor="bg-white-500" :dropShadow="false">
+		<TopNavigation backgroundColor="bg-white-500" :displayBorderBottom="false">
 			<template #iconRight><router-link to="/dashboard?tab=3"><XIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>

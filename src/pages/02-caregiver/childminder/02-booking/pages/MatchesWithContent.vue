@@ -15,21 +15,18 @@
 			<div class="flex flex-col mx-4">
 				<div class="flex flex-col pt-6 pb-12">
 					<h4 class="text-header-four font-semibold antialiased mb-2">Your Matches</h4>
-					<p class="font-light antialiased">All childminder bookings go to Portabase. To submit your hours & process.</p>
+					<p class="font-light antialiased">All childminder bookings go to Portabase. To submit your hours &amp; process.</p>
 				</div>
 
 				<div class="flex flex-col pb-20 px-8">
 					<PortabaseCard backgroundColor="bg-lilac-100" header="Portabase">
-						<!-- TODO: Need hover and focus hex values for anchor on lilac 100 background -->
-						<template #link><AnchorOutlineLight text="Go to Portabase" class="w-button-xl text-xl py-4 border-gray-500" /></template>
+						<template #link><AnchorOutlineLight text="Go to Portabase" class="w-button-xl text-xl py-4 border-gray-500 hover:bg-green-400 focus:bg-green-600" /></template>
 					</PortabaseCard>
 				</div>
 
 				<div class="flex justify-center mb-20">
 					<Img src="./assets/svg/logo/portabase.svg" class="w-24 h-20" />
 				</div>
-
-
 			</div>
 		</main>
 	</div>
