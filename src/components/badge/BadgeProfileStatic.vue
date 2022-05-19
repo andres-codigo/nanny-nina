@@ -31,6 +31,6 @@ export default {
 
 <style scoped>
 .image {
-	@apply w-icon-host-personality-badge h-icon-host-personality-badge inline-flex cursor-pointer mt-5 mb-3;
+	@apply w-icon-host-personality-badge h-icon-host-personality-badge inline-flex mt-5 mb-3;
 }
 </style>
