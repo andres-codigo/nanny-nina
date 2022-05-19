@@ -3,7 +3,7 @@
 		<ListItem
 			:subItem="false"
 			:hideNotes="false"
-			notes="Waiting on answers to Figma comments and design updates"
+			notes="Waiting on Figma comments and design updates"
 			date="27/04/22"
 			routerLinkPath="/host-au-pair"
 			title="Onboarding"
