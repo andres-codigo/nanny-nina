@@ -40,7 +40,6 @@
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import ParentCard from './parent-card/_ParentCard.vue'
 import ParentNeeds from './_ParentNeeds.vue'
-import FixedApplicationContent from '../../../../../components/profile/view/FixedApplicationContent.vue'
 import RequestNote from '../../../../../components/profile/view/RequestNote.vue'
 import Preferences from '../../../../../components/profile/view/Preferences.vue'
 import Photos from '../../../../../components/profile/_photos/Photos.vue'
@@ -53,7 +52,6 @@ export default {
 		TopNavigation,
 		ParentCard,
 		ParentNeeds,
-		FixedApplicationContent,
 		RequestNote,
 		Preferences,
 		Photos,

@@ -16,6 +16,7 @@ import ForgotPasswordContainer from '../pages/01-registration-onboarding-forgot-
 /* Caregiver - Childminder Nanny */
 import HomeWithMenuTemplate from '../pages/02-caregiver/childminder-and-nanny/HomeWithMenuTemplate.vue'
 import Reference from '../pages/00-duplicate-pages/Reference.vue'
+import CaregiverParentProfile from '../pages/00-duplicate-pages/CaregiverParentProfile.vue'
 
 	/* Caregiver - Nanny */
 	import HomeWithoutMenuTemplate from '../pages/00-duplicate-pages/home/HomeWithoutMenuTemplate.vue'
@@ -109,6 +110,11 @@ const routes = [
 	{
 		path: '/caregiver-reference',
 		component: Reference,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/caregiver-parent-profile',
+		component: CaregiverParentProfile,
 		meta: { transition: 'slide-right-to-left' }
 	},
 

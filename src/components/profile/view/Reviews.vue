@@ -16,7 +16,7 @@
 				</div>
 			</div>
 		</div>
-		<a href="#" target="_self" class="font-semibold anchor-blue anchor-with-underline">Show all reviews ></a>
+		<a href="#" target="_self" class="font-semibold anchor-blue anchor-with-underline">All reviews ></a>
 	</div>
 </template>
 
