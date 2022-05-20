@@ -7,12 +7,12 @@
 			<div class="flex flex-col justify-center pt-12 mx-4">
 				<h5 class="text-header-five font-semibold antialiased mb-4">What kind of nanny do you want?</h5>
 				<div class="inline-flex pb-8">
-					<LinkCard  :showPlaceholderSVG="true" to="dashboard" class="text-purple-900 bg-lilac-50 hover:bg-lilac-100 focus:bg-lilac-200" title="One-time">
+					<LinkCard to="dashboard" class="text-purple-900 bg-lilac-50 hover:bg-lilac-100 focus:bg-lilac-200" title="One-time">
 						<template #details><p class="pt-2">Urgent nanny for single or multiple days. Maximum 12days </p></template>
 					</LinkCard>
 				</div>
 				<div class="inline-flex pb-8">
-					<LinkCard to="dashboard" class="text-purple-900 bg-green-500 hover:bg-green-400 focus:bg-green-600" title="Recurring" >
+					<LinkCard :showPlaceholderSVG="true" to="dashboard" class="text-purple-900 bg-green-500 hover:bg-green-400 focus:bg-green-600" title="Recurring" >
 						<template #details><p class="pt-2 pr-24">I need a nanny on returning days over a longer period</p></template>
 					</LinkCard>
 				</div>

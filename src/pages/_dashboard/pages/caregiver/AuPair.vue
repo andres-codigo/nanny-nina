@@ -15,14 +15,14 @@
 		<ListItem
 			:subItem="false"
 			:hideNotes="false"
-			notes="Waiting on Figma comment updates"
-			date="27/04/22"
+			notes="Waiting on design updates"
+			date="19/05/22"
 			routerLinkPath="/caregiver-au-pair-service-onboarding"
 			title="Onboarding"
 			textColor="text-purple-600"
-			textBadge="Blocked - UI/Design"
+			textBadge="On Hold - UI/Design"
 			textColorBadge="text-purple-900"
-			backgroundColorBadge="bg-melon-600"
+			backgroundColorBadge="bg-amber-500"
 		/>
 		<ListItem
 			:subItem="false"
