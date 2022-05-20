@@ -30,6 +30,7 @@
 						title="The Sanders"
 						timeOrDate="Matched 22/03/2022"
 						bookingDuration="One-time"
+						badgeSvg="./assets/svg/badges/megaphone.svg"
 					/>
 
 					<BookingCard

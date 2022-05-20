@@ -23,6 +23,18 @@
 			textColorBadge="text-white"
 			backgroundColorBadge="bg-green-800"
 		/>
+		<ListItem
+			:subItem="false"
+			:hideNotes="true"
+			notes=""
+			date=""
+			routerLinkPath="/caregiver-parent-profile"
+			title="Parent Profile"
+			textColor="text-purple-600"
+			textBadge="Completed"
+			textColorBadge="text-white"
+			backgroundColorBadge="bg-green-800"
+		/>
 	</ul>
 </template>
 

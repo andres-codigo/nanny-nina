@@ -75,14 +75,14 @@
 		<ListItem
 			:subItem="false"
 			:hideNotes="false"
-			notes="Waiting on solution to introduction of new profile switching on title on title"
-			date="17/05/22"
+			notes="Waiting on Figma design update"
+			date="20/05/22"
 			routerLinkPath="/caregiver-nanny-booking"
 			title="Booking"
 			textColor="text-purple-600"
-			textBadge="Blocked - UI/Design"
+			textBadge="On Hold - UI/Design"
 			textColorBadge="text-purple-900"
-			backgroundColorBadge="bg-melon-600"
+			backgroundColorBadge="bg-amber-500"
 		/>
 		<ListItem
 			:subItem="false"

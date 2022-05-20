@@ -19,7 +19,8 @@
 
 			<div class="flex flex-col mx-4">
 				<div class="pt-6 mx-4 mb-4">
-					<h4 class="text-header-four font-semibold antialiased">Your Responses</h4>
+					<h4 class="text-header-four font-semibold antialiased mb-2">Your Responses</h4>
+					<p class="font-thin">We are currently searching for new candidates for you. Choose booking type to view responses</p>
 				</div>
 
 				<div class="flex flex-col pb-8">
@@ -50,6 +51,11 @@
 						<template #details><p class="text-xs text-white pt-1">Shared 5mins ago > 20+ responses</p></template>
 						<template #chevron><ChevronRightIcon class="absolute right-4 top-28 w-8 h-8" aria-hidden="true" /></template>
 					</ResponsesCard>
+				</div>
+
+				<div class="mx-8 text-sm text-center">
+					<p>No longer interested?</p>
+					<p>Please <a href="#" target="_self" class="anchor-blue anchor-with-underline">contact support</a>, so we define the best next step together</p>
 				</div>
 			</div>
 		</main>

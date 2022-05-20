@@ -1,6 +1,7 @@
 <template>
 	<div class="w-full h-full">
 		<TopNavigation text="Candidates(4)">
+			<template #iconLeft><router-link to="/dashboard?tab=3"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
@@ -55,7 +56,7 @@ import JobListingFilterItemSelected from '../../../../../components/filter/JobLi
 
 import CandidateMatchCard from '../../../../../components/cards/candidate-match-card/CandidateMatchCard.vue'
 
-import { QuestionMarkCircleIcon } from '@heroicons/vue/solid'
+import { ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
@@ -64,6 +65,7 @@ export default {
 		JobListingFilterItem,
 		JobListingFilterItemSelected,
 		CandidateMatchCard,
+		ChevronLeftIcon,
 		QuestionMarkCircleIcon,
 	}
 }
