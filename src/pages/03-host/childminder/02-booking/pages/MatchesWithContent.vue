@@ -1,6 +1,7 @@
 <template>
 	<div class="w-full h-full">
 		<TopNavigation text="Booking">
+			<template #iconLeft><router-link to="/dashboard?tab=3"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
@@ -43,7 +44,7 @@ import Tabs from '../../../../../components/navigation-and-tabs/Tabs.vue'
 import Img from '../../../../../components/dom-elements/Img.vue'
 import CandidateMatchCard from '../../../../../components/cards/candidate-match-card/CandidateMatchCard.vue'
 
-import { QuestionMarkCircleIcon } from '@heroicons/vue/solid'
+import { ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
@@ -51,6 +52,7 @@ export default {
 		Tabs,
 		Img,
 		CandidateMatchCard,
+		ChevronLeftIcon,
 		QuestionMarkCircleIcon
 	}
 }

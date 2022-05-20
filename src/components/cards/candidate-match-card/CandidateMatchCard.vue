@@ -15,7 +15,7 @@
 			<div class="h-56 mx-4">
 				<div class="flex flex-row mt-6 mb-4">
 					<div class="basis-2/3">
-						<h4 class="text-header-four font-semibold antialiased mb-2">{{ title }} <span class="text-base">{{ age }}</span></h4>
+						<h4 class="text-header-four font-semibold antialiased mb-1">{{ title }} <span class="text-base">{{ age }}</span></h4>
 						<p class="text-xs text-gray-500 font-thin">{{ totalExperience }}</p>
 					</div>
 					<div class="basis-1/3">
