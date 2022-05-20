@@ -1,6 +1,6 @@
 <template>
 	<div class="flex mb-4">
-		<a href="/" :class="class" class="inline-flex w-full relative border border-gray-500 h-64 rounded-20px px-7 py-7">
+		<a href="/" :class="class" class="inline-flex w-full relative border border-gray-500 h-64 rounded-30px px-7 py-7">
 			<div class="w-full">
 				<div class="flex flex-row mb-4">
 					<div class="basis-3/4">
