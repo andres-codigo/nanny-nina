@@ -21,8 +21,8 @@
 								:hideContent="false"
 								:hidePending="true"
 								:hideMandatoryRedStar="false"
-								title="Availability"
-								description="Choose the days &amp; time you want to work"
+								title="Matching Preference"
+								description="This will help us to find a good match"
 							>
 								<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-green-800" aria-hidden="true" /></template>
 							</ChecklistItem>
@@ -31,8 +31,18 @@
 								:hideContent="false"
 								:hidePending="true"
 								:hideMandatoryRedStar="false"
-								title="Matching Preference"
-								description="This will help us to find a good match"
+								title="Availability"
+								description="Choose the days &amp; time you want to work"
+							>
+								<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-gray-500" aria-hidden="true" /></template>
+							</ChecklistItem>
+							<ChecklistItem
+								:checkListItemIsHyperlink="true"
+								:hideContent="false"
+								:hidePending="true"
+								:hideMandatoryRedStar="false"
+								title="Personality"
+								description="So we know you even better than you know yourself"
 							>
 								<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-gray-500" aria-hidden="true" /></template>
 							</ChecklistItem>
@@ -55,10 +65,7 @@
 					<p class="text-center text-sm py-2"><a href="#" target="_self" class="anchor-blue anchor-with-underline">Price advice</a> for Amsterdam: From &euro;10/hr</p>
 
 					<div class="flex flex-col justify-center items-center mt-16">
-						<div class="grid grid-rows-2 gap-2">
-							<div><ButtonPrimary text="Save Changes" class="w-button-lg text-xl py-4" /></div>
-							<div class="inline-flex items-center justify-center"><AnchorTextOnly text="< Back to Checklist" /></div>
-						</div>
+						<ButtonPrimary text="Save Changes" class="w-button-lg text-xl py-4" />
 					</div>
 				</form>
 			</div>

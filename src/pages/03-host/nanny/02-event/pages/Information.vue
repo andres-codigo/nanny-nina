@@ -12,7 +12,7 @@
 					<div class="mb-10">
 						<p class="font-thin">What type of event do you have?</p>
 						<div class="mt-4 grid grid-cols-2 gap-x-2">
-							<div><SelectMenu optionText="- Select number -" /></div>
+							<div><SelectMenu optionText="Select an option" /></div>
 						</div>
 					</div>
 

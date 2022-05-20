@@ -1,7 +1,7 @@
 <!-- TODO: focus behavior for checkbox -->
 <template>
-	<div class="relative flex items-start py-4">
-		<div class="mr-2 flex items-center h-5">
+	<div class="relative flex py-4">
+		<div class="mr-4 inline-flex items-center">
 			<input
 				:id="checkboxName"
 				:name="checkboxName"

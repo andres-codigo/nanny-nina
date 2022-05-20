@@ -53,7 +53,7 @@
 
 					<div class="flex flex-col justify-center items-center mt-10">
 						<div class="grid grid-rows-2 gap-2">
-							<div><ButtonPrimary text="Next" class="w-button-lg text-xl py-4" /></div>
+							<div><ButtonPrimary text="Save & Continue" class="w-button-lg text-xl py-4" /></div>
 							<div class="inline-flex items-center justify-center"><AnchorTextOnly text="< Back to Checklist" /></div>
 						</div>
 					</div>

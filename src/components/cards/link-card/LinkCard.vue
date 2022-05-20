@@ -25,7 +25,7 @@
 					width, height (including div container) and position will need to be adjusted as assets not provided
 					<img src="*.svg" class="w-32 h-32 absolute -bottom-6"/>
 				-->
-				<Img class="w-48 h-48 absolute -left-6 -bottom-10" src="./assets/svg/placeholder/placeholder.svg" alt="" />
+				<Img :class="imageClass" :src="imageSrc" alt="" />
 			</div>
 		</div>
 		<ChevronRightIcon class="absolute right-4 top-28 w-8 h-8" aria-hidden="true" />
@@ -47,6 +47,14 @@ export default {
 		to: String,
 		title: String,
 		class: String,
+		imageClass:  {
+			type: String,
+			default: 'absolute left-7 -bottom-[1.1rem]'
+		},
+		imageSrc:  {
+			type: String,
+			default: './assets/svg/illustrations/house-with-family-128-x-105.svg'
+		},
 		hasPrice: {
 			type: Boolean,
 			default: false

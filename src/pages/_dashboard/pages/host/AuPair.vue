@@ -2,15 +2,15 @@
 	<ul role="list" class="relative z-0 divide-y divide-gray-200">
 		<ListItem
 			:subItem="false"
-			:hideNotes="false"
-			notes="Waiting on Figma comments and design updates"
-			date="27/04/22"
+			:hideNotes="true"
+			notes=""
+			date=""
 			routerLinkPath="/host-au-pair"
 			title="Onboarding"
 			textColor="text-purple-600"
-			textBadge="Blocked - UI/Design"
-			textColorBadge="text-purple-900"
-			backgroundColorBadge="bg-melon-600"
+			textBadge="Completed"
+			textColorBadge="text-white"
+			backgroundColorBadge="bg-green-800"
 		/>
 	</ul>
 </template>

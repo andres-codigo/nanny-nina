@@ -26,7 +26,7 @@
 
 					<h5 class="text-header-five font-semibold antialiased mb-2">I am comfortable with</h5>
 					<div class="mt-4">
-						<CheckboxRightWithContainerAndLabelLeft checkboxName="checkout-1" text="Pets" />
+						<CheckboxRightWithContainerAndLabelLeft :checked="true" checkboxName="checkout-1" text="Pets" />
 						<CheckboxRightWithContainerAndLabelLeft checkboxName="checkout-2" text="Meal preparation" />
 						<CheckboxRightWithContainerAndLabelLeft checkboxName="checkout-3" text="Housekeeping" />
 						<CheckboxRightWithContainerAndLabelLeft checkboxName="checkout-4" text="Comfortable driving kids" />

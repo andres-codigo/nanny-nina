@@ -3,7 +3,7 @@
 		<ListItem
 			:subItem="false"
 			:hideNotes="false"
-			notes="Waiting on Figma comments and design updates"
+			notes="Waiting on Figma comments and design updates (Job Listing and Profile)"
 			date="06/05/22"
 			routerLinkPath="/host-nanny"
 			title="Onboarding"
