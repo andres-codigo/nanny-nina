@@ -35,7 +35,7 @@
 					</div>
 
 					<!-- Matches -->
-					<div class="inline-flex grow items-center font-thin" v-else>
+					<div class="inline-flex grow items-center font-thin ml-1" v-else>
 						{{ bookingAddress }}
 						<Dot />
 					</div>
