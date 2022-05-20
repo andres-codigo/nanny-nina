@@ -17,6 +17,9 @@ import ForgotPasswordContainer from '../pages/01-registration-onboarding-forgot-
 	import CaregiverHomeWithMenuTemplate from '../pages/02-caregiver/childminder-and-nanny/HomeWithMenuTemplate.vue'
 	import CaregiverHomeWithoutMenuTemplate from '../pages/00-duplicate-pages/home/HomeWithoutMenuTemplate.vue'
 
+	/* Host */
+	import NannyHostHome from '../pages/03-host/Home.vue'
+
 /* Caregiver - Childminder Nanny */
 import Reference from '../pages/00-duplicate-pages/Reference.vue'
 import CaregiverParentProfile from '../pages/00-duplicate-pages/CaregiverParentProfile.vue'
@@ -40,7 +43,6 @@ import CaregiverParentProfile from '../pages/00-duplicate-pages/CaregiverParentP
 	import CaregiverAuPairPersonalityTest from '../pages/02-caregiver/au-pair/01-onboarding/pages/02-job-onboarding/PersonalityTest.vue'
 
 /* Host - Childminder Nanny Au Pair */
-import NannyHostHome from '../pages/03-host/Home.vue'
 import HostBookingProfile from '../pages/03-host/nanny/03-booking/pages/NannyProfile.vue'
 
 	/* Host - Nanny */
