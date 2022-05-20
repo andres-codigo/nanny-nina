@@ -1,6 +1,7 @@
 <template>
 	<div class="w-full h-full">
 		<TopNavigation text="Booking">
+			<template #iconLeft><router-link to="'/dashboard?tab=2"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
@@ -56,7 +57,7 @@ import JobListingFilterItemSelected from '../../../../../components/filter/JobLi
 import BookingCard from '../../../../../components/cards/booking-card/BookingCard.vue'
 import SelectMenuNoBorder from '../../../../../components/form/SelectMenuNoBorder.vue'
 
-import { QuestionMarkCircleIcon, ClockIcon } from '@heroicons/vue/solid'
+import { ChevronLeftIcon, QuestionMarkCircleIcon, ClockIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
@@ -68,6 +69,7 @@ export default {
 		JobListingFilterItemSelected,
 		BookingCard,
 		SelectMenuNoBorder,
+		ChevronLeftIcon,
 		QuestionMarkCircleIcon,
 		ClockIcon
 	}

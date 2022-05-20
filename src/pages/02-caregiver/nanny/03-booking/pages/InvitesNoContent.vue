@@ -1,6 +1,7 @@
 <template>
 	<div class="w-full h-full">
 		<TopNavigation text="Booking">
+			<template #iconLeft><router-link to="'/dashboard?tab=2"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
 		<main>
@@ -48,7 +49,7 @@ import AnchorPrimary from '../../../../../components/dom-elements/AnchorPrimary.
 
 import FixedBottomAnchorPrimary from '../../../../../components/content/fixed/FixedBottomAnchorPrimary.vue'
 
-import { QuestionMarkCircleIcon, ClockIcon, LightBulbIcon } from '@heroicons/vue/solid'
+import { ChevronLeftIcon, QuestionMarkCircleIcon, ClockIcon, LightBulbIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
@@ -57,6 +58,7 @@ export default {
 		Img,
 		AnchorPrimary,
 		FixedBottomAnchorPrimary,
+		ChevronLeftIcon,
 		QuestionMarkCircleIcon,
 		ClockIcon,
 		LightBulbIcon
