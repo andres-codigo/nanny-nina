@@ -2,18 +2,6 @@
 	<ul role="list" class="relative z-0 divide-y divide-gray-200">
 		<ListItem
 			:subItem="false"
-			:hideNotes="true"
-			notes=""
-			date=""
-			routerLinkPath="/caregiver-nanny-home-without-bottom-menu"
-			title="Home (without bottom menu)"
-			textColor="text-purple-600"
-			textBadge="Completed"
-			textColorBadge="text-white"
-			backgroundColorBadge="bg-green-800"
-		/>
-		<ListItem
-			:subItem="false"
 			:hideNotes="false"
 			notes="Waiting on design updates"
 			date="06/05/22"

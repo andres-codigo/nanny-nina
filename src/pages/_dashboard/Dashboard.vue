@@ -33,39 +33,13 @@
 						<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
 							<h3><span class="font-bold">Caregiver</span> </h3>
 						</div>
-						<ul role="list" class="relative z-0 divide-y divide-gray-200">
-							<ListItem
-								:subItem="false"
-								:hideNotes="true"
-								notes=""
-								date=""
-								routerLinkPath="/onboarding-caregiver"
-								title="Onboarding"
-								textColor="text-purple-600"
-								textBadge="Completed"
-								textColorBadge="text-white"
-								backgroundColorBadge="bg-green-800"
-							/>
-						</ul>
+						<Caregiver />
 					</div>
 					<div class="relative">
 						<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
 							<h3><span class="font-bold">Host</span> </h3>
 						</div>
-						<ul role="list" class="relative z-0 divide-y divide-gray-200">
-							<ListItem
-								:subItem="false"
-								:hideNotes="true"
-								notes=""
-								date=""
-								routerLinkPath="/onboarding-host"
-								title="Onboarding"
-								textColor="text-purple-600"
-								textBadge="Completed"
-								textColorBadge="text-white"
-								backgroundColorBadge="bg-green-800"
-							/>
-						</ul>
+						<Host />
 					</div>
 					<!-- End: Caregiver & Host Links -->
 				</div>
@@ -142,6 +116,9 @@
 import Header from '../../components/content/logos/Header.vue'
 
 import CaregiverAndHost from './pages/caregiver-and-host/RegistrationAndForgotPassword.vue'
+import Caregiver from './pages/caregiver-and-host/Caregiver.vue'
+import Host from './pages/caregiver-and-host/Host.vue'
+
 
 import CaregiverAll from './pages/caregiver/All.vue'
 import CaregiverNanny from './pages/caregiver/Nanny.vue'
@@ -167,6 +144,8 @@ export default {
 	components: {
 		Header,
 		CaregiverAndHost,
+		Caregiver,
+		Host,
 		CaregiverAll,
 		CaregiverNanny,
 		CaregiverChildminder,
