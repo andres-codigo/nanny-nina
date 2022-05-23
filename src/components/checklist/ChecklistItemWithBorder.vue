@@ -1,7 +1,7 @@
 <template>
 	<li>
 		<a href="#" target="_self" :class="checklistItemBackgroundClasses" class="block text-gray-500 mb-2 border border-gray-100 bg-white rounded-30px hover:rounded-30px" v-if="checkListItemIsHyperlink">
-			<ChecklistItemContent
+			<ChecklistItemWithBorderContent
 				:hideStatusIcon="hideStatusIcon"
 				:hideContent="hideContent"
 				:hidePending="hidePending"
@@ -14,11 +14,11 @@
 				<template #iconLeft>
 					<slot name="iconLeft" />
 				</template>
-			</ChecklistItemContent>
+			</ChecklistItemWithBorderContent>
 		</a>
 
 		<span class="block w-full mb-4 border border-gray-100 bg-white rounded-30px" v-else>
-			<ChecklistItemContent
+			<ChecklistItemWithBorderContent
 				:hideStatusIcon="hideStatusIcon"
 				:hideContent="hideContent"
 				:hidePending="hidePending"
@@ -32,13 +32,13 @@
 				<template #iconLeft>
 					<slot name="iconLeft" />
 				</template>
-			</ChecklistItemContent>
+			</ChecklistItemWithBorderContent>
 		</span>
 	</li>
 </template>
 
 <script>
-import ChecklistItemContent from './ChecklistItemContent.vue'
+import ChecklistItemWithBorderContent from './ChecklistItemWithBorderContent.vue'
 
 export default {
 	data() {
@@ -47,7 +47,7 @@ export default {
     	}
   	},
 	components: {
-		ChecklistItemContent
+		ChecklistItemWithBorderContent
 	},
 	props: [
 		'pageBackgroundColor',

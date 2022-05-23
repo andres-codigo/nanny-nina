@@ -16,8 +16,8 @@
 
 				<div class="mb-10">
 					<ul role="list">
-						<ChecklistItem pageBackgroundColor="purple" :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isCaregiverHostOptionDescription="true" title="Nanny(3)" description="One-time, Recurring or Event bookings" />
-						<ChecklistItem pageBackgroundColor="purple" :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isCaregiverHostOptionDescription="true" title="Au Pair(2)"  description="Live & care abroad" />
+						<ChecklistItemWithBorder pageBackgroundColor="purple" :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isCaregiverHostOptionDescription="true" title="Nanny(3)" description="One-time, Recurring or Event bookings" />
+						<ChecklistItemWithBorder pageBackgroundColor="purple" :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isCaregiverHostOptionDescription="true" title="Au Pair(2)"  description="Live & care abroad" />
 					</ul>
 				</div>
 
@@ -31,13 +31,13 @@
 
 <script>
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
-import ChecklistItem from '../../../../../components/checklist/ChecklistItem.vue'
+import ChecklistItemWithBorder from '../../../../../components/checklist/ChecklistItemWithBorder.vue'
 import AnchorTextOnly from '../../../../../components/dom-elements/AnchorTextOnly.vue'
 
 export default {
 	components: {
 		TopNavigation,
-		ChecklistItem,
+		ChecklistItemWithBorder,
 		AnchorTextOnly
 	}
 }
