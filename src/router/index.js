@@ -14,7 +14,7 @@ import Dashboard from '../pages/_dashboard/Dashboard.vue'
 	import CaregiverHomeWithMenuTemplate from '../pages/02-caregiver/all/HomeWithMenuTemplate.vue'
 	import CaregiverHomeWithoutMenuTemplate from '../pages/00-duplicate-pages/home/HomeWithoutMenuTemplate.vue'
 	import CaregiverHomeWithBottomMenuAndProfile from '../pages/02-caregiver/all/HomeWithBottomMenuAndProfile.vue'
-	import CaregiverPaymentAccount from '../pages/02-caregiver/all/payment/Account.vue'
+	import CaregiverPaymentContainer from '../pages/02-caregiver/all/payment/PaymentContainer.vue'
 
 	/* Host */
 	import HostOnboardingContainer from '../pages/01-registration-onboarding-forgot-password/onboarding/host/OnboardingHostContainer.vue'
@@ -130,7 +130,7 @@ const routes = [
 	},
 	{
 		path: '/caregiver-payment-account',
-		component: CaregiverPaymentAccount,
+		component: CaregiverPaymentContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 

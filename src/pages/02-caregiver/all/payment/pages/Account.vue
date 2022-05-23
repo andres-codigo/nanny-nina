@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full h-full">
-		<TopNavigation text="Booking">
+		<TopNavigation text="Payment">
 			<template #iconLeft><router-link to="'/dashboard?tab=1"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
 		</TopNavigation>
@@ -65,9 +65,9 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../components/navigation-and-tabs/TopNavigation.vue'
-import Tabs from '../../../../components/navigation-and-tabs/Tabs.vue'
-import Img from '../../../../components/dom-elements/Img.vue'
+import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import Tabs from '../../../../../components/navigation-and-tabs/Tabs.vue'
+import Img from '../../../../../components/dom-elements/Img.vue'
 
 import { ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 
