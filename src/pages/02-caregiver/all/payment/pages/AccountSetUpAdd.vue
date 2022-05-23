@@ -31,7 +31,7 @@
 								<div class="flex items-center px-4 py-2">
 									<div class="flex flex-col my-4 ml-2">
 										<div class="flex flex-col">
-											<p class="text-sm text-purple-500 font-medium antialiased -mt-2">Connected an account to receive money</p>
+											<p class="text-sm text-purple-500 font-medium antialiased leading-none -mt-2">Connected an account to receive money</p>
 											<h4 class="text-header-four text-purple-500 font-bold mt-2">Add new account</h4>
 										</div>
 									</div>
