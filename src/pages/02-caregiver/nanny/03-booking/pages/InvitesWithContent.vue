@@ -32,36 +32,36 @@
 				<div class="flex flex-col pt-6 px-4">
 
 					<BookingCard
+						badgeText="One-time"
+						badgeClass="bg-lilac-50 text-purple-900"
 						title="The Sanders"
 						timeOrDate="Shared on 5 mins ago > 20+ responses"
-						badgeClass="bg-lilac-50 text-purple-900"
-						badgeText="One-time"
 					/>
 
 					<BookingCard
+						badgeText="Recurring"
+						badgeSvg="./assets/svg/badges/lock.svg"
+						badgeClass="bg-green-400 text-purple-900"
 						title="The Alis"
 						:showHeart="true"
 						timeOrDate="Shared an hour ago > 7 responses"
-						badgeSvg="./assets/svg/badges/lock.svg"
-						badgeClass="bg-green-400 text-purple-900"
-						badgeText="Recurring"
 					/>
 
 					<BookingCard
-						title="The Van de Beeks"
-						timeOrDate="Shared an hour ago > 20 responses"
+						badgeText="Event"
 						badgeClass="bg-lilac-100 text-purple-900"
 						badgeSvg="./assets/svg/badges/event.svg"
-						badgeText="Event"
+						title="The Van de Beeks"
+						timeOrDate="Shared an hour ago > 20 responses"
 					/>
 
 					<BookingCard
+						badgeText="Urgent"
+						badgeSvg="./assets/svg/badges/clock.svg"
+						badgeClass="bg-melon-100 text-purple-900"
 						title="The Sanders"
 						timeOrDate="Shared an hour ago > 20 responses"
 						priceBackgroundAndTextColor="bg-white text-purple-900"
-						badgeClass="bg-melon-100 text-purple-900"
-						badgeSvg="./assets/svg/badges/clock.svg"
-						badgeText="Urgent"
 					/>
 				</div>
 			</div>

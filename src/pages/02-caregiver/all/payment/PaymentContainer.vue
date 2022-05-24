@@ -5,6 +5,7 @@
 		<AccountSetUpEdit class="max-w-450-for-dev-not-prod" />
 		<Earnings class="max-w-450-for-dev-not-prod" />
 		<Referrals class="max-w-450-for-dev-not-prod" />
+		<Promotions class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 
@@ -14,6 +15,7 @@ import AddPayment from './pages/AddPayment.vue'
 import AccountSetUpEdit from './pages/AccountSetUpEdit.vue'
 import Earnings from './pages/Earnings.vue'
 import Referrals from './pages/Referrals.vue'
+import Promotions from './pages/Promotions.vue'
 
 export default {
 	components: {
@@ -21,7 +23,8 @@ export default {
 		AddPayment,
 		AccountSetUpEdit,
 		Earnings,
-		Referrals
+		Referrals,
+		Promotions
 	}
 }
 </script>

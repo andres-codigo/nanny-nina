@@ -19,7 +19,7 @@
 						<p class="text-xs text-gray-500 font-thin">{{ totalExperience }}</p>
 					</div>
 					<div class="basis-1/3">
-						<BadgeBookingType :class="badgeClass" :badgeSvg="badgeSvg" :badgeText="badgeText" />
+						<BadgeBookingType :badgeText="badgeText" :badgeSvg="badgeSvg" :class="badgeClass" />
 					</div>
 				</div>
 				<div class="flex flex-row items-center mb-4">

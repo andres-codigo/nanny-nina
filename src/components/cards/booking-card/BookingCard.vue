@@ -20,7 +20,7 @@
 						<p class="text-sm text-gray-500 font-thin leading-none">{{ timeOrDate }}</p>
 					</div>
 					<div class="basis-1/3">
-						<BadgeBookingType :badgeClass="badgeClass" :badgeSvg="badgeSvg" :badgeText="badgeText" />
+						<BadgeBookingType :badgeText="badgeText" :badgeSvg="badgeSvg" :badgeClass="badgeClass" />
 					</div>
 				</div>
 				<div class="flex flex-row mb-4 items-center">
