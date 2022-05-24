@@ -7,6 +7,7 @@
 		<Referrals class="max-w-450-for-dev-not-prod" />
 		<Promotions class="max-w-450-for-dev-not-prod" />
 		<PaymentHistory class="max-w-450-for-dev-not-prod" />
+		<PaymentDetails class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 
@@ -18,6 +19,7 @@ import Earnings from './pages/Earnings.vue'
 import Referrals from './pages/Referrals.vue'
 import Promotions from './pages/Promotions.vue'
 import PaymentHistory from './pages/PaymentHistory.vue'
+import PaymentDetails from './pages/PaymentDetails.vue'
 
 export default {
 	components: {
@@ -27,7 +29,8 @@ export default {
 		Earnings,
 		Referrals,
 		Promotions,
-		PaymentHistory
+		PaymentHistory,
+		PaymentDetails
 	}
 }
 </script>

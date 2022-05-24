@@ -3,7 +3,7 @@
 		<div class="block relative z-10">
 			<span class="inline-flex justify-center rounded-3xl absolute right-12 top-4 text-xs font-semibold bg-lilac-100 w-14  px-2 py-1">Paid</span>
 		</div>
-		<a class="block mb-2 border border-gray-100 rounded-30px hover:rounded-30px" href="#" target="_self">
+		<a class="block mb-2 border border-gray-100 rounded-20px hover:rounded-20px" href="#" target="_self">
 			<div class="flex flex-row">
 				<div class="basis-11/12">
 					<div class="flex items-center py-6">
@@ -20,7 +20,7 @@
 					</div>
 				</div>
 				<div class="basis-1/12 inline-flex items-center">
-					<div class="w-full pr-4"><Img  :src="rightSvg" /></div>
+					<div class="w-full pr-4"><Img :src="rightSvg" /></div>
 				</div>
 			</div>
 		</a>

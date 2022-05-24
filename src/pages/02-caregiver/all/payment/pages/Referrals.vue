@@ -34,22 +34,22 @@
 				<div class="flex flex-col pt-6">
 					<h5 class="text-header-five mb-4">Referral details</h5>
 					<dl class="divide-y divide-gray-50">
-						<DescriptionListItem term="Total Rewards Earned">
+						<DescriptionListItem class="py-4" term="Total Rewards Earned">
 							<template #termDescription>&euro;25</template>
 						</DescriptionListItem>
-						<DescriptionListItem term="Successful signups">
+						<DescriptionListItem class="py-4" term="Successful signups">
 							<template #termDescription>2</template>
 						</DescriptionListItem>
-						<DescriptionListItem term="Signups with completed bookings">
+						<DescriptionListItem class="py-4" term="Signups with completed bookings">
 							<template #termDescription>0</template>
 						</DescriptionListItem>
-						<DescriptionListItem term="Earnings per referral">
+						<DescriptionListItem class="py-4" term="Earnings per referral">
 							<template #termDescription>&euro;50</template>
 						</DescriptionListItem>
-						<DescriptionListItem term="Referred Users">
+						<DescriptionListItem class="py-4" term="Referred Users">
 							<template #termDescription>1</template>
 						</DescriptionListItem>
-						<DescriptionListItem term="Upcoming payout date">
+						<DescriptionListItem class="py-4" term="Upcoming payout date">
 							<template #termDescription>31/12/2021</template>
 						</DescriptionListItem>
 					</dl>

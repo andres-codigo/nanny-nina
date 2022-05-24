@@ -9,14 +9,14 @@
 						</div>
 						<div class="flex flex-col my-2">
 							<div class="flex flex-col">
-								<p class=" text-purple-900 -mt-2 mb-1">{{ header }}</p>
+								<p class="text-purple-900 -mt-2 mb-1">{{ header }}</p>
 								<p class="text-xs">{{ subHeader }}</p>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="basis-1/12 inline-flex items-center">
-					<div class="w-full pr-4"><Img  :src="rightSvg" /></div>
+					<div class="w-full pr-4"><Img :src="rightSvg" /></div>
 				</div>
 			</div>
 		</a>
