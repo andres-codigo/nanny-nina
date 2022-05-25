@@ -3,7 +3,10 @@
 		<HomeTemplate />
 		<ProfileMenu />
 		<footer>
-			<CaregiverBottomMenu />
+			<CaregiverBottomMenu
+				:isHomeSelected="false"
+				:isProfileSelected="true"
+			/>
 		</footer>
 	</div>
 </template>

@@ -1,5 +1,8 @@
 <template>
-	<div class="absolute top-0 right-0 w-2/3 bg-white z-10">
+	<div class="fixed inset-0 transition-opacity z-10">
+		<div tabindex="0" class="absolute inset-0 bg-purple-900 opacity-50"></div>
+	</div>
+	<aside :class="isOpen ? 'translate-x-0' : '-translate-x-full'" class="transform top-0 right-0 w-2/3 bg-white fixed h-full overflow-auto ease-in-out transition-all duration-300 z-10">
 		<div class="mt-12 mx-4">
 			<div class="mb-8">
 				<Img class="h-20 w-20 rounded-full mb-4" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" />
@@ -21,7 +24,7 @@
 				</button>
 			</div>
 
-			<div class="my-6">
+			<div class="mt-6 mb-12">
 				<ul role="list">
 					<li>
 						<div class="flex flex-row w-full">
@@ -39,9 +42,8 @@
 					</li>
 				</ul>
 			</div>
-
 		</div>
-	</div>
+	</aside>
 </template>
 
 <script>
@@ -54,6 +56,26 @@ export default {
 		Share,
 		Menu,
 		Img
+	},
+	props: {
+		isOpen: {
+			type: Boolean,
+			default: true
+		}
+	},
+	watch: {
+		isOpen: {
+			immediate: true,
+			handler(isOpen) {
+				if (import.meta.env) {
+					if (isOpen) {
+						document.body.style.setProperty("overflow", "hidden")
+					} else {
+						document.body.style.removeProperty("overflow")
+					}
+				}
+			}
+		}
 	}
 }
 </script>
