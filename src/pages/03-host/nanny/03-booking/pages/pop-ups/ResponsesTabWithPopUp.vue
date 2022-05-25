@@ -63,9 +63,6 @@
 		-->
 		<section>
 			<div class="absolute inset-x-0 bottom-0 h-3/4 z-index-10 w-full rounded-t-30px bg-white border border-gray-500 px-4 pt-6">
-				<TopNavigation backgroundColor="bg-white-500" :displayBorderBottom="false">
-					<template #iconRight><router-link to="/dashboard?tab=1"><Img src="./assets/svg/ticks-and-crosses/cross-remove-black.svg" /></router-link></template>
-				</TopNavigation>
 				<div class="flex flex-col pt-12">
 					<!--
 						PART THREE OF THREE

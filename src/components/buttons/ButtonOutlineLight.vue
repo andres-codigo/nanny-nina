@@ -6,7 +6,7 @@
 		class="
 			justify-center
 			rounded-full
-			font-bold
+			font-semibold
 			antialiased leading-none
 			border
 		">{{ text }}</button>

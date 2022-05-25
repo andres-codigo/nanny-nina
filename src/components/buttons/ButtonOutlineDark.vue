@@ -6,11 +6,9 @@
 		class="
 			justify-center
 			rounded-full
-			font-bold
+			font-semibold
 			antialiased
 			border
-			hover:border-lilac-900
-			focus:border-lilac-500
 		">
 			<slot name="iconWithText"></slot>
 			{{ text }}
@@ -22,7 +20,7 @@ export default {
 	props: {
 		class: {
 			type: String,
-			default: 'w-full py-4 text-xl'
+			default: 'w-full text-xl border-purple-900 hover:border-lilac-900 focus:border-lilac-500 py-4'
 		},
 		text: String
 	}

@@ -1,7 +1,7 @@
 <template>
 	<div class="w-full h-full">
-		<TopNavigation backgroundColor="bg-white-500" :displayBorderBottom="false">
-			<template #iconRight><router-link to="/dashboard?tab=3"><Img src="./assets/svg/ticks-and-crosses/cross-remove-black.svg" /></router-link></template>
+		<TopNavigation :displayBorderBottom="false">
+			<template #iconRight><router-link to="/dashboard?tab=3"><Img src="./assets/svg/ticks-and-crosses/cross-remove-white.svg" /></router-link></template>
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col pt-12 mx-4">

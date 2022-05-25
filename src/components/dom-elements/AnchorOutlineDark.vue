@@ -26,7 +26,7 @@ export default {
 		},
 		class: {
 			type: String,
-			default: 'w-full text-xl py-4 text-white border-white'
+			default: 'w-full text-xl border-purple-900 hover:border-lilac-900 focus:border-lilac-500 hover:bg-green-400 focus:bg-green-600 py-4'
 		},
 		text: String
 	}
