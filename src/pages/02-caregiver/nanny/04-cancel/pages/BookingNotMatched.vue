@@ -21,7 +21,7 @@
 				<div class="flex flex-col justify-center items-center mb-10">
 					<div class="grid grid-rows-2 gap-2">
 						<div><ButtonSecondary text="Continue Applying " class="w-button-xl text-xl py-4" /></div>
-						<div><ButtonOutlineDark text="Back to Matches" class="w-button-xl text-xl py-4 border-purple-900 hover:bg-green-400 focus:bg-green-600" /></div>
+						<div><ButtonOutlineDark text="Back to Matches" class="w-button-xl text-xl border-purple-900 hover:text-gray-500 hover:border-gray-500 focus:text-purple-600 focus:border-purple-600 py-4" /></div>
 					</div>
 				</div>
 			</div>

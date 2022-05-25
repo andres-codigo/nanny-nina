@@ -67,7 +67,7 @@ export default {
 			if (pageBackgroundColor === 'purple') {
 				this.checklistItemBackgroundClasses = 'hover:text-purple-800 hover:bg-green-400 hover:border-green-400 focus:bg-green-600 focus:border-green-600';
 			} else {
-				this.checklistItemBackgroundClasses = 'hover:bg-lilac-50 hover:border-lilac-50 focus:bg-lilac-100 focus:border-lilac-100';
+				this.checklistItemBackgroundClasses = 'hover:bg-lilac-50 hover:border-gray-100 focus:bg-green-100 focus:border-gray-100';
 			}
 		}
 	},

@@ -18,9 +18,9 @@
 					<p class="font-light antialiased">All childminder bookings go to Portabase. To submit your hours &amp; process.</p>
 				</div>
 
-				<div class="flex flex-col pb-20 px-8">
+				<div class="flex flex-col pb-20 mx-4">
 					<PortabaseCard backgroundColor="bg-lilac-100" header="Portabase">
-						<template #link><AnchorOutlineLight text="Go to Portabase" class="w-button-xl text-xl py-4 border-gray-500 hover:bg-green-400 focus:bg-green-600" /></template>
+						<template #link><AnchorOutlineDark text="Go to Portabase" class="w-button-lg text-xl border-purple-900 hover:text-gray-500 hover:border-gray-500 focus:text-purple-600 focus:border-purple-600 py-4" /></template>
 					</PortabaseCard>
 				</div>
 
@@ -36,7 +36,7 @@
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import Tabs from '../../../../../components/navigation-and-tabs/Tabs.vue'
 import PortabaseCard from '../../../../../components/cards/portabase-card/PortabaseCard.vue'
-import AnchorOutlineLight from '../../../../../components/dom-elements/AnchorOutlineLight.vue'
+import AnchorOutlineDark from '../../../../../components/dom-elements/AnchorOutlineDark.vue'
 import Img from '../../../../../components/dom-elements/Img.vue'
 
 import { QuestionMarkCircleIcon } from '@heroicons/vue/solid'
@@ -46,7 +46,7 @@ export default {
 		TopNavigation,
 		Tabs,
 		PortabaseCard,
-		AnchorOutlineLight,
+		AnchorOutlineDark,
 		Img,
 		QuestionMarkCircleIcon
 	}
