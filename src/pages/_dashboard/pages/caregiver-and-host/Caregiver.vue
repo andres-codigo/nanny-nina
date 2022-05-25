@@ -49,15 +49,15 @@
 		/>
 		<ListItem
 			:subItem="false"
-			:hideNotes="true"
-			notes=""
-			date=""
+			:hideNotes="false"
+			notes="Waiting on Figma design update"
+			date="25/05/22"
 			routerLinkPath="/caregiver-payment-account"
 			title="Payment"
 			textColor="text-purple-600"
-			textBadge="In Progress"
+			textBadge="On Hold - UI/Design"
 			textColorBadge="text-purple-900"
-			backgroundColorBadge="bg-amber-300"
+			backgroundColorBadge="bg-amber-500"
 		/>
 	</ul>
 </template>
