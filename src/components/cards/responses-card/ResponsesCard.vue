@@ -5,7 +5,7 @@
 				<div class="flex flex-row mb-4">
 					<div class="basis-3/4">
 						<div class="inline-flex float-left items-center">
-							<BadgeBookingType :class="badgeClass" :badgeSvg="badgeSvg" :badgeText="badgeText" />
+							<BadgeBookingType :badgeText="badgeText" :badgeSvg="badgeSvg" :class="badgeClass" />
 						</div>
 					</div>
 					<div class="basis-1/4">

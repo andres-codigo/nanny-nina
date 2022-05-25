@@ -20,9 +20,9 @@
 			routerLinkPath="/caregiver-childminder-booking"
 			title="Booking"
 			textColor="text-purple-600"
-			textBadge="In Progress"
-			textColorBadge="text-purple-900"
-			backgroundColorBadge="bg-amber-300"
+			textBadge="Completed"
+			textColorBadge="text-white"
+			backgroundColorBadge="bg-green-800"
 		/>
 	</ul>
 </template>

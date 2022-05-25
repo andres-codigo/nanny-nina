@@ -5,10 +5,10 @@
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col justify-center pt-12 mx-4">
-				<h5 class="text-header-five font-semibold antialiased mb-4">Subsidized childcare</h5>
+				<h5 class="text-header-five font-semibold antialiased mb-">Subsidized childcare</h5>
 				<div class="inline-flex pb-8">
 					<LinkCard :showQuestionMark="true" :showPlaceholderSVG="true" to="dashboard" class="text-white bg-purple-500 hover:bg-purple-300 focus:bg-purple-600" title="One-time">
-						<template #details><p class="text-white pt-2">Urgent nanny for single or multiple days. Maximum 12days </p></template>
+						<template #details><p class="text-white">Specialised nanny who comes to your address or receives children at her home with childcare allowance...</p></template>
 					</LinkCard>
 				</div>
 

@@ -2,23 +2,23 @@
 	<div class="flex flex-row">
 		<div class="basis-11/12">
 			<div :class="['flex items-center px-4', hideContent ? 'py-6' : 'py-2']">
-				<div :class="['mr-2', hideStatusIcon ? 'hidden' : '']">
+				<div class="mr-2" v-if="!hideStatusIcon">
 					<slot name="iconLeft"></slot>
 				</div>
 				<div :class="['flex flex-col', hideContent ? 'my-2' : 'my-4 ml-2']">
 
-					<div :class="['flex  text-xs relative -top-2', hidePending ? 'hidden' : '']">
+					<div class="flex text-xs relative -top-2" v-if="!hidePending">
 						<p class="font-thin text-gray-500">Pending (0/2)</p>
 					</div>
 
 					<div class="flex flex-col">
 						<h5 class="text-header-five text-purple-900 font-semibold antialiased -mt-2">
-							{{ title }}<span :class="['pl-1 text-red-500', hideMandatoryRedStar ? 'hidden' : '']">*</span>
+							{{ title }}<span class="pl-1 text-red-500" v-if="!hideMandatoryRedStar">*</span>
 						</h5>
 						<span :class="['inline-flex mt-2 font-medium', isCaregiverHostOptionDescription ? 'text-xs' : 'text-sm']" v-if="!hideContent">{{ description }}</span>
 					</div>
 
-					<div :class="['inline-flex', showBadge ? 'mt-4' : 'hidden']">
+					<div class="inline-flex mt-4" v-if="showBadge">
 						<ButtonPreferenceOutlineGrey text="&euro;10" class="text-sm w-20 py-3 mr-2" />
 						<ButtonPreferenceOutlineGrey text="&euro;15" class="text-sm w-20 py-3" />
 					</div>

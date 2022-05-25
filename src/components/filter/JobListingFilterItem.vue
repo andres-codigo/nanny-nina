@@ -7,7 +7,7 @@
 			border border-purple-900
 			w-button-xs
 			cursor-pointer
-			mx-1 px-2 py-1
+			mx-1 py-1
 			hover:bg-gray-50
 			focus:bg-gray-100
 			">

@@ -16,7 +16,7 @@
 						<p class="font-light">You can always adjust this later in your profile</p>
 
 						<ul role="list" class="mt-8">
-							<ChecklistItem
+							<ChecklistItemWithBorder
 								:checkListItemIsHyperlink="true"
 								:hideContent="false"
 								:hidePending="true"
@@ -24,9 +24,9 @@
 								title="Availability"
 								description="Choose the days &amp; time you want to work"
 							>
-								<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-gray-500" aria-hidden="true" /></template>
-							</ChecklistItem>
-							<ChecklistItem
+								<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-green-800" aria-hidden="true" /></template>
+							</ChecklistItemWithBorder>
+							<ChecklistItemWithBorder
 								:checkListItemIsHyperlink="true"
 								:hideContent="false"
 								:hidePending="true"
@@ -34,9 +34,9 @@
 								title="Matching Preference"
 								description="This will help us to find a good match"
 							>
-								<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-green-800" aria-hidden="true" /></template>
-							</ChecklistItem>
-							<ChecklistItem
+								<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-gray-500" aria-hidden="true" /></template>
+							</ChecklistItemWithBorder>
+							<ChecklistItemWithBorder
 								:checkListItemIsHyperlink="true"
 								:hideContent="false"
 								:hidePending="true"
@@ -45,8 +45,8 @@
 								description="So we know you even better than you know yourself"
 							>
 								<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-gray-500" aria-hidden="true" /></template>
-							</ChecklistItem>
-							<ChecklistItem
+							</ChecklistItemWithBorder>
+							<ChecklistItemWithBorder
 								:hideStatusIcon="true"
 								:checkListItemIsHyperlink="false"
 								:hideContent="false"
@@ -57,7 +57,8 @@
 								description="What is your minimum asking price?"
 								:hideHyperlinkIcon="true"
 							>
-							</ChecklistItem>
+								<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-gray-500" aria-hidden="true" /></template>
+							</ChecklistItemWithBorder>
 						</ul>
 					</div>
 
@@ -80,7 +81,7 @@ import CompletedStep from '../../../../../../components/steps/types/CompletedSte
 import CurrentStep from '../../../../../../components/steps/types/CurrentStep.vue'
 import UpcomingStep from '../../../../../../components/steps/types/UpcomingStep.vue'
 
-import ChecklistItem from '../../../../../../components/checklist/ChecklistItem.vue'
+import ChecklistItemWithBorder from '../../../../../../components/checklist/ChecklistItemWithBorder.vue'
 import RadioQuestionsLabelLeftInputRight from '../../../../../../components/form/RadioQuestionsLabelLeftInputRight.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 import AnchorTextOnly from '../../../../../../components/dom-elements/AnchorTextOnly.vue'
@@ -94,7 +95,7 @@ export default {
 		CompletedStep,
 		CurrentStep,
 		UpcomingStep,
-		ChecklistItem,
+		ChecklistItemWithBorder,
 		RadioQuestionsLabelLeftInputRight,
 		ButtonPrimary,
 		AnchorTextOnly,

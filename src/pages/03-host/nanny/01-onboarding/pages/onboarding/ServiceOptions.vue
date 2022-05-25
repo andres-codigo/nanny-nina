@@ -12,9 +12,9 @@
 
 				<div class="mb-10">
 					<ul role="list">
-						<ChecklistItem pageBackgroundColor="purple" :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isCaregiverHostOptionDescription="true" title="Au Pair" description="Live in nanny: 375 euro/ month" />
-						<ChecklistItem pageBackgroundColor="purple" :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isCaregiverHostOptionDescription="true" title="Nanny" description="Last minute,One-time, Recurring or Event nanny" />
-						<ChecklistItem pageBackgroundColor="purple" :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isCaregiverHostOptionDescription="true" title="Childminder" description="Nanny with subsidy: for full days" />
+						<ChecklistItemWithBorder pageBackgroundColor="purple" :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isCaregiverHostOptionDescription="true" title="Au Pair" description="Live in nanny: 375 euro/ month" />
+						<ChecklistItemWithBorder pageBackgroundColor="purple" :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isCaregiverHostOptionDescription="true" title="Nanny" description="Last minute,One-time, Recurring or Event nanny" />
+						<ChecklistItemWithBorder pageBackgroundColor="purple" :checkListItemIsHyperlink="true" :hideStatusIcon="true" :hideContent="false" :hidePending="true" :isCaregiverHostOptionDescription="true" title="Childminder" description="Nanny with subsidy: for full days" />
 					</ul>
 				</div>
 
@@ -28,13 +28,13 @@
 
 <script>
 import TopNavigation from '../../../../../../components/navigation-and-tabs/TopNavigation.vue'
-import ChecklistItem from '../../../../../../components/checklist/ChecklistItem.vue'
+import ChecklistItemWithBorder from '../../../../../../components/checklist/ChecklistItemWithBorder.vue'
 import AnchorTextOnly from '../../../../../../components/dom-elements/AnchorTextOnly.vue'
 
 export default {
 	components: {
 		TopNavigation,
-		ChecklistItem,
+		ChecklistItemWithBorder,
 		AnchorTextOnly
 	}
 }

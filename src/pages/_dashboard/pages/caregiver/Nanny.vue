@@ -2,18 +2,6 @@
 	<ul role="list" class="relative z-0 divide-y divide-gray-200">
 		<ListItem
 			:subItem="false"
-			:hideNotes="true"
-			notes=""
-			date=""
-			routerLinkPath="/caregiver-nanny-home-without-bottom-menu"
-			title="Home (without bottom menu)"
-			textColor="text-purple-600"
-			textBadge="Completed"
-			textColorBadge="text-white"
-			backgroundColorBadge="bg-green-800"
-		/>
-		<ListItem
-			:subItem="false"
 			:hideNotes="false"
 			notes="Waiting on design updates"
 			date="06/05/22"
@@ -54,7 +42,7 @@
 			notes=""
 			date=""
 			routerLinkPath="/caregiver-nanny-booking-invites-list-with-content"
-			title="Booking Invites List (Content) and fixed content"
+			title="Booking Invites List (with items and fixed content)"
 			textColor="text-purple-600"
 			textBadge="Completed"
 			textColorBadge="text-white"
@@ -66,7 +54,7 @@
 			notes=""
 			date=""
 			routerLinkPath="/caregiver-nanny-booking-invites-list-with-no-content"
-			title="Booking Invites List (No content) and fixed content"
+			title="Booking Invites List (no items and fixed content)"
 			textColor="text-purple-600"
 			textBadge="Completed"
 			textColorBadge="text-white"
