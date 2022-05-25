@@ -21,20 +21,20 @@
 								:hideContent="false"
 								:hidePending="true"
 								:hideMandatoryRedStar="false"
-								title="Matching Preference"
-								description="This will help us to find a good match"
+								title="Availability"
+								description="Choose the days &amp; time you want to work"
 							>
-								<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-green-800" aria-hidden="true" /></template>
+								<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-gray-500" aria-hidden="true" /></template>
 							</ChecklistItem>
 							<ChecklistItem
 								:checkListItemIsHyperlink="true"
 								:hideContent="false"
 								:hidePending="true"
 								:hideMandatoryRedStar="false"
-								title="Availability"
-								description="Choose the days &amp; time you want to work"
+								title="Matching Preference"
+								description="This will help us to find a good match"
 							>
-								<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-gray-500" aria-hidden="true" /></template>
+								<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-green-800" aria-hidden="true" /></template>
 							</ChecklistItem>
 							<ChecklistItem
 								:checkListItemIsHyperlink="true"
@@ -57,7 +57,6 @@
 								description="What is your minimum asking price?"
 								:hideHyperlinkIcon="true"
 							>
-								<template #iconLeft><CheckCircleIcon class="relative right-0 top-1 w-5 h-5 text-gray-500" aria-hidden="true" /></template>
 							</ChecklistItem>
 						</ul>
 					</div>
