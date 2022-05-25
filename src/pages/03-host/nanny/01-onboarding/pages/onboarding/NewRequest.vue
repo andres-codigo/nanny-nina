@@ -1,7 +1,7 @@
 <template>
 	<div class="w-full h-full">
-		<TopNavigation backgroundColor="bg-white-500" :displayBorderBottom="false">
-			<template #iconRight><router-link to="/dashboard?tab=3"><XIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
+		<TopNavigation :displayBorderBottom="false">
+			<template #iconRight><router-link to="/dashboard?tab=3"><XIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col justify-center pt-12 mx-4">
@@ -22,7 +22,7 @@
 					</LinkCard>
 				</div>
 
-				<div class="flex flex-col justify-center items-center my-4">
+				<div class="flex flex-col justify-center items-center my-16">
 					<a href="#" target="_self" class="anchor-blue anchor-with-underline text-center font-medium">Learn more about Nannies</a>
 				</div>
 			</div>

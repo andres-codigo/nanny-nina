@@ -1,7 +1,7 @@
 <template>
 	<div class="w-full h-full">
-		<TopNavigation backgroundColor="bg-white-500" :displayBorderBottom="false">
-			<template #iconRight><router-link to="/dashboard?tab=3"><XIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
+		<TopNavigation :displayBorderBottom="false">
+			<template #iconRight><router-link to="/dashboard?tab=3"><XIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col justify-center pt-12 mx-4">
@@ -15,8 +15,8 @@
 				<div class="flex flex-col justify-center items-center mt-40">
 					<div class="grid grid-rows-2 gap-2">
 						<div><AnchorPrimary text="Continue" class="w-button-lg text-xl py-4" /></div>
-						<div class="text-center">
-							<a href="#" target="_self" class="anchor-blue anchor-with-underline font-medium mt-4">Learn more about Childminders</a>
+						<div class="text-center mt-4">
+							<AnchorTextOnly text="Learn more about Childminders >" textColorClass="anchor-blue" />
 						</div>
 					</div>
 				</div>
@@ -29,6 +29,7 @@
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import LinkCard from '../../../../../components/cards/link-card/LinkCard.vue'
 import AnchorPrimary from '../../../../../components/dom-elements/AnchorPrimary.vue'
+import AnchorTextOnly from '../../../../../components/dom-elements/AnchorTextOnly.vue'
 
 import { XIcon } from '@heroicons/vue/solid'
 
@@ -37,6 +38,7 @@ export default {
 		TopNavigation,
 		LinkCard,
 		AnchorPrimary,
+		AnchorTextOnly,
 		XIcon
 	}
 }

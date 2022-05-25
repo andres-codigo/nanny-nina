@@ -152,7 +152,8 @@ module.exports = {
 					LG: 17.428rem / 279px
 					XL: 20.5rem / 328px
 
-					INPUT-SMS: 7.125rem / 114px
+					INPUT-SM: 7.313rem / 117px
+					INPUT-BASE: 12.813rem / 2054px
 
 					NB: select-[size] & input-[size] classes added; currently, the sizes are different
 						page design by page design so a consistent size needs to be set
@@ -176,7 +177,7 @@ module.exports = {
 				/* Input Fields */
 				'input-xs': '',
 				'input-sm': '7.313rem',
-				'input-base': '',
+				'input-base': '12.813rem',
 				'input-lg': '',
 				'input-xl': '',
 				/* Icons */

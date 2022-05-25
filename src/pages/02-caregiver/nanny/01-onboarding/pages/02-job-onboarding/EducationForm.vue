@@ -103,7 +103,7 @@
 						<RadioQuestionsLabelLeftInputRight :screenReaderOnly="true" legend="Do you have any health conditions?" questionOneText="Yes" questionTwoText="No" />
 					</div>
 
-					<div class="my-4">
+					<div class="mt-4 mb-16">
 						<h5 class="text-header-five font-semibold antialiased mb-4">Language</h5>
 						<p class="font-thin mb-2">What language(s) do you speak?</p>
 						<div class="mt-4 grid grid-cols-2 gap-y-6 gap-x-2">
@@ -115,6 +115,22 @@
 								<div><BadgeRemove text="Irish" /></div>
 							</div>
 						</div>
+					</div>
+
+					<div class="mb-20">
+						<h5 class="text-header-five font-medium antialiased mb-4">Social media</h5>
+						<p class="font-thin mb-4">Please enter your username for active social media accounts:</p>
+
+						<div class="mt-4 mb-8 grid grid-cols-1 gap-y-4">
+							<div><InputField inputClasses="w-input-base" text="Tiktok" /></div>
+							<div><InputField inputClasses="w-input-base" text="Instagram" /></div>
+							<div><InputField inputClasses="w-input-base" text="Twitter" /></div>
+							<div><InputField inputClasses="w-input-base" text="Facebook" /></div>
+						</div>
+
+						<CheckboxLeftWithContainerAndLabelRight>
+							<template #text>No, please don't send any marketing emails or content</template>
+						</CheckboxLeftWithContainerAndLabelRight>
 					</div>
 
 					<div class="flex flex-col justify-center items-center mt-20">
@@ -143,6 +159,8 @@ import RadioQuestionsLabelLeftInputRight from '../../../../../../components/form
 import InputFieldBorderBottomOnly from '../../../../../../components/form/InputFieldBorderBottomOnly.vue'
 import ButtonOutlineDark from '../../../../../../components/buttons/ButtonOutlineDark.vue'
 import BadgeRemove from '../../../../../../components/badge/BadgeRemove.vue'
+import InputField from '../../../../../../components/form/InputField.vue'
+import CheckboxLeftWithContainerAndLabelRight from '../../../../../../components/form/CheckboxLeftWithContainerAndLabelRight.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
 import AnchorTextOnly from '../../../../../../components/dom-elements/AnchorTextOnly.vue'
 
@@ -161,6 +179,8 @@ export default {
 		InputFieldBorderBottomOnly,
 		ButtonOutlineDark,
 		BadgeRemove,
+		InputField,
+		CheckboxLeftWithContainerAndLabelRight,
 		ButtonPrimary,
 		AnchorTextOnly,
 		ChevronLeftIcon,

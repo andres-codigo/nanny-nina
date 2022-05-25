@@ -14,7 +14,7 @@
 			:placeholder="placeholder"
 			:value="value"
 			:class="['appearance-none block w-full border py-2 border-gray-400 rounded-full text-gray-600 focus:outline-none focus:ring-0 focus:ring-purple-500 focus:border-purple-500',
-					hasLeadingIcon && inputIconType !== '' ? 'pl-10 pr-3' : 'px-3'
+					hasLeadingIcon && inputIconType !== '' ? 'pl-10 pr-3' : 'px-3', inputClasses
 			]"
 		>
 	</div>
@@ -38,6 +38,10 @@ export default {
 			default: false
 		},
 		inputIconType: {
+			type: String,
+			default: ''
+		},
+		inputClasses: {
 			type: String,
 			default: ''
 		}

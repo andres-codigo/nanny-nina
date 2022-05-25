@@ -6,7 +6,7 @@
 		<main>
 			<div class="flex flex-col justify-center pt-12 mx-4">
 				<form class="w-full" action="#" method="POST">
-					<div class="mb-12">
+					<div class="mb-2">
 						<h5 class="text-header-five font-semibold antialiased">Finish your application: Book a call</h5>
 					</div>
 
@@ -48,11 +48,14 @@ import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavi
 import IntakeCallCard from '../../../../../components/cards/intake-call-card/IntakeCallCard.vue'
 import AnchorPrimary from '../../../../../components/dom-elements/AnchorPrimary.vue'
 
+import { ChevronLeftIcon } from '@heroicons/vue/solid'
+
 export default {
 	components: {
 		TopNavigation,
 		IntakeCallCard,
-		AnchorPrimary
+		AnchorPrimary,
+		ChevronLeftIcon
 	}
 }
 </script>

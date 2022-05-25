@@ -28,11 +28,11 @@ export default {
 	props: {
 		inputClass: {
 			type: String,
-			default: 'h-3 w-3 text-purple-500'
+			default: 'h-5 w-5 text-purple-500'
 		},
 		labelContainerClass: {
 			type: String,
-			default: 'text-xs font-thin'
+			default: 'text-sm font-thin'
 		},
 		checked: {
 			type: Boolean,

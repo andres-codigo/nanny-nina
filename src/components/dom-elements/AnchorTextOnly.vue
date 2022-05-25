@@ -2,7 +2,7 @@
 	<a
 		:href="url"
 		:target="hrefTarget"
-		:class="['inline-flex font-bold antialiased leading-none anchor-with-underline', textColorClass]">
+		:class="['inline-flex antialiased leading-none anchor-with-underline', textColorClass]">
 		{{ text }}</a>
 </template>
 

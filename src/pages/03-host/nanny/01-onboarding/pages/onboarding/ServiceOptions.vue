@@ -1,13 +1,13 @@
 <template>
-	<div class="w-full h-full bg-purple-500">
-		<TopNavigation backgroundColor="bg-purple-500" :displayBorderBottom="false">
-			<template #iconRight><router-link to="/dashboard?tab=3"><Img src="./assets/svg/ticks-and-crosses/cross-remove-white.svg" /></router-link></template>
+	<div class="w-full h-full bg-lilac-100">
+		<TopNavigation backgroundColor="bg-lilac-100" :displayBorderBottom="false">
+			<template #iconRight><router-link to="/dashboard?tab=3"><Img src="./assets/svg/ticks-and-crosses/cross-remove-black.svg" /></router-link></template>
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col mt-12 mx-8">
 				<div class="mb-44">
-					<h2 class="text-center text-header-two text-green-500 font-semibold antialiased mx-5">Hey Janne!</h2>
-					<h5 class="text-lg text-center text-white font-thin mt-3">What are you looking for?</h5>
+					<h2 class="text-center text-header-two font-semibold antialiased mx-5">Hey Janne!</h2>
+					<h5 class="text-2xl text-center font-thin mt-3">What are you looking for?</h5>
 				</div>
 
 				<div class="mb-10">
@@ -19,7 +19,7 @@
 				</div>
 
 				<div class="flex justify-center items-center ml-4 mb-10">
-					<AnchorTextOnly text="Help me choose >" textColorClass="anchor-white" />
+					<AnchorTextOnly text="Help me choose >" textColorClass="anchor-black" />
 				</div>
 			</div>
 		</main>
