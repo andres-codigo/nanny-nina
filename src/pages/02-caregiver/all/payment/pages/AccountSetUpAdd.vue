@@ -25,23 +25,7 @@
 				</div>
 
 				<div class="flex flex-col pt-6">
-					<a href="#" target="_self" class="block rounded-30px bg-green-500 hover:bg-green-400 focus:bg-green-600 text-gray-500 h-44 mb-16">
-						<div class="flex flex-row h-full">
-							<div class="basis-11/12">
-								<div class="flex items-center px-4 py-2">
-									<div class="flex flex-col my-4 ml-2">
-										<div class="flex flex-col">
-											<p class="text-sm text-purple-500 font-medium antialiased leading-none -mt-2">Connected an account to receive money</p>
-											<h4 class="text-header-four text-purple-500 font-bold mt-2">Add new account</h4>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="basis-1/12 inline-flex items-center mr-4">
-								<Img src="./assets/svg/other/add-circle-outline-purple.svg" class="w-6 h-6" />
-							</div>
-						</div>
-					</a>
+					<PaymentCard />
 
 					<h4 class="text-header-four mb-4">Get Paid Via The App:</h4>
 					<ul role="list">
@@ -67,6 +51,7 @@
 <script>
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import Tabs from '../../../../../components/navigation-and-tabs/Tabs.vue'
+import PaymentCard from '../../../../../components/cards/payment-card/PaymentCard.vue'
 import Img from '../../../../../components/dom-elements/Img.vue'
 
 import { ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
@@ -75,6 +60,7 @@ export default {
 	components: {
 		TopNavigation,
 		Tabs,
+		PaymentCard,
 		Img,
 		ChevronLeftIcon,
 		QuestionMarkCircleIcon
