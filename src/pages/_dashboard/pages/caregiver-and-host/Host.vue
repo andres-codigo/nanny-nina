@@ -23,6 +23,18 @@
 			textColorBadge="text-white"
 			backgroundColorBadge="bg-green-800"
 		/>
+		<ListItem
+			:subItem="false"
+			:hideNotes="true"
+			notes=""
+			date=""
+			routerLinkPath="/host-home-with-bottom-menu-and-profile"
+			title="Home (with bottom menu and profile)"
+			textColor="text-purple-600"
+			textBadge="Completed"
+			textColorBadge="text-white"
+			backgroundColorBadge="bg-green-800"
+		/>
 	</ul>
 </template>
 

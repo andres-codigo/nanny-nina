@@ -38,7 +38,7 @@
 								</div>
 							</div>
 							<div class="basis-1/12 inline-flex items-center mr-4">
-								<Img src="./assets/svg/other/add-circle-outline.svg" class="w-6 h-6" />
+								<Img src="./assets/svg/other/add-circle-outline-purple.svg" class="w-6 h-6" />
 							</div>
 						</div>
 					</a>

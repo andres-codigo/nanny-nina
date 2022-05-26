@@ -19,6 +19,7 @@ import Dashboard from '../pages/_dashboard/Dashboard.vue'
 	/* Host */
 	import HostOnboardingContainer from '../pages/01-registration-onboarding-forgot-password/onboarding/host/OnboardingHostContainer.vue'
 	import HostNannyHome from '../pages/03-host/Home.vue'
+	import HostHomeWithBottomMenuAndProfile from '../pages/03-host/all/HostHomeWithBottomMenuAndProfile.vue'
 
 /* END: Caregiver & Host */
 
@@ -145,6 +146,11 @@ const routes = [
 	{
 		path: '/host-nanny-home',
 		component: HostNannyHome,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/host-home-with-bottom-menu-and-profile',
+		component: HostHomeWithBottomMenuAndProfile,
 		meta: { transition: 'slide-right-to-left' }
 	},
 

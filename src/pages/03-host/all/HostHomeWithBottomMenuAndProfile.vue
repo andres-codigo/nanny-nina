@@ -1,11 +1,11 @@
 <template>
 	<div class="w-full">
 		<HomeTemplate />
-		<ProfileMenu :isHostMenu="false" />
+		<ProfileMenu :isHostMenu="true" />
 		<footer>
-			<CaregiverBottomMenu
+			<HostBottomMenu
 				:isHomeSelected="false"
-				:isProfileSelected="true"
+				:isMoreSelected="true"
 			/>
 		</footer>
 	</div>
@@ -14,13 +14,13 @@
 <script>
 import HomeTemplate from '../../00-duplicate-pages/home/HomeTemplate.vue'
 import ProfileMenu from '../../../components/menu/profile/ProfileMenu.vue'
-import CaregiverBottomMenu from '../../../components/menu/CaregiverBottomMenu.vue'
+import HostBottomMenu from '../../../components/menu/HostBottomMenu.vue'
 
 export default {
 	components: {
 		HomeTemplate,
 		ProfileMenu,
-		CaregiverBottomMenu
+		HostBottomMenu
 	}
 }
 </script>

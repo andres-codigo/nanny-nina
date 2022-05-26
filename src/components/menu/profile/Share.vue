@@ -4,7 +4,7 @@
 			<div class="basis-1/6"><Img src="./assets/svg/other/share.svg" class="w-8 h-8" /></div>
 			<div class="basis-5/6 ml-2">
 				<h6 class="text-header-six text-white">Share your link</h6>
-				<p class="text-xs text-white">nannynina/@pleunstorme</p>
+				<p class="text-xs text-white">{{ isHostMenu ? 'nannynina/@jannestindl' : 'nannynina/@pleunstorme' }}</p>
 			</div>
 		</div>
 	</div>
@@ -16,6 +16,9 @@ import Img from '../../dom-elements/Img.vue'
 export default {
 	components: {
 		Img
+	},
+	props: {
+		isHostMenu: Boolean
 	}
 }
 </script>
