@@ -29,12 +29,8 @@
 				<div class="mb-10">
 					<ul role="list">
 						<ChecklistItemWithBorderPaymentHistory />
-						<ChecklistItemWithBorderPaymentHistory header="Jeffersons">
-							<template #totalAmount>&euro;550</template>
-						</ChecklistItemWithBorderPaymentHistory>
-						<ChecklistItemWithBorderPaymentHistory header="Lukes">
-							<template #totalAmount>&euro;9.99</template>
-						</ChecklistItemWithBorderPaymentHistory>
+						<ChecklistItemWithBorderPaymentHistory header="Jeffersons"><template #totalAmount>&euro;550</template></ChecklistItemWithBorderPaymentHistory>
+						<ChecklistItemWithBorderPaymentHistory header="Lukes"><template #totalAmount>&euro;9.99</template></ChecklistItemWithBorderPaymentHistory>
 					</ul>
 				</div>
 			</div>
