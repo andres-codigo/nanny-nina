@@ -49,7 +49,7 @@
 						</li>
 						<li>
 							<div class="relative mb-8">
-								<div class="flex flex-row w-full absolute bg-white border border-gray-100 rounded-20px hover:rounded-20px px-4 z-10">
+								<div class="flex flex-row w-full absolute bg-lilac-100 border border-gray-500 rounded-20px hover:rounded-20px px-4 z-10">
 									<div class="basis-11/12">
 										<div class="flex items-center py-6">
 											<div class="basis-11/12">

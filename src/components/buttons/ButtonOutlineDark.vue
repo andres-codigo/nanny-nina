@@ -20,7 +20,7 @@ export default {
 	props: {
 		class: {
 			type: String,
-			default: 'w-full text-xl border-purple-900 hover:border-lilac-900 focus:border-lilac-500 py-4'
+			default: 'w-full text-xl border-purple-900 hover:text-gray-500 hover:border-gray-500 focus:text-purple-600 focus:border-purple-600 py-4'
 		},
 		text: String
 	}
