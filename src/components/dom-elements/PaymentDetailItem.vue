@@ -1,7 +1,7 @@
 <template>
 	<div :class="class" class="flex items-center">
-		<div :class="['flex-grow text-sm', isBold ? 'font-semibold' : '']">{{ term }}</div>
-		<div :class="['flex-shrink-0 text-gray-900', isBold ? 'font-semibold' : 'text-sm mt-1']" v-if="showPrice">
+		<div :class="['flex-grow', itemContainsPrice ? 'font-semibold' : 'text-sm']">{{ itemDetails }}</div>
+		<div :class="['flex-shrink-0 text-gray-900', itemContainsPrice ? 'font-medium' : 'text-sm']" v-if="showPrice">
 			<slot name="termDescription">&euro;25</slot>
 		</div>
 	</div>
@@ -13,11 +13,11 @@ export default {
 			type: String,
 			default: ''
 		},
-		term: {
+		itemDetails: {
 			type: String,
 			default: 'Total Rewards Earned'
 		},
-		isBold: {
+		itemContainsPrice: {
 			type: Boolean,
 			default: false
 		},

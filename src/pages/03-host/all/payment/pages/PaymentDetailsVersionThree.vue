@@ -8,7 +8,9 @@
 				<div class="mb-10">
 					<h5 class="text-header-five font-semibold antialiased mb-2">Payment Details</h5>
 
-					<Profile :isHost="false" />
+					<Profile
+						leftSvg="https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
+						member="Brittany (27)" />
 
 					<div class="flex flex-row text-2xl mb-4 py-4 border-b border-gray-100">
 						<div class="flex-1">Date</div>
