@@ -9,7 +9,7 @@
 				<Img src="./assets/svg/menu/bottom/bookings.svg" class="inline-block mb-1" />
 			</BottomMenuItem>
 
-			<BottomMenuItem to="dashboard" text="New Request" class="text-gray-400">
+			<BottomMenuItem to="dashboard" text="Request" class="text-gray-400">
 				<Img src="./assets/svg/other/add-circle-gray-background.svg" class="inline-block mb-1" />
 			</BottomMenuItem>
 

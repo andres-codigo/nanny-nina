@@ -151,6 +151,8 @@ module.exports = {
 					BASE: 13rem / 208px
 					LG: 17.428rem / 279px
 					XL: 20.5rem / 328px
+					INPUT-SMS: 7.125 / 114px
+					DOWNLOAD: 7.313rem / 117px
 
 					INPUT-SM: 7.313rem / 117px
 					INPUT-BASE: 12.813rem / 2054px
@@ -168,6 +170,7 @@ module.exports = {
 				'button-lg': '17.428rem',
 				'button-xl': '20.5rem',
 				'button-input-sms': '7.125rem',
+				'button-download': '7.313rem',
 				/* Selects */
 				'select-xs': '5.5rem',
 				'select-sm': '8.125rem',
