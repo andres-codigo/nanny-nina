@@ -22,30 +22,14 @@
 								<DayDetailsHeaderItemExpanded />
 								<div class="bg-gray-50 rounded-t-20px hover:rounded-20px w-full pt-20 pb-4 px-4">
 									<div class="flex flex-col w-full">
-										<PaymentDetailItem :isBold="true" class="py-2" term="Fee">
-											<template #termDescription>&euro;25</template>
-										</PaymentDetailItem>
-										<PaymentDetailItem class="py-0.5" term="Day">
-											<template #termDescription>&euro;25</template>
-										</PaymentDetailItem>
-										<PaymentDetailItem class="py-0.5" term="Night">
-											<template #termDescription>&euro;57</template>
-										</PaymentDetailItem>
-										<PaymentDetailItem class="pt-0.5 pb-4" term="Kids">
-											<template #termDescription>&euro;16</template>
-										</PaymentDetailItem>
-										<PaymentDetailItem :isBold="true" class="border-dotted border-t-2 border-gray-100 py-1.5" term="Duration">
-											<template #termDescription>6hrs 30mins</template>
-										</PaymentDetailItem>
-										<PaymentDetailItem :isBold="true" class="border-dotted border-t-2 border-gray-100 py-1.5" term="Time">
-											<template #termDescription>09:00-16:00</template>
-										</PaymentDetailItem>
-										<PaymentDetailItem :isBold="true" class="border-dotted border-t-2 border-gray-100 py-1.5" term="Tip">
-											<template #termDescription>&euro;1</template>
-										</PaymentDetailItem>
-										<PaymentDetailItem :isBold="true" class="border-dotted border-t-2 border-gray-100 py-1.5" term="Service fee">
-											<template #termDescription>29%</template>
-										</PaymentDetailItem>
+										<PaymentDetailItem :isBold="true" class="py-2" term="Fee"><template #termDescription>&euro;25</template></PaymentDetailItem>
+										<PaymentDetailItem class="py-0.5" term="Day"><template #termDescription>&euro;25</template></PaymentDetailItem>
+										<PaymentDetailItem class="py-0.5" term="Night"><template #termDescription>&euro;57</template></PaymentDetailItem>
+										<PaymentDetailItem class="pt-0.5 pb-4" term="Kids"><template #termDescription>&euro;16</template></PaymentDetailItem>
+										<PaymentDetailItem :isBold="true" class="border-dotted border-t-2 border-gray-100 py-1.5" term="Duration"><template #termDescription>6hrs 30mins</template></PaymentDetailItem>
+										<PaymentDetailItem :isBold="true" class="border-dotted border-t-2 border-gray-100 py-1.5" term="Time"><template #termDescription>09:00-16:00</template></PaymentDetailItem>
+										<PaymentDetailItem :isBold="true" class="border-dotted border-t-2 border-gray-100 py-1.5" term="Tip"><template #termDescription>&euro;1</template></PaymentDetailItem>
+										<PaymentDetailItem :isBold="true" class="border-dotted border-t-2 border-gray-100 py-1.5" term="Service fee"><template #termDescription>29%</template></PaymentDetailItem>
 									</div>
 								</div>
 							</div>
