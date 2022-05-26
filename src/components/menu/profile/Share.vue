@@ -1,15 +1,10 @@
 <template>
-	<div class="rounded-md bg-purple-500 p-4">
-		<div class="flex">
-			<div class="inline-flex items-center">
-				<Img src="./assets/svg/other/share.svg" />
-			</div>
-			<!--
-				Unsure if you intend to use the Web Share API so leaving this a static HTML
-			-->
-			<div class="ml-3 flex-1">
+	<div class="rounded-md bg-purple-500 w-6/8  px-2 py-4 mr-4">
+		<div class="flex flex-row items-center">
+			<div class="basis-1/6"><Img src="./assets/svg/other/share.svg" class="w-8 h-8" /></div>
+			<div class="basis-5/6 ml-2">
 				<h6 class="text-header-six text-white">Share your link</h6>
-				<p class="text-sm text-white">nannynina/@pleunstorme</p>
+				<p class="text-xs text-white">nannynina/@pleunstorme</p>
 			</div>
 		</div>
 	</div>

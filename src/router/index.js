@@ -13,7 +13,7 @@ import Dashboard from '../pages/_dashboard/Dashboard.vue'
 	import CaregiverOnboardingContainer from '../pages/01-registration-onboarding-forgot-password/onboarding/caregiver/OnboardingCaregiverContainer.vue'
 	import CaregiverHomeWithMenuTemplate from '../pages/02-caregiver/all/HomeWithMenuTemplate.vue'
 	import CaregiverHomeWithoutMenuTemplate from '../pages/00-duplicate-pages/home/HomeWithoutMenuTemplate.vue'
-	import CaregiverHomeWithBottomMenuAndProfile from '../pages/02-caregiver/all/HomeWithBottomMenuAndProfile.vue'
+	import CaregiverHomeWithBottomMenuAndProfile from '../pages/02-caregiver/all/CaregiverHomeWithBottomMenuAndProfile.vue'
 	import CaregiverPaymentContainer from '../pages/02-caregiver/all/payment/PaymentContainer.vue'
 
 	/* Host */
@@ -92,7 +92,7 @@ const routes = [
 	},
 
 	/*
-		Registration/ForgotPassword - Caregiver and Host
+		Caregiver and Host
 	*/
 	{
 		path: '/registration',
@@ -124,7 +124,7 @@ const routes = [
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/caregiver-nanny-home-with-bottom-menu-and-profile',
+		path: '/caregiver-home-with-bottom-menu-and-profile',
 		component: CaregiverHomeWithBottomMenuAndProfile,
 		meta: { transition: 'slide-right-to-left' }
 	},

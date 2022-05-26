@@ -40,7 +40,7 @@
 			:hideNotes="true"
 			notes=""
 			date=""
-			routerLinkPath="/caregiver-nanny-home-with-bottom-menu-and-profile"
+			routerLinkPath="/caregiver-home-with-bottom-menu-and-profile"
 			title="Home (with bottom menu and profile)"
 			textColor="text-purple-600"
 			textBadge="Completed"

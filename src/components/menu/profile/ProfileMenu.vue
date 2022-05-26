@@ -12,7 +12,7 @@
 			<Share />
 			<Menu />
 
-			<div class="flex items-center justify-between my-20">
+			<div class="flex items-center justify-between my-20 mr-4">
 				<div class="flex flex-col">
 					<span class="text-purple-900 font-thin" id="availability-label">Go offline</span>
 					<p class="text-xs text-gray-500 font-light">I'm unavailable, don't share profile</p>
@@ -24,7 +24,7 @@
 				</button>
 			</div>
 
-			<div class="mt-6 mb-12">
+			<div class="mt-6 mr-4 mb-28">
 				<ul role="list">
 					<li>
 						<div class="flex flex-row w-full">
@@ -33,7 +33,7 @@
 								<div class="ml-3">Rate Us</div>
 							</div>
 							<div class="inline-flex items-center justify-end">
-								<div class="rounded-2xl text-white bg-purple-500 px-3 py-0.5">V 2.0.0</div>
+								<div class="rounded-2xl text-xs text-white bg-purple-500 px-2 py-0">V 2.0.0</div>
 							</div>
 						</div>
 					</li>
