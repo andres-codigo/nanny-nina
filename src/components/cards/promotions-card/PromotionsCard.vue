@@ -1,6 +1,6 @@
 <template>
 	<div class="inline-flex w-full border border-gray-500 hover:border hover:border-gray-500 rounded-20px mb-4">
-		<a href="/" target="_self" class="w-full h-52 focus:opacity-60">
+		<div class="w-full h-52 focus:opacity-60">
 			<div :class="['flex flex-row rounded-t-20px', backgroundColor]">
 				<div class="inline-flex grow justify-center items-center h-24 text-5xl font-bold">
 				<slot name="promotionalHeader">+€3/hr</slot>
@@ -12,7 +12,7 @@
 					<h6 class="text-header-six font-semibold antialiased mt-4">{{ user }}</h6>
 				</div>
 			</div>
-		</a>
+		</div>
 	</div>
 </template>
 

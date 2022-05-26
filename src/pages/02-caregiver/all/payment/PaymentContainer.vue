@@ -6,6 +6,7 @@
 		<Earnings class="max-w-450-for-dev-not-prod" />
 		<Referrals class="max-w-450-for-dev-not-prod" />
 		<Promotions class="max-w-450-for-dev-not-prod" />
+		<PromotionsWithPopUp class="max-w-450-for-dev-not-prod" />
 		<PaymentHistory class="max-w-450-for-dev-not-prod" />
 		<PaymentDetails class="max-w-450-for-dev-not-prod" />
 	</div>
@@ -18,6 +19,7 @@ import AccountSetUpEdit from './pages/AccountSetUpEdit.vue'
 import Earnings from './pages/Earnings.vue'
 import Referrals from './pages/Referrals.vue'
 import Promotions from './pages/Promotions.vue'
+import PromotionsWithPopUp from './pages/pop-ups/PromotionsWithPopUp.vue'
 import PaymentHistory from './pages/PaymentHistory.vue'
 import PaymentDetails from './pages/PaymentDetails.vue'
 
@@ -29,6 +31,7 @@ export default {
 		Earnings,
 		Referrals,
 		Promotions,
+		PromotionsWithPopUp,
 		PaymentHistory,
 		PaymentDetails
 	}
