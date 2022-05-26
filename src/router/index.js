@@ -20,6 +20,7 @@ import Dashboard from '../pages/_dashboard/Dashboard.vue'
 	import HostOnboardingContainer from '../pages/01-registration-onboarding-forgot-password/onboarding/host/OnboardingHostContainer.vue'
 	import HostNannyHome from '../pages/03-host/Home.vue'
 	import HostHomeWithBottomMenuAndProfile from '../pages/03-host/all/HostHomeWithBottomMenuAndProfile.vue'
+	import HostPaymentContainer from '../pages/03-host/all/payment/PaymentContainer.vue'
 
 /* END: Caregiver & Host */
 
@@ -151,6 +152,11 @@ const routes = [
 	{
 		path: '/host-home-with-bottom-menu-and-profile',
 		component: HostHomeWithBottomMenuAndProfile,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/host-payment-account',
+		component: HostPaymentContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 

@@ -15,14 +15,14 @@
 		<ListItem
 			:subItem="false"
 			:hideNotes="false"
-			notes="In Progress and waiting on Figma comment updates and solution to introduction of new profile switching on title"
-			date="18/05/22"
+			notes="Waiting on Figma comment and design updates"
+			date="26/05/22"
 			routerLinkPath="/host-childminder-booking"
 			title="Booking"
 			textColor="text-purple-600"
-			textBadge="In Progress"
+			textBadge="On Hold - UI/Design"
 			textColorBadge="text-purple-900"
-			backgroundColorBadge="bg-amber-300"
+			backgroundColorBadge="bg-amber-500"
 		/>
 	</ul>
 </template>
