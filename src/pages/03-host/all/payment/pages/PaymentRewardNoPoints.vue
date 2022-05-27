@@ -70,16 +70,13 @@ import PointsBarItem from '../../../../../components/points-bar/PointsBarItem.vu
 import Img from '../../../../../components/dom-elements/Img.vue'
 import PaymentDetailItem from '../../../../../components/dom-elements/PaymentDetailItem.vue'
 
-import { ChevronLeftIcon } from '@heroicons/vue/solid'
-
 export default {
 	components: {
 		TopNavigation,
 		Tabs,
 		PointsBarItem,
 		Img,
-		PaymentDetailItem,
-		ChevronLeftIcon
+		PaymentDetailItem
 	}
 }
 </script>

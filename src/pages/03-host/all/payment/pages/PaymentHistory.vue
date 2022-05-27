@@ -47,8 +47,6 @@ import JobListingFilterItemSelected from '../../../../../components/filter/JobLi
 
 import SelectMenuNoBorder from '../../../../../components/form/SelectMenuNoBorder.vue'
 
-import { ChevronLeftIcon } from '@heroicons/vue/solid'
-
 export default {
 	components: {
 		TopNavigation,
@@ -57,8 +55,7 @@ export default {
 		JobListingFilter,
 		JobListingFilterItem,
 		JobListingFilterItemSelected,
-		SelectMenuNoBorder,
-		ChevronLeftIcon
+		SelectMenuNoBorder
 	}
 }
 </script>
