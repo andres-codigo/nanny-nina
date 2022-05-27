@@ -115,7 +115,7 @@
 <script>
 import Header from '../../components/content/logos/Header.vue'
 
-import CaregiverAndHost from './pages/caregiver-and-host/RegistrationAndForgotPassword.vue'
+import CaregiverAndHost from './pages/caregiver-and-host/CaregiverAndHost.vue'
 import Caregiver from './pages/caregiver-and-host/Caregiver.vue'
 import Host from './pages/caregiver-and-host/Host.vue'
 

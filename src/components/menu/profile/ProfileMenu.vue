@@ -5,14 +5,14 @@
 	<aside :class="isOpen ? 'translate-x-0' : '-translate-x-full'" class="transform top-0 left-0 w-2/3 bg-white fixed h-full overflow-auto ease-in-out transition-all duration-300 z-10">
 		<div class="mt-12 mx-4">
 			<div class="mb-8">
-				<Img class="h-20 w-20 rounded-full mb-4" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" />
-				<h5 class="text-header-five font-semibold antialiased">Pleun Storme</h5>
+				<Img class="h-20 w-20 rounded-full mb-4" :src="isHostMenu ? 'https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60' : 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'" />
+				<h5 class="text-header-five font-semibold antialiased">{{ isHostMenu ? 'Janne Stindl' : 'Pleun Storme' }}</h5>
 			</div>
 
-			<Share />
-			<Menu />
+			<Share :isHostMenu="isHostMenu" />
+			<Menu :isHostMenu="isHostMenu" />
 
-			<div class="flex items-center justify-between my-20">
+			<div class="flex items-center justify-between my-20 mr-4" v-if="!isHostMenu">
 				<div class="flex flex-col">
 					<span class="text-purple-900 font-thin" id="availability-label">Go offline</span>
 					<p class="text-xs text-gray-500 font-light">I'm unavailable, don't share profile</p>
@@ -24,7 +24,7 @@
 				</button>
 			</div>
 
-			<div class="mt-6 mb-12">
+			<div :class="['mb-28 mr-4', isHostMenu ? 'mt-40' : 'mt-6']">
 				<ul role="list">
 					<li>
 						<div class="flex flex-row w-full">
@@ -33,7 +33,7 @@
 								<div class="ml-3">Rate Us</div>
 							</div>
 							<div class="inline-flex items-center justify-end">
-								<div class="rounded-2xl text-white bg-purple-500 px-3 py-0.5">V 2.0.0</div>
+								<div class="rounded-2xl text-xs text-white bg-purple-500 px-2 py-0">V 2.0.0</div>
 							</div>
 						</div>
 					</li>
@@ -61,7 +61,8 @@ export default {
 		isOpen: {
 			type: Boolean,
 			default: true
-		}
+		},
+		isHostMenu: Boolean
 	},
 	watch: {
 		isOpen: {

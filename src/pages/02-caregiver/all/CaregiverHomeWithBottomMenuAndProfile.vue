@@ -1,7 +1,7 @@
 <template>
 	<div class="w-full">
 		<HomeTemplate />
-		<ProfileMenu />
+		<ProfileMenu :isHostMenu="false" />
 		<footer>
 			<CaregiverBottomMenu
 				:isHomeSelected="false"

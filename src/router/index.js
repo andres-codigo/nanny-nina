@@ -13,12 +13,14 @@ import Dashboard from '../pages/_dashboard/Dashboard.vue'
 	import CaregiverOnboardingContainer from '../pages/01-registration-onboarding-forgot-password/onboarding/caregiver/OnboardingCaregiverContainer.vue'
 	import CaregiverHomeWithMenuTemplate from '../pages/02-caregiver/all/HomeWithMenuTemplate.vue'
 	import CaregiverHomeWithoutMenuTemplate from '../pages/00-duplicate-pages/home/HomeWithoutMenuTemplate.vue'
-	import CaregiverHomeWithBottomMenuAndProfile from '../pages/02-caregiver/all/HomeWithBottomMenuAndProfile.vue'
+	import CaregiverHomeWithBottomMenuAndProfile from '../pages/02-caregiver/all/CaregiverHomeWithBottomMenuAndProfile.vue'
 	import CaregiverPaymentContainer from '../pages/02-caregiver/all/payment/PaymentContainer.vue'
 
 	/* Host */
 	import HostOnboardingContainer from '../pages/01-registration-onboarding-forgot-password/onboarding/host/OnboardingHostContainer.vue'
 	import HostNannyHome from '../pages/03-host/Home.vue'
+	import HostHomeWithBottomMenuAndProfile from '../pages/03-host/all/HostHomeWithBottomMenuAndProfile.vue'
+	import HostPaymentContainer from '../pages/03-host/all/payment/PaymentContainer.vue'
 
 /* END: Caregiver & Host */
 
@@ -92,7 +94,7 @@ const routes = [
 	},
 
 	/*
-		Registration/ForgotPassword - Caregiver and Host
+		Caregiver and Host
 	*/
 	{
 		path: '/registration',
@@ -124,7 +126,7 @@ const routes = [
 		meta: { transition: 'slide-right-to-left' }
 	},
 	{
-		path: '/caregiver-nanny-home-with-bottom-menu-and-profile',
+		path: '/caregiver-home-with-bottom-menu-and-profile',
 		component: CaregiverHomeWithBottomMenuAndProfile,
 		meta: { transition: 'slide-right-to-left' }
 	},
@@ -145,6 +147,16 @@ const routes = [
 	{
 		path: '/host-nanny-home',
 		component: HostNannyHome,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/host-home-with-bottom-menu-and-profile',
+		component: HostHomeWithBottomMenuAndProfile,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/host-payment-account',
+		component: HostPaymentContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 
