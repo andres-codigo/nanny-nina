@@ -31,15 +31,15 @@
 					</div>
 				</div>
 
-				<div class="flex flex-col pt-6">
+				<div class="pt-6">
 					<h5 class="text-header-five mb-4">Referral details</h5>
 					<div class="divide-y divide-gray-50">
-						<PaymentDetailItem class="py-4" term="Total Rewards Earned"><template #termDescription>&euro;25</template></PaymentDetailItem>
-						<PaymentDetailItem class="py-4" term="Successful signups"><template #termDescription>2</template></PaymentDetailItem>
-						<PaymentDetailItem class="py-4" term="Signups with completed bookings"><template #termDescription>0</template></PaymentDetailItem>
-						<PaymentDetailItem class="py-4" term="Earnings per referral"><template #termDescription>&euro;50</template></PaymentDetailItem>
-						<PaymentDetailItem class="py-4" term="Referred Users"><template #termDescription>1</template></PaymentDetailItem>
-						<PaymentDetailItem class="py-4" term="Upcoming payout date"><template #termDescription>31/12/2021</template></PaymentDetailItem>
+						<PaymentDetailItem class="py-4" itemDetails="Total Rewards Earned"><template #termDescription>&euro;25</template></PaymentDetailItem>
+						<PaymentDetailItem class="py-4" itemDetails="Successful signups"><template #termDescription>2</template></PaymentDetailItem>
+						<PaymentDetailItem class="py-4" itemDetails="Signups with completed bookings"><template #termDescription>0</template></PaymentDetailItem>
+						<PaymentDetailItem class="py-4" itemDetails="Earnings per referral"><template #termDescription>&euro;50</template></PaymentDetailItem>
+						<PaymentDetailItem class="py-4" itemDetails="Referred Users"><template #termDescription>1</template></PaymentDetailItem>
+						<PaymentDetailItem class="py-4" itemDetails="Upcoming payout date"><template #termDescription>31/12/2021</template></PaymentDetailItem>
 					</div>
 				</div>
 			</div>

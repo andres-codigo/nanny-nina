@@ -5,6 +5,7 @@
 		<PaymentDetailsVersionOne class="max-w-450-for-dev-not-prod" />
 		<PaymentDetailsVersionTwo class="max-w-450-for-dev-not-prod" />
 		<PaymentDetailsVersionThree class="max-w-450-for-dev-not-prod" />
+		<PaymentRewardNoPoints class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 
@@ -14,6 +15,7 @@ import PaymentDetailsRecurring from './pages/PaymentDetailsRecurring.vue'
 import PaymentDetailsVersionOne from './pages/PaymentDetailsVersionOne.vue'
 import PaymentDetailsVersionTwo from './pages/PaymentDetailsVersionTwo.vue'
 import PaymentDetailsVersionThree from './pages/PaymentDetailsVersionThree.vue'
+import PaymentRewardNoPoints from './pages/PaymentRewardNoPoints.vue'
 
 export default {
 	components: {
@@ -21,7 +23,8 @@ export default {
 		PaymentDetailsRecurring,
 		PaymentDetailsVersionOne,
 		PaymentDetailsVersionTwo,
-		PaymentDetailsVersionThree
+		PaymentDetailsVersionThree,
+		PaymentRewardNoPoints
 	}
 }
 </script>

@@ -1,8 +1,6 @@
 <template>
 	<div class="w-full h-full">
-		<TopNavigation text="Payment">
-			<template #iconLeft><router-link to="'/dashboard?tab=1"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
-		</TopNavigation>
+		<TopNavigation text="Payment" />
 		<main>
 			<Tabs
 				tabOneClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
