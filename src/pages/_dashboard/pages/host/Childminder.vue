@@ -20,9 +20,9 @@
 			routerLinkPath="/host-childminder-booking"
 			title="Booking"
 			textColor="text-purple-600"
-			textBadge="On Hold - UI/Design"
+			textBadge="Blocked - UI/Design"
 			textColorBadge="text-purple-900"
-			backgroundColorBadge="bg-amber-500"
+			backgroundColorBadge="bg-melon-600"
 		/>
 	</ul>
 </template>
