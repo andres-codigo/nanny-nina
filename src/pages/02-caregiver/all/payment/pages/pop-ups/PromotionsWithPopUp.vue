@@ -60,6 +60,9 @@
 						PART THREE OF THREE
 						The below DOM will naturally vary depending on what is been displayed, whereas everything above is by and large necessary
 					-->
+					<div class="flex flex-col justify-center items-center my-10">
+						<Img class="w-44 h-44" src="./assets/svg/mail/mail.svg" alt="" />
+					</div>
 					<h2 class="text-header-two font-semibold antialiased mb-6">Earn (+€2/hr)</h2>
 					<p class="font-light antialiased">You can earn more on One time bookings placed in this area. Complete a booking here to earn a reward.</p>
 

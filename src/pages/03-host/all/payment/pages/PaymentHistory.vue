@@ -3,16 +3,12 @@
 		<TopNavigation text="Payment" />
 		<main>
 			<Tabs
-				tabOneClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
-				tabOneText="Account"
-				:tabOneIsActive="false"
+				tabOneClasses="text-purple-900"
+				tabOneText="Payment History"
+				:tabOneIsActive="true"
 				tabTwoClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
-				tabTwoText="Earnings"
+				tabTwoText="Reward"
 				:tabTwoIsActive="false"
-				:displayThirdTab="true"
-				tabThreeClasses="text-purple-900"
-				tabThreeText="History"
-				:tabThreeIsActive="true"
 			/>
 
 			<JobListingFilter>
