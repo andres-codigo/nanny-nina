@@ -11,7 +11,7 @@
 					<Profile :isHost="false" />
 
 					<div class="flex flex-row text-2xl mb-4 py-4 border-b border-gray-100">
-						<div class="flex-1">Date</div>
+						<div class="flex-1">Dates</div>
 						<div class="flex">Total</div>
 					</div>
 
