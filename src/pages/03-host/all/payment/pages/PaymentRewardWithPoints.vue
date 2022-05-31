@@ -120,7 +120,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import TopNavigationPayment from '../../../../../components/navigation-and-tabs/TopNavigationPayment.vue'
 import Tabs from '../../../../../components/navigation-and-tabs/Tabs.vue'
 import PointsBarItem from '../../../../../components/points-bar/PointsBarItem.vue'
 import Img from '../../../../../components/dom-elements/Img.vue'
@@ -128,7 +128,7 @@ import PaymentDetailItem from '../../../../../components/dom-elements/PaymentDet
 
 export default {
 	components: {
-		TopNavigation,
+		TopNavigationPayment,
 		Tabs,
 		PointsBarItem,
 		Img,

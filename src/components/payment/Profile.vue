@@ -1,5 +1,5 @@
 <template>
-	<div class="flex flex-row py-6">
+	<div class="flex flex-row pb-6">
 		<div class="mx-3">
 			<Img :src="leftSvg" :class="['rounded-full mb-4', isHost ? 'h-20 w-20' : 'h-16 w-16']" />
 		</div>
