@@ -1,16 +1,16 @@
 <template>
 	<li>
-		<a class="block hover:bg-lilac-50 focus:bg-green-100" href="#" target="_self">
+		<a :class="['block hover:bg-lilac-50 focus:bg-green-100', displayBorderBottom ? 'border-b border-b-gray-50' : '']" href="#" target="_self">
 			<div class="flex flex-row">
 				<div class="basis-11/12">
-					<div class="flex items-center py-6">
-						<div class="mx-2">
+					<div :class="['flex items-center', isHelpItem ? 'py-2' : 'py-6']">
+						<div :class="[isHelpItem ? 'ml-8 mr-2' : 'mx-2']">
 							<Img :src="leftSvg" />
 						</div>
-						<div class="flex flex-col my-2">
+						<div class="flex flex-col ml-2 my-2">
 							<div class="flex flex-col">
-								<p class="text-purple-900 -mt-2 mb-1">{{ header }}</p>
-								<p class="text-xs">{{ subHeader }}</p>
+								<p :class="['text-purple-900', isHelpItem ? '' : '-mt-2 mb-1']">{{ header }}</p>
+								<p :class="['text-xs', isHelpItem ? 'text-gray-500' : '']" v-if="displaySubHeader">{{ subHeader }}</p>
 							</div>
 						</div>
 					</div>
@@ -31,6 +31,10 @@ export default {
 		Img
 	},
 	props: {
+		displayBorderBottom: {
+			type: Boolean,
+			default: true
+		},
 		leftSvg: {
 			type: String,
 			default: './assets/svg/other/group-add-green-bg-blue-fg.svg'
@@ -46,6 +50,14 @@ export default {
 		subHeader: {
 			type: String,
 			default: 'You can pay out 24hrs after payment has been received'
+		},
+		displaySubHeader: {
+			type: Boolean,
+			default: true
+		},
+		isHelpItem: {
+			type: Boolean,
+			default: false
 		}
 	}
 }

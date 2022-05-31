@@ -4,6 +4,7 @@
 	<div class="relative mt-0">
 		<div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none" v-if="hasLeadingIcon">
 			<CalendarIcon class="w-5 h-5 text-gray-700" v-if="inputIconType === 'calendar'" />
+			<SearchIcon class="w-5 h-5 text-gray-700" v-if="inputIconType === 'search'" />
 		</div>
 		<input
 			id="email"
@@ -21,12 +22,12 @@
 </template>
 
 <script>
-import { CalendarIcon, ClockIcon } from '@heroicons/vue/outline'
+import { CalendarIcon, SearchIcon } from '@heroicons/vue/outline'
 
 export default {
 	components: {
 		CalendarIcon,
-		ClockIcon
+		SearchIcon
 	},
 	props: {
 		text: String,
