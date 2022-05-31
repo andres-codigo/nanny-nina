@@ -1,13 +1,11 @@
 <template>
 	<div class="w-full h-full">
-		<TopNavigation backgroundColor="bg-white" :displayBorderBottom="true">
+		<TopNavigationPayment :displayBorderBottom="true" text="Payment Details" headerColor="text-purple-900">
 			<template #iconRight><router-link to="/dashboard?tab=2"><XIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
-		</TopNavigation>
+		</TopNavigationPayment>
 		<main>
 			<div class="flex flex-col justify-center py-12 mx-4">
 				<div class="mb-10">
-					<h5 class="text-header-five font-semibold antialiased mb-2">Payment Details</h5>
-
 					<Profile :isHost="false" />
 
 					<div class="flex flex-row text-2xl mb-4 py-4 border-b border-gray-100">
@@ -45,7 +43,7 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import TopNavigationPayment from '../../../../../components/navigation-and-tabs/TopNavigationPayment.vue'
 import Profile from '../../../../../components/payment/Profile.vue'
 import DayDetailsHeaderItemCollapsed from '../../../../../components/payment/DayDetailsHeaderItemCollapsed.vue'
 import DayDetailsHeaderItemExpanded from '../../../../../components/payment/DayDetailsHeaderItemExpanded.vue'
@@ -55,7 +53,7 @@ import { XIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
-		TopNavigation,
+		TopNavigationPayment,
 		Profile,
 		DayDetailsHeaderItemCollapsed,
 		DayDetailsHeaderItemExpanded,

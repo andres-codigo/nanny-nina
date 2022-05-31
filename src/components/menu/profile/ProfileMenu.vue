@@ -6,25 +6,31 @@
 		<div class="mt-12 mx-4">
 			<div class="mb-8">
 				<Img class="h-20 w-20 rounded-full mb-4" :src="isHostMenu ? 'https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60' : 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'" />
-				<h5 class="text-header-five font-semibold antialiased">{{ isHostMenu ? 'Janne Stindl' : 'Pleun Storme' }}</h5>
+				<p class="font-bold antialiased">{{ isHostMenu ? 'Janne Stindl' : 'Pleun Storme' }}</p>
 			</div>
 
 			<Share :isHostMenu="isHostMenu" />
 			<Menu :isHostMenu="isHostMenu" />
+
+			<!--
+
+			Have commented out instead of deleted this DOM as signed-off/approved design updated so unsure if it may be added back in
 
 			<div class="flex items-center justify-between my-20 mr-4" v-if="!isHostMenu">
 				<div class="flex flex-col">
 					<span class="text-purple-900 font-thin" id="availability-label">Go offline</span>
 					<p class="text-xs text-gray-500 font-light">I'm unavailable, don't share profile</p>
 				</div>
-				<!-- Enabled: "bg-purple-600", Not Enabled: "bg-gray-500" -->
+				/* Enabled: "bg-purple-600", Not Enabled: "bg-gray-500" */
 				<button type="button" class="bg-gray-500 relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" role="switch" aria-checked="false" aria-labelledby="availability-label" aria-describedby="availability-description">
-					<!-- Enabled: "translate-x-6", Not Enabled: "translate-x-0" -->
+					/* Enabled: "translate-x-6", Not Enabled: "translate-x-0" */
 					<span aria-hidden="true" class="translate-x-0 pointer-events-none inline-block h-5 w-5 rounded-full bg-white shadow transform ring-0 transition ease-in-out duration-200"></span>
 				</button>
 			</div>
 
 			<div :class="['mb-28 mr-4', isHostMenu ? 'mt-40' : 'mt-6']">
+			-->
+			<div class="mb-28 mr-4 mt-40">
 				<ul role="list">
 					<li>
 						<div class="flex flex-row w-full">
@@ -38,7 +44,7 @@
 						</div>
 					</li>
 					<li class="flex py-3">
-						<a href="#" target="_self" class="inline-flex w-full"><Img src="./assets/svg/menu/profile/minus.svg" /><span class="ml-3 text-gray-500">Sign Out</span></a>
+						<a href="#" target="_self" class="inline-flex w-full"><Img src="./assets/svg/menu/profile/settings.svg" /><span class="ml-3">Settings</span></a>
 					</li>
 				</ul>
 			</div>

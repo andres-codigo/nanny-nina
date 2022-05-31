@@ -20,7 +20,7 @@
 
 			<div class="flex flex-col mx-4">
 				<div class="flex flex-col pt-6">
-					<h4 class="text-header-four font-semibold antialiased mb-2">Total earnings</h4>
+					<h4 class="text-header-four font-semibold antialiased mb-2">Total Earnings</h4>
 				</div>
 
 				<div class="flex flex-col">

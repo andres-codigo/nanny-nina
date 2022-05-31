@@ -1,10 +1,10 @@
 <template>
 	<li>
-		<a class="block mb-2" href="#" target="_self">
+		<a class="block hover:bg-lilac-50 focus:bg-green-100" href="#" target="_self">
 			<div class="flex flex-row">
 				<div class="basis-11/12">
 					<div class="flex items-center py-6">
-						<div class="mr-4">
+						<div class="mx-2">
 							<Img :src="leftSvg" />
 						</div>
 						<div class="flex flex-col my-2">

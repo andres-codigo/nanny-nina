@@ -8,7 +8,7 @@
 				<a href="#" target="_self" class="inline-flex w-full"><Img src="./assets/svg/menu/profile/payment.svg" /><span class="ml-3">Payment</span></a>
 			</li>
 			<li class="py-3 flex">
-				<a href="#" target="_self" class="inline-flex w-full"><Img src="./assets/svg/menu/profile/my-documents.svg" /><span class="ml-3">My Documents</span></a>
+				<a href="#" target="_self" class="inline-flex w-full"><Img src="./assets/svg/menu/profile/checklist.svg" /><span class="ml-3">Checklist</span></a>
 			</li>
 			<li class="py-3 flex">
 				<a href="#" target="_self" class="inline-flex w-full"><Img src="./assets/svg/menu/profile/saved.svg" /><span class="ml-3">{{ isHostMenu ? 'Favourites' : 'Saved' }}</span></a>
