@@ -14,46 +14,45 @@
 			/>
 
 			<div class="flex flex-col">
-				<InboxNotification />
-				<InboxNotification src="./assets/svg/notifications/circle-green-heart-purple.svg">
+				<InboxNotificationItem />
+				<InboxNotificationItem src="./assets/svg/notifications/circle-green-heart-purple.svg">
 					<template #notificationMessage>
 						<p class="font-semibold antialiased">You received a tip from a parent</p>
 						<p class="font-semibold antialiased">Say thanks!!</p>
 						<p class="text-xs">31/11/2021 17:34</p>
 					</template>
-				</InboxNotification>
-				<InboxNotification src="./assets/svg/notifications/circle-green-sticky-note-purple.svg" backgroundColor="bg-white">
+				</InboxNotificationItem>
+				<InboxNotificationItem src="./assets/svg/notifications/circle-green-sticky-note-purple.svg" backgroundColor="bg-white">
 					<template #notificationMessage>
-						<p class="font-semibold antialiased">Monthly Check up</p>
-						<p class="text-xs">31/11/2021, 16:30</p>
+						<p class="antialiased">Monthly Check up</p>
+						<p class="text-xs text-gray-500">31/11/2021, 16:30</p>
 					</template>
-				</InboxNotification>
-				<InboxNotification src="./assets/svg/notifications/circle-green-info-purple.svg" backgroundColor="bg-white">
+				</InboxNotificationItem>
+				<InboxNotificationItem src="./assets/svg/notifications/circle-green-info-purple.svg" backgroundColor="bg-white">
 					<template #notificationMessage>
-						<p class="font-semibold antialiased">How to get more matches with Nanny Nina?</p>
-						<p class="font-semibold antialiased">Get pro advise on how to make better matches</p>
-						<p class="text-xs">31/11/2021</p>
+						<p class="antialiased">How to get more matches with Nanny Nina?</p>
+						<p class="antialiased">Get pro advise on how to make better matches</p>
+						<p class="text-xs text-gray-500">31/11/2021</p>
 					</template>
-				</InboxNotification>
-				<InboxNotification src="./assets/svg/notifications/circle-green-verified-purple.svg" backgroundColor="bg-white">
+				</InboxNotificationItem>
+				<InboxNotificationItem src="./assets/svg/notifications/circle-green-verified-purple.svg" backgroundColor="bg-white">
 					<template #notificationMessage>
-						<p class="font-semibold antialiased">Whoop! You just got a match! Take a look</p>
-						<p class="text-xs">31/11/2021</p>
+						<p class="antialiased">Whoop! You just got a match! Take a look</p>
+						<p class="text-xs text-gray-500">31/11/2021</p>
 					</template>
-				</InboxNotification>
-				<InboxNotification src="./assets/svg/notifications/circle-green-local-offer-purple.svg" backgroundColor="bg-white">
+				</InboxNotificationItem>
+				<InboxNotificationItem src="./assets/svg/notifications/circle-green-local-offer-purple.svg" backgroundColor="bg-white">
 					<template #notificationMessage>
-						<p class="font-semibold antialiased">Don't miss out on tonight's promotion!</p>
-						<p class="font-semibold antialiased">Take a look</p>
-						<p class="text-xs">31/11/2021</p>
+						<p class="antialiased">Don't miss out on tonight's promotion!</p>
+						<p class="antialiased">Take a look</p>
+						<p class="text-xs text-gray-500">31/11/2021</p>
 					</template>
-				</InboxNotification>
-				<InboxNotification src="./assets/svg/notifications/circle-green-thumbs-up-purple.svg" backgroundColor="bg-white">
+				</InboxNotificationItem>
+				<InboxNotificationItem src="./assets/svg/notifications/circle-green-thumbs-up-purple.svg" backgroundColor="bg-white" :isLastNotificationItem="true">
 					<template #notificationMessage>
-						<p class="font-semibold antialiased">The Johnson's are inviting you to apply for their babysitting job, Take a look!</p>
-						<p class="text-xs">31/11/2021</p>
+						<p>The Johnson's are inviting you to apply for their babysitting job, Take a look!</p>
 					</template>
-				</InboxNotification>
+				</InboxNotificationItem>
 			</div>
 		</main>
 	</div>
@@ -62,7 +61,7 @@
 <script>
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import Tabs from '../../../../../components/navigation-and-tabs/Tabs.vue'
-import InboxNotification from '../../../../../components/notifications/InboxNotification.vue'
+import InboxNotificationItem from '../../../../../components/notifications/InboxNotificationItem.vue'
 
 import { QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 
@@ -70,7 +69,7 @@ export default {
 	components: {
 		TopNavigation,
 		Tabs,
-		InboxNotification,
+		InboxNotificationItem,
 		QuestionMarkCircleIcon
 	}
 }
