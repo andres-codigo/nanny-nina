@@ -119,6 +119,7 @@ module.exports = {
 				'7xl': ['2.50rem', '1.4rem'],
 				'8xl': ['2.75rem', '1.4rem'],
 				'9xl': ['3.00rem', '1.4rem'],
+				'13px': ['0.813rem', '1.4rem'],
 
 				/*
 					H1 to H6 classes, i.e., text-header-one
@@ -177,6 +178,7 @@ module.exports = {
 				'button-xl': '20.5rem',
 				'button-input-sms': '7.125rem',
 				'button-download': '7.313rem',
+				'button-chat-send-a-message': '12.188rem',
 				/* Selects */
 				'select-xs': '5.5rem',
 				'select-sm': '8.125rem',
@@ -196,6 +198,7 @@ module.exports = {
 			},
 			minWidth: {
 				'apply-country': '10.5rem',
+				'chat-counter': '1.125rem',
 				'360-for-dev-not-prod': '360px',
 				'450-for-dev-not-prod': '450px',
 			},
