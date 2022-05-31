@@ -1,9 +1,11 @@
 <template>
 	<li class="mt-3">
 		<div class="flex flex-row">
-			<div class="basis-2/12 inline-flex items-start justify-center relative mb-3">
-				<Img :src="src" class="h-14 w-14 rounded-full" />
-				<span class="absolute bottom-1 right-2 w-2.5 h-2.5 rounded-full border border-white bg-success-500" v-if="userIsOnline"></span>
+			<div class="basis-2/12 inline-flex mb-3">
+				<div class="relative pr-1">
+					<Img :src="src" class="h-14 w-14 rounded-full" />
+					<span class="absolute bottom-1 right-2 w-2.5 h-2.5 rounded-full border border-white bg-success-500" v-if="userIsOnline"></span>
+				</div>
 			</div>
 			<div class="basis-8/12 border-b border-b-gray-50">
 				<div class="flex flex-col pl-2">
