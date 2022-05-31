@@ -14,22 +14,30 @@
 			/>
 
 			<div class="pt-6 mx-4">
-				<div class="pb-6">
+				<div class="pb-16">
 					<h6 class="text-header-six font-semibold antialiased">Need Assistance?</h6>
 
 					<hr class="border-1 border-gray-50 mt-2 mb-4" />
 
-					<InboxChatCard />
+					<ul role="list">
+						<ChatItem
+							src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+							user="Hannah"
+							message="Hey Brittany, how can I help you?"
+							dateOrTime="12:13"
+							numberOfMessages="1"
+						/>
+					</ul>
 				</div>
 
-				<div class="pt-6">
+				<div class="flex flex-col pt-6">
 					<h6 class="text-header-six font-semibold antialiased pb-4">Your conversations</h6>
 
 					<hr class="border-1 border-gray-50" />
 
 					<ul role="list">
 						<ChatItem />
-						<ChatItem user="The Johnsons" message="I just saw your time sheet, approved!" dateOrTime="Yesterday" numberOfMessages="10" />
+						<ChatItem user="Hannah" message="Hey Brittany, how can I help you?" dateOrTime="Yesterday" numberOfMessages="10" />
 						<ChatItem :userIsOnline="false" user="The Theos" message="Okay, Expecting you" dateOrTime="20/05/2022" isOldMessage="true" :hasMessages="false" />
 					</ul>
 				</div>

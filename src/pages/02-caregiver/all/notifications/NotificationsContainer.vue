@@ -3,6 +3,7 @@
 		<InboxNotifications class="max-w-450-for-dev-not-prod" />
 		<InboxChat class="max-w-450-for-dev-not-prod" />
 		<HelpSearchOptions class="max-w-450-for-dev-not-prod" />
+		<InboxChatAuPair class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 
@@ -10,12 +11,14 @@
 import InboxNotifications from './pages/InboxNotifications.vue'
 import InboxChat from './pages/InboxChat.vue'
 import HelpSearchOptions from './pages/HelpSearchOptions.vue'
+import InboxChatAuPair from './pages/InboxChatAuPair.vue'
 
 export default {
 	components: {
 		InboxNotifications,
 		InboxChat,
-		HelpSearchOptions
+		HelpSearchOptions,
+		InboxChatAuPair
 	}
 }
 </script>
