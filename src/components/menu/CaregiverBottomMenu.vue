@@ -1,6 +1,6 @@
 <template>
-	<section class="block fixed inset-x-0 w-full bottom-0 z-10 bg-white border-t border-gray min-w-360-for-dev-not-prod">
-		<div class="flex items-center h-20 justify-between">
+	<section class="fixed inset-x-0 bottom-0 z-10 block w-full bg-white border-t border-gray min-w-360-for-dev-not-prod">
+		<div class="flex items-center justify-between h-20">
 			<BottomMenuItem to="dashboard" text="Home" :class="[isHomeSelected ? 'text-purple-500 hover:text-purple-400 focus:text-purple-600' : 'text-gray-400']">
 				<Img :src="isHomeSelected ? './assets/svg/menu/bottom/home-selected.svg' : './assets/svg/menu/bottom/home.svg'" class="inline-block mb-1" />
 			</BottomMenuItem>
@@ -9,8 +9,8 @@
 				<Img src="./assets/svg/menu/bottom/bookings.svg" class="inline-block mb-1" />
 			</BottomMenuItem>
 
-			<BottomMenuItem to="dashboard" text="Inbox" class="text-gray-400">
-				<Img src="./assets/svg/menu/bottom/inbox.svg" class="inline-block mb-1" />
+			<BottomMenuItem to="dashboard" text="Inbox"  :class="[isInboxSelected ? 'text-purple-500 hover:text-purple-400 focus:text-purple-600' : 'text-gray-400']">
+				<Img :src="isInboxSelected ? './assets/svg/menu/bottom/inbox-selected.svg' : './assets/svg/menu/bottom/inbox.svg'" class="inline-block mb-1" />
 			</BottomMenuItem>
 
 			<BottomMenuItem to="dashboard" text="Discover" class="text-gray-400">

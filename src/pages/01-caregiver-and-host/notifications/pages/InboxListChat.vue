@@ -15,15 +15,15 @@
 
 			<div class="pt-6 mx-4">
 				<div class="pb-6">
-					<h6 class="text-header-six font-semibold antialiased">Need Assistance?</h6>
+					<h6 class="antialiased font-semibold text-header-six">Need Assistance?</h6>
 
-					<hr class="border-1 border-gray-50 mt-2 mb-4" />
+					<hr class="mt-2 mb-4 border-1 border-gray-50" />
 
 					<InboxChatCard />
 				</div>
 
 				<div class="pt-6">
-					<h6 class="text-header-six font-semibold antialiased pb-4">Your conversations</h6>
+					<h6 class="pb-4 antialiased font-semibold text-header-six">Your conversations</h6>
 
 					<hr class="border-1 border-gray-50" />
 
@@ -39,10 +39,10 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
-import Tabs from '../../../../../components/navigation-and-tabs/Tabs.vue'
-import InboxChatCard from '../../../../../components/cards/inbox-chat-card/InboxChatCard.vue'
-import ChatItem from '../../../../../components/chats/ChatItem.vue'
+import TopNavigation from '../../../../components/navigation-and-tabs/TopNavigation.vue'
+import Tabs from '../../../../components/navigation-and-tabs/Tabs.vue'
+import InboxChatCard from '../../../../components/cards/inbox-chat-card/InboxChatCard.vue'
+import ChatItem from '../../../../components/chats/ChatItem.vue'
 
 import { QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 
