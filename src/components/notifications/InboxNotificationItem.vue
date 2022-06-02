@@ -1,18 +1,18 @@
 <template>
-	<div :class="['flex py-6', backgroundColor, isLastNotificationItem ? '' : 'border-b border-gray-500']">
-		<div class="inline-flex shrink-0 justify-center mx-4">
-			<Img :src="src" class="h-10 w-10 rounded-full" alt="" />
+	<a href="#" :class="['flex py-6 hover:bg-lilac-50 focus:bg-green-100', isNewNotification ? 'bg-purple-50' : 'bg-white', isLastNotificationItem ? '' : 'border-b border-gray-500']">
+		<div class="inline-flex justify-center mx-4 shrink-0">
+			<Img :src="src" class="w-10 h-10 rounded-full" alt="" />
 		</div>
-		<div class="inline-flex items-center">
-			<div class="block">
+		<div class="inline-flex items-center pr-4">
+			<div>
 				<slot name="notificationMessage">
-					<p class="font-semibold antialiased">New message from The Sanders</p>
-					<p class="font-semibold antialiased">Take a look!</p>
+					<p class="antialiased font-semibold">New message from The Sanders</p>
+					<p class="antialiased font-semibold">Take a look!</p>
 					<p class="text-xs">Now</p>
 				</slot>
 			</div>
 		</div>
-	</div>
+	</a>
 </template>
 
 <script>
@@ -29,9 +29,9 @@ export default {
 			type: String,
 			default: './assets/svg/notifications/circle-green-chat-bubble-purple.svg'
 		},
-		backgroundColor: {
-			type: String,
-			default: 'bg-purple-50'
+		isNewNotification: {
+			type: Boolean,
+			default: false
 		},
 		isLastNotificationItem: {
 			type: Boolean,

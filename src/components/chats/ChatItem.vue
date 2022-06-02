@@ -1,29 +1,29 @@
 <template>
-	<li class="mt-3">
-		<div class="flex flex-row">
-			<div class="basis-2/12 inline-flex mb-3">
-				<div class="relative pr-1">
-					<Img :src="src" class="h-14 w-14 rounded-full" />
-					<span class="absolute bottom-1 right-2 w-2.5 h-2.5 rounded-full border border-white bg-success-500" v-if="userIsOnline"></span>
+	<li>
+		<a href="#" class="flex flex-row pt-3 hover:bg-lilac-50 focus:bg-green-100">
+			<div class="pl-2 mb-3 shrink-0">
+				<div class="relative">
+					<Img :src="src" class="rounded-full h-14 w-14" />
+					<span class="absolute bottom-1 right-0.5 w-2.5 h-2.5 rounded-full border border-white bg-success-500" v-if="userIsOnline"></span>
 				</div>
 			</div>
-			<div class="basis-8/12 border-b border-b-gray-50">
-				<div class="flex flex-col pl-2">
-					<h6 class="text-header-six text-purple-900 mb-2">{{ user }}</h6>
+			<div class="pb-2 ml-4 border-b border-b-gray-50 grow">
+				<div class="flex flex-col">
+					<p class="mb-2 antialiased font-bold text-purple-900">{{ user }}</p>
 					<p class="text-sm text-gray-500">{{ message }}</p>
 				</div>
 			</div>
-			<div class="basis-2/12 border-b border-b-gray-50">
+			<div class="pr-2 border-b border-b-gray-50 shrink-0">
 				<div class="flex flex-col h-full">
 					<div class="mb-2">
-						<div :class="['inline-flex float-right text-13px  font-medium min-w-chat-counter h-5', isOldMessage ? 'text-gray-500' : 'text-purple-500']">{{ dateOrTime }}</div>
+						<div :class="['inline-flex float-right text-13px font-medium min-w-chat-counter h-5', isOldMessage ? 'text-gray-500' : 'text-purple-500']">{{ dateOrTime }}</div>
 					</div>
 					<div>
-						<div class="inline-flex float-right items-center justify-center bg-purple-500 text-white leading-none font-medium min-w-chat-counter h-5 text-13px rounded-full px-2" v-if="hasMessages">{{ numberOfMessages }}</div>
+						<div class="inline-flex items-center justify-center float-right h-5 px-2 font-medium leading-none text-white bg-purple-500 rounded-full min-w-chat-counter text-13px" v-if="hasMessages">{{ numberOfMessages }}</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</a>
 	</li>
 </template>
 
