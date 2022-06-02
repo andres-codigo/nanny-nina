@@ -35,7 +35,7 @@
 
 					</div>
 					<div class="grow-0">
-						<ButtonPrimary class="px-1 py-1 rounded-10px">
+						<ButtonPrimary class="px-1 py-0.5 rounded-10px">
 							<template #leadingIcon>
 								<Img src="./assets/svg/messages/send-message-button.svg" />
 							</template>
