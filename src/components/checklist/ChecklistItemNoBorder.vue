@@ -7,15 +7,15 @@
 						<div :class="[isHelpItem ? 'ml-8 mr-2' : 'mx-2']">
 							<Img :src="leftSvg" />
 						</div>
-						<div class="flex flex-col ml-2 my-2">
+						<div class="flex flex-col my-2 ml-2">
 							<div class="flex flex-col">
-								<p :class="['text-purple-900', isHelpItem ? '' : '-mt-2 mb-1']">{{ header }}</p>
-								<p :class="['text-xs', isHelpItem ? 'text-gray-500' : '']" v-if="displaySubHeader">{{ subHeader }}</p>
+								<p :class="['text-purple-900', isHelpItem ? 'text-lg font-medium' : '-mt-2 mb-1']">{{ header }}</p>
+								<p :class="['text-xs', isHelpItem ? 'text-gray-500 -pt-2 leading-none' : '']" v-if="displaySubHeader">{{ subHeader }}</p>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="basis-1/12 inline-flex items-center">
+				<div class="inline-flex items-center basis-1/12">
 					<div class="w-full pr-4"><Img :src="rightSvg" /></div>
 				</div>
 			</div>

@@ -31,7 +31,7 @@
 							name="message"
 							type="text"
 							placeholder="Start a message"
-							class="w-full px-4 py-2 text-gray-500 border border-gray-500 rounded-full appearance-none caret-blue-500 bg-gray-50 focus:outline-none focus:ring-0 focus:border focus:border-gray-500 focus:text-purple-900" />
+							class="w-full px-4 py-2 text-sm text-gray-500 border border-gray-500 rounded-full appearance-none caret-blue-500 bg-gray-50 focus:outline-none focus:ring-0 focus:border focus:border-gray-500 focus:text-purple-900" />
 
 					</div>
 					<div class="grow-0">
