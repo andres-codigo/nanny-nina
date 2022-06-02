@@ -13,6 +13,7 @@
 			hover:bg-purple-400
 			focus:bg-purple-600
 		">
+		<slot name="leadingIcon"></slot>
 		{{ text }}</a>
 </template>
 

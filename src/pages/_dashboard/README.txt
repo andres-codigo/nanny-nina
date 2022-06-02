@@ -7,7 +7,7 @@
 			/* On Hold - UI/Design */
 			:subItem="false"
 			:hideNotes="false"
-			notes="Waiting on Figma design update"
+			notes="Waiting on Figma design updates"
 			date="20/05/22"
 			routerLinkPath="/caregiver-nanny-booking"
 			title="Booking"

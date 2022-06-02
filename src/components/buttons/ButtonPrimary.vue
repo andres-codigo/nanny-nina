@@ -2,15 +2,8 @@
 	<button
 		type="submit"
 		:class="class"
-		class="
-			justify-center
-			rounded-full
-			text-white font-bold
-			antialiased leading-none
-			bg-purple-500
-			hover:bg-purple-400
-			focus:bg-purple-600
-		">
+		class="justify-center antialiased font-bold leading-none text-white bg-purple-500 rounded-full  hover:bg-purple-400 focus:bg-purple-600">
+		<slot name="leadingIcon"></slot>
 		{{ text }}</button>
 </template>
 

@@ -37,9 +37,9 @@
 		/>
 		<ListItem
 			:subItem="false"
-			:hideNotes="true"
-			notes=""
-			date=""
+			:hideNotes="false"
+			notes="Waiting on Figma design update"
+			date="25/05/22"
 			routerLinkPath="/host-payment-account"
 			title="Payment"
 			textColor="text-purple-600"
