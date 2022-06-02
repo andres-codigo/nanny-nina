@@ -153,19 +153,30 @@ module.exports = {
 			},
 			width: {
 				/*
-					button widths (rem / px) chart
-					XS: 5.5rem / 88px
-					SM: 10.5rem / 168px
-					BASE: 13rem / 208px
-					LG: 17.428rem / 279px
-					XL: 20.5rem / 328px
-					INPUT-SMS: 7.125 / 114px
-					DOWNLOAD: 7.313rem / 117px
+					BUTTON WIDTH (REM / PX) CHART
+						XS: 5.5rem / 88px
+						SM: 10.5rem / 168px
+						BASE: 13rem / 208px
+						LG: 17.428rem / 279px
+						XL: 20.5rem / 328px
+						INPUT-SMS: 7.125 / 114px
+						DOWNLOAD: 7.313rem / 117px
 
-					INPUT-SM: 7.313rem / 117px
-					INPUT-BASE: 12.813rem / 2054px
+					SELECT WIDTH (REM / PX) CHART
+						XS: 6.25rem / 100px
+						SM: 7.5rem / 120px
+						BASE: 8.75rem / 140px
+						LG: 10rem / 160px
+						XL: 11.25rem / 180px
 
-					NB: select-[size] & input-[size] classes added; currently, the sizes are different
+					INPUT WIDTH (REM / PX) CHART
+						XS: rem / px
+						SM: 7.313rem / 117px
+						BASE: 12.813rem / 205px
+						LG: rem / px
+						XL: rem / px
+
+					NB: input-[size] classes for 'sm' and 'base' added; currently, the sizes are different
 						page design by page design so a consistent size needs to be set
 						by Obafemi
 
@@ -181,11 +192,11 @@ module.exports = {
 				'button-download': '7.313rem',
 				'button-chat-send-a-message': '12.188rem',
 				/* Selects */
-				'select-xs': '5.5rem',
-				'select-sm': '8.125rem',
-				'select-base': '',
-				'select-lg': '',
-				'select-xl': '',
+				'select-xs': '6.25rem',
+				'select-sm': '7.5rem',
+				'select-base': '8.75rem',
+				'select-lg': '10rem',
+				'select-xl': '11.25rem',
 				/* Input Fields */
 				'input-xs': '',
 				'input-sm': '7.313rem',
