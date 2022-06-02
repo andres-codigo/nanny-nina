@@ -1,24 +1,25 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import Launch from '../pages/01-registration-onboarding-forgot-password/Launch.vue'
+import Launch from '../pages/01-caregiver-and-host/Launch.vue'
 import Dashboard from '../pages/_dashboard/Dashboard.vue'
 
 /* START: Caregiver & Host */
 
 	/* Caregiver and Host - Registration/ForgotPassword */
-	import RegistrationContainer from '../pages/01-registration-onboarding-forgot-password/registration/RegistrationContainer.vue'
-	import ForgotPasswordContainer from '../pages/01-registration-onboarding-forgot-password/forgot-password/ForgotPasswordContainer.vue'
+	import RegistrationContainer from '../pages/01-caregiver-and-host/registration/RegistrationContainer.vue'
+	import ForgotPasswordContainer from '../pages/01-caregiver-and-host/forgot-password/ForgotPasswordContainer.vue'
+	import NotificationsContainer from '../pages/01-caregiver-and-host/notifications/NotificationsContainer.vue'
+	import ChatConversation from '../pages/01-caregiver-and-host/notifications/pages/InboxChatConversation.vue'
 
 	/* Caregiver */
-	import CaregiverOnboardingContainer from '../pages/01-registration-onboarding-forgot-password/onboarding/caregiver/OnboardingCaregiverContainer.vue'
+	import CaregiverOnboardingContainer from '../pages/01-caregiver-and-host/onboarding/caregiver/OnboardingCaregiverContainer.vue'
 	import CaregiverHomeWithMenuTemplate from '../pages/02-caregiver/all/HomeWithMenuTemplate.vue'
 	import CaregiverHomeWithoutMenuTemplate from '../pages/00-duplicate-pages/home/HomeWithoutMenuTemplate.vue'
 	import CaregiverHomeWithBottomMenuAndProfile from '../pages/02-caregiver/all/CaregiverHomeWithBottomMenuAndProfile.vue'
 	import CaregiverPaymentContainer from '../pages/02-caregiver/all/payment/PaymentContainer.vue'
-	import NotificationsContainer from '../pages/02-caregiver/all/notifications/NotificationsContainer.vue'
 
 	/* Host */
-	import HostOnboardingContainer from '../pages/01-registration-onboarding-forgot-password/onboarding/host/OnboardingHostContainer.vue'
+	import HostOnboardingContainer from '../pages/01-caregiver-and-host/onboarding/host/OnboardingHostContainer.vue'
 	import HostNannyHome from '../pages/03-host/Home.vue'
 	import HostHomeWithBottomMenuAndProfile from '../pages/03-host/all/HostHomeWithBottomMenuAndProfile.vue'
 	import HostPaymentContainer from '../pages/03-host/all/payment/PaymentContainer.vue'
@@ -107,6 +108,16 @@ const routes = [
 		component: ForgotPasswordContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
+	{
+		path: '/caregiver-and-host-notifications',
+		component: NotificationsContainer,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/caregiver-and-host-chat-conversation',
+		component: ChatConversation,
+		meta: { transition: 'slide-right-to-left' }
+	},
 
 	/*
 		Caregiver - Childminder, Nanny & Au Pair
@@ -134,11 +145,6 @@ const routes = [
 	{
 		path: '/caregiver-payment-account',
 		component: CaregiverPaymentContainer,
-		meta: { transition: 'slide-right-to-left' }
-	},
-	{
-		path: '/caregiver-notifications',
-		component: NotificationsContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 

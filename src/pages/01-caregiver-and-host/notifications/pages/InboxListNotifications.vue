@@ -17,8 +17,8 @@
 				<InboxNotificationItem />
 				<InboxNotificationItem src="./assets/svg/notifications/circle-green-heart-purple.svg">
 					<template #notificationMessage>
-						<p class="font-semibold antialiased">You received a tip from a parent</p>
-						<p class="font-semibold antialiased">Say thanks!!</p>
+						<p class="antialiased font-semibold">You received a tip from a parent</p>
+						<p class="antialiased font-semibold">Say thanks!!</p>
 						<p class="text-xs">31/11/2021 17:34</p>
 					</template>
 				</InboxNotificationItem>
@@ -59,9 +59,9 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
-import Tabs from '../../../../../components/navigation-and-tabs/Tabs.vue'
-import InboxNotificationItem from '../../../../../components/notifications/InboxNotificationItem.vue'
+import TopNavigation from '../../../../components/navigation-and-tabs/TopNavigation.vue'
+import Tabs from '../../../../components/navigation-and-tabs/Tabs.vue'
+import InboxNotificationItem from '../../../../components/notifications/InboxNotificationItem.vue'
 
 import { QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 

@@ -3,12 +3,12 @@
 		<TopNavigation text="Help" />
 		<main>
 			<div class="pt-6">
-				<div class="mx-8 pt-4 pb-8">
+				<div class="pt-4 pb-8 mx-8">
 					<InputField :hasLeadingIcon="true" inputIconType="search" placeholder="What's the issue?" inputClasses="text-center" />
 				</div>
 
 				<div class="mb-40">
-					<h5 class="text-header-five ml-8 mb-6">Answers</h5>
+					<h5 class="mb-6 ml-8 text-header-five">Answers</h5>
 					<ul role="list">
 						<ChecklistItemNoBorder :isHelpItem="true" :displaySubHeader="false" leftSvg="./assets/svg/help/circle-green-calendar-purple.svg" header="Help with booking" rightSvg="./assets/svg/other/chevron-right-gray.svg" />
 						<ChecklistItemNoBorder :isHelpItem="true" :displaySubHeader="false" leftSvg="./assets/svg/help/circle-green-phone-link-setup-purple.svg" header="Account and app issues" rightSvg="./assets/svg/other/chevron-right-gray.svg" />
@@ -19,7 +19,7 @@
 				</div>
 
 				<div class="mb-10">
-					<h5 class="text-header-five ml-8 mb-2">Ask</h5>
+					<h5 class="mb-2 ml-8 text-header-five">Ask</h5>
 					<ul role="list">
 						<ChecklistItemNoBorder :isHelpItem="true" :displayBorderBottom="false" leftSvg="./assets/svg/help/message-purple.svg" header="Send us a message" subHeader="Other matters, disputes or conflicts?" rightSvg="./assets/svg/other/chevron-right-gray.svg" />
 					</ul>
@@ -30,9 +30,9 @@
 </template>
 
 <script>
-import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
-import InputField from '../../../../../components/form/InputField.vue'
-import ChecklistItemNoBorder from '../../../../../components/checklist/ChecklistItemNoBorder.vue'
+import TopNavigation from '../../../../components/navigation-and-tabs/TopNavigation.vue'
+import InputField from '../../../../components/form/InputField.vue'
+import ChecklistItemNoBorder from '../../../../components/checklist/ChecklistItemNoBorder.vue'
 
 export default {
 	components: {
