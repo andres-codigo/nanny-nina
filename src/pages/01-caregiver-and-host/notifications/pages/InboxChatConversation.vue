@@ -23,25 +23,27 @@
 				</div>
 			</div>
 			<section class="fixed inset-x-0 z-10 block w-full bg-white border-t bottom-20 border-gray">
-				<div class="flex px-8 py-6">
-					<div class="mr-4 grow">
-						<label for="email" class="sr-only">Start a message</label>
-						<input
-							id="message"
-							name="message"
-							type="text"
-							placeholder="Start a message"
-							class="w-full px-4 py-2 text-sm text-gray-500 border border-gray-500 rounded-full appearance-none caret-blue-500 bg-gray-50 focus:outline-none focus:ring-0 focus:border focus:border-gray-500 focus:text-purple-900" />
+				<form class="w-full" action="#" method="POST">
+					<div class="flex px-8 py-6">
+						<div class="mr-4 grow">
+							<label for="email" class="sr-only">Start a message</label>
+							<input
+								id="message"
+								name="message"
+								type="text"
+								placeholder="Start a message"
+								class="w-full px-4 py-2 text-sm text-gray-500 border border-gray-500 rounded-full appearance-none caret-blue-500 bg-gray-50 focus:outline-none focus:ring-0 focus:border focus:border-gray-500 focus:text-purple-900" />
 
+						</div>
+						<div class="grow-0">
+							<ButtonPrimary class="px-1 py-0.5 rounded-10px">
+								<template #leadingIcon>
+									<Img src="./assets/svg/messages/send-message-button.svg" />
+								</template>
+							</ButtonPrimary>
+						</div>
 					</div>
-					<div class="grow-0">
-						<ButtonPrimary class="px-1 py-0.5 rounded-10px">
-							<template #leadingIcon>
-								<Img src="./assets/svg/messages/send-message-button.svg" />
-							</template>
-						</ButtonPrimary>
-					</div>
-				</div>
+				</form>
 			</section>
 		</main>
 		<footer>
