@@ -2,14 +2,14 @@
 	<li>
 		<a href="#" class="flex flex-row pt-3 hover:bg-lilac-50 focus:bg-green-100">
 			<div class="inline-flex pl-2 mb-3 basis-2/12">
-				<div class="relative">
+				<div class="relative shrink-0">
 					<Img :src="src" class="rounded-full h-14 w-14" />
 					<span class="absolute bottom-1 right-0.5 w-2.5 h-2.5 rounded-full border border-white bg-success-500" v-if="userIsOnline"></span>
 				</div>
 			</div>
-			<div class="border-b basis-8/12 border-b-gray-50">
-				<div class="flex flex-col pl-2">
-					<p class="mb-2 font-bold text-purple-900">{{ user }}</p>
+			<div class="pb-2 ml-6 border-b basis-8/12 border-b-gray-50">
+				<div class="flex flex-col">
+					<p class="mb-2 antialiased font-bold text-purple-900">{{ user }}</p>
 					<p class="text-sm text-gray-500">{{ message }}</p>
 				</div>
 			</div>

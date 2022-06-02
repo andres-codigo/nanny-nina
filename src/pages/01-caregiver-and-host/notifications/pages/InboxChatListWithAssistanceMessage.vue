@@ -17,7 +17,7 @@
 				<div class="pb-16">
 					<h6 class="antialiased font-semibold text-header-six">Need Assistance?</h6>
 
-					<hr class="mt-2 mb-4 border-1 border-gray-50" />
+					<hr class="mt-2 mb-2 border-1 border-gray-50" />
 
 					<ul role="list">
 						<ChatItem
