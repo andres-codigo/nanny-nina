@@ -24,27 +24,27 @@
 		/>
 		<ListItem
 			:subItem="false"
-			:hideNotes="true"
-			notes=""
-			date=""
+			:hideNotes="false"
+			notes="Waiting on Figma design updates"
+			date="02/06/22"
 			routerLinkPath="/caregiver-and-host-notifications"
 			title="Notifications"
 			textColor="text-purple-600"
-			textBadge="In Progress"
+			textBadge="On Hold - UI/Design"
 			textColorBadge="text-purple-900"
-			backgroundColorBadge="bg-amber-300"
+			backgroundColorBadge="bg-amber-500"
 		/>
 		<ListItem
 			:subItem="false"
-			:hideNotes="true"
-			notes=""
-			date=""
+			:hideNotes="false"
+			notes="Waiting on Figma design updates"
+			date="02/06/22"
 			routerLinkPath="/caregiver-and-host-chat-conversation"
 			title="Chat Conversation"
 			textColor="text-purple-600"
-			textBadge="In Progress"
+			textBadge="On Hold - UI/Design"
 			textColorBadge="text-purple-900"
-			backgroundColorBadge="bg-amber-300"
+			backgroundColorBadge="bg-amber-500"
 		/>
 	</ul>
 </template>
