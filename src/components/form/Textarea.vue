@@ -3,7 +3,7 @@
 		<textarea
 			:rows="rows"
 			:name="name"
-			:id="id"
+			:id="this.id"
 			maxlength="characterNumber"
 			class="
 				block w-full
@@ -18,13 +18,17 @@
 
 <script>
 export default {
+	data () {
+		return {
+			id: Math.ceil(Math.random()*10000)
+		}
+	},
 	props: {
 		rows: {
 			type: String,
 			default: '8'
 		},
 		name: String,
-		id: String,
 		characterNumber: {
 			type: String,
 			default: '280'

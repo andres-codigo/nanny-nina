@@ -7,7 +7,7 @@
 			<SearchIcon class="w-5 h-5 text-gray-700" v-if="inputIconType === 'search'" />
 		</div>
 		<input
-			id="email"
+			:id="this.id"
 			name="email"
 			:type="type"
 			autocomplete="email"
@@ -25,6 +25,11 @@
 import { CalendarIcon, SearchIcon } from '@heroicons/vue/outline'
 
 export default {
+	data () {
+		return {
+			id: Math.ceil(Math.random()*10000)
+		}
+	},
 	components: {
 		CalendarIcon,
 		SearchIcon
@@ -45,7 +50,7 @@ export default {
 		inputClasses: {
 			type: String,
 			default: ''
-		}
+		},
 	}
 }
 </script>

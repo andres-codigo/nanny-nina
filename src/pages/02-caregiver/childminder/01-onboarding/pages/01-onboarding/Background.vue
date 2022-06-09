@@ -63,7 +63,7 @@
 						<p class="font-thin mt-8">Please add other specific details</p>
 
 						<div class="mt-4">
-							<Textarea :characterNumber="140" name="note-for-parents" id="note-for-parents" />
+							<Textarea characterNumber="140" name="note-for-parents" id="note-for-parents" />
 						</div>
 
 						<div class="mt-12">

@@ -27,12 +27,14 @@
 
 <script>
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
+import Img from '../../../../../components/dom-elements/Img.vue'
 import ChecklistItemWithBorder from '../../../../../components/checklist/ChecklistItemWithBorder.vue'
 import AnchorTextOnly from '../../../../../components/dom-elements/AnchorTextOnly.vue'
 
 export default {
 	components: {
 		TopNavigation,
+		Img,
 		ChecklistItemWithBorder,
 		AnchorTextOnly
 	}

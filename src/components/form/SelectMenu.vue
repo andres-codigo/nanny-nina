@@ -3,7 +3,7 @@
 	<div>
 		<label for="for-dev-not-prod" class="block text-sm font-light text-purple-800 pl-4 pb-1">{{ labelText }}</label>
 		<select
-			id="for-dev-not-prod"
+			:id="this.id"
 			name="for-dev-not-prod"
 			:class="class"
 			class="
@@ -21,6 +21,11 @@
 
 <script>
 export default {
+	data () {
+		return {
+			id: Math.ceil(Math.random()*10000)
+		}
+	},
 	props: {
 		labelText: String,
 		optionText: {

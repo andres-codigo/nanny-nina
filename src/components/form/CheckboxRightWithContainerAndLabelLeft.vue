@@ -7,7 +7,7 @@
 		</div>
 		<div class="ml-3 flex items-center h-5">
 			<input
-				:id="checkboxName"
+				:id="this.id"
 				:name="checkboxName"
 				:checked="checked"
 				type="checkbox"
@@ -19,6 +19,11 @@
 
 <script>
 export default {
+	data () {
+		return {
+			id: Math.ceil(Math.random()*10000)
+		}
+	},
 	props: {
 		text: String,
 		subText: String,

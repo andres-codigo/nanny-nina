@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full h-full">
-		<TopNavigation text="Payment" />
+		<TopNavigationPayment text="Payment" />
 		<main>
 			<Tabs
 				tabOneClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"

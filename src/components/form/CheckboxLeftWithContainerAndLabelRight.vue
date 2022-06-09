@@ -3,7 +3,7 @@
 	<div class="relative flex py-4">
 		<div class="mr-4 inline-flex items-center">
 			<input
-				:id="checkboxName"
+				:id="this.id"
 				:name="checkboxName"
 				type="checkbox"
 				:class="inputClass"
@@ -25,6 +25,11 @@
 
 <script>
 export default {
+	data () {
+		return {
+			id: Math.ceil(Math.random()*10000)
+		}
+	},
 	props: {
 		inputClass: {
 			type: String,

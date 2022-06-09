@@ -38,7 +38,7 @@
 					<ul role="list">
 						<ChatItem />
 						<ChatItem user="Hannah" message="Hey Brittany, how can I help you?" dateOrTime="Yesterday" numberOfMessages="10" />
-						<ChatItem :userIsOnline="false" user="The Theos" message="Okay, Expecting you" dateOrTime="20/05/2022" isOldMessage="true" :hasMessages="false" />
+						<ChatItem :userIsOnline="false" user="The Theos" message="Okay, Expecting you" dateOrTime="20/05/2022" :isOldMessage="true" :hasMessages="false" />
 					</ul>
 				</div>
 			</div>
