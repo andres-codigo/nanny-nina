@@ -76,13 +76,20 @@ export default {
 			handler(isOpen) {
 				if (import.meta.env) {
 					if (isOpen) {
-						document.body.style.setProperty("overflow", "hidden")
+						document.body.style.setProperty('overflow', 'hidden')
 					} else {
-						document.body.style.removeProperty("overflow")
+						document.body.style.removeProperty('overflow')
 					}
 				}
 			}
 		}
-	}
+	},
+	beforeUnmount() {
+		if (import.meta.env) {
+			if(document.body.style.getPropertyValue('overflow') === 'hidden') {
+				document.body.style.removeProperty('overflow')
+			}
+		}
+	},
 }
 </script>
