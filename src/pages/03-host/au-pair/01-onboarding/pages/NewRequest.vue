@@ -7,13 +7,13 @@
 			<div class="flex flex-col justify-center pt-12 mx-4">
 				<h5 class="text-header-five font-semibold antialiased mb-4">Select your plan</h5>
 				<div class="inline-flex pb-8">
-					<LinkCard :hasPrice="true" :showPlaceholderSVG="true" imageSrc="./assets/svg/illustrations/house-with-family-128-x-105.svg" to="dashboard" class="bg-lilac-100 hover:bg-purple-300 focus:bg-purple-600" title="Full Service">
+					<LinkCard :hasPrice="true" :showPlaceholderSVG="true" imageSrc="./assets/svg/illustrations/house-with-family-128-x-105.svg" to="dashboard" class="bg-lilac-100 hover:shadow-lg hover:shadow-gray-50 focus:bg-purple-600" title="Full Service">
 						<template #details><p>Nanny Nina finds and screens an au pair specially for you</p></template>
 						<template #price>&euro;2,998</template>
 					</LinkCard>
 				</div>
 				<div class="inline-flex pb-8">
-					<LinkCard :hasPrice="true" :showPlaceholderSVG="true" imageSrc="./assets/svg/illustrations/house-with-family-128-x-105.svg" to="dashboard" class="text-purple-900 bg-green-500 hover:bg-green-400 focus:bg-green-600" title="Self Match" >
+					<LinkCard :hasPrice="true" :showPlaceholderSVG="true" imageSrc="./assets/svg/illustrations/house-with-family-128-x-105.svg" to="dashboard" class="text-purple-900 bg-green-500 hover:shadow-lg hover:shadow-gray-50 focus:bg-green-600" title="Self Match" >
 						<template #details><p>I already found an au pair, Nanny Nina helps me with the administration.</p></template>
 						<template #price>&euro;999</template>
 					</LinkCard>
