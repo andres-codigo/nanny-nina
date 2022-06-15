@@ -4,7 +4,7 @@
 			<div class="flex flex-row">
 				<div class="basis-11/12">
 					<div :class="['flex items-center', isHelpItem ? 'py-2' : 'py-6']">
-						<div :class="[isHelpItem ? 'ml-8 mr-2' : 'mx-2']">
+						<div :class="[isHelpItem ? 'ml-8 mr-2' : 'mx-2']" v-if="displayLeftSvg">
 							<Img :src="leftSvg" />
 						</div>
 						<div class="flex flex-col my-2 ml-2">
@@ -38,6 +38,10 @@ export default {
 		leftSvg: {
 			type: String,
 			default: './assets/svg/other/group-add-green-bg-blue-fg.svg'
+		},
+		displayLeftSvg: {
+			type: Boolean,
+			default: true
 		},
 		rightSvg: {
 			type: String,

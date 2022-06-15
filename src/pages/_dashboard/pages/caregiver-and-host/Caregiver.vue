@@ -59,6 +59,18 @@
 			textColorBadge="text-purple-900"
 			backgroundColorBadge="bg-amber-500"
 		/>
+		<ListItem
+			:subItem="false"
+			:hideNotes="true"
+			notes=""
+			date=""
+			routerLinkPath="/caregiver-profile"
+			title="Profile"
+			textColor="text-purple-600"
+			textBadge="In Progress"
+			textColorBadge="text-purple-900"
+			backgroundColorBadge="bg-amber-300"
+		/>
 	</ul>
 </template>
 
