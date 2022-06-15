@@ -112,8 +112,8 @@
 				<div v-if="activeTab === 4">
 					<!-- Start: Email Template Links -->
 					<div class="relative">
-						<div class="z-10 sticky top-0 border-t border-b border-gray-200 bg-gray-50 pl-4 pr-4 py-4 text-sm font-medium text-gray-600">
-							<h3><span class="font-bold">All</span> </h3>
+						<div class="z-10 sticky bg-gray-500 px-4 py-4 text-sm font-medium antialiased">
+							<p class="text-md text-white font-bold leading-none">Email Templates</p>
 						</div>
 						<EmailAll />
 					</div>
