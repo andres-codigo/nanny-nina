@@ -1,5 +1,5 @@
 <template>
-	<div class="inline-flex w-full border border-gray-500 rounded-20px mb-4">
+	<a href="#" target="_self" class="inline-flex w-full border border-gray-500 rounded-20px hover:shadow-lg hover:shadow-gray-50 mb-4">
 		<div class="w-full h-52">
 			<div :class="['flex flex-row rounded-t-20px', backgroundColor]">
 				<div class="inline-flex grow justify-center items-center h-24 text-5xl font-bold">
@@ -13,7 +13,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</a>
 </template>
 
 <script>

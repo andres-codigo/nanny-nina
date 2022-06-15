@@ -1,5 +1,5 @@
 <template>
-	<div class="flex flex-row mb-2 border border-gray-100 rounded-20px hover:rounded-20px px-4">
+	<div class="flex flex-row mb-2 border border-gray-100 rounded-20px hover:rounded-20px hover:shadow-lg hover:shadow-gray-50 px-4">
 		<div class="basis-11/12">
 			<div class="flex items-center py-6">
 				<div class="basis-11/12">

@@ -1,5 +1,5 @@
 <template>
-	<a href="#" target="_self" class="block rounded-30px bg-green-500 hover:bg-green-400 focus:bg-green-600 text-gray-500 h-44 mb-16">
+	<a href="#" target="_self" class="block rounded-30px bg-green-500 hover:shadow-lg hover:shadow-gray-50 focus:bg-green-600 text-gray-500 h-44 mb-16">
 		<div class="flex flex-row h-full">
 			<div class="basis-11/12">
 				<div class="flex items-center px-4 py-2">
