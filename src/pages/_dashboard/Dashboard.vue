@@ -12,7 +12,8 @@
 				<div class="text-sm font-bold  sm:flex-grow">
 					<router-link to="https://nanny-nina.vercel.app/dashboard?tab=1" @click="activeTab = 1" :class="[ activeTab === 1 ? 'active underline' : 'no-underline' ]" class="cursor-pointer block mt-4 sm:inline-block sm:mt-0 text-purple-900 hover:underline mr-4">Caregiver & Host</router-link>
 					<router-link to="https://nanny-nina.vercel.app/dashboard?tab=2" @click="activeTab = 2" :class="[ activeTab === 2 ? 'active underline' : 'no-underline' ]" class="cursor-pointer block mt-4 sm:inline-block sm:mt-0 text-purple-900 hover:underline mr-4">Caregiver</router-link>
-					<router-link to="https://nanny-nina.vercel.app/dashboard?tab=3" @click="activeTab = 3" :class="[ activeTab === 3 ? 'active underline' : 'no-underline' ]" class="cursor-pointer block mt-4 sm:inline-block sm:mt-0 text-purple-900 hover:underline">Host</router-link>
+					<router-link to="https://nanny-nina.vercel.app/dashboard?tab=3" @click="activeTab = 3" :class="[ activeTab === 3 ? 'active underline' : 'no-underline' ]" class="cursor-pointer block mt-4 sm:inline-block sm:mt-0 text-purple-900 hover:underline mr-4">Host</router-link>
+					<router-link to="https://nanny-nina.vercel.app/dashboard?tab=4" @click="activeTab = 4" :class="[ activeTab === 4 ? 'active underline' : 'no-underline' ]" class="cursor-pointer block mt-4 sm:inline-block sm:mt-0 text-purple-900 hover:underline">Email Templates</router-link>
 				</div>
 			</div>
 		</nav>
@@ -107,6 +108,17 @@
 					</div>
 					<!-- End: Host Links -->
 				</div>
+
+				<div v-if="activeTab === 4">
+					<!-- Start: Email Template Links -->
+					<div class="relative">
+						<div class="z-10 sticky bg-gray-500 px-4 py-4 text-sm font-medium antialiased">
+							<p class="text-md text-white font-bold leading-none">Email Templates</p>
+						</div>
+						<EmailAll />
+					</div>
+					<!-- End: Email Template Links -->
+				</div>
 			</div>
 		</main>
 	</div>
@@ -118,8 +130,6 @@ import Header from '../../components/content/logos/Header.vue'
 import CaregiverAndHost from './pages/caregiver-and-host/CaregiverAndHost.vue'
 import Caregiver from './pages/caregiver-and-host/Caregiver.vue'
 import Host from './pages/caregiver-and-host/Host.vue'
-
-
 import CaregiverAll from './pages/caregiver/All.vue'
 import CaregiverNanny from './pages/caregiver/Nanny.vue'
 import CaregiverChildminder from './pages/caregiver/Childminder.vue'
@@ -129,6 +139,8 @@ import HostAll from './pages/host/All.vue'
 import HostNanny from './pages/host/Nanny.vue'
 import HostChildminder from './pages/host/Childminder.vue'
 import HostAuPair from './pages/host/AuPair.vue'
+
+import EmailAll from './pages/email-templates/All.vue'
 
 import ListItem from '../../components/_dashboard/ListItem.vue'
 
@@ -154,6 +166,7 @@ export default {
 		HostNanny,
 		HostChildminder,
 		HostAuPair,
+		EmailAll,
 		ListItem,
 		MenuIcon
 	},
@@ -169,6 +182,8 @@ export default {
 			 this.activeTab = 2
 		 } else if (this.$route.query.tab === '3') {
 			 this.activeTab = 3
+		 } else if (this.$route.query.tab === '4') {
+			 this.activeTab = 4
 		 } else {
 			 this.activeTab = 1
 		 }
