@@ -93,7 +93,7 @@
 				<div class="flex items-center justify-between">
 					<p class="text-sm font-medium truncate text-purple-600">Suggested Profile</p>
 					<div class="ml-2 flex-shrink-0 flex">
-						<p class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full text-purple-900 bg-amber-300">In Progress</p>
+						<p class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full text-white bg-green-800">Completed</p>
 					</div>
 				</div>
 			</div>
