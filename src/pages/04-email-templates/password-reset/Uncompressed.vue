@@ -1,4 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<template>
+	<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,7 +7,7 @@
 <meta name="color-scheme" content="light">
 <meta name="supported-color-schemes" content="light">
 </head>
-<body style="font-family: Arial, Helvetica, sans-serif; box-sizing: border-box; height: 100%; hyphens: auto; line-height: 1.4; margin: 0; -moz-hyphens: auto; -ms-word-break: break-all; width: 100% !important; -webkit-hyphens: auto; -webkit-text-size-adjust: none; word-break: break-word;">
+<body style="font-family: Arial, Helvetica, sans-serif; box-sizing: border-box; height: 100%; hyphens: auto; line-height: 1.4; margin: 0; -moz-hyphens: auto; -ms-word-break: break-all; width: 100% !important; -webkit-hyphens: auto; -webkit-text-size-adjust: none; word-break: break-word;"> -->
 	<table class="wrapper" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="font-family: Arial, Helvetica, sans-serif; box-sizing: border-box; background-color: #ffffff; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
 		<tr>
 			<td align="center" style="font-family: Arial, Helvetica, sans-serif; box-sizing: border-box;">
@@ -38,15 +39,12 @@
 								<!-- Body content -->
 								<tr>
 									<td class="content-cell" style="font-family: Arial, Helvetica, sans-serif; box-sizing: border-box; padding: 35px;">
-										<h4 style="font-family: Arial, Helvetica, sans-serif; box-sizing: border-box; color: #1C1836; font-size: 24px; font-weight: 600; margin-bottom: 0.5em; margin-top: 0; text-align: left;">Payment Received!</h4>
-										<p style="font-family: Arial, Helvetica, sans-serif; box-sizing: border-box; color: #200D5D; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">You have received payment for your work. Click the “Check my balance” button below to view payment details.</p>
+										<h4 style="font-family: Arial, Helvetica, sans-serif; box-sizing: border-box; color: #1C1836; font-size: 24px; font-weight: 600; margin-bottom: 0.5em; margin-top: 0; text-align: left;">Hi there!</h4>
+										<p style="font-family: Arial, Helvetica, sans-serif; box-sizing: border-box; color: #200D5D; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">We've received your request to reset your password. Click the “Reset Password” button below to set a new password</p>
 										<table class="action" align="center" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="font-family: Arial, Helvetica, sans-serif; box-sizing: border-box; margin: 70px 0; padding: 0; text-align: center; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
 											<tr>
-												<td style="font-family: Arial, Helvetica, sans-serif; box-sizing: border-box; background-color: #ECEBFF; height:297px; position: relative; overflow: hidden;">
-													<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" width="100%" height="auto" />
-													<div style="position: absolute; width: 100%; bottom: 20%;">
-														<a href="#" target="_blank" rel="noopener" style="font-family: Arial, Helvetica, sans-serif;box-sizing: border-box; line-height: 1; font-weight: 700;font-size: 18px; padding-top: 1rem;padding-bottom: 1rem;background-color: #5427E2;border-radius: 9999px;justify-content: center;color: #ffffff;text-decoration: none;display: block;margin-left: 10%;margin-right: 10%;">Check your balance ></a>
-													</div>
+												<td style="font-family: Arial, Helvetica, sans-serif; box-sizing: border-box;">
+													<a href="#" target="_blank" rel="noopener" style="font-family: Arial, Helvetica, sans-serif;box-sizing: border-box; line-height: 1; font-weight: 700;font-size: 18px;padding-top: 1rem;padding-bottom: 1rem;background-color: #5427E2;border-radius: 9999px;justify-content: center;color: #ffffff;text-decoration: none;display: block;margin-left: 10%;margin-right: 10%;">Reset Password ></a>
 												</td>
 											</tr>
 										</table>
@@ -100,5 +98,6 @@
 			</td>
 		</tr>
 	</table>
-</body>
-</html>
+<!--</body>
+ </html> -->
+ </template>

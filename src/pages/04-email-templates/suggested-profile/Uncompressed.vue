@@ -1,4 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<template>
+	<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,7 +7,7 @@
 <meta name="color-scheme" content="light">
 <meta name="supported-color-schemes" content="light">
 </head>
-<body style="font-family: Arial, Helvetica, sans-serif; box-sizing: border-box; height: 100%; hyphens: auto; line-height: 1.4; margin: 0; -moz-hyphens: auto; -ms-word-break: break-all; width: 100% !important; -webkit-hyphens: auto; -webkit-text-size-adjust: none; word-break: break-word;">
+<body style="font-family: Arial, Helvetica, sans-serif; box-sizing: border-box; height: 100%; hyphens: auto; line-height: 1.4; margin: 0; -moz-hyphens: auto; -ms-word-break: break-all; width: 100% !important; -webkit-hyphens: auto; -webkit-text-size-adjust: none; word-break: break-word;"> -->
 	<table class="wrapper" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="font-family: Arial, Helvetica, sans-serif; box-sizing: border-box; background-color: #ffffff; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
 		<tr>
 			<td align="center" style="font-family: Arial, Helvetica, sans-serif; box-sizing: border-box;">
@@ -52,7 +53,7 @@
 																			<path d="M18 32.025L15.825 30.045C8.1 23.04 3 18.42 3 12.75C3 8.13 6.63 4.5 11.25 4.5C13.86 4.5 16.365 5.715 18 7.635C19.635 5.715 22.14 4.5 24.75 4.5C29.37 4.5 33 8.13 33 12.75C33 18.42 27.9 23.04 20.175 30.06L18 32.025Z" fill="#D80027"/>
 																		</svg>
 																	</span>
-																	<img src="https://images.unsplash.com/photo-1543721482-bc95ff1f1dea" style="border-radius: 1.5rem;" width="100%">
+																	<img src="https://images.unsplash.com/photo-1543721482-bc95ff1f1dea" style="border-radius: 1.5rem; width:100%;" width="100%">
 																</div>
 															</div>
 															<div style="height: 14rem; margin-left: 1rem; margin-right: 1rem;">
@@ -113,7 +114,7 @@
 																			<path d="M18 32.025L15.825 30.045C8.1 23.04 3 18.42 3 12.75C3 8.13 6.63 4.5 11.25 4.5C13.86 4.5 16.365 5.715 18 7.635C19.635 5.715 22.14 4.5 24.75 4.5C29.37 4.5 33 8.13 33 12.75C33 18.42 27.9 23.04 20.175 30.06L18 32.025Z" fill="#D80027"/>
 																		</svg>
 																	</span>
-																	<img src="https://images.unsplash.com/photo-1543721482-bc95ff1f1dea" style="border-radius: 1.5rem;" width="100%">
+																	<img src="https://images.unsplash.com/photo-1543721482-bc95ff1f1dea" style="border-radius: 1.5rem; width:100%;" width="100%">
 																</div>
 															</div>
 															<div style="height: 14rem; margin-left: 1rem; margin-right: 1rem;">
@@ -174,7 +175,7 @@
 																			<path d="M18 32.025L15.825 30.045C8.1 23.04 3 18.42 3 12.75C3 8.13 6.63 4.5 11.25 4.5C13.86 4.5 16.365 5.715 18 7.635C19.635 5.715 22.14 4.5 24.75 4.5C29.37 4.5 33 8.13 33 12.75C33 18.42 27.9 23.04 20.175 30.06L18 32.025Z" fill="#D80027"/>
 																		</svg>
 																	</span>
-																	<img src="https://images.unsplash.com/photo-1543721482-bc95ff1f1dea" style="border-radius: 1.5rem;" width="100%">
+																	<img src="https://images.unsplash.com/photo-1543721482-bc95ff1f1dea" style="border-radius: 1.5rem; width:100%;" width="100%">
 																</div>
 															</div>
 															<div style="height: 14rem; margin-left: 1rem; margin-right: 1rem;">
@@ -283,5 +284,6 @@
 			</td>
 		</tr>
 	</table>
-</body>
-</html>
+<!--</body>
+ </html> -->
+ </template>
