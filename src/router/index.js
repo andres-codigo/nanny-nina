@@ -74,6 +74,8 @@ import Dashboard from '../pages/_dashboard/Dashboard.vue'
 
 /* END: Host - Childminder Nanny Au Pair */
 
+	import Email from '../pages/04-email-templates/email-verification/Uncompressed.vue'
+
 const routes = [
 	{
 		path: '/',
@@ -94,7 +96,11 @@ const routes = [
 			}
 		}
 	},
-
+{
+		path: '/email',
+		component: Email,
+		meta: { transition: 'slide-right-to-left' }
+	},
 	/*
 		Caregiver and Host
 	*/
