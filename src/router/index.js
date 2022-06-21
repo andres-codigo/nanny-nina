@@ -74,7 +74,15 @@ import Dashboard from '../pages/_dashboard/Dashboard.vue'
 
 /* END: Host - Childminder Nanny Au Pair */
 
-	import Email from '../pages/04-email-templates/email-verification/Uncompressed.vue'
+/* START: Email Templates */
+
+	import EmailVerificationTemplate from '../pages/04-email-templates/email-verification/Uncompressed.vue'
+	import EmailPasswordResetTemplate from '../pages/04-email-templates/password-reset/Uncompressed.vue'
+	import EmailPaymentReceivedTemplate from '../pages/04-email-templates/payment-received/Uncompressed.vue'
+	import EmailPaymentSuccessfulTemplate from '../pages/04-email-templates/payment-successful/Uncompressed.vue'
+	import EmailSuggestedProfileTemplate from '../pages/04-email-templates/suggested-profile/Uncompressed.vue'
+
+/* END: Email Templates */
 
 const routes = [
 	{
@@ -96,11 +104,7 @@ const routes = [
 			}
 		}
 	},
-{
-		path: '/email',
-		component: Email,
-		meta: { transition: 'slide-right-to-left' }
-	},
+
 	/*
 		Caregiver and Host
 	*/
@@ -328,7 +332,36 @@ const routes = [
 		path: '/host-au-pair',
 		component: HostAuPairContainer,
 		meta: { transition: 'slide-right-to-left' }
-	}
+	},
+
+	/*
+		Email Templates
+	*/
+	{
+		path: '/email-verification',
+		component: EmailVerificationTemplate,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/email-password-reset',
+		component: EmailPasswordResetTemplate,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/email-payment-received',
+		component: EmailPaymentReceivedTemplate,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/email-payment-successful',
+		component: EmailPaymentSuccessfulTemplate,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/email-suggested-profile',
+		component: EmailSuggestedProfileTemplate,
+		meta: { transition: 'slide-right-to-left' }
+	},
 ]
 const router = createRouter({
 	history: createWebHistory(),
