@@ -4,6 +4,8 @@
 		<Personal class="max-w-450-for-dev-not-prod" />
 		<Preferences class="max-w-450-for-dev-not-prod" />
 		<PerformanceBadges class="max-w-450-for-dev-not-prod" />
+		<Services class="max-w-450-for-dev-not-prod" />
+		<BlockedUsers class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 
@@ -12,13 +14,17 @@ import Profile from './pages/Profile.vue'
 import Personal from './pages/Personal.vue'
 import Preferences from './pages/Preferences.vue'
 import PerformanceBadges from './pages/PerformanceBadges.vue'
+import Services from './pages/Services.vue'
+import BlockedUsers from './pages/BlockedUsers.vue'
 
 export default {
 	components: {
 		Profile,
 		Personal,
 		Preferences,
-		PerformanceBadges
+		PerformanceBadges,
+		Services,
+		BlockedUsers
 	}
 }
 </script>

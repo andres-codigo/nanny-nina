@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full h-full">
-		<TopNavigation text="Payment">
+		<TopNavigation text="Preferences">
 			<template #iconLeft><router-link to="'/dashboard?tab=1"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
 		</TopNavigation>
 		<main>
@@ -17,10 +17,8 @@
 				:tabThreeIsActive="false"
 			/>
 
-			<div class="flex flex-col mx-4">
-				<div class="flex flex-col py-6">
-					<h4 class="text-header-four font-semibold antialiased mb-2">Your Preferences</h4>
-				</div>
+			<div class="flex flex-col pt-12 mx-4">
+				<h4 class="text-header-four font-semibold antialiased mb-6">Your Preferences</h4>
 				<div class="mb-10">
 					<ul role="list">
 						<ChecklistItemWithBorderAndProfileImage />

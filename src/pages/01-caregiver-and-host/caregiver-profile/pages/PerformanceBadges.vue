@@ -6,10 +6,10 @@
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col pt-12 mx-4">
-				<div class="flex flex-col mb-10">
-					<h5 class="text-header-five font-semibold antialiased mb-2">Personality Badges</h5>
-					<p class="font-thin mb-4">Earn badges as you complete more bookings, Badges increase your chances of getting even more matches</p>
+				<h5 class="text-header-five font-semibold antialiased mb-2">Personality Badges</h5>
+				<p class="font-thin mb-6">Earn badges as you complete more bookings, Badges increase your chances of getting even more matches</p>
 
+				<div class="flex flex-col mb-10">
 					<div class="flex flex-wrap gap-x-10 gap-y-6 mt-4">
 						<BadgeProfileStatic :showBadgesEarned="true" />
 						<BadgeProfileStatic title="Calm/Zen" :showBadgesEarned="true" badgesEarned="0/10" />
