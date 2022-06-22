@@ -49,20 +49,6 @@
 					<div class="text-sm font-semibold leading-none">34</div>
 				</div>
 			</div>
-
-			<!-- <div class="flex mx-2">
-				<div class="inline-flex items-center">
-					<span class="pl-1 text-sm font-semibold leading-none">4.5/5</span>
-					<div class="grid grid-cols-5 mt-1">
-
-						<div><Img src="./assets/svg/stars/star-solid-gold.svg" class="w-2.5 h-2.5" /></div>
-						<div><Img src="./assets/svg/stars/star-solid-gold.svg" class="w-2.5 h-2.5" /></div>
-						<div><Img src="./assets/svg/stars/star-solid-gold.svg" class="w-2.5 h-2.5" /></div>
-						<div><Img src="./assets/svg/stars/star-solid-gold.svg" class="w-2.5 h-2.5" /></div>
-						<div><Img src="./assets/svg/stars/star-solid-gold.svg" class="w-2.5 h-2.5" /></div>
-					</div>
-				</div>
-			</div> -->
 		</main>
 	</div>
 </template>

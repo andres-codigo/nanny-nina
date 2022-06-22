@@ -1,5 +1,5 @@
 <template>
-	<h5 class="text-header-five font-semibold antialiased mb-2 ">
+	<h5 :class="class">
 		<slot name="title">{{ title }}</slot>
 	</h5>
 	<p class="text-sm font-light">{{ description }}</p>
@@ -25,6 +25,10 @@ export default {
 		MultipleUploadItem
 	},
 	props: {
+		class: {
+			type: String,
+			default: 'text-header-five font-semibold antialiased mb-2'
+		},
 		title: String,
 		description: String
 	}

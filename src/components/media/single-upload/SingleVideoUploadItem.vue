@@ -1,4 +1,3 @@
-<!-- TODO: bg color and text for all states -->
 <template>
 	<div class="flex items-center justify-center mb-6">
 		<button
@@ -11,7 +10,7 @@
 				hover:border-transparent hover:bg-lilac-100
 				focus:border-transparent focus:bg-green-100
 			">
-			<VideoCameraIcon class="w-24 h-24 text-lilac-500" aria-hidden="true" />
+			<Img src="./assets/svg/media/video-camera.svg" />
 			<span
 				class="
 					flex items-center justify-center
@@ -29,11 +28,12 @@
 </template>
 
 <script>
-import { VideoCameraIcon, PlusIcon } from '@heroicons/vue/solid'
+import Img from '../../dom-elements/Img.vue'
+import { PlusIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
-		VideoCameraIcon,
+		Img,
 		PlusIcon
 	}
 }

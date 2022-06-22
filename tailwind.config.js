@@ -136,7 +136,7 @@ module.exports = {
 			height: {
 				'card-booking-match': '30rem',
 				/* Icons */
-				'icon-host-personality-badge': '6rem',
+				'icon-personality-badge': '6rem',
 				/* Review - Leave Tip */
 				'icon-review-tip': '5.75rem'
 			},
@@ -205,7 +205,7 @@ module.exports = {
 				'input-lg': '',
 				'input-xl': '',
 				/* Icons */
-				'icon-host-personality-badge': '5.50rem',
+				'icon-personality-badge': '5.50rem',
 				/* Review - Leave Tip */
 				'icon-review-tip': '5rem',
 			},
