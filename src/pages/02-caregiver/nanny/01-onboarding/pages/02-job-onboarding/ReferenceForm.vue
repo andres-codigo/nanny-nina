@@ -12,7 +12,7 @@
 				<form class="w-full" action="#" method="POST">
 					<div class="mb-16">
 						<div class="mb-20">
-							<h5 class="text-header-five font-medium antialiased mb-4">We would like to a check <span class="text-red-500">*</span></h5>
+							<h5 class="text-header-five font-medium antialiased mb-4">We would like to a check <span class="text-red">*</span></h5>
 							<p class="font-thin mb-4">Please provide a reference, somebody that you have worked for (can also be family)that can tell us a little about you</p>
 
 							<div class="mt-4 grid grid-cols-2 gap-x-2">
@@ -34,7 +34,7 @@
 							<div class="mt-8">
 								<div class="flex">
 									<div class="inline-flex items-center justify-center">
-									<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+									<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
 										<path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
 									</svg>
 									</div>

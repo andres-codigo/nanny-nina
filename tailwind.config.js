@@ -1,3 +1,4 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
 	content: [
 		"./*.{html,js}",
@@ -73,16 +74,16 @@ module.exports = {
 					900: '#551400'
 				},
 				red: {
-					500: '#B91C1C',
+					DEFAULT: '#B91C1C',
 				},
 				orange: {
-					500: '#F97316'
+					DEFAULT: '#F97316'
 				},
 				success: {
-					500: '#16A34A'
+					DEFAULT: '#16A34A'
 				},
 				blue: {
-					500: '#2563EB'
+					DEFAULT: '#2563EB'
 				}
 			},
 			fontFamily: {
