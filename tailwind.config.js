@@ -1,3 +1,4 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
 	content: [
 		"./*.{html,js}",
@@ -73,16 +74,16 @@ module.exports = {
 					900: '#551400'
 				},
 				red: {
-					500: '#B91C1C',
+					DEFAULT: '#B91C1C',
 				},
 				orange: {
-					500: '#F97316'
+					DEFAULT: '#F97316'
 				},
 				success: {
-					500: '#16A34A'
+					DEFAULT: '#16A34A'
 				},
 				blue: {
-					500: '#2563EB'
+					DEFAULT: '#2563EB'
 				}
 			},
 			fontFamily: {
@@ -135,7 +136,7 @@ module.exports = {
 			height: {
 				'card-booking-match': '30rem',
 				/* Icons */
-				'icon-host-personality-badge': '6rem',
+				'icon-personality-badge': '6rem',
 				/* Review - Leave Tip */
 				'icon-review-tip': '5.75rem'
 			},
@@ -204,7 +205,7 @@ module.exports = {
 				'input-lg': '',
 				'input-xl': '',
 				/* Icons */
-				'icon-host-personality-badge': '5.50rem',
+				'icon-personality-badge': '5.50rem',
 				/* Review - Leave Tip */
 				'icon-review-tip': '5rem',
 			},

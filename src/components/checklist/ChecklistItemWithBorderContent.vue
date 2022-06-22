@@ -13,7 +13,7 @@
 
 					<div class="flex flex-col">
 						<h5 class="text-header-five text-purple-900 font-semibold antialiased -mt-2">
-							{{ title }}<span class="pl-1 text-red-500" v-if="!hideMandatoryRedStar">*</span>
+							{{ title }}<span class="pl-1 text-red" v-if="!hideMandatoryRedStar">*</span>
 						</h5>
 						<span :class="['inline-flex mt-2 font-medium', isCaregiverHostOptionDescription ? 'text-xs' : 'text-sm']" v-if="!hideContent">{{ description }}</span>
 					</div>

@@ -14,15 +14,15 @@
 		/>
 		<ListItem
 			:subItem="false"
-			:hideNotes="false"
-			notes="Waiting on Figma comment and design updates"
-			date="26/05/22"
+			:hideNotes="true"
+			notes=""
+			date=""
 			routerLinkPath="/host-childminder-booking"
 			title="Booking"
 			textColor="text-purple-600"
-			textBadge="Blocked - UI/Design"
-			textColorBadge="text-purple-900"
-			backgroundColorBadge="bg-melon-600"
+			textBadge="Completed"
+			textColorBadge="text-white"
+			backgroundColorBadge="bg-green-800"
 		/>
 	</ul>
 </template>

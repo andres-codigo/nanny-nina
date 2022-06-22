@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<span :class="['image', isTipPage ? 'w-icon-review-tip h-icon-review-tip' : 'w-icon-host-personality-badge h-icon-host-personality-badge']"></span>
+		<span :class="['image', isTipPage ? 'w-icon-review-tip h-icon-review-tip' : 'w-icon-personality-badge h-icon-personality-badge']"></span>
 		<span :class="['block text-center select-none', isTipPage ? 'font-bold' : 'text-sm font-light']">
 			<slot name="title">{{ title }}</slot>
 		</span>

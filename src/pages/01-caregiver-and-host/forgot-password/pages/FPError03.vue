@@ -30,7 +30,7 @@
 								aria-describedby="email-error"
 							>
 						</div>
-						<p class="mt-2 text-sm text-red-500 pl-4" id="email-error">The email address you have entered is incorrect</p>
+						<p class="mt-2 text-sm text-red pl-4" id="email-error">The email address you have entered is incorrect</p>
 					</div>
 
 					<div class="flex flex-col justify-center items-center">
