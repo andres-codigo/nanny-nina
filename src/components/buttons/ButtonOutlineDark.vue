@@ -9,6 +9,7 @@
 			font-semibold
 			antialiased
 			border
+			leading-none
 		">
 			<slot name="iconWithText"></slot>
 			{{ text }}
