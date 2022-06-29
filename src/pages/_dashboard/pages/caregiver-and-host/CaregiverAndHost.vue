@@ -46,6 +46,18 @@
 			textColorBadge="text-white"
 			backgroundColorBadge="bg-green-800"
 		/>
+		<ListItem
+			:subItem="false"
+			:hideNotes="true"
+			notes=""
+			date=""
+			routerLinkPath="/help-me-choose"
+			title="Help Me Choose"
+			textColor="text-purple-600"
+			textBadge="Completed"
+			textColorBadge="text-white"
+			backgroundColorBadge="bg-green-800"
+		/>
 	</ul>
 </template>
 

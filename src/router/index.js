@@ -10,6 +10,7 @@ import Dashboard from '../pages/_dashboard/Dashboard.vue'
 	import ForgotPasswordContainer from '../pages/01-caregiver-and-host/forgot-password/ForgotPasswordContainer.vue'
 	import NotificationsContainer from '../pages/01-caregiver-and-host/notifications/NotificationsContainer.vue'
 	import ChatConversation from '../pages/01-caregiver-and-host/notifications/pages/InboxChatConversation.vue'
+	import HelpMeChoose from '../pages/01-caregiver-and-host/help-me-choose/HelpMeChooseContainer.vue'
 
 	/* Caregiver */
 	import CaregiverOnboardingContainer from '../pages/01-caregiver-and-host/onboarding/caregiver/OnboardingCaregiverContainer.vue'
@@ -127,6 +128,11 @@ const routes = [
 	{
 		path: '/caregiver-and-host-chat-conversation',
 		component: ChatConversation,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/help-me-choose',
+		component: HelpMeChoose,
 		meta: { transition: 'slide-right-to-left' }
 	},
 
