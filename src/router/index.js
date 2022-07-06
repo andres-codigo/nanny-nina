@@ -11,6 +11,7 @@ import Dashboard from '../pages/_dashboard/Dashboard.vue'
 	import NotificationsContainer from '../pages/01-caregiver-and-host/notifications/NotificationsContainer.vue'
 	import ChatConversation from '../pages/01-caregiver-and-host/notifications/pages/InboxChatConversation.vue'
 	import HelpMeChoose from '../pages/01-caregiver-and-host/help-me-choose/HelpMeChooseContainer.vue'
+	import StickyHeaderTabsAndBottomMenu from '../pages/01-caregiver-and-host/StickyHeaderTabsAndBottomMenu.vue'
 
 	/* Caregiver */
 	import CaregiverOnboardingContainer from '../pages/01-caregiver-and-host/onboarding/caregiver/OnboardingCaregiverContainer.vue'
@@ -133,6 +134,11 @@ const routes = [
 	{
 		path: '/help-me-choose',
 		component: HelpMeChoose,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/sticky-header-tabs-and-bottom-menu',
+		component: StickyHeaderTabsAndBottomMenu,
 		meta: { transition: 'slide-right-to-left' }
 	},
 

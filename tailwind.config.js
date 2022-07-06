@@ -144,10 +144,8 @@ module.exports = {
 				'pop-up-notification': '9.063rem',
 			},
 			spacing: {
-				"safe-top": "env(safe-area-inset-top)",
-				"safe-bottom": "env(safe-area-inset-bottom)",
-				"safe-left": "env(safe-area-inset-left)",
-				"safe-right": "env(safe-area-inset-right)",
+				'116px': '116px',
+				'112px': '112px'
 			},
 			transitionDuration: {
 				'0': '0ms'

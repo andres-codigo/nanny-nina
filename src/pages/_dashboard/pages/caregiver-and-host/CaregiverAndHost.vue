@@ -58,6 +58,18 @@
 			textColorBadge="text-white"
 			backgroundColorBadge="bg-green-800"
 		/>
+		<ListItem
+			:subItem="false"
+			:hideNotes="true"
+			notes=""
+			date=""
+			routerLinkPath="/sticky-header-tabs-and-bottom-menu"
+			title="Sticky Header, Tabs and Bottom Menu"
+			textColor="text-purple-600"
+			textBadge="Completed"
+			textColorBadge="text-white"
+			backgroundColorBadge="bg-green-800"
+		/>
 	</ul>
 </template>
 

@@ -20,7 +20,7 @@
 					</div>
 				</div>
 			</div>
-			<section class="block fixed inset-x-0 w-full bottom-0 z-10 bg-white border-t border-gray min-w-360-for-dev-not-prod">
+			<section class="section-sticky-bottom-menu min-w-360-for-dev-not-prod">
 				<FixedBottomContentAndButton anchorText="Invite">
 					<template #topText><span class="text-2xl font-bold">&euro;13-15</span>/hr</template>
 					<template #bottomText>2km away</template>

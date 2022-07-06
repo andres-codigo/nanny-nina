@@ -1,5 +1,5 @@
 <template>
-	<div class="border-b border-gray-200">
+	<div class="bg-white border-b border-gray-200">
 		<nav class="flex -mb-px text-lg antialiased font-semibold text-center" aria-label="Tabs">
 			<a href="#" target="_self" :class="['flex-1 py-4 px-1 relative', tabOneClasses]">
 				{{ tabOneText }}

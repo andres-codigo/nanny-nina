@@ -65,7 +65,7 @@
 					/>
 				</div>
 			</div>
-			<section class="block fixed inset-x-0 w-full bottom-0 z-10 bg-white border-t border-gray min-w-360-for-dev-not-prod">
+			<section class="section-sticky-bottom-menu min-w-360-for-dev-not-prod">
 				<FixedBottomAnchorPrimary />
 			</section>
 		</main>
