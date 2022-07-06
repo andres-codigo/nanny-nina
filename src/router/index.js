@@ -52,6 +52,7 @@ import Dashboard from '../pages/_dashboard/Dashboard.vue'
 	import CaregiverChildminderBookingContainer from '../pages/02-caregiver/au-pair/01-onboarding/pages/01-country-listings/CountryListings.vue'
 	import CaregiverAuPairOnboardingContainer from '../pages/02-caregiver/au-pair/01-onboarding/OnboardingContainer.vue'
 	import CaregiverAuPairPersonalityTest from '../pages/02-caregiver/au-pair/01-onboarding/pages/02-job-onboarding/PersonalityTest.vue'
+	import CaregiverAuPairBookingContainer from '../pages/02-caregiver/au-pair/02-booking/BookingContainer.vue'
 
 /* END: Caregiver - Childminder Nanny Au Pair */
 
@@ -283,6 +284,11 @@ const routes = [
 	{
 		path: '/caregiver-au-pair-personality-test',
 		component: CaregiverAuPairPersonalityTest,
+		meta: { transition: 'slide-right-to-left' }
+	},
+	{
+		path: '/caregiver-au-pair-booking',
+		component: CaregiverAuPairBookingContainer,
 		meta: { transition: 'slide-right-to-left' }
 	},
 
