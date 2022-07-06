@@ -11,6 +11,30 @@
 		@apply text-purple-800;
 	}
   }
+/* sticky section, div container and bottom menu elements */
+.section-sticky-defaults {
+	@apply block fixed inset-x-0 z-10
+}
+
+.section-sticky-top-navigation {
+	@apply section-sticky-defaults;
+	@apply top-0;
+}
+
+.section-sticky-tabs {
+	@apply section-sticky-defaults;
+	@apply top-14;
+}
+
+.container-sticky-header-and-tabs-bottom-menu {
+	@apply mt-116px;
+	@apply pb-112px;
+}
+
+.section-sticky-bottom-menu {
+	@apply section-sticky-defaults;
+	@apply bottom-0 bg-white border-t border-gray-50;
+}
 
 /* hyperlink with underline */
 .anchor-with-underline {

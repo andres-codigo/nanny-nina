@@ -34,7 +34,7 @@
 					<p class="inline-flex items-center text-gray-500 font-thin"><Img src="./assets/svg/other/lightbulb.svg" />Tip: <a href="#" target="_self" class="anchor-blue anchor-with-underline ml-1">Add more pictures</a></p>
 				</div>
 			</div>
-			<section class="block fixed inset-x-0 w-full bottom-0 z-10 bg-white border-t border-gray min-w-360-for-dev-not-prod">
+			<section class="section-sticky-bottom-menu min-w-360-for-dev-not-prod">
 				<FixedBottomAnchorPrimary :isDisabled="true" buttonText="New Invites (0)" />
 			</section>
 		</main>

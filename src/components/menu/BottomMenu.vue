@@ -1,5 +1,5 @@
 <template>
-	<section class="block fixed inset-x-0 w-full bottom-0 z-10 bg-white border-t border-gray min-w-360-for-dev-not-prod">
+	<section class="section-sticky-bottom-menu min-w-360-for-dev-not-prod">
 		<div class="flex items-center h-20 justify-between">
 			<BottomMenuItem to="dashboard" text="Home" class="text-purple-500"><HomeIcon class="w-8 h-8 inline-block mb-1" /></BottomMenuItem>
 			<BottomMenuItem to="dashboard" text="Bookings" class="text-gray-400"><BookmarkIcon class="w-8 h-8 inline-block mb-1" /></BottomMenuItem>
