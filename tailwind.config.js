@@ -190,6 +190,7 @@ module.exports = {
 				'button-input-sms': '7.125rem',
 				'button-download': '7.313rem',
 				'button-chat-send-a-message': '12.188rem',
+				'button-280px': '280px',
 				/* Selects */
 				'select-xs': '6.25rem',
 				'select-sm': '7.5rem',
