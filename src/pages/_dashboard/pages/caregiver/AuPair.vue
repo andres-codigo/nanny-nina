@@ -44,9 +44,9 @@
 			routerLinkPath="/caregiver-au-pair-booking"
 			title="Booking"
 			textColor="text-purple-600"
-			textBadge="In Progress"
-			textColorBadge="text-purple-900"
-			backgroundColorBadge="bg-amber-300"
+			textBadge="Completed"
+			textColorBadge="text-white"
+			backgroundColorBadge="bg-green-800"
 		/>
 	</ul>
 </template>
@@ -56,7 +56,7 @@ import ListItem from '../../../../components/_dashboard/ListItem.vue'
 
 export default {
 	components: {
-		ListItem
-	}
+		ListItem,
+	},
 }
 </script>

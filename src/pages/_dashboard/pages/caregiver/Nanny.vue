@@ -2,15 +2,15 @@
 	<ul role="list" class="relative z-0 divide-y divide-gray-200">
 		<ListItem
 			:subItem="false"
-			:hideNotes="false"
-			notes="Waiting on design updates"
-			date="06/05/22"
+			:hideNotes="true"
+			notes=""
+			date=""
 			routerLinkPath="/caregiver-nanny-job-listings"
 			title="Job Listings"
 			textColor="text-purple-600"
-			textBadge="Blocked - UI/Design"
-			textColorBadge="text-purple-900"
-			backgroundColorBadge="bg-melon-600"
+			textBadge="Completed"
+			textColorBadge="text-white"
+			backgroundColorBadge="bg-green-800"
 		/>
 		<ListItem
 			:subItem="false"
@@ -26,15 +26,15 @@
 		/>
 		<ListItem
 			:subItem="false"
-			:hideNotes="false"
-			notes="Waiting on design updates"
-			date="06/05/22"
+			:hideNotes="true"
+			notes=""
+			date=""
 			routerLinkPath="/caregiver-nanny-parent-profile"
 			title="Parent Profile"
 			textColor="text-purple-600"
-			textBadge="Blocked - UI/Design"
-			textColorBadge="text-purple-900"
-			backgroundColorBadge="bg-melon-600"
+			textBadge="Completed"
+			textColorBadge="text-white"
+			backgroundColorBadge="bg-green-800"
 		/>
 		<ListItem
 			:subItem="false"
@@ -92,7 +92,7 @@ import ListItem from '../../../../components/_dashboard/ListItem.vue'
 
 export default {
 	components: {
-		ListItem
-	}
+		ListItem,
+	},
 }
 </script>
