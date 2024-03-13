@@ -7,16 +7,19 @@
 <script>
 import ReviewCardDetails from '../review-card/ReviewCardDetails.vue'
 
-import { StarIcon } from '@heroicons/vue/solid'
-
 export default {
 	components: {
 		ReviewCardDetails,
-		StarIcon
 	},
 	props: {
-		user: String,
-		date: String
-	}
+		user: {
+			type: String,
+			default: '',
+		},
+		date: {
+			type: String,
+			default: '',
+		},
+	},
 }
 </script>

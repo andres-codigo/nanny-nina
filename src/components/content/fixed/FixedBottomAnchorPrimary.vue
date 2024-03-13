@@ -1,7 +1,15 @@
 <template>
 	<div class="flex flex-col items-center py-6">
-		<AnchorPrimary :text="buttonText" class="w-button-sm py-4" v-if="!isDisabled" />
-		<AnchorPrimaryDisabled :text="buttonText" class="w-button-sm py-4" v-else />
+		<AnchorPrimary
+			v-if="!isDisabled"
+			:text="buttonText"
+			classes="w-button-sm py-4"
+		/>
+		<AnchorPrimaryDisabled
+			v-else
+			:text="buttonText"
+			classes="w-button-sm py-4"
+		/>
 	</div>
 </template>
 
@@ -12,17 +20,17 @@ import AnchorPrimaryDisabled from '../../dom-elements/AnchorPrimaryDisabled.vue'
 export default {
 	components: {
 		AnchorPrimary,
-		AnchorPrimaryDisabled
+		AnchorPrimaryDisabled,
 	},
 	props: {
 		buttonText: {
 			type: String,
-			default: 'New Invites (2)'
+			default: 'New Invites (2)',
 		},
 		isDisabled: {
 			type: Boolean,
-			default: false
-		}
-	}
+			default: false,
+		},
+	},
 }
 </script>

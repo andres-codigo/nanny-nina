@@ -1,8 +1,13 @@
 <template>
 	<div class="flex flex-wrap grow gap-y-6 gap-x-4">
 		<!-- 01 Set-up Steps -->
-		<LocationPageTemplate title="Where are you currently?" class="max-w-450-for-dev-not-prod" />
-		<PreApplicationMediaUploadPhotoPageTemplate class="max-w-450-for-dev-not-prod" />
+		<LocationPageTemplate
+			title="Where are you currently?"
+			class="max-w-450-for-dev-not-prod"
+		/>
+		<PreApplicationMediaUploadPhotoPageTemplate
+			class="max-w-450-for-dev-not-prod"
+		/>
 		<HomeWithoutMenuTemplate class="max-w-450-for-dev-not-prod" />
 
 		<!-- 03 Job Onboarding -->
@@ -63,7 +68,7 @@ export default {
 		AvailabilityWeeklyHours,
 		AvailabilityCalendar,
 		MatchingPreferences,
-		SuccessFurtherInformation
-	}
+		SuccessFurtherInformation,
+	},
 }
 </script>

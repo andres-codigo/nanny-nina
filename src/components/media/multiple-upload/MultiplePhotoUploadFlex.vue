@@ -1,5 +1,5 @@
 <template>
-	<h5 class="text-header-five font-semibold antialiased mb-2 ">
+	<h5 class="text-header-five font-semibold antialiased mb-2">
 		<slot name="title">{{ title }}</slot>
 	</h5>
 	<p class="text-sm font-light">{{ description }}</p>
@@ -10,7 +10,9 @@
 			<MultipleUploadItem />
 			<MultipleUploadItem />
 		</div>
-		<p class="text-xs font-light text-center text-gray-500">Size limit for each 5MB</p>
+		<p class="text-xs font-light text-center text-gray-500">
+			Size limit for each 5MB
+		</p>
 	</div>
 </template>
 
@@ -19,11 +21,17 @@ import MultipleUploadItem from './MultipleUploadItem.vue'
 
 export default {
 	components: {
-		MultipleUploadItem
+		MultipleUploadItem,
 	},
 	props: {
-		title: String,
-		description: String
-	}
+		title: {
+			type: String,
+			default: '',
+		},
+		description: {
+			type: String,
+			default: '',
+		},
+	},
 }
 </script>

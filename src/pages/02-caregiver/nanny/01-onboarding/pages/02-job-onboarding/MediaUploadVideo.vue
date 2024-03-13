@@ -1,7 +1,12 @@
 <template>
 	<div class="w-full h-full">
 		<TopNavigation text="Media Upload">
-			<template #iconLeft><router-link to="/dashboard?tab=2"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
+			<template #iconLeft
+				><router-link to="/dashboard?tab=2"
+					><ChevronLeftIcon
+						class="w-8 h-8 text-white"
+						aria-hidden="true" /></router-link
+			></template>
 		</TopNavigation>
 		<main>
 			<Steps text="Step 2 of 2">
@@ -17,35 +22,69 @@
 					<span class="inline-block mb-4">Tips:</span>
 					<ul role="list">
 						<li class="py-1 flex">
-							<CheckCircleIcon class="w-4 h-4 text-purple-500" aria-hidden="true" />
+							<CheckCircleIcon
+								class="w-4 h-4 text-purple-500"
+								aria-hidden="true"
+							/>
 							<div class="ml-3">
-								<p class="text-sm leading-none font-thin">Keep it short. Maximum 2 minutes</p>
+								<p class="text-sm leading-none font-thin">
+									Keep it short. Maximum 2 minutes
+								</p>
 							</div>
 						</li>
 						<li class="py-1 flex">
-							<CheckCircleIcon class="w-4 h-4 text-purple-500" aria-hidden="true" />
+							<CheckCircleIcon
+								class="w-4 h-4 text-purple-500"
+								aria-hidden="true"
+							/>
 							<div class="ml-3">
-								<p class="text-sm leading-none font-thin">Smile, make it personal. A funny detail works great</p>
+								<p class="text-sm leading-none font-thin">
+									Smile, make it personal. A funny detail
+									works great
+								</p>
 							</div>
 						</li>
 						<li class="py-1 flex">
-							<CheckCircleIcon class="w-4 h-4 text-purple-500" aria-hidden="true" />
+							<CheckCircleIcon
+								class="w-4 h-4 text-purple-500"
+								aria-hidden="true"
+							/>
 							<div class="ml-3">
-								<p class="text-sm leading-none font-thin">Introduce yourself  and why you've chosen this</p>
+								<p class="text-sm leading-none font-thin">
+									Introduce yourself and why you've chosen
+									this
+								</p>
 							</div>
 						</li>
 						<li class="py-1 flex">
-							<CheckCircleIcon class="w-4 h-4 text-purple-500" aria-hidden="true" />
+							<CheckCircleIcon
+								class="w-4 h-4 text-purple-500"
+								aria-hidden="true"
+							/>
 							<div class="ml-3">
-								<p class="text-sm leading-none font-thin">Remember to share your experience with children</p>
+								<p class="text-sm leading-none font-thin">
+									Remember to share your experience with
+									children
+								</p>
 							</div>
 						</li>
 					</ul>
 
-					<div class="flex flex-col justify-center items-center mt-10">
+					<div
+						class="flex flex-col justify-center items-center mt-10"
+					>
 						<div class="grid grid-rows-2 gap-2">
-							<div><ButtonPrimary text="Next" class="w-button-lg text-xl py-4" /></div>
-							<div class="inline-flex items-center justify-center"><AnchorTextOnly text="< Back to Checklist" /></div>
+							<div>
+								<ButtonPrimary
+									text="Next"
+									classes="w-button-lg text-xl py-4"
+								/>
+							</div>
+							<div
+								class="inline-flex items-center justify-center"
+							>
+								<AnchorTextOnly text="< Back to Checklist" />
+							</div>
 						</div>
 					</div>
 				</form>
@@ -60,7 +99,6 @@ import TopNavigation from '../../../../../../components/navigation-and-tabs/TopN
 import Steps from '../../../../../../components/steps/Steps.vue'
 import CompletedStep from '../../../../../../components/steps/types/CompletedStep.vue'
 import CurrentStep from '../../../../../../components/steps/types/CurrentStep.vue'
-import UpcomingStep from '../../../../../../components/steps/types/UpcomingStep.vue'
 
 import SingleVideoUpload from '../../../../../../components/media/single-upload/SingleVideoUpload.vue'
 import ButtonPrimary from '../../../../../../components/buttons/ButtonPrimary.vue'
@@ -74,12 +112,11 @@ export default {
 		Steps,
 		CompletedStep,
 		CurrentStep,
-		UpcomingStep,
 		SingleVideoUpload,
 		ButtonPrimary,
 		AnchorTextOnly,
 		ChevronLeftIcon,
-		CheckCircleIcon
-	}
+		CheckCircleIcon,
+	},
 }
 </script>

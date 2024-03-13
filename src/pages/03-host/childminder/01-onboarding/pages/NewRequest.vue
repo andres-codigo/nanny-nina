@@ -1,22 +1,49 @@
 <template>
 	<div class="w-full h-full">
-		<TopNavigation :displayBorderBottom="false">
-			<template #iconRight><router-link to="/dashboard?tab=3"><XIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
+		<TopNavigation :display-border-bottom="false">
+			<template #iconRight
+				><router-link to="/dashboard?tab=3"
+					><XIcon
+						class="w-8 h-8 text-white"
+						aria-hidden="true" /></router-link
+			></template>
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col justify-center pt-12 mx-4">
-				<h5 class="text-header-five font-semibold antialiased mb-">Subsidized childcare</h5>
+				<h5 class="text-header-five font-semibold antialiased mb-">
+					Subsidized childcare
+				</h5>
 				<div class="inline-flex pb-8">
-					<LinkCard :showQuestionMark="true" :showPlaceholderSVG="true" to="dashboard" class="text-white bg-purple-500 hover:shadow-lg hover:shadow-gray-50 focus:bg-purple-600" title="One-time">
-						<template #details><p class="text-white">Specialised nanny who comes to your address or receives children at her home with childcare allowance...</p></template>
+					<LinkCard
+						:show-question-mark="true"
+						:show-placeholder-s-v-g="true"
+						to="dashboard"
+						classes="text-white bg-purple-500 hover:shadow-lg hover:shadow-gray-50 focus:bg-purple-600"
+						title="One-time"
+					>
+						<template #details
+							><p class="text-white">
+								Specialised nanny who comes to your address or
+								receives children at her home with childcare
+								allowance...
+							</p></template
+						>
 					</LinkCard>
 				</div>
 
 				<div class="flex flex-col justify-center items-center mt-40">
 					<div class="grid grid-rows-2 gap-2">
-						<div><AnchorPrimary text="Continue" class="w-button-lg text-xl py-4" /></div>
+						<div>
+							<AnchorPrimary
+								text="Continue"
+								classes="w-button-lg text-xl py-4"
+							/>
+						</div>
 						<div class="text-center mt-4">
-							<AnchorTextOnly text="Learn more about Childminders >" textColorClass="anchor-blue" />
+							<AnchorTextOnly
+								text="Learn more about Childminders >"
+								text-color-class="anchor-blue"
+							/>
 						</div>
 					</div>
 				</div>
@@ -39,7 +66,7 @@ export default {
 		LinkCard,
 		AnchorPrimary,
 		AnchorTextOnly,
-		XIcon
-	}
+		XIcon,
+	},
 }
 </script>

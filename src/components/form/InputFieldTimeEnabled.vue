@@ -7,28 +7,26 @@
 		required
 		:readonly="readonly"
 		:value="value"
-		:class="class"
-		class="
-			px-3 py-2
-			border border-gray-500 rounded-full
-			text-center text-purple-900 font-thin
-			focus:outline-none focus:ring-0 focus:border-purple-500
-		"
-	>
+		:class="classes"
+		class="px-3 py-2 border border-gray-500 rounded-full text-center text-purple-900 font-thin focus:outline-none focus:ring-0 focus:border-purple-500"
+	/>
 </template>
 
 <script>
 export default {
 	props: {
-		value: String,
-		class: {
+		value: {
 			type: String,
-			default: 'w-full'
+			default: '',
+		},
+		classes: {
+			type: String,
+			default: 'w-full',
 		},
 		readonly: {
 			type: Boolean,
-			default: false
-		}
-	}
+			default: false,
+		},
+	},
 }
 </script>

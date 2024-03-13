@@ -1,7 +1,12 @@
 <template>
 	<div class="w-full h-full">
 		<TopNavigation text="Media Upload">
-			<template #iconLeft><router-link to="/dashboard"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
+			<template #iconLeft
+				><router-link to="/dashboard"
+					><ChevronLeftIcon
+						class="w-8 h-8 text-white"
+						aria-hidden="true" /></router-link
+			></template>
 		</TopNavigation>
 		<main>
 			<div class="flex flex-col pt-12 mx-4">
@@ -13,7 +18,10 @@
 					<Back />
 
 					<div class="mt-20">
-						<ButtonDisabled text="Upload &amp; Continue" class="text-xl" />
+						<ButtonDisabled
+							text="Upload &amp; Continue"
+							classes="text-xl"
+						/>
 					</div>
 				</form>
 			</div>
@@ -35,7 +43,7 @@ export default {
 		Front,
 		Back,
 		ButtonDisabled,
-		ChevronLeftIcon
-	}
+		ChevronLeftIcon,
+	},
 }
 </script>

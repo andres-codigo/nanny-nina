@@ -1,49 +1,62 @@
 <template>
 	<div class="w-full h-full">
 		<TopNavigation text="Booking">
-			<template #iconLeft><router-link to="'/dashboard?tab=2"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
-			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
+			<template #iconLeft
+				><router-link to="'/dashboard?tab=2"
+					><ChevronLeftIcon
+						class="w-8 h-8 text-white"
+						aria-hidden="true" /></router-link
+			></template>
+			<template #iconRight
+				><QuestionMarkCircleIcon
+					class="w-6 h-6 text-green-500"
+					aria-hidden="true"
+			/></template>
 		</TopNavigation>
 		<main>
 			<Tabs
-				tabOneClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
-				tabOneText="Invites"
-				:tabOneIsActive="false"
-				tabTwoClasses="text-purple-900"
-				tabTwoText="Matches"
-				:tabTwoIsActive="true"
-				:displayThirdTab="true"
-				tabThreeClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
-				tabThreeText="Applications"
-				:tabThreeIsActive="false"
+				tab-one-classes="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
+				tab-one-text="Invites"
+				:tab-one-is-active="false"
+				tab-two-classes="text-purple-900"
+				tab-two-text="Matches"
+				:tab-two-is-active="true"
+				:display-third-tab="true"
+				tab-three-classes="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
+				tab-three-text="Applications"
+				:tab-three-is-active="false"
 			/>
 			<div class="flex flex-col mx-4">
 				<div class="flex flex-col pt-6">
-					<h4 class="text-header-four font-semibold antialiased mb-2">Your Matches</h4>
-					<p class="font-light antialiased">View booking information and update your hours</p>
+					<h4 class="text-header-four font-semibold antialiased mb-2">
+						Your Matches
+					</h4>
+					<p class="font-light antialiased">
+						View booking information and update your hours
+					</p>
 				</div>
 
 				<div class="flex flex-col pt-6">
 					<BookingCard
-						:isLockedMatch="false"
-						priceBackgroundAndTextColor="bg-white text-purple-900"
+						:is-locked-match="false"
+						price-background-and-text-color="bg-white text-purple-900"
 						title="The Sanders"
-						timeOrDate="Matched 22/03/2022"
-						badgeClass="bg-lilac-50 text-purple-900"
-						badgeText="One-time"
-						bookingDuration="3 days"
+						time-or-date="Matched 22/03/2022"
+						badge-class="bg-lilac-50 text-purple-900"
+						badge-text="One-time"
+						booking-duration="3 days"
 					/>
 
 					<BookingCard
-						:isLockedMatch="true"
-						:showHeart="true"
-						priceBackgroundAndTextColor="bg-white text-purple-900"
+						:is-locked-match="true"
+						:show-heart="true"
+						price-background-and-text-color="bg-white text-purple-900"
 						title="The Alis"
-						timeOrDate="Matched 22/03/2022"
-						badgeSvg="./assets/svg/badges/lock.svg"
-						badgeClass="bg-green-400 text-purple-900"
-						badgeText="Recurring"
-						bookingDuration="6 months"
+						time-or-date="Matched 22/03/2022"
+						badge-svg="./assets/svg/badges/lock.svg"
+						badge-class="bg-green-400 text-purple-900"
+						badge-text="Recurring"
+						booking-duration="6 months"
 					/>
 				</div>
 			</div>
@@ -56,7 +69,7 @@ import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavi
 import Tabs from '../../../../../components/navigation-and-tabs/Tabs.vue'
 import BookingCard from '../../../../../components/cards/booking-card/BookingCard.vue'
 
-import { ChevronLeftIcon, QuestionMarkCircleIcon, ClockIcon, LightBulbIcon } from '@heroicons/vue/solid'
+import { ChevronLeftIcon, QuestionMarkCircleIcon } from '@heroicons/vue/solid'
 
 export default {
 	components: {
@@ -65,8 +78,6 @@ export default {
 		BookingCard,
 		ChevronLeftIcon,
 		QuestionMarkCircleIcon,
-		ClockIcon,
-		LightBulbIcon
-	}
+	},
 }
 </script>

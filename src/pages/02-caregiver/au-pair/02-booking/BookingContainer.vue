@@ -12,7 +12,7 @@ import WeeklySchedule from './pages/WeeklySchedule.vue'
 export default {
 	components: {
 		ResidenceIDUploading,
-		WeeklySchedule
-	}
+		WeeklySchedule,
+	},
 }
 </script>

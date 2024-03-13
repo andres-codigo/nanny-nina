@@ -1,10 +1,20 @@
 <template>
 	<div>
-		<TopNavigation backgroundColor="bg-lilac-100" :displayBorderBottom="false">
-			<template #iconRight><router-link to="/dashboard?tab=1"><XIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
+		<TopNavigation
+			background-color="bg-lilac-100"
+			:display-border-bottom="false"
+		>
+			<template #iconRight
+				><router-link to="/dashboard?tab=1"
+					><XIcon
+						class="w-8 h-8 text-purple-900"
+						aria-hidden="true" /></router-link
+			></template>
 		</TopNavigation>
 		<main>
-			<div class="min-h-screen flex flex-col justify-center px-4 bg-lilac-100">
+			<div
+				class="min-h-screen flex flex-col justify-center px-4 bg-lilac-100"
+			>
 				<div class="flex justify-center h-48">
 					<!--
 						Image svg here
@@ -14,24 +24,46 @@
 				</div>
 
 				<div class="pt-6">
-					<Badge title="Quick &amp; easy" backgroundColor="bg-green-50" textColor="text-purple-900" />
+					<Badge
+						title="Quick &amp; easy"
+						background-color="bg-green-50"
+						text-color="text-purple-900"
+					/>
 				</div>
 
 				<div class="pt-6">
-					<Header title="Find your perfect" />
-					<Header title="nanny that cares" />
-					<Paragraph content="Explore different profiles until you've found a match. We also suggest our very caregivers upon request." />
+					<CarouselHeader title="Find your perfect" />
+					<CarouselHeader title="nanny that cares" />
+					<Paragraph
+						content="Explore different profiles until you've found a match. We also suggest our very caregivers upon request."
+					/>
 				</div>
 
 				<div class="inline-flex justify-center space-x-5 pt-10">
-					<NavigationDot backgroundColor="bg-purple-500 ring-8 ring-lilac-300" />
-					<NavigationDot backgroundColor="bg-lilac-300" backgroundColorHover="hover:bg-purple-500 hover:ring-8 hover:ring-lilac-300" />
-					<NavigationDot backgroundColor="bg-lilac-300" backgroundColorHover="hover:bg-purple-500 hover:ring-8 hover:ring-lilac-300" />
-					<NavigationDot backgroundColor="bg-lilac-300" backgroundColorHover="hover:bg-purple-500 hover:ring-8 hover:ring-lilac-300" />
+					<NavigationDot
+						background-color="bg-purple-500 ring-8 ring-lilac-300"
+					/>
+					<NavigationDot
+						background-color="bg-lilac-300"
+						background-color-hover="hover:bg-purple-500 hover:ring-8 hover:ring-lilac-300"
+					/>
+					<NavigationDot
+						background-color="bg-lilac-300"
+						background-color-hover="hover:bg-purple-500 hover:ring-8 hover:ring-lilac-300"
+					/>
+					<NavigationDot
+						background-color="bg-lilac-300"
+						background-color-hover="hover:bg-purple-500 hover:ring-8 hover:ring-lilac-300"
+					/>
 				</div>
 
-				<div class="flex flex-col justify-center items-center pt-20 pb-24 px-4">
-					<ButtonPrimary text="Next" class="w-button-lg text-xl py-4" />
+				<div
+					class="flex flex-col justify-center items-center pt-20 pb-24 px-4"
+				>
+					<ButtonPrimary
+						text="Next"
+						classes="w-button-lg text-xl py-4"
+					/>
 				</div>
 			</div>
 		</main>
@@ -41,7 +73,7 @@
 <script>
 import TopNavigation from '../../../../../components/navigation-and-tabs/TopNavigation.vue'
 import Badge from '../../../../../components/carousel/Badge.vue'
-import Header from '../../../../../components/carousel/Header.vue'
+import CarouselHeader from '../../../../../components/carousel/CarouselHeader.vue'
 import Paragraph from '../../../../../components/carousel/Paragraph.vue'
 import NavigationDot from '../../../../../components/carousel/NavigationDot.vue'
 import ButtonPrimary from '../../../../../components/buttons/ButtonPrimary.vue'
@@ -52,11 +84,11 @@ export default {
 	components: {
 		TopNavigation,
 		Badge,
-		Header,
+		CarouselHeader,
 		Paragraph,
 		NavigationDot,
 		ButtonPrimary,
-		XIcon
-	}
+		XIcon,
+	},
 }
 </script>

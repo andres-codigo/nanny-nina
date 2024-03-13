@@ -4,10 +4,10 @@
 		<BookingMatch class="max-w-450-for-dev-not-prod" />
 		<MatchesWithContentVersionOne class="max-w-450-for-dev-not-prod" />
 		<MatchesWithContentVersionTwo class="max-w-450-for-dev-not-prod" />
-		<WorkingHours class="max-w-450-for-dev-not-prod"  />
-		<Review class="max-w-450-for-dev-not-prod"  />
-		<ApplicationsPendingWithContent class="max-w-450-for-dev-not-prod"  />
-		<ApplicationsUnmatchedWithContent class="max-w-450-for-dev-not-prod"  />
+		<WorkingHours class="max-w-450-for-dev-not-prod" />
+		<Review class="max-w-450-for-dev-not-prod" />
+		<ApplicationsPendingWithContent class="max-w-450-for-dev-not-prod" />
+		<ApplicationsUnmatchedWithContent class="max-w-450-for-dev-not-prod" />
 	</div>
 </template>
 
@@ -30,7 +30,7 @@ export default {
 		WorkingHours,
 		Review,
 		ApplicationsPendingWithContent,
-		ApplicationsUnmatchedWithContent
-	}
+		ApplicationsUnmatchedWithContent,
+	},
 }
 </script>

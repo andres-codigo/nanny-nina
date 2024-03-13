@@ -1,7 +1,10 @@
 <template>
 	<div class="flex flex-wrap grow gap-y-6 gap-x-4">
 		<!-- 01 Set-up Steps -->
-		<Background title="Where are you currently?" class="max-w-450-for-dev-not-prod" />
+		<Background
+			title="Where are you currently?"
+			class="max-w-450-for-dev-not-prod"
+		/>
 
 		<!-- 02 Preferences Checklist -->
 		<Availability class="max-w-450-for-dev-not-prod" />
@@ -21,7 +24,7 @@ export default {
 	components: {
 		Background,
 		Availability,
-		MatchingPreferences
-	}
+		MatchingPreferences,
+	},
 }
 </script>

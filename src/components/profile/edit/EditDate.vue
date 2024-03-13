@@ -19,7 +19,10 @@
 			</div>
 		</div>
 		<div class="flex w-12 justify-end items-center">
-			<ChevronRightIcon class="w-8 h-8 text-purple-900" aria-hidden="true" />
+			<ChevronRightIcon
+				class="w-8 h-8 text-purple-900"
+				aria-hidden="true"
+			/>
 		</div>
 	</a>
 </template>
@@ -30,7 +33,7 @@ import { CalendarIcon, ChevronRightIcon } from '@heroicons/vue/solid'
 export default {
 	components: {
 		CalendarIcon,
-		ChevronRightIcon
-	}
+		ChevronRightIcon,
+	},
 }
 </script>

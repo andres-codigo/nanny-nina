@@ -10,10 +10,10 @@
 	p {
 		@apply text-purple-800;
 	}
-  }
+}
 /* sticky section, div container and bottom menu elements */
 .section-sticky-defaults {
-	@apply block fixed inset-x-0 z-10
+	@apply block fixed inset-x-0 z-10;
 }
 
 .section-sticky-top-navigation {
@@ -47,7 +47,8 @@
 	@apply text-blue-500;
 }
 
-.anchor-blue:hover, .anchor-blue:active {
+.anchor-blue:hover,
+.anchor-blue:active {
 	@apply text-purple-500;
 }
 
@@ -60,7 +61,8 @@
 	@apply text-green-500;
 }
 
-.anchor-green:hover, .anchor-green:active {
+.anchor-green:hover,
+.anchor-green:active {
 	@apply text-green-300;
 }
 
@@ -73,7 +75,8 @@
 	@apply text-white;
 }
 
-.anchor-white:hover, .anchor-white:active {
+.anchor-white:hover,
+.anchor-white:active {
 	@apply text-white;
 }
 
@@ -86,7 +89,8 @@
 	@apply text-lilac-900;
 }
 
-.anchor-black:hover, .anchor-black:active {
+.anchor-black:hover,
+.anchor-black:active {
 	@apply text-lilac-400;
 }
 
@@ -95,7 +99,8 @@
 }
 
 /* Caregiver > Au Pair > Onboarding > Home Page > Country Card background image */
-.country-image:hover, .country-image:active {
+.country-image:hover,
+.country-image:active {
 	@apply scale-110 transform-gpu;
 }
 

@@ -8,9 +8,18 @@
 <script>
 export default {
 	props: {
-		to: String,
-		text: String,
-		selectedClass: String
-	}
+		to: {
+			type: String,
+			default: '',
+		},
+		text: {
+			type: String,
+			default: '',
+		},
+		selectedClass: {
+			type: String,
+			default: '',
+		},
+	},
 }
 </script>

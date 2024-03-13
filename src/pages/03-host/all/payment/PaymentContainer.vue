@@ -30,7 +30,7 @@ export default {
 		PaymentDetailsVersionThree,
 		PaymentRewardNoPoints,
 		PaymentRewardWithPoints,
-		PaymentRewardVoucher
-	}
+		PaymentRewardVoucher,
+	},
 }
 </script>

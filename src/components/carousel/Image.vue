@@ -1,13 +1,16 @@
 <template>
 	<div class="fade">
-		<img :src="src">
+		<img :src="src" />
 	</div>
 </template>
 
 <script>
 export default {
 	props: {
-		src: String
-	}
+		src: {
+			type: String,
+			default: '',
+		},
+	},
 }
 </script>

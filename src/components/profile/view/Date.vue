@@ -32,7 +32,7 @@ import { CalendarIcon } from '@heroicons/vue/outline'
 export default {
 	components: {
 		CheckboxRightWithContainerAndLabelLeft,
-		CalendarIcon
-	}
+		CalendarIcon,
+	},
 }
 </script>

@@ -12,7 +12,7 @@ import BookingNotMatched from './pages/BookingNotMatched.vue'
 export default {
 	components: {
 		ReasonForCancellation,
-		BookingNotMatched
-	}
+		BookingNotMatched,
+	},
 }
 </script>

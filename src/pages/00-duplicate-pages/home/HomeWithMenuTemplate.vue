@@ -14,7 +14,7 @@ import BottomMenu from '../../../components/menu/BottomMenu.vue'
 export default {
 	components: {
 		HomeTemplate,
-		BottomMenu
-	}
+		BottomMenu,
+	},
 }
 </script>

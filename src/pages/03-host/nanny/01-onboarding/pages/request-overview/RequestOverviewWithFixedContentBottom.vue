@@ -1,14 +1,28 @@
 <template>
 	<div class="w-full">
-		<TopNavigation backgroundColor="bg-white" :displayBorderBottom="true" headerColor="text-purple-900" text="Request Overview">
-			<template #iconLeft><router-link to="/dashboard?tab=3"><ChevronLeftIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
+		<TopNavigation
+			background-color="bg-white"
+			:display-border-bottom="true"
+			header-color="text-purple-900"
+			text="Request Overview"
+		>
+			<template #iconLeft
+				><router-link to="/dashboard?tab=3"
+					><ChevronLeftIcon
+						class="w-8 h-8 text-purple-900"
+						aria-hidden="true" /></router-link
+			></template>
 		</TopNavigation>
 		<main>
 			<div class="h-full pt-12 pb-28 mx-4">
-				<h5 class="text-header-five font-semibold antialiased mb-10">After School Sitter Needed For 2 days</h5>
+				<h5 class="text-header-five font-semibold antialiased mb-10">
+					After School Sitter Needed For 2 days
+				</h5>
 
 				<EditToCareFor>
-					<template #details><p>2 kids > 3yrs (M), 2yrs (F)</p></template>
+					<template #details
+						><p>2 kids > 3yrs (M), 2yrs (F)</p></template
+					>
 				</EditToCareFor>
 
 				<EditDate>
@@ -27,11 +41,16 @@
 
 				<EditPreferences />
 
-				<EditPhotos  />
+				<EditPhotos />
 			</div>
-			<section class="block fixed inset-x-0 w-full bottom-0 z-10 bg-white border-t border-gray">
-				<FixedBottomPricingConfirmation anchorText="Invite">
-					<template #topText><span class="text-2xl font-bold">&euro;13-15</span>/hr</template>
+			<section
+				class="block fixed inset-x-0 w-full bottom-0 z-10 bg-white border-t border-gray"
+			>
+				<FixedBottomPricingConfirmation anchor-text="Invite">
+					<template #topText
+						><span class="text-2xl font-bold">&euro;13-15</span
+						>/hr</template
+					>
 					<template #bottomText>2km away</template>
 				</FixedBottomPricingConfirmation>
 			</section>
@@ -59,7 +78,7 @@ export default {
 		EditPreferences,
 		EditPhotos,
 		FixedBottomPricingConfirmation,
-		ChevronLeftIcon
-	}
+		ChevronLeftIcon,
+	},
 }
 </script>

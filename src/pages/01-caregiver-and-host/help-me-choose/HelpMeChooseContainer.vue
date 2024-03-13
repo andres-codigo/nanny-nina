@@ -25,6 +25,6 @@ export default {
 		QuizPage4,
 		QuizPage5,
 		QuizPage6,
-	}
+	},
 }
 </script>

@@ -2,7 +2,7 @@
 	<div class="flex flex-wrap grow gap-y-6 gap-x-4">
 		<Profile class="max-w-450-for-dev-not-prod" />
 		<Personal class="max-w-450-for-dev-not-prod" />
-		<Preferences class="max-w-450-for-dev-not-prod" />
+		<Preferences classes="max-w-450-for-dev-not-prod" />
 		<PerformanceBadges class="max-w-450-for-dev-not-prod" />
 		<Services class="max-w-450-for-dev-not-prod" />
 		<BlockedUsers class="max-w-450-for-dev-not-prod" />
@@ -27,7 +27,7 @@ export default {
 		PerformanceBadges,
 		Services,
 		BlockedUsers,
-		Notifications
-	}
+		Notifications,
+	},
 }
 </script>

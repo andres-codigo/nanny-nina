@@ -7,25 +7,22 @@
 		required
 		:placeholder="placeholder"
 		readonly
-		:class="class"
-		class="
-			px-3 py-2
-			border border-gray-100 placeholder:text-gray-100 rounded-full
-			text-gray-500 text-center font-thin
-			focus:outline-none
-			cursor-default
-		"
-	>
+		:class="classes"
+		class="px-3 py-2 border border-gray-100 placeholder:text-gray-100 rounded-full text-gray-500 text-center font-thin focus:outline-none cursor-default"
+	/>
 </template>
 
 <script>
 export default {
 	props: {
-		placeholder: String,
-		class: {
+		placeholder: {
 			type: String,
-			default: 'w-full'
-		}
-	}
+			default: '',
+		},
+		classes: {
+			type: String,
+			default: 'w-full',
+		},
+	},
 }
 </script>

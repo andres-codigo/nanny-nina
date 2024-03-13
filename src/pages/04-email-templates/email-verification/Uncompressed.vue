@@ -82,7 +82,11 @@
 									</g>
 									<defs>
 										<clipPath id="clip0_2987_35638">
-											<rect width="17.2828" height="17.2828" fill="white" />
+											<rect
+												width="17.2828"
+												height="17.2828"
+												fill="white"
+											/>
 										</clipPath>
 										<clipPath id="clip1_2987_35638">
 											<rect
@@ -139,14 +143,16 @@
 									<td
 										class="content-cell"
 										style="
-											font-family: Arial, Helvetica, sans-serif;
+											font-family: Arial, Helvetica,
+												sans-serif;
 											box-sizing: border-box;
 											padding: 35px;
 										"
 									>
 										<h4
 											style="
-												font-family: Arial, Helvetica, sans-serif;
+												font-family: Arial, Helvetica,
+													sans-serif;
 												box-sizing: border-box;
 												color: #1c1836;
 												font-size: 24px;
@@ -160,7 +166,8 @@
 										</h4>
 										<p
 											style="
-												font-family: Arial, Helvetica, sans-serif;
+												font-family: Arial, Helvetica,
+													sans-serif;
 												box-sizing: border-box;
 												color: #200d5d;
 												font-size: 16px;
@@ -169,8 +176,10 @@
 												text-align: left;
 											"
 										>
-											Use this link to complete the verification process in the
-											app/website. Click “Verify” to get started
+											Use this link to complete the
+											verification process in the
+											app/website. Click “Verify” to get
+											started
 										</p>
 										<table
 											class="action"
@@ -180,7 +189,8 @@
 											cellspacing="0"
 											role="presentation"
 											style="
-												font-family: Arial, Helvetica, sans-serif;
+												font-family: Arial, Helvetica,
+													sans-serif;
 												box-sizing: border-box;
 												margin: 70px 0;
 												padding: 0;
@@ -194,7 +204,9 @@
 											<tr>
 												<td
 													style="
-														font-family: Arial, Helvetica, sans-serif;
+														font-family: Arial,
+															Helvetica,
+															sans-serif;
 														box-sizing: border-box;
 													"
 												>
@@ -203,7 +215,9 @@
 														target="_blank"
 														rel="noopener"
 														style="
-															font-family: Arial, Helvetica, sans-serif;
+															font-family: Arial,
+																Helvetica,
+																sans-serif;
 															box-sizing: border-box;
 															line-height: 1;
 															font-weight: 700;
@@ -230,7 +244,8 @@
 									<td
 										class="content-cell"
 										style="
-											font-family: Arial, Helvetica, sans-serif;
+											font-family: Arial, Helvetica,
+												sans-serif;
 											box-sizing: border-box;
 											padding-left: 35px;
 											padding-bottom: 100px;
@@ -285,7 +300,8 @@
 										class="content-cell"
 										align="left"
 										style="
-											font-family: Arial, Helvetica, sans-serif;
+											font-family: Arial, Helvetica,
+												sans-serif;
 											box-sizing: border-box;
 											padding: 30px;
 										"
@@ -316,11 +332,17 @@
 											<a
 												href="maito:info@nannynina.nl"
 												target="_blank"
-												style="color: #adffd6; text-decoration: none"
+												style="
+													color: #adffd6;
+													text-decoration: none;
+												"
 												>info@nannynina.nl</a
 											>
 										</p>
-										<table role="presentation" style="margin: 20px 0">
+										<table
+											role="presentation"
+											style="margin: 20px 0"
+										>
 											<tr>
 												<td style="padding: 0">
 													<a href="#" target="_blank"
@@ -329,7 +351,10 @@
 															alt="PlaceholderAltText"
 															width="20"
 															height="20"
-															style="display: block; border: 0"
+															style="
+																display: block;
+																border: 0;
+															"
 													/></a>
 												</td>
 												<td style="padding: 0 0 0 16px">
@@ -339,7 +364,10 @@
 															alt="PlaceholderAltText"
 															width="20"
 															height="20"
-															style="display: block; border: 0"
+															style="
+																display: block;
+																border: 0;
+															"
 													/></a>
 												</td>
 												<td style="padding: 0 0 0 16px">
@@ -349,7 +377,10 @@
 															alt="PlaceholderAltText"
 															width="20"
 															height="20"
-															style="display: block; border: 0"
+															style="
+																display: block;
+																border: 0;
+															"
 													/></a>
 												</td>
 												<td style="padding: 0 0 0 16px">
@@ -359,7 +390,10 @@
 															alt="PlaceholderAltText"
 															width="20"
 															height="20"
-															style="display: block; border: 0"
+															style="
+																display: block;
+																border: 0;
+															"
 													/></a>
 												</td>
 											</tr>
@@ -377,7 +411,10 @@
 											<a
 												href="#"
 												target="_blank"
-												style="color: #adffd6; text-decoration: none"
+												style="
+													color: #adffd6;
+													text-decoration: none;
+												"
 												>FAQ</a
 											>
 										</p>
@@ -394,7 +431,10 @@
 											<a
 												href="#"
 												target="_blank"
-												style="color: #adffd6; text-decoration: none"
+												style="
+													color: #adffd6;
+													text-decoration: none;
+												"
 												>Unsubscribe</a
 											>
 										</p>
@@ -413,14 +453,20 @@
 											<a
 												href="#"
 												target="_blank"
-												style="color: #adffd6; text-decoration: none"
+												style="
+													color: #adffd6;
+													text-decoration: none;
+												"
 												>Terms of Service</a
 											>
 											and
 											<a
 												href="#"
 												target="_blank"
-												style="color: #adffd6; text-decoration: none"
+												style="
+													color: #adffd6;
+													text-decoration: none;
+												"
 												>Privacy Policy</a
 											>
 										</p>
@@ -431,7 +477,8 @@
 										class="content-cell"
 										align="left"
 										style="
-											font-family: Arial, Helvetica, sans-serif;
+											font-family: Arial, Helvetica,
+												sans-serif;
 											box-sizing: border-box;
 											padding: 100px 0 20px 30px;
 										"

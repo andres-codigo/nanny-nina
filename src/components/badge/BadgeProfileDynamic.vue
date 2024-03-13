@@ -1,7 +1,19 @@
 <template>
 	<div>
-		<span :class="['image', isTipPage ? 'w-icon-review-tip h-icon-review-tip' : 'w-icon-personality-badge h-icon-personality-badge']"></span>
-		<span :class="['block text-center select-none', isTipPage ? 'font-bold' : 'text-sm font-light']">
+		<span
+			:class="[
+				'image',
+				isTipPage
+					? 'w-icon-review-tip h-icon-review-tip'
+					: 'w-icon-personality-badge h-icon-personality-badge',
+			]"
+		></span>
+		<span
+			:class="[
+				'block text-center select-none',
+				isTipPage ? 'font-bold' : 'text-sm font-light',
+			]"
+		>
 			<slot name="title">{{ title }}</slot>
 		</span>
 	</div>
@@ -9,6 +21,28 @@
 
 <script>
 export default {
+	props: {
+		title: {
+			type: String,
+			default: 'Friendly',
+		},
+		defaultImage: {
+			type: String,
+			default: './assets/svg/badges/playful.svg',
+		},
+		hoverImage: {
+			type: String,
+			default: './assets/svg/badges/playful-hover.svg',
+		},
+		activeFocusImage: {
+			type: String,
+			default: './assets/svg/badges/playful-active-focus.svg',
+		},
+		isTipPage: {
+			type: Boolean,
+			default: false,
+		},
+	},
 	data() {
 		return {
 			defaultBackgroundImage: 'url(' + this.defaultImage + ')',
@@ -16,28 +50,6 @@ export default {
 			activeFocusBackgroundImage: 'url(' + this.activeFocusImage + ')',
 		}
 	},
-	props: {
-		title: {
-			type: String,
-			default: 'Friendly'
-		},
-		defaultImage: {
-			type: String,
-			default: './assets/svg/badges/playful.svg'
-		},
-		hoverImage: {
-			type: String,
-			default: './assets/svg/badges/playful-hover.svg'
-		},
-		activeFocusImage: {
-			type: String,
-			default: './assets/svg/badges/playful-active-focus.svg'
-		},
-		isTipPage: {
-			type: Boolean,
-			default: false
-		}
-	}
 }
 </script>
 
@@ -51,9 +63,9 @@ export default {
 	background-image: v-bind(hoverBackgroundImage);
 	@apply bg-no-repeat bg-center;
 }
-.image:active, .image:focus {
+.image:active,
+.image:focus {
 	background-image: v-bind(activeFocusBackgroundImage);
 	@apply bg-no-repeat bg-center;
 }
-
 </style>
