@@ -1,76 +1,76 @@
 <template>
 	<ul role="list" class="relative z-0 divide-y divide-gray-200">
 		<ListItem
-			:subItem="false"
-			:hideNotes="true"
+			:sub-item="false"
+			:hide-notes="true"
 			notes=""
 			date=""
-			routerLinkPath="/host-nanny"
+			router-link-path="/host-nanny"
 			title="Onboarding"
-			textColor="text-purple-600"
-			textBadge="Completed"
-			textColorBadge="text-white"
-			backgroundColorBadge="bg-green-800"
+			text-color="text-purple-600"
+			text-badge="Completed"
+			text-color-badge="text-white"
+			background-color-badge="bg-green-800"
 		/>
 		<ListItem
-			:subItem="false"
-			:hideNotes="true"
+			:sub-item="false"
+			:hide-notes="true"
 			notes=""
 			date=""
-			routerLinkPath="/host-nanny-event"
+			router-link-path="/host-nanny-event"
 			title="Event"
-			textColor="text-purple-600"
-			textBadge="Completed"
-			textColorBadge="text-white"
-			backgroundColorBadge="bg-green-800"
+			text-color="text-purple-600"
+			text-badge="Completed"
+			text-color-badge="text-white"
+			background-color-badge="bg-green-800"
 		/>
 		<ListItem
-			:subItem="false"
-			:hideNotes="true"
+			:sub-item="false"
+			:hide-notes="true"
 			notes=""
 			date=""
-			routerLinkPath="/host-nanny-availability-w-fixed-button"
+			router-link-path="/host-nanny-availability-w-fixed-button"
 			title="Availability (with fixed content)"
-			textColor="text-purple-600"
-			textBadge="Completed"
-			textColorBadge="text-white"
-			backgroundColorBadge="bg-green-800"
+			text-color="text-purple-600"
+			text-badge="Completed"
+			text-color-badge="text-white"
+			background-color-badge="bg-green-800"
 		/>
 		<ListItem
-			:subItem="false"
-			:hideNotes="true"
+			:sub-item="false"
+			:hide-notes="true"
 			notes=""
 			date=""
-			routerLinkPath="/host-nanny-availability-w-fixed-complete-button"
+			router-link-path="/host-nanny-availability-w-fixed-complete-button"
 			title="Request Overview (with fixed content)"
-			textColor="text-purple-600"
-			textBadge="Completed"
-			textColorBadge="text-white"
-			backgroundColorBadge="bg-green-800"
+			text-color="text-purple-600"
+			text-badge="Completed"
+			text-color-badge="text-white"
+			background-color-badge="bg-green-800"
 		/>
 		<ListItem
-			:subItem="false"
-			:hideNotes="true"
+			:sub-item="false"
+			:hide-notes="true"
 			notes=""
 			date=""
-			routerLinkPath="/host-nanny-booking"
+			router-link-path="/host-nanny-booking"
 			title="Booking"
-			textColor="text-purple-600"
-			textBadge="Completed"
-			textColorBadge="text-white"
-			backgroundColorBadge="bg-green-800"
+			text-color="text-purple-600"
+			text-badge="Completed"
+			text-color-badge="text-white"
+			background-color-badge="bg-green-800"
 		/>
 		<ListItem
-			:subItem="false"
-			:hideNotes="true"
+			:sub-item="false"
+			:hide-notes="true"
 			notes=""
 			date=""
-			routerLinkPath="/host-nanny-booking-response-tab-with-pop-up"
+			router-link-path="/host-nanny-booking-response-tab-with-pop-up"
 			title="Booking > Responses Tab (with pop-up)"
-			textColor="text-purple-600"
-			textBadge="Completed"
-			textColorBadge="text-white"
-			backgroundColorBadge="bg-green-800"
+			text-color="text-purple-600"
+			text-badge="Completed"
+			text-color-badge="text-white"
+			background-color-badge="bg-green-800"
 		/>
 	</ul>
 </template>
@@ -80,7 +80,7 @@ import ListItem from '../../../../components/_dashboard/ListItem.vue'
 
 export default {
 	components: {
-		ListItem
-	}
+		ListItem,
+	},
 }
 </script>

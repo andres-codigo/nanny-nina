@@ -12,7 +12,7 @@ import PriceBooking from './pages/PriceBooking.vue'
 export default {
 	components: {
 		NewRequest,
-		PriceBooking
-	}
+		PriceBooking,
+	},
 }
 </script>

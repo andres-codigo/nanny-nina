@@ -15,7 +15,7 @@ export default {
 	components: {
 		ResponsesWithContent,
 		CandidatesWithContent,
-		MatchesWithContent
-	}
+		MatchesWithContent,
+	},
 }
 </script>

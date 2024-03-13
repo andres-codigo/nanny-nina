@@ -2,15 +2,10 @@
 	<a
 		:href="url"
 		:target="hrefTarget"
-		:class="class"
-		class="
-			inline-flex
-			justify-center
-			rounded-full
-			font-semibold
-			antialiased leading-none
-			border
-		">{{ text }}</a>
+		:class="classes"
+		class="inline-flex justify-center rounded-full font-semibold antialiased leading-none border"
+		>{{ text }}</a
+	>
 </template>
 
 <script>
@@ -18,17 +13,21 @@ export default {
 	props: {
 		url: {
 			type: String,
-			default: '#'
+			default: '#',
 		},
 		hrefTarget: {
 			type: String,
-			default: '_self'
+			default: '_self',
 		},
-		class: {
+		classes: {
 			type: String,
-			default: 'w-full text-xl border-purple-900 hover:border-lilac-900 focus:border-lilac-500 hover:bg-green-400 focus:bg-green-600 py-4'
+			default:
+				'w-full text-xl border-purple-900 hover:border-lilac-900 focus:border-lilac-500 hover:bg-green-400 focus:bg-green-600 py-4',
 		},
-		text: String
-	}
+		text: {
+			type: String,
+			default: '',
+		},
+	},
 }
 </script>

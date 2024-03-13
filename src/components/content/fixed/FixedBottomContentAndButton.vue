@@ -11,9 +11,21 @@
 			</div>
 		</div>
 		<div class="basis-1/2 items-center">
-			<AnchorPrimary :text="anchorText" class="w-button-sm float-right py-4" v-if="!isButton" />
-			<ButtonPrimary :text="anchorText" class="w-button-sm float-right py-4" v-else-if="isButton && !isButtonDisabled" />
-			<ButtonDisabled :text="anchorText" class="w-button-sm float-right py-4" v-else-if="isButton && isButtonDisabled" />
+			<AnchorPrimary
+				v-if="!isButton"
+				:text="anchorText"
+				classes="w-button-sm float-right py-4"
+			/>
+			<ButtonPrimary
+				v-else-if="isButton && !isButtonDisabled"
+				:text="anchorText"
+				classes="w-button-sm float-right py-4"
+			/>
+			<ButtonDisabled
+				v-else-if="isButton && isButtonDisabled"
+				:text="anchorText"
+				classes="w-button-sm float-right py-4"
+			/>
 		</div>
 	</div>
 </template>
@@ -27,18 +39,21 @@ export default {
 	components: {
 		AnchorPrimary,
 		ButtonPrimary,
-		ButtonDisabled
+		ButtonDisabled,
 	},
 	props: {
-		anchorText: String,
+		anchorText: {
+			type: String,
+			default: '',
+		},
 		isButton: {
 			type: Boolean,
-			default: false
+			default: false,
 		},
 		isButtonDisabled: {
 			type: Boolean,
-			default: false
-		}
-	}
+			default: false,
+		},
+	},
 }
 </script>

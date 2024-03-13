@@ -1,9 +1,15 @@
 <template>
 	<div class="flex flex-wrap gap-y-6 sm:gap-x-4 w-screen h-screen">
-		<Welcome class="min-w-360-for-dev-not-prod max-w-450-for-dev-not-prod" />
-		<SignUpOptions class="min-w-360-for-dev-not-prod max-w-450-for-dev-not-prod" />
+		<Welcome
+			class="min-w-360-for-dev-not-prod max-w-450-for-dev-not-prod"
+		/>
+		<SignUpOptions
+			class="min-w-360-for-dev-not-prod max-w-450-for-dev-not-prod"
+		/>
 		<SignUp class="min-w-360-for-dev-not-prod max-w-450-for-dev-not-prod" />
-		<VerifyNumber class="min-w-360-for-dev-not-prod max-w-450-for-dev-not-prod" />
+		<VerifyNumber
+			class="min-w-360-for-dev-not-prod max-w-450-for-dev-not-prod"
+		/>
 		<Login class="min-w-360-for-dev-not-prod max-w-450-for-dev-not-prod" />
 	</div>
 </template>
@@ -21,7 +27,7 @@ export default {
 		SignUpOptions,
 		SignUp,
 		VerifyNumber,
-		Login
-	}
+		Login,
+	},
 }
 </script>

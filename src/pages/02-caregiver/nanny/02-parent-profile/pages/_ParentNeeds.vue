@@ -1,7 +1,11 @@
 <template>
 	<div class="flex flex-col">
-		<h5 class="text-header-five font-semibold antialiased my-4">After School Sitter Needed</h5>
-		<a href="#" target="_self" class="anchor-blue anchor-with-underline">Amsterdam Sloterdijk, Netherlands</a>
+		<h5 class="text-header-five font-semibold antialiased my-4">
+			After School Sitter Needed
+		</h5>
+		<a href="#" target="_self" class="anchor-blue anchor-with-underline"
+			>Amsterdam Sloterdijk, Netherlands</a
+		>
 
 		<h6 class="text-header-six font-semibold mt-12 mb-4">To Care For</h6>
 		<p>2 kids > 3yrs (M), 2yrs (F)</p>
@@ -35,16 +39,28 @@
 							</h6>
 						</div>
 						<div>
-							<p class="text-sm text-gray-500">Time and date may change</p>
+							<p class="text-sm text-gray-500">
+								Time and date may change
+							</p>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="flex relative -top-6 py-2 ml-7 mr-4" v-for="duration in durations" :key="duration.day">
+			<div
+				v-for="duration in durations"
+				:key="duration.day"
+				class="flex relative -top-6 py-2 ml-7 mr-4"
+			>
 				<div class="w-32">{{ duration.day }}</div>
 				<div class="grow">{{ duration.time }}</div>
 				<div>
-					<input id="checkboxName" name="checkboxName" type="checkbox" :checked="duration.checked === 1" class="h-5 w-5 text-purple-500">
+					<input
+						id="checkboxName"
+						name="checkboxName"
+						type="checkbox"
+						:checked="duration.checked === 1"
+						class="h-5 w-5 text-purple-500"
+					/>
 				</div>
 			</div>
 		</div>
@@ -59,49 +75,54 @@ import { ClockIcon } from '@heroicons/vue/outline'
 export default {
 	components: {
 		ClockIcon,
-		Date
+		Date,
 	},
-	props: ['parentDetails'],
+	props: {
+		parentDetails: {
+			type: String,
+			default: '',
+		},
+	},
 	data() {
-    	return {
-      		durations: [
+		return {
+			durations: [
 				{
 					day: 'Mondays',
 					time: '12:00 - 17:00',
-					checked: 1
+					checked: 1,
 				},
 				{
 					day: 'Tuesdays',
 					time: '12:00 - 17:00',
-					checked: 0
+					checked: 0,
 				},
 				{
 					day: 'Wednesdays',
 					time: '12:00 - 17:00',
-					checked: 0
+					checked: 0,
 				},
 				{
 					day: 'Thursdays',
 					time: '12:00 - 17:00',
-					checked: 0
+					checked: 0,
 				},
 				{
 					day: 'Fridays',
 					time: '12:00 - 17:00',
-					checked: 0
+					checked: 0,
 				},
 				{
 					day: 'Saturdays',
 					time: '12:00 - 17:00',
-					checked: 0
+					checked: 0,
 				},
 				{
 					day: 'Sundays',
 					time: '12:00 - 17:00',
-					checked: 0
-				}
-			]
+					checked: 0,
+				},
+			],
 		}
-	}
+	},
 }
 </script>

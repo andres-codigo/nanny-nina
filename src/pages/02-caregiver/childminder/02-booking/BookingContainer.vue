@@ -9,7 +9,7 @@ import MatchesWithContent from './pages/MatchesWithContent.vue'
 
 export default {
 	components: {
-		MatchesWithContent
-	}
+		MatchesWithContent,
+	},
 }
 </script>

@@ -7,8 +7,8 @@ export default {
 	props: {
 		color: {
 			type: String,
-			default: 'bg-gray-500'
+			default: 'bg-gray-500',
 		},
-	}
+	},
 }
 </script>

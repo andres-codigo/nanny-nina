@@ -9,7 +9,7 @@ import HomeTemplate from './HomeTemplate.vue'
 
 export default {
 	components: {
-		HomeTemplate
-	}
+		HomeTemplate,
+	},
 }
 </script>

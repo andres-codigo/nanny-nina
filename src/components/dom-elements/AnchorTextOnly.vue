@@ -2,8 +2,13 @@
 	<a
 		:href="url"
 		:target="hrefTarget"
-		:class="['inline-flex antialiased leading-none anchor-with-underline', textColorClass]">
-		{{ text }}</a>
+		:class="[
+			'inline-flex antialiased leading-none anchor-with-underline',
+			textColorClass,
+		]"
+	>
+		{{ text }}</a
+	>
 </template>
 
 <script>
@@ -11,17 +16,20 @@ export default {
 	props: {
 		url: {
 			type: String,
-			default: '#'
+			default: '#',
 		},
 		hrefTarget: {
 			type: String,
-			default: '_self'
+			default: '_self',
 		},
 		textColorClass: {
 			type: String,
-			default: 'anchor-black'
+			default: 'anchor-black',
 		},
-		text: String
-	}
+		text: {
+			type: String,
+			default: '',
+		},
+	},
 }
 </script>

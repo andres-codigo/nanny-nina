@@ -24,7 +24,7 @@ export default {
 		ProfileReviews,
 		AboutYou,
 		Motivation,
-		ApplicationSuccessConfirmation
-	}
+		ApplicationSuccessConfirmation,
+	},
 }
 </script>

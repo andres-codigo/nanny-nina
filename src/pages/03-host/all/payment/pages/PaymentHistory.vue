@@ -3,28 +3,41 @@
 		<TopNavigation text="Payment" />
 		<main>
 			<Tabs
-				tabOneClasses="text-purple-900"
-				tabOneText="Payment History"
-				:tabOneIsActive="true"
-				tabTwoClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
-				tabTwoText="Reward"
-				:tabTwoIsActive="false"
+				tab-one-classes="text-purple-900"
+				tab-one-text="Payment History"
+				:tab-one-is-active="true"
+				tab-two-classes="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
+				tab-two-text="Reward"
+				:tab-two-is-active="false"
 			/>
 
 			<JobListingFilter>
-				<template #filter-one><JobListingFilterItemSelected text="Service" /></template>
-				<template #filter-two><JobListingFilterItem text="Booking type" /></template>
+				<template #filter-one
+					><JobListingFilterItemSelected text="Service"
+				/></template>
+				<template #filter-two
+					><JobListingFilterItem text="Booking type"
+				/></template>
 			</JobListingFilter>
 			<div class="flex flex-col mx-4">
 				<div class="flex flex-row pt-2">
-					<SelectMenuNoBorder optionTextOne="Most Recent" />
+					<SelectMenuNoBorder option-text-one="Most Recent" />
 				</div>
 
 				<div class="mb-10">
 					<ul role="list">
 						<ChecklistItemWithBorderPaymentHistory />
-						<ChecklistItemWithBorderPaymentHistory header="Jeffersons"><template #totalAmount>&euro;550</template></ChecklistItemWithBorderPaymentHistory>
-						<ChecklistItemWithBorderPaymentHistory header="Lukes"><template #totalAmount>&euro;9.99</template></ChecklistItemWithBorderPaymentHistory>
+						<ChecklistItemWithBorderPaymentHistory
+							header="Jeffersons"
+							><template #totalAmount
+								>&euro;550</template
+							></ChecklistItemWithBorderPaymentHistory
+						>
+						<ChecklistItemWithBorderPaymentHistory header="Lukes"
+							><template #totalAmount
+								>&euro;9.99</template
+							></ChecklistItemWithBorderPaymentHistory
+						>
 					</ul>
 				</div>
 			</div>
@@ -51,7 +64,7 @@ export default {
 		JobListingFilter,
 		JobListingFilterItem,
 		JobListingFilterItemSelected,
-		SelectMenuNoBorder
-	}
+		SelectMenuNoBorder,
+	},
 }
 </script>

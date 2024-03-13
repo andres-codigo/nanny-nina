@@ -1,5 +1,5 @@
 <template>
-	<div :class="class" class="flex flex-col">
+	<div :class="classes" class="flex flex-col">
 		<h5 class="text-header-five font-semibold antialiased">{{ title }}</h5>
 		<slot name="content"></slot>
 	</div>
@@ -8,8 +8,14 @@
 <script>
 export default {
 	props: {
-		class: String,
-		title: String
-	}
+		classes: {
+			type: String,
+			default: '',
+		},
+		title: {
+			type: String,
+			default: '',
+		},
+	},
 }
 </script>

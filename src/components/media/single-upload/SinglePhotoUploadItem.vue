@@ -1,25 +1,12 @@
 <template>
 	<div class="flex items-center justify-center mb-6">
 		<button
-			class="
-				flex items-center justify-center
-				relative
-				w-44 h-44
-				rounded-full
-				bg-lilac-50
-				hover:border-transparent hover:bg-lilac-100
-				focus:border-transparent focus:bg-green-100
-			">
+			class="flex items-center justify-center relative w-44 h-44 rounded-full bg-lilac-50 hover:border-transparent hover:bg-lilac-100 focus:border-transparent focus:bg-green-100"
+		>
 			<CameraIcon class="w-24 h-24 text-lilac-500" aria-hidden="true" />
 			<span
-				class="
-					flex items-center justify-center
-					absolute bottom-3 right-3
-					w-8 h-8
-					rounded-full drop-shadow-lg
-					text-gray-800
-					bg-white
-				">
+				class="flex items-center justify-center absolute bottom-3 right-3 w-8 h-8 rounded-full drop-shadow-lg text-gray-800 bg-white"
+			>
 				<PlusIcon class="w-6 h-6" aria-hidden="true" />
 			</span>
 		</button>
@@ -33,7 +20,7 @@ import { CameraIcon, PlusIcon } from '@heroicons/vue/solid'
 export default {
 	components: {
 		CameraIcon,
-		PlusIcon
-	}
+		PlusIcon,
+	},
 }
 </script>

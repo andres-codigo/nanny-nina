@@ -1,16 +1,31 @@
 <template>
 	<div class="fixed inset-0 transition-opacity z-10">
-		<div tabindex="0" class="absolute inset-0 bg-purple-900 opacity-50"></div>
+		<div
+			tabindex="0"
+			class="absolute inset-0 bg-purple-900 opacity-50"
+		></div>
 	</div>
-	<aside :class="isOpen ? 'translate-x-0' : '-translate-x-full'" class="transform top-0 left-0 w-2/3 bg-white fixed h-full overflow-auto ease-in-out transition-all duration-300 z-10">
+	<aside
+		:class="isOpen ? 'translate-x-0' : '-translate-x-full'"
+		class="transform top-0 left-0 w-2/3 bg-white fixed h-full overflow-auto ease-in-out transition-all duration-300 z-10"
+	>
 		<div class="mt-12 mx-4">
 			<div class="mb-8">
-				<Img class="h-20 w-20 rounded-full mb-4" :src="isHostMenu ? 'https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60' : 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'" />
-				<p class="font-bold antialiased">{{ isHostMenu ? 'Janne Stindl' : 'Pleun Storme' }}</p>
+				<ImageComponent
+					class="h-20 w-20 rounded-full mb-4"
+					:src="
+						isHostMenu
+							? 'https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60'
+							: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'
+					"
+				/>
+				<p class="font-bold antialiased">
+					{{ isHostMenu ? 'Janne Stindl' : 'Pleun Storme' }}
+				</p>
 			</div>
 
-			<Share :isHostMenu="isHostMenu" />
-			<Menu :isHostMenu="isHostMenu" />
+			<Share :is-host-menu="isHostMenu" />
+			<MenuOptions :is-host-menu="isHostMenu" />
 
 			<!--
 
@@ -35,16 +50,26 @@
 					<li>
 						<div class="flex flex-row w-full">
 							<div class="inline-flex grow items-center">
-								<Img src="./assets/svg/menu/profile/star.svg" />
+								<ImageComponent
+									src="./assets/svg/menu/profile/star.svg"
+								/>
 								<div class="ml-3">Rate Us</div>
 							</div>
 							<div class="inline-flex items-center justify-end">
-								<div class="rounded-2xl text-xs text-white bg-purple-500 px-2 py-0">V 2.0.0</div>
+								<div
+									class="rounded-2xl text-xs text-white bg-purple-500 px-2 py-0"
+								>
+									V 2.0.0
+								</div>
 							</div>
 						</div>
 					</li>
 					<li class="flex py-3">
-						<a href="#" target="_self" class="inline-flex w-full"><Img src="./assets/svg/menu/profile/settings.svg" /><span class="ml-3">Settings</span></a>
+						<a href="#" target="_self" class="inline-flex w-full"
+							><ImageComponent
+								src="./assets/svg/menu/profile/settings.svg"
+							/><span class="ml-3">Settings</span></a
+						>
 					</li>
 				</ul>
 			</div>
@@ -54,21 +79,21 @@
 
 <script>
 import Share from './Share.vue'
-import Menu from './Menu.vue'
-import Img from '../../dom-elements/Img.vue'
+import MenuOptions from './MenuOptions.vue'
+import ImageComponent from '../../dom-elements/ImageComponent.vue'
 
 export default {
 	components: {
 		Share,
-		Menu,
-		Img
+		MenuOptions,
+		ImageComponent,
 	},
 	props: {
 		isOpen: {
 			type: Boolean,
-			default: true
+			default: true,
 		},
-		isHostMenu: Boolean
+		isHostMenu: Boolean,
 	},
 	watch: {
 		isOpen: {
@@ -81,12 +106,12 @@ export default {
 						document.body.style.removeProperty('overflow')
 					}
 				}
-			}
-		}
+			},
+		},
 	},
 	beforeUnmount() {
 		if (import.meta.env) {
-			if(document.body.style.getPropertyValue('overflow') === 'hidden') {
+			if (document.body.style.getPropertyValue('overflow') === 'hidden') {
 				document.body.style.removeProperty('overflow')
 			}
 		}

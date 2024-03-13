@@ -1,16 +1,30 @@
 <template>
 	<div class="w-full">
-		<TopNavigation backgroundColor="bg-white" :displayBorderBottom="true" headerColor="text-purple-900" text="New Request">
-			<template #iconLeft><router-link to="/dashboard?tab=2"><ChevronLeftIcon class="w-8 h-8 text-purple-900" aria-hidden="true" /></router-link></template>
-			<template #iconRight><DotsVerticalIcon class="w-6 h-6 text-purple-900" aria-hidden="true" /></template>
+		<TopNavigation
+			background-color="bg-white"
+			:display-border-bottom="true"
+			header-color="text-purple-900"
+			text="New Request"
+		>
+			<template #iconLeft
+				><router-link to="/dashboard?tab=2"
+					><ChevronLeftIcon
+						class="w-8 h-8 text-purple-900"
+						aria-hidden="true" /></router-link
+			></template>
+			<template #iconRight
+				><DotsVerticalIcon
+					class="w-6 h-6 text-purple-900"
+					aria-hidden="true"
+			/></template>
 		</TopNavigation>
 		<main>
 			<div class="h-full flex flex-col mx-4">
-				<ParentCard :parentDetails="parentDetails" />
+				<ParentCard :parent-details="parentDetails" />
 
 				<hr class="border-1 border-gray-50 my-6" />
 
-				<ParentNeeds :parentDetails="parentDetails" />
+				<ParentNeeds :parent-details="parentDetails" />
 
 				<hr class="border-1 border-gray-50 my-6" />
 
@@ -18,7 +32,7 @@
 
 				<hr class="border-1 border-gray-50 my-6" />
 
-				<Preferences class="mt-7" />
+				<Preferences classes="mt-7" />
 
 				<hr class="border-1 border-gray-50 my-6" />
 
@@ -26,9 +40,13 @@
 
 				<hr class="border-1 border-gray-50 my-6" />
 
-				<Reviews class="mt-7">
+				<Reviews classes="mt-7">
 					<template #title>
-						<h5 class="text-header-five font-semibold antialiased mb-7">What Others Say</h5>
+						<h5
+							class="text-header-five font-semibold antialiased mb-7"
+						>
+							What Others Say
+						</h5>
 					</template>
 				</Reviews>
 			</div>
@@ -57,17 +75,17 @@ export default {
 		Photos,
 		Reviews,
 		ChevronLeftIcon,
-		DotsVerticalIcon
+		DotsVerticalIcon,
 	},
 	data() {
-    	return {
-      		parentDetails: [
+		return {
+			parentDetails: [
 				{
 					bookingType: 'One-time booking',
-					duration: '2 days'
-				}
-			]
+					duration: '2 days',
+				},
+			],
 		}
-	}
+	},
 }
 </script>

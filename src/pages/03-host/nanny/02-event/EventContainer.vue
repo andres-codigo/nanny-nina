@@ -15,7 +15,7 @@ export default {
 	components: {
 		Information,
 		Description,
-		Booking
-	}
+		Booking,
+	},
 }
 </script>

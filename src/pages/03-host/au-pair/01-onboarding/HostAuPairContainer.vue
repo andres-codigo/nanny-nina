@@ -21,7 +21,7 @@ export default {
 		PersonalityTest,
 		SearchPreferencesPartOne,
 		SearchPreferencesPartTwo,
-		IntakeCall
-	}
+		IntakeCall,
+	},
 }
 </script>

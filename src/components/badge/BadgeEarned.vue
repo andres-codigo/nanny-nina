@@ -1,5 +1,5 @@
 <template>
-	<div :class="class" class="flex flex-col">
+	<div :class="classes" class="flex flex-col">
 		<slot name="title"></slot>
 		<slot name="badges"></slot>
 	</div>
@@ -8,7 +8,10 @@
 <script>
 export default {
 	props: {
-		class: String
-	}
+		classes: {
+			type: String,
+			default: '',
+		},
+	},
 }
 </script>

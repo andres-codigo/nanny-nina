@@ -1,16 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: [
-		"./*.{html,js}",
-		"./src/*.vue",
-		"./src/**/*.{html,js}"
-	],
+	content: ['./*.{html,js}', './src/*.vue', './src/**/*.{html,js}'],
 	theme: {
 		extend: {
 			borderRadius: {
 				'10px': '0.625rem',
 				'20px': '1.25rem',
-				'30px': '1.875rem'
+				'30px': '1.875rem',
 			},
 			colors: {
 				purple: {
@@ -23,7 +19,7 @@ module.exports = {
 					600: '#4019BB',
 					700: '#30138C',
 					800: '#200D5D',
-					900: '#10062F'
+					900: '#10062F',
 				},
 				green: {
 					50: '#EBFFF5',
@@ -59,7 +55,7 @@ module.exports = {
 					600: '#6D6F8A',
 					700: '#525367',
 					800: '#373745',
-					900: '#1B1C22'
+					900: '#1B1C22',
 				},
 				melon: {
 					50: '#FFF4F1',
@@ -71,23 +67,23 @@ module.exports = {
 					600: '#FF7E56',
 					700: '#FF3D01',
 					800: '#AA2900',
-					900: '#551400'
+					900: '#551400',
 				},
 				red: {
 					DEFAULT: '#B91C1C',
 				},
 				orange: {
-					DEFAULT: '#F97316'
+					DEFAULT: '#F97316',
 				},
 				success: {
-					DEFAULT: '#16A34A'
+					DEFAULT: '#16A34A',
 				},
 				blue: {
-					DEFAULT: '#2563EB'
-				}
+					DEFAULT: '#2563EB',
+				},
 			},
 			fontFamily: {
-				sans: ["Manrope", "sans-serif"],
+				sans: ['Manrope', 'sans-serif'],
 			},
 			fontSize: {
 				/*
@@ -109,10 +105,10 @@ module.exports = {
 				/*
 					size type: [ font size / line height ]
 				*/
-				'xs': ['0.75rem', '1.25rem'],
-				'sm': ['0.875rem', '1.2rem'],
-      			'base': ['1rem', '1.4rem'],
-				'xl': ['1.125rem', '1.4rem'],
+				xs: ['0.75rem', '1.25rem'],
+				sm: ['0.875rem', '1.2rem'],
+				base: ['1rem', '1.4rem'],
+				xl: ['1.125rem', '1.4rem'],
 				'2xl': ['1.313rem', '1.4rem'],
 				'3xl': ['1.5rem', '1.4rem'],
 				'4xl': ['1.75rem', '1.4rem'],
@@ -126,29 +122,29 @@ module.exports = {
 				/*
 					H1 to H6 classes, i.e., text-header-one
 				*/
-				'header-one': ['2.25rem', '1.4rem'],		/* 36px */
-				'header-two': ['2rem', '2.4rem'],			/* 32px */
-				'header-three': ['1.75rem', '1.8rem'],		/* 28px */
-				'header-four': ['1.5rem', '1.4rem'],		/* 24px */
-				'header-five': ['1.313rem', '1.4rem'],  	/* 21px */
-				'header-six': ['1.125rem', '1.4rem'], 		/* 18px */
+				'header-one': ['2.25rem', '1.4rem'] /* 36px */,
+				'header-two': ['2rem', '2.4rem'] /* 32px */,
+				'header-three': ['1.75rem', '1.8rem'] /* 28px */,
+				'header-four': ['1.5rem', '1.4rem'] /* 24px */,
+				'header-five': ['1.313rem', '1.4rem'] /* 21px */,
+				'header-six': ['1.125rem', '1.4rem'] /* 18px */,
 			},
 			height: {
 				'card-booking-match': '30rem',
 				/* Icons */
 				'icon-personality-badge': '6rem',
 				/* Review - Leave Tip */
-				'icon-review-tip': '5.75rem'
+				'icon-review-tip': '5.75rem',
 			},
 			minHeight: {
 				'pop-up-notification': '9.063rem',
 			},
 			spacing: {
 				'116px': '116px',
-				'112px': '112px'
+				'112px': '112px',
 			},
 			transitionDuration: {
-				'0': '0ms'
+				0: '0ms',
 			},
 			width: {
 				/*
@@ -215,22 +211,20 @@ module.exports = {
 				'450-for-dev-not-prod': '450px',
 			},
 			maxWidth: {
-				'450-for-dev-not-prod': '450px'
-			}
+				'450-for-dev-not-prod': '450px',
+			},
 		},
 	},
-	plugins: [
-		require('@tailwindcss/forms'),
-	],
+	plugins: [require('@tailwindcss/forms')],
 	content: ['./public/**/*.html', './src/**/*.vue'],
 	options: {
 		whitelistPatterns: [
-		/-(leave|enter|appear)(|-(to|from|active))$/,
-		/^(?!(|.*?:)cursor-move).+-move$/,
-		/^router-link(|-exact)-active$/,
-		/tooltip/,
-		/popover/,
-		/notification/,
+			/-(leave|enter|appear)(|-(to|from|active))$/,
+			/^(?!(|.*?:)cursor-move).+-move$/,
+			/^router-link(|-exact)-active$/,
+			/tooltip/,
+			/popover/,
+			/notification/,
 		],
-	}
+	},
 }

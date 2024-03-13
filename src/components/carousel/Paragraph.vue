@@ -5,7 +5,10 @@
 <script>
 export default {
 	props: {
-		content: String
-	}
+		content: {
+			type: String,
+			default: '',
+		},
+	},
 }
 </script>

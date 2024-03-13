@@ -1,7 +1,12 @@
 <template>
 	<div class="flex flex-wrap grow gap-y-6 gap-x-4">
-		<LocationPageTemplate title="What's your address?" class="max-w-450-for-dev-not-prod" />
-		<PreApplicationMediaUploadPhotoPageTemplate class="max-w-450-for-dev-not-prod" />
+		<LocationPageTemplate
+			title="What's your address?"
+			class="max-w-450-for-dev-not-prod"
+		/>
+		<PreApplicationMediaUploadPhotoPageTemplate
+			class="max-w-450-for-dev-not-prod"
+		/>
 		<HomeWithoutMenu class="max-w-450-for-dev-not-prod" />
 		<ServiceOptions class="max-w-450-for-dev-not-prod" />
 		<JobListings class="max-w-450-for-dev-not-prod" />
@@ -14,9 +19,13 @@
 		<RecurringBooking class="max-w-450-for-dev-not-prod" />
 		<RequestNote class="max-w-450-for-dev-not-prod" />
 		<PriceBooking class="max-w-450-for-dev-not-prod" />
-		<Preferences class="max-w-450-for-dev-not-prod" />
+		<Preferences classes="max-w-450-for-dev-not-prod" />
 		<TitleBooking class="max-w-450-for-dev-not-prod" />
-		<VerifyAccount title="Update address?" buttonText="Save &amp; Continue" class="max-w-450-for-dev-not-prod" />
+		<VerifyAccount
+			title="Update address?"
+			button-text="Save &amp; Continue"
+			class="max-w-450-for-dev-not-prod"
+		/>
 		<RequestOverview class="max-w-450-for-dev-not-prod" />
 		<BookingConfirmation class="max-w-450-for-dev-not-prod" />
 	</div>
@@ -63,7 +72,7 @@ export default {
 		TitleBooking,
 		VerifyAccount,
 		RequestOverview,
-		BookingConfirmation
-	}
+		BookingConfirmation,
+	},
 }
 </script>

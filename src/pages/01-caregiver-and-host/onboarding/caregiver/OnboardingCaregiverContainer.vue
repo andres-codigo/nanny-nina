@@ -18,7 +18,7 @@ export default {
 		OnboardingSlide01,
 		OnboardingSlide02,
 		OnboardingSlide03,
-		OnboardingSlide04
-	}
+		OnboardingSlide04,
+	},
 }
 </script>

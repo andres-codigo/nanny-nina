@@ -3,7 +3,9 @@
 		<InboxListNotifications class="max-w-450-for-dev-not-prod" />
 		<InboxChatListNoAssistanceMessage class="max-w-450-for-dev-not-prod" />
 		<HelpSearchListOptions class="max-w-450-for-dev-not-prod" />
-		<InboxChatListWithAssistanceMessage class="max-w-450-for-dev-not-prod" />
+		<InboxChatListWithAssistanceMessage
+			class="max-w-450-for-dev-not-prod"
+		/>
 	</div>
 </template>
 
@@ -18,7 +20,7 @@ export default {
 		InboxListNotifications,
 		InboxChatListNoAssistanceMessage,
 		HelpSearchListOptions,
-		InboxChatListWithAssistanceMessage
-	}
+		InboxChatListWithAssistanceMessage,
+	},
 }
 </script>

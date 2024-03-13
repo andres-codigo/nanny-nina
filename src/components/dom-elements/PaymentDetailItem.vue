@@ -1,7 +1,20 @@
 <template>
-	<div :class="class" class="flex items-center">
-		<div :class="['flex-grow', itemContainsPrice ? 'font-semibold' : 'text-sm']">{{ itemDetails }}</div>
-		<div :class="['flex-shrink-0 text-gray-900', itemContainsPrice ? 'font-medium' : 'text-sm']" v-if="showPrice">
+	<div :class="classes" class="flex items-center">
+		<div
+			:class="[
+				'flex-grow',
+				itemContainsPrice ? 'font-semibold' : 'text-sm',
+			]"
+		>
+			{{ itemDetails }}
+		</div>
+		<div
+			v-if="showPrice"
+			:class="[
+				'flex-shrink-0 text-gray-900',
+				itemContainsPrice ? 'font-medium' : 'text-sm',
+			]"
+		>
 			<slot name="termDescription">&euro;25</slot>
 		</div>
 	</div>
@@ -10,22 +23,22 @@
 <script>
 export default {
 	props: {
-		class: {
+		classes: {
 			type: String,
-			default: ''
+			default: '',
 		},
 		itemDetails: {
 			type: String,
-			default: 'Total Rewards Earned'
+			default: 'Total Rewards Earned',
 		},
 		itemContainsPrice: {
 			type: Boolean,
-			default: false
+			default: false,
 		},
 		showPrice: {
 			type: Boolean,
-			default: true
-		}
-	}
+			default: true,
+		},
+	},
 }
 </script>

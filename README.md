@@ -16,4 +16,4 @@ npm run dev
 
 ```sh
  npx tailwindcss -i ./src/styles/input.css -o ./output.css --watch
- ```
+```

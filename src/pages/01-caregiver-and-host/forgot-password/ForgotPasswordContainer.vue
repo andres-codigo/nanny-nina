@@ -1,6 +1,8 @@
 <template>
 	<div class="flex flex-wrap grow gap-y-6 sm:gap-x-4 w-full h-full">
-		<FPVerificationMessage01 class="min-w-360-for-dev-not-prod max-w-450-for-dev-not-prod" />
+		<FPVerificationMessage01
+			class="min-w-360-for-dev-not-prod max-w-450-for-dev-not-prod"
+		/>
 		<FPRequestLink02 class="max-w-450-for-dev-not-prod" />
 		<FPError03 class="max-w-450-for-dev-not-prod" />
 		<FPExpiredLink04 class="max-w-450-for-dev-not-prod" />
@@ -24,7 +26,7 @@ export default {
 		FPError03,
 		FPExpiredLink04,
 		FPNewPassword05,
-		FPPasswordUpdated06
-	}
+		FPPasswordUpdated06,
+	},
 }
 </script>

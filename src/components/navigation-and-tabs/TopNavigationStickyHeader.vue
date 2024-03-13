@@ -2,14 +2,36 @@
 	<header>
 		<!-- START: Sticky Header DOM/Classes section -->
 		<section class="section-sticky-top-navigation">
-			<div :class="['flex', isPopUpContent ? 'rounded-t-30px' : '', backgroundColor, displayBorderBottom ? 'border-b border-gray-100' : '']">
-				<div class="inline-flex justify-center items-center -ml-1.5 w-14 h-14">
+			<div
+				:class="[
+					'flex',
+					isPopUpContent ? 'rounded-t-30px' : '',
+					backgroundColor,
+					displayBorderBottom ? 'border-b border-gray-100' : '',
+				]"
+			>
+				<div
+					class="inline-flex justify-center items-center -ml-1.5 w-14 h-14"
+				>
 					<slot name="iconLeft"></slot>
 				</div>
-				<div :class="['grow h-14 inline-flex justify-center items-center text-xl font-bold antialiased', headerColor, hideHeader ? 'hidden sm:hidden' : '']">
+				<div
+					:class="[
+						'grow h-14 inline-flex justify-center items-center text-xl font-bold antialiased',
+						headerColor,
+						hideHeader ? 'hidden sm:hidden' : '',
+					]"
+				>
 					<slot name="profileImage"></slot>{{ text }}
 				</div>
-				<div :class="['inline-flex items-center', rightIconIsButton ? 'justify-end w-20 h-14 mr-4' : 'justify-center w-14 h-14']">
+				<div
+					:class="[
+						'inline-flex items-center',
+						rightIconIsButton
+							? 'justify-end w-20 h-14 mr-4'
+							: 'justify-center w-14 h-14',
+					]"
+				>
 					<slot name="iconRight"></slot>
 				</div>
 			</div>
@@ -23,29 +45,32 @@ export default {
 	props: {
 		isPopUpContent: {
 			type: Boolean,
-			default: false
+			default: false,
 		},
 		backgroundColor: {
 			type: String,
-			default: 'bg-purple-500'
+			default: 'bg-purple-500',
 		},
 		displayBorderBottom: {
 			type: Boolean,
-			default: false
+			default: false,
 		},
 		headerColor: {
 			type: String,
-			default: 'text-white'
+			default: 'text-white',
 		},
-		text: String,
+		text: {
+			type: String,
+			default: '',
+		},
 		hideHeader: {
 			type: Boolean,
-			default: false
+			default: false,
 		},
 		rightIconIsButton: {
 			type: Boolean,
-			default: false
-		}
-	}
+			default: false,
+		},
+	},
 }
 </script>

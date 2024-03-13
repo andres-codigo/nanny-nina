@@ -1,5 +1,7 @@
 <template>
-	<div class="flex flex-row mb-2 border border-gray-100 rounded-20px hover:rounded-20px hover:shadow-lg hover:shadow-gray-50 px-4">
+	<div
+		class="flex flex-row mb-2 border border-gray-100 rounded-20px hover:rounded-20px hover:shadow-lg hover:shadow-gray-50 px-4"
+	>
 		<div class="basis-11/12">
 			<div class="flex items-center py-6">
 				<div class="basis-11/12">
@@ -11,35 +13,35 @@
 			</div>
 		</div>
 		<div class="basis-1/12 inline-flex items-center">
-			<div class="w-full pr-4"><Img :src="img" /></div>
+			<div class="w-full pr-4"><ImageComponent :src="img" /></div>
 		</div>
 	</div>
 </template>
 
 <script>
-import Img from '../dom-elements/Img.vue'
+import ImageComponent from '../dom-elements/ImageComponent.vue'
 
 export default {
 	components: {
-		Img,
+		ImageComponent,
 	},
 	props: {
 		isHost: {
 			type: Boolean,
-			default: true
+			default: true,
 		},
 		img: {
 			type: String,
-			default: './assets/svg/other/chevron-down-gray.svg'
+			default: './assets/svg/other/chevron-down-gray.svg',
 		},
 		date: {
 			type: String,
-			default: 'Wed, 31st November, 2021'
+			default: 'Wed, 31st November, 2021',
 		},
 		price: {
 			type: String,
-			default: '85'
-		}
-	}
+			default: '85',
+		},
+	},
 }
 </script>

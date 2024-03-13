@@ -1,11 +1,11 @@
 <template>
 	<div class="w-full">
 		<HomeTemplate />
-		<ProfileMenu :isHostMenu="true" />
+		<ProfileMenu :is-host-menu="true" />
 		<footer>
 			<HostBottomMenu
-				:isHomeSelected="false"
-				:isMoreSelected="true"
+				:is-home-selected="false"
+				:is-more-selected="true"
 			/>
 		</footer>
 	</div>
@@ -20,7 +20,7 @@ export default {
 	components: {
 		HomeTemplate,
 		ProfileMenu,
-		HostBottomMenu
-	}
+		HostBottomMenu,
+	},
 }
 </script>

@@ -33,7 +33,7 @@ export default {
 		Promotions,
 		PromotionsWithPopUp,
 		PaymentHistory,
-		PaymentDetails
-	}
+		PaymentDetails,
+	},
 }
 </script>

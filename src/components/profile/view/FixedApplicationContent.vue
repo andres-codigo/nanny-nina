@@ -1,6 +1,8 @@
 <template>
-	<FixedBottomContentAndButton anchorText="Apply">
-		<template #topText><span class="text-2xl font-bold">&euro;13-15</span>/hr</template>
+	<FixedBottomContentAndButton anchor-text="Apply">
+		<template #topText
+			><span class="text-2xl font-bold">&euro;13-15</span>/hr</template
+		>
 		<template #bottomText>2km away</template>
 	</FixedBottomContentAndButton>
 </template>
@@ -10,7 +12,7 @@ import FixedBottomContentAndButton from '../../content/fixed/FixedBottomContentA
 
 export default {
 	components: {
-		FixedBottomContentAndButton
-	}
+		FixedBottomContentAndButton,
+	},
 }
 </script>

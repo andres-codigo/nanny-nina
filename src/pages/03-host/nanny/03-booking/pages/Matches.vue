@@ -1,44 +1,56 @@
 <template>
 	<div class="w-full h-full">
 		<TopNavigation text="Booking">
-			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
+			<template #iconRight
+				><QuestionMarkCircleIcon
+					class="w-6 h-6 text-green-500"
+					aria-hidden="true"
+			/></template>
 		</TopNavigation>
 		<main>
 			<Tabs
-				tabOneClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
-				tabOneText="Invites"
-				:tabOneIsActive="false"
-				tabTwoClasses="text-purple-900"
-				tabTwoText="Matches"
-				:tabTwoIsActive="true"
-				:displayThirdTab="true"
-				tabThreeClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
-				tabThreeText="Applications"
-				:tabThreeIsActive="false"
+				tab-one-classes="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
+				tab-one-text="Invites"
+				:tab-one-is-active="false"
+				tab-two-classes="text-purple-900"
+				tab-two-text="Matches"
+				:tab-two-is-active="true"
+				:display-third-tab="true"
+				tab-three-classes="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
+				tab-three-text="Applications"
+				:tab-three-is-active="false"
 			/>
-			<BookingNotification src="./assets/svg/notifications/alarm-selected.svg" message="Booking with The Sanders was updated!" :displayButton="true" />
+			<BookingNotification
+				src="./assets/svg/notifications/alarm-selected.svg"
+				message="Booking with The Sanders was updated!"
+				:display-button="true"
+			/>
 			<div class="flex flex-col mx-4">
 				<div class="flex flex-col pt-6">
-					<h4 class="text-header-four font-semibold antialiased mb-2">Your Matches</h4>
-					<p class="font-light antialiased">View booking information and weekly hours</p>
+					<h4 class="text-header-four font-semibold antialiased mb-2">
+						Your Matches
+					</h4>
+					<p class="font-light antialiased">
+						View booking information and weekly hours
+					</p>
 				</div>
 
 				<div class="flex flex-col pt-6">
 					<BookingCard
-						priceBackgroundAndTextColor="bg-white"
-						:isLockedMatch="false"
+						price-background-and-text-color="bg-white"
+						:is-locked-match="false"
 						title="The Sanders"
-						timeOrDate="Matched 22/03/2022"
-						bookingDuration="One-time"
-						badgeSvg="./assets/svg/badges/megaphone.svg"
+						time-or-date="Matched 22/03/2022"
+						booking-duration="One-time"
+						badge-svg="./assets/svg/badges/megaphone.svg"
 					/>
 
 					<BookingCard
-						priceBackgroundAndTextColor="bg-white"
-						:isLockedMatch="false"
+						price-background-and-text-color="bg-white"
+						:is-locked-match="false"
 						title="The Jeffersons"
-						timeOrDate="Matched 22/03/2022"
-						bookingDuration="One-time"
+						time-or-date="Matched 22/03/2022"
+						booking-duration="One-time"
 					/>
 				</div>
 			</div>
@@ -60,7 +72,7 @@ export default {
 		Tabs,
 		BookingNotification,
 		BookingCard,
-		QuestionMarkCircleIcon
-	}
+		QuestionMarkCircleIcon,
+	},
 }
 </script>

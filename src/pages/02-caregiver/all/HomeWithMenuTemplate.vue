@@ -7,7 +7,7 @@ import HomeWithMenuTemplate from '../../00-duplicate-pages/home/HomeWithMenuTemp
 
 export default {
 	components: {
-		HomeWithMenuTemplate
-	}
+		HomeWithMenuTemplate,
+	},
 }
 </script>

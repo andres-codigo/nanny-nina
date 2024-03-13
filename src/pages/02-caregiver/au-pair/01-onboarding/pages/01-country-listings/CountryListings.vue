@@ -1,26 +1,41 @@
 <template>
 	<div class="w-full h-full">
 		<TopNavigation text="Host Families">
-			<template #iconLeft><router-link to="/dashboard?tab=2"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
+			<template #iconLeft
+				><router-link to="/dashboard?tab=2"
+					><ChevronLeftIcon
+						class="w-8 h-8 text-white"
+						aria-hidden="true" /></router-link
+			></template>
 		</TopNavigation>
 		<main>
 			<JobListingFilter>
-				<template #filter-one><JobListingFilterItemSelected text="Language" /></template>
-				<template #filter-two><JobListingFilterItem text="Start Date" /></template>
-				<template #filter-three><JobListingFilterItem text="Region" /></template>
-				<template #filter-four><JobListingFilterItem text="Duration" /></template>
+				<template #filter-one
+					><JobListingFilterItemSelected text="Language"
+				/></template>
+				<template #filter-two
+					><JobListingFilterItem text="Start Date"
+				/></template>
+				<template #filter-three
+					><JobListingFilterItem text="Region"
+				/></template>
+				<template #filter-four
+					><JobListingFilterItem text="Duration"
+				/></template>
 			</JobListingFilter>
 
 			<div class="h-full pt-6 mx-4">
 				<div class="mb-6">
-					<h5 class="text-header-five font-semibold antialiased mb-2">Find your host</h5>
+					<h5 class="text-header-five font-semibold antialiased mb-2">
+						Find your host
+					</h5>
 				</div>
 
 				<AuPairCard />
 
 				<AuPairCard />
 
-				<AuPairCard  />
+				<AuPairCard />
 			</div>
 		</main>
 	</div>
@@ -44,7 +59,7 @@ export default {
 		JobListingFilterItem,
 		JobListingFilterItemSelected,
 		AuPairCard,
-		ChevronLeftIcon
-	}
+		ChevronLeftIcon,
+	},
 }
 </script>

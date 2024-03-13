@@ -1,52 +1,68 @@
 <template>
 	<div class="w-full h-full">
 		<TopNavigation text="Booking">
-			<template #iconLeft><router-link to="'/dashboard?tab=2"><ChevronLeftIcon class="w-8 h-8 text-white" aria-hidden="true" /></router-link></template>
-			<template #iconRight><QuestionMarkCircleIcon class="w-6 h-6 text-green-500" aria-hidden="true" /></template>
+			<template #iconLeft
+				><router-link to="'/dashboard?tab=2"
+					><ChevronLeftIcon
+						class="w-8 h-8 text-white"
+						aria-hidden="true" /></router-link
+			></template>
+			<template #iconRight
+				><QuestionMarkCircleIcon
+					class="w-6 h-6 text-green-500"
+					aria-hidden="true"
+			/></template>
 		</TopNavigation>
 		<main>
 			<Tabs
-				tabOneClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
-				tabOneText="Invites"
-				:tabOneIsActive="false"
-				tabTwoClasses="text-purple-900"
-				tabTwoText="Matches"
-				:tabTwoIsActive="true"
-				:displayThirdTab="true"
-				tabThreeClasses="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
-				tabThreeText="Applications"
-				:tabThreeIsActive="false"
+				tab-one-classes="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
+				tab-one-text="Invites"
+				:tab-one-is-active="false"
+				tab-two-classes="text-purple-900"
+				tab-two-text="Matches"
+				:tab-two-is-active="true"
+				:display-third-tab="true"
+				tab-three-classes="border-transparent text-gray-500 border-b-2 hover:text-gray-700 hover:border-gray-300"
+				tab-three-text="Applications"
+				:tab-three-is-active="false"
 			/>
 
-			<BookingNotification src="./assets/svg/notifications/alarm-selected.svg" message="Sanders booking has changed!" :displayButton="true" />
+			<BookingNotification
+				src="./assets/svg/notifications/alarm-selected.svg"
+				message="Sanders booking has changed!"
+				:display-button="true"
+			/>
 			<div class="flex flex-col mx-4">
 				<div class="flex flex-col pt-6">
-					<h4 class="text-header-four font-semibold antialiased mb-2">Your Matches</h4>
-					<p class="font-light antialiased">View booking information and weekly hours</p>
+					<h4 class="text-header-four font-semibold antialiased mb-2">
+						Your Matches
+					</h4>
+					<p class="font-light antialiased">
+						View booking information and weekly hours
+					</p>
 				</div>
 
 				<div class="flex flex-col pt-6">
-
 					<BookingCard
-						:isLockedMatch="false"
-						priceBackgroundAndTextColor="bg-white text-purple-900"
+						:is-locked-match="false"
+						price-background-and-text-color="bg-white text-purple-900"
 						title="The Sanders"
-						timeOrDate="Matched 22/03/2022"
-						badgeSvg="./assets/svg/badges/megaphone.svg"
-						bookingDuration="One-time"
-						startingTime="Next: 6pm Thurs, 27/05"
+						time-or-date="Matched 22/03/2022"
+						badge-svg="./assets/svg/badges/megaphone.svg"
+						booking-duration="One-time"
+						starting-time="Next: 6pm Thurs, 27/05"
 					/>
 
 					<BookingCard
-						:isLockedMatch="false"
-						priceBackgroundAndTextColor="bg-white text-purple-900"
+						:is-locked-match="false"
+						price-background-and-text-color="bg-white text-purple-900"
 						title="The Jeffersons"
-						timeOrDate="Started 22/03/2022"
-						badgeSvg="./assets/svg/badges/lock.svg"
-						badgeClass="bg-green-400 text-purple-900"
-						badgeText="Recurring"
-						bookingDuration="One-time"
-						startingTime="Next: Wed, 23/05"
+						time-or-date="Started 22/03/2022"
+						badge-svg="./assets/svg/badges/lock.svg"
+						badge-class="bg-green-400 text-purple-900"
+						badge-text="Recurring"
+						booking-duration="One-time"
+						starting-time="Next: Wed, 23/05"
 					/>
 				</div>
 			</div>
@@ -69,7 +85,7 @@ export default {
 		BookingNotification,
 		BookingCard,
 		ChevronLeftIcon,
-		QuestionMarkCircleIcon
-	}
+		QuestionMarkCircleIcon,
+	},
 }
 </script>

@@ -1,11 +1,18 @@
 <template>
 	<div class="w-full h-screen">
-		<TopNavigation backgroundColor="bg-white" :displayBorderBottom="false">
-			<template #iconLeft><Header class="mx-5 mt-8" /></template>
+		<TopNavigation
+			background-color="bg-white"
+			:display-border-bottom="false"
+		>
+			<template #iconLeft><HeaderLogo class="mx-5 mt-8" /></template>
 		</TopNavigation>
 		<main>
 			<div class="min-h-screen flex flex-col justify-center mx-4">
-				<h4 class="text-header-four font-semibold antialiased ml-3 my-6">Login</h4>
+				<h4
+					class="text-header-four font-semibold antialiased ml-3 my-6"
+				>
+					Login
+				</h4>
 				<form class="w-full" action="#" method="POST">
 					<div class="m-0">
 						<InputField text="Email Address" />
@@ -13,14 +20,32 @@
 
 					<div class="mt-6">
 						<InputField text="Password" />
-						<a href="#" target="_self" class="block text-xs font-light anchor-blue mt-3 anchor-with-underline">Forgot your password?</a>
+						<a
+							href="#"
+							target="_self"
+							class="block text-xs font-light anchor-blue mt-3 anchor-with-underline"
+							>Forgot your password?</a
+						>
 					</div>
 
-					<div class="flex flex-col justify-center items-center mt-14">
+					<div
+						class="flex flex-col justify-center items-center mt-14"
+					>
 						<div class="mt-6 mb-4">
-							<ButtonPrimary text="Login" class="w-button-xl text-xl py-4" />
+							<ButtonPrimary
+								text="Login"
+								classes="w-button-xl text-xl py-4"
+							/>
 						</div>
-						<p class="text-sm font-light">Don't have an account? <a href="#" target="_self" class="font-light anchor-blue anchor-with-underline">Sign Up</a></p>
+						<p class="text-sm font-light">
+							Don't have an account?
+							<a
+								href="#"
+								target="_self"
+								class="font-light anchor-blue anchor-with-underline"
+								>Sign Up</a
+							>
+						</p>
 					</div>
 				</form>
 
@@ -30,14 +55,22 @@
 							<div class="w-full border-t border-gray-300" />
 						</div>
 						<div class="relative flex justify-center text-xs">
-							<span class="px-2 bg-white text-gray-500"> OR </span>
+							<span class="px-2 bg-white text-gray-500">
+								OR
+							</span>
 						</div>
 					</div>
 
 					<div class="flex flex-col justify-center items-center mt-6">
-						<ButtonOutlineDark class="inline-flex w-full text-sm leading-5 py-4">
+						<ButtonOutlineDark
+							classes="inline-flex w-full text-sm leading-5 py-4"
+						>
 							<template #iconWithText>
-								<Img class="w-5 h-5" src="./assets/svg/buttons/google.svg" alt="" />
+								<ImageComponent
+									class="w-5 h-5"
+									src="./assets/svg/buttons/google.svg"
+									alt=""
+								/>
 								<span class="pl-2">Sign in with Google</span>
 							</template>
 						</ButtonOutlineDark>
@@ -50,20 +83,20 @@
 
 <script>
 import TopNavigation from '../../../../components/navigation-and-tabs/TopNavigation.vue'
-import Header from '../../../../components/content/logos/Header.vue'
+import HeaderLogo from '../../../../components/content/logos/HeaderLogo.vue'
 import InputField from '../../../../components/form/InputField.vue'
 import ButtonPrimary from '../../../../components/buttons/ButtonPrimary.vue'
 import ButtonOutlineDark from '../../../../components/buttons/ButtonOutlineDark.vue'
-import Img from '../../../../components/dom-elements/Img.vue'
+import ImageComponent from '../../../../components/dom-elements/ImageComponent.vue'
 
 export default {
 	components: {
 		TopNavigation,
-		Header,
+		HeaderLogo,
 		InputField,
 		ButtonPrimary,
 		ButtonOutlineDark,
-		Img
-	}
+		ImageComponent,
+	},
 }
 </script>

@@ -24,7 +24,7 @@ export default {
 		ReviewProfileBadges,
 		Matches,
 		SelectProfileBadges,
-		Review
-	}
+		Review,
+	},
 }
 </script>
