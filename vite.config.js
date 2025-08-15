@@ -5,15 +5,10 @@ import eslintPlugin from 'vite-plugin-eslint'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	server: {
-		port: 5001,
-		open: true,
-	},
+	server: { port: 5001, open: true },
 	plugins: [vue(), eslintPlugin()],
 	resolve: {
-		alias: {
-			'@': fileURLToPath(new URL('./src', import.meta.url)),
-		},
+		alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) },
 		extensions: ['.js', '.vue'],
 	},
 	build: {
