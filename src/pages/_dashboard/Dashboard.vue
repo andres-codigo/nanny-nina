@@ -19,7 +19,7 @@
 			>
 				<div class="text-sm font-bold sm:flex-grow">
 					<router-link
-						to="https://nanny-nina.vercel.app/dashboard?tab=1"
+						to="/dashboard?tab=1"
 						:class="[
 							activeTab === 1
 								? 'active underline'
@@ -30,7 +30,7 @@
 						>Caregiver & Host</router-link
 					>
 					<router-link
-						to="https://nanny-nina.vercel.app/dashboard?tab=2"
+						to="/dashboard?tab=2"
 						:class="[
 							activeTab === 2
 								? 'active underline'
@@ -41,7 +41,7 @@
 						>Caregiver</router-link
 					>
 					<router-link
-						to="https://nanny-nina.vercel.app/dashboard?tab=3"
+						to="/dashboard?tab=3"
 						:class="[
 							activeTab === 3
 								? 'active underline'
@@ -52,7 +52,7 @@
 						>Host</router-link
 					>
 					<router-link
-						to="https://nanny-nina.vercel.app/dashboard?tab=4"
+						to="/dashboard?tab=4"
 						:class="[
 							activeTab === 4
 								? 'active underline'
@@ -256,10 +256,7 @@ export default {
 		MenuIcon,
 	},
 	data() {
-		return {
-			menuSelected: false,
-			activeTab: 1,
-		}
+		return { menuSelected: false, activeTab: 1 }
 	},
 	mounted() {
 		if (this.$route.query.tab === '1') {
