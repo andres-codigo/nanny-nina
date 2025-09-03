@@ -3,11 +3,12 @@
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
-		"dev": "vite",
+		"dev": "VITE_OPEN=true vite",
+		"lint": "eslint src --config eslint.config.js --report-unused-disable-directives --max-warnings 0",
+		"lint:fix": "eslint src --fix --config eslint.config.js --report-unused-disable-directives --max-warnings 0 && prettier --write '**/*.{vue,js,jsx,ts,tsx,config.js,config.js,css,scss,json,md}'",
+		"format": "prettier --write '**/*.{vue,js,jsx,ts,tsx,config.js,config.js,css,scss,json,md}'",
 		"build": "vite build",
-		"serve": "vite preview --port 5050",
-		"lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
-		"format": "prettier .  --write"
+		"preview": "vite preview"
 	},
 	"dependencies": {
 		"@heroicons/vue": "^1.0.6",
@@ -28,5 +29,18 @@
 		"vite": "^7.1.2",
 		"vite-plugin-eslint": "^1.8.1",
 		"vue-eslint-parser": "^10.2.0"
+	},
+	"engines": {
+		"node": "22.x"
+	},
+	"browserslist": {
+		"production": [
+			"defaults"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
 	}
 }
