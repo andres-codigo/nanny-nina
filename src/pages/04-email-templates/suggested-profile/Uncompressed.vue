@@ -143,16 +143,16 @@
 									<td
 										class="content-cell"
 										style="
-											font-family: Arial, Helvetica,
-												sans-serif;
+											font-family:
+												Arial, Helvetica, sans-serif;
 											box-sizing: border-box;
 											padding: 35px 35px 0 35px;
 										"
 									>
 										<h4
 											style="
-												font-family: Arial, Helvetica,
-													sans-serif;
+												font-family:
+													Arial, Helvetica, sans-serif;
 												box-sizing: border-box;
 												color: #1c1836;
 												font-size: 24px;
@@ -166,8 +166,8 @@
 										</h4>
 										<p
 											style="
-												font-family: Arial, Helvetica,
-													sans-serif;
+												font-family:
+													Arial, Helvetica, sans-serif;
 												box-sizing: border-box;
 												color: #200d5d;
 												font-size: 16px;
@@ -189,8 +189,8 @@
 											cellspacing="0"
 											role="presentation"
 											style="
-												font-family: Arial, Helvetica,
-													sans-serif;
+												font-family:
+													Arial, Helvetica, sans-serif;
 												box-sizing: border-box;
 												margin: 35px 0 0 0;
 												padding: 0;
@@ -204,8 +204,8 @@
 											<tr>
 												<td
 													style="
-														font-family: Arial,
-															Helvetica,
+														font-family:
+															Arial, Helvetica,
 															sans-serif;
 														box-sizing: border-box;
 														height: 229px;
@@ -495,8 +495,8 @@
 											<tr>
 												<td
 													style="
-														font-family: Arial,
-															Helvetica,
+														font-family:
+															Arial, Helvetica,
 															sans-serif;
 														box-sizing: border-box;
 														height: 229px;
@@ -786,8 +786,8 @@
 											<tr>
 												<td
 													style="
-														font-family: Arial,
-															Helvetica,
+														font-family:
+															Arial, Helvetica,
 															sans-serif;
 														box-sizing: border-box;
 														height: 229px;
@@ -1080,8 +1080,8 @@
 									<td
 										class="content-cell"
 										style="
-											font-family: Arial, Helvetica,
-												sans-serif;
+											font-family:
+												Arial, Helvetica, sans-serif;
 											box-sizing: border-box;
 											padding: 55px 0 50px 35px;
 										"
@@ -1100,8 +1100,8 @@
 										</svg>
 										<p
 											style="
-												font-family: Arial, Helvetica,
-													sans-serif;
+												font-family:
+													Arial, Helvetica, sans-serif;
 												box-sizing: border-box;
 												color: #200d5d;
 												font-size: 16px;
@@ -1119,8 +1119,8 @@
 									<td
 										class="content-cell"
 										style="
-											font-family: Arial, Helvetica,
-												sans-serif;
+											font-family:
+												Arial, Helvetica, sans-serif;
 											box-sizing: border-box;
 											padding-left: 35px;
 											padding-bottom: 50px;
@@ -1175,8 +1175,8 @@
 										class="content-cell"
 										align="left"
 										style="
-											font-family: Arial, Helvetica,
-												sans-serif;
+											font-family:
+												Arial, Helvetica, sans-serif;
 											box-sizing: border-box;
 											padding: 30px;
 										"
@@ -1352,8 +1352,8 @@
 										class="content-cell"
 										align="left"
 										style="
-											font-family: Arial, Helvetica,
-												sans-serif;
+											font-family:
+												Arial, Helvetica, sans-serif;
 											box-sizing: border-box;
 											padding: 100px 0 20px 30px;
 										"
