@@ -3,15 +3,16 @@
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
-		"dev": "vite",
+		"dev": "VITE_OPEN=true vite",
+		"lint": "eslint src --config eslint.config.js --report-unused-disable-directives --max-warnings 0",
+		"lint:fix": "eslint src --fix --config eslint.config.js --report-unused-disable-directives --max-warnings 0 && prettier --write '**/*.{vue,js,jsx,ts,tsx,config.js,config.js,css,scss,json,md}'",
+		"format": "prettier --write '**/*.{vue,js,jsx,ts,tsx,config.js,config.js,css,scss,json,md}'",
 		"build": "vite build",
-		"serve": "vite preview --port 5050",
-		"lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
-		"format": "prettier .  --write"
+		"preview": "vite preview"
 	},
 	"dependencies": {
 		"@heroicons/vue": "^1.0.6",
-		"vue": "^3.5.18",
+		"vue": "^3.5.21",
 		"vue-country-flag-next": "^2.3.2",
 		"vue-router": "^4.5.1"
 	},
@@ -19,14 +20,27 @@
 		"@tailwindcss/forms": "^0.5.10",
 		"@vitejs/plugin-vue": "^6.0.1",
 		"autoprefixer": "^10.4.21",
-		"eslint": "^9.33.0",
+		"eslint": "^9.34.0",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-vue": "^10.4.0",
 		"postcss": "^8.4.31",
 		"prettier": "^3.6.2",
 		"tailwindcss": "^3.4.17",
-		"vite": "^7.1.2",
+		"vite": "^7.1.4",
 		"vite-plugin-eslint": "^1.8.1",
 		"vue-eslint-parser": "^10.2.0"
+	},
+	"engines": {
+		"node": "22.x"
+	},
+	"browserslist": {
+		"production": [
+			"defaults"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
 	}
 }
