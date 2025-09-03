@@ -5,8 +5,8 @@
 	"scripts": {
 		"dev": "VITE_OPEN=true vite",
 		"lint": "eslint src --config eslint.config.js --report-unused-disable-directives --max-warnings 0",
-		"lint:fix": "eslint src --fix --config eslint.config.js --report-unused-disable-directives --max-warnings 0 && prettier --write '**/*.{vue,js,jsx,ts,tsx,config.js,config.js,css,scss,json,md}'",
-		"format": "prettier --write '**/*.{vue,js,jsx,ts,tsx,config.js,config.js,css,scss,json,md}'",
+		"lint:fix": "eslint src --fix --config eslint.config.js --report-unused-disable-directives --max-warnings 0 && prettier --write '**/*.{vue,js,config.js,css,scss,json,md}'",
+		"format": "prettier --write '**/*.{vue,js,config.js,css,scss,json,md}'",
 		"build": "vite build",
 		"preview": "vite preview"
 	},
